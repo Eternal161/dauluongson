@@ -16,7 +16,7 @@ from playwright_stealth import Stealth
 TARGET_SITE   = "https://luongsontv60.online/"
 BASE_URL      = "https://luongsontv60.online"
 FILE_PATH     = "luongson.json"
-LIMIT_MATCHES = 10 
+LIMIT_MATCHES = 20 
 
 VN_TZ = datetime.timezone(datetime.timedelta(hours=7))
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
@@ -92,7 +92,7 @@ def parse_teams_from_title(title: str):
     return clean.strip().title(), "Unknown"
 
 # =========================================================
-# JS: EXTRACT MATCH DATA (ĐÃ CHẶN NHẬN ĐỊNH)
+# JS: EXTRACT MATCH DATA (NÂNG CẤP LẤY TỶ SỐ TRỰC TIẾP)
 # =========================================================
 JS_EXTRACT = """
 () => {
@@ -103,7 +103,6 @@ JS_EXTRACT = """
     const anchors = Array.from(document.querySelectorAll('a[href]')).filter(a => {
         const h = a.href || '';
         if (h.includes('#') || h.endsWith('.online') || h.endsWith('.online/')) return false;
-        // BỘ LỌC CHẶN RÁC
         if (h.includes('/lich-thi-dau') || h.includes('/ket-qua') || h.includes('/tin-tuc') || h.includes('nhan-dinh') || h.includes('highlight')) return false;
         return h.includes('/truc-tiep/') || h.includes('/match/') || h.includes('-vs-');
     });
@@ -135,8 +134,19 @@ JS_EXTRACT = """
         }
 
         let timeStr = '';
-        const timeEl = a.querySelector('[class*="time" i], [class*="date" i]');
-        if (timeEl) timeStr = clean(timeEl.innerText);
+        
+        // BÍ QUYẾT: Ưu tiên bới khung tỷ số và số phút đang đá của Lương Sơn
+        const scoreSection = a.querySelector('.score-section');
+        if (scoreSection) {
+            // Lấy nội dung text, chia làm nhiều dòng và ghép lại bằng dấu chấm (VD: "32' • 1:0")
+            timeStr = (scoreSection.innerText || '').split('\\n').map(s => s.trim()).filter(s => s).join(' • ');
+        }
+        
+        // Nếu khung tỷ số trống (trận chưa đá), quay về bới giờ truyền thống
+        if (!timeStr || timeStr.toLowerCase() === 'vs') {
+            const timeEl = a.querySelector('[class*="time" i], [class*="date" i]');
+            if (timeEl) timeStr = clean(timeEl.innerText);
+        }
 
         results.push({ href, home, away, timeStr, isLive, league, homeLogo, awayLogo });
     }
@@ -231,7 +241,8 @@ def push_to_github(content: str):
 # MAIN SCRAPER
 # =========================================================
 def scrape_and_push():
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {datetime.datetime.now(VN_TZ).strftime('%H:%M:%S %d/%m/%Y')}")
+    now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
@@ -268,7 +279,6 @@ def scrape_and_push():
             h_lower = m["home"].lower()
             a_lower = m["away"].lower()
             
-            # ĐÃ NÂNG CẤP: CHẶN TỪ KHÓA NHẬN ĐỊNH BẰNG PYTHON
             if any(x in h_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nhận định"]) or \
                any(x in a_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nhận định"]):
                 continue
@@ -283,7 +293,7 @@ def scrape_and_push():
 
         for idx, m in enumerate(raw_matches, 1):
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
-            print(f"   [{idx}/{len(raw_matches)}] {m['home']} vs {m['away']}")
+            print(f"   [{idx}/{len(raw_matches)}] {m['home']} vs {m['away']} ({m['timeStr']})")
             
             streams = capture_stream(context, m["href"])
             m["streams"] = streams
@@ -297,7 +307,15 @@ def scrape_and_push():
             m["awayLogo"] = get_final_logo(m["away"], m.get("awayLogo"))
 
     channels = [build_channel(m, m["streams"]) for m in raw_matches]
-    content = json.dumps({"id": "luongson", "name": "Lương Sơn TV", "groups": [{"id": "live", "name": "🔴 Live bóng đá", "channels": channels}]}, indent=2, ensure_ascii=False)
+    
+    # Ép thời gian cập nhật vào file để GitHub luôn ghi đè bản mới
+    content = json.dumps({
+        "id": "luongson", 
+        "name": "Lương Sơn TV", 
+        "last_updated": now_str, 
+        "groups": [{"id": "live", "name": "🔴 Live bóng đá", "channels": channels}]
+    }, indent=2, ensure_ascii=False)
+    
     push_to_github(content)
     print(f"\n✅ HOÀN TẤT: Cập nhật {len(channels)} trận!")
 
