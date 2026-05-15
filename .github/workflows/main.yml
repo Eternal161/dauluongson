@@ -39,4 +39,4 @@ jobs:
           # Lấy mã Token bảo mật từ mục Settings > Secrets của bạn
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GH_REPO: "Eternal161/dauluongson"
-        run: python mainls.py # Nhớ kiểm tra xem file của bạn tên là mainls.py hay main.py nhé!
+        run: python main.py # Nhớ kiểm tra xem file của bạn tên là mainls.py hay main.py nhé!
