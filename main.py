@@ -107,9 +107,13 @@ JS_EXTRACT = """
 
     const anchors = Array.from(document.querySelectorAll('a[href]')).filter(a => {
         const h = a.href || '';
-        // Bắt các link thuộc luongsontv hoặc các link có chữ truc-tiep, match
-        return (h.includes('luongson') || h.includes('/truc-tiep/') || h.includes('/match/')) &&
-               !h.includes('/lich-thi-dau') && !h.includes('/ket-qua') && h.length > 20;
+        
+        // 1. Loại bỏ dứt điểm các link rác, link menu, link trang chủ
+        if (h.includes('#') || h.endsWith('.online') || h.endsWith('.online/')) return false;
+        if (h.includes('/lich-thi-dau') || h.includes('/ket-qua') || h.includes('/tin-tuc')) return false;
+        
+        // 2. Chỉ chấp nhận các link có dấu hiệu của một trận đấu (có chữ truc-tiep, match, hoặc chứa "-vs-")
+        return h.includes('/truc-tiep/') || h.includes('/match/') || h.includes('-vs-');
     });
 
     for (const a of anchors) {
