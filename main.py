@@ -19,7 +19,6 @@ FILE_PATH     = "luongson.json"
 LIMIT_MATCHES = 10 
 
 VN_TZ = datetime.timezone(datetime.timedelta(hours=7))
-
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
 REPO_NAME    = os.getenv("GH_REPO", "Eternal161/dauluongson")
 
@@ -27,15 +26,13 @@ _HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
 }
-
 LOGO_CACHE = {}
 
 # =========================================================
 # HELPER
 # =========================================================
 def make_id(seed: str = "") -> str:
-    raw = seed or str(uuid.uuid4())
-    h = hashlib.md5(raw.encode()).hexdigest()
+    h = hashlib.md5((seed or str(uuid.uuid4())).encode()).hexdigest()
     return f"luongson-{h[:12]}"
 
 def make_link_id() -> str:
@@ -64,20 +61,15 @@ def get_final_logo(team_name: str, site_logo: str) -> str:
     return f"https://ui-avatars.com/api/?name={initials}&size=200&background=1565C0&color=ffffff&bold=true"
 
 # =========================================================
-# PARSE THỜI GIAN TỪ URL (CHỐNG SẬP 100%)
+# PARSE THỜI GIAN
 # =========================================================
 def parse_time_from_url(url: str) -> str:
     try:
         slug = url.rstrip('/').split('/')[-1]
         m = re.search(r'(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})', slug)
         if m:
-            y, mth, d, h, mn = m.groups()
-            y, mth, d, h, mn = int(y), int(mth), int(d), int(h), int(mn)
-            
-            # Nếu web để Tháng > 12 (nhầm tháng và ngày), tự đảo lại
-            if mth > 12:
-                mth, d = d, mth
-                
+            y, mth, d, h, mn = int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4)), int(m.group(5))
+            if mth > 12: mth, d = d, mth
             dt_utc = datetime.datetime(y, mth, d, h, mn)
             dt_vn = dt_utc + datetime.timedelta(hours=7)
             return dt_vn.strftime("%H:%M %d/%m/%Y")
@@ -86,9 +78,7 @@ def parse_time_from_url(url: str) -> str:
         if m2:
             hh, mm, dd, mo, yyyy = m2.groups()
             return f"{hh}:{mm} {dd}/{mo}/{yyyy}"
-            
-    except Exception as e:
-        print(f"      ⚠️ Bỏ qua lỗi thời gian URL: {e}")
+    except: pass
     return ""
 
 def parse_teams_from_title(title: str):
@@ -102,7 +92,7 @@ def parse_teams_from_title(title: str):
     return clean.strip().title(), "Unknown"
 
 # =========================================================
-# JS: EXTRACT MATCH DATA
+# JS: EXTRACT MATCH DATA (ĐÃ CHẶN NHẬN ĐỊNH)
 # =========================================================
 JS_EXTRACT = """
 () => {
@@ -113,7 +103,8 @@ JS_EXTRACT = """
     const anchors = Array.from(document.querySelectorAll('a[href]')).filter(a => {
         const h = a.href || '';
         if (h.includes('#') || h.endsWith('.online') || h.endsWith('.online/')) return false;
-        if (h.includes('/lich-thi-dau') || h.includes('/ket-qua') || h.includes('/tin-tuc')) return false;
+        // BỘ LỌC CHẶN RÁC
+        if (h.includes('/lich-thi-dau') || h.includes('/ket-qua') || h.includes('/tin-tuc') || h.includes('nhan-dinh') || h.includes('highlight')) return false;
         return h.includes('/truc-tiep/') || h.includes('/match/') || h.includes('-vs-');
     });
 
@@ -259,7 +250,6 @@ def scrape_and_push():
 
         raw_matches = page.evaluate(JS_EXTRACT)
         
-        # BỘ LỌC CHỐNG TRÙNG LẶP & DỌN RÁC
         valid_matches = []
         seen_keys = set()
 
@@ -278,18 +268,18 @@ def scrape_and_push():
             h_lower = m["home"].lower()
             a_lower = m["away"].lower()
             
-            # Sút các trận tào lao
-            if "unknown" in h_lower or "unknown" in a_lower or "luongson" in h_lower or "#main" in h_lower:
+            # ĐÃ NÂNG CẤP: CHẶN TỪ KHÓA NHẬN ĐỊNH BẰNG PYTHON
+            if any(x in h_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nhận định"]) or \
+               any(x in a_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nhận định"]):
                 continue
                 
-            # Tạo chìa khóa: Nếu trận này đã quét rồi thì bỏ qua luôn
             match_key = f"{h_lower} vs {a_lower}"
             if match_key not in seen_keys:
                 seen_keys.add(match_key)
                 valid_matches.append(m)
 
         raw_matches = valid_matches[:LIMIT_MATCHES]
-        print(f"\n🎥 ĐANG QUÉT TÌM LINK CHO {len(raw_matches)} TRẬN (Đã lọc trùng lặp)...")
+        print(f"\n🎥 ĐANG QUÉT TÌM LINK CHO {len(raw_matches)} TRẬN (Đã lọc trùng lặp và rác)...")
 
         for idx, m in enumerate(raw_matches, 1):
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
