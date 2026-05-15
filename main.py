@@ -380,13 +380,28 @@ def scrape_and_push():
             print(f"   ❌ Lỗi JS: {e}")
 
         # Lọc thủ công tên đội nếu JS bắt hụt
+        # Lọc thủ công tên đội nếu JS bắt hụt & LOẠI BỎ link rác
+        valid_matches = []
         for m in raw_matches:
             h = (m.get("home") or "").strip()
             a = (m.get("away") or "").strip()
+            
+            # Nếu tên bị thiếu, thử cắt từ URL ra
             if not h or not a or h == a or len(h) < 2:
                 slug = m["href"].rstrip("/").split("/")[-1]
                 fh, fa = parse_teams_from_title(slug)
                 m["home"], m["away"] = fh, fa
+
+            # Kiểm tra gắt gao: Chặn các tên tào lao
+            h_lower = m["home"].lower()
+            a_lower = m["away"].lower()
+            
+            if ("unknown" not in h_lower and "unknown" not in a_lower and 
+                "luongson" not in h_lower and "#main" not in h_lower and 
+                "trang chủ" not in h_lower):
+                valid_matches.append(m)
+
+        raw_matches = valid_matches # Gán lại danh sách trận đấu đã lọc sạch
 
         if LIMIT_MATCHES:
             raw_matches = raw_matches[:LIMIT_MATCHES]
