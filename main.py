@@ -9,19 +9,17 @@ import requests
 from github import Github
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 from playwright_stealth import Stealth
- 
+
 # =========================================================
 # CONFIG CHO LƯƠNG SƠN TV
 # =========================================================
 TARGET_SITE   = "https://luongsontv60.online/"
 BASE_URL      = "https://luongsontv60.online"
 FILE_PATH     = "luongson.json"
-LIMIT_MATCHES = 20 
+LIMIT_MATCHES = 10 
 
-# MÚI GIỜ VIỆT NAM (GMT+7)
 VN_TZ = datetime.timezone(datetime.timedelta(hours=7))
 
-# Lấy token từ repo Lương Sơn
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
 REPO_NAME    = os.getenv("GH_REPO", "Eternal161/dauluongson")
 
@@ -43,9 +41,6 @@ def make_id(seed: str = "") -> str:
 def make_link_id() -> str:
     return "lnk-" + hashlib.md5(str(time.time_ns()).encode()).hexdigest()[:10]
 
-# =========================================================
-# LOGO
-# =========================================================
 def get_api_logo(team_name: str) -> str:
     if not team_name or team_name == "Unknown": return ""
     team_name = re.sub(r"\bFc\b$", "FC", team_name).strip()
@@ -69,18 +64,31 @@ def get_final_logo(team_name: str, site_logo: str) -> str:
     return f"https://ui-avatars.com/api/?name={initials}&size=200&background=1565C0&color=ffffff&bold=true"
 
 # =========================================================
-# PARSE THỜI GIAN TỪ URL
+# PARSE THỜI GIAN TỪ URL (CHỐNG SẬP 100%)
 # =========================================================
 def parse_time_from_url(url: str) -> str:
-    slug = url.rstrip('/').split('/')[-1]
-    m = re.search(r'(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})', slug)
-    if m:
-        dt_utc = datetime.datetime(
-            int(m.group(1)), int(m.group(2)), int(m.group(3)),
-            int(m.group(4)), int(m.group(5))
-        )
-        dt_vn = dt_utc + datetime.timedelta(hours=7)
-        return dt_vn.strftime("%H:%M %d/%m/%Y")
+    try:
+        slug = url.rstrip('/').split('/')[-1]
+        m = re.search(r'(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})', slug)
+        if m:
+            y, mth, d, h, mn = m.groups()
+            y, mth, d, h, mn = int(y), int(mth), int(d), int(h), int(mn)
+            
+            # Nếu web để Tháng > 12 (nhầm tháng và ngày), tự đảo lại
+            if mth > 12:
+                mth, d = d, mth
+                
+            dt_utc = datetime.datetime(y, mth, d, h, mn)
+            dt_vn = dt_utc + datetime.timedelta(hours=7)
+            return dt_vn.strftime("%H:%M %d/%m/%Y")
+            
+        m2 = re.search(r'(\d{2})(\d{2})-(\d{2})-(\d{2})-(\d{4})', slug)
+        if m2:
+            hh, mm, dd, mo, yyyy = m2.groups()
+            return f"{hh}:{mm} {dd}/{mo}/{yyyy}"
+            
+    except Exception as e:
+        print(f"      ⚠️ Bỏ qua lỗi thời gian URL: {e}")
     return ""
 
 def parse_teams_from_title(title: str):
@@ -88,31 +96,24 @@ def parse_teams_from_title(title: str):
     clean = re.sub(r'\.\s*[A-Za-z0-9 \-]{3,30}$', '', clean).strip()
     if re.fullmatch(r'[a-z0-9\-]+', clean): clean = clean.replace('-', ' ')
     m = re.split(r'\s+vs\.?\s+', clean, maxsplit=1, flags=re.IGNORECASE)
-    if len(m) == 2 and m[0].strip() and m[1].strip():
-        return m[0].strip().title(), m[1].strip().title()
+    if len(m) == 2 and m[0].strip() and m[1].strip(): return m[0].strip().title(), m[1].strip().title()
     m2 = re.split(r'\s+-\s+', clean, maxsplit=1)
-    if len(m2) == 2 and m2[0].strip() and m2[1].strip():
-        return m2[0].strip().title(), m2[1].strip().title()
+    if len(m2) == 2 and m2[0].strip() and m2[1].strip(): return m2[0].strip().title(), m2[1].strip().title()
     return clean.strip().title(), "Unknown"
 
 # =========================================================
-# JS: EXTRACT MATCH DATA LƯƠNG SƠN
+# JS: EXTRACT MATCH DATA
 # =========================================================
 JS_EXTRACT = """
 () => {
     const results = [];
     const seen = new Set();
     const clean = t => (t || '').replace(/\\s+/g, ' ').trim();
-    const SKIP = /^(vs\\.?|live|blv|bóng đá|sắp diễn ra|đang phát|đặt cược|bảng|giải|\\d+[:\\-\\/]\\d+|\\d+$)/i;
 
     const anchors = Array.from(document.querySelectorAll('a[href]')).filter(a => {
         const h = a.href || '';
-        
-        // 1. Loại bỏ dứt điểm các link rác, link menu, link trang chủ
         if (h.includes('#') || h.endsWith('.online') || h.endsWith('.online/')) return false;
         if (h.includes('/lich-thi-dau') || h.includes('/ket-qua') || h.includes('/tin-tuc')) return false;
-        
-        // 2. Chỉ chấp nhận các link có dấu hiệu của một trận đấu (có chữ truc-tiep, match, hoặc chứa "-vs-")
         return h.includes('/truc-tiep/') || h.includes('/match/') || h.includes('-vs-');
     });
 
@@ -122,58 +123,29 @@ JS_EXTRACT = """
         seen.add(href);
 
         let league = '';
-        const leagueSelectors = ['[class*="league" i]', '[class*="tournament" i]', 'h3', 'h4'];
-        for (const sel of leagueSelectors) {
-            const el = a.querySelector(sel);
-            if (el) {
-                const t = clean(el.innerText);
-                if (t && t.length < 40 && !/\\d+\\s*[-:]\\s*\\d+/.test(t)) { league = t; break; }
-            }
-        }
+        const leagueEl = a.querySelector('[class*="league" i], [class*="tournament" i], h3, h4');
+        if (leagueEl) league = clean(leagueEl.innerText);
 
         const cardText = clean(a.innerText).toLowerCase();
         const isLive = /live|trực tiếp|đang phát/.test(cardText) || !!a.querySelector('[class*="live" i]');
 
         let home = '', away = '';
-        // Thử tìm trong cấu trúc 2 cột hoặc 3 cột
-        const gridBox = a.querySelector('div[class*="grid-cols-[1fr_auto_1fr]"], div[class*="flex"]');
-        if (gridBox && gridBox.children.length >= 3) {
-            home = clean(gridBox.children[0].innerText);
-            away = clean(gridBox.children[gridBox.children.length - 1].innerText);
-        }
-
-        if (!home || !away) {
-            for (const seg of href.split('/').reverse()) {
-                const base = seg.split('.')[0];
-                const vm = base.match(/^(.+?)-vs-(.+)$/i);
-                if (vm) {
-                    const toTitle = s => s.replace(/-/g, ' ').replace(/\\b\\w/g, c => c.toUpperCase());
-                    home = toTitle(vm[1]); away = toTitle(vm[2]);
-                    break;
-                }
-            }
+        const teamNames = Array.from(a.querySelectorAll('.team-name, p[class*="team-name"]'));
+        if (teamNames.length >= 2) {
+            home = clean(teamNames[0].innerText);
+            away = clean(teamNames[teamNames.length - 1].innerText);
         }
 
         let homeLogo = '', awayLogo = '';
-        const validImgs = Array.from(a.querySelectorAll('img')).filter(img => {
-            const c = (img.className || '').toLowerCase();
-            const s = (img.src || '').toLowerCase();
-            return !c.includes('w-6') && !c.includes('rounded-full') &&
-                   !s.includes('gif') && !s.includes('avatar') && !s.includes('user');
-        });
-        
-        if (validImgs.length >= 2) {
-            homeLogo = validImgs[0].src;
-            awayLogo = validImgs[validImgs.length - 1].src;
+        const teamLogos = Array.from(a.querySelectorAll('.team-logo, img[class*="team-logo"]'));
+        if (teamLogos.length >= 2) {
+            homeLogo = teamLogos[0].src;
+            awayLogo = teamLogos[teamLogos.length - 1].src;
         }
 
         let timeStr = '';
         const timeEl = a.querySelector('[class*="time" i], [class*="date" i]');
         if (timeEl) timeStr = clean(timeEl.innerText);
-        if (!timeStr) {
-            const tm = clean(a.innerText).match(/(\\d{1,2}:\\d{2})\\s*(\\d{1,2}\\/\\d{1,2})?/);
-            if (tm) timeStr = tm[0].trim();
-        }
 
         results.push({ href, home, away, timeStr, isLive, league, homeLogo, awayLogo });
     }
@@ -182,263 +154,162 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# CAPTURE STREAM - ƯU TIÊN MÁY CHỦ cdnfaster
+# CAPTURE STREAM
 # =========================================================
 def capture_stream(context, match_url: str) -> list:
     page = context.new_page()
     try: Stealth().apply_stealth_sync(page)
     except: pass
-
     streams = set()
-    BAD = [
-        ".gif", ".png", ".jpg", ".jpeg", ".webp", ".svg",
-        ".mp4", ".mp3", ".vtt", ".srt",
-        "waiting", "loop", "placeholder", "fallback", "saba.m3u8",
-        "/ad/", "/ads/", "/vast/", "quangcao", "banner", "preroll", "postroll",
-    ]
+    BAD = [".gif", ".png", ".jpg", ".mp4", "saba.m3u8", "/ad/", "/ads/", "quangcao", "banner"]
 
     def process_url(url):
         u = url.lower()
-        if ".m3u8" not in u: return
-        if any(b in u for b in BAD): return
-        streams.add(url)
+        if ".m3u8" in u and not any(b in u for b in BAD): streams.add(url)
 
     page.on("request",  lambda req: process_url(req.url))
     page.on("response", lambda res: process_url(res.url))
 
     try:
         page.goto(match_url, wait_until="load", timeout=60000)
-        
-        # Nhấp chuột ảo vào giữa màn hình để kích hoạt video nếu Lương Sơn yêu cầu tương tác
         try:
             vp = page.viewport_size
-            if vp:
-                page.mouse.click(vp["width"] // 2, vp["height"] // 2)
+            if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
         except: pass
-
         page.wait_for_timeout(8000)
         
-        # Đợi để tóm được m3u8 xịn nhất
         deadline = time.time() + 15
         while time.time() < deadline:
-            if any("cdnfaster-a.live" in s.lower() for s in streams):
-                break
+            if any("cdnfaster-a.live" in s.lower() for s in streams): break
             time.sleep(1)
-            
-    except PWTimeout: print("      ⚠️ TIMEOUT")
-    except Exception as e: print(f"      ❌ {e}")
+    except: pass
     finally: page.close()
 
     if not streams: return []
-
     scored = []
     for s in streams:
         score = 0
         lo = s.lower()
-        # ĐÁNH GIÁ ĐIỂM SỐ: CHỈ ĐỊNH CDN CỦA LƯƠNG SƠN
-        if "cdnfaster-a.live" in lo: score += 10000 # Điểm tuyệt đối cho server xịn
+        if "cdnfaster-a.live" in lo: score += 10000 
         if "100ycdn" in lo: score += 5000
-        if "playlist.m3u8" in lo: score += 500
-        if "index.m3u8" in lo: score += 200
         scored.append((score, s))
-
-    # Xếp hạng và trả về danh sách link (link xịn nhất đứng đầu)
     scored.sort(reverse=True, key=lambda x: x[0])
     return [s for sc, s in scored]
 
 # =========================================================
 # BUILD JSON
 # =========================================================
-def build_channel(home: str, away: str, thoi_gian: str, is_live: bool,
-                  stream_urls: list, match_url: str, logo_nha: str, logo_khach: str,
-                  league: str = "") -> dict:
-    cid = make_id(match_url)
-    title_clean  = f"{home} vs {away}"
-    
-    thoi_gian = re.sub(r'(\d{1,2}:\d{2})(\d{1,2}/\d{2})', r'\1 \2', thoi_gian)
+def build_channel(m: dict, stream_urls: list) -> dict:
+    home = m.get("home", "").title()
+    away = m.get("away", "").title()
+    thoi_gian = re.sub(r'(\d{1,2}:\d{2})(\d{1,2}/\d{2})', r'\1 \2', m.get("timeStr", ""))
+    is_live = m.get("isLive", False)
 
-    display_name = f"⚽ {title_clean}"
-    if league: display_name += f" | {league}"
-    if thoi_gian: display_name += f" | {thoi_gian}"
+    cid = make_id(m["href"])
+    title_clean = f"{home} vs {away}"
+    display_name = f"⚽ {title_clean}" + (f" | {m.get('league')}" if m.get('league') else "") + (f" | {thoi_gian}" if thoi_gian else "")
 
-    if is_live and stream_urls:
-        label = {"text": "● Live", "position": "top-left", "color": "#00ffffff", "text_color": "#ff0000"}
-    elif is_live:
-        label = {"text": "🔴 Chờ stream", "position": "top-left", "color": "#00ffffff", "text_color": "#ff6600"}
-    else:
-        label = {"text": "⏳ Chưa live", "position": "top-left", "color": "#00ffffff", "text_color": "#d54f1a"}
-
-    stream_links = []
-    for idx, url in enumerate(stream_urls[:2], 1):
-        stream_links.append({
-            "id": make_link_id(),
-            "name": f"Link {idx}",
-            "type": "hls",
-            "default": idx == 1,
-            "url": url,
-        })
+    label_text = "● Live" if (is_live and stream_urls) else ("🔴 Chờ stream" if is_live else "⏳ Chưa live")
+    label_color = "#ff0000" if (is_live and stream_urls) else ("#ff6600" if is_live else "#d54f1a")
 
     return {
-        "id": cid,
-        "name": display_name,
-        "logo_nha": logo_nha,      
-        "logo_khach": logo_khach,  
-        "type": "single",
-        "display": "thumbnail-only",
-        "enable_detail": False,
-        "image": {"padding": 1, "background_color": "#ececec", "display": "contain", "url": logo_nha, "width": 1600, "height": 1200},
-        "labels": [label],
+        "id": cid, "name": display_name, "logo_nha": m.get("homeLogo"), "logo_khach": m.get("awayLogo"),
+        "type": "single", "display": "thumbnail-only", "enable_detail": False,
+        "image": {"padding": 1, "background_color": "#ececec", "display": "contain", "url": m.get("homeLogo"), "width": 1600, "height": 1200},
+        "labels": [{"text": label_text, "position": "top-left", "color": "#00ffffff", "text_color": label_color}],
         "sources": [{
-            "id": cid,
-            "name": "Lương Sơn",
+            "id": cid, "name": "Lương Sơn",
             "contents": [{
-                "id": cid,
-                "name": title_clean,
-                "streams": [{"id": cid, "name": "F", "stream_links": stream_links}]
+                "id": cid, "name": title_clean,
+                "streams": [{"id": cid, "name": "F", "stream_links": [{"id": make_link_id(), "name": f"Link {idx+1}", "type": "hls", "default": idx==0, "url": u} for idx, u in enumerate(stream_urls[:2])]}]
             }]
         }],
     }
 
-def build_json(channels: list) -> dict:
-    return {
-        "id": "luongson",
-        "url": "https://raw.githubusercontent.com/Eternal161/dauluongson/main/luongson.json",
-        "name": "Lương Sơn TV",
-        "color": "#1cb57a",
-        "grid_number": 3,
-        "image": {"type": "cover", "url": "https://i.imgur.com/your-luongson-logo.png"},
-        "groups": [{
-            "id": "live",
-            "name": "🔴 Live bóng đá",
-            "display": "vertical",
-            "grid_number": 2,
-            "enable_detail": False,
-            "channels": channels,
-        }],
-    }
-
-# =========================================================
-# GITHUB PUSH
-# =========================================================
 def push_to_github(content: str):
-    if not GITHUB_TOKEN:
-        print("⚠️ Không có GH_TOKEN, đang lưu file local...")
-        with open(FILE_PATH, "w", encoding="utf-8") as f:
-            f.write(content)
-        return
-    g    = Github(GITHUB_TOKEN)
-    repo = g.get_repo(REPO_NAME)
-    msg  = "⚽ Update Lương Sơn: " + datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
+    if not GITHUB_TOKEN: return
+    repo = Github(GITHUB_TOKEN).get_repo(REPO_NAME)
+    msg = "⚽ Update Lương Sơn: " + datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
     try:
         existing = repo.get_contents(FILE_PATH)
         repo.update_file(existing.path, msg, content, existing.sha)
-        print("✅ Đã cập nhật lên GitHub")
     except:
         repo.create_file(FILE_PATH, msg, content)
-        print("✅ Đã tạo file mới trên GitHub")
 
 # =========================================================
 # MAIN SCRAPER
 # =========================================================
 def scrape_and_push():
-    now_vn = datetime.datetime.now(VN_TZ)
-    print("=" * 70)
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {now_vn.strftime('%H:%M:%S %d/%m/%Y')}")
-    print("=" * 70)
-
-    raw_matches = []
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {datetime.datetime.now(VN_TZ).strftime('%H:%M:%S %d/%m/%Y')}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
-        context = browser.new_context(
-            viewport={"width": 1920, "height": 1080},
-            user_agent=_HEADERS["User-Agent"],
-            timezone_id="Asia/Ho_Chi_Minh"
-        )
-
+        context = browser.new_context(viewport={"width": 1920, "height": 1080}, user_agent=_HEADERS["User-Agent"], timezone_id="Asia/Ho_Chi_Minh")
         page = context.new_page()
         try: Stealth().apply_stealth_sync(page)
         except: pass
 
-        print(f"\n📺 QUÉT: {TARGET_SITE}")
-        try: 
-            page.goto(TARGET_SITE, wait_until="networkidle", timeout=60000)
-        except: 
-            try: page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=60000)
-            except: pass
-
+        try: page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=60000)
+        except: pass
         page.wait_for_timeout(5000)
 
-        for _ in range(5):
+        for _ in range(3):
             page.mouse.wheel(0, 3000)
-            page.wait_for_timeout(700)
+            page.wait_for_timeout(1000)
 
-        try:
-            raw_matches = page.evaluate(JS_EXTRACT)
-            print(f"   JS extract: {len(raw_matches)} trận")
-        except Exception as e:
-            print(f"   ❌ Lỗi JS: {e}")
-
-        # Lọc thủ công tên đội nếu JS bắt hụt
-        # Lọc thủ công tên đội nếu JS bắt hụt & LOẠI BỎ link rác
+        raw_matches = page.evaluate(JS_EXTRACT)
+        
+        # BỘ LỌC CHỐNG TRÙNG LẶP & DỌN RÁC
         valid_matches = []
+        seen_keys = set()
+
         for m in raw_matches:
             h = (m.get("home") or "").strip()
             a = (m.get("away") or "").strip()
             
-            # Nếu tên bị thiếu, thử cắt từ URL ra
             if not h or not a or h == a or len(h) < 2:
                 slug = m["href"].rstrip("/").split("/")[-1]
                 fh, fa = parse_teams_from_title(slug)
                 m["home"], m["away"] = fh, fa
 
-            # Kiểm tra gắt gao: Chặn các tên tào lao
+            m["home"] = re.sub(r' vao luc.*$', '', m["home"], flags=re.IGNORECASE).strip()
+            m["away"] = re.sub(r' vao luc.*$', '', m["away"], flags=re.IGNORECASE).strip()
+
             h_lower = m["home"].lower()
             a_lower = m["away"].lower()
             
-            if ("unknown" not in h_lower and "unknown" not in a_lower and 
-                "luongson" not in h_lower and "#main" not in h_lower and 
-                "trang chủ" not in h_lower):
+            # Sút các trận tào lao
+            if "unknown" in h_lower or "unknown" in a_lower or "luongson" in h_lower or "#main" in h_lower:
+                continue
+                
+            # Tạo chìa khóa: Nếu trận này đã quét rồi thì bỏ qua luôn
+            match_key = f"{h_lower} vs {a_lower}"
+            if match_key not in seen_keys:
+                seen_keys.add(match_key)
                 valid_matches.append(m)
 
-        raw_matches = valid_matches # Gán lại danh sách trận đấu đã lọc sạch
+        raw_matches = valid_matches[:LIMIT_MATCHES]
+        print(f"\n🎥 ĐANG QUÉT TÌM LINK CHO {len(raw_matches)} TRẬN (Đã lọc trùng lặp)...")
 
-        if LIMIT_MATCHES:
-            raw_matches = raw_matches[:LIMIT_MATCHES]
-
-        # QUÉT LUỒNG TẤT CẢ CÁC TRẬN
-        print(f"\n🎥 ĐANG QUÉT TÌM LINK CHO TẤT CẢ {len(raw_matches)} TRẬN...")
         for idx, m in enumerate(raw_matches, 1):
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
-            print(f"\n   [{idx}/{len(raw_matches)}] Đang kiểm tra: {m['home']} vs {m['away']} ({m['timeStr']})")
+            print(f"   [{idx}/{len(raw_matches)}] {m['home']} vs {m['away']}")
             
             streams = capture_stream(context, m["href"])
             m["streams"] = streams
             if streams:
-                print(f"      ✅ ĐÃ BẮT ĐƯỢC {len(streams)} LINK M3U8!")
+                print(f"      ✅ ĐÃ BẮT ĐƯỢC LINK M3U8!")
                 m["isLive"] = True 
             else:
                 print(f"      ⚠️ Không tìm thấy luồng.")
+                
+            m["homeLogo"] = get_final_logo(m["home"], m.get("homeLogo"))
+            m["awayLogo"] = get_final_logo(m["away"], m.get("awayLogo"))
 
-    # Đóng gói và đẩy dữ liệu
-    channels = []
-    for m in raw_matches:
-        home      = (m.get("home") or "Unknown").strip().title()
-        away      = (m.get("away") or "Unknown").strip().title()
-        thoi_gian = m.get("timeStr") or "Không rõ"
-        is_live   = m.get("isLive", False)
-        league    = (m.get("league") or "").strip()
-        logo_nha  = get_final_logo(home, m.get("homeLogo"))
-        logo_khach= get_final_logo(away, m.get("awayLogo"))
-
-        ch = build_channel(home, away, thoi_gian, is_live, m["streams"], m["href"], logo_nha, logo_khach, league)
-        channels.append(ch)
-
-    content = json.dumps(build_json(channels), indent=2, ensure_ascii=False)
+    channels = [build_channel(m, m["streams"]) for m in raw_matches]
+    content = json.dumps({"id": "luongson", "name": "Lương Sơn TV", "groups": [{"id": "live", "name": "🔴 Live bóng đá", "channels": channels}]}, indent=2, ensure_ascii=False)
     push_to_github(content)
-    print("\n" + "=" * 70)
-    print(f"✅ HOÀN TẤT: Cập nhật thành công {len(channels)} trận!")
-    print("=" * 70)
+    print(f"\n✅ HOÀN TẤT: Cập nhật {len(channels)} trận!")
 
 if __name__ == "__main__":
     scrape_and_push()
