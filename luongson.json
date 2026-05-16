@@ -1,17 +1,17 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:30 16/05/2026",
+  "last_updated": "16:45 16/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-65526eeed5f5",
-          "name": "⚽ Dong Thap vs Dong Tam Long An | Vietnamese First Division | 33' • 1 : 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8673_1hdak1r052w.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8674_1hc9wzv97628.png",
+          "id": "luongson-c69342b856be",
+          "name": "⚽ Newcastle Jets vs Sydney Fc | Australia A-League | 0 : 0",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2443_1hdajpw3vks.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2438_1gq92j83knp.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -19,7 +19,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8673_1hdak1r052w.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/2443_1hdajpw3vks.png",
             "width": 1600,
             "height": 1200
           },
@@ -33,23 +33,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-65526eeed5f5",
+              "id": "luongson-c69342b856be",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-65526eeed5f5",
-                  "name": "Dong Thap vs Dong Tam Long An",
+                  "id": "luongson-c69342b856be",
+                  "name": "Newcastle Jets vs Sydney Fc",
                   "streams": [
                     {
-                      "id": "luongson-65526eeed5f5",
+                      "id": "luongson-c69342b856be",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b4e307a33d",
+                          "id": "lnk-f0d9aa9208",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/TONGGIANG/index.m3u8?expire=1788427256&sign=ac21cc5b5adee840dbf13de749dc2cca"
                         }
                       ]
                     }
@@ -97,7 +97,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-73e290b9c8",
+                          "id": "lnk-5306034903",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -113,7 +113,7 @@
         },
         {
           "id": "luongson-53afe8bb144c",
-          "name": "⚽ Persik Kediri vs Persija Jakarta | Indonesia Liga 1 | HT • 1 : 1",
+          "name": "⚽ Persik Kediri vs Persija Jakarta | Indonesia Liga 1 | 54' • 1 : 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4429_164941023943.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/14316_164941030244.png",
           "type": "single",
@@ -149,7 +149,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bac0b370ab",
+                          "id": "lnk-4f7fa353e4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -164,8 +164,60 @@
           ]
         },
         {
+          "id": "luongson-65526eeed5f5",
+          "name": "⚽ Dong Thap vs Dong Tam Long An | Vietnamese First Division | HT • 1 : 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8673_1hdak1r052w.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8674_1hc9wzv97628.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8673_1hdak1r052w.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-65526eeed5f5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-65526eeed5f5",
+                  "name": "Dong Thap vs Dong Tam Long An",
+                  "streams": [
+                    {
+                      "id": "luongson-65526eeed5f5",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1b4324ed09",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-833c0d8ca278",
-          "name": "⚽ Yokohama Marinos vs Kashiwa Reysol | J1 League | 71' • 0 : 1",
+          "name": "⚽ Yokohama Marinos vs Kashiwa Reysol | J1 League | 86' • 0 : 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/183_1gtzcts26eq.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/196_1gtzcts3612j.png",
           "type": "single",
@@ -201,63 +253,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7334aea38f",
+                          "id": "lnk-555685ef7b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c69342b856be",
-          "name": "⚽ Newcastle Jets vs Sydney Fc | Australia A-League | 0 : 0",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2443_1hdajpw3vks.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2438_1gq92j83knp.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2443_1hdajpw3vks.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c69342b856be",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c69342b856be",
-                  "name": "Newcastle Jets vs Sydney Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-c69342b856be",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c20f40bd8f",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -305,11 +305,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-08503e641e",
+                          "id": "lnk-b8e4fc548e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/MOTCHAN1/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -357,11 +357,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9a060e01ab",
+                          "id": "lnk-bd161e64e8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -409,18 +409,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aff5c07b51",
+                          "id": "lnk-234faabf73",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-4e84a3db4d",
+                          "id": "lnk-dcd0eb3504",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
