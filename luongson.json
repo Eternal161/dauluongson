@@ -1,12 +1,64 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:00 17/05/2026",
+  "last_updated": "11:10 17/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-d87b5624ca79",
+          "name": "⚽ V-Varen Nagasaki vs Vissel Kobe | J1 League | 7' • 0 : 0",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8876_1hr8p728mx2e.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/190_1gtzcts1qh1b.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8876_1hr8p728mx2e.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d87b5624ca79",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d87b5624ca79",
+                  "name": "V-Varen Nagasaki vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "luongson-d87b5624ca79",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e55e42cd53",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-3e8c8da70441",
           "name": "⚽ Canterbury Rams vs Southland Sharks | NZBL | H1 • 0 : 0",
@@ -45,115 +97,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c307216640",
+                          "id": "lnk-11d4380984",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d87b5624ca79",
-          "name": "⚽ V-Varen Nagasaki vs Vissel Kobe | J1 League | 0 : 0",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8876_1hr8p728mx2e.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/190_1gtzcts1qh1b.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8876_1hr8p728mx2e.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d87b5624ca79",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d87b5624ca79",
-                  "name": "V-Varen Nagasaki vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "luongson-d87b5624ca79",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dd8b6e2dde",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f01e397f3d21",
-          "name": "⚽ Herediano vs Deportivo Saprissa | Costa Rica Primera Division | 90+' • 2 : 0",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5236_1h6wfek5q11g.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2917_1h6wfek67y2h.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5236_1h6wfek5q11g.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f01e397f3d21",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f01e397f3d21",
-                  "name": "Herediano vs Deportivo Saprissa",
-                  "streams": [
-                    {
-                      "id": "luongson-f01e397f3d21",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88366906e2",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -201,18 +149,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a2dbc4c84c",
+                          "id": "lnk-7487d4d7c6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-8ac59f51b4",
+                          "id": "lnk-1e41917a76",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -260,18 +208,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-de1385aa1f",
+                          "id": "lnk-3638bf35bf",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-4d54df59e8",
+                          "id": "lnk-fb9ffd0589",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -319,18 +267,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-141cc50040",
+                          "id": "lnk-8c96fd2507",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-433e899ebc",
+                          "id": "lnk-a82e3611b8",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -378,18 +326,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a99022b63e",
+                          "id": "lnk-f5c117d3ef",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-3919c4427a",
+                          "id": "lnk-daace64e50",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -437,14 +385,73 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c89a3c11ab",
+                          "id": "lnk-cd55a75444",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-ef2a8eb5a0",
+                          "id": "lnk-b13f6df377",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c4f6ae95c856",
+          "name": "⚽ Hwaseong Fc vs Busan I Park | K League 2 | 0 : 0",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18801_1jkpmbbms12b.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/456_1gxsf6qkd2e.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/18801_1jkpmbbms12b.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c4f6ae95c856",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c4f6ae95c856",
+                  "name": "Hwaseong Fc vs Busan I Park",
+                  "streams": [
+                    {
+                      "id": "luongson-c4f6ae95c856",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3ef5c4efd",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                        },
+                        {
+                          "id": "lnk-77c65d2777",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
