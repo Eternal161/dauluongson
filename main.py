@@ -16,7 +16,7 @@ from playwright_stealth import Stealth
 TARGET_SITE   = "https://luongsontv60.online/"
 BASE_URL      = "https://luongsontv60.online"
 FILE_PATH     = "luongson.json"
-LIMIT_MATCHES = 15 # Tăng số lượng để hiện được nhiều trận sắp tới hơn
+LIMIT_MATCHES = 20 # Tăng số lượng để hiện được nhiều trận sắp tới hơn
 
 VN_TZ = datetime.timezone(datetime.timedelta(hours=7))
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
