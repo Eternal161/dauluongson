@@ -1,67 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:30 17/05/2026",
+  "last_updated": "20:40 17/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-36a357ac6cfb",
-          "name": "⚽ Darmstadt vs Sc Paderborn 07 | German Bundesliga 2 | 0' • 0 : 0",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/930_1jpxzyrmc3e.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1459_1jpxzg2bmq1d.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/930_1jpxzyrmc3e.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-36a357ac6cfb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-36a357ac6cfb",
-                  "name": "Darmstadt vs Sc Paderborn 07",
-                  "streams": [
-                    {
-                      "id": "luongson-36a357ac6cfb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4492f8be6",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/ATUA/index.m3u8?expire=1830276060&sign=070cf2d17a1720d3e42600ba2dfaed74"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-9e63af35249e",
-          "name": "⚽ Hannover 96 vs Nurnberg | German Bundesliga 2 | 0' • 0 : 0",
+          "name": "⚽ Hannover 96 vs Nurnberg | German Bundesliga 2 | 11' • 0 : 0",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/156_1jpxznbnvm1g.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/125_1jpxzps4my2p.png",
           "type": "single",
@@ -97,7 +45,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-24f1ed535c",
+                          "id": "lnk-57be1c4e7a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -113,7 +61,7 @@
         },
         {
           "id": "luongson-26b492176d80",
-          "name": "⚽ Cong An Ha Noi vs Thanh Hoa | V.League 1 | 55' • 0 : 0",
+          "name": "⚽ Cong An Ha Noi vs Thanh Hoa | V.League 1 | 65' • 1 : 0",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/21854_1hgvtfy5jt15.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/8676_1h5e4e370y1r.png",
           "type": "single",
@@ -149,7 +97,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-87ff5384ce",
+                          "id": "lnk-c4d656de34",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -164,8 +112,60 @@
           ]
         },
         {
+          "id": "luongson-36a357ac6cfb",
+          "name": "⚽ Darmstadt vs Sc Paderborn 07 | German Bundesliga 2 | 11' • 0 : 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/930_1jpxzyrmc3e.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1459_1jpxzg2bmq1d.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/930_1jpxzyrmc3e.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-36a357ac6cfb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-36a357ac6cfb",
+                  "name": "Darmstadt vs Sc Paderborn 07",
+                  "streams": [
+                    {
+                      "id": "luongson-36a357ac6cfb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a030b7ce02",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/ATUA/index.m3u8?expire=1830276060&sign=070cf2d17a1720d3e42600ba2dfaed74"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-9390f331c565",
-          "name": "⚽ Inter Milan vs Verona | Italian Serie A | 28' • 0 : 0",
+          "name": "⚽ Inter Milan vs Verona | Italian Serie A | 37' • 0 : 0",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/140_1jgj8z3paw1g.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/513_1k0n84sy5gg.png",
           "type": "single",
@@ -201,7 +201,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-355e669699",
+                          "id": "lnk-fa218a14cf",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -217,7 +217,7 @@
         },
         {
           "id": "luongson-e95cb23c8d36",
-          "name": "⚽ Psv Eindhoven vs Fc Twente Enschede | Holland Eredivisie | HT • 2 : 1",
+          "name": "⚽ Psv Eindhoven vs Fc Twente Enschede | Holland Eredivisie | 49' • 2 : 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/230_1gtg0nv5pw24.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/226_165095707230.png",
           "type": "single",
@@ -253,7 +253,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-af74000836",
+                          "id": "lnk-26df3dc68d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -269,7 +269,7 @@
         },
         {
           "id": "luongson-3529177f976b",
-          "name": "⚽ Sc Heerenveen vs Afc Ajax | Holland Eredivisie | HT • 0 : 0",
+          "name": "⚽ Sc Heerenveen vs Afc Ajax | Holland Eredivisie | 52' • 0 : 0",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/211_165095697544.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/229_1k6pfk9h1f1r.png",
           "type": "single",
@@ -305,7 +305,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-864847f8ff",
+                          "id": "lnk-c5c665e696",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -357,18 +357,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d945b535ec",
+                          "id": "lnk-bcdc5135ec",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        },
-                        {
-                          "id": "lnk-db1261d17c",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -416,18 +409,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-598ade6ec3",
+                          "id": "lnk-d28ab6841d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        },
-                        {
-                          "id": "lnk-cecbb99a48",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
