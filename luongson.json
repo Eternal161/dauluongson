@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:20 18/05/2026",
+  "last_updated": "19:30 18/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-1611377614a4",
+          "name": "⚽ Zhejiang Guangsha vs Shenzhen | H1 • 0 : 0",
+          "tournament": "CBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779103946.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779103947.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779103946.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1611377614a4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1611377614a4",
+                  "name": "Zhejiang Guangsha vs Shenzhen",
+                  "streams": [
+                    {
+                      "id": "luongson-1611377614a4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10614dfc94",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-4b71e1d330ab",
           "name": "⚽ Tanjong Pagar Utd vs Hougang United Fc | HT • 0 : 0",
@@ -46,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d438af6894",
+                          "id": "lnk-7e30cbbb6c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1788427256&sign=30a15463eec9495979c452130fd9c75f"
                         }
                       ]
                     }
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3a7d48a50f",
+                          "id": "lnk-702933b3c7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-1611377614a4",
-          "name": "⚽ Zhejiang Guangsha vs Shenzhen | H1 • 0 : 0",
-          "tournament": "CBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779103946.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779103947.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779103946.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1611377614a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1611377614a4",
-                  "name": "Zhejiang Guangsha vs Shenzhen",
-                  "streams": [
-                    {
-                      "id": "luongson-1611377614a4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf2329ea97",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -205,14 +205,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6b745025ce",
+                          "id": "lnk-db6c91392b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-f8b66384f8",
+                          "id": "lnk-2f163b237d",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -265,11 +265,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-db25b1e833",
+                          "id": "lnk-7e8f99c029",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                        },
+                        {
+                          "id": "lnk-436d7e3ef6",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -283,7 +290,7 @@
           "id": "luongson-67649b3848df",
           "name": "⚽ Qoraqalpog Fa vs Fergana University | 0 : 0",
           "tournament": "Uzbekistan Cup",
-          "logo_nha": "https://ui-avatars.com/api/?name=Qo&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779106883.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65067_1jbg2w0kg610.png",
           "type": "single",
           "display": "thumbnail-only",
@@ -292,7 +299,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Qo&size=200&background=1565C0&color=ffffff&bold=true",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779106883.png",
             "width": 1600,
             "height": 1200
           },
@@ -318,11 +325,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6435d0f621",
+                          "id": "lnk-fa22bf8788",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-39b4734cd8b8",
+          "name": "⚽ Yaypan Fk vs Kattaqurgon | 0 : 0",
+          "tournament": "Uzbekistan Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779106934.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69012_1jqt0d61pyf.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779106934.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-39b4734cd8b8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-39b4734cd8b8",
+                  "name": "Yaypan Fk vs Kattaqurgon",
+                  "streams": [
+                    {
+                      "id": "luongson-39b4734cd8b8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5700d3705f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/AJUN/index.m3u8?expire=2556118740&sign=4cf66df9135854d82fa43d2c5f365419"
                         }
                       ]
                     }
@@ -371,74 +431,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dca19fcec1",
+                          "id": "lnk-5ed836bfef",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-72f7880de8",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fac38625246b",
-          "name": "⚽ Termez Surkhon vs Pakhtakor | 0 : 0",
-          "tournament": "Uzbekistan Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15044_1hr3m54vz51x.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3402_1gpyst1m7129.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15044_1hr3m54vz51x.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fac38625246b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fac38625246b",
-                  "name": "Termez Surkhon vs Pakhtakor",
-                  "streams": [
-                    {
-                      "id": "luongson-fac38625246b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3da11ca9d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-404af0ea67",
+                          "id": "lnk-172a671f17",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
