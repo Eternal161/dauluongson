@@ -193,7 +193,6 @@ def capture_stream(context, match_url: str) -> list:
         score = 0
         lo = s.lower()
         if "cdnfaster-a.live" in lo: score += 10000 
-        if "cdnfaster" in lo: score += 8000
         if "100ycdn" in lo: score += 5000
         scored.append((score, s))
     scored.sort(reverse=True, key=lambda x: x[0])
