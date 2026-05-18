@@ -142,7 +142,10 @@ JS_EXTRACT = """
             const timeEl = a.querySelector('[class*="time" i], [class*="date" i]');
             if (timeEl) timeStr = clean(timeEl.innerText);
         }
-
+        let title = a.querySelector('.team-name') ? a.innerText : 'Match';
+        let leagueEl = a.querySelector('.league-name'); // TÌM TÊN GIẢI
+        let tournament = leagueEl ? leagueEl.innerText.trim() : '';
+        
         results.push({ href, home, away, timeStr, isLiveUI, league, homeLogo, awayLogo });
     }
     return results;
@@ -215,6 +218,7 @@ def build_channel(m: dict, stream_urls: list) -> dict:
 
     return {
         "id": cid, "name": display_name, 
+        "tournament": m.get("tournament", ""),
         "logo_nha": m.get("homeLogo"), "logo_khach": m.get("awayLogo"),
         "type": "single", "display": "thumbnail-only", "enable_detail": False,
         "image": {"padding": 1, "background_color": "#ececec", "display": "contain", "url": m.get("homeLogo"), "width": 1600, "height": 1200},
