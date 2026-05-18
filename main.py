@@ -143,8 +143,7 @@ JS_EXTRACT = """
             if (timeEl) timeStr = clean(timeEl.innerText);
         }
         let title = a.querySelector('.team-name') ? a.innerText : 'Match';
-        let leagueEl = a.querySelector('.league-name'); // TÌM TÊN GIẢI
-        let tournament = leagueEl ? leagueEl.innerText.trim() : '';
+        let tournament = a.querySelector('.league-name')?.innerText?.trim() || '';
         
         results.push({ href, home, away, timeStr, homeLogo, awayLogo, tournament });
     }
