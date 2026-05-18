@@ -146,7 +146,7 @@ JS_EXTRACT = """
         let leagueEl = a.querySelector('.league-name'); // TÌM TÊN GIẢI
         let tournament = leagueEl ? leagueEl.innerText.trim() : '';
         
-        results.push({ href, home, away, timeStr, isLiveUI, league, homeLogo, awayLogo });
+        results.push({ href, home, away, timeStr, homeLogo, awayLogo, tournament });
     }
     return results;
 }
