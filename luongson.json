@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:10 18/05/2026",
+  "last_updated": "19:20 18/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-4b71e1d330ab",
+          "name": "⚽ Tanjong Pagar Utd vs Hougang United Fc | HT • 0 : 0",
+          "tournament": "Singapore League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/14674_1hy78x3exjt.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3434_1hdajp4npd1v.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/14674_1hy78x3exjt.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4b71e1d330ab",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4b71e1d330ab",
+                  "name": "Tanjong Pagar Utd vs Hougang United Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-4b71e1d330ab",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d438af6894",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-4eb2f54851a0",
           "name": "⚽ Imus Braderhood vs Pasig City | H1 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-089a662168",
+                          "id": "lnk-3a7d48a50f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4de6b0dd5d",
+                          "id": "lnk-bf2329ea97",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4b71e1d330ab",
-          "name": "⚽ Tanjong Pagar Utd vs Hougang United Fc | 41' • 0 : 0",
-          "tournament": "Singapore League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/14674_1hy78x3exjt.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3434_1hdajp4npd1v.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/14674_1hy78x3exjt.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4b71e1d330ab",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4b71e1d330ab",
-                  "name": "Tanjong Pagar Utd vs Hougang United Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-4b71e1d330ab",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17c9b5e3e4",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -205,14 +205,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dec30817ec",
+                          "id": "lnk-6b745025ce",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-7c25bde915",
+                          "id": "lnk-f8b66384f8",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -265,18 +265,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-77316c4dd0",
+                          "id": "lnk-db25b1e833",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-981a194a66",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -325,18 +318,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-90c43e357b",
+                          "id": "lnk-6435d0f621",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-651cd1346a",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -385,14 +371,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3b8613324a",
+                          "id": "lnk-dca19fcec1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-8f30a65265",
+                          "id": "lnk-72f7880de8",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -445,14 +431,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1771a74e3b",
+                          "id": "lnk-f3da11ca9d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-e4e5a1ad72",
+                          "id": "lnk-404af0ea67",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
