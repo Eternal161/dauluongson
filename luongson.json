@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:50 19/05/2026",
+  "last_updated": "12:00 19/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-61128d144a58",
+          "name": "⚽ Arsenal vs Burnley | H1 • 0 : 0",
+          "tournament": "EPL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779166411.jfif",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779166371.webp",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779166411.jfif",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-61128d144a58",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-61128d144a58",
+                  "name": "Arsenal vs Burnley",
+                  "streams": [
+                    {
+                      "id": "luongson-61128d144a58",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-38c3079ce0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO6A/index.m3u8?expire=1891408380&sign=df6b95775ca8cf6b58a17d54271d96e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-fd1220f65f01",
           "name": "⚽ Turkmenistan U20 vs Uzbekistan U20 | 0 : 0",
@@ -26,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "● Live",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -44,22 +97,7 @@
                     {
                       "id": "luongson-fd1220f65f01",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3005996075",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        },
-                        {
-                          "id": "lnk-9e47221209",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -106,14 +144,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9324607cbe",
+                          "id": "lnk-7f03fcaf00",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-42d97e4b85",
+                          "id": "lnk-b95fcda792",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -166,14 +204,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9570546db1",
+                          "id": "lnk-f6d2567fe3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-23c4543ff3",
+                          "id": "lnk-1343505ae7",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -226,14 +264,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8fffaae8d8",
+                          "id": "lnk-2ff1be6dc3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-c89dfc085e",
+                          "id": "lnk-5abdd3bcb4",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -286,14 +324,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f9c98b8ecb",
+                          "id": "lnk-2e351c7af6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-be6e24914f",
+                          "id": "lnk-a503513fcd",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -346,14 +384,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b450a41a86",
+                          "id": "lnk-8ec79782e6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-14414b7ac6",
+                          "id": "lnk-a59b05eff7",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -406,74 +444,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d546764f95",
+                          "id": "lnk-b4a330991e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-6c0598743a",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9121476c2315",
-          "name": "⚽ Perth Redstar vs Curtin Univ Sc | 0 : 0",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56667_1gqrk4a2nb2f.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20283_1grcy39zx84.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56667_1gqrk4a2nb2f.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9121476c2315",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9121476c2315",
-                  "name": "Perth Redstar vs Curtin Univ Sc",
-                  "streams": [
-                    {
-                      "id": "luongson-9121476c2315",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4686174f37",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        },
-                        {
-                          "id": "lnk-9dd885787b",
+                          "id": "lnk-dd05ca14a2",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
