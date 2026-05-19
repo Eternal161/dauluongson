@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:40 19/05/2026",
+  "last_updated": "14:50 19/05/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-fd1220f65f01",
-          "name": "⚽ Turkmenistan U20 vs Uzbekistan U20 | 11' • 0 : 0",
+          "name": "⚽ Turkmenistan U20 vs Uzbekistan U20 | 21' • 0 : 1",
           "tournament": "CAFA U-20",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/59180_1h132hd7yc1b.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/6437_16626127574.png",
@@ -26,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -44,7 +44,15 @@
                     {
                       "id": "luongson-fd1220f65f01",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1279b3eb81",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -91,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7b9b97f04d",
+                          "id": "lnk-6e27cbbe1e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -124,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "● Live",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -142,15 +150,7 @@
                     {
                       "id": "luongson-4c3eb96001d8",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6429377b5a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MOTCHAN1/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -197,14 +197,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0c9865630c",
+                          "id": "lnk-d0c1f5e948",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-c1a4e529de",
+                          "id": "lnk-7222512535",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -257,14 +257,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a74f8e18c9",
+                          "id": "lnk-4b28104885",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-66576e96ea",
+                          "id": "lnk-07698bf818",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -317,14 +317,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-192770881c",
+                          "id": "lnk-7d94c47b18",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-dfc40dfb4c",
+                          "id": "lnk-1db4f63f86",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -377,14 +377,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9dbf8626db",
+                          "id": "lnk-eaa8e6d0a7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-c59ba7b439",
+                          "id": "lnk-ab7bc93136",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -417,10 +417,10 @@
           },
           "labels": [
             {
-              "text": "● Live",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -435,22 +435,7 @@
                     {
                       "id": "luongson-9121476c2315",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-adfbd22115",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        },
-                        {
-                          "id": "lnk-86494504d6",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
