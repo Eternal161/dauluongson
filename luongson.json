@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:10 19/05/2026",
+  "last_updated": "09:20 19/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-cb17092e5445",
+          "name": "⚽ Real Espana vs Marathon | 6' • 0 : 0",
+          "tournament": "Primera Division de Honduras",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6227_1jzkqmw35p6.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6223_1j57gmb6yj1a.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6227_1jzkqmw35p6.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cb17092e5445",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cb17092e5445",
+                  "name": "Real Espana vs Marathon",
+                  "streams": [
+                    {
+                      "id": "luongson-cb17092e5445",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c7667aca53",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-822f528d77e7",
           "name": "⚽ Oklahoma City Thunder vs San Antonio Spurs | H1 • 0 : 0",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-38f57bd43a",
+                          "id": "lnk-315cd6d7f0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-cb17092e5445",
-          "name": "⚽ Real Espana vs Marathon | 0 : 0",
-          "tournament": "Primera Division de Honduras",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6227_1jzkqmw35p6.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6223_1j57gmb6yj1a.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6227_1jzkqmw35p6.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-cb17092e5445",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-cb17092e5445",
-                  "name": "Real Espana vs Marathon",
-                  "streams": [
-                    {
-                      "id": "luongson-cb17092e5445",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-835df859c8",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8463dacc7f",
+                          "id": "lnk-09ecb9b135",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,18 +205,138 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8cf9c44c4e",
+                          "id": "lnk-a333b1ae9d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-98dd829d7e",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6a74f4a1293d",
+          "name": "⚽ Benxi Qingfan vs Ulanqab Qingnianren | 0 : 0",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779157177.jpg",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779157179.jpg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779157177.jpg",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6a74f4a1293d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6a74f4a1293d",
+                  "name": "Benxi Qingfan vs Ulanqab Qingnianren",
+                  "streams": [
+                    {
+                      "id": "luongson-6a74f4a1293d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bdbef377f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-e68265fefc",
+                          "id": "lnk-4863acee6e",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4c3eb96001d8",
+          "name": "⚽ Beijing Pengrui vs Xingtai Wanshuai | 0 : 0",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69536_1jx6hgn4pk1e.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779157106.jpg",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/69536_1jx6hgn4pk1e.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4c3eb96001d8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4c3eb96001d8",
+                  "name": "Beijing Pengrui vs Xingtai Wanshuai",
+                  "streams": [
+                    {
+                      "id": "luongson-4c3eb96001d8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ea040b16f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                        },
+                        {
+                          "id": "lnk-0a830c8174",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -265,18 +385,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6b623f82f4",
+                          "id": "lnk-32745d9396",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-5a97415b5c",
+                          "id": "lnk-8c0f10b381",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -325,138 +445,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-79bdeeb975",
+                          "id": "lnk-7eb6df1ccf",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-e651e9bbb1",
+                          "id": "lnk-883832976b",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f4b5447b27bc",
-          "name": "⚽ Italy U16 vs Greece U16 | 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4585_1h1kb3c91b27.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5050_1h406t2e2cs.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4585_1h1kb3c91b27.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f4b5447b27bc",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f4b5447b27bc",
-                  "name": "Italy U16 vs Greece U16",
-                  "streams": [
-                    {
-                      "id": "luongson-f4b5447b27bc",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17d3d394f5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-a60b9431a6",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-374da904e913",
-          "name": "⚽ Ethiopian Insurance Fc vs Wolaita Dicha | 0 : 0",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/59649_1grt0ne4471f.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24337_1jqmyp1c78j.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/59649_1grt0ne4471f.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-374da904e913",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-374da904e913",
-                  "name": "Ethiopian Insurance Fc vs Wolaita Dicha",
-                  "streams": [
-                    {
-                      "id": "luongson-374da904e913",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1dd143944",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-b94d02bcb2",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
