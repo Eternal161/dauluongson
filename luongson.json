@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:00 21/05/2026",
+  "last_updated": "00:10 21/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-f1555d2765bd",
+          "name": "⚽ Lillestrom vs Kristiansund Bk | 0 : 0",
+          "tournament": "Norwegian Tippeligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/464_1gxmbm1nc124.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3522_1gxmbp26a81v.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/464_1gxmbm1nc124.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f1555d2765bd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f1555d2765bd",
+                  "name": "Lillestrom vs Kristiansund Bk",
+                  "streams": [
+                    {
+                      "id": "luongson-f1555d2765bd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-166545a428",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-1cabb2c87756",
-          "name": "⚽ Pyramids Fc vs Smouha Sc | 1' • 0 : 0",
+          "name": "⚽ Pyramids Fc vs Smouha Sc | 11' • 0 : 0",
           "tournament": "Egyptian Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/21173_1gpytf8sax1t.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/13393_1gzsyaawq22n.png",
@@ -46,329 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-313a8a0329",
+                          "id": "lnk-2f69ba2be9",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7601d623ca04",
-          "name": "⚽ Kups vs Jaro | HT • 1 : 0",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/353_1gqvn6qhmr11.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7601d623ca04",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7601d623ca04",
-                  "name": "Kups vs Jaro",
-                  "streams": [
-                    {
-                      "id": "luongson-7601d623ca04",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa37ebe9cf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6bd38620ec7d",
-          "name": "⚽ Flint City Bucks vs Lansing City | H2 • 0 : 0",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39761_202201211630144590.gif",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57579_1h1qvjv705m.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39761_202201211630144590.gif",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6bd38620ec7d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6bd38620ec7d",
-                  "name": "Flint City Bucks vs Lansing City",
-                  "streams": [
-                    {
-                      "id": "luongson-6bd38620ec7d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb98fc0970",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e048cad5ff2d",
-          "name": "⚽ Leixoes U23 vs Gil Vicente U23 | 72' • 0 : 0",
-          "tournament": "Portugal U23 Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41087_20200323145018.gif",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/58566_1gzq96w3n912.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/41087_20200323145018.gif",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e048cad5ff2d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e048cad5ff2d",
-                  "name": "Leixoes U23 vs Gil Vicente U23",
-                  "streams": [
-                    {
-                      "id": "luongson-e048cad5ff2d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7cb0e64d1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KHONGMINH/index.m3u8?expire=1788427256&sign=003a6e74f0efdf441ba4b32785a21d31"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-278f6ee1b2a2",
-          "name": "⚽ Al Masry vs Al Ahly Sc | 1' • 0 : 0",
-          "tournament": "Egyptian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2913_1gq6k69vzm15.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2091_1gpytf8sax13.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2913_1gq6k69vzm15.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-278f6ee1b2a2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-278f6ee1b2a2",
-                  "name": "Al Masry vs Al Ahly Sc",
-                  "streams": [
-                    {
-                      "id": "luongson-278f6ee1b2a2",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3df9831ac",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d7fecbe5dd3c",
-          "name": "⚽ Fc Chernigiv vs Dynamo Kyiv | 87' • 1 : 3",
-          "tournament": "Ukraine Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34640_1gxfbzah55m.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/610_1h53w1vb5v27.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34640_1gxfbzah55m.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d7fecbe5dd3c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d7fecbe5dd3c",
-                  "name": "Fc Chernigiv vs Dynamo Kyiv",
-                  "streams": [
-                    {
-                      "id": "luongson-d7fecbe5dd3c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90125c0ab1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-56285816e989",
-          "name": "⚽ Gais vs Hammarby | 0 : 0",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/374_1h6wfe05rw26.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-56285816e989",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-56285816e989",
-                  "name": "Gais vs Hammarby",
-                  "streams": [
-                    {
-                      "id": "luongson-56285816e989",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27349979a7",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MOTCHAN1/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -417,11 +152,276 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-da06511ab9",
+                          "id": "lnk-168782d8fa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONGGIANG/index.m3u8?expire=1788427256&sign=ac21cc5b5adee840dbf13de749dc2cca"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6bd38620ec7d",
+          "name": "⚽ Flint City Bucks vs Lansing City | H2 • 0 : 0",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39761_202201211630144590.gif",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57579_1h1qvjv705m.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/39761_202201211630144590.gif",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6bd38620ec7d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6bd38620ec7d",
+                  "name": "Flint City Bucks vs Lansing City",
+                  "streams": [
+                    {
+                      "id": "luongson-6bd38620ec7d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-590b8661ac",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e048cad5ff2d",
+          "name": "⚽ Leixoes U23 vs Gil Vicente U23 | 82' • 0 : 0",
+          "tournament": "Portugal U23 Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41087_20200323145018.gif",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/58566_1gzq96w3n912.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/41087_20200323145018.gif",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e048cad5ff2d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e048cad5ff2d",
+                  "name": "Leixoes U23 vs Gil Vicente U23",
+                  "streams": [
+                    {
+                      "id": "luongson-e048cad5ff2d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d15b26cfb7",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KHONGMINH/index.m3u8?expire=1788427256&sign=003a6e74f0efdf441ba4b32785a21d31"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7601d623ca04",
+          "name": "⚽ Kups vs Jaro | HT • 1 : 0",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/353_1gqvn6qhmr11.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7601d623ca04",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7601d623ca04",
+                  "name": "Kups vs Jaro",
+                  "streams": [
+                    {
+                      "id": "luongson-7601d623ca04",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb6caa3363",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-278f6ee1b2a2",
+          "name": "⚽ Al Masry vs Al Ahly Sc | 11' • 0 : 1",
+          "tournament": "Egyptian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2913_1gq6k69vzm15.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2091_1gpytf8sax13.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2913_1gq6k69vzm15.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-278f6ee1b2a2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-278f6ee1b2a2",
+                  "name": "Al Masry vs Al Ahly Sc",
+                  "streams": [
+                    {
+                      "id": "luongson-278f6ee1b2a2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4eeba873e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5a396a20a17f",
+          "name": "⚽ Lokomotiv Plovdiv vs Cska Sofia | 51' • 1 : 1",
+          "tournament": "Buigarian Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/987_1gqbph0smw24.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/541_1h5e49d90dd.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/987_1gqbph0smw24.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5a396a20a17f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5a396a20a17f",
+                  "name": "Lokomotiv Plovdiv vs Cska Sofia",
+                  "streams": [
+                    {
+                      "id": "luongson-5a396a20a17f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fbde61e64",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
