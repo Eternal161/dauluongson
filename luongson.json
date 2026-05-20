@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:00 20/05/2026",
+  "last_updated": "20:10 20/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-cc500dd1bafb",
-          "name": "⚽ Dinamo Samarqand vs Fc Lochin | 0 : 0",
-          "tournament": "Uzbekistan Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8760_1h6swyvem71m.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/49289_1jr1s38mzm32.png",
+          "id": "luongson-ad187fc6adf1",
+          "name": "⚽ Selangor vs Buriram United | 11' • 0 : 0",
+          "tournament": "ASEAN Club Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2602_1h6wf98t129.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3400_1hyse378th1w.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8760_1h6swyvem71m.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/2602_1h6wf98t129.png",
             "width": 1600,
             "height": 1200
           },
@@ -34,23 +34,129 @@
           ],
           "sources": [
             {
-              "id": "luongson-cc500dd1bafb",
+              "id": "luongson-ad187fc6adf1",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-cc500dd1bafb",
-                  "name": "Dinamo Samarqand vs Fc Lochin",
+                  "id": "luongson-ad187fc6adf1",
+                  "name": "Selangor vs Buriram United",
                   "streams": [
                     {
-                      "id": "luongson-cc500dd1bafb",
+                      "id": "luongson-ad187fc6adf1",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c06193c46d",
+                          "id": "lnk-9e9eae63e1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b80e4952281c",
+          "name": "⚽ Chongqing Tonglianglong vs Yunnan Yukun | 51' • 0 : 0",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61524_1hysdzw5hv1f.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61513_1k0qw9nssh1n.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61524_1hysdzw5hv1f.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b80e4952281c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b80e4952281c",
+                  "name": "Chongqing Tonglianglong vs Yunnan Yukun",
+                  "streams": [
+                    {
+                      "id": "luongson-b80e4952281c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-edd4ab2645",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b33d6ffe54eb",
+          "name": "⚽ Fk Gazalkent vs Lokomotiv Tashkent | 10' • 0 : 2",
+          "tournament": "Uzbekistan Cup",
+          "logo_nha": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8764_1k2zzexks91e.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b33d6ffe54eb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b33d6ffe54eb",
+                  "name": "Fk Gazalkent vs Lokomotiv Tashkent",
+                  "streams": [
+                    {
+                      "id": "luongson-b33d6ffe54eb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e43af96a2f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -99,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7f73af7ddf",
+                          "id": "lnk-02b872bd1f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -115,7 +221,7 @@
         },
         {
           "id": "luongson-5da6c07e379a",
-          "name": "⚽ Taguig vs Dynamic Herb Cebu | 0 : 0",
+          "name": "⚽ Taguig vs Dynamic Herb Cebu | 11' • 0 : 0",
           "tournament": "Philippines UFL",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/65115_1htxvrk4wan.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/57306_1gskjw3psy0.png",
@@ -152,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e67f1a6b37",
+                          "id": "lnk-115ded0fcf",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -167,220 +273,8 @@
           ]
         },
         {
-          "id": "luongson-42dd1e27bbea",
-          "name": "⚽ Shanghai Shenhua vs Wuhan Three Towns | 61' • 2 : 1",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38904_1hd5at5b6g1y.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-42dd1e27bbea",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-42dd1e27bbea",
-                  "name": "Shanghai Shenhua vs Wuhan Three Towns",
-                  "streams": [
-                    {
-                      "id": "luongson-42dd1e27bbea",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c5e65aded1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/ATUA/index.m3u8?expire=1830276060&sign=070cf2d17a1720d3e42600ba2dfaed74"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-63a7d99c5762",
-          "name": "⚽ Fc Meshakhte Tkibuli vs Torpedo Kutaisi | HT • 0 : 0",
-          "tournament": "Georgia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12245_1h62rwmhn81b.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2108_1grmmxhtymq.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12245_1h62rwmhn81b.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-63a7d99c5762",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-63a7d99c5762",
-                  "name": "Fc Meshakhte Tkibuli vs Torpedo Kutaisi",
-                  "streams": [
-                    {
-                      "id": "luongson-63a7d99c5762",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-335b085eda",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MOTCHAN1/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b3b86a333c5d",
-          "name": "⚽ Zhejiang Professional Fc vs Shandong Taishan | HT • 0 : 1",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34_1gy3vjsrhjq.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b3b86a333c5d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b3b86a333c5d",
-                  "name": "Zhejiang Professional Fc vs Shandong Taishan",
-                  "streams": [
-                    {
-                      "id": "luongson-b3b86a333c5d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6342b97c0b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b33d6ffe54eb",
-          "name": "⚽ Fk Gazalkent vs Lokomotiv Tashkent | 0 : 0",
-          "tournament": "Uzbekistan Cup",
-          "logo_nha": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8764_1k2zzexks91e.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b33d6ffe54eb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b33d6ffe54eb",
-                  "name": "Fk Gazalkent vs Lokomotiv Tashkent",
-                  "streams": [
-                    {
-                      "id": "luongson-b33d6ffe54eb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2958ba027c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-950bfee581a8",
-          "name": "⚽ Transport United Fc vs Thimphu Fc | HT • 1 : 0",
+          "name": "⚽ Transport United Fc vs Thimphu Fc | 52' • 1 : 0",
           "tournament": "Bhutan Thimphu League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/30158_1h8qppr9qk2v.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png",
@@ -417,11 +311,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-311e913659",
+                          "id": "lnk-39dcc02e11",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-63a7d99c5762",
+          "name": "⚽ Fc Meshakhte Tkibuli vs Torpedo Kutaisi | 49' • 0 : 0",
+          "tournament": "Georgia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12245_1h62rwmhn81b.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2108_1grmmxhtymq.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12245_1h62rwmhn81b.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-63a7d99c5762",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-63a7d99c5762",
+                  "name": "Fc Meshakhte Tkibuli vs Torpedo Kutaisi",
+                  "streams": [
+                    {
+                      "id": "luongson-63a7d99c5762",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ac6f68bbd",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b3b86a333c5d",
+          "name": "⚽ Zhejiang Professional Fc vs Shandong Taishan | 54' • 0 : 1",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34_1gy3vjsrhjq.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b3b86a333c5d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b3b86a333c5d",
+                  "name": "Zhejiang Professional Fc vs Shandong Taishan",
+                  "streams": [
+                    {
+                      "id": "luongson-b3b86a333c5d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cb6fc95bb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
