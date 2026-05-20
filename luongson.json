@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:21 20/05/2026",
+  "last_updated": "14:30 20/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-94d4bf01d725",
+          "name": "⚽ Taichung Blue Whale (W) vs Hang Yuan Fc (W) | 0 : 0",
+          "tournament": "Taiwan Mulan League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44637_1jxv4n1ndvm.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44645_1jxkfsj5bw1b.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44637_1jxv4n1ndvm.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-94d4bf01d725",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-94d4bf01d725",
+                  "name": "Taichung Blue Whale (W) vs Hang Yuan Fc (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-94d4bf01d725",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-284c870c3b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/URA/index.m3u8?expire=1788427256&sign=b321b6b8b5cd73e24aae2a3a16b7b5d2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-3087dd75cdf7",
           "name": "⚽ Garelli United vs Philippine Army | 0 : 0",
@@ -43,51 +96,6 @@
                   "streams": [
                     {
                       "id": "luongson-3087dd75cdf7",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-94d4bf01d725",
-          "name": "⚽ Taichung Blue Whale (W) vs Hang Yuan Fc (W) | 0 : 0",
-          "tournament": "Taiwan Mulan League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44637_1jxv4n1ndvm.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44645_1jxkfsj5bw1b.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/44637_1jxv4n1ndvm.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-94d4bf01d725",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-94d4bf01d725",
-                  "name": "Taichung Blue Whale (W) vs Hang Yuan Fc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-94d4bf01d725",
                       "name": "F",
                       "stream_links": []
                     }
@@ -136,18 +144,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e6b09ea58a",
+                          "id": "lnk-a0634c3faa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-4b354c719d",
+                          "id": "lnk-a05595deb4",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -196,18 +204,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4b58eb6b40",
+                          "id": "lnk-b4e4207762",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-1e8303562b",
+                          "id": "lnk-ed3125a026",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -256,18 +264,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-90232660b7",
+                          "id": "lnk-4c0c0e063d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-6f28af0fa6",
+                          "id": "lnk-9613664708",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -316,18 +324,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c7c295292d",
+                          "id": "lnk-5b29439d62",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-9bf3e99076",
+                          "id": "lnk-87089a03f8",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -376,18 +384,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3933c6ec78",
+                          "id": "lnk-ddf01c21fe",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-06ff680aeb",
+                          "id": "lnk-3ef094bf58",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -436,18 +444,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ff18548551",
+                          "id": "lnk-becaf9b096",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-67faae0d91",
+                          "id": "lnk-9f0d19bf71",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
