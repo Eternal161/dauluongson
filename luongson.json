@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:40 20/05/2026",
+  "last_updated": "16:52 20/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-9b87e97f50e7",
+          "name": "⚽ Canberra Olympic(W) vs Canberra Fc (W) | 20' • 0 : 0",
+          "tournament": "Australia Capital Territory Premier League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34502_1gv7apmg7q2h.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34503_1gv7apmg7gh.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/34502_1gv7apmg7q2h.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9b87e97f50e7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9b87e97f50e7",
+                  "name": "Canberra Olympic(W) vs Canberra Fc (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-9b87e97f50e7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19e74e31bd",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-045b4399f212",
-          "name": "⚽ Keinou Library And Sports Association vs Trau Fc | 11' • 0 : 0",
+          "name": "⚽ Keinou Library And Sports Association vs Trau Fc | 23' • 0 : 0",
           "tournament": "India I-League 3",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/43743_1j90fnedgm1x.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/34054_1k1cg4b03x2q.png",
@@ -46,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ec2e055bd3",
+                          "id": "lnk-a9337b8b19",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-836ad62cd177",
+          "name": "⚽ Tuggeranong Utd(W) vs Belconnen United (W) | 21' • 0 : 1",
+          "tournament": "Australia Capital Territory Premier League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34670_1gwtq0fj431h.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35081_1gwzt9sx2424.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/34670_1gwtq0fj431h.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-836ad62cd177",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-836ad62cd177",
+                  "name": "Tuggeranong Utd(W) vs Belconnen United (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-836ad62cd177",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-20843a1c7d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -99,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6da81b58e7",
+                          "id": "lnk-bb3a6cad67",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,114 +220,8 @@
           ]
         },
         {
-          "id": "luongson-9b87e97f50e7",
-          "name": "⚽ Canberra Olympic(W) vs Canberra Fc (W) | 8' • 0 : 0",
-          "tournament": "Australia Capital Territory Premier League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34502_1gv7apmg7q2h.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34503_1gv7apmg7gh.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34502_1gv7apmg7q2h.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9b87e97f50e7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9b87e97f50e7",
-                  "name": "Canberra Olympic(W) vs Canberra Fc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-9b87e97f50e7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c2755f178",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-836ad62cd177",
-          "name": "⚽ Tuggeranong Utd(W) vs Belconnen United (W) | 8' • 0 : 0",
-          "tournament": "Australia Capital Territory Premier League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34670_1gwtq0fj431h.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35081_1gwzt9sx2424.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34670_1gwtq0fj431h.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-836ad62cd177",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-836ad62cd177",
-                  "name": "Tuggeranong Utd(W) vs Belconnen United (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-836ad62cd177",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15da343591",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-c65213c778fc",
-          "name": "⚽ Shaanxi Shan An vs Beijing Smart Sky Football Club | 81' • 0 : 0",
+          "name": "⚽ Shaanxi Shan An vs Beijing Smart Sky Football Club | 90+' • 0 : 0",
           "tournament": "Chinese Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/62260_1h4f5891jx2y.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/62262_1h4jp8h8e11c.png",
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-514018a8e9",
+                          "id": "lnk-d9ea5a4448",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d4c68f471c",
+                          "id": "lnk-ac28b2b43a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-69aa0d904a",
+                          "id": "lnk-a7178f08b1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-23d1a337b1",
+                          "id": "lnk-293d1d21a3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
