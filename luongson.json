@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:00 21/05/2026",
+  "last_updated": "07:10 21/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-b0b75aefefb9",
-          "name": "⚽ Gremio (Rs) vs Palestino | 0 : 0",
-          "tournament": "Copa Sudamericana",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/330_1gq1fbpxrd5.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/953_1gv1yk239f2n.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/330_1gq1fbpxrd5.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b0b75aefefb9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b0b75aefefb9",
-                  "name": "Gremio (Rs) vs Palestino",
-                  "streams": [
-                    {
-                      "id": "luongson-b0b75aefefb9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-73865ca954",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-c5b6a8f309f0",
-          "name": "⚽ Independiente Petrolero vs Botafogo Rj | 0 : 0",
+          "name": "⚽ Independiente Petrolero vs Botafogo Rj | 10' • 0 : 0",
           "tournament": "Copa Sudamericana",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/37027_1grj9asv2t23.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/426_1gtqm76wzmz.png",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f2a8211da2",
+                          "id": "lnk-597946ca9c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-8973437baa62",
-          "name": "⚽ Columbus Crew vs New York City Fc | 25' • 0 : 0",
+          "name": "⚽ Columbus Crew vs New York City Fc | 35' • 0 : 0",
           "tournament": "USA Open Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/293_1hr8pf0r2p2h.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/20728_1j3vezpgze22.png",
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a0db869366",
+                          "id": "lnk-d26b696996",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONGGIANG/index.m3u8?expire=1788427256&sign=ac21cc5b5adee840dbf13de749dc2cca"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b0b75aefefb9",
+          "name": "⚽ Gremio (Rs) vs Palestino | 11' • 1 : 0",
+          "tournament": "Copa Sudamericana",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/330_1gq1fbpxrd5.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/953_1gv1yk239f2n.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/330_1gq1fbpxrd5.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b0b75aefefb9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b0b75aefefb9",
+                  "name": "Gremio (Rs) vs Palestino",
+                  "streams": [
+                    {
+                      "id": "luongson-b0b75aefefb9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5f03c455b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3283c9566a",
+                          "id": "lnk-e5ff870f65",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-664bd1470d",
+                          "id": "lnk-9a554d776c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1fe5bbfd22",
+                          "id": "lnk-d0ac03d50d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,18 +364,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dd6ffa5427",
+                          "id": "lnk-3b091abf32",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-8f7b022980",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -424,18 +417,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-374b2d6bcf",
+                          "id": "lnk-068c59bd48",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-fa6fedd2b2",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/URA/index.m3u8?expire=1788427256&sign=b321b6b8b5cd73e24aae2a3a16b7b5d2"
                         }
                       ]
                     }
