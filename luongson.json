@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:00 21/05/2026",
+  "last_updated": "14:10 21/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-8a1efe2cf9be",
+          "name": "⚽ Southland Sharks vs Wellington Saints | H1 • 0 : 0",
+          "tournament": "NBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779347279.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779347276.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779347279.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8a1efe2cf9be",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8a1efe2cf9be",
+                  "name": "Southland Sharks vs Wellington Saints",
+                  "streams": [
+                    {
+                      "id": "luongson-8a1efe2cf9be",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96ea597ddb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-b6b3b83213d2",
-          "name": "⚽ Khangarid Klub vs Tuv Buganuud | 0 : 0",
+          "name": "⚽ Khangarid Klub vs Tuv Buganuud | 10' • 0 : 1",
           "tournament": "Mongolia Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/34495_1j0x3a0m6bc.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png",
@@ -46,71 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1a5d5962ee",
+                          "id": "lnk-aa2aef1fd5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8a1efe2cf9be",
-          "name": "⚽ Southland Sharks vs Wellington Saints | 0 : 0",
-          "tournament": "NBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779307655.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779307656.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779307655.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8a1efe2cf9be",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8a1efe2cf9be",
-                  "name": "Southland Sharks vs Wellington Saints",
-                  "streams": [
-                    {
-                      "id": "luongson-8a1efe2cf9be",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d9079ff78",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-4b78ebab4f",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -159,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-78d8dc335a",
+                          "id": "lnk-385c535ab0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -212,18 +205,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-18a9ec4943",
+                          "id": "lnk-3a0f94c973",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-8bca972abe",
+                          "id": "lnk-c18cce5a92",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
@@ -272,18 +265,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8e2bfa9a3a",
+                          "id": "lnk-cf7de50a39",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-b844202f85",
+                          "id": "lnk-ee6d13b4b1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
@@ -332,18 +325,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cb9b317bf6",
+                          "id": "lnk-6de23b9e81",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-64302fbf6e",
+                          "id": "lnk-567b5a426c",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
@@ -392,18 +385,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1af08d866c",
+                          "id": "lnk-a5fa4da815",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-88d16ab756",
+                          "id": "lnk-5c867d7359",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
@@ -452,18 +445,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5df62f190e",
+                          "id": "lnk-3f3c3b41b5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-9197b47b2b",
+                          "id": "lnk-f5262c6675",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
