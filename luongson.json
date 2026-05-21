@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:50 22/05/2026",
+  "last_updated": "05:00 22/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-eff2b4d78d79",
+          "name": "⚽ Deportivo La Guaira vs Independiente Rivadavia | 0 : 0",
+          "tournament": "Copa Libertadores",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9777_1hrb7wwkee24.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5290_1ht90r1f1q2z.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9777_1hrb7wwkee24.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eff2b4d78d79",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eff2b4d78d79",
+                  "name": "Deportivo La Guaira vs Independiente Rivadavia",
+                  "streams": [
+                    {
+                      "id": "luongson-eff2b4d78d79",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-38e95a961b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KHONGMINH/index.m3u8?expire=1788427256&sign=003a6e74f0efdf441ba4b32785a21d31"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-9003089b0aa9",
-          "name": "⚽ Aguilas Doradas vs Deportivo Pereira | 56' • 1 : 0",
+          "name": "⚽ Aguilas Doradas vs Deportivo Pereira | 66' • 1 : 0",
           "tournament": "Colombia Copa Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/8843_1gtzd4kn605.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/2222_1gzj3wzmx21k.png",
@@ -46,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b047410643",
+                          "id": "lnk-3b4483e74a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
+                          "url": "https://hls.cdnfaster-a.live/live/ATUA/index.m3u8?expire=1830276060&sign=070cf2d17a1720d3e42600ba2dfaed74"
                         }
                       ]
                     }
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ded64dbda0",
+                          "id": "lnk-9cdf861457",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eff2b4d78d79",
-          "name": "⚽ Deportivo La Guaira vs Independiente Rivadavia | 0 : 0",
-          "tournament": "Copa Libertadores",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9777_1hrb7wwkee24.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5290_1ht90r1f1q2z.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9777_1hrb7wwkee24.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eff2b4d78d79",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eff2b4d78d79",
-                  "name": "Deportivo La Guaira vs Independiente Rivadavia",
-                  "streams": [
-                    {
-                      "id": "luongson-eff2b4d78d79",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afdb08b687",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KHONGMINH/index.m3u8?expire=1788427256&sign=003a6e74f0efdf441ba4b32785a21d31"
                         }
                       ]
                     }
@@ -205,14 +205,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6f9178bb1a",
+                          "id": "lnk-4f053ec67a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-fef00fa11f",
+                          "id": "lnk-fc4b3f00bb",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -265,14 +265,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6e9791d1b1",
+                          "id": "lnk-24b6b155a3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-0c313c1461",
+                          "id": "lnk-363784a025",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -325,14 +325,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6fcd0828b1",
+                          "id": "lnk-ac2db0012c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-979316e268",
+                          "id": "lnk-fa16e12b73",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -385,14 +385,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f8c9d11de2",
+                          "id": "lnk-d233f5c4ff",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-9e632b1b78",
+                          "id": "lnk-fdf59d9377",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -445,14 +445,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1d1508c16e",
+                          "id": "lnk-8daf35fec6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-45c0823614",
+                          "id": "lnk-2d21a7c03d",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
