@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:40 21/05/2026",
+  "last_updated": "17:50 21/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-4ce660675a41",
-          "name": "⚽ Ulaangom City Fc vs Khovd | 40' • 1 : 1",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4ce660675a41",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4ce660675a41",
-                  "name": "Ulaangom City Fc vs Khovd",
-                  "streams": [
-                    {
-                      "id": "luongson-4ce660675a41",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-793ff80359",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-26dbeeef66ce",
-          "name": "⚽ Ekibastuzets vs Akademiya Ontustik | 40' • 1 : 0",
+          "name": "⚽ Ekibastuzets vs Akademiya Ontustik | HT • 1 : 1",
           "tournament": "Kazakhstan Division 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/33976_1gxa4ree2a3.png",
@@ -99,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3b82034f1d",
+                          "id": "lnk-cafb12e683",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/AJUN/index.m3u8?expire=2556118740&sign=4cf66df9135854d82fa43d2c5f365419"
+                          "url": "https://hls.cdnfaster-a.live/live/NHIKA1/index.m3u8?expire=1788427256&sign=91d8d858b7cdccb6dd825469190514bd"
                         }
                       ]
                     }
@@ -118,7 +65,7 @@
           "name": "⚽ Fk Aktobe Ii vs Fk Yelimay Semey B | 0 : 0",
           "tournament": "Kazakhstan Division 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/43628_1gxj2r9j2y1w.png",
-          "logo_khach": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779360335.jpg",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-80d83c4c00",
+                          "id": "lnk-b7186a8d5f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                          "url": "https://hls.cdnfaster-a.live/live/MOTCHAN1/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4ce660675a41",
+          "name": "⚽ Ulaangom City Fc vs Khovd | HT • 1 : 1",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4ce660675a41",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4ce660675a41",
+                  "name": "Ulaangom City Fc vs Khovd",
+                  "streams": [
+                    {
+                      "id": "luongson-4ce660675a41",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3feded1448",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -205,14 +205,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a247fcd956",
+                          "id": "lnk-06245c6506",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-de32cbc560",
+                          "id": "lnk-d46b33aee4",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -265,14 +265,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6a7005c5e9",
+                          "id": "lnk-17ecc9a2e0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-f010a389b7",
+                          "id": "lnk-95fab81d50",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -325,14 +325,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a80ada3119",
+                          "id": "lnk-9355230206",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-22f1e8c6ec",
+                          "id": "lnk-88c880c413",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -385,14 +385,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e4c68d5b7d",
+                          "id": "lnk-242287527f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-4b79c2e2bd",
+                          "id": "lnk-2504065719",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -445,14 +445,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-06ff4ed700",
+                          "id": "lnk-6d3c7e93ed",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-fe737f98e7",
+                          "id": "lnk-0f8634d498",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
