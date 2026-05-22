@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:50 22/05/2026",
+  "last_updated": "08:00 22/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-72ab95ce6bdb",
-          "name": "⚽ Racing Club vs Caracas Fc | 45+' • 2 : 1",
-          "tournament": "Copa Sudamericana",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/270_164940927697.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4042_1htkbf29ax1.png",
+          "id": "luongson-5192c7a7e2ea",
+          "name": "⚽ Ca Penarol vs Corinthians Paulista (Sp) | 31' • 1 : 0",
+          "tournament": "Copa Libertadores",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1584_1htkbf6ndy1h.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/315_1j9d3cawpe2k.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/270_164940927697.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/1584_1htkbf6ndy1h.png",
             "width": 1600,
             "height": 1200
           },
@@ -34,23 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-72ab95ce6bdb",
+              "id": "luongson-5192c7a7e2ea",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-72ab95ce6bdb",
-                  "name": "Racing Club vs Caracas Fc",
+                  "id": "luongson-5192c7a7e2ea",
+                  "name": "Ca Penarol vs Corinthians Paulista (Sp)",
                   "streams": [
                     {
-                      "id": "luongson-72ab95ce6bdb",
+                      "id": "luongson-5192c7a7e2ea",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-43dd88424b",
+                          "id": "lnk-c48a002ff2",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/KHONGMINH/index.m3u8?expire=1788427256&sign=003a6e74f0efdf441ba4b32785a21d31"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-844ab6053ea0",
+          "name": "⚽ Univ Catolica vs Barcelona Sc(Ecu) | 31' • 0 : 0",
+          "tournament": "Copa Libertadores",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/945_1h8qpdhpf91b.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2950_1gt3w9dwb11z.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/945_1h8qpdhpf91b.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-844ab6053ea0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-844ab6053ea0",
+                  "name": "Univ Catolica vs Barcelona Sc(Ecu)",
+                  "streams": [
+                    {
+                      "id": "luongson-844ab6053ea0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44c0a28f5a",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c0a9abc906",
+                          "id": "lnk-9baa0f01e8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,117 +167,11 @@
           ]
         },
         {
-          "id": "luongson-5192c7a7e2ea",
-          "name": "⚽ Ca Penarol vs Corinthians Paulista (Sp) | 21' • 1 : 0",
-          "tournament": "Copa Libertadores",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1584_1htkbf6ndy1h.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/315_1j9d3cawpe2k.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1584_1htkbf6ndy1h.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5192c7a7e2ea",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5192c7a7e2ea",
-                  "name": "Ca Penarol vs Corinthians Paulista (Sp)",
-                  "streams": [
-                    {
-                      "id": "luongson-5192c7a7e2ea",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c33e4b435f",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KHONGMINH/index.m3u8?expire=1788427256&sign=003a6e74f0efdf441ba4b32785a21d31"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-844ab6053ea0",
-          "name": "⚽ Univ Catolica vs Barcelona Sc(Ecu) | 21' • 0 : 0",
-          "tournament": "Copa Libertadores",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/945_1h8qpdhpf91b.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2950_1gt3w9dwb11z.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/945_1h8qpdhpf91b.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-844ab6053ea0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-844ab6053ea0",
-                  "name": "Univ Catolica vs Barcelona Sc(Ecu)",
-                  "streams": [
-                    {
-                      "id": "luongson-844ab6053ea0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6626c3d534",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c226b6a16ed2",
-          "name": "⚽ Macara vs Alianza Atletico Sullana | 0 : 0",
+          "id": "luongson-72ab95ce6bdb",
+          "name": "⚽ Racing Club vs Caracas Fc | HT • 2 : 1",
           "tournament": "Copa Sudamericana",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3307_1j3s206m3c2y.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2127_20121218174957.gif",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/270_164940927697.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4042_1htkbf29ax1.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -232,7 +179,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3307_1j3s206m3c2y.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/270_164940927697.png",
             "width": 1600,
             "height": 1200
           },
@@ -246,30 +193,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-c226b6a16ed2",
+              "id": "luongson-72ab95ce6bdb",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c226b6a16ed2",
-                  "name": "Macara vs Alianza Atletico Sullana",
+                  "id": "luongson-72ab95ce6bdb",
+                  "name": "Racing Club vs Caracas Fc",
                   "streams": [
                     {
-                      "id": "luongson-c226b6a16ed2",
+                      "id": "luongson-72ab95ce6bdb",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6e344dc6ec",
+                          "id": "lnk-809666b025",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        },
-                        {
-                          "id": "lnk-47ac0d35c0",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -318,18 +258,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-309ed13a4e",
+                          "id": "lnk-319728b73e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-052e2e8dcf",
+                          "id": "lnk-3770eaf2ac",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c226b6a16ed2",
+          "name": "⚽ Macara vs Alianza Atletico Sullana | 0 : 0",
+          "tournament": "Copa Sudamericana",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3307_1j3s206m3c2y.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2127_20121218174957.gif",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3307_1j3s206m3c2y.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c226b6a16ed2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c226b6a16ed2",
+                  "name": "Macara vs Alianza Atletico Sullana",
+                  "streams": [
+                    {
+                      "id": "luongson-c226b6a16ed2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5bcca9ced6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                        },
+                        {
+                          "id": "lnk-2d98e98cd0",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -378,14 +378,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2f3b4a72dd",
+                          "id": "lnk-eee8ed82f0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-24ed16b61e",
+                          "id": "lnk-0a1783a246",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -438,18 +438,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cf2ae3be80",
+                          "id": "lnk-385ff95994",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-77414d048f",
+                          "id": "lnk-54e59ecd82",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
