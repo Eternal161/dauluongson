@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:40 22/05/2026",
+  "last_updated": "15:50 22/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-aae9b56e1037",
+          "name": "⚽ Arema Fc vs Psim Yogyakarta | 21' • 1 : 0",
+          "tournament": "Indonesia Liga 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3401_164941022544.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16858_164085294979.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3401_164941022544.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-aae9b56e1037",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-aae9b56e1037",
+                  "name": "Arema Fc vs Psim Yogyakarta",
+                  "streams": [
+                    {
+                      "id": "luongson-aae9b56e1037",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a767e8ae3",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-d6cbf26e9b3b",
           "name": "⚽ Manawatu Jets vs Canterbury Rams | H1 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8012d54527",
+                          "id": "lnk-6910f4dbf6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,114 +114,8 @@
           ]
         },
         {
-          "id": "luongson-aae9b56e1037",
-          "name": "⚽ Arema Fc vs Psim Yogyakarta | 11' • 1 : 0",
-          "tournament": "Indonesia Liga 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3401_164941022544.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16858_164085294979.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3401_164941022544.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-aae9b56e1037",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-aae9b56e1037",
-                  "name": "Arema Fc vs Psim Yogyakarta",
-                  "streams": [
-                    {
-                      "id": "luongson-aae9b56e1037",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-416ba52700",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NHIKA1/index.m3u8?expire=1788427256&sign=91d8d858b7cdccb6dd825469190514bd"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e32c0d5e0274",
-          "name": "⚽ Auckland Fc Reserves vs Eastern Suburbs Afc | 83' • 0 : 1",
-          "tournament": "Northern New Zealand League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68941_1jrj4svr4m0.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24658_1j4rb33n0m6.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/68941_1jrj4svr4m0.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e32c0d5e0274",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e32c0d5e0274",
-                  "name": "Auckland Fc Reserves vs Eastern Suburbs Afc",
-                  "streams": [
-                    {
-                      "id": "luongson-e32c0d5e0274",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1b59023891",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-3158ae07f845",
-          "name": "⚽ Dalian Yingbo B vs Taian Tiankuang | 83' • 0 : 1",
+          "name": "⚽ Dalian Yingbo B vs Taian Tiankuang | 90+' • 0 : 1",
           "tournament": "Chinese Football Association Yi League",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779431887.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/58101_1jstdfz0g62s.png",
@@ -205,11 +152,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b6c5564223",
+                          "id": "lnk-fe9b8cc501",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                          "url": "https://hls.cdnfaster-a.live/live/KHONGMINH/index.m3u8?expire=1788427256&sign=003a6e74f0efdf441ba4b32785a21d31"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e32c0d5e0274",
+          "name": "⚽ Auckland Fc Reserves vs Eastern Suburbs Afc | 90+' • 0 : 1",
+          "tournament": "Northern New Zealand League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68941_1jrj4svr4m0.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24658_1j4rb33n0m6.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/68941_1jrj4svr4m0.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e32c0d5e0274",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e32c0d5e0274",
+                  "name": "Auckland Fc Reserves vs Eastern Suburbs Afc",
+                  "streams": [
+                    {
+                      "id": "luongson-e32c0d5e0274",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a53268c3af",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -258,11 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9403cf67f0",
+                          "id": "lnk-ef2475edf3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -311,14 +311,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e4ddad1fa6",
+                          "id": "lnk-6c605fdbce",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-7bd266fc92",
+                          "id": "lnk-4d8621ad6f",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -371,14 +371,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-749e1ff647",
+                          "id": "lnk-ab6d8f097a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-ce066d90f0",
+                          "id": "lnk-665158cba3",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -431,14 +431,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3fbfd48b01",
+                          "id": "lnk-5ed66c6223",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-1ea7a3f711",
+                          "id": "lnk-9d0f0f408c",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
