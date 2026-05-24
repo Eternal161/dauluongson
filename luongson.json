@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:40 24/05/2026",
+  "last_updated": "14:50 24/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-03aa60ae28db",
-          "name": "⚽ Pyeongtaek Citizen vs Pyeongchang Fc | 80' • 0 : 1",
-          "tournament": "Korea League 4",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29181_1ht911eskv15.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6800_1ht788jq2r22.png",
+          "id": "luongson-ea01468f80f2",
+          "name": "⚽ Shimizu S-Pulse vs Gamba Osaka | 0 : 0",
+          "tournament": "J1 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/191_1gtzcts2p01p.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/194_1gtzd3qtya20.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29181_1ht911eskv15.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/191_1gtzcts2p01p.png",
             "width": 1600,
             "height": 1200
           },
@@ -34,23 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-03aa60ae28db",
+              "id": "luongson-ea01468f80f2",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-03aa60ae28db",
-                  "name": "Pyeongtaek Citizen vs Pyeongchang Fc",
+                  "id": "luongson-ea01468f80f2",
+                  "name": "Shimizu S-Pulse vs Gamba Osaka",
                   "streams": [
                     {
-                      "id": "luongson-03aa60ae28db",
+                      "id": "luongson-ea01468f80f2",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-29ff8a8e4f",
+                          "id": "lnk-d94e855fdf",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5sKvK9p6gZ2pQk/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -62,7 +62,7 @@
         },
         {
           "id": "luongson-ccab05aee5f9",
-          "name": "⚽ Sunshine Coast Wanderers (W) vs Brisbane Olympic (W) | 77' • 1 : 2",
+          "name": "⚽ Sunshine Coast Wanderers (W) vs Brisbane Olympic (W) | 87' • 1 : 2",
           "tournament": "Australia Queensland State Women's Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/48569_1gsh0m06k21k.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/22201_1gskjw3q9m2k.png",
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a1ef5c6c70",
+                          "id": "lnk-b26dabe019",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,8 +114,61 @@
           ]
         },
         {
+          "id": "luongson-03aa60ae28db",
+          "name": "⚽ Pyeongtaek Citizen vs Pyeongchang Fc | 90' • 0 : 1",
+          "tournament": "Korea League 4",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29181_1ht911eskv15.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6800_1ht788jq2r22.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29181_1ht911eskv15.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-03aa60ae28db",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-03aa60ae28db",
+                  "name": "Pyeongtaek Citizen vs Pyeongchang Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-03aa60ae28db",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0b45264c2",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5sKvK9p6gZ2pQk/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-af15f9cee008",
-          "name": "⚽ Hellenic Ac vs Port Darwin Fc | 54' • 1 : 1",
+          "name": "⚽ Hellenic Ac vs Port Darwin Fc | 64' • 2 : 3",
           "tournament": "Australia Darwin Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/29672_1gygqrsndb28.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/29750_1gyk775sbe17.png",
@@ -152,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-41d863b3eb",
+                          "id": "lnk-8c12a0bf95",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -167,167 +220,8 @@
           ]
         },
         {
-          "id": "luongson-5788ec6e199d",
-          "name": "⚽ Mt Druitt Town Rangers Fc (W) vs Maca Searle (W) | 37' • 1 : 1",
-          "tournament": "NSW Premier W-League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68296_1jnwev200q2v.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22443_1gvsptckhqb.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/68296_1jnwev200q2v.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5788ec6e199d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5788ec6e199d",
-                  "name": "Mt Druitt Town Rangers Fc (W) vs Maca Searle (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-5788ec6e199d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f4093c17d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqexzQj7vfvge3v/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-61bc8bcdbdc6",
-          "name": "⚽ Grange Thistle Sc vs Samford Ranges | 36' • 0 : 0",
-          "tournament": "Australia Queensland Premier League 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11723_1gtn2qyrjb1w.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11724_1gwbea77x4s.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11723_1gtn2qyrjb1w.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-61bc8bcdbdc6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-61bc8bcdbdc6",
-                  "name": "Grange Thistle Sc vs Samford Ranges",
-                  "streams": [
-                    {
-                      "id": "luongson-61bc8bcdbdc6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f9bc595af",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd633xHUttV2veqS/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f704c9e9675c",
-          "name": "⚽ North Lakes United (W) vs Mitchelton (W) | 37' • 0 : 0",
-          "tournament": "Australia Queensland State Women's Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64961_1htrsnsb1k1k.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22413_1gs1kb1k8qz.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64961_1htrsnsb1k1k.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f704c9e9675c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f704c9e9675c",
-                  "name": "North Lakes United (W) vs Mitchelton (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-f704c9e9675c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ca12617f2e",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5WaiMhTFWvyBrL/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-e7dd9a962bc7",
-          "name": "⚽ Souths United Sc (W) vs Brisbane City (W) | 39' • 0 : 4",
+          "name": "⚽ Souths United Sc (W) vs Brisbane City (W) | HT • 0 : 5",
           "tournament": "Australia Queensland State Women's Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/22178_1gxw24hcj8v.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/44084_1gvs76twxb7.png",
@@ -364,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9459cabae1",
+                          "id": "lnk-3988a77cdc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -379,8 +273,61 @@
           ]
         },
         {
+          "id": "luongson-f704c9e9675c",
+          "name": "⚽ North Lakes United (W) vs Mitchelton (W) | 45+' • 0 : 0",
+          "tournament": "Australia Queensland State Women's Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64961_1htrsnsb1k1k.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22413_1gs1kb1k8qz.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64961_1htrsnsb1k1k.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f704c9e9675c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f704c9e9675c",
+                  "name": "North Lakes United (W) vs Mitchelton (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-f704c9e9675c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c81e28ac3",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5WaiMhTFWvyBrL/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-5be5096866c7",
-          "name": "⚽ Tuv Buganuud vs Hunters Fc | 38' • 0 : 1",
+          "name": "⚽ Tuv Buganuud vs Hunters Fc | 45+' • 0 : 1",
           "tournament": "Mongolia Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/54419_1hd7w1aebg2a.png",
@@ -417,11 +364,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7ca8b162d2",
+                          "id": "lnk-970f4c1522",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6MwdLJjbhfZCQ9PT7r/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5788ec6e199d",
+          "name": "⚽ Mt Druitt Town Rangers Fc (W) vs Maca Searle (W) | 45+' • 1 : 1",
+          "tournament": "NSW Premier W-League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68296_1jnwev200q2v.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22443_1gvsptckhqb.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/68296_1jnwev200q2v.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5788ec6e199d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5788ec6e199d",
+                  "name": "Mt Druitt Town Rangers Fc (W) vs Maca Searle (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-5788ec6e199d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5314fc09a5",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqexzQj7vfvge3v/playlist.m3u8"
                         }
                       ]
                     }
