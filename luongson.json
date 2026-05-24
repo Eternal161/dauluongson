@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:40 25/05/2026",
+  "last_updated": "00:50 25/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-e36e2974432d",
+          "name": "⚽ Napoli vs Udinese | 89' • 1 : 0",
+          "tournament": "Italian Serie A",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1231_1j9ah1053g16.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/174_164869056546.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1231_1j9ah1053g16.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e36e2974432d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e36e2974432d",
+                  "name": "Napoli vs Udinese",
+                  "streams": [
+                    {
+                      "id": "luongson-e36e2974432d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86211feeed",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-85af948eb548",
           "name": "⚽ River Plate vs Belgrano | 0 : 0",
@@ -46,198 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-15803bb80f",
+                          "id": "lnk-cb5e9cd3f0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-432b318510",
+                          "id": "lnk-67389f982e",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8dcdb47d558a",
-          "name": "⚽ Verona vs As Roma | 0 : 0",
-          "tournament": "Italian Serie A",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/513_1k0n84sy5gg.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/161_164869002671.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/513_1k0n84sy5gg.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8dcdb47d558a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8dcdb47d558a",
-                  "name": "Verona vs As Roma",
-                  "streams": [
-                    {
-                      "id": "luongson-8dcdb47d558a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a9e8ce03c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        },
-                        {
-                          "id": "lnk-248231fc1d",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fceb4bcc5188",
-          "name": "⚽ Cremonese vs Como | 0 : 0",
-          "tournament": "Italian Serie A",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1211_1hk6e9yjze12.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1209_1gq91tkggc2h.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1211_1hk6e9yjze12.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fceb4bcc5188",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fceb4bcc5188",
-                  "name": "Cremonese vs Como",
-                  "streams": [
-                    {
-                      "id": "luongson-fceb4bcc5188",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c8f6fb7b1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        },
-                        {
-                          "id": "lnk-c6a28cf21b",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d9e73c3567a8",
-          "name": "⚽ Torino vs Juventus | 0 : 0",
-          "tournament": "Italian Serie A",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/512_164869071877.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/153_1grmmxq1wa2k.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/512_164869071877.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d9e73c3567a8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d9e73c3567a8",
-                  "name": "Torino vs Juventus",
-                  "streams": [
-                    {
-                      "id": "luongson-d9e73c3567a8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d667745714",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        },
-                        {
-                          "id": "lnk-afe33a7c3f",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -286,18 +159,198 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8b9ce91ba8",
+                          "id": "lnk-5e6478c6c8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-2084ab258f",
+                          "id": "lnk-3fcb62c2a3",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-fceb4bcc5188",
+          "name": "⚽ Cremonese vs Como | 0 : 0",
+          "tournament": "Italian Serie A",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1211_1hk6e9yjze12.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1209_1gq91tkggc2h.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1211_1hk6e9yjze12.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fceb4bcc5188",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fceb4bcc5188",
+                  "name": "Cremonese vs Como",
+                  "streams": [
+                    {
+                      "id": "luongson-fceb4bcc5188",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1567c4715",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                        },
+                        {
+                          "id": "lnk-0e938ecbd2",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d9e73c3567a8",
+          "name": "⚽ Torino vs Juventus | 0 : 0",
+          "tournament": "Italian Serie A",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/512_164869071877.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/153_1grmmxq1wa2k.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/512_164869071877.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d9e73c3567a8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d9e73c3567a8",
+                  "name": "Torino vs Juventus",
+                  "streams": [
+                    {
+                      "id": "luongson-d9e73c3567a8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b8256fc87",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                        },
+                        {
+                          "id": "lnk-12434577dd",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8dcdb47d558a",
+          "name": "⚽ Verona vs As Roma | 0 : 0",
+          "tournament": "Italian Serie A",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/513_1k0n84sy5gg.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/161_164869002671.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/513_1k0n84sy5gg.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8dcdb47d558a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8dcdb47d558a",
+                  "name": "Verona vs As Roma",
+                  "streams": [
+                    {
+                      "id": "luongson-8dcdb47d558a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d672ee5bf",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                        },
+                        {
+                          "id": "lnk-e9ed31844d",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -346,18 +399,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-28be1c2531",
+                          "id": "lnk-f338f8ae9a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-ce2391beb5",
+                          "id": "lnk-b763fae86e",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -406,78 +459,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f664e995be",
+                          "id": "lnk-2b499471fa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-9fc63ee9e8",
+                          "id": "lnk-5627908394",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-49d676969ac7",
-          "name": "⚽ Cruzeiro vs Chapecoense Sc | 0 : 0",
-          "tournament": "Brazil Serie A",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/320_1grcyq30k1x.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6403_1grwgc3gyj2p.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/320_1grcyq30k1x.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-49d676969ac7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-49d676969ac7",
-                  "name": "Cruzeiro vs Chapecoense Sc",
-                  "streams": [
-                    {
-                      "id": "luongson-49d676969ac7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-219440ffea",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        },
-                        {
-                          "id": "lnk-31887c7c5a",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
