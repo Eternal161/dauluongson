@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:40 24/05/2026",
+  "last_updated": "13:50 24/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-8baa72912c2b",
+          "name": "⚽ Tokyo Verdy vs Yokohama Marinos | 89' • 0 : 5",
+          "tournament": "J1 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/187_1h53w5e0f9p.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/183_1gtzcts26eq.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/187_1h53w5e0f9p.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8baa72912c2b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8baa72912c2b",
+                  "name": "Tokyo Verdy vs Yokohama Marinos",
+                  "streams": [
+                    {
+                      "id": "luongson-8baa72912c2b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-48bbe777f5",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-85b7853f5718",
-          "name": "⚽ Mito Hollyhock vs Kawasaki Frontale | 82' • 0 : 2",
+          "name": "⚽ Mito Hollyhock vs Kawasaki Frontale | 90+' • 0 : 3",
           "tournament": "J1 League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2664_1gtqm8vyr33.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1661_1gtzcts26x2r.png",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c864bbddd4",
+                          "id": "lnk-0f4d367997",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,8 +114,61 @@
           ]
         },
         {
+          "id": "luongson-c494298e7adc",
+          "name": "⚽ Melbourne Heart (Youth) vs Dandenong Thunder | 89' • 2 : 0",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16371_1gsejayn8n27.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8681_1gxpydyxbk1t.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/16371_1gsejayn8n27.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c494298e7adc",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c494298e7adc",
+                  "name": "Melbourne Heart (Youth) vs Dandenong Thunder",
+                  "streams": [
+                    {
+                      "id": "luongson-c494298e7adc",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-630dcb51c9",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-acb356701b37",
-          "name": "⚽ Preston Lions vs Oakleigh Cannons | 83' • 0 : 1",
+          "name": "⚽ Preston Lions vs Oakleigh Cannons | 90+' • 0 : 1",
           "tournament": "VIC Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png",
@@ -99,117 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-58cd5bd750",
+                          "id": "lnk-8ea2fdb4ff",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-079def7acf41",
-          "name": "⚽ Melbourne Heart (Youth) vs Dandenong Thunder | 79' • 1 : 0",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16371_1gsejayn8n27.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8681_1gxpydyxbk1t.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/16371_1gsejayn8n27.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-079def7acf41",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-079def7acf41",
-                  "name": "Melbourne Heart (Youth) vs Dandenong Thunder",
-                  "streams": [
-                    {
-                      "id": "luongson-079def7acf41",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1abbc3dbe8",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-875c5b0a62f2",
-          "name": "⚽ Tokyo Verdy vs Yokohama Marinos | 79' • 0 : 5",
-          "tournament": "J1 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/187_1h53w5e0f9p.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/183_1gtzcts26eq.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/187_1h53w5e0f9p.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-875c5b0a62f2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-875c5b0a62f2",
-                  "name": "Tokyo Verdy vs Yokohama Marinos",
-                  "streams": [
-                    {
-                      "id": "luongson-875c5b0a62f2",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d9e72ad624",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -258,18 +258,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9297c9d47f",
+                          "id": "lnk-42f60adaab",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-a9317ac08c",
+                          "id": "lnk-24ccd556ac",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -318,18 +318,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-482d239eb8",
+                          "id": "lnk-8c8fcf151c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-f7b1182e75",
+                          "id": "lnk-7542aa3fe4",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -378,18 +378,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d35516b4fb",
+                          "id": "lnk-8b94bb1a57",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-5dfd5bcef4",
+                          "id": "lnk-920ab6be3e",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -438,18 +438,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2c96b24cb1",
+                          "id": "lnk-da6b444c4c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-cbee3b099a",
+                          "id": "lnk-bc19948cfd",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
