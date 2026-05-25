@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:10 25/05/2026",
+  "last_updated": "09:20 25/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-bcc057919940",
-          "name": "⚽ Los Angeles Fc vs Seattle Sounders | 45+' • 0 : 0",
-          "tournament": "USA Major League Soccer",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33572_1gv1ymnzhyq.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4727_1hxb3nrv3ya.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/33572_1gv1ymnzhyq.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bcc057919940",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bcc057919940",
-                  "name": "Los Angeles Fc vs Seattle Sounders",
-                  "streams": [
-                    {
-                      "id": "luongson-bcc057919940",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c47fa025f5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-cb4ab4aaea3d",
           "name": "⚽ San Antonio Spurs vs Klahoma City Thunder | H1 • 0 : 0",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-804f09e7d8",
+                          "id": "lnk-f436ba3c02",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,7 +61,7 @@
           ]
         },
         {
-          "id": "luongson-f9639043aa76",
+          "id": "luongson-c4a5a2d33c69",
           "name": "⚽ Pumas U.N.A.M. vs Cdsyc Cruz Azul | HT • 1 : 0",
           "tournament": "Primera Division Liga MX",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1153_1j25bvh4yk2a.png",
@@ -140,23 +87,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-f9639043aa76",
+              "id": "luongson-c4a5a2d33c69",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-f9639043aa76",
+                  "id": "luongson-c4a5a2d33c69",
                   "name": "Pumas U.N.A.M. vs Cdsyc Cruz Azul",
                   "streams": [
                     {
-                      "id": "luongson-f9639043aa76",
+                      "id": "luongson-c4a5a2d33c69",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f23e6aa1ef",
+                          "id": "lnk-2b1118fc9a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bcc057919940",
+          "name": "⚽ Los Angeles Fc vs Seattle Sounders | HT • 0 : 0",
+          "tournament": "USA Major League Soccer",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33572_1gv1ymnzhyq.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4727_1hxb3nrv3ya.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/33572_1gv1ymnzhyq.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bcc057919940",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bcc057919940",
+                  "name": "Los Angeles Fc vs Seattle Sounders",
+                  "streams": [
+                    {
+                      "id": "luongson-bcc057919940",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ef1764ee2",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -168,7 +168,7 @@
         },
         {
           "id": "luongson-ff6cd8a4ca46",
-          "name": "⚽ Portland Bangers vs Tacoma Stars | 11' • 0 : 0",
+          "name": "⚽ Portland Bangers vs Tacoma Stars | 21' • 0 : 0",
           "tournament": "USA USL League Two",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69282_1jx1bnz1662x.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65540_1hysdtwbec1h.png",
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-de0a7d0a4a",
+                          "id": "lnk-eed7a51cc6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -223,7 +223,7 @@
           "id": "luongson-18e5d482766e",
           "name": "⚽ Stars Fc vs Redlands Fc | 0 : 0",
           "tournament": "USA USL League Two",
-          "logo_nha": "https://ui-avatars.com/api/?name=St&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779675080.webp",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/61769_1h1fwnbfc61p.png",
           "type": "single",
           "display": "thumbnail-only",
@@ -232,7 +232,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=St&size=200&background=1565C0&color=ffffff&bold=true",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779675080.webp",
             "width": 1600,
             "height": 1200
           },
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-61cf2fb512",
+                          "id": "lnk-e1e3966431",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,18 +311,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a6eb051e2c",
+                          "id": "lnk-92bd3d2b4a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-a2c62033c6",
+                          "id": "lnk-87afb5e467",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -371,18 +371,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5475c70d42",
+                          "id": "lnk-53203182b7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-4752bdcaae",
+                          "id": "lnk-59f05adc54",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -431,18 +431,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-17f454dd11",
+                          "id": "lnk-118187e81c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-baff4c1847",
+                          "id": "lnk-7568899804",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
