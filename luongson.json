@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:20 25/05/2026",
+  "last_updated": "19:30 25/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-b99f31d4b9f9",
+          "name": "⚽ Bhutan (W) vs Nepal (W) | 67' • 0 : 1",
+          "tournament": "Asia SAFF Club Women Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16124_1gxa4t8d1bx.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16107_1gxa4swccw17.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/16124_1gxa4t8d1bx.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b99f31d4b9f9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b99f31d4b9f9",
+                  "name": "Bhutan (W) vs Nepal (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-b99f31d4b9f9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b147d61070",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-825dd5b01d62",
-          "name": "⚽ Start Kristiansand vs Valerenga | 0 : 0",
+          "name": "⚽ Start Kristiansand vs Valerenga | 1' • 0 : 0",
           "tournament": "Norwegian Tippeligaen",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1109_1gxmbp25v21r.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/441_1gxmbkap742v.png",
@@ -26,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "● Live",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -44,68 +97,7 @@
                     {
                       "id": "luongson-825dd5b01d62",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d67c66ee92",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c4ffa7152770",
-          "name": "⚽ Kolding If vs Hillerod Fodbold | 66' • 2 : 0",
-          "tournament": "Danish 1st Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1449_1j9jcsq451v.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15674_1j1rg0mx2b2r.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1449_1j9jcsq451v.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c4ffa7152770",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c4ffa7152770",
-                  "name": "Kolding If vs Hillerod Fodbold",
-                  "streams": [
-                    {
-                      "id": "luongson-c4ffa7152770",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8ef7f5a3d8",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -152,7 +144,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1506ed9e3d",
+                          "id": "lnk-3a03ad04da",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,11 +197,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e4e41a4752",
+                          "id": "lnk-b695a98e7c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -220,11 +212,11 @@
           ]
         },
         {
-          "id": "luongson-b99f31d4b9f9",
-          "name": "⚽ Bhutan (W) vs Nepal (W) | 57' • 0 : 1",
-          "tournament": "Asia SAFF Club Women Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16124_1gxa4t8d1bx.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16107_1gxa4swccw17.png",
+          "id": "luongson-c4ffa7152770",
+          "name": "⚽ Kolding If vs Hillerod Fodbold | 76' • 2 : 0",
+          "tournament": "Danish 1st Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1449_1j9jcsq451v.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15674_1j1rg0mx2b2r.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -232,7 +224,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/16124_1gxa4t8d1bx.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/1449_1j9jcsq451v.png",
             "width": 1600,
             "height": 1200
           },
@@ -246,23 +238,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-b99f31d4b9f9",
+              "id": "luongson-c4ffa7152770",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b99f31d4b9f9",
-                  "name": "Bhutan (W) vs Nepal (W)",
+                  "id": "luongson-c4ffa7152770",
+                  "name": "Kolding If vs Hillerod Fodbold",
                   "streams": [
                     {
-                      "id": "luongson-b99f31d4b9f9",
+                      "id": "luongson-c4ffa7152770",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4e29e965a3",
+                          "id": "lnk-50de59406e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -311,18 +303,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-576084615f",
+                          "id": "lnk-312906c4d5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        },
-                        {
-                          "id": "lnk-772482de66",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -371,18 +356,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-03506831bc",
+                          "id": "lnk-70342b8a0d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-2c6e5ba379",
+                          "id": "lnk-37116a07b1",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
@@ -431,18 +416,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b6cd9de9fd",
+                          "id": "lnk-a617261bcc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-ad94cde68d",
+                          "id": "lnk-a88590b2a3",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
