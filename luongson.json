@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:40 25/05/2026",
+  "last_updated": "20:50 25/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-30bb15c76b3a",
+          "name": "⚽ Start Kristiansand vs Valerenga | 62' • 2 : 0",
+          "tournament": "Norwegian Tippeligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1109_1gxmbp25v21r.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/441_1gxmbkap742v.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1109_1gxmbp25v21r.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-30bb15c76b3a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-30bb15c76b3a",
+                  "name": "Start Kristiansand vs Valerenga",
+                  "streams": [
+                    {
+                      "id": "luongson-30bb15c76b3a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6333ab8b4",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-6ca74e2abe78",
           "name": "⚽ Drukpa Fc vs Tsirang Fc | H1 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-df5b9ff51a",
+                          "id": "lnk-f929a24f06",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,61 +114,8 @@
           ]
         },
         {
-          "id": "luongson-825dd5b01d62",
-          "name": "⚽ Start Kristiansand vs Valerenga | 52' • 2 : 0",
-          "tournament": "Norwegian Tippeligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1109_1gxmbp25v21r.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/441_1gxmbkap742v.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1109_1gxmbp25v21r.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-825dd5b01d62",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-825dd5b01d62",
-                  "name": "Start Kristiansand vs Valerenga",
-                  "streams": [
-                    {
-                      "id": "luongson-825dd5b01d62",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23330da6b6",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-36033af663e4",
-          "name": "⚽ Hvidovre If vs Esbjerg | 40' • 0 : 1",
+          "name": "⚽ Hvidovre If vs Esbjerg | HT • 0 : 1",
           "tournament": "Danish 1st Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1446_1h5bja72xb19.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/204_1gtqq4dazr1z.png",
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-baa317e02b",
+                          "id": "lnk-e7d42e22d1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8d356dcb07",
+                          "id": "lnk-ca8afcf0c1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fff38ec4eb",
+                          "id": "lnk-01756a2ef6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ea37693726",
+                          "id": "lnk-ac6e4b0516",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,18 +364,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-84ea32e002",
+                          "id": "lnk-36d63f752f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-66af4f629b",
+                          "id": "lnk-9dde3129a4",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
@@ -424,18 +424,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2c488db33f",
+                          "id": "lnk-cdab45a4bb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-a98ddeb69e",
+                          "id": "lnk-f33922b2ea",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
