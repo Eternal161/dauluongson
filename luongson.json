@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:00 25/05/2026",
+  "last_updated": "20:10 25/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-cfe740602cf9",
-          "name": "⚽ Croatia U17 vs Belgium U17 | 73' • 0 : 2",
-          "tournament": "UEFA European U-17 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1835_165750041563.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3573_165750403496.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1835_165750041563.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-cfe740602cf9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-cfe740602cf9",
-                  "name": "Croatia U17 vs Belgium U17",
-                  "streams": [
-                    {
-                      "id": "luongson-cfe740602cf9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-521106c08a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-36033af663e4",
-          "name": "⚽ Hvidovre If vs Esbjerg | 0 : 0",
+          "name": "⚽ Hvidovre If vs Esbjerg | 11' • 0 : 0",
           "tournament": "Danish 1st Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1446_1h5bja72xb19.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/204_1gtqq4dazr1z.png",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-177defddd4",
+                          "id": "lnk-dbf2f33ff0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-edf9e17d9d",
+                          "id": "lnk-f1294a1f3e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -168,7 +115,7 @@
         },
         {
           "id": "luongson-30bb15c76b3a",
-          "name": "⚽ Start Kristiansand vs Valerenga | 31' • 1 : 0",
+          "name": "⚽ Start Kristiansand vs Valerenga | 41' • 2 : 0",
           "tournament": "Norwegian Tippeligaen",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1109_1gxmbp25v21r.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/441_1gxmbkap742v.png",
@@ -205,11 +152,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aaaa547c35",
+                          "id": "lnk-5043bfb54d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-cfe740602cf9",
+          "name": "⚽ Croatia U17 vs Belgium U17 | 83' • 0 : 2",
+          "tournament": "UEFA European U-17 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1835_165750041563.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3573_165750403496.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1835_165750041563.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cfe740602cf9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cfe740602cf9",
+                  "name": "Croatia U17 vs Belgium U17",
+                  "streams": [
+                    {
+                      "id": "luongson-cfe740602cf9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37f441119c",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -258,18 +258,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-996b502e30",
+                          "id": "lnk-f0ceac6fbd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-07eab7c241",
+                          "id": "lnk-07cb12bc69",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
@@ -318,18 +318,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e7237628a2",
+                          "id": "lnk-ec3e91422a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-347a9ac684",
+                          "id": "lnk-6bb237513c",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
@@ -378,18 +378,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c2538a4d7c",
+                          "id": "lnk-749981872b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-a1e3babd29",
+                          "id": "lnk-9da528a5da",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
@@ -438,18 +438,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d8391cd72c",
+                          "id": "lnk-b4ffb2ec2e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         },
                         {
-                          "id": "lnk-a06b1792a7",
+                          "id": "lnk-da91b4095e",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         }
                       ]
                     }
