@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:50 27/05/2026",
+  "last_updated": "04:01 27/05/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-6617cfc3291a",
-          "name": "⚽ Stjarnan Gardabaer vs Vikingur Reykjavik | 77' • 1 : 3",
+          "name": "⚽ Stjarnan Gardabaer vs Vikingur Reykjavik | 87' • 1 : 3",
           "tournament": "Iceland Premier Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3685_165363460165.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-809be6a5b4",
+                          "id": "lnk-ed8266a98c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,11 +61,11 @@
           ]
         },
         {
-          "id": "luongson-5df31a56d1a3",
-          "name": "⚽ Atletico De Madrid (W) vs Ud Granadilla Tenerife Sur (W) | 85' • 2 : 1",
-          "tournament": "Spanish Ladies Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5801_1gtzdafg2c20.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22092_1gtwwyx4sn1x.png",
+          "id": "luongson-28d17eacca36",
+          "name": "⚽ Real Soacha Cundinamarca vs Aguilas Doradas | 31' • 1 : 0",
+          "tournament": "Colombia Copa Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6884_1hrr4bq4s61k.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8843_1gtzd4kn605.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5801_1gtzdafg2c20.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/6884_1hrr4bq4s61k.png",
             "width": 1600,
             "height": 1200
           },
@@ -87,23 +87,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-5df31a56d1a3",
+              "id": "luongson-28d17eacca36",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-5df31a56d1a3",
-                  "name": "Atletico De Madrid (W) vs Ud Granadilla Tenerife Sur (W)",
+                  "id": "luongson-28d17eacca36",
+                  "name": "Real Soacha Cundinamarca vs Aguilas Doradas",
                   "streams": [
                     {
-                      "id": "luongson-5df31a56d1a3",
+                      "id": "luongson-28d17eacca36",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-29ee3f7327",
+                          "id": "lnk-316a68a2d4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e288b2975d4c",
+          "name": "⚽ Deportivo Pereira vs Jaguares De Cordoba | 31' • 0 : 0",
+          "tournament": "Colombia Copa Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2222_1gzj3wzmx21k.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18668_1gzsy5kmps2r.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2222_1gzj3wzmx21k.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e288b2975d4c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e288b2975d4c",
+                  "name": "Deportivo Pereira vs Jaguares De Cordoba",
+                  "streams": [
+                    {
+                      "id": "luongson-e288b2975d4c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64860ea4f2",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -115,7 +168,7 @@
         },
         {
           "id": "luongson-411cbbacaf2e",
-          "name": "⚽ Kr Reykjavik vs Valur Reykjavik | 77' • 3 : 1",
+          "name": "⚽ Kr Reykjavik vs Valur Reykjavik | 88' • 3 : 1",
           "tournament": "Iceland Premier Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1402_165363447390.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1932_165363454417.png",
@@ -152,11 +205,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0c62539a5b",
+                          "id": "lnk-803b939f66",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5df31a56d1a3",
+          "name": "⚽ Atletico De Madrid (W) vs Ud Granadilla Tenerife Sur (W) | 90+' • 2 : 2",
+          "tournament": "Spanish Ladies Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5801_1gtzdafg2c20.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22092_1gtwwyx4sn1x.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5801_1gtzdafg2c20.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5df31a56d1a3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5df31a56d1a3",
+                  "name": "Atletico De Madrid (W) vs Ud Granadilla Tenerife Sur (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-5df31a56d1a3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8150f2adfa",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -205,124 +311,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9e026d29c3",
+                          "id": "lnk-9771ce5ffa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-20269c845f",
+                          "id": "lnk-36ef22e13f",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e288b2975d4c",
-          "name": "⚽ Deportivo Pereira vs Jaguares De Cordoba | 21' • 0 : 0",
-          "tournament": "Colombia Copa Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2222_1gzj3wzmx21k.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18668_1gzsy5kmps2r.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2222_1gzj3wzmx21k.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e288b2975d4c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e288b2975d4c",
-                  "name": "Deportivo Pereira vs Jaguares De Cordoba",
-                  "streams": [
-                    {
-                      "id": "luongson-e288b2975d4c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9edfab53c1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-28d17eacca36",
-          "name": "⚽ Real Soacha Cundinamarca vs Aguilas Doradas | 20' • 1 : 0",
-          "tournament": "Colombia Copa Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6884_1hrr4bq4s61k.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8843_1gtzd4kn605.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6884_1hrr4bq4s61k.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-28d17eacca36",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-28d17eacca36",
-                  "name": "Real Soacha Cundinamarca vs Aguilas Doradas",
-                  "streams": [
-                    {
-                      "id": "luongson-28d17eacca36",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0eaed41509",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -371,14 +371,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-09596dd0cb",
+                          "id": "lnk-d1ec2cdd32",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-7593a7d0bb",
+                          "id": "lnk-1617c395db",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -431,14 +431,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-82211aa4ff",
+                          "id": "lnk-059e5e9c86",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-1e9dac9c52",
+                          "id": "lnk-75f119b211",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
