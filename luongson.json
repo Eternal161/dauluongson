@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:10 27/05/2026",
+  "last_updated": "03:20 27/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-411cbbacaf2e",
-          "name": "⚽ Kr Reykjavik vs Valur Reykjavik | HT • 2 : 0",
-          "tournament": "Iceland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1402_165363447390.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1932_165363454417.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1402_165363447390.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-411cbbacaf2e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-411cbbacaf2e",
-                  "name": "Kr Reykjavik vs Valur Reykjavik",
-                  "streams": [
-                    {
-                      "id": "luongson-411cbbacaf2e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6bfa30d750",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-f53f62b63997",
-          "name": "⚽ Saint Etienne vs Nice | 63' • 0 : 0",
+          "name": "⚽ Saint Etienne vs Nice | 74' • 0 : 0",
           "tournament": "France Ligue 2",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/231_16487117719.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/235_164871179882.png",
@@ -99,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f4adf66380",
+                          "id": "lnk-4a56e7a8db",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-ebabaa1c7aab",
-          "name": "⚽ Nigeria vs Zimbabwe | 79' • 2 : 0",
+          "name": "⚽ Nigeria vs Zimbabwe | 89' • 2 : 0",
           "tournament": "International Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/682_165018846810.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/13151_16501880583.png",
@@ -152,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6afef03a36",
+                          "id": "lnk-bfd8fd2bb7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -167,8 +114,61 @@
           ]
         },
         {
+          "id": "luongson-411cbbacaf2e",
+          "name": "⚽ Kr Reykjavik vs Valur Reykjavik | 47' • 2 : 0",
+          "tournament": "Iceland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1402_165363447390.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1932_165363454417.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1402_165363447390.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-411cbbacaf2e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-411cbbacaf2e",
+                  "name": "Kr Reykjavik vs Valur Reykjavik",
+                  "streams": [
+                    {
+                      "id": "luongson-411cbbacaf2e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9adecf6e1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-5df31a56d1a3",
-          "name": "⚽ Atletico De Madrid (W) vs Ud Granadilla Tenerife Sur (W) | HT • 1 : 1",
+          "name": "⚽ Atletico De Madrid (W) vs Ud Granadilla Tenerife Sur (W) | 54' • 2 : 2",
           "tournament": "Spanish Ladies Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/5801_1gtzdafg2c20.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/22092_1gtwwyx4sn1x.png",
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a96a848966",
+                          "id": "lnk-634f3cdbb2",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -221,7 +221,7 @@
         },
         {
           "id": "luongson-6617cfc3291a",
-          "name": "⚽ Stjarnan Gardabaer vs Vikingur Reykjavik | HT • 0 : 2",
+          "name": "⚽ Stjarnan Gardabaer vs Vikingur Reykjavik | 46' • 0 : 2",
           "tournament": "Iceland Premier Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3685_165363460165.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png",
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ceac805cd7",
+                          "id": "lnk-93d8bc4f7a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -274,7 +274,7 @@
         },
         {
           "id": "luongson-b03594cf72f8",
-          "name": "⚽ Greuther Furth vs Rot-Weiss Essen | 83' • 2 : 0",
+          "name": "⚽ Greuther Furth vs Rot-Weiss Essen | 90+' • 2 : 0",
           "tournament": "German Bundesliga 2",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/417_16487115697.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/455_2013120124756.jpg",
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-135b6b2223",
+                          "id": "lnk-159ae877ec",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,18 +364,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b79c1dcd70",
+                          "id": "lnk-ac5f7a6fdb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-5bfc177e66",
+                          "id": "lnk-c314f8eb59",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -424,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aabc4b3787",
+                          "id": "lnk-b7d9a959da",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
