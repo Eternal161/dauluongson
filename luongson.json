@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:50 26/05/2026",
+  "last_updated": "08:00 26/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-c5950f0ed4f7",
+          "name": "⚽ Real Cartagena vs Envigado Fc | 0 : 0",
+          "tournament": "Colombia Copa Premier",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2228_1gr7yw7skg26.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2221_1hrk16e6c4v.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2228_1gr7yw7skg26.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c5950f0ed4f7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c5950f0ed4f7",
+                  "name": "Real Cartagena vs Envigado Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-c5950f0ed4f7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-890a2391d6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-035e56f03430",
-          "name": "⚽ Cd Copiapo S.A. vs Union Espanola | HT • 3 : 1",
+          "name": "⚽ Cd Copiapo S.A. vs Union Espanola | 46' • 3 : 1",
           "tournament": "Chile Primera B",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/6259_1h5e4ahdw6d.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1a510bdfc6",
+                          "id": "lnk-3e1cc6832c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-b229665036a7",
-          "name": "⚽ Sociedad Deportiva Aucas vs Manta Fc | 45+' • 2 : 1",
+          "name": "⚽ Sociedad Deportiva Aucas vs Manta Fc | HT • 2 : 1",
           "tournament": "Primera Division de Ecuador",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2953_1gzczbcwx42d.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/8575_1gw4a01aae19.png",
@@ -99,11 +152,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aa2d2892b5",
+                          "id": "lnk-61e9b9d344",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-eb87446bd777",
+          "name": "⚽ Coritiba Pr vs Bahia | 89' • 3 : 1",
+          "tournament": "Brazil Serie A",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/316_1gy3wybtj81j.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1651_1grdmmb9f68.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/316_1gy3wybtj81j.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eb87446bd777",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eb87446bd777",
+                  "name": "Coritiba Pr vs Bahia",
+                  "streams": [
+                    {
+                      "id": "luongson-eb87446bd777",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0db5ef4cd",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -152,117 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6428684ea7",
+                          "id": "lnk-63b08a169d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eb87446bd777",
-          "name": "⚽ Coritiba Pr vs Bahia | 79' • 3 : 1",
-          "tournament": "Brazil Serie A",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/316_1gy3wybtj81j.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1651_1grdmmb9f68.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/316_1gy3wybtj81j.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eb87446bd777",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eb87446bd777",
-                  "name": "Coritiba Pr vs Bahia",
-                  "streams": [
-                    {
-                      "id": "luongson-eb87446bd777",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da6e794413",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c5950f0ed4f7",
-          "name": "⚽ Real Cartagena vs Envigado Fc | 0 : 0",
-          "tournament": "Colombia Copa Premier",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2228_1gr7yw7skg26.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2221_1hrk16e6c4v.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2228_1gr7yw7skg26.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c5950f0ed4f7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c5950f0ed4f7",
-                  "name": "Real Cartagena vs Envigado Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-c5950f0ed4f7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a53b27f62",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -311,18 +311,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cfb9d7bcd9",
+                          "id": "lnk-a8a27fa456",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-c32c8f6b41",
+                          "id": "lnk-cf72af3690",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -371,14 +371,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6c04f3fc54",
+                          "id": "lnk-69437145fc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-b561b54927",
+                          "id": "lnk-6e80218764",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -431,18 +431,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f246a3f495",
+                          "id": "lnk-ca2e8dacaa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-592bb42805",
+                          "id": "lnk-1acf797131",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
