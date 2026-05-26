@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:10 26/05/2026",
+  "last_updated": "22:20 26/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-50ab3d35a768",
-          "name": "⚽ Jelgava vs Fk Liepaja | 11' • 0 : 0",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-50ab3d35a768",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-50ab3d35a768",
-                  "name": "Jelgava vs Fk Liepaja",
-                  "streams": [
-                    {
-                      "id": "luongson-50ab3d35a768",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc0ccbd6ad",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-72d2d3e6f788",
-          "name": "⚽ Astana B vs Khan Tengri Fc | 51' • 0 : 0",
+          "name": "⚽ Astana B vs Khan Tengri Fc | 62' • 1 : 0",
           "tournament": "Kazakhstan Division 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/57342_1j08b7ahe42z.png",
@@ -99,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e2179a0ad3",
+                          "id": "lnk-e1ecc30e4c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-965421f92be9",
-          "name": "⚽ Ararat Yerevan vs Bkma | 12' • 0 : 0",
+          "name": "⚽ Ararat Yerevan vs Bkma | 22' • 0 : 0",
           "tournament": "Armenia Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1987_1gt88mrzwc2v.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/41151_1k8sb77nah2t.png",
@@ -152,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-17b5a7e8c4",
+                          "id": "lnk-a7d46d1a55",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -167,8 +114,61 @@
           ]
         },
         {
+          "id": "luongson-50ab3d35a768",
+          "name": "⚽ Jelgava vs Fk Liepaja | 21' • 0 : 0",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-50ab3d35a768",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-50ab3d35a768",
+                  "name": "Jelgava vs Fk Liepaja",
+                  "streams": [
+                    {
+                      "id": "luongson-50ab3d35a768",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07d3da91d2",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-1665842a7fc4",
-          "name": "⚽ Alashkert vs Shirak | 11' • 1 : 0",
+          "name": "⚽ Alashkert vs Shirak | 21' • 1 : 0",
           "tournament": "Armenia Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/17091_1h56c4f7vtw.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4944_1gxpyc6kvc1h.png",
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bd3529c725",
+                          "id": "lnk-1abb7c3f8e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-040de1cd7a",
+                          "id": "lnk-67a34da019",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,18 +311,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b0a57f414e",
+                          "id": "lnk-3c1ac28107",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-13ba58f95f",
+                          "id": "lnk-21cb34db6a",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -371,18 +371,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-05a38f3d0c",
+                          "id": "lnk-8653045089",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-03573e2e66",
+                          "id": "lnk-9f1a04e45d",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -431,18 +431,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-012241fa55",
+                          "id": "lnk-02e8676d5a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-3e25ccd016",
+                          "id": "lnk-0e0202ea2e",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
