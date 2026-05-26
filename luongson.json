@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:50 26/05/2026",
+  "last_updated": "07:00 26/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-72c2cb16ee0a",
+          "name": "⚽ Cleveland Cavaliers vs New York Knicks | H1 • 0 : 0",
+          "tournament": "NBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779731301.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779731303.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779731301.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-72c2cb16ee0a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-72c2cb16ee0a",
+                  "name": "Cleveland Cavaliers vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "luongson-72c2cb16ee0a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-42f139ed0e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-035e56f03430",
           "name": "⚽ Cd Copiapo S.A. vs Union Espanola | 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eaff1b7d42",
+                          "id": "lnk-18bcf08278",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-b229665036a7",
-          "name": "⚽ Sociedad Deportiva Aucas vs Manta Fc | 0 : 0",
+          "name": "⚽ Sociedad Deportiva Aucas vs Manta Fc | 1' • 0 : 0",
           "tournament": "Primera Division de Ecuador",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2953_1gzczbcwx42d.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/8575_1gw4a01aae19.png",
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-035869ca68",
+                          "id": "lnk-faf0faf5d9",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -115,7 +168,7 @@
         },
         {
           "id": "luongson-eb87446bd777",
-          "name": "⚽ Coritiba Pr vs Bahia | 45+' • 0 : 1",
+          "name": "⚽ Coritiba Pr vs Bahia | HT • 0 : 1",
           "tournament": "Brazil Serie A",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/316_1gy3wybtj81j.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1651_1grdmmb9f68.png",
@@ -152,64 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ca51cdc64e",
+                          "id": "lnk-eb2f91260f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-72c2cb16ee0a",
-          "name": "⚽ Cleveland Cavaliers vs New York Knicks | 0 : 0",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779731301.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779731303.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779731301.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-72c2cb16ee0a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-72c2cb16ee0a",
-                  "name": "Cleveland Cavaliers vs New York Knicks",
-                  "streams": [
-                    {
-                      "id": "luongson-72c2cb16ee0a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6d93b9d86",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -258,18 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dd926658ab",
+                          "id": "lnk-f16c538011",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
-                        },
-                        {
-                          "id": "lnk-a97e6bf473",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -318,18 +311,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4ec2f158d6",
+                          "id": "lnk-80bffdd96d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-9988c6b0af",
+                          "id": "lnk-48e24bd9b5",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -378,18 +371,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c48c8a52a2",
+                          "id": "lnk-27c75bfcfb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-09a0e126cb",
+                          "id": "lnk-4f439d4b4e",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -438,18 +431,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-358c0f85c5",
+                          "id": "lnk-f2246f55e3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-e5b90e9801",
+                          "id": "lnk-a02ae2e23f",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
