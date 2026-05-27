@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:30 27/05/2026",
+  "last_updated": "21:40 27/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-fd3dc948450c",
+          "name": "⚽ Vertical vs Smorgon Fc | 39' • 0 : 1",
+          "tournament": "Belarus Cup",
+          "logo_nha": "https://ui-avatars.com/api/?name=Ve&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4644_1j50e7s8g4z.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Ve&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fd3dc948450c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fd3dc948450c",
+                  "name": "Vertical vs Smorgon Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-fd3dc948450c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fbf7d48584",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-07bce875f773",
-          "name": "⚽ Yaypan Fk vs Termez Surkhon | 32' • 0 : 0",
+          "name": "⚽ Yaypan Fk vs Termez Surkhon | 22' • 0 : 0",
           "tournament": "Uzbekistan Cup",
           "logo_nha": "https://ui-avatars.com/api/?name=Ya&size=200&background=1565C0&color=ffffff&bold=true",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/15044_1hr3m54vz51x.png",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-47db1328ae",
+                          "id": "lnk-52bf10cdf2",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a728827ae3f7",
-          "name": "⚽ Pakhtakor vs Kattaqurgon | 22' • 1 : 0",
-          "tournament": "Uzbekistan Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3402_1gpyst1m7129.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69012_1jqt0d61pyf.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3402_1gpyst1m7129.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a728827ae3f7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a728827ae3f7",
-                  "name": "Pakhtakor vs Kattaqurgon",
-                  "streams": [
-                    {
-                      "id": "luongson-a728827ae3f7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce997ba3cc",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -152,11 +152,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b1b71fdc9f",
+                          "id": "lnk-7a5584bb60",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a728827ae3f7",
+          "name": "⚽ Pakhtakor vs Kattaqurgon | 32' • 1 : 0",
+          "tournament": "Uzbekistan Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3402_1gpyst1m7129.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69012_1jqt0d61pyf.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3402_1gpyst1m7129.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a728827ae3f7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a728827ae3f7",
+                  "name": "Pakhtakor vs Kattaqurgon",
+                  "streams": [
+                    {
+                      "id": "luongson-a728827ae3f7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8944d8a158",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -168,7 +221,7 @@
         },
         {
           "id": "luongson-956bad480164",
-          "name": "⚽ Irtysh Pavlodar vs Ulytau Zhezkazgan | 74' • 0 : 1",
+          "name": "⚽ Irtysh Pavlodar vs Ulytau Zhezkazgan | 83' • 1 : 1",
           "tournament": "Kazakhstan Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4912_20130804165930.gif",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/61059_1gvszh7ysf19.png",
@@ -205,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-52f6c41e91",
+                          "id": "lnk-57a6e9513d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -220,61 +273,8 @@
           ]
         },
         {
-          "id": "luongson-fd3dc948450c",
-          "name": "⚽ Vertical vs Smorgon Fc | 30' • 0 : 1",
-          "tournament": "Belarus Cup",
-          "logo_nha": "https://ui-avatars.com/api/?name=Ve&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4644_1j50e7s8g4z.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Ve&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fd3dc948450c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fd3dc948450c",
-                  "name": "Vertical vs Smorgon Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-fd3dc948450c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99886e6bbe",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-ac833afff608",
-          "name": "⚽ Fk Alga Bishkek vs Fc Bishkek City | 0 : 0",
+          "name": "⚽ Fk Alga Bishkek vs Fc Bishkek City | 11' • 0 : 0",
           "tournament": "Kyrgyzstan Top Liga",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/31684_1gx54xx4dd2z.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/68871_1jp6g2b88k2j.png",
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-647b00c2de",
+                          "id": "lnk-3da185bad7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dff5f5716d",
+                          "id": "lnk-b112c1c726",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,18 +417,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-07a0bc8979",
+                          "id": "lnk-bf90798ea4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
-                        },
-                        {
-                          "id": "lnk-cf8a21d0f3",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/MOTCHAN1/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
