@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:20 29/05/2026",
+  "last_updated": "06:30 29/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-1f61586403c4",
-          "name": "⚽ Cd El Nacional vs Universidad Catolica | 22' • 0 : 0",
-          "tournament": "Ecuador Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2300_1j8kbqtwec23.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6603_1gtqmg0aee1c.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2300_1j8kbqtwec23.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1f61586403c4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1f61586403c4",
-                  "name": "Cd El Nacional vs Universidad Catolica",
-                  "streams": [
-                    {
-                      "id": "luongson-1f61586403c4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7738912d4b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-6a2972b833df",
-          "name": "⚽ Cerro Porteno vs Sporting Cristal | 59' • 1 : 0",
+          "name": "⚽ Cerro Porteno vs Sporting Cristal | 69' • 2 : 0",
           "tournament": "Copa Libertadores",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/896_1gv1yf76pez.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1637_1gv1yf766c2p.png",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-978d166d45",
+                          "id": "lnk-24d09f6d63",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-ecac50f5c360",
-          "name": "⚽ Palmeiras vs Atletico Junior Barranquilla | 63' • 4 : 1",
+          "name": "⚽ Palmeiras vs Atletico Junior Barranquilla | 73' • 4 : 1",
           "tournament": "Copa Libertadores",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/424_1gxsf3fvqe1p.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1171_1gv1yk239r2a.png",
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-302829832b",
+                          "id": "lnk-d09a08112e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1f61586403c4",
+          "name": "⚽ Cd El Nacional vs Universidad Catolica | 33' • 0 : 0",
+          "tournament": "Ecuador Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2300_1j8kbqtwec23.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6603_1gtqmg0aee1c.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2300_1j8kbqtwec23.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1f61586403c4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1f61586403c4",
+                  "name": "Cd El Nacional vs Universidad Catolica",
+                  "streams": [
+                    {
+                      "id": "luongson-1f61586403c4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44b45b1af4",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -205,18 +205,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4e16382ff3",
+                          "id": "lnk-9b5e8a957b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-2416c637e3",
+                          "id": "lnk-5c1ab625aa",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -265,18 +265,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7f7102354d",
+                          "id": "lnk-c969851f11",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-32c568bbf2",
+                          "id": "lnk-cf4b28549e",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -325,18 +325,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5fc5b8462e",
+                          "id": "lnk-cdf1c87420",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-6ad34f5b92",
+                          "id": "lnk-7ed4ebdb9c",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -385,14 +385,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3651e2d017",
+                          "id": "lnk-59fca77176",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-02da295f60",
+                          "id": "lnk-fbda809e87",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -445,18 +445,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86839a7381",
+                          "id": "lnk-4ccf8489ee",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         },
                         {
-                          "id": "lnk-fbbe5462f7",
+                          "id": "lnk-bdcee9a226",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
