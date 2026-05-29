@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:50 30/05/2026",
+  "last_updated": "02:00 30/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-a647299cc8b4",
+          "name": "⚽ Nice vs Saint Etienne | 16' • 0 : 0",
+          "tournament": "France Ligue 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/235_164871179882.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/231_16487117719.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/235_164871179882.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a647299cc8b4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a647299cc8b4",
+                  "name": "Nice vs Saint Etienne",
+                  "streams": [
+                    {
+                      "id": "luongson-a647299cc8b4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f05454c0cb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-617d124a15c6",
           "name": "⚽ Mamelodi Sundowns vs Rb Leipzig | HT • 0 : 1",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ade0eb2c20",
+                          "id": "lnk-cefea54e6f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-bb038f1d215b",
-          "name": "⚽ Nbe Sc vs Al-Ittihad Alexandria | 87' • 2 : 2",
+          "name": "⚽ Nbe Sc vs Al-Ittihad Alexandria | 90+' • 2 : 2",
           "tournament": "Egyptian Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/47605_1gq6k69vzw31.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/2963_1gq6k69vz71m.png",
@@ -99,117 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6a2f053ec8",
+                          "id": "lnk-ae62b1494e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a647299cc8b4",
-          "name": "⚽ Nice vs Saint Etienne | 6' • 0 : 0",
-          "tournament": "France Ligue 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/235_164871179882.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/231_16487117719.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/235_164871179882.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a647299cc8b4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a647299cc8b4",
-                  "name": "Nice vs Saint Etienne",
-                  "streams": [
-                    {
-                      "id": "luongson-a647299cc8b4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-10ee7f91c0",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-338b1fcbd621",
-          "name": "⚽ Bosnia And Herzegovina vs North Macedonia | 20' • 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/675_164983517667.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/664_164983284393.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/675_164983517667.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-338b1fcbd621",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-338b1fcbd621",
-                  "name": "Bosnia And Herzegovina vs North Macedonia",
-                  "streams": [
-                    {
-                      "id": "luongson-338b1fcbd621",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d3c6be900",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
                         }
                       ]
                     }
@@ -258,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c78d321202",
+                          "id": "lnk-741796afc4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -273,8 +220,61 @@
           ]
         },
         {
+          "id": "luongson-338b1fcbd621",
+          "name": "⚽ Bosnia And Herzegovina vs North Macedonia | 30' • 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/675_164983517667.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/664_164983284393.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/675_164983517667.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-338b1fcbd621",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-338b1fcbd621",
+                  "name": "Bosnia And Herzegovina vs North Macedonia",
+                  "streams": [
+                    {
+                      "id": "luongson-338b1fcbd621",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f01029ecc",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-eedab605f1d8",
-          "name": "⚽ Monza vs Catanzaro | 45+' • 0 : 1",
+          "name": "⚽ Monza vs Catanzaro | HT • 0 : 1",
           "tournament": "Italian Serie B",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2230_1j37hkshsw2.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/466_1gqbpxy8yp2z.png",
@@ -311,64 +311,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-473a600d4a",
+                          "id": "lnk-784a121cb4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7ffac72e5c7b",
-          "name": "⚽ Orgryte vs Elfsborg | 90' • 2 : 2",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/373_1gtqm2wp9p5.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/381_1h8wtxnzmc2g.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/373_1gtqm2wp9p5.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7ffac72e5c7b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7ffac72e5c7b",
-                  "name": "Orgryte vs Elfsborg",
-                  "streams": [
-                    {
-                      "id": "luongson-7ffac72e5c7b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e49b477c6b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -417,18 +364,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bc6f95490b",
+                          "id": "lnk-b8c9b97638",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-aac84a0bb1",
+                          "id": "lnk-165c707dfd",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-89a6123cc902",
+          "name": "⚽ Csd Huaquillas Fc vs Leones Del Norte | 0 : 0",
+          "tournament": "Ecuador Cup",
+          "logo_nha": "https://ui-avatars.com/api/?name=CS&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/51084_1k37xz2jsf1c.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=CS&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-89a6123cc902",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-89a6123cc902",
+                  "name": "Csd Huaquillas Fc vs Leones Del Norte",
+                  "streams": [
+                    {
+                      "id": "luongson-89a6123cc902",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0bd0831810",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
+                        },
+                        {
+                          "id": "lnk-3def92e8fa",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
                         }
                       ]
                     }
