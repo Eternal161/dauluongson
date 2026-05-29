@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:10 29/05/2026",
+  "last_updated": "08:20 29/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-3f673c22a10a",
-          "name": "⚽ America De Cali vs Macara | 41' • 0 : 0",
-          "tournament": "Copa Sudamericana",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1830_1jbqr77m981d.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3307_1j3s206m3c2y.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1830_1jbqr77m981d.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3f673c22a10a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3f673c22a10a",
-                  "name": "America De Cali vs Macara",
-                  "streams": [
-                    {
-                      "id": "luongson-3f673c22a10a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-210a27d6d7",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-983cb9302c63",
-          "name": "⚽ Boca Juniors vs Univ Catolica | 41' • 0 : 1",
+          "name": "⚽ Boca Juniors vs Univ Catolica | 45+' • 0 : 1",
           "tournament": "Copa Libertadores",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/237_164940907780.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/945_1h8qpdhpf91b.png",
@@ -99,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2af12c5a6e",
+                          "id": "lnk-b7382f08b7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-3459c8c9e03b",
-          "name": "⚽ Club Atletico Tigre vs Alianza Atletico Sullana | 41' • 0 : 0",
+          "name": "⚽ Club Atletico Tigre vs Alianza Atletico Sullana | HT • 0 : 0",
           "tournament": "Copa Sudamericana",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4338_1gytytbqvj32.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/2127_20121218174957.gif",
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7cc22eb0b0",
+                          "id": "lnk-4a4a538e88",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3f673c22a10a",
+          "name": "⚽ America De Cali vs Macara | HT • 0 : 0",
+          "tournament": "Copa Sudamericana",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1830_1jbqr77m981d.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3307_1j3s206m3c2y.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1830_1jbqr77m981d.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3f673c22a10a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3f673c22a10a",
+                  "name": "America De Cali vs Macara",
+                  "streams": [
+                    {
+                      "id": "luongson-3f673c22a10a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f28a1b010",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ed1ac533d",
+                          "id": "lnk-97ce0bf12e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -221,7 +221,7 @@
         },
         {
           "id": "luongson-6f4b4a82940f",
-          "name": "⚽ Patuxent Fa vs Annapolis Blues | 79' • 0 : 2",
+          "name": "⚽ Patuxent Fa vs Annapolis Blues | 89' • 0 : 4",
           "tournament": "USA USL League Two",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/57600_1h09bfchte1a.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/62006_1h29seswgh21.png",
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e2b3bca860",
+                          "id": "lnk-98063ba6b4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -274,7 +274,7 @@
         },
         {
           "id": "luongson-0485e72d7d67",
-          "name": "⚽ Edgewater Castle vs Sueno Fc | 46' • 0 : 3",
+          "name": "⚽ Edgewater Castle vs Sueno Fc | 56' • 0 : 3",
           "tournament": "USA USL League Two",
           "logo_nha": "https://ui-avatars.com/api/?name=Ed&size=200&background=1565C0&color=ffffff&bold=true",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65497_1hz17hwc7c12.png",
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5040a8fe21",
+                          "id": "lnk-0ccab8b087",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -327,7 +327,7 @@
         },
         {
           "id": "luongson-8a09a29b1ed3",
-          "name": "⚽ Nacional(Am) vs Sc Paysandu Para | 49' • 0 : 2",
+          "name": "⚽ Nacional(Am) vs Sc Paysandu Para | 59' • 0 : 3",
           "tournament": "Brazil Northeast Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3350_1gzsygf0j22q.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/339_1hvwqkn9qv1h.png",
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3faa6cb39a",
+                          "id": "lnk-4b278572a8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -380,7 +380,7 @@
         },
         {
           "id": "luongson-65a5bb4e2cfe",
-          "name": "⚽ Orsomarso (W) vs Junior (W) | 36' • 2 : 0",
+          "name": "⚽ Orsomarso (W) vs Junior (W) | 45+' • 2 : 0",
           "tournament": "Columbia women's League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/29284_1jmr6sp81fm.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/33858_1grfkrksbd3.png",
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dc41148e16",
+                          "id": "lnk-be80672a02",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
