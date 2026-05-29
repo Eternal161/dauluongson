@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:00 30/05/2026",
+  "last_updated": "06:10 30/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-a01489736678",
+          "name": "⚽ Cerro Largo vs Cerro Montevideo | 41' • 0 : 0",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2096_1hrb80xnnrx.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a01489736678",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a01489736678",
+                  "name": "Cerro Largo vs Cerro Montevideo",
+                  "streams": [
+                    {
+                      "id": "luongson-a01489736678",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ab0a1425f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-5b21fcea376c",
           "name": "⚽ Fc Minsk vs Fk Isloch Minsk | 45+' • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b03547e55c",
+                          "id": "lnk-e241867c1b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-16f9cd1ca597",
-          "name": "⚽ Cobresal vs Nublense | HT • 0 : 1",
+          "name": "⚽ Cobresal vs Nublense | 47' • 0 : 1",
           "tournament": "Chile Primera Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1291_1gv1yk239p1p.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png",
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-adae40e49c",
+                          "id": "lnk-a34dbffaef",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,61 +167,8 @@
           ]
         },
         {
-          "id": "luongson-a01489736678",
-          "name": "⚽ Cerro Largo vs Cerro Montevideo | 31' • 0 : 0",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2096_1hrb80xnnrx.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a01489736678",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a01489736678",
-                  "name": "Cerro Largo vs Cerro Montevideo",
-                  "streams": [
-                    {
-                      "id": "luongson-a01489736678",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3754588fe0",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-7628552846e9",
-          "name": "⚽ Knoxville Troops vs Greenville Triumph | 24' • 0 : 0",
+          "name": "⚽ Knoxville Troops vs Greenville Triumph | 34' • 0 : 0",
           "tournament": "USL League One",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/24318_1gx54nvs4c1n.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/34728_1gwbe2m9he1r.png",
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4b849edcf9",
+                          "id": "lnk-6e33e6408f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -221,7 +221,7 @@
         },
         {
           "id": "luongson-c20bd406e613",
-          "name": "⚽ Forward Madison Fc vs Corpus Christi Fc | 0 : 0",
+          "name": "⚽ Forward Madison Fc vs Corpus Christi Fc | 3' • 0 : 0",
           "tournament": "USL League One",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/39256_1gxfc9gh58j.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/34887_1h24kc808r6.png",
@@ -258,11 +258,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-748c570dcd",
+                          "id": "lnk-1d9346023a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwd6CpxhCKLc58je4/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ab8059963aff",
+          "name": "⚽ Toronto Fc Ii vs Philadelphia Union Ii | 8' • 0 : 0",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21813_20170523175647.jpg",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23795_1gwdy713gx26.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/21813_20170523175647.jpg",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ab8059963aff",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ab8059963aff",
+                  "name": "Toronto Fc Ii vs Philadelphia Union Ii",
+                  "streams": [
+                    {
+                      "id": "luongson-ab8059963aff",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c54e2be3ee",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5WYUtrRWzBYiUC/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b3d592f63174",
+          "name": "⚽ Leones vs Dep.Independiente Medellin | 11' • 0 : 1",
+          "tournament": "Colombia Copa Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6882_1grmn7p76r22.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1635_1jbqr77m932f.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6882_1grmn7p76r22.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b3d592f63174",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b3d592f63174",
+                  "name": "Leones vs Dep.Independiente Medellin",
+                  "streams": [
+                    {
+                      "id": "luongson-b3d592f63174",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09c886536f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLb4nj54Mdc36h2/playlist.m3u8"
                         }
                       ]
                     }
@@ -311,117 +417,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-14946ac9de",
+                          "id": "lnk-d39d6c44aa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6MwcqRw1kzX1sgxE68/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ab8059963aff",
-          "name": "⚽ Toronto Fc Ii vs Philadelphia Union Ii | 0 : 0",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21813_20170523175647.jpg",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23795_1gwdy713gx26.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/21813_20170523175647.jpg",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ab8059963aff",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ab8059963aff",
-                  "name": "Toronto Fc Ii vs Philadelphia Union Ii",
-                  "streams": [
-                    {
-                      "id": "luongson-ab8059963aff",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e72ba72906",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5WYUtrRWzBYiUC/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b3d592f63174",
-          "name": "⚽ Leones vs Dep.Independiente Medellin | 0 : 0",
-          "tournament": "Colombia Copa Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6882_1grmn7p76r22.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1635_1jbqr77m932f.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6882_1grmn7p76r22.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b3d592f63174",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b3d592f63174",
-                  "name": "Leones vs Dep.Independiente Medellin",
-                  "streams": [
-                    {
-                      "id": "luongson-b3d592f63174",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-acf6d3d0ec",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLb4nj54Mdc36h2/playlist.m3u8"
                         }
                       ]
                     }
