@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:50 29/05/2026",
+  "last_updated": "14:00 29/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-a6a271ad067b",
-          "name": "⚽ Barcelona vs Real Madrid | H1 • 0 : 0",
-          "tournament": "LaLiga",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780033132.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780033134.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780033132.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a6a271ad067b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a6a271ad067b",
-                  "name": "Barcelona vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "luongson-a6a271ad067b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dabeef1e65",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-2eaec19331e9",
           "name": "⚽ Shanxi Union vs Nanjing City | 0 : 0",
@@ -99,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-649450ca37",
+                          "id": "lnk-415f3a2f44",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-cd0f3a3303ea",
-          "name": "⚽ Western Springs Afc vs Bay Olympic | 0 : 0",
+          "name": "⚽ Western Springs Afc vs Bay Olympic | 2' • 0 : 0",
           "tournament": "Northern New Zealand League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/22489_1gwtq0fhmap.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/25039_1gwbdfbeen1e.png",
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4da318dfde",
+                          "id": "lnk-a7e46e009a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a6a271ad067b",
+          "name": "⚽ Barcelona vs Real Madrid | H1 • 0 : 0",
+          "tournament": "LaLiga",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780033132.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780033134.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780033132.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a6a271ad067b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a6a271ad067b",
+                  "name": "Barcelona vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "luongson-a6a271ad067b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2512fcb51",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
                         }
                       ]
                     }
@@ -205,18 +205,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9317bc97bf",
+                          "id": "lnk-b920afdd84",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-741d84dee2",
+                          "id": "lnk-8bd93b6b18",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -265,18 +265,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f524326aea",
+                          "id": "lnk-e2db62def3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-5e0eac90f1",
+                          "id": "lnk-338a66b326",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -325,18 +325,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7f676bf5a0",
+                          "id": "lnk-f5e3746d95",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-948ac79ef1",
+                          "id": "lnk-21fcab6204",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -385,18 +385,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5613db768d",
+                          "id": "lnk-f9111f330b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_tf6c30a74bd06e3e8b3580c7ce226edd6_r1291534920.m3u8"
                         },
                         {
-                          "id": "lnk-6b0ff85136",
+                          "id": "lnk-f197823342",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/stream_t06dc1e6e9cc87dbb5d5b5e0e0b724af2_r1291534688.m3u8"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
@@ -445,7 +445,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-06eb8950e5",
+                          "id": "lnk-920e23f668",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
