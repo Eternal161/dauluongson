@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:20 30/05/2026",
+  "last_updated": "11:30 30/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-7d66f8ed0310",
+          "name": "⚽ Hume City vs South Melbourne | 32' • 0 : 0",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7d66f8ed0310",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7d66f8ed0310",
+                  "name": "Hume City vs South Melbourne",
+                  "streams": [
+                    {
+                      "id": "luongson-7d66f8ed0310",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e529a03d2e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-5eef96bf4c3d",
           "name": "⚽ Brindabella Blues Fc U23 vs Canberra Olympic U23 | H1 • 0 : 0",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5318b96a7c",
+                          "id": "lnk-f7dbdd9c27",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7d66f8ed0310",
-          "name": "⚽ Hume City vs South Melbourne | 21' • 0 : 0",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7d66f8ed0310",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7d66f8ed0310",
-                  "name": "Hume City vs South Melbourne",
-                  "streams": [
-                    {
-                      "id": "luongson-7d66f8ed0310",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6f558772da",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9e68b953a2",
+                          "id": "lnk-800df3c8fd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-77465830ca",
+                          "id": "lnk-2a8bb16714",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-269dd74e34",
+                          "id": "lnk-42243c6795",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -291,10 +291,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -309,7 +309,15 @@
                     {
                       "id": "luongson-5060a6100daf",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e6fc8d082",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -356,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-19244b1b72",
+                          "id": "lnk-5e71f46169",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -409,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1474a70080",
+                          "id": "lnk-b7196969e5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
