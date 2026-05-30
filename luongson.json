@@ -1,15 +1,121 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:50 30/05/2026",
+  "last_updated": "14:00 30/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-ec812606e48b",
+          "name": "⚽ Gamba Osaka vs Tokyo Verdy | 0 : 0",
+          "tournament": "J1 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/194_1gtzd3qtya20.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/187_1h53w5e0f9p.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/194_1gtzd3qtya20.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ec812606e48b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ec812606e48b",
+                  "name": "Gamba Osaka vs Tokyo Verdy",
+                  "streams": [
+                    {
+                      "id": "luongson-ec812606e48b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e39fc9779",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b5766427f53f",
+          "name": "⚽ Avispa Fukuoka vs Jef United Ichihara Chiba | 0 : 0",
+          "tournament": "J1 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1326_1gtzcts36911.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/186_1hg565390y24.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1326_1gtzcts36911.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b5766427f53f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b5766427f53f",
+                  "name": "Avispa Fukuoka vs Jef United Ichihara Chiba",
+                  "streams": [
+                    {
+                      "id": "luongson-b5766427f53f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d5a17b72f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-2ffb7affe229",
-          "name": "⚽ Nagoya Grampus vs Machida Zelvia | 87' • 1 : 2",
+          "name": "⚽ Nagoya Grampus vs Machida Zelvia | 90+' • 2 : 2",
           "tournament": "J1 League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/168_1jbn72rjkc0.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/8880_1h53w49pp22e.png",
@@ -46,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5601d4b0a4",
+                          "id": "lnk-f365de40c0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +168,7 @@
         },
         {
           "id": "luongson-8451a2c1023f",
-          "name": "⚽ Hiroshima Sanfrecce vs Kawasaki Frontale | 85' • 2 : 1",
+          "name": "⚽ Hiroshima Sanfrecce vs Kawasaki Frontale | 90+' • 2 : 1",
           "tournament": "J1 League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/193_1gtzcts1qj1h.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1661_1gtzcts26x2r.png",
@@ -99,117 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-25d7d5deb0",
+                          "id": "lnk-530dfb4594",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5060a6100daf",
-          "name": "⚽ Vissel Kobe vs Kashima Antlers | 86' • 3 : 0",
-          "tournament": "J1 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/190_1gtzcts1qh1b.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/177_1gtzcts261m.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/190_1gtzcts1qh1b.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5060a6100daf",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5060a6100daf",
-                  "name": "Vissel Kobe vs Kashima Antlers",
-                  "streams": [
-                    {
-                      "id": "luongson-5060a6100daf",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2da416ef8",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-54f19e906444",
-          "name": "⚽ Western Knights vs Perth Sc | 0 : 0",
-          "tournament": "National Premier Leagues Western Australia",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5068_1grg4me92bs.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5075_1gqrk9vdc51e.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5068_1grg4me92bs.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-54f19e906444",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-54f19e906444",
-                  "name": "Western Knights vs Perth Sc",
-                  "streams": [
-                    {
-                      "id": "luongson-54f19e906444",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-10a53bce9b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -258,64 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-36bb75f41c",
+                          "id": "lnk-e2edb9dd4d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ec812606e48b",
-          "name": "⚽ Gamba Osaka vs Tokyo Verdy | 0 : 0",
-          "tournament": "J1 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/194_1gtzd3qtya20.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/187_1h53w5e0f9p.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/194_1gtzd3qtya20.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ec812606e48b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ec812606e48b",
-                  "name": "Gamba Osaka vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "luongson-ec812606e48b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0f0f55178",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -364,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e087243614",
+                          "id": "lnk-fe7da5b040",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -379,11 +326,11 @@
           ]
         },
         {
-          "id": "luongson-dbe5dac2ee2f",
-          "name": "⚽ Tai Po Fc vs Eastern District Sa | 0 : 0",
-          "tournament": "Hong Kong FA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3895_1gy3vn6fyn1e.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21191_1hcreyzmt9b.png",
+          "id": "luongson-a119af99e233",
+          "name": "⚽ Vissel Kobe vs Kashima Antlers | 90+' • 5 : 0",
+          "tournament": "J1 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/190_1gtzcts1qh1b.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/177_1gtzcts261m.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -391,7 +338,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3895_1gy3vn6fyn1e.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/190_1gtzcts1qh1b.png",
             "width": 1600,
             "height": 1200
           },
@@ -405,23 +352,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-dbe5dac2ee2f",
+              "id": "luongson-a119af99e233",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-dbe5dac2ee2f",
-                  "name": "Tai Po Fc vs Eastern District Sa",
+                  "id": "luongson-a119af99e233",
+                  "name": "Vissel Kobe vs Kashima Antlers",
                   "streams": [
                     {
-                      "id": "luongson-dbe5dac2ee2f",
+                      "id": "luongson-a119af99e233",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9f3917ba36",
+                          "id": "lnk-ce3e3382ae",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-54f19e906444",
+          "name": "⚽ Western Knights vs Perth Sc | 0 : 0",
+          "tournament": "National Premier Leagues Western Australia",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5068_1grg4me92bs.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5075_1gqrk9vdc51e.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5068_1grg4me92bs.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-54f19e906444",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-54f19e906444",
+                  "name": "Western Knights vs Perth Sc",
+                  "streams": [
+                    {
+                      "id": "luongson-54f19e906444",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c01dde801",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
