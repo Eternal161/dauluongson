@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:30 31/05/2026",
+  "last_updated": "04:40 31/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-85f7cc76061c",
-          "name": "⚽ Cf Os Belenenses vs Sc Farense | 90+' • 0 : 0",
-          "tournament": "Liga Portugal 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/52740_1hdajkkb2526.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/10200_1h6swyav1k1h.png",
+          "id": "luongson-34e85257a0ba",
+          "name": "⚽ Universidad Central De Venezuela vs Portuguesa Fc | 81' • 1 : 3",
+          "tournament": "Primera Division de Venezuela",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18055_1j08b7fq0e15.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4043_1jr57ch6b827.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/52740_1hdajkkb2526.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/18055_1j08b7fq0e15.png",
             "width": 1600,
             "height": 1200
           },
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-85f7cc76061c",
+              "id": "luongson-34e85257a0ba",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-85f7cc76061c",
-                  "name": "Cf Os Belenenses vs Sc Farense",
+                  "id": "luongson-34e85257a0ba",
+                  "name": "Universidad Central De Venezuela vs Portuguesa Fc",
                   "streams": [
                     {
-                      "id": "luongson-85f7cc76061c",
+                      "id": "luongson-34e85257a0ba",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-42e62ae6eb",
+                          "id": "lnk-304731fb58",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFTrJXwrzjeSeQ/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-647210504c",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFTrJXwrzjeSeQ/playlist.m3u8"
                         }
                       ]
                     }
@@ -61,11 +68,251 @@
           ]
         },
         {
-          "id": "luongson-2588753bdfa1",
-          "name": "⚽ Santos vs Vitoria Ba | 0 : 0",
+          "id": "luongson-9145b95c3b50",
+          "name": "⚽ Deportivo Garcilaso vs Juan Pablo Ii College | 81' • 3 : 1",
+          "tournament": "Peru Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28009_1gtt8d7bzs1e.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/63086_1hdb1habwv27.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/28009_1gtt8d7bzs1e.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9145b95c3b50",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9145b95c3b50",
+                  "name": "Deportivo Garcilaso vs Juan Pablo Ii College",
+                  "streams": [
+                    {
+                      "id": "luongson-9145b95c3b50",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c55f376310",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvVczFhkHwmgrs6BE/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-a89b8ae9f6",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvVczFhkHwmgrs6BE/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4a7f39fdff4a",
+          "name": "⚽ Itabaiana(Se) vs Volta Redonda | 77' • 0 : 1",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1590_1gxpyare4w28.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4a7f39fdff4a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4a7f39fdff4a",
+                  "name": "Itabaiana(Se) vs Volta Redonda",
+                  "streams": [
+                    {
+                      "id": "luongson-4a7f39fdff4a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c252a0188b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5eJhfGJ8kx7QVr/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-382389ed06",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5eJhfGJ8kx7QVr/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-48ad4f7630da",
+          "name": "⚽ Floresta Ce vs Confianca Se | 79' • 1 : 0",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23901_1gzcz942zv28.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1648_1hkewhda5r4.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23901_1gzcz942zv28.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-48ad4f7630da",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-48ad4f7630da",
+                  "name": "Floresta Ce vs Confianca Se",
+                  "streams": [
+                    {
+                      "id": "luongson-48ad4f7630da",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-22ff9aeff1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5eJhfE6etUHVLx/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-ca5588bc3d",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5eJhfE6etUHVLx/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ad6e06a9764d",
+          "name": "⚽ Portland Thorns Fc (W) vs Utah Royals (W) | 81' • 1 : 2",
+          "tournament": "USA Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18894_1j615mnsak2e.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34017_1j5ym3zha8h.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/18894_1j615mnsak2e.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ad6e06a9764d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ad6e06a9764d",
+                  "name": "Portland Thorns Fc (W) vs Utah Royals (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-ad6e06a9764d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8ca920227b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqRvzvnjnoS6Wyi/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-452bfd6a6c",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqRvzvnjnoS6Wyi/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c55571a69fa0",
+          "name": "⚽ Gremio (Rs) vs Corinthians Paulista (Sp) | 49' • 1 : 1",
           "tournament": "Brazil Serie A",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/303_1gv1yhgq3n2e.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/421_1gtqpvn9c82j.png",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/330_1gq1fbpxrd5.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/315_1j9d3cawpe2k.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +320,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/303_1gv1yhgq3n2e.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/330_1gq1fbpxrd5.png",
             "width": 1600,
             "height": 1200
           },
@@ -87,23 +334,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-2588753bdfa1",
+              "id": "luongson-c55571a69fa0",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2588753bdfa1",
-                  "name": "Santos vs Vitoria Ba",
+                  "id": "luongson-c55571a69fa0",
+                  "name": "Gremio (Rs) vs Corinthians Paulista (Sp)",
                   "streams": [
                     {
-                      "id": "luongson-2588753bdfa1",
+                      "id": "luongson-c55571a69fa0",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1560129e47",
+                          "id": "lnk-433cc3498d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvZ6LyCESnLqi877i/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-41ad9c3238",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvZ6LyCESnLqi877i/chunklist.m3u8"
                         }
                       ]
                     }
@@ -114,11 +368,11 @@
           ]
         },
         {
-          "id": "luongson-cf05fb941a24",
-          "name": "⚽ Pittsburgh Riverhounds vs Miami Fc | 0 : 0",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7218_1gytye1xpk1h.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png",
+          "id": "luongson-394b16cd58d3",
+          "name": "⚽ 9 De Octubre vs Cuenca Juniors | 50' • 1 : 2",
+          "tournament": "Ecuador Campeonato Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44020_1k32m518zkc.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69468_1jxe7pfr1917.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -126,7 +380,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7218_1gytye1xpk1h.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/44020_1k32m518zkc.png",
             "width": 1600,
             "height": 1200
           },
@@ -140,23 +394,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-cf05fb941a24",
+              "id": "luongson-394b16cd58d3",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-cf05fb941a24",
-                  "name": "Pittsburgh Riverhounds vs Miami Fc",
+                  "id": "luongson-394b16cd58d3",
+                  "name": "9 De Octubre vs Cuenca Juniors",
                   "streams": [
                     {
-                      "id": "luongson-cf05fb941a24",
+                      "id": "luongson-394b16cd58d3",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e5b99e9a4c",
+                          "id": "lnk-82310aa308",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqG75RG4C4TXMJk/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-5133c18d7f",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqG75RG4C4TXMJk/chunklist.m3u8"
                         }
                       ]
                     }
@@ -167,11 +428,11 @@
           ]
         },
         {
-          "id": "luongson-3fbdc7c5a2c1",
-          "name": "⚽ Ecuador vs Saudi Arabia | 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/673_165018888622.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/776_165018978353.png",
+          "id": "luongson-764641b271bb",
+          "name": "⚽ Bahia vs Botafogo Rj | HT • 0 : 1",
+          "tournament": "Brazil Serie A",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1651_1grdmmb9f68.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/426_1gtqm76wzmz.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,7 +440,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/673_165018888622.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/1651_1grdmmb9f68.png",
             "width": 1600,
             "height": 1200
           },
@@ -193,235 +454,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-3fbdc7c5a2c1",
+              "id": "luongson-764641b271bb",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3fbdc7c5a2c1",
-                  "name": "Ecuador vs Saudi Arabia",
+                  "id": "luongson-764641b271bb",
+                  "name": "Bahia vs Botafogo Rj",
                   "streams": [
                     {
-                      "id": "luongson-3fbdc7c5a2c1",
+                      "id": "luongson-764641b271bb",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cd660a70ba",
+                          "id": "lnk-206c35a1d3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2be829a66114",
-          "name": "⚽ Deportivo Cuenca vs Delfin Sc | 0 : 0",
-          "tournament": "Primera Division de Ecuador",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1633_1grd5f04y01f.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22313_1gt88ndnb22y.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1633_1grd5f04y01f.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2be829a66114",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2be829a66114",
-                  "name": "Deportivo Cuenca vs Delfin Sc",
-                  "streams": [
-                    {
-                      "id": "luongson-2be829a66114",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvZ6LyCjWbuPgn1mN/chunklist.m3u8"
+                        },
                         {
-                          "id": "lnk-890d1db163",
-                          "name": "Link 1",
+                          "id": "lnk-6784456ac7",
+                          "name": "Link 2",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-191ef0f9a188",
-          "name": "⚽ Oklahoma City Thunder vs San Antonio Spurs | 0 : 0",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165378.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165380.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165378.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-191ef0f9a188",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-191ef0f9a188",
-                  "name": "Oklahoma City Thunder vs San Antonio Spurs",
-                  "streams": [
-                    {
-                      "id": "luongson-191ef0f9a188",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9764d52d18",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bae07bcfa1e1",
-          "name": "⚽ Portland Fire W vs Indiana Fever W | 0 : 0",
-          "tournament": "WNBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165361.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165362.webp",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165361.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bae07bcfa1e1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bae07bcfa1e1",
-                  "name": "Portland Fire W vs Indiana Fever W",
-                  "streams": [
-                    {
-                      "id": "luongson-bae07bcfa1e1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dd9abeb1e6",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-161ee39d071e",
-          "name": "⚽ Toluca vs Tigres Uanl | 0 : 0",
-          "tournament": "CONCACAF Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1089_1h3670bc3a1h.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1091_1gy3vkwa6c8.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1089_1h3670bc3a1h.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-161ee39d071e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-161ee39d071e",
-                  "name": "Toluca vs Tigres Uanl",
-                  "streams": [
-                    {
-                      "id": "luongson-161ee39d071e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87a08c9abf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvZ6LyCjWbuPgn1mN/playlist.m3u8"
                         }
                       ]
                     }
