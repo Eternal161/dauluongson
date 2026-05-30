@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:20 31/05/2026",
+  "last_updated": "06:30 31/05/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-2588753bdfa1",
-          "name": "⚽ Santos vs Vitoria Ba | 20' • 0 : 0",
+          "name": "⚽ Santos vs Vitoria Ba | 30' • 1 : 0",
           "tournament": "Brazil Serie A",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/303_1gv1yhgq3n2e.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/421_1gtqpvn9c82j.png",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-367cc4a8f2",
+                          "id": "lnk-e48d325ba8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,8 +61,61 @@
           ]
         },
         {
+          "id": "luongson-3fbdc7c5a2c1",
+          "name": "⚽ Ecuador vs Saudi Arabia | 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/673_165018888622.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/776_165018978353.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/673_165018888622.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3fbdc7c5a2c1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3fbdc7c5a2c1",
+                  "name": "Ecuador vs Saudi Arabia",
+                  "streams": [
+                    {
+                      "id": "luongson-3fbdc7c5a2c1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-620c035150",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-cf05fb941a24",
-          "name": "⚽ Pittsburgh Riverhounds vs Miami Fc | 14' • 0 : 0",
+          "name": "⚽ Pittsburgh Riverhounds vs Miami Fc | 24' • 0 : 0",
           "tournament": "USL Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/7218_1gytye1xpk1h.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png",
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c6f7ebb7d4",
+                          "id": "lnk-508a765823",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,68 +167,8 @@
           ]
         },
         {
-          "id": "luongson-ebe07f3239f5",
-          "name": "⚽ Universidad De Chile vs D. Concepcion | 89' • 2 : 1",
-          "tournament": "Chile Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1238_1gy3vpt0ee2.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1233_1jna7k7vjg2a.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1238_1gy3vpt0ee2.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ebe07f3239f5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ebe07f3239f5",
-                  "name": "Universidad De Chile vs D. Concepcion",
-                  "streams": [
-                    {
-                      "id": "luongson-ebe07f3239f5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f0019099ca",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MvYquUM7HeJajspyi/chunklist.m3u8"
-                        },
-                        {
-                          "id": "lnk-31d38b7c7d",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MvYquUM7HeJajspyi/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-be88ead0e7ca",
-          "name": "⚽ Carolina Core vs New York Red Bulls B | 57' • 1 : 1",
+          "name": "⚽ Carolina Core vs New York Red Bulls B | 67' • 1 : 1",
           "tournament": "USA MLS Next Pro League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/16322_1gy3wwapm01s.png",
@@ -212,18 +205,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-937f8bad10",
+                          "id": "lnk-0c240eaa72",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5WcCfRwzS21CSY/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5WcCfRwzS21CSY/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-781739f5fe",
+                          "id": "lnk-157aa30b54",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5WcCfRwzS21CSY/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5WcCfRwzS21CSY/playlist.m3u8"
                         }
                       ]
                     }
@@ -235,7 +228,7 @@
         },
         {
           "id": "luongson-1aec34e57ce0",
-          "name": "⚽ Charleston Battery vs Detroit City | 51' • 2 : 0",
+          "name": "⚽ Charleston Battery vs Detroit City | 61' • 2 : 0",
           "tournament": "USL Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4729_1h53w5y92t2x.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/20373_1gytyddyy128.png",
@@ -272,18 +265,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c391cce6de",
+                          "id": "lnk-e26219dc3b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MvYqd9ARfTyfiUZUY/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvYqd9ARfTyfiUZUY/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-8a1e9922d1",
+                          "id": "lnk-1846db423d",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MvYqd9ARfTyfiUZUY/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvYqd9ARfTyfiUZUY/playlist.m3u8"
                         }
                       ]
                     }
@@ -332,14 +325,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6331daf28f",
+                          "id": "lnk-6971350a1c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwd5eJhfLh6VumEoe/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-c97e870896",
+                          "id": "lnk-8864e96226",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -392,14 +385,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d63d83de68",
+                          "id": "lnk-4c284cc352",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6MvVczFgukPDnHa8gk/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-904f37dda3",
+                          "id": "lnk-f76f4fac97",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -415,7 +408,7 @@
         },
         {
           "id": "luongson-f386b0092eda",
-          "name": "⚽ Portsmouth Bombers vs Point Michel Fc | 43' • 3 : 0",
+          "name": "⚽ Portsmouth Bombers vs Point Michel Fc | HT • 3 : 0",
           "tournament": "Dominican Republic Liga",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/31559_1h47eqaya0b.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/49306_1gtn7gf6vm2t.png",
@@ -452,18 +445,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-95b7f1b893",
+                          "id": "lnk-c37bcb0493",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5Q2WZkt7vTe7q6/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5Q2WZkt7vTe7q6/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-9a82840130",
+                          "id": "lnk-950ef5e4b8",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5Q2WZkt7vTe7q6/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5Q2WZkt7vTe7q6/chunklist.m3u8"
                         }
                       ]
                     }
