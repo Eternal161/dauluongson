@@ -1,18 +1,71 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:50 30/05/2026",
+  "last_updated": "16:00 30/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-50403e4ec56c",
-          "name": "⚽ Quy Nhon United vs Tdtt Bac Ninh | 0 : 0",
+          "id": "luongson-7cdc834f1a00",
+          "name": "⚽ Altona Magic vs Oakleigh Cannons | 45+' • 0 : 1",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4474_1gzq8phtf42z.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4474_1gzq8phtf42z.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7cdc834f1a00",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7cdc834f1a00",
+                  "name": "Altona Magic vs Oakleigh Cannons",
+                  "streams": [
+                    {
+                      "id": "luongson-7cdc834f1a00",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5b18270296",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-24c54263e5af",
+          "name": "⚽ Truong Tuoi Dong Nai vs Dong Tam Long An | 1' • 0 : 0",
           "tournament": "Vietnamese First Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1843_1grahf6h7f1m.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/37694_1hvthn9vwf4.PNG",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21855_1jyt3vn5qjq.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8674_1hc9wzv97628.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +73,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1843_1grahf6h7f1m.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/21855_1jyt3vn5qjq.png",
             "width": 1600,
             "height": 1200
           },
@@ -34,288 +87,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-50403e4ec56c",
+              "id": "luongson-24c54263e5af",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-50403e4ec56c",
-                  "name": "Quy Nhon United vs Tdtt Bac Ninh",
+                  "id": "luongson-24c54263e5af",
+                  "name": "Truong Tuoi Dong Nai vs Dong Tam Long An",
                   "streams": [
                     {
-                      "id": "luongson-50403e4ec56c",
+                      "id": "luongson-24c54263e5af",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7df17a3806",
+                          "id": "lnk-95c925abc3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ec812606e48b",
-          "name": "⚽ Gamba Osaka vs Tokyo Verdy | 90+' • 1 : 1",
-          "tournament": "J1 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/194_1gtzd3qtya20.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/187_1h53w5e0f9p.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/194_1gtzd3qtya20.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ec812606e48b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ec812606e48b",
-                  "name": "Gamba Osaka vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "luongson-ec812606e48b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-efb81c64d7",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b5766427f53f",
-          "name": "⚽ Avispa Fukuoka vs Jef United Ichihara Chiba | 90' • 2 : 2",
-          "tournament": "J1 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1326_1gtzcts36911.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/186_1hg565390y24.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1326_1gtzcts36911.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b5766427f53f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b5766427f53f",
-                  "name": "Avispa Fukuoka vs Jef United Ichihara Chiba",
-                  "streams": [
-                    {
-                      "id": "luongson-b5766427f53f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0ef20ac47b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-54f19e906444",
-          "name": "⚽ Western Knights vs Perth Sc | 89' • 3 : 4",
-          "tournament": "National Premier Leagues Western Australia",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5068_1grg4me92bs.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5075_1gqrk9vdc51e.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5068_1grg4me92bs.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-54f19e906444",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-54f19e906444",
-                  "name": "Western Knights vs Perth Sc",
-                  "streams": [
-                    {
-                      "id": "luongson-54f19e906444",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5f8b493d9",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-00c9b70dbe03",
-          "name": "⚽ Yanbian Longding vs Changchun Yatai | 90+' • 1 : 2",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/49712_1hzxvn9f1m2e.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/483_1jr56ftb35z.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/49712_1hzxvn9f1m2e.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-00c9b70dbe03",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-00c9b70dbe03",
-                  "name": "Yanbian Longding vs Changchun Yatai",
-                  "streams": [
-                    {
-                      "id": "luongson-00c9b70dbe03",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-985088d16d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a76f11b1c912",
-          "name": "⚽ Khatoco Khanh Hoa vs Than Quang Ninh | 0 : 0",
-          "tournament": "Vietnamese First Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8679_1grahf6h7q1g.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17719_20200324100443.gif",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8679_1grahf6h7q1g.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a76f11b1c912",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a76f11b1c912",
-                  "name": "Khatoco Khanh Hoa vs Than Quang Ninh",
-                  "streams": [
-                    {
-                      "id": "luongson-a76f11b1c912",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49f488b2f5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -364,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4c4098cd97",
+                          "id": "lnk-310369f5ce",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -379,11 +167,11 @@
           ]
         },
         {
-          "id": "luongson-290c8f68a104",
-          "name": "⚽ Ehime Fc vs Roasso Kumamoto | 90' • 0 : 1",
-          "tournament": "J2 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3396_1gtqpz7wvt2m.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6579_1h53w49pp92g.png",
+          "id": "luongson-a76f11b1c912",
+          "name": "⚽ Khatoco Khanh Hoa vs Than Quang Ninh | 1' • 0 : 0",
+          "tournament": "Vietnamese First Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8679_1grahf6h7q1g.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17719_20200324100443.gif",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -391,7 +179,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3396_1gtqpz7wvt2m.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/8679_1grahf6h7q1g.png",
             "width": 1600,
             "height": 1200
           },
@@ -405,23 +193,235 @@
           ],
           "sources": [
             {
-              "id": "luongson-290c8f68a104",
+              "id": "luongson-a76f11b1c912",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-290c8f68a104",
-                  "name": "Ehime Fc vs Roasso Kumamoto",
+                  "id": "luongson-a76f11b1c912",
+                  "name": "Khatoco Khanh Hoa vs Than Quang Ninh",
                   "streams": [
                     {
-                      "id": "luongson-290c8f68a104",
+                      "id": "luongson-a76f11b1c912",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1a5ed269ad",
+                          "id": "lnk-7b17d9365f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-50403e4ec56c",
+          "name": "⚽ Quy Nhon United vs Tdtt Bac Ninh | 0' • 0 : 0",
+          "tournament": "Vietnamese First Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1843_1grahf6h7f1m.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/37694_1hvthn9vwf4.PNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1843_1grahf6h7f1m.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-50403e4ec56c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-50403e4ec56c",
+                  "name": "Quy Nhon United vs Tdtt Bac Ninh",
+                  "streams": [
+                    {
+                      "id": "luongson-50403e4ec56c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-47a13800cb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8fbcc335a836",
+          "name": "⚽ V-Varen Nagasaki vs Mito Hollyhock | HT • 1 : 0",
+          "tournament": "J1 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8876_1hr8p728mx2e.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2664_1gtqm8vyr33.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8876_1hr8p728mx2e.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8fbcc335a836",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8fbcc335a836",
+                  "name": "V-Varen Nagasaki vs Mito Hollyhock",
+                  "streams": [
+                    {
+                      "id": "luongson-8fbcc335a836",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75e881438f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7d66f8ed0310",
+          "name": "⚽ Hume City vs South Melbourne | 90+' • 1 : 1",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7d66f8ed0310",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7d66f8ed0310",
+                  "name": "Hume City vs South Melbourne",
+                  "streams": [
+                    {
+                      "id": "luongson-7d66f8ed0310",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-baa392f648",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5f4f6da15735",
+          "name": "⚽ Kyoto Sanga vs Kashiwa Reysol | 0 : 0",
+          "tournament": "J1 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2640_1hwerqcfbv2k.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/196_1gtzcts3612j.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2640_1hwerqcfbv2k.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5f4f6da15735",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5f4f6da15735",
+                  "name": "Kyoto Sanga vs Kashiwa Reysol",
+                  "streams": [
+                    {
+                      "id": "luongson-5f4f6da15735",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56e2a7751c",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
