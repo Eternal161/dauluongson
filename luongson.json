@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:40 30/05/2026",
+  "last_updated": "18:50 30/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-55deb3693d8d",
-          "name": "⚽ Henan Football Club vs Zhejiang Professional Fc | 41' • 0 : 1",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/495_1j39p5ccv415.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/495_1j39p5ccv415.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-55deb3693d8d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-55deb3693d8d",
-                  "name": "Henan Football Club vs Zhejiang Professional Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-55deb3693d8d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d6f05eaf9",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-e03bacc9e070",
-          "name": "⚽ Arsenal Dzyarzhynsk vs Dinamo Minsk | 41' • 0 : 0",
+          "name": "⚽ Arsenal Dzyarzhynsk vs Dinamo Minsk | HT • 0 : 0",
           "tournament": "Belarusian Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/40198_1h71mwa4sd1b.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/809_1h56c4f7b5w.png",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3d5cbbb7a9",
+                          "id": "lnk-d53cd95ed1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-c395bb46564b",
-          "name": "⚽ Qingdao West Coast vs Shanghai Shenhua | 77' • 2 : 2",
+          "name": "⚽ Qingdao West Coast vs Shanghai Shenhua | 87' • 2 : 2",
           "tournament": "Chinese Super League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/41556_1h1n1m7x0f8.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png",
@@ -152,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-370a9be74b",
+                          "id": "lnk-ef3f070649",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -167,8 +114,61 @@
           ]
         },
         {
+          "id": "luongson-55deb3693d8d",
+          "name": "⚽ Henan Football Club vs Zhejiang Professional Fc | HT • 0 : 1",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/495_1j39p5ccv415.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/495_1j39p5ccv415.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-55deb3693d8d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-55deb3693d8d",
+                  "name": "Henan Football Club vs Zhejiang Professional Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-55deb3693d8d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-915d21da7e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-908354ed448d",
-          "name": "⚽ Fk Mas Taborsko vs Banik Ostrava | 40' • 0 : 1",
+          "name": "⚽ Fk Mas Taborsko vs Banik Ostrava | HT • 0 : 2",
           "tournament": "Czech Republic Gambrinus Liga",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/17714_1gtqm9kx5j2a.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/615_1hbcqm6fcd13.png",
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-05e56593cc",
+                          "id": "lnk-51f8be1cb4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -220,61 +220,8 @@
           ]
         },
         {
-          "id": "luongson-5f4f6da15735",
-          "name": "⚽ Kyoto Sanga vs Kashiwa Reysol | 74' • 2 : 3",
-          "tournament": "J1 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2640_1hwerqcfbv2k.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/196_1gtzcts3612j.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2640_1hwerqcfbv2k.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5f4f6da15735",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5f4f6da15735",
-                  "name": "Kyoto Sanga vs Kashiwa Reysol",
-                  "streams": [
-                    {
-                      "id": "luongson-5f4f6da15735",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f3b5be64d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-6d8ddedd6bb3",
-          "name": "⚽ Chengdu Rongcheng Fc vs Shandong Taishan | 6' • 0 : 0",
+          "name": "⚽ Chengdu Rongcheng Fc vs Shandong Taishan | 16' • 1 : 0",
           "tournament": "Chinese Super League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/36861_1gy3vkgfwve.PNG",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/34_1gy3vjsrhjq.png",
@@ -311,11 +258,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-41df513f9a",
+                          "id": "lnk-735931afd8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5f4f6da15735",
+          "name": "⚽ Kyoto Sanga vs Kashiwa Reysol | 84' • 2 : 3",
+          "tournament": "J1 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2640_1hwerqcfbv2k.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/196_1gtzcts3612j.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2640_1hwerqcfbv2k.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5f4f6da15735",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5f4f6da15735",
+                  "name": "Kyoto Sanga vs Kashiwa Reysol",
+                  "streams": [
+                    {
+                      "id": "luongson-5f4f6da15735",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9109de5662",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -364,11 +364,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-50e7d2487a",
+                          "id": "lnk-b568d7426e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-10deece3ae",
+                          "id": "lnk-7b2076da61",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
