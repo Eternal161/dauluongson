@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:00 31/05/2026",
+  "last_updated": "16:10 31/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-cec6f68984af",
+          "name": "⚽ Hills United (W) vs Unsw Fc (W) | 76' • 0 : 1",
+          "tournament": "NSW Premier W-League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780218378.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64788_1k3ffxhvgm4.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780218378.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cec6f68984af",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cec6f68984af",
+                  "name": "Hills United (W) vs Unsw Fc (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-cec6f68984af",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db3e6802ba",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-a6ef531cdb90",
           "name": "⚽ Rain Or Shine Elasto Painters vs Barangay Ginebra San Miguel | 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a5f0f0d867",
+                          "id": "lnk-187e15e126",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,61 +114,8 @@
           ]
         },
         {
-          "id": "luongson-f1445e3f55ba",
-          "name": "⚽ Jeonnam Dragons vs Seoul E-Land Fc | 72' • 0 : 0",
-          "tournament": "K League 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21791_1gxsf6qkx8d.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f1445e3f55ba",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f1445e3f55ba",
-                  "name": "Jeonnam Dragons vs Seoul E-Land Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-f1445e3f55ba",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12db5106aa",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-8c80824c9e6a",
-          "name": "⚽ Brisbane Olympic United Fc vs Brisbane City | 43' • 2 : 2",
+          "name": "⚽ Brisbane Olympic United Fc vs Brisbane City | HT • 2 : 2",
           "tournament": "QLD Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/9337_1gryyqvhk2m.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/7283_1j3krbgr3tt.png",
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b741d54c85",
+                          "id": "lnk-ea550b35ec",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -167,11 +167,11 @@
           ]
         },
         {
-          "id": "luongson-cec6f68984af",
-          "name": "⚽ Hills United (W) vs Unsw Fc (W) | 66' • 0 : 0",
-          "tournament": "NSW Premier W-League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Hi&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64788_1k3ffxhvgm4.png",
+          "id": "luongson-f1445e3f55ba",
+          "name": "⚽ Jeonnam Dragons vs Seoul E-Land Fc | 82' • 0 : 0",
+          "tournament": "K League 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21791_1gxsf6qkx8d.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,7 +179,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Hi&size=200&background=1565C0&color=ffffff&bold=true",
+            "url": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png",
             "width": 1600,
             "height": 1200
           },
@@ -193,129 +193,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-cec6f68984af",
+              "id": "luongson-f1445e3f55ba",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-cec6f68984af",
-                  "name": "Hills United (W) vs Unsw Fc (W)",
+                  "id": "luongson-f1445e3f55ba",
+                  "name": "Jeonnam Dragons vs Seoul E-Land Fc",
                   "streams": [
                     {
-                      "id": "luongson-cec6f68984af",
+                      "id": "luongson-f1445e3f55ba",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-007ee7fa9b",
+                          "id": "lnk-021045e42d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0e7b6db4e97e",
-          "name": "⚽ Haman Fc vs Jinju Citizen | 0 : 0",
-          "tournament": "Korea League 4",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780212425.webp",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44740_1gtqmdp51d2b.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780212425.webp",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0e7b6db4e97e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0e7b6db4e97e",
-                  "name": "Haman Fc vs Jinju Citizen",
-                  "streams": [
-                    {
-                      "id": "luongson-0e7b6db4e97e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-94198dcd9b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-099cbb613ed5",
-          "name": "⚽ West Adelaide Sc vs Adelaide City Fc | 84' • 1 : 2",
-          "tournament": "FFSA Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20120_1gvpn643zgb.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12158_1hvszb500y2k.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20120_1gvpn643zgb.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-099cbb613ed5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-099cbb613ed5",
-                  "name": "West Adelaide Sc vs Adelaide City Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-099cbb613ed5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76cad9cdcf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -327,7 +221,7 @@
         },
         {
           "id": "luongson-62f83e0c0e40",
-          "name": "⚽ Hwaseong Fc vs Gyeongnam Fc | 67' • 1 : 0",
+          "name": "⚽ Hwaseong Fc vs Gyeongnam Fc | 77' • 1 : 0",
           "tournament": "K League 2",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/18801_1jkpmbbms12b.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/3442_1gxsf6qkdcq.png",
@@ -364,11 +258,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-50677ee5f8",
+                          "id": "lnk-73f3145dfc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0e7b6db4e97e",
+          "name": "⚽ Haman Fc vs Jinju Citizen | 11' • 0 : 1",
+          "tournament": "Korea League 4",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780212425.webp",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44740_1gtqmdp51d2b.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780212425.webp",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0e7b6db4e97e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0e7b6db4e97e",
+                  "name": "Haman Fc vs Jinju Citizen",
+                  "streams": [
+                    {
+                      "id": "luongson-0e7b6db4e97e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-077e0df338",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6677618663cf",
+          "name": "⚽ West Adelaide Sc vs Adelaide City Fc | 90+' • 1 : 2",
+          "tournament": "FFSA Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20120_1gvpn643zgb.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12158_1hvszb500y2k.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/20120_1gvpn643zgb.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6677618663cf",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6677618663cf",
+                  "name": "West Adelaide Sc vs Adelaide City Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-6677618663cf",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aeeeef2e56",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f6a8d63877",
+                          "id": "lnk-65269527fe",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
