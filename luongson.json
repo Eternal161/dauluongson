@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:30 31/05/2026",
+  "last_updated": "17:40 31/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-0e7b6db4e97e",
+          "name": "⚽ Haman Fc vs Jinju Citizen | 82' • 1 : 3",
+          "tournament": "Korea League 4",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780212425.webp",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44740_1gtqmdp51d2b.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780212425.webp",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0e7b6db4e97e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0e7b6db4e97e",
+                  "name": "Haman Fc vs Jinju Citizen",
+                  "streams": [
+                    {
+                      "id": "luongson-0e7b6db4e97e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af68d33e89",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-a6ef531cdb90",
           "name": "⚽ Rain Or Shine Elasto Painters vs Barangay Ginebra San Miguel | H1 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4eb8d7bda7",
+                          "id": "lnk-d1bbefe3dd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-22c72c7baefb",
-          "name": "⚽ Japan vs Iceland | 5' • 0 : 0",
+          "name": "⚽ Japan vs Iceland | 15' • 0 : 0",
           "tournament": "International Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/788_166919982535.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/650_164983760720.png",
@@ -99,11 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a7c46f45fb",
+                          "id": "lnk-cae7c12a2b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -114,64 +167,11 @@
           ]
         },
         {
-          "id": "luongson-0e7b6db4e97e",
-          "name": "⚽ Haman Fc vs Jinju Citizen | 72' • 0 : 3",
-          "tournament": "Korea League 4",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780212425.webp",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44740_1gtqmdp51d2b.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780212425.webp",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0e7b6db4e97e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0e7b6db4e97e",
-                  "name": "Haman Fc vs Jinju Citizen",
-                  "streams": [
-                    {
-                      "id": "luongson-0e7b6db4e97e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-56e66e30d3",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f2df0c70055b",
-          "name": "⚽ Thanh Hoa vs Ninh Binh Fc | 0 : 0",
+          "id": "luongson-bb078c4da2c5",
+          "name": "⚽ Nam Dinh Fc vs Song Lam Nghe An | 0 : 0",
           "tournament": "V.League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8676_1h5e4e370y1r.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28124_1k5qqrea6410.png",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6306_1k26fvjzjsh.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8675_1hg4m05s0d13.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,7 +179,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8676_1h5e4e370y1r.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/6306_1k26fvjzjsh.png",
             "width": 1600,
             "height": 1200
           },
@@ -193,23 +193,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-f2df0c70055b",
+              "id": "luongson-bb078c4da2c5",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-f2df0c70055b",
-                  "name": "Thanh Hoa vs Ninh Binh Fc",
+                  "id": "luongson-bb078c4da2c5",
+                  "name": "Nam Dinh Fc vs Song Lam Nghe An",
                   "streams": [
                     {
-                      "id": "luongson-f2df0c70055b",
+                      "id": "luongson-bb078c4da2c5",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-874725c986",
+                          "id": "lnk-f21b6aa51d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-04af99adb3",
+                          "id": "lnk-27d2d7c2f4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -273,11 +273,11 @@
           ]
         },
         {
-          "id": "luongson-92d5ee21416a",
-          "name": "⚽ Hong Linh Ha Tinh vs Da Nang | 0 : 0",
+          "id": "luongson-f2df0c70055b",
+          "name": "⚽ Thanh Hoa vs Ninh Binh Fc | 0 : 0",
           "tournament": "V.League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23896_1h5e4e370r1y.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3398_1hg20ff0484.png",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8676_1h5e4e370y1r.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28124_1k5qqrea6410.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -285,7 +285,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23896_1h5e4e370r1y.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/8676_1h5e4e370y1r.png",
             "width": 1600,
             "height": 1200
           },
@@ -299,23 +299,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-92d5ee21416a",
+              "id": "luongson-f2df0c70055b",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-92d5ee21416a",
-                  "name": "Hong Linh Ha Tinh vs Da Nang",
+                  "id": "luongson-f2df0c70055b",
+                  "name": "Thanh Hoa vs Ninh Binh Fc",
                   "streams": [
                     {
-                      "id": "luongson-92d5ee21416a",
+                      "id": "luongson-f2df0c70055b",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9660e3c046",
+                          "id": "lnk-67c0d6d1cc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -326,7 +326,7 @@
           ]
         },
         {
-          "id": "luongson-5c10c4336401",
+          "id": "luongson-b20ef172c57d",
           "name": "⚽ Hoang Anh Gia Lai vs Hanoi Fc | 0 : 0",
           "tournament": "V.League 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1689_1jqjeqygbn1b.png",
@@ -344,25 +344,33 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-5c10c4336401",
+              "id": "luongson-b20ef172c57d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-5c10c4336401",
+                  "id": "luongson-b20ef172c57d",
                   "name": "Hoang Anh Gia Lai vs Hanoi Fc",
                   "streams": [
                     {
-                      "id": "luongson-5c10c4336401",
+                      "id": "luongson-b20ef172c57d",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-95a016f30f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -371,11 +379,11 @@
           ]
         },
         {
-          "id": "luongson-3310fe1a8ea9",
-          "name": "⚽ Cong An Tp Ho Chi Minh vs Viettel Fc | 0 : 0",
+          "id": "luongson-322ad19b7223",
+          "name": "⚽ Cong An Ha Noi vs Becamex Tp Ho Chi Minh | 0 : 0",
           "tournament": "V.League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17315_1k3q3st99rc.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22214_1grfnycz2q32.png",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21854_1hgvtfy5jt15.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6305_1h5bjfrpgq1n.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -383,7 +391,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17315_1k3q3st99rc.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/21854_1hgvtfy5jt15.png",
             "width": 1600,
             "height": 1200
           },
@@ -397,23 +405,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-3310fe1a8ea9",
+              "id": "luongson-322ad19b7223",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3310fe1a8ea9",
-                  "name": "Cong An Tp Ho Chi Minh vs Viettel Fc",
+                  "id": "luongson-322ad19b7223",
+                  "name": "Cong An Ha Noi vs Becamex Tp Ho Chi Minh",
                   "streams": [
                     {
-                      "id": "luongson-3310fe1a8ea9",
+                      "id": "luongson-322ad19b7223",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-60ea8ee856",
+                          "id": "lnk-8dd76f80dc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
