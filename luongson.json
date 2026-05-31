@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:50 31/05/2026",
+  "last_updated": "21:00 31/05/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-3bc08276e970",
+          "name": "⚽ Czech Republic vs Kosovo | 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/641_16498366963.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4948_16498417922.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/641_16498366963.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3bc08276e970",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3bc08276e970",
+                  "name": "Czech Republic vs Kosovo",
+                  "streams": [
+                    {
+                      "id": "luongson-3bc08276e970",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bd1bd918d0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-b8289ba2e173",
-          "name": "⚽ Switzerland vs Jordan | 45+' • 2 : 0",
+          "name": "⚽ Switzerland vs Jordan | HT • 3 : 0",
           "tournament": "International Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/558_164983533378.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-78422e15be",
+                          "id": "lnk-c71dcc08a7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,11 +114,11 @@
           ]
         },
         {
-          "id": "luongson-00692ad9561b",
-          "name": "⚽ Degerfors If vs Brommapojkarna | 89' • 2 : 2",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1738_1h8fzpmyv32k.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png",
+          "id": "luongson-d3fac92a7f88",
+          "name": "⚽ Bragantino vs Internacional Rs | 1' • 0 : 0",
+          "tournament": "Brazil Serie A",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3220_1gwnk9p3w710.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/334_1hxg39ttg32m.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +126,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1738_1h8fzpmyv32k.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/3220_1gwnk9p3w710.png",
             "width": 1600,
             "height": 1200
           },
@@ -87,76 +140,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-00692ad9561b",
+              "id": "luongson-d3fac92a7f88",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-00692ad9561b",
-                  "name": "Degerfors If vs Brommapojkarna",
+                  "id": "luongson-d3fac92a7f88",
+                  "name": "Bragantino vs Internacional Rs",
                   "streams": [
                     {
-                      "id": "luongson-00692ad9561b",
+                      "id": "luongson-d3fac92a7f88",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3c4dd0cd90",
+                          "id": "lnk-d6edfef577",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c9ab1b69fee0",
-          "name": "⚽ Nhatrang Dolphins vs Saigon Heat | H1 • 0 : 0",
-          "tournament": "VBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165506.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165508.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165506.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c9ab1b69fee0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c9ab1b69fee0",
-                  "name": "Nhatrang Dolphins vs Saigon Heat",
-                  "streams": [
-                    {
-                      "id": "luongson-c9ab1b69fee0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76103430c5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-66faee57d6",
+                          "id": "lnk-e08640b21b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -220,11 +220,11 @@
           ]
         },
         {
-          "id": "luongson-7dc796445208",
-          "name": "⚽ Vasteras Sk Fk vs Ifk Goteborg | 85' • 4 : 5",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1313_1h8qpbfht1z.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/377_1hg209brnt23.png",
+          "id": "luongson-c9ab1b69fee0",
+          "name": "⚽ Nhatrang Dolphins vs Saigon Heat | H1 • 0 : 0",
+          "tournament": "VBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165506.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165508.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -232,7 +232,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1313_1h8qpbfht1z.png",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780165506.png",
             "width": 1600,
             "height": 1200
           },
@@ -246,76 +246,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-7dc796445208",
+              "id": "luongson-c9ab1b69fee0",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-7dc796445208",
-                  "name": "Vasteras Sk Fk vs Ifk Goteborg",
+                  "id": "luongson-c9ab1b69fee0",
+                  "name": "Nhatrang Dolphins vs Saigon Heat",
                   "streams": [
                     {
-                      "id": "luongson-7dc796445208",
+                      "id": "luongson-c9ab1b69fee0",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-286c1a3716",
+                          "id": "lnk-623886d5e8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3bc08276e970",
-          "name": "⚽ Czech Republic vs Kosovo | 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/641_16498366963.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4948_16498417922.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/641_16498366963.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3bc08276e970",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3bc08276e970",
-                  "name": "Czech Republic vs Kosovo",
-                  "streams": [
-                    {
-                      "id": "luongson-3bc08276e970",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be6f923f89",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -327,7 +274,7 @@
         },
         {
           "id": "luongson-c904860a3fae",
-          "name": "⚽ Brighton H.A. (W) vs Manchester City (W) | 0 : 0",
+          "name": "⚽ Brighton H.A. (W) vs Manchester City (W) | 1' • 0 : 0",
           "tournament": "England FA Women's Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/6432_1gtzdd0yd01b.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/6436_1gq2196vw715.png",
@@ -364,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1eaab6ad61",
+                          "id": "lnk-d85d4bfd3c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -379,11 +326,11 @@
           ]
         },
         {
-          "id": "luongson-d3fac92a7f88",
-          "name": "⚽ Bragantino vs Internacional Rs | 0 : 0",
-          "tournament": "Brazil Serie A",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3220_1gwnk9p3w710.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/334_1hxg39ttg32m.png",
+          "id": "luongson-249c77f44357",
+          "name": "⚽ Cape Verde vs Serbia | 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/683_165018791043.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/553_16498373919.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -391,7 +338,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3220_1gwnk9p3w710.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/683_165018791043.png",
             "width": 1600,
             "height": 1200
           },
@@ -405,23 +352,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-d3fac92a7f88",
+              "id": "luongson-249c77f44357",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d3fac92a7f88",
-                  "name": "Bragantino vs Internacional Rs",
+                  "id": "luongson-249c77f44357",
+                  "name": "Cape Verde vs Serbia",
                   "streams": [
                     {
-                      "id": "luongson-d3fac92a7f88",
+                      "id": "luongson-249c77f44357",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-567cb79766",
+                          "id": "lnk-982bac7e4a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-50097152de10",
+          "name": "⚽ Pk-35 Vantaa vs Klubi 04 Helsinki | 0 : 0",
+          "tournament": "Finland Ykkonen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2008_1hptwm1jvy2v.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-50097152de10",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-50097152de10",
+                  "name": "Pk-35 Vantaa vs Klubi 04 Helsinki",
+                  "streams": [
+                    {
+                      "id": "luongson-50097152de10",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b98b060f0e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
                         }
                       ]
                     }
