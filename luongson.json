@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:10 01/06/2026",
+  "last_updated": "13:20 01/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-47d0824edbef",
+          "name": "⚽ Paris Saint-Germain vs Arsenal | H1 • 0 : 0",
+          "tournament": "Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780294483.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780294486.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780294483.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-47d0824edbef",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-47d0824edbef",
+                  "name": "Paris Saint-Germain vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "luongson-47d0824edbef",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8ba5dacb68",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-8edd0ff822ef",
           "name": "⚽ Vietnam U19 vs Timor Leste U19 | 0 : 0",
@@ -46,7 +99,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7d020ca615",
+                          "id": "lnk-241cddad4c",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bb3edfc758dc",
+          "name": "⚽ Ahrobiznes Tsk Romny vs Fc Chernigiv | 0 : 0",
+          "tournament": "Ukraine Division 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/25285_1h5e47wr2gh.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34640_1gxfbzah55m.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/25285_1h5e47wr2gh.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bb3edfc758dc",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bb3edfc758dc",
+                  "name": "Ahrobiznes Tsk Romny vs Fc Chernigiv",
+                  "streams": [
+                    {
+                      "id": "luongson-bb3edfc758dc",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-210da7b0fb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6f4870be7a",
+                          "id": "lnk-621185c992",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,11 +220,11 @@
           ]
         },
         {
-          "id": "luongson-bb3edfc758dc",
-          "name": "⚽ Ahrobiznes Tsk Romny vs Fc Chernigiv | 0 : 0",
-          "tournament": "Ukraine Division 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/25285_1h5e47wr2gh.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34640_1gxfbzah55m.png",
+          "id": "luongson-404707fc5a64",
+          "name": "⚽ Myanmar (W) vs Uzbekistan (W) | 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3709_1gzfp9hsge1h.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9219_1h4ava1jtxz.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -126,7 +232,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/25285_1h5e47wr2gh.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/3709_1gzfp9hsge1h.png",
             "width": 1600,
             "height": 1200
           },
@@ -140,19 +246,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-bb3edfc758dc",
+              "id": "luongson-404707fc5a64",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-bb3edfc758dc",
-                  "name": "Ahrobiznes Tsk Romny vs Fc Chernigiv",
+                  "id": "luongson-404707fc5a64",
+                  "name": "Myanmar (W) vs Uzbekistan (W)",
                   "streams": [
                     {
-                      "id": "luongson-bb3edfc758dc",
+                      "id": "luongson-404707fc5a64",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8693c63831",
+                          "id": "lnk-571c5535dd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-edb01e3f34",
+                          "id": "lnk-0a299cdd58",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,60 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e14f2f86cf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-404707fc5a64",
-          "name": "⚽ Myanmar (W) vs Uzbekistan (W) | 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3709_1gzfp9hsge1h.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9219_1h4ava1jtxz.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3709_1gzfp9hsge1h.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-404707fc5a64",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-404707fc5a64",
-                  "name": "Myanmar (W) vs Uzbekistan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-404707fc5a64",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd9f9d48eb",
+                          "id": "lnk-c570ec3e17",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,60 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-881d164442",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://customer-basqxcqosr3rhweb.cloudflarestream.com/7ed227c75b32281f862efca8a095d7c0/manifest/video.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3ebef448aaff",
-          "name": "⚽ Denmark U17 vs Italy U17 | 0 : 0",
-          "tournament": "UEFA European U-17 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4030_16575001840.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1837_165750303647.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4030_16575001840.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3ebef448aaff",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3ebef448aaff",
-                  "name": "Denmark U17 vs Italy U17",
-                  "streams": [
-                    {
-                      "id": "luongson-3ebef448aaff",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5998ac7de5",
+                          "id": "lnk-95cac55052",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
