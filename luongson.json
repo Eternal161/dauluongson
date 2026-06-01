@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:20 01/06/2026",
+  "last_updated": "07:30 01/06/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-9623ae809cbe",
-          "name": "⚽ Cruzeiro vs Fluminense Rj | 45+' • 0 : 1",
+          "name": "⚽ Cruzeiro vs Fluminense Rj | HT • 0 : 1",
           "tournament": "Brazil Serie A",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/320_1grcyq30k1x.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/428_1hxqrprbsp13.png",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-26994fe98f",
+                          "id": "lnk-fb150f14d0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,8 +61,61 @@
           ]
         },
         {
+          "id": "luongson-4e1f6bf7fcbc",
+          "name": "⚽ Palestino vs Audax Italiano | 30' • 0 : 0",
+          "tournament": "Chile Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/953_1gv1yk239f2n.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/953_1gv1yk239f2n.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4e1f6bf7fcbc",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4e1f6bf7fcbc",
+                  "name": "Palestino vs Audax Italiano",
+                  "streams": [
+                    {
+                      "id": "luongson-4e1f6bf7fcbc",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d7be025f6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-899d9b9028e5",
-          "name": "⚽ Westchester Flames vs Staten Island Asc | 56' • 0 : 2",
+          "name": "⚽ Westchester Flames vs Staten Island Asc | 66' • 0 : 3",
           "tournament": "USA USL League Two",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/24409_1h24jy2p6b19.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65531_1hz0zy6tz92s.png",
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-968dcba33c",
+                          "id": "lnk-0747577e34",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,64 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9e61d9cef2",
+                          "id": "lnk-773171b19e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4e1f6bf7fcbc",
-          "name": "⚽ Palestino vs Audax Italiano | 20' • 0 : 0",
-          "tournament": "Chile Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/953_1gv1yk239f2n.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/953_1gv1yk239f2n.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4e1f6bf7fcbc",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4e1f6bf7fcbc",
-                  "name": "Palestino vs Audax Italiano",
-                  "streams": [
-                    {
-                      "id": "luongson-4e1f6bf7fcbc",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-795b5bc1d5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e4465659e8",
+                          "id": "lnk-7916610dce",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-65b3f6e1d3",
+                          "id": "lnk-389314baa7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-44adf14973",
+                          "id": "lnk-0ea4a6f664",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f683aa4934",
+                          "id": "lnk-0c7cbd054b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
