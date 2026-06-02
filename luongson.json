@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:40 02/06/2026",
+  "last_updated": "16:50 02/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-57a43524e6e0",
+          "name": "⚽ Formosa Dreamers vs New Taipei Kings | 0 : 0",
+          "tournament": "TPBL - Play Offs - Chung kết",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780393310.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780393312.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780393310.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-57a43524e6e0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-57a43524e6e0",
+                  "name": "Formosa Dreamers vs New Taipei Kings",
+                  "streams": [
+                    {
+                      "id": "luongson-57a43524e6e0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5069b173b6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-7c24d91d7b28",
           "name": "⚽ Nacional Potosi vs Aurora | 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f84054440c",
+                          "id": "lnk-a7298f1e42",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-732cd227932a",
-          "name": "⚽ Wahana Fc vs Persibangga Purbalingga | 65' • 1 : 0",
+          "name": "⚽ Wahana Fc vs Persibangga Purbalingga | 75' • 1 : 0",
           "tournament": "Indonesia Liga 4",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/63690_1hdn1nr02y1k.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/24113_1hxrhmy9sp1w.png",
@@ -99,14 +152,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0a350c091e",
+                          "id": "lnk-c34125b024",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwe5npk9VBYtWZBVN/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-8c82623fe9",
+                          "id": "lnk-f4dd416df0",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -122,7 +175,7 @@
         },
         {
           "id": "luongson-6628323f8890",
-          "name": "⚽ Persikotas Tasikmalaya vs Ps Daygun | 53' • 0 : 0",
+          "name": "⚽ Persikotas Tasikmalaya vs Ps Daygun | 63' • 0 : 0",
           "tournament": "Indonesia Liga 4",
           "logo_nha": "https://ui-avatars.com/api/?name=Pe&size=200&background=1565C0&color=ffffff&bold=true",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/63440_1hbw6mr81ae.png",
@@ -159,18 +212,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-db575606f7",
+                          "id": "lnk-00c1ca4014",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5npk8zcJaGpGVi/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5npk8zcJaGpGVi/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-27e0a8ed37",
+                          "id": "lnk-392484fd10",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5npk8zcJaGpGVi/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5npk8zcJaGpGVi/chunklist.m3u8"
                         }
                       ]
                     }
@@ -182,7 +235,7 @@
         },
         {
           "id": "luongson-3e20d5287c2d",
-          "name": "⚽ Asiop Fc vs Mataram Utama Fc | 54' • 0 : 1",
+          "name": "⚽ Asiop Fc vs Mataram Utama Fc | 64' • 1 : 1",
           "tournament": "Indonesia Liga 4",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/55959_1jtf0tpv1q13.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/64203_1hhgf0ezyw32.png",
@@ -219,14 +272,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a34a05f907",
+                          "id": "lnk-f259bd4a6d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwe5npk92onSkeBec/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-565f1c1499",
+                          "id": "lnk-cd8f25c5e4",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -242,7 +295,7 @@
         },
         {
           "id": "luongson-2c6676655ff3",
-          "name": "⚽ Thailand U19 vs Brunei Darussalam U19 | 41' • 5 : 0",
+          "name": "⚽ Thailand U19 vs Brunei Darussalam U19 | HT • 5 : 0",
           "tournament": "AFF U-19 Youth Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4117_165726897298.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/9767_165707670441.png",
@@ -279,11 +332,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5a4274b385",
+                          "id": "lnk-4c77edaa3e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -295,7 +348,7 @@
         },
         {
           "id": "luongson-89c3c4415b9e",
-          "name": "⚽ Rajamangala University Rattanakosin vs Payap University | 27' • 1 : 0",
+          "name": "⚽ Rajamangala University Rattanakosin vs Payap University | 37' • 1 : 0",
           "tournament": "Thailand University League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/40968_1hzvcc6jxd11.png",
           "logo_khach": "https://ui-avatars.com/api/?name=Pa&size=200&background=1565C0&color=ffffff&bold=true",
@@ -332,14 +385,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-80c274b165",
+                          "id": "lnk-e9311f4f6c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwe5npkK34eDQk89J/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-de19faad0e",
+                          "id": "lnk-d666023d2f",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -355,7 +408,7 @@
         },
         {
           "id": "luongson-881c86a29349",
-          "name": "⚽ Spring Hills Fc (W) vs Fc Bulleen Lions (W) | 9' • 0 : 0",
+          "name": "⚽ Spring Hills Fc (W) vs Fc Bulleen Lions (W) | 19' • 0 : 0",
           "tournament": "Australia Victorian Women's Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/61434_1gxt3eqjwry.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/18898_1h56hzxyc12v.png",
@@ -392,71 +445,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-203a82a59c",
+                          "id": "lnk-84cb51684e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwe5Q7gJw3neZ6bQY/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-65e7e5cb68",
+                          "id": "lnk-9528fc7a00",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwe5Q7gJw3neZ6bQY/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f2ad5d2787fc",
-          "name": "⚽ Wynnum Wolves vs Brisbane Roar (Youth) | 13' • 0 : 0",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f2ad5d2787fc",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f2ad5d2787fc",
-                  "name": "Wynnum Wolves vs Brisbane Roar (Youth)",
-                  "streams": [
-                    {
-                      "id": "luongson-f2ad5d2787fc",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-832ede08da",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
