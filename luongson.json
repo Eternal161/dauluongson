@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:40 02/06/2026",
+  "last_updated": "18:50 02/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-9ed1ac3c8715",
+          "name": "⚽ Yunnan Cuanhe vs Sichuan 318 | 15' • 0 : 0",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
+          "logo_khach": "https://ui-avatars.com/api/?name=Si&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9ed1ac3c8715",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9ed1ac3c8715",
+                  "name": "Yunnan Cuanhe vs Sichuan 318",
+                  "streams": [
+                    {
+                      "id": "luongson-9ed1ac3c8715",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-419db199f1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-57a43524e6e0",
           "name": "⚽ Formosa Dreamers vs New Taipei Kings | H1 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6434120488",
+                          "id": "lnk-fca854f4ef",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-a1935179fe33",
-          "name": "⚽ Metalurh Zaporizhya vs Fc Bukovyna Chernivtsi | 80' • 0 : 3",
+          "name": "⚽ Metalurh Zaporizhya vs Fc Bukovyna Chernivtsi | 90' • 0 : 4",
           "tournament": "Ukraine Division 2",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1467_1h4qtkj4j82k.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/12854_1k26fs46pg1p.png",
@@ -99,11 +152,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-96c5fc8e7b",
+                          "id": "lnk-915561bb47",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-387e09783e49",
+          "name": "⚽ North Star vs Brisbane Strikers | 72' • 1 : 2",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8860_1hx0r83dgcw.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8860_1hx0r83dgcw.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-387e09783e49",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-387e09783e49",
+                  "name": "North Star vs Brisbane Strikers",
+                  "streams": [
+                    {
+                      "id": "luongson-387e09783e49",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86e8aaa50e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -152,170 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-73bdd8ce1f",
+                          "id": "lnk-6da3317ea1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-387e09783e49",
-          "name": "⚽ North Star vs Brisbane Strikers | 62' • 1 : 2",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8860_1hx0r83dgcw.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8860_1hx0r83dgcw.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-387e09783e49",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-387e09783e49",
-                  "name": "North Star vs Brisbane Strikers",
-                  "streams": [
-                    {
-                      "id": "luongson-387e09783e49",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c302daa44c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9ed1ac3c8715",
-          "name": "⚽ Yunnan Cuanhe vs Sichuan 318 | 5' • 0 : 0",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
-          "logo_khach": "https://ui-avatars.com/api/?name=Si&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9ed1ac3c8715",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9ed1ac3c8715",
-                  "name": "Yunnan Cuanhe vs Sichuan 318",
-                  "streams": [
-                    {
-                      "id": "luongson-9ed1ac3c8715",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86654d518a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-233ac04feceb",
-          "name": "⚽ Hackenu21 vs Ifk Goteborg U21 | 0 : 0",
-          "tournament": "Sweden Folksam U21 Allsvenskan Sodra",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4682_1htgrgwxj41c.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/14990_20200330110543.gif",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4682_1htgrgwxj41c.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-233ac04feceb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-233ac04feceb",
-                  "name": "Hackenu21 vs Ifk Goteborg U21",
-                  "streams": [
-                    {
-                      "id": "luongson-233ac04feceb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df8f3571b8",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
@@ -364,7 +311,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0b822a3520",
+                          "id": "lnk-00556cda0a",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-cae50192d96d",
+          "name": "⚽ China U19 vs Democratic Rep Congo U23 | 0 : 0",
+          "tournament": "Toulon Tournament",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3537_1j0jf4rqkm2b.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/40095_1h661w73sy28.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3537_1j0jf4rqkm2b.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cae50192d96d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cae50192d96d",
+                  "name": "China U19 vs Democratic Rep Congo U23",
+                  "streams": [
+                    {
+                      "id": "luongson-cae50192d96d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d70a13038f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d414989da3",
+                          "id": "lnk-dacf7fb3ff",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
