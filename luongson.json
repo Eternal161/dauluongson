@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:20 03/06/2026",
+  "last_updated": "02:30 03/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-c8f33f60e1b1",
+          "name": "⚽ Brescia vs Ascoli | 13' • 0 : 1",
+          "tournament": "Italy C1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/150_1k1px8z1h7c.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/482_1j50e7cjp31z.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/150_1k1px8z1h7c.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c8f33f60e1b1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c8f33f60e1b1",
+                  "name": "Brescia vs Ascoli",
+                  "streams": [
+                    {
+                      "id": "luongson-c8f33f60e1b1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56f40ec390",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-ace4416d6655",
-          "name": "⚽ Usm Alger vs Cr Belouizdad | 18' • 0 : 1",
+          "name": "⚽ Usm Alger vs Cr Belouizdad | 28' • 0 : 1",
           "tournament": "Algerian Ligue Professionnelle 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1695_1k6pfq4h982f.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1694_1grwgjzdfq1.png",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f8aff3502f",
+                          "id": "lnk-066f8961b8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,8 +114,61 @@
           ]
         },
         {
+          "id": "luongson-cfa5e9fb1bdd",
+          "name": "⚽ Wales vs Ghana | 42' • 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6440_164984044545.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/701_165018802248.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6440_164984044545.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cfa5e9fb1bdd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cfa5e9fb1bdd",
+                  "name": "Wales vs Ghana",
+                  "streams": [
+                    {
+                      "id": "luongson-cfa5e9fb1bdd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67e98a345e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-e3cc9aab7736",
-          "name": "⚽ Colon Reserves vs Huracan Reserves | 60' • 1 : 1",
+          "name": "⚽ Colon Reserves vs Huracan Reserves | 70' • 2 : 1",
           "tournament": "Argentina Reserve League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/28457_1gqvwpx6bp17.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/26989_1j55e0zf2h1w.png",
@@ -99,11 +205,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-19db886b87",
+                          "id": "lnk-ed4556d563",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b023a0e59057",
+          "name": "⚽ Tigre Reserves vs River Plate Reserves | 74' • 0 : 2",
+          "tournament": "Argentina Reserve League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26685_1gqxqnygjf24.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24809_1grafswzj7y.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/26685_1gqxqnygjf24.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b023a0e59057",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b023a0e59057",
+                  "name": "Tigre Reserves vs River Plate Reserves",
+                  "streams": [
+                    {
+                      "id": "luongson-b023a0e59057",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-537bcc7118",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -152,223 +311,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5e5d6d2872",
+                          "id": "lnk-58650f8ff2",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6082df1dbe40",
-          "name": "⚽ Morocco vs Madagascar | 90+' • 4 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/704_1hkv9bnt8sv.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4512_165018829121.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/704_1hkv9bnt8sv.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6082df1dbe40",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6082df1dbe40",
-                  "name": "Morocco vs Madagascar",
-                  "streams": [
-                    {
-                      "id": "luongson-6082df1dbe40",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4cefd8874",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b023a0e59057",
-          "name": "⚽ Tigre Reserves vs River Plate Reserves | 64' • 0 : 1",
-          "tournament": "Argentina Reserve League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26685_1gqxqnygjf24.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24809_1grafswzj7y.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/26685_1gqxqnygjf24.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b023a0e59057",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b023a0e59057",
-                  "name": "Tigre Reserves vs River Plate Reserves",
-                  "streams": [
-                    {
-                      "id": "luongson-b023a0e59057",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54975c4a8e",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-cfa5e9fb1bdd",
-          "name": "⚽ Wales vs Ghana | 32' • 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6440_164984044545.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/701_165018802248.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6440_164984044545.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-cfa5e9fb1bdd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-cfa5e9fb1bdd",
-                  "name": "Wales vs Ghana",
-                  "streams": [
-                    {
-                      "id": "luongson-cfa5e9fb1bdd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3cc28fd495",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c8f33f60e1b1",
-          "name": "⚽ Brescia vs Ascoli | 3' • 0 : 0",
-          "tournament": "Italy C1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/150_1k1px8z1h7c.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/482_1j50e7cjp31z.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/150_1k1px8z1h7c.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c8f33f60e1b1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c8f33f60e1b1",
-                  "name": "Brescia vs Ascoli",
-                  "streams": [
-                    {
-                      "id": "luongson-c8f33f60e1b1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b6a11de80",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -417,7 +364,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-93ab854359",
+                          "id": "lnk-0d11dd8acd",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-95bce517baab",
+          "name": "⚽ Washington Mystics W vs Chicago Sky W | 0 : 0",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780421401.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780421403.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780421401.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-95bce517baab",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-95bce517baab",
+                  "name": "Washington Mystics W vs Chicago Sky W",
+                  "streams": [
+                    {
+                      "id": "luongson-95bce517baab",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf2284a9bb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
