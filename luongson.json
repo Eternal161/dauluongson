@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:20 02/06/2026",
+  "last_updated": "19:30 02/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-2b5b0a927126",
+          "name": "⚽ Brunei Darussalam vs Timor Leste | 14' • 0 : 0",
+          "tournament": "AFF Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3046_165018985765.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1338_165018948796.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3046_165018985765.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2b5b0a927126",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2b5b0a927126",
+                  "name": "Brunei Darussalam vs Timor Leste",
+                  "streams": [
+                    {
+                      "id": "luongson-2b5b0a927126",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c321e486d5",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-57a43524e6e0",
           "name": "⚽ Formosa Dreamers vs New Taipei Kings | H2 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4c3ec4814f",
+                          "id": "lnk-508a9b897b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,11 +114,11 @@
           ]
         },
         {
-          "id": "luongson-2b5b0a927126",
-          "name": "⚽ Brunei Darussalam vs Timor Leste | 4' • 0 : 0",
-          "tournament": "AFF Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3046_165018985765.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1338_165018948796.png",
+          "id": "luongson-9ed1ac3c8715",
+          "name": "⚽ Yunnan Cuanhe vs Sichuan 318 | HT • 0 : 0",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
+          "logo_khach": "https://ui-avatars.com/api/?name=Si&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +126,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3046_165018985765.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
             "width": 1600,
             "height": 1200
           },
@@ -87,23 +140,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-2b5b0a927126",
+              "id": "luongson-9ed1ac3c8715",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2b5b0a927126",
-                  "name": "Brunei Darussalam vs Timor Leste",
+                  "id": "luongson-9ed1ac3c8715",
+                  "name": "Yunnan Cuanhe vs Sichuan 318",
                   "streams": [
                     {
-                      "id": "luongson-2b5b0a927126",
+                      "id": "luongson-9ed1ac3c8715",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f7eb3bd038",
+                          "id": "lnk-962045d2ef",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -152,64 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-23b878cda8",
+                          "id": "lnk-12771fea27",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9ed1ac3c8715",
-          "name": "⚽ Yunnan Cuanhe vs Sichuan 318 | 45' • 0 : 0",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
-          "logo_khach": "https://ui-avatars.com/api/?name=Si&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9ed1ac3c8715",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9ed1ac3c8715",
-                  "name": "Yunnan Cuanhe vs Sichuan 318",
-                  "streams": [
-                    {
-                      "id": "luongson-9ed1ac3c8715",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d75d132275",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-be9b077512",
+                          "id": "lnk-0a2454a664",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-44b9074b0a",
+                          "id": "lnk-7f812eff27",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-01770ec923",
+                          "id": "lnk-aa9794fb13",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-63ec25e657",
+                          "id": "lnk-4d9792351b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
