@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:20 03/06/2026",
+  "last_updated": "18:30 03/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-e506fb408cde",
+          "name": "⚽ Philippines vs Guam Island | 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1336_165018950152.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4952_16626133713.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1336_165018950152.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e506fb408cde",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e506fb408cde",
+                  "name": "Philippines vs Guam Island",
+                  "streams": [
+                    {
+                      "id": "luongson-e506fb408cde",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4044be8098",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-db39d8a0518e",
-          "name": "⚽ Guangdong Chenxingjuli vs Ganzhou Red Star | 62' • 3 : 0",
+          "name": "⚽ Guangdong Chenxingjuli vs Ganzhou Red Star | 72' • 3 : 0",
           "tournament": "Chinese Champions League",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780481236.png",
           "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780481238.png",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f3bda6299d",
+                          "id": "lnk-470e339ec8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,61 +114,8 @@
           ]
         },
         {
-          "id": "luongson-7f5e0c25c7b6",
-          "name": "⚽ Belconnen United vs Tuggeranong United | 90+' • 1 : 3",
-          "tournament": "Australia Capital Gatorade Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11843_1gtqpzkhst2.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12663_1jqwjxjs0w1a.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11843_1gtqpzkhst2.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7f5e0c25c7b6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7f5e0c25c7b6",
-                  "name": "Belconnen United vs Tuggeranong United",
-                  "streams": [
-                    {
-                      "id": "luongson-7f5e0c25c7b6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b4e297e1a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-724f8e305bd3",
-          "name": "⚽ Nepal (W) vs Bangladesh (W) | 45+' • 1 : 1",
+          "name": "⚽ Nepal (W) vs Bangladesh (W) | HT • 1 : 1",
           "tournament": "Asia SAFF Club Women Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/16107_1gxa4swccw17.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/14745_1h56hy844p1b.png",
@@ -152,117 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-236e4260bf",
+                          "id": "lnk-c37b816630",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-404707fc5a64",
-          "name": "⚽ Myanmar (W) vs Uzbekistan (W) | HT • 0 : 1",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3709_1gzfp9hsge1h.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9219_1h4ava1jtxz.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3709_1gzfp9hsge1h.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-404707fc5a64",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-404707fc5a64",
-                  "name": "Myanmar (W) vs Uzbekistan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-404707fc5a64",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9de60e5e73",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9a35437d3f7d",
-          "name": "⚽ Rochedale Rovers vs Magic United Tfa | 62' • 3 : 0",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23124_1gtn1ev8fg2t.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9a35437d3f7d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9a35437d3f7d",
-                  "name": "Rochedale Rovers vs Magic United Tfa",
-                  "streams": [
-                    {
-                      "id": "luongson-9a35437d3f7d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12acc45e55",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -311,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-61a96d673c",
+                          "id": "lnk-bde0238faa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -326,11 +220,11 @@
           ]
         },
         {
-          "id": "luongson-e506fb408cde",
-          "name": "⚽ Philippines vs Guam Island | 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1336_165018950152.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4952_16626133713.png",
+          "id": "luongson-9a35437d3f7d",
+          "name": "⚽ Rochedale Rovers vs Magic United Tfa | 72' • 4 : 0",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23124_1gtn1ev8fg2t.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -338,7 +232,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1336_165018950152.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png",
             "width": 1600,
             "height": 1200
           },
@@ -352,23 +246,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-e506fb408cde",
+              "id": "luongson-9a35437d3f7d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e506fb408cde",
-                  "name": "Philippines vs Guam Island",
+                  "id": "luongson-9a35437d3f7d",
+                  "name": "Rochedale Rovers vs Magic United Tfa",
                   "streams": [
                     {
-                      "id": "luongson-e506fb408cde",
+                      "id": "luongson-9a35437d3f7d",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9f8a0e9eb2",
+                          "id": "lnk-a1332d8439",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-404707fc5a64",
+          "name": "⚽ Myanmar (W) vs Uzbekistan (W) | HT • 0 : 1",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3709_1gzfp9hsge1h.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9219_1h4ava1jtxz.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3709_1gzfp9hsge1h.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-404707fc5a64",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-404707fc5a64",
+                  "name": "Myanmar (W) vs Uzbekistan (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-404707fc5a64",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd20d80ff0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -417,11 +364,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-87c62be130",
+                          "id": "lnk-a8bcb49424",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-759765f1ffe7",
+          "name": "⚽ Indonesia (W) vs Singapore (W) | 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5498_1gwztk0z3q2a.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-759765f1ffe7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-759765f1ffe7",
+                  "name": "Indonesia (W) vs Singapore (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-759765f1ffe7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14a3300aac",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
