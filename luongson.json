@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:31 04/06/2026",
+  "last_updated": "20:40 04/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-cf464f314d49",
+          "name": "⚽ Shurtan Guzor vs Metallurg Bekobod | 40' • 0 : 0",
+          "tournament": "Uzbekistan Second League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8768_1gvm1mres5t.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8765_1gtk2wx6b97.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8768_1gvm1mres5t.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cf464f314d49",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cf464f314d49",
+                  "name": "Shurtan Guzor vs Metallurg Bekobod",
+                  "streams": [
+                    {
+                      "id": "luongson-cf464f314d49",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f5dbf66e04",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-12ca491c82ea",
-          "name": "⚽ Kattaqurgon vs Fergana University | HT • 1 : 0",
+          "name": "⚽ Kattaqurgon vs Fergana University | 50' • 2 : 0",
           "tournament": "Uzbekistan Second League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69012_1jqt0d61pyf.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65067_1jbg2w0kg610.png",
@@ -46,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-48134ff13b",
+                          "id": "lnk-8b9a6505e4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-3974689a235b",
-          "name": "⚽ Cambodia vs Bhutan | 73' • 3 : 0",
+          "name": "⚽ Cambodia vs Bhutan | 83' • 3 : 0",
           "tournament": "International Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1339_165018955851.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/6823_165018945788.png",
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-23bd1374c5",
+                          "id": "lnk-bcaf838bf3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-dce2927b8100",
-          "name": "⚽ Wolaita Dicha vs Negelle Arsi | 69' • 0 : 0",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24337_1jqmyp1c78j.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64950_1hsq2mfjksc.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24337_1jqmyp1c78j.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dce2927b8100",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dce2927b8100",
-                  "name": "Wolaita Dicha vs Negelle Arsi",
-                  "streams": [
-                    {
-                      "id": "luongson-dce2927b8100",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-082949aebc",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86a7bb6333",
+                          "id": "lnk-cc308bd628",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -220,61 +220,8 @@
           ]
         },
         {
-          "id": "luongson-cf464f314d49",
-          "name": "⚽ Shurtan Guzor vs Metallurg Bekobod | 31' • 0 : 0",
-          "tournament": "Uzbekistan Second League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8768_1gvm1mres5t.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8765_1gtk2wx6b97.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8768_1gvm1mres5t.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-cf464f314d49",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-cf464f314d49",
-                  "name": "Shurtan Guzor vs Metallurg Bekobod",
-                  "streams": [
-                    {
-                      "id": "luongson-cf464f314d49",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c7e1fb0b3",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-7fdb69a96bee",
-          "name": "⚽ Timor Leste U19 vs Indonesia U19 | 32' • 0 : 0",
+          "name": "⚽ Timor Leste U19 vs Indonesia U19 | 41' • 0 : 0",
           "tournament": "AFF U-19 Youth Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/9761_165699261879.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/5926_1h59p45jme12.png",
@@ -311,11 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-10718b7ac3",
+                          "id": "lnk-ade764f5b2",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -327,7 +274,7 @@
         },
         {
           "id": "luongson-9de5effff0e4",
-          "name": "⚽ Respublika Fa vs Qiziriq Football Club | 29' • 1 : 0",
+          "name": "⚽ Respublika Fa vs Qiziriq Football Club | 39' • 2 : 0",
           "tournament": "Uzbekistan Second League",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780579230.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65072_1j2115s8sx1y.PNG",
@@ -364,11 +311,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a68a1bce42",
+                          "id": "lnk-f910bbcdfb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dce2927b8100",
+          "name": "⚽ Wolaita Dicha vs Negelle Arsi | 79' • 0 : 0",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24337_1jqmyp1c78j.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64950_1hsq2mfjksc.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/24337_1jqmyp1c78j.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dce2927b8100",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dce2927b8100",
+                  "name": "Wolaita Dicha vs Negelle Arsi",
+                  "streams": [
+                    {
+                      "id": "luongson-dce2927b8100",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65e01f9fa3",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-edef19f497",
+                          "id": "lnk-94b58e58f3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
