@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:40 06/06/2026",
+  "last_updated": "06:50 06/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-ae0e844148df",
+          "name": "⚽ Canada vs Ireland | 6' • 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/543_164984027618.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ae0e844148df",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ae0e844148df",
+                  "name": "Canada vs Ireland",
+                  "streams": [
+                    {
+                      "id": "luongson-ae0e844148df",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7cb4ea10d1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-f18808920d40",
           "name": "⚽ Paraguay vs Nicaragua | HT • 2 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a4772be7ce",
+                          "id": "lnk-d47e42a4a6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-637bda83b7ca",
-          "name": "⚽ Wanderers Fc vs Danubio Fc | 82' • 0 : 0",
+          "name": "⚽ Wanderers Fc vs Danubio Fc | 90+' • 0 : 0",
           "tournament": "Uruguay Primera Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2140_1gpyst1mpk2h.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png",
@@ -99,117 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-20b053669e",
+                          "id": "lnk-c411b746bb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ae0e844148df",
-          "name": "⚽ Canada vs Ireland | 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/543_164984027618.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ae0e844148df",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ae0e844148df",
-                  "name": "Canada vs Ireland",
-                  "streams": [
-                    {
-                      "id": "luongson-ae0e844148df",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-18a389b489",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-41bc1f3eb934",
-          "name": "⚽ Paris Saint-Germain vs Arsenal | H1 • 0 : 0",
-          "tournament": "Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695377.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-41bc1f3eb934",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-41bc1f3eb934",
-                  "name": "Paris Saint-Germain vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "luongson-41bc1f3eb934",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8cc4b37917",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
                         }
                       ]
                     }
@@ -258,11 +205,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4bf970187e",
+                          "id": "lnk-656b3db8bd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-41bc1f3eb934",
+          "name": "⚽ Paris Saint-Germain vs Arsenal | H2 • 0 : 0",
+          "tournament": "Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695377.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-41bc1f3eb934",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-41bc1f3eb934",
+                  "name": "Paris Saint-Germain vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "luongson-41bc1f3eb934",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9ddb74133",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
                         }
                       ]
                     }
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ae39111321",
+                          "id": "lnk-bcec2e5041",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-994224eb62",
+                          "id": "lnk-1d0783b39c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0f026a801d",
+                          "id": "lnk-2dbe6cabbd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
