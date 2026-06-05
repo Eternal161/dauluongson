@@ -1,118 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:40 06/06/2026",
+  "last_updated": "05:50 06/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-637bda83b7ca",
-          "name": "⚽ Wanderers Fc vs Danubio Fc | 40' • 0 : 0",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2140_1gpyst1mpk2h.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2140_1gpyst1mpk2h.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-637bda83b7ca",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-637bda83b7ca",
-                  "name": "Wanderers Fc vs Danubio Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-637bda83b7ca",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9dca63fa5c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-41bc1f3eb934",
-          "name": "⚽ Paris Saint-Germain vs Arsenal | H1 • 0 : 0",
-          "tournament": "Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695377.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-41bc1f3eb934",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-41bc1f3eb934",
-                  "name": "Paris Saint-Germain vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "luongson-41bc1f3eb934",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8663f04c51",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f18808920d40",
           "name": "⚽ Paraguay vs Nicaragua | 0 : 0",
@@ -152,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7737f0967a",
+                          "id": "lnk-b1a54377ab",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-637bda83b7ca",
+          "name": "⚽ Wanderers Fc vs Danubio Fc | HT • 0 : 0",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2140_1gpyst1mpk2h.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2140_1gpyst1mpk2h.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-637bda83b7ca",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-637bda83b7ca",
+                  "name": "Wanderers Fc vs Danubio Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-637bda83b7ca",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f42aff418e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -205,11 +152,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f574751682",
+                          "id": "lnk-153704a453",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-41bc1f3eb934",
+          "name": "⚽ Paris Saint-Germain vs Arsenal | H1 • 0 : 0",
+          "tournament": "Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695377.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-41bc1f3eb934",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-41bc1f3eb934",
+                  "name": "Paris Saint-Germain vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "luongson-41bc1f3eb934",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d24dcff1a8",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
                         }
                       ]
                     }
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2fda012179",
+                          "id": "lnk-cb65239a6c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5ea9b89e9c",
+                          "id": "lnk-8be1e5c7ef",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f172fe5e73",
+                          "id": "lnk-8d2a938242",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c2a8c02af9",
+                          "id": "lnk-9e461d0c7c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
