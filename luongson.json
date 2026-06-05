@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:30 06/06/2026",
+  "last_updated": "04:41 06/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-41bc1f3eb934",
+          "name": "⚽ Paris Saint-Germain vs Arsenal | H1 • 0 : 0",
+          "tournament": "Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695377.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-41bc1f3eb934",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-41bc1f3eb934",
+                  "name": "Paris Saint-Germain vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "luongson-41bc1f3eb934",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75552fe592",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-39c5737d2169",
-          "name": "⚽ Ituzaingo vs Real Pilar | 30' • 0 : 0",
+          "name": "⚽ Ituzaingo vs Real Pilar | 41' • 0 : 0",
           "tournament": "Argentina Prim C Metropolitana",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/15918_20200323154951.gif",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/31546_1gqrkk99qa2n.png",
@@ -46,14 +99,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2d56db9635",
+                          "id": "lnk-ad5751362b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6MvVdDMNVbM1rk7uSC/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-6aa51e3dbf",
+                          "id": "lnk-ad9e90e044",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -106,11 +159,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f3413e7f9c",
+                          "id": "lnk-0b51f554b5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -159,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c9865360af",
+                          "id": "lnk-653f9884d1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -212,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b55dff5c58",
+                          "id": "lnk-fc4eb81b9d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -265,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-942ebaba3d",
+                          "id": "lnk-27b9662891",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bba2aea70c",
+                          "id": "lnk-ba47894bac",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,60 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2b574f5524",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b70783894aa1",
-          "name": "⚽ Snohomish United vs Midlakes United | 0 : 0",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69255_1jvbkmxnhy1p.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65539_1hy78knmk92.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69255_1jvbkmxnhy1p.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b70783894aa1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b70783894aa1",
-                  "name": "Snohomish United vs Midlakes United",
-                  "streams": [
-                    {
-                      "id": "luongson-b70783894aa1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-04b05c95b9",
+                          "id": "lnk-06c2329e47",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
