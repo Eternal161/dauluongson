@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:10 05/06/2026",
+  "last_updated": "07:20 05/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-e890228eb821",
+          "name": "⚽ Czech Republic vs Guatemala | 21' • 1 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/641_16498366963.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/693_165018922859.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/641_16498366963.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e890228eb821",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e890228eb821",
+                  "name": "Czech Republic vs Guatemala",
+                  "streams": [
+                    {
+                      "id": "luongson-e890228eb821",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b509e94abf",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-094cec466fdf",
           "name": "⚽ Indiana Fever W vs Atlanta Dream W | H1 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-958d6af1bb",
+                          "id": "lnk-623d5c296a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-144971c7305a",
-          "name": "⚽ Anapolis Fc vs Sc Paysandu Para | 47' • 2 : 0",
+          "name": "⚽ Anapolis Fc vs Sc Paysandu Para | 58' • 2 : 0",
           "tournament": "Brazil Copa Verde",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/18605_20130924134718.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/339_1hvwqkn9qv1h.png",
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ff6e568109",
+                          "id": "lnk-c254ff1384",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e890228eb821",
-          "name": "⚽ Czech Republic vs Guatemala | 10' • 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/641_16498366963.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/693_165018922859.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/641_16498366963.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e890228eb821",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e890228eb821",
-                  "name": "Czech Republic vs Guatemala",
-                  "streams": [
-                    {
-                      "id": "luongson-e890228eb821",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f6ca8cdb4",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0fad841638",
+                          "id": "lnk-d55c2dd0bd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1dccc702f7",
+                          "id": "lnk-da5f70b77b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aa9ce851cc",
+                          "id": "lnk-5a0ca60613",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-52f8e98b06",
+                          "id": "lnk-df15812d05",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-886fc96211",
+                          "id": "lnk-90756b4674",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
