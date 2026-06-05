@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:00 05/06/2026",
+  "last_updated": "16:10 05/06/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-c1cd00527a2b",
-          "name": "⚽ Bentleigh Greens (W) vs Boroondara Eagles (W) | 43' • 1 : 0",
+          "name": "⚽ Bentleigh Greens (W) vs Boroondara Eagles (W) | HT • 1 : 0",
           "tournament": "VIC Women’s Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/20251_1gvy981px32d.png",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0eae9afa6b",
+                          "id": "lnk-17cf5fd0fc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,8 +61,61 @@
           ]
         },
         {
+          "id": "luongson-8a9554cb263c",
+          "name": "⚽ Brunei Darussalam U19 vs Malaysia U19 | 11' • 0 : 0",
+          "tournament": "AFF U-19 Youth Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9767_165707670441.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4119_165726942566.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9767_165707670441.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8a9554cb263c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8a9554cb263c",
+                  "name": "Brunei Darussalam U19 vs Malaysia U19",
+                  "streams": [
+                    {
+                      "id": "luongson-8a9554cb263c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be55676367",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-686a5f760344",
-          "name": "⚽ Otago Nuggets vs Franklin Bulls | 0 : 0",
+          "name": "⚽ Otago Nuggets vs Franklin Bulls | H1 • 0 : 0",
           "tournament": "NBL",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780590480.png",
           "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780590478.png",
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cbcd660ab5",
+                          "id": "lnk-5db98c6b21",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-07de1098525d",
-          "name": "⚽ Brunei Darussalam U19 vs Malaysia U19 | 0 : 0",
-          "tournament": "AFF U-19 Youth Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9767_165707670441.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4119_165726942566.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9767_165707670441.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-07de1098525d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-07de1098525d",
-                  "name": "Brunei Darussalam U19 vs Malaysia U19",
-                  "streams": [
-                    {
-                      "id": "luongson-07de1098525d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b299ea7af",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-beb7c78354",
+                          "id": "lnk-d8a251c9b7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,11 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f65850fe69",
+                          "id": "lnk-31d104540c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
                         }
                       ]
                     }
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eba7dc32a0",
+                          "id": "lnk-e3f1d04673",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,11 +364,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-84ebe11692",
+                          "id": "lnk-ecab5563d0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-56adfe66d4",
+                          "id": "lnk-a06d0698ec",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
