@@ -1,15 +1,121 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:30 06/06/2026",
+  "last_updated": "07:40 06/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-93ef945317d5",
+          "name": "⚽ Haiti vs Peru | 40' • 1 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/792_165018900888.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/668_165018907294.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/792_165018900888.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-93ef945317d5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-93ef945317d5",
+                  "name": "Haiti vs Peru",
+                  "streams": [
+                    {
+                      "id": "luongson-93ef945317d5",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c244e0ed8",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f18808920d40",
+          "name": "⚽ Paraguay vs Nicaragua | 89' • 4 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4323_165018910662.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f18808920d40",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f18808920d40",
+                  "name": "Paraguay vs Nicaragua",
+                  "streams": [
+                    {
+                      "id": "luongson-f18808920d40",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2dcd68ace5",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-eca637c7f88c",
-          "name": "⚽ San Antonio Spurs vs New York Knicks | 0 : 0",
+          "name": "⚽ San Antonio Spurs vs New York Knicks | H1 • 0 : 0",
           "tournament": "NBA",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780691452.png",
           "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780691454.png",
@@ -46,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1a8844bf34",
+                          "id": "lnk-590339e947",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +168,7 @@
         },
         {
           "id": "luongson-ae0e844148df",
-          "name": "⚽ Canada vs Ireland | 45+' • 1 : 0",
+          "name": "⚽ Canada vs Ireland | HT • 1 : 0",
           "tournament": "International Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/543_164984027618.png",
@@ -99,11 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3033ecc50c",
+                          "id": "lnk-3229d2f47d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -152,170 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eafd9ec492",
+                          "id": "lnk-85dcf2e43b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f18808920d40",
-          "name": "⚽ Paraguay vs Nicaragua | 79' • 4 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4323_165018910662.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f18808920d40",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f18808920d40",
-                  "name": "Paraguay vs Nicaragua",
-                  "streams": [
-                    {
-                      "id": "luongson-f18808920d40",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3e7ce10ed",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-93ef945317d5",
-          "name": "⚽ Haiti vs Peru | 30' • 1 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/792_165018900888.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/668_165018907294.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/792_165018900888.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-93ef945317d5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-93ef945317d5",
-                  "name": "Haiti vs Peru",
-                  "streams": [
-                    {
-                      "id": "luongson-93ef945317d5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d78fbc3ed8",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-41bc1f3eb934",
-          "name": "⚽ Paris Saint-Germain vs Arsenal | H2 • 0 : 0",
-          "tournament": "Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695377.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1780695373.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-41bc1f3eb934",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-41bc1f3eb934",
-                  "name": "Paris Saint-Germain vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "luongson-41bc1f3eb934",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a80b003027",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
                         }
                       ]
                     }
@@ -364,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8ea65ffcbd",
+                          "id": "lnk-9c1b70e9fe",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +364,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-18d08febe0",
+                          "id": "lnk-90b1d78615",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f362fdeb320d",
+          "name": "⚽ Vancouver Fc vs Atletico Ottawa | 0 : 0",
+          "tournament": "Canadian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1771338243.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f362fdeb320d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f362fdeb320d",
+                  "name": "Vancouver Fc vs Atletico Ottawa",
+                  "streams": [
+                    {
+                      "id": "luongson-f362fdeb320d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-025adbc110",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
