@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:20 07/06/2026",
+  "last_updated": "14:30 07/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-6c56598211c4",
+          "name": "⚽ St George Willawong Fc vs Redlands United Fc | HT • 0 : 1",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29662_1gtqqe8bxk4.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9295_1gryyqvj2d12.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29662_1gtqqe8bxk4.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6c56598211c4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6c56598211c4",
+                  "name": "St George Willawong Fc vs Redlands United Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-6c56598211c4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c44c9b785d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-4b760005b769",
           "name": "⚽ Tochigi Sc vs Giravanz Kitakyushu | Hiệp phụ • 1 : 1",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9054fe7e0d",
+                          "id": "lnk-318ba4792a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-889d05a5e2",
+                          "id": "lnk-ad18d83849",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,114 +167,8 @@
           ]
         },
         {
-          "id": "luongson-0e73f0a62692",
-          "name": "⚽ South Melbourne vs Altona Magic | 90+' • 2 : 3",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4474_1gzq8phtf42z.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0e73f0a62692",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0e73f0a62692",
-                  "name": "South Melbourne vs Altona Magic",
-                  "streams": [
-                    {
-                      "id": "luongson-0e73f0a62692",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a9a07a99a9",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6c56598211c4",
-          "name": "⚽ St George Willawong Fc vs Redlands United Fc | 41' • 0 : 1",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29662_1gtqqe8bxk4.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9295_1gryyqvj2d12.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29662_1gtqqe8bxk4.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6c56598211c4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6c56598211c4",
-                  "name": "St George Willawong Fc vs Redlands United Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-6c56598211c4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40bf50ccbf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-5e8a1a4d2c09",
-          "name": "⚽ Oita Trinita vs Montedio Yamagata | 18' • 0 : 0",
+          "name": "⚽ Oita Trinita vs Montedio Yamagata | 28' • 0 : 0",
           "tournament": "J2 League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/171_1hr8p7294be.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/2642_1h53w5e0fn2.png",
@@ -258,11 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fe96f1a2ac",
+                          "id": "lnk-eac648aa75",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -311,11 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2ff28b9269",
+                          "id": "lnk-c6f9a20415",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -364,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9ff31abf02",
+                          "id": "lnk-17033a29f7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +364,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-46e2bebeac",
+                          "id": "lnk-895af18026",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-269ee956be74",
+          "name": "⚽ Cheonan City vs Suwon Fc | 0 : 0",
+          "tournament": "K League 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6844_1gy3wms8nw1.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4779_1gxsf6qjy222.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6844_1gy3wms8nw1.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-269ee956be74",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-269ee956be74",
+                  "name": "Cheonan City vs Suwon Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-269ee956be74",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b571f08990",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
