@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:40 08/06/2026",
+  "last_updated": "04:50 08/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-980fb34834f4",
-          "name": "⚽ San Martin Tucuman vs Quilmes | HT • 0 : 0",
-          "tournament": "Argentine Division 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4339_1gqe67vv9y20.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/265_1htv34379c16.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4339_1gqe67vv9y20.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-980fb34834f4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-980fb34834f4",
-                  "name": "San Martin Tucuman vs Quilmes",
-                  "streams": [
-                    {
-                      "id": "luongson-980fb34834f4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-344fd62074",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-15809fb45511",
-          "name": "⚽ Defensor Sporting Montevideo vs Boston River | 11' • 0 : 0",
+          "name": "⚽ Defensor Sporting Montevideo vs Boston River | 21' • 0 : 0",
           "tournament": "Uruguay Primera Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2099_1gpyst1mph8.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/22066_1grcyewjckq.png",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c6fa7ef584",
+                          "id": "lnk-a3d71a2998",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,8 +61,8 @@
           ]
         },
         {
-          "id": "luongson-ecaa2ca40917",
-          "name": "⚽ Ecuador vs Guatemala | 64' • 1 : 0",
+          "id": "luongson-adb806ba3ac9",
+          "name": "⚽ Ecuador vs Guatemala | 74' • 2 : 0",
           "tournament": "International Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/673_165018888622.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/693_165018922859.png",
@@ -140,23 +87,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-ecaa2ca40917",
+              "id": "luongson-adb806ba3ac9",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ecaa2ca40917",
+                  "id": "luongson-adb806ba3ac9",
                   "name": "Ecuador vs Guatemala",
                   "streams": [
                     {
-                      "id": "luongson-ecaa2ca40917",
+                      "id": "luongson-adb806ba3ac9",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-46fc6e137c",
+                          "id": "lnk-5715f04baa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-980fb34834f4",
+          "name": "⚽ San Martin Tucuman vs Quilmes | 54' • 0 : 0",
+          "tournament": "Argentine Division 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4339_1gqe67vv9y20.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/265_1htv34379c16.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4339_1gqe67vv9y20.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-980fb34834f4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-980fb34834f4",
+                  "name": "San Martin Tucuman vs Quilmes",
+                  "streams": [
+                    {
+                      "id": "luongson-980fb34834f4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3676dd0e0e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6854b4d06a",
+                          "id": "lnk-98808c6f9d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-723975ba60",
+                          "id": "lnk-bcea18e498",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9cc55efe83",
+                          "id": "lnk-64d11e12c4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,11 +364,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2566c1302c",
+                          "id": "lnk-b16f42f88a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1e77541d3e",
+                          "id": "lnk-dc5cd1cd47",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
