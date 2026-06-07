@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:00 07/06/2026",
+  "last_updated": "11:10 07/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-23806f4e6bfa",
+          "name": "⚽ Vanraure Hachinohe Fc vs Imabari Fc | 8' • 0 : 0",
+          "tournament": "J2 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13735_20161113112739.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18146_1jp45thmn71n.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/13735_20161113112739.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-23806f4e6bfa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-23806f4e6bfa",
+                  "name": "Vanraure Hachinohe Fc vs Imabari Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-23806f4e6bfa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1e027ccbf8",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-013e0453ec89",
           "name": "⚽ Capo Fc vs Ventura County Fusion | H1 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bc56163585",
+                          "id": "lnk-3a6f86fca3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,117 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8e05caa413",
+                          "id": "lnk-5e91dab6b1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-18b5d7a65006",
-          "name": "⚽ San Juan vs Academica Sc | 90+' • 2 : 2",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69189_1jwd1qx98932.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33929_1jwd1rhs30n.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69189_1jwd1qx98932.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-18b5d7a65006",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-18b5d7a65006",
-                  "name": "San Juan vs Academica Sc",
-                  "streams": [
-                    {
-                      "id": "luongson-18b5d7a65006",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a706213b31",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-23806f4e6bfa",
-          "name": "⚽ Vanraure Hachinohe Fc vs Imabari Fc | 0 : 0",
-          "tournament": "J2 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13735_20161113112739.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18146_1jp45thmn71n.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/13735_20161113112739.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-23806f4e6bfa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-23806f4e6bfa",
-                  "name": "Vanraure Hachinohe Fc vs Imabari Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-23806f4e6bfa",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28f9c2b77f",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -258,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b71b6ca629",
+                          "id": "lnk-c5b5b674bf",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-37e4a694ca",
+                          "id": "lnk-a9e8e97c64",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-80449c6b6b",
+                          "id": "lnk-23427af48b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,11 +364,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-545a8b84da",
+                          "id": "lnk-761b638212",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4a279e492c6c",
+          "name": "⚽ Fukushima United Fc vs Fc Ryukyu | 0 : 0",
+          "tournament": "J2 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10329_1k2tx8r5xf24.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8877_1hr8p7294322.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/10329_1k2tx8r5xf24.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4a279e492c6c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4a279e492c6c",
+                  "name": "Fukushima United Fc vs Fc Ryukyu",
+                  "streams": [
+                    {
+                      "id": "luongson-4a279e492c6c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c7a84b2bda",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
