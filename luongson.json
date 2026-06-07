@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:40 07/06/2026",
+  "last_updated": "09:50 07/06/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-7c911b47473c",
-          "name": "⚽ Ventura County Fc vs Houston Dynamo B | 38' • 0 : 0",
+          "name": "⚽ Ventura County Fc vs Houston Dynamo B | HT • 0 : 0",
           "tournament": "USA MLS Next Pro League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/20240_1hthf2j3qd1p.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e0cc6f5744",
+                          "id": "lnk-fba19f0e53",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,8 +61,61 @@
           ]
         },
         {
+          "id": "luongson-013e0453ec89",
+          "name": "⚽ Capo Fc vs Ventura County Fusion | 0 : 0",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61207_1gxa8tp96ex.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15142_202201211630146621.gif",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61207_1gxa8tp96ex.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-013e0453ec89",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-013e0453ec89",
+                  "name": "Capo Fc vs Ventura County Fusion",
+                  "streams": [
+                    {
+                      "id": "luongson-013e0453ec89",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d252eae4f6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-18b5d7a65006",
-          "name": "⚽ San Juan vs Academica Sc | 36' • 0 : 2",
+          "name": "⚽ San Juan vs Academica Sc | 45+' • 0 : 2",
           "tournament": "USA USL League Two",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69189_1jwd1qx98932.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/33929_1jwd1rhs30n.png",
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d81bfd5a3b",
+                          "id": "lnk-9b1fc5cbf5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,64 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ab402cee0",
+                          "id": "lnk-d99c736f86",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-013e0453ec89",
-          "name": "⚽ Capo Fc vs Ventura County Fusion | 0 : 0",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61207_1gxa8tp96ex.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15142_202201211630146621.gif",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61207_1gxa8tp96ex.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-013e0453ec89",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-013e0453ec89",
-                  "name": "Capo Fc vs Ventura County Fusion",
-                  "streams": [
-                    {
-                      "id": "luongson-013e0453ec89",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eaf77e98dc",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cf5e20d06e",
+                          "id": "lnk-8f52648479",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4a6b2f178b",
+                          "id": "lnk-51fcd3bec8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ba80d3c1fd",
+                          "id": "lnk-bb656182fe",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bf6d88521c",
+                          "id": "lnk-4c2fbe172b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
