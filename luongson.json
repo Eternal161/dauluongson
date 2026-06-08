@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:20 08/06/2026",
+  "last_updated": "22:31 08/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-f6b1a4bbf12d",
+          "name": "⚽ Latvia U19 vs Estonia U19 | 70' • 1 : 1",
+          "tournament": "Baltic Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4064_1gs1rvsv5h2c.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4065_1h434badr62z.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4064_1gs1rvsv5h2c.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f6b1a4bbf12d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f6b1a4bbf12d",
+                  "name": "Latvia U19 vs Estonia U19",
+                  "streams": [
+                    {
+                      "id": "luongson-f6b1a4bbf12d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf489085e1",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-8f2c17fa5fbc",
           "name": "⚽ Baghdad vs Karbalaa | 0 : 0",
@@ -46,117 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-91ceb14dff",
+                          "id": "lnk-abc6bf1ea0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c4c97336b073",
-          "name": "⚽ Belarus U21 vs Kazakhstan U21 | 20' • 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/717_1gw9fv66tr1a.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5356_1h4335p5v72x.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/717_1gw9fv66tr1a.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c4c97336b073",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c4c97336b073",
-                  "name": "Belarus U21 vs Kazakhstan U21",
-                  "streams": [
-                    {
-                      "id": "luongson-c4c97336b073",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c14af4a265",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f6b1a4bbf12d",
-          "name": "⚽ Latvia U19 vs Estonia U19 | 60' • 1 : 1",
-          "tournament": "Baltic Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4064_1gs1rvsv5h2c.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4065_1h434badr62z.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4064_1gs1rvsv5h2c.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f6b1a4bbf12d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f6b1a4bbf12d",
-                  "name": "Latvia U19 vs Estonia U19",
-                  "streams": [
-                    {
-                      "id": "luongson-f6b1a4bbf12d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-20bee49d9d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -205,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-80ecaada03",
+                          "id": "lnk-8b30c68ff4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -221,7 +168,7 @@
         },
         {
           "id": "luongson-ddf2cac68e71",
-          "name": "⚽ Metallurg Bekobod vs Fergana University | 62' • 3 : 0",
+          "name": "⚽ Metallurg Bekobod vs Fergana University | 72' • 5 : 0",
           "tournament": "Uzbekistan Second League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/8765_1gtk2wx6b97.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65067_1jbg2w0kg610.png",
@@ -258,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6aac550086",
+                          "id": "lnk-9c1793f1be",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -273,61 +220,8 @@
           ]
         },
         {
-          "id": "luongson-01a6b30cc31c",
-          "name": "⚽ Wadi Degla Sc vs Zed Fc | 57' • 0 : 0",
-          "tournament": "Egypt League Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13060_1gq6kmhvfvn.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/47685_1gq1ermv622d.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/13060_1gq6kmhvfvn.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-01a6b30cc31c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-01a6b30cc31c",
-                  "name": "Wadi Degla Sc vs Zed Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-01a6b30cc31c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9359aae34c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-a8b7623fc51d",
-          "name": "⚽ Zhfc Astana (W) vs Shakhter Karagandy (W) | 58' • 3 : 0",
+          "name": "⚽ Zhfc Astana (W) vs Shakhter Karagandy (W) | 68' • 3 : 0",
           "tournament": "Kazakhstan Women’s Super League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69805_1k179ejmhax.png",
           "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1780927966.png",
@@ -364,11 +258,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f9c679f0c3",
+                          "id": "lnk-07961c898b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-da81a561c78e",
+          "name": "⚽ Wadi Degla Sc vs Zed Fc | 68' • 0 : 0",
+          "tournament": "Egypt League Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13060_1gq6kmhvfvn.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/47685_1gq1ermv622d.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/13060_1gq6kmhvfvn.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-da81a561c78e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-da81a561c78e",
+                  "name": "Wadi Degla Sc vs Zed Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-da81a561c78e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f4a483362",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c4c97336b073",
+          "name": "⚽ Belarus U21 vs Kazakhstan U21 | 30' • 0 : 1",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/717_1gw9fv66tr1a.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5356_1h4335p5v72x.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/717_1gw9fv66tr1a.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c4c97336b073",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c4c97336b073",
+                  "name": "Belarus U21 vs Kazakhstan U21",
+                  "streams": [
+                    {
+                      "id": "luongson-c4c97336b073",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d360d5ac9",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -417,11 +417,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eb281459cb",
+                          "id": "lnk-8fd458e14e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
