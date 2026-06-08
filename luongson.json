@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:30 08/06/2026",
+  "last_updated": "13:40 08/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-73bab9bd5399",
-          "name": "⚽ Chongqing Runqi Football Club vs Guizhou Feiying | 72' • 1 : 1",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66039_1j1gsbry9d1j.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69396_1jwa6pbec6c.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/66039_1j1gsbry9d1j.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-73bab9bd5399",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-73bab9bd5399",
-                  "name": "Chongqing Runqi Football Club vs Guizhou Feiying",
-                  "streams": [
-                    {
-                      "id": "luongson-73bab9bd5399",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fac94c7061",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-d70fbb7db08e",
-          "name": "⚽ Kingborough Lions vs Devonport City | 74' • 0 : 1",
+          "name": "⚽ Kingborough Lions vs Devonport City | 84' • 0 : 1",
           "tournament": "Australia FFA Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/22046_1gshkmhgcx30.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/22324_1gzq934x5w2a.png",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-270fc80b1f",
+                          "id": "lnk-bb5a029e90",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-73bab9bd5399",
+          "name": "⚽ Chongqing Runqi Football Club vs Guizhou Feiying | 82' • 1 : 2",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66039_1j1gsbry9d1j.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69396_1jwa6pbec6c.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/66039_1j1gsbry9d1j.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-73bab9bd5399",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-73bab9bd5399",
+                  "name": "Chongqing Runqi Football Club vs Guizhou Feiying",
+                  "streams": [
+                    {
+                      "id": "luongson-73bab9bd5399",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-acdbcc2956",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -152,10 +152,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9d41759a7f",
+                          "id": "lnk-ef35efc9dc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-e8739045c5",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
@@ -205,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-077520ef35",
+                          "id": "lnk-054f195e42",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7743d6213c",
+                          "id": "lnk-6d1c995a57",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-541f16c9ce",
+                          "id": "lnk-09a65178ba",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d1a49bc922",
+                          "id": "lnk-bcce0ec1af",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-28c55ed9f2",
+                          "id": "lnk-9df1dc02aa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
