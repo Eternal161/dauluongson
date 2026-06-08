@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:40 08/06/2026",
+  "last_updated": "11:50 08/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-3b91b9f092c9",
-          "name": "⚽ Amsg Fc vs Stars Fc | 76' • 0 : 1",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65500_1hzvccgt0sx.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779675080.webp",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65500_1hzvccgt0sx.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3b91b9f092c9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3b91b9f092c9",
-                  "name": "Amsg Fc vs Stars Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-3b91b9f092c9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e5e1768783",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-73bab9bd5399",
           "name": "⚽ Chongqing Runqi Football Club vs Guizhou Feiying | 0 : 0",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b0caea9cee",
+                          "id": "lnk-6a7312352e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,7 +61,7 @@
           ]
         },
         {
-          "id": "luongson-3797ab189482",
+          "id": "luongson-d70fbb7db08e",
           "name": "⚽ Kingborough Lions vs Devonport City | 0 : 0",
           "tournament": "Australia FFA Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/22046_1gshkmhgcx30.png",
@@ -140,23 +87,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-3797ab189482",
+              "id": "luongson-d70fbb7db08e",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3797ab189482",
+                  "id": "luongson-d70fbb7db08e",
                   "name": "Kingborough Lions vs Devonport City",
                   "streams": [
                     {
-                      "id": "luongson-3797ab189482",
+                      "id": "luongson-d70fbb7db08e",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-317eab0f6e",
+                          "id": "lnk-6e7e1a08a3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3b91b9f092c9",
+          "name": "⚽ Amsg Fc vs Stars Fc | 86' • 0 : 1",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65500_1hzvccgt0sx.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1779675080.webp",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/65500_1hzvccgt0sx.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3b91b9f092c9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3b91b9f092c9",
+                  "name": "Amsg Fc vs Stars Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-3b91b9f092c9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b9f32b93e",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-103f211175",
+                          "id": "lnk-3632201842",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-79d65d8cdd",
+                          "id": "lnk-bb9ce7e6b7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-36cbe04904",
+                          "id": "lnk-17a543299c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b48188fe4a",
+                          "id": "lnk-05b398edda",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,14 +417,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6df7c3c843",
+                          "id": "lnk-a0f11ebced",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         },
                         {
-                          "id": "lnk-0941e33b71",
+                          "id": "lnk-9482d399bf",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
