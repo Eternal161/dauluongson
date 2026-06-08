@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:20 08/06/2026",
+  "last_updated": "19:30 08/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-f424c772a7c3",
+          "name": "⚽ Biik Shymkent (W) vs Tomiris Turan (W) | 31' • 0 : 0",
+          "tournament": "Kazakhstan Women’s Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17843_1h3jw0fgypj.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/54567_1gyrg2pbz829.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/17843_1h3jw0fgypj.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f424c772a7c3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f424c772a7c3",
+                  "name": "Biik Shymkent (W) vs Tomiris Turan (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-f424c772a7c3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-385b36520b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-809753feaa16",
           "name": "⚽ Sri Lanka vs Bhutan | HT • 1 : 0",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-416ed53ee7",
+                          "id": "lnk-e254acae34",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f424c772a7c3",
-          "name": "⚽ Biik Shymkent (W) vs Tomiris Turan (W) | 21' • 0 : 0",
-          "tournament": "Kazakhstan Women’s Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17843_1h3jw0fgypj.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/54567_1gyrg2pbz829.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17843_1h3jw0fgypj.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f424c772a7c3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f424c772a7c3",
-                  "name": "Biik Shymkent (W) vs Tomiris Turan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-f424c772a7c3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a34df8e6c6",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -152,11 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-77dabb608d",
+                          "id": "lnk-16f474d0a9",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -205,11 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-95e6e66471",
+                          "id": "lnk-0f4dbf5523",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -258,11 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d5be0ffe61",
+                          "id": "lnk-f3578b4706",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-08628f4da0",
+                          "id": "lnk-052d8d4a57",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a51c0c855c",
+                          "id": "lnk-992b84f7e9",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,11 +417,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d9681cbcdd",
+                          "id": "lnk-b8a9b057ac",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
