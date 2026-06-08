@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:50 08/06/2026",
+  "last_updated": "14:01 08/06/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-3797ab189482",
-          "name": "⚽ Kingborough Lions vs Devonport City | 90+' • 0 : 1",
+          "name": "⚽ Kingborough Lions vs Devonport City | Hiệp phụ • 1 : 1",
           "tournament": "Australia FFA Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/22046_1gshkmhgcx30.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/22324_1gzq934x5w2a.png",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5d4f78dd40",
+                          "id": "lnk-55b1601689",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,11 +61,11 @@
           ]
         },
         {
-          "id": "luongson-73bab9bd5399",
-          "name": "⚽ Chongqing Runqi Football Club vs Guizhou Feiying | 90+' • 2 : 2",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66039_1j1gsbry9d1j.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69396_1jwa6pbec6c.png",
+          "id": "luongson-4c45d2445dd4",
+          "name": "⚽ Zhetysu W vs Ordabasy Shymkent (W) | HT • 1 : 1",
+          "tournament": "Kazakhstan Women’s Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/70237_1k1vz90dpp2q.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/66042_1j52t62q7w1e.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/66039_1j1gsbry9d1j.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/70237_1k1vz90dpp2q.png",
             "width": 1600,
             "height": 1200
           },
@@ -87,23 +87,150 @@
           ],
           "sources": [
             {
-              "id": "luongson-73bab9bd5399",
+              "id": "luongson-4c45d2445dd4",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-73bab9bd5399",
-                  "name": "Chongqing Runqi Football Club vs Guizhou Feiying",
+                  "id": "luongson-4c45d2445dd4",
+                  "name": "Zhetysu W vs Ordabasy Shymkent (W)",
                   "streams": [
                     {
-                      "id": "luongson-73bab9bd5399",
+                      "id": "luongson-4c45d2445dd4",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-014f4591b0",
+                          "id": "lnk-329712e422",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNbWreZZV1mn/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-bf02ff2be5",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNbWreZZV1mn/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c775daf7bdea",
+          "name": "⚽ Fk Kaspyi Aktau （W） vs Fk Atyrau (W) | HT • 0 : 1",
+          "tournament": "Kazakhstan Women’s Super League",
+          "logo_nha": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c775daf7bdea",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c775daf7bdea",
+                  "name": "Fk Kaspyi Aktau （W） vs Fk Atyrau (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-c775daf7bdea",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8f1267743",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNc1RtsoDvmS/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-09d924bd00",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNc1RtsoDvmS/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-13912ddeb87c",
+          "name": "⚽ Canton United vs Guangzhou Zhicheng | 0 : 0",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://ui-avatars.com/api/?name=Ca&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=Gu&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Ca&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-13912ddeb87c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-13912ddeb87c",
+                  "name": "Canton United vs Guangzhou Zhicheng",
+                  "streams": [
+                    {
+                      "id": "luongson-13912ddeb87c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d725a5da9",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jdRzevjmcTsa4/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-92a5e53374",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jdRzevjmcTsa4/chunklist.m3u8"
                         }
                       ]
                     }
@@ -152,11 +279,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5864d2148f",
+                          "id": "lnk-523dcf0e8f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-42c6f8b6c6",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7df0d1cd99f9",
+          "name": "⚽ Chulalongkorn University vs Rajamangala University Rattanakosin | 0 : 0",
+          "tournament": "Thailand University League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33101_1h1tcfn4ztz.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/40968_1hzvcc6jxd11.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/33101_1h1tcfn4ztz.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7df0d1cd99f9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7df0d1cd99f9",
+                  "name": "Chulalongkorn University vs Rajamangala University Rattanakosin",
+                  "streams": [
+                    {
+                      "id": "luongson-7df0d1cd99f9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b4c5476d41",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNbrdyPsvG9r/playlist.m3u8"
                         }
                       ]
                     }
@@ -205,7 +392,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5d5e876f6f",
+                          "id": "lnk-466c41627f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,166 +445,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5eff29cf08",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fde39adf773f",
-          "name": "⚽ Melbourne Victory Fc (Youth) vs Brunswick Juventus | 0 : 0",
-          "tournament": "Victorian State League Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7891_20130923112729.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4473_1htphgec2jt.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7891_20130923112729.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fde39adf773f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fde39adf773f",
-                  "name": "Melbourne Victory Fc (Youth) vs Brunswick Juventus",
-                  "streams": [
-                    {
-                      "id": "luongson-fde39adf773f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af69ad5c85",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f424c772a7c3",
-          "name": "⚽ Biik Shymkent (W) vs Tomiris Turan (W) | 0 : 0",
-          "tournament": "Kazakhstan Women’s Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17843_1h3jw0fgypj.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/54567_1gyrg2pbz829.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17843_1h3jw0fgypj.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f424c772a7c3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f424c772a7c3",
-                  "name": "Biik Shymkent (W) vs Tomiris Turan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-f424c772a7c3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-273c400d59",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3ef617965757",
-          "name": "⚽ Ivory Coast U23 vs Canada U20 | 0 : 0",
-          "tournament": "Toulon Tournament",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2891_1h5vq7e8m929.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1829_165726692984.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2891_1h5vq7e8m929.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3ef617965757",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3ef617965757",
-                  "name": "Ivory Coast U23 vs Canada U20",
-                  "streams": [
-                    {
-                      "id": "luongson-3ef617965757",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e0a606cf4b",
+                          "id": "lnk-3a6264eadb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
