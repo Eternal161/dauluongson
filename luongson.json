@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:00 08/06/2026",
+  "last_updated": "12:10 08/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-d70fbb7db08e",
+          "name": "⚽ Kingborough Lions vs Devonport City | 12' • 0 : 0",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22046_1gshkmhgcx30.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22324_1gzq934x5w2a.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22046_1gshkmhgcx30.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d70fbb7db08e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d70fbb7db08e",
+                  "name": "Kingborough Lions vs Devonport City",
+                  "streams": [
+                    {
+                      "id": "luongson-d70fbb7db08e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7929ed9fef",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-73bab9bd5399",
-          "name": "⚽ Chongqing Runqi Football Club vs Guizhou Feiying | 0 : 0",
+          "name": "⚽ Chongqing Runqi Football Club vs Guizhou Feiying | 11' • 0 : 0",
           "tournament": "Chinese Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/66039_1j1gsbry9d1j.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/69396_1jwa6pbec6c.png",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2be6aceedc",
+                          "id": "lnk-8dfae6aee5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3797ab189482",
-          "name": "⚽ Kingborough Lions vs Devonport City | 0 : 0",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22046_1gshkmhgcx30.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22324_1gzq934x5w2a.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22046_1gshkmhgcx30.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3797ab189482",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3797ab189482",
-                  "name": "Kingborough Lions vs Devonport City",
-                  "streams": [
-                    {
-                      "id": "luongson-3797ab189482",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc349686f4",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -152,10 +152,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0ee156f2e9",
+                          "id": "lnk-97b8f98bb9",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-96ba5245fa",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
@@ -205,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-596f8c26ec",
+                          "id": "lnk-e2279e7df9",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3c7a45c563",
+                          "id": "lnk-3f0c1d0dc6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9f3994f403",
+                          "id": "lnk-b6e28556d8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b254e76ee8",
+                          "id": "lnk-1adce09592",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8c648257ef",
+                          "id": "lnk-a983b87786",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
