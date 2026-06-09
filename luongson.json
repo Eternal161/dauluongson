@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:30 09/06/2026",
+  "last_updated": "15:40 09/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-f3eb3c60d8b7",
+          "name": "⚽ Indonesia (W) vs Cambodia (W) | 11' • 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35358_1h3x7jkpqrx.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f3eb3c60d8b7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f3eb3c60d8b7",
+                  "name": "Indonesia (W) vs Cambodia (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-f3eb3c60d8b7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-071c79d2fa",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-fec1c331bdeb",
           "name": "⚽ Paris Saint Germain vs Arsenal | H1 • 0 : 0",
@@ -46,184 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c37ddb0fc8",
+                          "id": "lnk-473c68fed5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9d965df0e12b",
-          "name": "⚽ Zigong Black White vs Sichuan 318 | 31' • 0 : 0",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Zi&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://ui-avatars.com/api/?name=Si&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Zi&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9d965df0e12b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9d965df0e12b",
-                  "name": "Zigong Black White vs Sichuan 318",
-                  "streams": [
-                    {
-                      "id": "luongson-9d965df0e12b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0b7641850",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuoWbKV7yZH6/chunklist.m3u8"
-                        },
-                        {
-                          "id": "lnk-5701e8b8b2",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuoWbKV7yZH6/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ee8dc3147ccc",
-          "name": "⚽ South Korea (W) vs Chinese Taipei (W) | 29' • 0 : 0",
-          "tournament": "EAFF Women’s Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2256_20180831144200.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3712_1h9m7d5y3010.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2256_20180831144200.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ee8dc3147ccc",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ee8dc3147ccc",
-                  "name": "South Korea (W) vs Chinese Taipei (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-ee8dc3147ccc",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ca22088da5",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNbyER1KQ1cY/playlist.m3u8"
-                        },
-                        {
-                          "id": "lnk-a5cc4610f2",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNbyER1KQ1cY/chunklist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f3eb3c60d8b7",
-          "name": "⚽ Indonesia (W) vs Cambodia (W) | 1' • 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35358_1h3x7jkpqrx.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f3eb3c60d8b7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f3eb3c60d8b7",
-                  "name": "Indonesia (W) vs Cambodia (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-f3eb3c60d8b7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a934022a85",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -272,11 +152,131 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d94f74e29f",
+                          "id": "lnk-fa9cc04a86",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9d965df0e12b",
+          "name": "⚽ Zigong Black White vs Sichuan 318 | 41' • 0 : 1",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://ui-avatars.com/api/?name=Zi&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=Si&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Zi&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9d965df0e12b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9d965df0e12b",
+                  "name": "Zigong Black White vs Sichuan 318",
+                  "streams": [
+                    {
+                      "id": "luongson-9d965df0e12b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-545ecbbaf6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuoWbKV7yZH6/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-e3dc8acdf8",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuoWbKV7yZH6/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ee8dc3147ccc",
+          "name": "⚽ South Korea (W) vs Chinese Taipei (W) | 39' • 0 : 0",
+          "tournament": "EAFF Women’s Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2256_20180831144200.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3712_1h9m7d5y3010.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2256_20180831144200.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ee8dc3147ccc",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ee8dc3147ccc",
+                  "name": "South Korea (W) vs Chinese Taipei (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-ee8dc3147ccc",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eb5746d1ec",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNbyER1KQ1cY/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-3898dfbc7c",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNbyER1KQ1cY/playlist.m3u8"
                         }
                       ]
                     }
@@ -325,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-072858ee80",
+                          "id": "lnk-1e7d9219d5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -378,11 +378,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0c805ee021",
+                          "id": "lnk-86c938a958",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -431,7 +431,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e0582af104",
+                          "id": "lnk-b6da8cfe99",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
