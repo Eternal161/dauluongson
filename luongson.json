@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:40 09/06/2026",
+  "last_updated": "15:50 09/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-62db5e9514b3",
+          "name": "⚽ Australia (W) vs Mexico (W) | 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1613_1h48anxenr32.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4465_165725229311.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1613_1h48anxenr32.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-62db5e9514b3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-62db5e9514b3",
+                  "name": "Australia (W) vs Mexico (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-62db5e9514b3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5975760585",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-f3eb3c60d8b7",
-          "name": "⚽ Indonesia (W) vs Cambodia (W) | 11' • 0 : 0",
+          "name": "⚽ Indonesia (W) vs Cambodia (W) | 21' • 0 : 0",
           "tournament": "International Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/35358_1h3x7jkpqrx.png",
@@ -46,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-071c79d2fa",
+                          "id": "lnk-9cb5711d26",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-473c68fed5",
+                          "id": "lnk-3c5361eb60",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,61 +167,8 @@
           ]
         },
         {
-          "id": "luongson-62db5e9514b3",
-          "name": "⚽ Australia (W) vs Mexico (W) | 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1613_1h48anxenr32.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4465_165725229311.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1613_1h48anxenr32.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-62db5e9514b3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-62db5e9514b3",
-                  "name": "Australia (W) vs Mexico (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-62db5e9514b3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa9cc04a86",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-9d965df0e12b",
-          "name": "⚽ Zigong Black White vs Sichuan 318 | 41' • 0 : 1",
+          "name": "⚽ Zigong Black White vs Sichuan 318 | 45+' • 0 : 1",
           "tournament": "Chinese Champions League",
           "logo_nha": "https://ui-avatars.com/api/?name=Zi&size=200&background=1565C0&color=ffffff&bold=true",
           "logo_khach": "https://ui-avatars.com/api/?name=Si&size=200&background=1565C0&color=ffffff&bold=true",
@@ -205,18 +205,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-545ecbbaf6",
+                          "id": "lnk-89bfd58bff",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuoWbKV7yZH6/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuoWbKV7yZH6/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-e3dc8acdf8",
+                          "id": "lnk-ee97bdbd7f",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuoWbKV7yZH6/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuoWbKV7yZH6/chunklist.m3u8"
                         }
                       ]
                     }
@@ -228,7 +228,7 @@
         },
         {
           "id": "luongson-ee8dc3147ccc",
-          "name": "⚽ South Korea (W) vs Chinese Taipei (W) | 39' • 0 : 0",
+          "name": "⚽ South Korea (W) vs Chinese Taipei (W) | 45+' • 0 : 0",
           "tournament": "EAFF Women’s Football Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2256_20180831144200.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/3712_1h9m7d5y3010.png",
@@ -265,14 +265,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eb5746d1ec",
+                          "id": "lnk-b44e2d5ec1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jgNbyER1KQ1cY/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-3898dfbc7c",
+                          "id": "lnk-4d43c23d4c",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -325,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1e7d9219d5",
+                          "id": "lnk-4c7451a4af",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -378,11 +378,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86c938a958",
+                          "id": "lnk-25f2c3e74d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -431,7 +431,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b6da8cfe99",
+                          "id": "lnk-3cc7c69f43",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
