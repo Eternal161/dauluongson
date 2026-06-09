@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:00 09/06/2026",
+  "last_updated": "10:10 09/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-6c358186b074",
-          "name": "⚽ Peru vs Spain | HT • 0 : 2",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/668_165018907294.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/666_164983321668.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/668_165018907294.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6c358186b074",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6c358186b074",
-                  "name": "Peru vs Spain",
-                  "streams": [
-                    {
-                      "id": "luongson-6c358186b074",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a810f169b2",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-b2e1d59be75b",
           "name": "⚽ New York Knicks vs San Antonio Spurs | H2 • 0 : 0",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9b625676f2",
+                          "id": "lnk-591c869339",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-81364337fb42",
+          "name": "⚽ Peru vs Spain | 49' • 0 : 2",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/668_165018907294.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/666_164983321668.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/668_165018907294.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-81364337fb42",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-81364337fb42",
+                  "name": "Peru vs Spain",
+                  "streams": [
+                    {
+                      "id": "luongson-81364337fb42",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-498e96dcb0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9f2780031e",
+                          "id": "lnk-63c967fae3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e89b8ac103",
+                          "id": "lnk-67ffb65def",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fed83a0866",
+                          "id": "lnk-2459d1e396",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,10 +311,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9acc520de6",
+                          "id": "lnk-e53bb0b2e8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-9d993275c9",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
@@ -364,11 +371,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7fe1355b5c",
+                          "id": "lnk-c34c1c5762",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
@@ -417,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ec59780a92",
+                          "id": "lnk-e53dbe121d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
