@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:20 09/06/2026",
+  "last_updated": "08:30 09/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-ee49c6d74ce6",
+          "name": "⚽ Panama (W) vs Jamaica (W) | 31' • 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4885_16572674989.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5107_165725209289.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4885_16572674989.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ee49c6d74ce6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ee49c6d74ce6",
+                  "name": "Panama (W) vs Jamaica (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-ee49c6d74ce6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c552abf248",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-b2e1d59be75b",
           "name": "⚽ New York Knicks vs San Antonio Spurs | H1 • 0 : 0",
@@ -46,117 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8c7cd129e8",
+                          "id": "lnk-3d4e3ebac3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ee49c6d74ce6",
-          "name": "⚽ Panama (W) vs Jamaica (W) | 21' • 0 : 0",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4885_16572674989.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5107_165725209289.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4885_16572674989.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ee49c6d74ce6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ee49c6d74ce6",
-                  "name": "Panama (W) vs Jamaica (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-ee49c6d74ce6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dcfae218f7",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b3f29389b9cb",
-          "name": "⚽ Deportes Temuco vs Curico Unido | 90+' • 0 : 1",
-          "tournament": "Chile Primera B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/894_1h6mrdn89c0.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6629_1hptansvyrh.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/894_1h6mrdn89c0.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b3f29389b9cb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b3f29389b9cb",
-                  "name": "Deportes Temuco vs Curico Unido",
-                  "streams": [
-                    {
-                      "id": "luongson-b3f29389b9cb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd7c4d992a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -205,11 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-87b8b6579d",
+                          "id": "lnk-50b6bc14b8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -258,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-58414beff6",
+                          "id": "lnk-7ef443fdb4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bbeb87dd8f",
+                          "id": "lnk-22e5ffa727",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2ee47f01d1",
+                          "id": "lnk-da8a652cd5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,11 +364,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c1cc33ebab",
+                          "id": "lnk-1ab4f33a45",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d8a3aee996ba",
+          "name": "⚽ Thailand U23 vs United Arab Emirates U23 | 0 : 0",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4417_165726898169.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4420_1h48bf7a631t.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4417_165726898169.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d8a3aee996ba",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d8a3aee996ba",
+                  "name": "Thailand U23 vs United Arab Emirates U23",
+                  "streams": [
+                    {
+                      "id": "luongson-d8a3aee996ba",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7649186a8",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
