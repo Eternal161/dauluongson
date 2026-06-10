@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:00 10/06/2026",
+  "last_updated": "11:10 10/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -44,7 +44,15 @@
                     {
                       "id": "luongson-657f6da6f810",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-771dedb4b0",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -91,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0d785cfca2",
+                          "id": "lnk-fe475b0ae2",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -144,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-04915a66bd",
+                          "id": "lnk-d267dea7e6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -197,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-489afbef33",
+                          "id": "lnk-694b0e736d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -250,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fa972cd643",
+                          "id": "lnk-9a84c2fcc8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -303,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-62a7967503",
+                          "id": "lnk-706791bc89",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -356,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2356e45aba",
+                          "id": "lnk-73fb7e52ed",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -409,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1dcad8a708",
+                          "id": "lnk-ab53fef0aa",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
