@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:50 11/06/2026",
+  "last_updated": "11:01 11/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-5f3d82147c5b",
-          "name": "⚽ Monterey Bay Fc vs Sporting Jax | 87' • 2 : 1",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56452_1gytyddyyq2g.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69307_1jwa9cpz632t.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56452_1gytyddyyq2g.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5f3d82147c5b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5f3d82147c5b",
-                  "name": "Monterey Bay Fc vs Sporting Jax",
-                  "streams": [
-                    {
-                      "id": "luongson-5f3d82147c5b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e01da19658",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-be3e540dbdc7",
-          "name": "⚽ Phoenix Rising Fc vs Louisville City Fc | 55' • 0 : 1",
+          "name": "⚽ Phoenix Rising Fc vs Louisville City Fc | 66' • 0 : 1",
           "tournament": "USL Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/20290_1jsqvnqx9m2d.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/21816_1gz593hw9g1c.png",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ba8c66c7a6",
+                          "id": "lnk-f3712aa383",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -132,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "● Live",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -150,15 +97,7 @@
                     {
                       "id": "luongson-0689ef36dd37",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-491787e9bd",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -205,14 +144,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9f365794b1",
+                          "id": "lnk-0dc0dd3912",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-feb7cbb8f2",
+                          "id": "lnk-992b96a5c9",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -265,7 +204,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2689f43340",
+                          "id": "lnk-97985d2c26",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,7 +257,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f967115a7d",
+                          "id": "lnk-32b63fdf25",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,7 +310,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5b7f7d648a",
+                          "id": "lnk-8892c3bc08",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -424,7 +363,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9567d3cad2",
+                          "id": "lnk-2c96e12b6f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dfa3a26bb253",
+          "name": "⚽ Nam Dinh Fc vs Cong An Tp Ho Chi Minh | 0 : 0",
+          "tournament": "Vietnamese National Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6306_1k26fvjzjsh.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17315_1k3q3st99rc.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6306_1k26fvjzjsh.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dfa3a26bb253",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dfa3a26bb253",
+                  "name": "Nam Dinh Fc vs Cong An Tp Ho Chi Minh",
+                  "streams": [
+                    {
+                      "id": "luongson-dfa3a26bb253",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7386dfd912",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
