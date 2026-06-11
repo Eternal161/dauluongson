@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:30 11/06/2026",
+  "last_updated": "11:41 11/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-876d55ea63ac",
+          "name": "⚽ Av Alta vs Sarasota Paradise | 78' • 3 : 0",
+          "tournament": "USL League One",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68489_1jpkj5zr626.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61865_1h4shezbpn2n.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/68489_1jpkj5zr626.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-876d55ea63ac",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-876d55ea63ac",
+                  "name": "Av Alta vs Sarasota Paradise",
+                  "streams": [
+                    {
+                      "id": "luongson-876d55ea63ac",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5831d98260",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd6CpxXcEmQh7sqE/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-c20146f333",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd6CpxXcEmQh7sqE/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-0689ef36dd37",
           "name": "⚽ Dalian Football School(W) vs Shanghai Shenhua W | 0 : 0",
@@ -46,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-66a065d13a",
+                          "id": "lnk-ffe44a7876",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ca5e11271f",
+                          "id": "lnk-165e8aa42b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-893d5de8ce",
+                          "id": "lnk-0a7a7cba4b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8cb39e0ed0",
+                          "id": "lnk-31eb50e3b7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,11 +318,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-584207951d",
+                          "id": "lnk-499e26f578",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-91a6b0193827",
+          "name": "⚽ Vysocina Jihlava U19 vs Mfk Karvina U19 | 0 : 0",
+          "tournament": "Czech Republic U19 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9325_1gtn1ev9y42v.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/19269_1gy3vtm087r.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9325_1gtn1ev9y42v.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-91a6b0193827",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-91a6b0193827",
+                  "name": "Vysocina Jihlava U19 vs Mfk Karvina U19",
+                  "streams": [
+                    {
+                      "id": "luongson-91a6b0193827",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a747479fab",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5vXyo4fHKHncTn/playlist.m3u8"
                         }
                       ]
                     }
@@ -311,113 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bd04011251",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-dfa3a26bb253",
-          "name": "⚽ Nam Dinh Fc vs Cong An Tp Ho Chi Minh | 0 : 0",
-          "tournament": "Vietnamese National Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6306_1k26fvjzjsh.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17315_1k3q3st99rc.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6306_1k26fvjzjsh.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dfa3a26bb253",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dfa3a26bb253",
-                  "name": "Nam Dinh Fc vs Cong An Tp Ho Chi Minh",
-                  "streams": [
-                    {
-                      "id": "luongson-dfa3a26bb253",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b81898f8b8",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0e36b0e018a4",
-          "name": "⚽ Venezuela U20 vs Japan U19 | 0 : 0",
-          "tournament": "Toulon Tournament",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1517_1h3bwgfan11z.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3538_1h1gddexf421.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1517_1h3bwgfan11z.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0e36b0e018a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0e36b0e018a4",
-                  "name": "Venezuela U20 vs Japan U19",
-                  "streams": [
-                    {
-                      "id": "luongson-0e36b0e018a4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee5794be9e",
+                          "id": "lnk-1a2ca28436",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
