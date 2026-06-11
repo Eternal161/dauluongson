@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:20 11/06/2026",
+  "last_updated": "15:30 11/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-7401f75b9b4e",
-          "name": "⚽ Guangdong Chenxingjuli vs Canton United | 21' • 0 : 0",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781163270.jpg",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781163282.webp",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781163270.jpg",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7401f75b9b4e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7401f75b9b4e",
-                  "name": "Guangdong Chenxingjuli vs Canton United",
-                  "streams": [
-                    {
-                      "id": "luongson-7401f75b9b4e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b7b630950",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-c99fdf75bdde",
           "name": "⚽ Rizal Golden Coolers vs Pasig City | H1 • 0 : 0",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-54ef9b8032",
+                          "id": "lnk-457f73e06e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7401f75b9b4e",
+          "name": "⚽ Guangdong Chenxingjuli vs Canton United | 31' • 0 : 0",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781163270.jpg",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781163282.webp",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781163270.jpg",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7401f75b9b4e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7401f75b9b4e",
+                  "name": "Guangdong Chenxingjuli vs Canton United",
+                  "streams": [
+                    {
+                      "id": "luongson-7401f75b9b4e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f44f334aa5",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -152,18 +152,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c71fed9271",
+                          "id": "lnk-0aa44b2f3f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFXYEFHG5eNa4U/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFXYEFHG5eNa4U/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-99d5f830b4",
+                          "id": "lnk-1d728b821d",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFXYEFHG5eNa4U/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFXYEFHG5eNa4U/chunklist.m3u8"
                         }
                       ]
                     }
@@ -212,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cb8a152781",
+                          "id": "lnk-10419c594e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-67eea8135c",
+                          "id": "lnk-d96ec58ff3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2eb0286b7a",
+                          "id": "lnk-30bc7e9fc9",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3bfcc98d6a",
+                          "id": "lnk-b9272c5585",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -424,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7d67d535a2",
+                          "id": "lnk-0547d9b65d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
