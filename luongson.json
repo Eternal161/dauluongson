@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:41 12/06/2026",
+  "last_updated": "01:50 12/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-45262a10328a",
-          "name": "⚽ Helsingborg vs Landskrona Bois | 80' • 0 : 2",
-          "tournament": "Sweden Superettan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/368_1h4yn3a5rr27.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/362_1h8fzp9swe28.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/368_1h4yn3a5rr27.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-45262a10328a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-45262a10328a",
-                  "name": "Helsingborg vs Landskrona Bois",
-                  "streams": [
-                    {
-                      "id": "luongson-45262a10328a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa4e51fc7a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-7a5b98ce5960",
           "name": "⚽ Khai Mạc vs World Cup | H1 • 0 : 0",
@@ -99,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0c40199c64",
+                          "id": "lnk-369b2c5d68",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-97b0faa09278",
-          "name": "⚽ Portugal U20 vs Canada U20 | 82' • 6 : 1",
+          "name": "⚽ Portugal U20 vs Canada U20 | 90+' • 6 : 1",
           "tournament": "Toulon Tournament",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1404_16575015021.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1829_165726692984.png",
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8804711959",
+                          "id": "lnk-cca6a32b38",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-45262a10328a",
+          "name": "⚽ Helsingborg vs Landskrona Bois | 88' • 0 : 2",
+          "tournament": "Sweden Superettan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/368_1h4yn3a5rr27.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/362_1h8fzp9swe28.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/368_1h4yn3a5rr27.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-45262a10328a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-45262a10328a",
+                  "name": "Helsingborg vs Landskrona Bois",
+                  "streams": [
+                    {
+                      "id": "luongson-45262a10328a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9434bcdba",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -205,18 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1b7689c371",
+                          "id": "lnk-f62111f391",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-15cd249c68",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -265,11 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bf4ede20b9",
+                          "id": "lnk-5ccdf83896",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
                         }
                       ]
                     }
@@ -281,7 +274,7 @@
         },
         {
           "id": "luongson-07d56340f566",
-          "name": "⚽ Sao Paulo Youth vs Rb Bragantino Youth | 40' • 0 : 0",
+          "name": "⚽ Sao Paulo Youth vs Rb Bragantino Youth | HT • 0 : 1",
           "tournament": "Brazil Youth",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/8426_1gy3wnd0am2y.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/56094_1gtg0nfx9x1r.png",
@@ -318,11 +311,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-36b89cfded",
+                          "id": "lnk-a3729d0a16",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -334,7 +327,7 @@
         },
         {
           "id": "luongson-8efadbc39532",
-          "name": "⚽ Cruzeiro (Youth) vs Fortaleza U20 | 41' • 1 : 0",
+          "name": "⚽ Cruzeiro (Youth) vs Fortaleza U20 | HT • 1 : 0",
           "tournament": "Brazil Youth",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/8395_1h4w82myz72.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/8341_1hk7185tgdw.png",
@@ -371,11 +364,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0c194265c8",
+                          "id": "lnk-2a442a5a15",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -424,17 +417,10 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3b71790096",
+                          "id": "lnk-e2313149f1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-c037005b9b",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
