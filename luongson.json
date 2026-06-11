@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:30 12/06/2026",
+  "last_updated": "04:40 12/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-cc9a77764a4d",
+          "name": "⚽ Mexico vs Nam Phi | H1 • 0 : 0",
+          "tournament": "World Cup 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781213518.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781213522.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781213518.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cc9a77764a4d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cc9a77764a4d",
+                  "name": "Mexico vs Nam Phi",
+                  "streams": [
+                    {
+                      "id": "luongson-cc9a77764a4d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb727b52ff",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-5460445efaa5",
-          "name": "⚽ Club Ada Jaen vs Comerciantes Fc | 69' • 1 : 0",
+          "name": "⚽ Club Ada Jaen vs Comerciantes Fc | 79' • 1 : 0",
           "tournament": "Peru B League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/63300_1htv213nt5j.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/42758_1gyk775sbc9.png",
@@ -46,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e22f876c36",
+                          "id": "lnk-1a6ba23859",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpxc7YU18MXeEsv/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpxc7YU18MXeEsv/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-0c31773b39",
+                          "id": "lnk-0e3cdd5dcf",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpxc7YU18MXeEsv/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpxc7YU18MXeEsv/playlist.m3u8"
                         }
                       ]
                     }
@@ -106,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0109c9ca92",
+                          "id": "lnk-20a603d15f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -159,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-37b8ab46e0",
+                          "id": "lnk-40ee75907c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -212,60 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-05d9b4954d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8b660254f97b",
-          "name": "⚽ Portland Fire (W) vs Las Vegas Aces (W) | 0 : 0",
-          "tournament": "WNBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205860.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205862.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205860.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8b660254f97b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8b660254f97b",
-                  "name": "Portland Fire (W) vs Las Vegas Aces (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-8b660254f97b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23c2a36945",
+                          "id": "lnk-888c7dbcc8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,7 +318,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-57e2448c6b",
+                          "id": "lnk-cbdb9c50d5",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8b660254f97b",
+          "name": "⚽ Portland Fire (W) vs Las Vegas Aces (W) | 0 : 0",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205860.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205862.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205860.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8b660254f97b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8b660254f97b",
+                  "name": "Portland Fire (W) vs Las Vegas Aces (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-8b660254f97b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b51ccefe1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,60 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dbb37bbfb2",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f4a42efc2619",
-          "name": "⚽ Taranaki Airs vs Tauranga Whai | 0 : 0",
-          "tournament": "NBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205888.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205889.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781205888.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f4a42efc2619",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f4a42efc2619",
-                  "name": "Taranaki Airs vs Tauranga Whai",
-                  "streams": [
-                    {
-                      "id": "luongson-f4a42efc2619",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c39e6abe90",
+                          "id": "lnk-0568944c21",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
