@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:20 12/06/2026",
+  "last_updated": "14:30 12/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-1728609accd2",
-          "name": "⚽ Mexico vs Nam Phi | H1 • 0 : 0",
-          "tournament": "World Cup 2026",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781238551.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781238552.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781238551.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1728609accd2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1728609accd2",
-                  "name": "Mexico vs Nam Phi",
-                  "streams": [
-                    {
-                      "id": "luongson-1728609accd2",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa48f546dd",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f4a42efc2619",
           "name": "⚽ Taranaki Airs vs Tauranga Whai | H1 • 0 : 0",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4862335df5",
+                          "id": "lnk-f282b47d58",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-c61285b9617d",
-          "name": "⚽ Cimahi United vs Pesik Kuningan | HT • 0 : 0",
+          "name": "⚽ Cimahi United vs Pesik Kuningan | 56' • 0 : 0",
           "tournament": "Indonesia Liga 4",
           "logo_nha": "https://ui-avatars.com/api/?name=Ci&size=200&background=1565C0&color=ffffff&bold=true",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/42679_1hgqe48t533.png",
@@ -152,18 +99,191 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-34c72623d2",
+                          "id": "lnk-377dc0b2d1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMrxAuaHfR4oE/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMrxAuaHfR4oE/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-04eba96066",
+                          "id": "lnk-5deb3e5112",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMrxAuaHfR4oE/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMrxAuaHfR4oE/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-044f6f8a1ee1",
+          "name": "⚽ Suan Sunandha Rajabhat University vs Bangkok Thonburi University | HT • 0 : 1",
+          "tournament": "Thailand University League",
+          "logo_nha": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/32993_1h2akhq4zg1a.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-044f6f8a1ee1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-044f6f8a1ee1",
+                  "name": "Suan Sunandha Rajabhat University vs Bangkok Thonburi University",
+                  "streams": [
+                    {
+                      "id": "luongson-044f6f8a1ee1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af05549f66",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuM7oAy2HSWMTz/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-d0dc1d3947",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuM7oAy2HSWMTz/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c0b991aff8bd",
+          "name": "⚽ Chulalongkorn University vs Bangkok University Deffo | HT • 0 : 0",
+          "tournament": "Thailand University League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33101_1h1tcfn4ztz.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24454_1hyw2nj48c32.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/33101_1h1tcfn4ztz.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c0b991aff8bd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c0b991aff8bd",
+                  "name": "Chulalongkorn University vs Bangkok University Deffo",
+                  "streams": [
+                    {
+                      "id": "luongson-c0b991aff8bd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ee932ca9d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuM7oHZTtsz6vg/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-0bb3b2d6fb",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuM7oHZTtsz6vg/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-392e3d8063b4",
+          "name": "⚽ Psp Padang vs Persikotas Tasikmalaya | HT • 0 : 1",
+          "tournament": "Indonesia Liga 4",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21560_1hk717x4kp2w.png",
+          "logo_khach": "https://ui-avatars.com/api/?name=Pe&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/21560_1hk717x4kp2w.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-392e3d8063b4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-392e3d8063b4",
+                  "name": "Psp Padang vs Persikotas Tasikmalaya",
+                  "streams": [
+                    {
+                      "id": "luongson-392e3d8063b4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b732a6ad3",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMr7b9YWcJC9r/playlist.m3u8"
                         }
                       ]
                     }
@@ -212,18 +332,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a7bcf0f87d",
+                          "id": "lnk-f85d6dc121",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMrwe8r6wrEeg/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMrwe8r6wrEeg/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-a19d506667",
+                          "id": "lnk-db3fcb04e9",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMrwe8r6wrEeg/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMrwe8r6wrEeg/chunklist.m3u8"
                         }
                       ]
                     }
@@ -272,18 +392,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d8cd7c9025",
+                          "id": "lnk-577c0c625d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMr7UZ6uApShA/playlist.m3u8"
-                        },
-                        {
-                          "id": "lnk-2bd80f8846",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMr7UZ6uApShA/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-564f85ea81",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuMr7UZ6uApShA/playlist.m3u8"
                         }
                       ]
                     }
@@ -294,11 +414,11 @@
           ]
         },
         {
-          "id": "luongson-044f6f8a1ee1",
-          "name": "⚽ Suan Sunandha Rajabhat University vs Bangkok Thonburi University | 45+' • 0 : 1",
-          "tournament": "Thailand University League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/32993_1h2akhq4zg1a.png",
+          "id": "luongson-094bd53f1bc1",
+          "name": "⚽ Paranaque Patriots vs Imus Braderhood | 0 : 0",
+          "tournament": "MPBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781241128.webp",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781241132.webp",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -306,7 +426,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781241128.webp",
             "width": 1600,
             "height": 1200
           },
@@ -320,90 +440,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-044f6f8a1ee1",
+              "id": "luongson-094bd53f1bc1",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-044f6f8a1ee1",
-                  "name": "Suan Sunandha Rajabhat University vs Bangkok Thonburi University",
+                  "id": "luongson-094bd53f1bc1",
+                  "name": "Paranaque Patriots vs Imus Braderhood",
                   "streams": [
                     {
-                      "id": "luongson-044f6f8a1ee1",
+                      "id": "luongson-094bd53f1bc1",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f15b627ac6",
+                          "id": "lnk-9d898a77d4",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuM7oAy2HSWMTz/chunklist.m3u8"
-                        },
-                        {
-                          "id": "lnk-d42e3a3080",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuM7oAy2HSWMTz/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c0b991aff8bd",
-          "name": "⚽ Chulalongkorn University vs Bangkok University Deffo | 45+' • 0 : 0",
-          "tournament": "Thailand University League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33101_1h1tcfn4ztz.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24454_1hyw2nj48c32.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/33101_1h1tcfn4ztz.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c0b991aff8bd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c0b991aff8bd",
-                  "name": "Chulalongkorn University vs Bangkok University Deffo",
-                  "streams": [
-                    {
-                      "id": "luongson-c0b991aff8bd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c374807666",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuM7oHZTtsz6vg/playlist.m3u8"
-                        },
-                        {
-                          "id": "lnk-c025100f04",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpuM7oHZTtsz6vg/chunklist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
