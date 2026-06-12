@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:31 13/06/2026",
+  "last_updated": "02:40 13/06/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-00703df8b2d3",
-          "name": "⚽ Canada vs Bosnia And Herzegovina | 29' • 0 : 1",
+          "name": "⚽ Canada vs Bosnia And Herzegovina | 39' • 0 : 1",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/675_164983517667.png",
@@ -26,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -44,7 +44,15 @@
                     {
                       "id": "luongson-00703df8b2d3",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8d9068f5b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -54,7 +62,7 @@
         },
         {
           "id": "luongson-d96e0099bb7d",
-          "name": "⚽ Al-Nasar vs Kazma | 80' • 1 : 2",
+          "name": "⚽ Al-Nasar vs Kazma | 89' • 1 : 2",
           "tournament": "Kuwaiti Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3079_167142102128.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png",
@@ -91,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d20aad1101",
+                          "id": "lnk-3d13d1b186",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -107,7 +115,7 @@
         },
         {
           "id": "luongson-3ebaf0195ec8",
-          "name": "⚽ Al-Salmiyah vs Al Kuwait Sc | 82' • 0 : 0",
+          "name": "⚽ Al-Salmiyah vs Al Kuwait Sc | 90+' • 0 : 0",
           "tournament": "Kuwaiti Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4221_1gq16mdyzsj.png",
@@ -144,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ea20111177",
+                          "id": "lnk-623eea4c0a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -159,61 +167,8 @@
           ]
         },
         {
-          "id": "luongson-e85a77a0a8ff",
-          "name": "⚽ Derry City vs Bohemians | 37' • 1 : 1",
-          "tournament": "Ireland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/167_165958060112.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e85a77a0a8ff",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e85a77a0a8ff",
-                  "name": "Derry City vs Bohemians",
-                  "streams": [
-                    {
-                      "id": "luongson-e85a77a0a8ff",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bfbd79161b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-a4d24a8076b8",
-          "name": "⚽ Galway United vs Dundalk | 45+' • 0 : 0",
+          "name": "⚽ Galway United vs Dundalk | HT • 0 : 0",
           "tournament": "Ireland Premier Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1163_165958078962.png",
@@ -250,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fe01a5af31",
+                          "id": "lnk-922d26f837",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -266,7 +221,7 @@
         },
         {
           "id": "luongson-d8a578e656ba",
-          "name": "⚽ St. Patricks Athletic vs Drogheda United | 45' • 1 : 0",
+          "name": "⚽ St. Patricks Athletic vs Drogheda United | HT • 1 : 0",
           "tournament": "Ireland Premier Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/295_165958076584.png",
@@ -303,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8f993a37e8",
+                          "id": "lnk-28addf3efc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,8 +273,61 @@
           ]
         },
         {
+          "id": "luongson-e85a77a0a8ff",
+          "name": "⚽ Derry City vs Bohemians | 45+' • 1 : 1",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/167_165958060112.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e85a77a0a8ff",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e85a77a0a8ff",
+                  "name": "Derry City vs Bohemians",
+                  "streams": [
+                    {
+                      "id": "luongson-e85a77a0a8ff",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a33b85cbf",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-fbaa482fa9be",
-          "name": "⚽ Shelbourne vs Shamrock Rovers | 30' • 0 : 0",
+          "name": "⚽ Shelbourne vs Shamrock Rovers | 40' • 1 : 0",
           "tournament": "Ireland Premier Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/281_1grd5f04es2w.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/164_165958084230.png",
@@ -356,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-077fa52eb0",
+                          "id": "lnk-c52157fb57",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,11 +379,11 @@
           ]
         },
         {
-          "id": "luongson-b94c9dd43592",
-          "name": "⚽ Khai Mac Tai Usa vs Khai Mac Tai Usa | 0 : 0",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781275149.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781275150.png",
+          "id": "luongson-ee0cc6e0650f",
+          "name": "⚽ Atletico Clube Goianiense vs Crb Al | 0 : 0",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4381_1gtqpsvqgb1h.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3340_1gtn82r1dm2a.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -383,7 +391,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781275149.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/4381_1gtqpsvqgb1h.png",
             "width": 1600,
             "height": 1200
           },
@@ -397,19 +405,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-b94c9dd43592",
+              "id": "luongson-ee0cc6e0650f",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b94c9dd43592",
-                  "name": "Khai Mac Tai Usa vs Khai Mac Tai Usa",
+                  "id": "luongson-ee0cc6e0650f",
+                  "name": "Atletico Clube Goianiense vs Crb Al",
                   "streams": [
                     {
-                      "id": "luongson-b94c9dd43592",
+                      "id": "luongson-ee0cc6e0650f",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bb7756bb89",
+                          "id": "lnk-1f4dfcdf37",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
