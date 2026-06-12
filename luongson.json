@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:40 12/06/2026",
+  "last_updated": "21:50 12/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-cb3f204cc1c3",
-          "name": "⚽ Al Abbasieh Fc vs Al-Hikma | 76' • 0 : 1",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5800_1gq92pex2wr.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-cb3f204cc1c3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-cb3f204cc1c3",
-                  "name": "Al Abbasieh Fc vs Al-Hikma",
-                  "streams": [
-                    {
-                      "id": "luongson-cb3f204cc1c3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11e190f4db",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-d96987decf12",
           "name": "⚽ Shabab Al Sahel vs Safa | H1 • 0 : 0",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f9ad508d44",
+                          "id": "lnk-4924cef37c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-cb3f204cc1c3",
+          "name": "⚽ Al Abbasieh Fc vs Al-Hikma | 86' • 0 : 1",
+          "tournament": "Lebanese Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5800_1gq92pex2wr.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cb3f204cc1c3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cb3f204cc1c3",
+                  "name": "Al Abbasieh Fc vs Al-Hikma",
+                  "streams": [
+                    {
+                      "id": "luongson-cb3f204cc1c3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11923d7c4b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -115,7 +115,7 @@
         },
         {
           "id": "luongson-7bbc814692f2",
-          "name": "⚽ Fk Isloch Minsk vs Naftan Novopolock | 39' • 1 : 0",
+          "name": "⚽ Fk Isloch Minsk vs Naftan Novopolock | HT • 2 : 0",
           "tournament": "Belarusian Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/2036_1k00ny2bb815.png",
@@ -132,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "● Live",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -150,15 +150,7 @@
                     {
                       "id": "luongson-7bbc814692f2",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-987bf6b0dc",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -167,8 +159,8 @@
           ]
         },
         {
-          "id": "luongson-d4f7b0a52a75",
-          "name": "⚽ Khan Tengri Fc vs Fc Shakhtyor Karagandy | 39' • 0 : 0",
+          "id": "luongson-c84ea9733c47",
+          "name": "⚽ Khan Tengri Fc vs Fc Shakhtyor Karagandy | HT • 0 : 0",
           "tournament": "Kazakhstan Division 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/57342_1j08b7ahe42z.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png",
@@ -193,23 +185,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-d4f7b0a52a75",
+              "id": "luongson-c84ea9733c47",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d4f7b0a52a75",
+                  "id": "luongson-c84ea9733c47",
                   "name": "Khan Tengri Fc vs Fc Shakhtyor Karagandy",
                   "streams": [
                     {
-                      "id": "luongson-d4f7b0a52a75",
+                      "id": "luongson-c84ea9733c47",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7a3a1594b5",
+                          "id": "lnk-7f970c28c5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -258,11 +250,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ac21c62a00",
+                          "id": "lnk-a39e4c291f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -311,7 +303,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-df4083d0e1",
+                          "id": "lnk-c301a63ed8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,14 +356,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4b2f1cde07",
+                          "id": "lnk-4faaecb032",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-1441a66bee",
+                          "id": "lnk-efcbb68367",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
@@ -424,7 +416,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0200128b08",
+                          "id": "lnk-07de9106b1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
