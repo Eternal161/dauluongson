@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:00 12/06/2026",
+  "last_updated": "15:10 12/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-c52020439990",
-          "name": "⚽ Zigong Black White vs Yunnan Cuanhe | 0 : 0",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781248737.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781248737.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c52020439990",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c52020439990",
-                  "name": "Zigong Black White vs Yunnan Cuanhe",
-                  "streams": [
-                    {
-                      "id": "luongson-c52020439990",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eea3f56da4",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f4a42efc2619",
           "name": "⚽ Taranaki Airs vs Tauranga Whai | H1 • 0 : 0",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8197ae2110",
+                          "id": "lnk-bcef08eebd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,8 +61,68 @@
           ]
         },
         {
+          "id": "luongson-c52020439990",
+          "name": "⚽ Zigong Black White vs Yunnan Cuanhe | 0 : 0",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781248737.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781248737.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c52020439990",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c52020439990",
+                  "name": "Zigong Black White vs Yunnan Cuanhe",
+                  "streams": [
+                    {
+                      "id": "luongson-c52020439990",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4720b114a",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-4e943b737d",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-094bd53f1bc1",
-          "name": "⚽ Paranaque Patriots vs Imus Braderhood | 0 : 0",
+          "name": "⚽ Paranaque Patriots vs Imus Braderhood | H1 • 0 : 0",
           "tournament": "MPBL",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781241128.webp",
           "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781241132.webp",
@@ -152,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86f608d19d",
+                          "id": "lnk-b2ae98af2f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -167,11 +174,11 @@
           ]
         },
         {
-          "id": "luongson-a6d2f76ff334",
-          "name": "⚽ Darwin Olympics vs Garuda Fc | 0 : 0",
-          "tournament": "Australia Darwin Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22461_1hxg3yvmwd2b.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45326_1hshwqn3jy2v.png",
+          "id": "luongson-16744e63b396",
+          "name": "⚽ Shennongjia Team vs Ezhou Team | 11' • 0 : 0",
+          "tournament": "Hubei City Football League",
+          "logo_nha": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=Ez&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,7 +186,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22461_1hxg3yvmwd2b.png",
+            "url": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
             "width": 1600,
             "height": 1200
           },
@@ -193,23 +200,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-a6d2f76ff334",
+              "id": "luongson-16744e63b396",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a6d2f76ff334",
-                  "name": "Darwin Olympics vs Garuda Fc",
+                  "id": "luongson-16744e63b396",
+                  "name": "Shennongjia Team vs Ezhou Team",
                   "streams": [
                     {
-                      "id": "luongson-a6d2f76ff334",
+                      "id": "luongson-16744e63b396",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-639434d312",
+                          "id": "lnk-cc1f63d7fe",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqV8KkW5ctZp6Gt/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-f397dd366d",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqV8KkW5ctZp6Gt/playlist.m3u8"
                         }
                       ]
                     }
@@ -258,11 +272,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dcd75ff7a3",
+                          "id": "lnk-d585d58493",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -273,11 +287,11 @@
           ]
         },
         {
-          "id": "luongson-808c45c781b8",
-          "name": "⚽ Manly United vs Sydney United | 0 : 0",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png",
+          "id": "luongson-a6d2f76ff334",
+          "name": "⚽ Darwin Olympics vs Garuda Fc | 0 : 0",
+          "tournament": "Australia Darwin Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22461_1hxg3yvmwd2b.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45326_1hshwqn3jy2v.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -285,7 +299,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/22461_1hxg3yvmwd2b.png",
             "width": 1600,
             "height": 1200
           },
@@ -299,19 +313,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-808c45c781b8",
+              "id": "luongson-a6d2f76ff334",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-808c45c781b8",
-                  "name": "Manly United vs Sydney United",
+                  "id": "luongson-a6d2f76ff334",
+                  "name": "Darwin Olympics vs Garuda Fc",
                   "streams": [
                     {
-                      "id": "luongson-808c45c781b8",
+                      "id": "luongson-a6d2f76ff334",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-414fad0a1f",
+                          "id": "lnk-6b2feb2060",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f489d8b3ae",
+                          "id": "lnk-413b6a5391",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -379,11 +393,11 @@
           ]
         },
         {
-          "id": "luongson-bdd568133ff4",
-          "name": "⚽ Campbelltown City Sc vs West Torrens Birkalla | 0 : 0",
-          "tournament": "FFSA Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12204_1h8n2qpmzhb.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17049_1grwgk9v0d2v.png",
+          "id": "luongson-808c45c781b8",
+          "name": "⚽ Manly United vs Sydney United | 0 : 0",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -391,7 +405,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12204_1h8n2qpmzhb.png",
+            "url": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png",
             "width": 1600,
             "height": 1200
           },
@@ -405,19 +419,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-bdd568133ff4",
+              "id": "luongson-808c45c781b8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-bdd568133ff4",
-                  "name": "Campbelltown City Sc vs West Torrens Birkalla",
+                  "id": "luongson-808c45c781b8",
+                  "name": "Manly United vs Sydney United",
                   "streams": [
                     {
-                      "id": "luongson-bdd568133ff4",
+                      "id": "luongson-808c45c781b8",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-85b45ec446",
+                          "id": "lnk-d840aa3ad8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
