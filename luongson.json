@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:31 12/06/2026",
+  "last_updated": "15:40 12/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,64 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-645a967647",
+                          "id": "lnk-98964798a2",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-16744e63b396",
-          "name": "⚽ Shennongjia Team vs Ezhou Team | 31' • 0 : 1",
-          "tournament": "Hubei City Football League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://ui-avatars.com/api/?name=Ez&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-16744e63b396",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-16744e63b396",
-                  "name": "Shennongjia Team vs Ezhou Team",
-                  "streams": [
-                    {
-                      "id": "luongson-16744e63b396",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66fa424a4a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-93b072d1af",
+                          "id": "lnk-9617259235",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-16744e63b396",
+          "name": "⚽ Shennongjia Team vs Ezhou Team | 41' • 0 : 1",
+          "tournament": "Hubei City Football League",
+          "logo_nha": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=Ez&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-16744e63b396",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-16744e63b396",
+                  "name": "Shennongjia Team vs Ezhou Team",
+                  "streams": [
+                    {
+                      "id": "luongson-16744e63b396",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-806858a6ff",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -205,11 +205,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4fe58a4de8",
+                          "id": "lnk-b22a746ddd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-242bda0442",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
@@ -221,7 +228,7 @@
         },
         {
           "id": "luongson-c52020439990",
-          "name": "⚽ Zigong Black White vs Yunnan Cuanhe | 0 : 0",
+          "name": "⚽ Zigong Black White vs Yunnan Cuanhe | 5' • 0 : 0",
           "tournament": "Chinese Champions League",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781248737.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/61773_1h0y004dk04.png",
@@ -258,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1d4302ab99",
+                          "id": "lnk-84f8454879",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -273,7 +280,7 @@
           ]
         },
         {
-          "id": "luongson-a6d2f76ff334",
+          "id": "luongson-7c4c1eb43591",
           "name": "⚽ Darwin Olympics vs Garuda Fc | 0 : 0",
           "tournament": "Australia Darwin Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/22461_1hxg3yvmwd2b.png",
@@ -299,23 +306,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-a6d2f76ff334",
+              "id": "luongson-7c4c1eb43591",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a6d2f76ff334",
+                  "id": "luongson-7c4c1eb43591",
                   "name": "Darwin Olympics vs Garuda Fc",
                   "streams": [
                     {
-                      "id": "luongson-a6d2f76ff334",
+                      "id": "luongson-7c4c1eb43591",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f7b5979139",
+                          "id": "lnk-037c39073c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -364,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d5ae41a7a2",
+                          "id": "lnk-ffa1d33d92",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a05f6b2f80",
+                          "id": "lnk-4138a44b2d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
