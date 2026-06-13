@@ -1,118 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:50 13/06/2026",
+  "last_updated": "11:01 13/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-211075fb0357",
-          "name": "⚽ Mexico vs Nam Phi | H1 • 0 : 0",
-          "tournament": "World Cup",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781298901.png",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781298899.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781298901.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-211075fb0357",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-211075fb0357",
-                  "name": "Mexico vs Nam Phi",
-                  "streams": [
-                    {
-                      "id": "luongson-211075fb0357",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e687efd7f1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6831302edd39",
-          "name": "⚽ Oly Town Fc vs Tacoma Stars | 90+' • 4 : 4",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57639_1hz10atbmg1v.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65540_1hysdtwbec1h.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57639_1hz10atbmg1v.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6831302edd39",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6831302edd39",
-                  "name": "Oly Town Fc vs Tacoma Stars",
-                  "streams": [
-                    {
-                      "id": "luongson-6831302edd39",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9ff5f906d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-af625fb3042f",
           "name": "⚽ Seattle Storm W vs Golden State Valkyries W | H1 • 0 : 0",
@@ -152,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bfbf1d3ddf",
+                          "id": "lnk-19050473ad",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-211075fb0357",
+          "name": "⚽ Mexico vs Nam Phi | H1 • 0 : 0",
+          "tournament": "World Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1781298901.png",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1781298899.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1781298901.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-211075fb0357",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-211075fb0357",
+                  "name": "Mexico vs Nam Phi",
+                  "streams": [
+                    {
+                      "id": "luongson-211075fb0357",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0770741278",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
                         }
                       ]
                     }
@@ -205,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6ac8e1f8a8",
+                          "id": "lnk-cda5aa8b8f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-07239ac9f8",
+                          "id": "lnk-ef78c18333",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eebaf17641",
+                          "id": "lnk-8b6dee489e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5e257e6251",
+                          "id": "lnk-b4c4071127",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,11 +364,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eaf69c1a56",
+                          "id": "lnk-5ded89952d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-24b478f8d0fe",
+          "name": "⚽ Gold Coast United vs Brisbane City | 0 : 0",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9387_1gqhh4j0tfj.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7283_1j3krbgr3tt.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9387_1gqhh4j0tfj.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-24b478f8d0fe",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-24b478f8d0fe",
+                  "name": "Gold Coast United vs Brisbane City",
+                  "streams": [
+                    {
+                      "id": "luongson-24b478f8d0fe",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e117bc0ed7",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvYM5qbhARRHXWuxQ/playlist.m3u8"
                         }
                       ]
                     }
