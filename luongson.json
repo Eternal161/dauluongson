@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:01 16/06/2026",
+  "last_updated": "02:10 16/06/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-7ac73a1f78de",
-          "name": "⚽ Belgium vs Egypt | 0 : 0",
+          "name": "⚽ Belgium vs Egypt | 11' • 0 : 0",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/555_1j0aw46xvtk.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/631_165018770975.png?v=2.4.3",
@@ -46,11 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3c4c40dc8f",
+                          "id": "lnk-02b078222d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -99,10 +99,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d876162b7a",
+                          "id": "lnk-205c30c08d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-69dc4facb6",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
@@ -152,11 +159,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6d453bd85f",
+                          "id": "lnk-4913658e92",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-5764186795",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c27db9091ede",
+          "name": "⚽ Banfield (W) vs Racing Club (W) | 47' • 0 : 2",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/37334_1grj4sk3ek2b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c27db9091ede",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c27db9091ede",
+                  "name": "Banfield (W) vs Racing Club (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-c27db9091ede",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00e313b8bf",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
                         }
                       ]
                     }
@@ -205,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c7047727f1",
+                          "id": "lnk-385ce06a1b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -220,61 +287,8 @@
           ]
         },
         {
-          "id": "luongson-c27db9091ede",
-          "name": "⚽ Banfield (W) vs Racing Club (W) | HT • 0 : 2",
-          "tournament": "The women's league of Argentina",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/37334_1grj4sk3ek2b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c27db9091ede",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c27db9091ede",
-                  "name": "Banfield (W) vs Racing Club (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-c27db9091ede",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7eb35ecc41",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/QUANVU/index.m3u8?expire=1788427256&sign=056d097a0bbbd810493fd64ccf4831b7"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-06d924ee64e3",
-          "name": "⚽ Sportivo Barracas vs General Lamadrid | 28' • 0 : 0",
+          "name": "⚽ Sportivo Barracas vs General Lamadrid | 37' • 1 : 0",
           "tournament": "Argentina group C Tebolidun League Manchester",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/15913_202003231503594300.gif?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/15634_1jnsqfq2vy5.png?v=2.4.3",
@@ -311,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-22e63cdb49",
+                          "id": "lnk-656b2fc50a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b51a2fea44",
+                          "id": "lnk-8c51bb8da8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +431,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-008c55269f",
+                          "id": "lnk-b11f3baa8d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
