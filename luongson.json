@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:40 15/06/2026",
+  "last_updated": "17:50 15/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-016a1bddf9dc",
+          "name": "⚽ Mitchelton (W) vs Peninsula Power (W) | HT • 1 : 2",
+          "tournament": "Australia Queensland State Women's Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22413_1gs1kb1k8qz.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/25770_1gsh0m063p2g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22413_1gs1kb1k8qz.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-016a1bddf9dc",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-016a1bddf9dc",
+                  "name": "Mitchelton (W) vs Peninsula Power (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-016a1bddf9dc",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29f73d9130",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-03f231182aad",
-          "name": "⚽ Shan Utd (W) vs Ispe Fc (W) | 53' • 1 : 3",
+          "name": "⚽ Shan Utd (W) vs Ispe Fc (W) | 63' • 1 : 3",
           "tournament": "Myanmar League Women",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/65644_1j02m8g23v1r.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/38228_1h62t7755kq.png?v=2.4.3",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c48b701a98",
+                          "id": "lnk-30c30fb2a1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d77ffb80ea64",
-          "name": "⚽ Mitchelton (W) vs Peninsula Power (W) | 38' • 1 : 0",
-          "tournament": "Australia Queensland State Women's Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22413_1gs1kb1k8qz.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/25770_1gsh0m063p2g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22413_1gs1kb1k8qz.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d77ffb80ea64",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d77ffb80ea64",
-                  "name": "Mitchelton (W) vs Peninsula Power (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-d77ffb80ea64",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59fc99412e",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -152,11 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aab37109f4",
+                          "id": "lnk-dd9f48d886",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aedbf6e176",
+                          "id": "lnk-aaa6fb0021",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-861bb58f6a",
+                          "id": "lnk-e5b5708f21",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-52665cae92",
+                          "id": "lnk-fa7b1767fe",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b3350c6ff6",
+                          "id": "lnk-67a82ce7bc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2fca8df2bd",
+                          "id": "lnk-8ebef7cf2a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
