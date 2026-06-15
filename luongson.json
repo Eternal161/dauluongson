@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:30 15/06/2026",
+  "last_updated": "13:40 15/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a69741632f",
+                          "id": "lnk-c6963cde0f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-326dc3e12f",
+                          "id": "lnk-a76724bec0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,8 +114,128 @@
           ]
         },
         {
+          "id": "luongson-1096b3857cc2",
+          "name": "⚽ Makassar City vs 757 Kepri Fc | 26' • 0 : 0",
+          "tournament": "Indonesia Liga 4",
+          "logo_nha": "https://ui-avatars.com/api/?name=Ma&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/30465_1hx5rxkzey1.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Ma&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1096b3857cc2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1096b3857cc2",
+                  "name": "Makassar City vs 757 Kepri Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-1096b3857cc2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a3c24de2f",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBdLNdAK99T1Mn/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-bcb04a0f58",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBdLNdAK99T1Mn/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f7da13bc8b85",
+          "name": "⚽ Ps Badung vs Wahana Fc | 26' • 0 : 0",
+          "tournament": "Indonesia Liga 4",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42241_1hfrj72m9n9.png",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/63690_1hdn1nr02y1k.png",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/42241_1hfrj72m9n9.png",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f7da13bc8b85",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f7da13bc8b85",
+                  "name": "Ps Badung vs Wahana Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-f7da13bc8b85",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-92d17f1c7d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBdLNWZsXhyFu6/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-e072875631",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBdLNWZsXhyFu6/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-cec121025d6f",
-          "name": "⚽ Bangkok Thonburi University vs Thailand National Sports University | 0 : 0",
+          "name": "⚽ Bangkok Thonburi University vs Thailand National Sports University | 6' • 0 : 0",
           "tournament": "Thailand University League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/32993_1h2akhq4zg1a.png",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/42776_1hzgzyy7b914.png",
@@ -152,10 +272,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a8be70f12b",
+                          "id": "lnk-7f5e2df0ee",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr94pw768Md8Wx/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-b83af29ab2",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr94pw768Md8Wx/playlist.m3u8"
                         }
                       ]
@@ -205,7 +332,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-84699a141a",
+                          "id": "lnk-f59dc593ef",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +385,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-688152508c",
+                          "id": "lnk-a0a8191dcc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,113 +438,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b5dc2ad286",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d77ffb80ea64",
-          "name": "⚽ Mitchelton (W) vs Peninsula Power (W) | 0 : 0",
-          "tournament": "Australia Queensland State Women's Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22413_1gs1kb1k8qz.png",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/25770_1gsh0m063p2g.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22413_1gs1kb1k8qz.png",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d77ffb80ea64",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d77ffb80ea64",
-                  "name": "Mitchelton (W) vs Peninsula Power (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-d77ffb80ea64",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3065e7d50b",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-dd0677f66d23",
-          "name": "⚽ Shakhter Karagandy (W) vs Fk Zhenys (W) | 0 : 0",
-          "tournament": "Kazakhstan Women’s Super League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69730_1k2xgnbf6x1n.png",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dd0677f66d23",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dd0677f66d23",
-                  "name": "Shakhter Karagandy (W) vs Fk Zhenys (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-dd0677f66d23",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-313613b879",
+                          "id": "lnk-8233b6ca72",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
