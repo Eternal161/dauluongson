@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:30 15/06/2026",
+  "last_updated": "15:40 15/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-adb62842c1",
+                          "id": "lnk-1814890cbf",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,11 +61,11 @@
           ]
         },
         {
-          "id": "luongson-cec121025d6f",
-          "name": "⚽ Bangkok Thonburi University vs Thailand National Sports University | 90+' • 1 : 1",
-          "tournament": "Thailand University League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/32993_1h2akhq4zg1a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42776_1hzgzyy7b914.png?v=2.4.3",
+          "id": "luongson-ebaf3b3d1600",
+          "name": "⚽ Pesik Kuningan vs Persibangga Purbalingga | 26' • 1 : 1",
+          "tournament": "Indonesia Liga 4",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42679_1hgqe48t533.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24113_1hxrhmy9sp1w.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,7 +73,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/32993_1h2akhq4zg1a.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/42679_1hgqe48t533.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -87,30 +87,90 @@
           ],
           "sources": [
             {
-              "id": "luongson-cec121025d6f",
+              "id": "luongson-ebaf3b3d1600",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-cec121025d6f",
-                  "name": "Bangkok Thonburi University vs Thailand National Sports University",
+                  "id": "luongson-ebaf3b3d1600",
+                  "name": "Pesik Kuningan vs Persibangga Purbalingga",
                   "streams": [
                     {
-                      "id": "luongson-cec121025d6f",
+                      "id": "luongson-ebaf3b3d1600",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8b2dfa3845",
+                          "id": "lnk-c704e19648",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr94pw768Md8Wx/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBdLN4C75x4G4L/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-30ff55b92e",
+                          "id": "lnk-fb5af3b878",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr94pw768Md8Wx/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBdLN4C75x4G4L/chunklist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-42ee317cc2a2",
+          "name": "⚽ Persemar Martapura vs Cimahi United | 24' • 0 : 0",
+          "tournament": "Indonesia Liga 4",
+          "logo_nha": "https://ui-avatars.com/api/?name=Pe&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=Ci&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Pe&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-42ee317cc2a2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-42ee317cc2a2",
+                  "name": "Persemar Martapura vs Cimahi United",
+                  "streams": [
+                    {
+                      "id": "luongson-42ee317cc2a2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3bb96ca5ca",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBe6hEE7qGCeLU/chunklist.m3u8"
+                        },
+                        {
+                          "id": "lnk-f8f4918a99",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBe6hEE7qGCeLU/playlist.m3u8"
                         }
                       ]
                     }
@@ -159,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-82ea81b60a",
+                          "id": "lnk-10467281cc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -212,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8b90ecff7a",
+                          "id": "lnk-c63619eb9a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -265,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e269b7aad3",
+                          "id": "lnk-25dfbbe108",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4e7e5c0669",
+                          "id": "lnk-fda15e99bc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,60 +431,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2191533f81",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c74931b82319",
-          "name": "⚽ As Dibamba W vs Cyclone Fc (W) | 0 : 0",
-          "tournament": "Cameroon League Women",
-          "logo_nha": "https://ui-avatars.com/api/?name=AS&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68101_1jf23ncb412f.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=AS&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c74931b82319",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c74931b82319",
-                  "name": "As Dibamba W vs Cyclone Fc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-c74931b82319",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-149011e34b",
+                          "id": "lnk-a6aad52eee",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
