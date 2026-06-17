@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:40 17/06/2026",
+  "last_updated": "13:50 17/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-3c0fac3af803",
+          "name": "⚽ Tuv Buganuud vs Fc Ulaanbaatar | 0 : 0",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35397_1h4pznznxt2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3c0fac3af803",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3c0fac3af803",
+                  "name": "Tuv Buganuud vs Fc Ulaanbaatar",
+                  "streams": [
+                    {
+                      "id": "luongson-3c0fac3af803",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2abc1c8ce3",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-9a40ff28693f",
           "name": "⚽ Pháp vs Senegal | H2 • 0 : 0",
@@ -46,71 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ff03d39123",
+                          "id": "lnk-bc72be1766",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-60a8392f06bd",
-          "name": "⚽ Shandong Jinghua Ii W vs Qingdao West (W) | 41' • 0 : 2",
-          "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64483_1j28vbswk5d.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-60a8392f06bd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-60a8392f06bd",
-                  "name": "Shandong Jinghua Ii W vs Qingdao West (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-60a8392f06bd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f7466efad1",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFYJZGXMM3DHj2/playlist.m3u8"
-                        },
-                        {
-                          "id": "lnk-50bb9a077b",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFYJZGXMM3DHj2/chunklist.m3u8"
                         }
                       ]
                     }
@@ -159,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5265fc46a1",
+                          "id": "lnk-343fd10cad",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -174,11 +167,11 @@
           ]
         },
         {
-          "id": "luongson-3c0fac3af803",
-          "name": "⚽ Tuv Buganuud vs Fc Ulaanbaatar | 0 : 0",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35397_1h4pznznxt2s.png?v=2.4.3",
+          "id": "luongson-60a8392f06bd",
+          "name": "⚽ Shandong Jinghua Ii W vs Qingdao West (W) | 45+' • 0 : 2",
+          "tournament": "China League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64483_1j28vbswk5d.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -186,7 +179,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -200,23 +193,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-3c0fac3af803",
+              "id": "luongson-60a8392f06bd",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3c0fac3af803",
-                  "name": "Tuv Buganuud vs Fc Ulaanbaatar",
+                  "id": "luongson-60a8392f06bd",
+                  "name": "Shandong Jinghua Ii W vs Qingdao West (W)",
                   "streams": [
                     {
-                      "id": "luongson-3c0fac3af803",
+                      "id": "luongson-60a8392f06bd",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8db1938744",
+                          "id": "lnk-aacc8301e2",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFYJZGXMM3DHj2/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-34395a9fea",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdLFYJZGXMM3DHj2/chunklist.m3u8"
                         }
                       ]
                     }
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-96d105fc17",
+                          "id": "lnk-987759f5ee",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bfed0485d2",
+                          "id": "lnk-ae098a3e84",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-96cef3439b",
+                          "id": "lnk-e3df3b769d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -424,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d67a3a53ca",
+                          "id": "lnk-4b38dc5132",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
