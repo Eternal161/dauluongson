@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:30 17/06/2026",
+  "last_updated": "07:40 17/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-f76be9655a5a",
-          "name": "⚽ Fortaleza vs America Mg | 69' • 0 : 2",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f76be9655a5a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f76be9655a5a",
-                  "name": "Fortaleza vs America Mg",
-                  "streams": [
-                    {
-                      "id": "luongson-f76be9655a5a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be64caea4e",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-e86922c537bb",
-          "name": "⚽ Manhattan Sc vs Long Island Rough Riders | HT • 0 : 2",
+          "name": "⚽ Manhattan Sc vs Long Island Rough Riders | 49' • 0 : 2",
           "tournament": "USA USL League Two",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/40007_1gw5yb3b654.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/12782_20121217171936.jpg?v=2.4.3",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c092fbf838",
+                          "id": "lnk-2929044e31",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,7 +61,60 @@
           ]
         },
         {
-          "id": "luongson-56327ebb5c34",
+          "id": "luongson-f76be9655a5a",
+          "name": "⚽ Fortaleza vs America Mg | 79' • 0 : 2",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f76be9655a5a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f76be9655a5a",
+                  "name": "Fortaleza vs America Mg",
+                  "streams": [
+                    {
+                      "id": "luongson-f76be9655a5a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03faa8af55",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-446debe570f3",
           "name": "⚽ Argentina vs Algeria | 0 : 0",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
@@ -140,23 +140,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-56327ebb5c34",
+              "id": "luongson-446debe570f3",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-56327ebb5c34",
+                  "id": "luongson-446debe570f3",
                   "name": "Argentina vs Algeria",
                   "streams": [
                     {
-                      "id": "luongson-56327ebb5c34",
+                      "id": "luongson-446debe570f3",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-24a0d4e40c",
+                          "id": "lnk-d7d4ea4fa1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -205,10 +205,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c5b2940443",
+                          "id": "lnk-94982b7c34",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-e1e5ad01b2",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
@@ -258,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1f316d7f91",
+                          "id": "lnk-d651e642f7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-41397d7096",
+                          "id": "lnk-bfcf9699cc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,10 +371,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2ed9aff696",
+                          "id": "lnk-4ab6d8b260",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-e0c0b9bfe1",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
@@ -417,7 +431,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-28e9955d85",
+                          "id": "lnk-888aff9e1a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
