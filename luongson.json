@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:30 18/06/2026",
+  "last_updated": "14:40 18/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-de953914c461",
+          "name": "⚽ Khovd Western vs Khangarid Klub | 40' • 0 : 2",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44980_1k6phcrs0f2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34495_1j0x3a0m6bc.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44980_1k6phcrs0f2b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-de953914c461",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-de953914c461",
+                  "name": "Khovd Western vs Khangarid Klub",
+                  "streams": [
+                    {
+                      "id": "luongson-de953914c461",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b03b0d90f7",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-52169d49dc80",
           "name": "⚽ Southland Sharks vs Taranaki Airs | H1 • 0 : 0",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b0f45295ae",
+                          "id": "lnk-8fe8f42c40",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-de953914c461",
-          "name": "⚽ Khovd Western vs Khangarid Klub | 30' • 0 : 1",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44980_1k6phcrs0f2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34495_1j0x3a0m6bc.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/44980_1k6phcrs0f2b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-de953914c461",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-de953914c461",
-                  "name": "Khovd Western vs Khangarid Klub",
-                  "streams": [
-                    {
-                      "id": "luongson-de953914c461",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-031363356f",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c0b4101edb",
+                          "id": "lnk-4a4ec2cff3",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,10 +205,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e43a163596",
+                          "id": "lnk-74ecf8eaf6",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-6fa51749c2",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
@@ -258,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5396c31a34",
+                          "id": "lnk-2c2b3081fc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-06809faf45",
+                          "id": "lnk-f9c4073e60",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dac35b563d",
+                          "id": "lnk-0b08ac705b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f2fdd894a2",
+                          "id": "lnk-10b579bd05",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
