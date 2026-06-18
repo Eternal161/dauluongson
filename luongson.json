@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:40 18/06/2026",
+  "last_updated": "16:51 18/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-134f646a0bc4",
-          "name": "⚽ Tsirang Fc vs Tensung Fc | 0 : 0",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-134f646a0bc4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-134f646a0bc4",
-                  "name": "Tsirang Fc vs Tensung Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-134f646a0bc4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49c1d4dabc",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-db8d6c828aa7",
           "name": "⚽ Ac Oulu vs Ifk Mariehamn | 0 : 0",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-054f96ad18",
+                          "id": "lnk-b1f8569b8c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,11 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e565da787b",
+                          "id": "lnk-830c47dc76",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
@@ -205,11 +152,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d5dc5a9531",
+                          "id": "lnk-01f09becc7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-134f646a0bc4",
+          "name": "⚽ Tsirang Fc vs Tensung Fc | 0 : 0",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-134f646a0bc4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-134f646a0bc4",
+                  "name": "Tsirang Fc vs Tensung Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-134f646a0bc4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c9ef0aa48",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-83a3b603f8",
+                          "id": "lnk-bb5242b6a5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-664f89686d",
+                          "id": "lnk-86cf11c66f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-37048258c2",
+                          "id": "lnk-61018ff9b8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-adb8f113b7",
+                          "id": "lnk-827cc1817f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
