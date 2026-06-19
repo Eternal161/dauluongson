@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:50 20/06/2026",
+  "last_updated": "01:01 20/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-bc4b6439217a",
+          "name": "⚽ Al Fahaheel Sc vs Kazma | 90+' • 1 : 1",
+          "tournament": "Kuwaiti Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11069_1hnh9y62xs2y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11069_1hnh9y62xs2y.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bc4b6439217a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bc4b6439217a",
+                  "name": "Al Fahaheel Sc vs Kazma",
+                  "streams": [
+                    {
+                      "id": "luongson-bc4b6439217a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ce2ecd81a",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-8930b97d2f2d",
-          "name": "⚽ Al-Salmiyah vs Al Kuwait Sc | 4' • 0 : 0",
+          "name": "⚽ Al-Salmiyah vs Al Kuwait Sc | 14' • 0 : 0",
           "tournament": "Kuwaiti Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4221_1gq16mdyzsj.png?v=2.4.3",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2154827707",
+                          "id": "lnk-79b9742cd1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,117 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-702b9f51f1",
+                          "id": "lnk-14a4e45779",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bc4b6439217a",
-          "name": "⚽ Al Fahaheel Sc vs Kazma | 84' • 1 : 1",
-          "tournament": "Kuwaiti Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11069_1hnh9y62xs2y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11069_1hnh9y62xs2y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bc4b6439217a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bc4b6439217a",
-                  "name": "Al Fahaheel Sc vs Kazma",
-                  "streams": [
-                    {
-                      "id": "luongson-bc4b6439217a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf5ae8ac4d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bf1d1c2b1068",
-          "name": "⚽ St. Patricks Athletic vs Sligo Rovers | 0 : 0",
-          "tournament": "Ireland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bf1d1c2b1068",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bf1d1c2b1068",
-                  "name": "St. Patricks Athletic vs Sligo Rovers",
-                  "streams": [
-                    {
-                      "id": "luongson-bf1d1c2b1068",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-24253ffcc4",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -258,11 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2a94d68f4e",
+                          "id": "lnk-70ccedf341",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -311,7 +258,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4164736205",
+                          "id": "lnk-16550f528b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bf1d1c2b1068",
+          "name": "⚽ St. Patricks Athletic vs Sligo Rovers | 0 : 0",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bf1d1c2b1068",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bf1d1c2b1068",
+                  "name": "St. Patricks Athletic vs Sligo Rovers",
+                  "streams": [
+                    {
+                      "id": "luongson-bf1d1c2b1068",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ff55cadd0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-67a054beb3",
+                          "id": "lnk-53a79fb404",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c644bc485c",
+                          "id": "lnk-92ca03af30",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
