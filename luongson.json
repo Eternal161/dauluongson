@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:50 20/06/2026",
+  "last_updated": "19:01 20/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-0fb426e5bd40",
+          "name": "⚽ Harju Jk Laagri vs Fc Nomme United | 31' • 0 : 0",
+          "tournament": "Estonia Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/48058_167368512786.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/10061_1gqe5029j9w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/48058_167368512786.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0fb426e5bd40",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0fb426e5bd40",
+                  "name": "Harju Jk Laagri vs Fc Nomme United",
+                  "streams": [
+                    {
+                      "id": "luongson-0fb426e5bd40",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-016da7442d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-b1b089b84834",
           "name": "⚽ Taian Tiankuang vs Shandong Taishan B | HT • 0 : 0",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e48a593bbc",
+                          "id": "lnk-96c6f8b20c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f981907e861e",
-          "name": "⚽ Altay Fk vs Fc Zhetysu Taldykorgan | HT • 0 : 2",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f981907e861e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f981907e861e",
-                  "name": "Altay Fk vs Fc Zhetysu Taldykorgan",
-                  "streams": [
-                    {
-                      "id": "luongson-f981907e861e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c9600f77d",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3d908ed795",
+                          "id": "lnk-ebef2bded5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -167,8 +167,114 @@
           ]
         },
         {
+          "id": "luongson-f981907e861e",
+          "name": "⚽ Altay Fk vs Fc Zhetysu Taldykorgan | HT • 0 : 2",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f981907e861e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f981907e861e",
+                  "name": "Altay Fk vs Fc Zhetysu Taldykorgan",
+                  "streams": [
+                    {
+                      "id": "luongson-f981907e861e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60329cea0d",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-186575ee5daa",
+          "name": "⚽ Shijiazhuang Kungfu vs Shanghai Shenhua | 32' • 0 : 1",
+          "tournament": "Chinese FA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/50184_1j0ytnsxbj2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/50184_1j0ytnsxbj2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-186575ee5daa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-186575ee5daa",
+                  "name": "Shijiazhuang Kungfu vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "luongson-186575ee5daa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25fe1df38b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-7e10d7b012ab",
-          "name": "⚽ Shanghai Zetian vs Chengdu Rongcheng Fc | 22' • 0 : 1",
+          "name": "⚽ Shanghai Zetian vs Chengdu Rongcheng Fc | 32' • 0 : 1",
           "tournament": "Chinese FA Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/68806_1jpchtyqxp1s.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/36861_1gy3vkgfwve.PNG?v=2.4.3",
@@ -205,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-79cb94fd84",
+                          "id": "lnk-89c0d57de5",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -220,167 +326,8 @@
           ]
         },
         {
-          "id": "luongson-ad4c1a396489",
-          "name": "⚽ Fc Belshina Babruisk vs Fc Torpedo Zhodino | 21' • 0 : 0",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11908_1k0387g55229.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11908_1k0387g55229.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ad4c1a396489",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ad4c1a396489",
-                  "name": "Fc Belshina Babruisk vs Fc Torpedo Zhodino",
-                  "streams": [
-                    {
-                      "id": "luongson-ad4c1a396489",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0786d097f7",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a3577d2209a8",
-          "name": "⚽ Shijiazhuang Kungfu vs Shanghai Shenhua | 22' • 0 : 1",
-          "tournament": "Chinese FA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/50184_1j0ytnsxbj2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/50184_1j0ytnsxbj2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a3577d2209a8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a3577d2209a8",
-                  "name": "Shijiazhuang Kungfu vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "luongson-a3577d2209a8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2c46c80e0a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0fb426e5bd40",
-          "name": "⚽ Harju Jk Laagri vs Fc Nomme United | 21' • 0 : 0",
-          "tournament": "Estonia Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/48058_167368512786.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/10061_1gqe5029j9w.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/48058_167368512786.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0fb426e5bd40",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0fb426e5bd40",
-                  "name": "Harju Jk Laagri vs Fc Nomme United",
-                  "streams": [
-                    {
-                      "id": "luongson-0fb426e5bd40",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8fd563b814",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-6c5b9ee6de67",
-          "name": "⚽ Guangxi Hengchen vs Shandong Taishan | 22' • 0 : 1",
+          "name": "⚽ Guangxi Hengchen vs Shandong Taishan | 32' • 0 : 1",
           "tournament": "Chinese FA Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/63119_1hd8n6awev0.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/34_1gy3vjsrhjq.png?v=2.4.3",
@@ -417,11 +364,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d12a1cf970",
+                          "id": "lnk-42925921cb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ad4c1a396489",
+          "name": "⚽ Fc Belshina Babruisk vs Fc Torpedo Zhodino | 31' • 0 : 0",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11908_1k0387g55229.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11908_1k0387g55229.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ad4c1a396489",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ad4c1a396489",
+                  "name": "Fc Belshina Babruisk vs Fc Torpedo Zhodino",
+                  "streams": [
+                    {
+                      "id": "luongson-ad4c1a396489",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63bd1b2fdb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
