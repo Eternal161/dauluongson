@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:10 22/06/2026",
+  "last_updated": "11:20 22/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-04fa5f2ae898",
+          "name": "⚽ Thụy Sĩ vs Bosnia | H1 • 0 : 0",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101584.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101587.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101584.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-04fa5f2ae898",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-04fa5f2ae898",
+                  "name": "Thụy Sĩ vs Bosnia",
+                  "streams": [
+                    {
+                      "id": "luongson-04fa5f2ae898",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe7ad85049",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO5A/index.m3u8?expire=1891408380&sign=8bed1a7b9dde1174e255230411817036"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-40cda0621cda",
           "name": "⚽ Ecuador vs Curacao | 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-68afa6e58b",
+                          "id": "lnk-1233927897",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4cbe39d5de",
+                          "id": "lnk-118e935d1d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eee6ca074e",
+                          "id": "lnk-2e23f0b97b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-73191e8170",
+                          "id": "lnk-695bbeca72",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f308501e85",
+                          "id": "lnk-b36c0d970a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d7d5448863",
+                          "id": "lnk-64645f28a1",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,60 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-27923dabfc",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-43a3da4f1689",
-          "name": "⚽ Thimphu Fc vs Tsirang Fc | 0 : 0",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-43a3da4f1689",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-43a3da4f1689",
-                  "name": "Thimphu Fc vs Tsirang Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-43a3da4f1689",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6a3d1da32a",
+                          "id": "lnk-dda2a1240b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
