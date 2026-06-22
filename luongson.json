@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:41 22/06/2026",
+  "last_updated": "18:50 22/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-af6f9978ee3e",
-          "name": "⚽ Khovd Western vs Khovd | 40' • 0 : 0",
+          "id": "luongson-43a3da4f1689",
+          "name": "⚽ Thimphu Fc vs Tsirang Fc | 0 : 0",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-43a3da4f1689",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-43a3da4f1689",
+                  "name": "Thimphu Fc vs Tsirang Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-43a3da4f1689",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8ef685bbb6",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-92bcb265a409",
+          "name": "⚽ Khovd Western vs Khovd | HT • 0 : 0",
           "tournament": "Mongolia Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/44980_1k6phcrs0f2b.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
@@ -34,23 +87,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-af6f9978ee3e",
+              "id": "luongson-92bcb265a409",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-af6f9978ee3e",
+                  "id": "luongson-92bcb265a409",
                   "name": "Khovd Western vs Khovd",
                   "streams": [
                     {
-                      "id": "luongson-af6f9978ee3e",
+                      "id": "luongson-92bcb265a409",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb07bfb1a7",
+                          "id": "lnk-5192506b2c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-36b002f57c",
+                          "id": "lnk-42837606d7",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,64 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e1594ec347",
+                          "id": "lnk-32aedd3701",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TO5A/index.m3u8?expire=1891408380&sign=8bed1a7b9dde1174e255230411817036"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-43a3da4f1689",
-          "name": "⚽ Thimphu Fc vs Tsirang Fc | 0 : 0",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-43a3da4f1689",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-43a3da4f1689",
-                  "name": "Thimphu Fc vs Tsirang Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-43a3da4f1689",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc7267bb27",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-66e110f3bf",
+                          "id": "lnk-4f310462b0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-10ea5fff57",
+                          "id": "lnk-b4dee59865",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fee878b0cc",
+                          "id": "lnk-d8144dc889",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7625f2a1a6",
+                          "id": "lnk-2a4f9e4d48",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
