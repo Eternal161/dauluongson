@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:50 22/06/2026",
+  "last_updated": "16:00 22/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b33d12cc901f",
-          "name": "⚽ Hunters Fc vs Khoromkhon Club | HT • 3 : 0",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/54419_1hd7w1aebg2a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/54419_1hd7w1aebg2a.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b33d12cc901f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b33d12cc901f",
-                  "name": "Hunters Fc vs Khoromkhon Club",
-                  "streams": [
-                    {
-                      "id": "luongson-b33d12cc901f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-91dbddadbc",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-c220e8b13895",
           "name": "⚽ Imus Agimat vs Basilan Viva Portmasters | H1 • 0 : 0",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0a5fe4ac61",
+                          "id": "lnk-01e9c5d67e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,8 +61,61 @@
           ]
         },
         {
+          "id": "luongson-b33d12cc901f",
+          "name": "⚽ Hunters Fc vs Khoromkhon Club | HT • 3 : 0",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/54419_1hd7w1aebg2a.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/54419_1hd7w1aebg2a.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b33d12cc901f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b33d12cc901f",
+                  "name": "Hunters Fc vs Khoromkhon Club",
+                  "streams": [
+                    {
+                      "id": "luongson-b33d12cc901f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cff9119de7",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-40cda0621cda",
-          "name": "⚽ Ecuador vs Curacao | H1 • 0 : 0",
+          "name": "⚽ Ecuador vs Curacao | H2 • 0 : 0",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101056.png?v=2.4.3",
           "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101059.png?v=2.4.3",
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d791e985e9",
+                          "id": "lnk-1d4a032ffd",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -168,7 +168,7 @@
         },
         {
           "id": "luongson-04fa5f2ae898",
-          "name": "⚽ Thụy Sĩ vs Bosnia | H1 • 0 : 0",
+          "name": "⚽ Thụy Sĩ vs Bosnia | H2 • 0 : 0",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101584.png?v=2.4.3",
           "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101587.png?v=2.4.3",
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-11a48aa3b3",
+                          "id": "lnk-f6583b3542",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,11 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2db225206e",
+                          "id": "lnk-9744822b4f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -311,11 +311,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6e3b39df76",
+                          "id": "lnk-61f973bbc0",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7f5fa03327",
+                          "id": "lnk-95e3cf2f71",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2bb5a18669",
+                          "id": "lnk-254e9e8e05",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
