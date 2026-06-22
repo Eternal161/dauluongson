@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:10 22/06/2026",
+  "last_updated": "07:21 22/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-48ea3b9c15c9",
+          "name": "⚽ Cienciano vs Deportivo Garcilaso | 59' • 2 : 1",
+          "tournament": "Peru Copa de la Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1606_1gv1yk239x26.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28009_1gtt8d7bzs1e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1606_1gv1yk239x26.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-48ea3b9c15c9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-48ea3b9c15c9",
+                  "name": "Cienciano vs Deportivo Garcilaso",
+                  "streams": [
+                    {
+                      "id": "luongson-48ea3b9c15c9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25f4a5f796",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-74ad8ab4c6b4",
           "name": "⚽ Annapolis Blues vs Northern Virginia Fc | H1 • 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-082171e4f5",
+                          "id": "lnk-9b80a65efe",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-5d789abed793",
-          "name": "⚽ O.Higgins vs Union Espanola | 10' • 0 : 0",
+          "name": "⚽ O.Higgins vs Union Espanola | 20' • 0 : 0",
           "tournament": "Chile Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
@@ -99,117 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-01c8b2d302",
+                          "id": "lnk-07e7f4d248",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-48ea3b9c15c9",
-          "name": "⚽ Cienciano vs Deportivo Garcilaso | 49' • 1 : 1",
-          "tournament": "Peru Copa de la Liga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1606_1gv1yk239x26.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28009_1gtt8d7bzs1e.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1606_1gv1yk239x26.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-48ea3b9c15c9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-48ea3b9c15c9",
-                  "name": "Cienciano vs Deportivo Garcilaso",
-                  "streams": [
-                    {
-                      "id": "luongson-48ea3b9c15c9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bfa65cf34c",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-95bfe2373dee",
-          "name": "⚽ Austin Fc Ii vs Sporting Kansas City(R) | 0 : 0",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61320_1gwzx5cg7w30.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15296_20130921172939.gif?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61320_1gwzx5cg7w30.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-95bfe2373dee",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-95bfe2373dee",
-                  "name": "Austin Fc Ii vs Sporting Kansas City(R)",
-                  "streams": [
-                    {
-                      "id": "luongson-95bfe2373dee",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-55c1da2926",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -258,11 +205,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bed1f0f49a",
+                          "id": "lnk-b2aa118891",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-95bfe2373dee",
+          "name": "⚽ Austin Fc Ii vs Sporting Kansas City(R) | 0 : 0",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61320_1gwzx5cg7w30.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15296_20130921172939.gif?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61320_1gwzx5cg7w30.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-95bfe2373dee",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-95bfe2373dee",
+                  "name": "Austin Fc Ii vs Sporting Kansas City(R)",
+                  "streams": [
+                    {
+                      "id": "luongson-95bfe2373dee",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a3d75023b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8dc7d7c93e",
+                          "id": "lnk-b8e35d1ad8",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-be2d949c54",
+                          "id": "lnk-47e098e7ea",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-91d522c7ef",
+                          "id": "lnk-555d90207c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
