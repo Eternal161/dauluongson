@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:01 22/06/2026",
+  "last_updated": "11:10 22/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-40cda0621cda",
+          "name": "⚽ Ecuador vs Curacao | 0 : 0",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101056.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101059.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782101056.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-40cda0621cda",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-40cda0621cda",
+                  "name": "Ecuador vs Curacao",
+                  "streams": [
+                    {
+                      "id": "luongson-40cda0621cda",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-68afa6e58b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO3A/index.m3u8?expire=1891408380&sign=9c81b067b218299e5542cfcd512206bf"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-b09cdd23ffdd",
           "name": "⚽ Bay Hawks vs Southland Sharks | 0 : 0",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ea5b8094d7",
+                          "id": "lnk-4cbe39d5de",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5407faec54",
+                          "id": "lnk-eee6ca074e",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8dd9667c4b",
+                          "id": "lnk-73191e8170",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -205,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-418508597a",
+                          "id": "lnk-f308501e85",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-05f7d83877",
+                          "id": "lnk-d7d5448863",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ce44048bb1",
+                          "id": "lnk-27923dabfc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -364,60 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-783b14b534",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-25e260497783",
-          "name": "⚽ Merani Martvili vs Fc Gori | 0 : 0",
-          "tournament": "Georgia Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6123_1gxw21x5mb1x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29199_1gt5q23kcrn.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6123_1gxw21x5mb1x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-25e260497783",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-25e260497783",
-                  "name": "Merani Martvili vs Fc Gori",
-                  "streams": [
-                    {
-                      "id": "luongson-25e260497783",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2a883a6ad",
+                          "id": "lnk-6a3d1da32a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
