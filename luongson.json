@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:21 22/06/2026",
+  "last_updated": "21:31 22/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb5edd3fb9",
+                          "id": "lnk-d79c008b7b",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +62,7 @@
         },
         {
           "id": "luongson-ade09a1157af",
-          "name": "⚽ Aik Solna vs Kalmar | 69' • 0 : 2",
+          "name": "⚽ Aik Solna vs Kalmar | 78' • 0 : 2",
           "tournament": "International Club Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/364_1h8asp945qp.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/390_1h6wfe05rcg.png?v=2.4.3",
@@ -99,18 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5d4f574d3d",
+                          "id": "lnk-22d54680bc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBeqrGN9hxwGpc/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBeqrGN9hxwGpc/chunklist.m3u8"
                         },
                         {
-                          "id": "lnk-3c1632de00",
+                          "id": "lnk-f285fca68a",
                           "name": "Link 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBeqrGN9hxwGpc/chunklist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdqBeqrGN9hxwGpc/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-52fefa347c33",
+          "name": "⚽ Fc Asia Talas vs Muras United Fc | 0' • 0 : 0",
+          "tournament": "Kyrgyzstan Top Liga",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782133906.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61391_1gxg02e3gr1t.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782133906.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-52fefa347c33",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-52fefa347c33",
+                  "name": "Fc Asia Talas vs Muras United Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-52fefa347c33",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6f51126c4",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -159,64 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2cb3138b4a",
+                          "id": "lnk-25905f0a0c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-52fefa347c33",
-          "name": "⚽ Fc Asia Talas vs Muras United Fc | 0 : 0",
-          "tournament": "Kyrgyzstan Top Liga",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782133906.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61391_1gxg02e3gr1t.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782133906.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-52fefa347c33",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-52fefa347c33",
-                  "name": "Fc Asia Talas vs Muras United Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-52fefa347c33",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a596b416c0",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-018b7e99e4",
+                          "id": "lnk-8178c7e54d",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fd02265a32",
+                          "id": "lnk-b1758d89c9",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8492536e4a",
+                          "id": "lnk-28a2e01746",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -424,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-25e5bf432e",
+                          "id": "lnk-9f91f04979",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
