@@ -1,15 +1,121 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:50 23/06/2026",
+  "last_updated": "18:01 23/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-ad72be9bc5be",
+          "name": "⚽ Gold Coast Knights vs Eastern Suburbs Brisbane | 72' • 3 : 0",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4994_1gt31y56whz.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ad72be9bc5be",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ad72be9bc5be",
+                  "name": "Gold Coast Knights vs Eastern Suburbs Brisbane",
+                  "streams": [
+                    {
+                      "id": "luongson-ad72be9bc5be",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6df4d6d7ea",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-41b7b61c11bb",
+          "name": "⚽ Edgeworth Eagles Fc vs Lambton Jaffas Fc | HT • 0 : 1",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22083_1hxb3yc9362t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22421_1gtk2yys6q1e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22083_1hxb3yc9362t.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-41b7b61c11bb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-41b7b61c11bb",
+                  "name": "Edgeworth Eagles Fc vs Lambton Jaffas Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-41b7b61c11bb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a78f9bfa00",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-081edbfdef9f",
-          "name": "⚽ Logan Lightning vs Holland Park Hawks Fc | 15' • 0 : 0",
+          "name": "⚽ Logan Lightning vs Holland Park Hawks Fc | 25' • 0 : 0",
           "tournament": "Australia Queensland State Leagues",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
@@ -46,11 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a7d0ba971b",
+                          "id": "lnk-869db3cf98",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -99,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a3e0bf24b5",
+                          "id": "lnk-8c1565552c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -114,114 +220,8 @@
           ]
         },
         {
-          "id": "luongson-41b7b61c11bb",
-          "name": "⚽ Edgeworth Eagles Fc vs Lambton Jaffas Fc | 45+' • 0 : 1",
-          "tournament": "Australia Northern NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22083_1hxb3yc9362t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22421_1gtk2yys6q1e.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22083_1hxb3yc9362t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-41b7b61c11bb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-41b7b61c11bb",
-                  "name": "Edgeworth Eagles Fc vs Lambton Jaffas Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-41b7b61c11bb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-482c080df4",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ad72be9bc5be",
-          "name": "⚽ Gold Coast Knights vs Eastern Suburbs Brisbane | 61' • 3 : 0",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4994_1gt31y56whz.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ad72be9bc5be",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ad72be9bc5be",
-                  "name": "Gold Coast Knights vs Eastern Suburbs Brisbane",
-                  "streams": [
-                    {
-                      "id": "luongson-ad72be9bc5be",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-956836eaca",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-20912586596b",
-          "name": "⚽ Robina City Blue vs Capalaba Bulldogs | 62' • 5 : 1",
+          "name": "⚽ Robina City Blue vs Capalaba Bulldogs | 72' • 5 : 1",
           "tournament": "Australia Queensland State Leagues",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/29913_1gtn7gf3x11s.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/8798_1gytyt690mp.png?v=2.4.3",
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-63a49e0cce",
+                          "id": "lnk-7d8ec036ea",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,11 +311,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ef3609e67",
+                          "id": "lnk-f6b429f333",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -364,11 +364,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8e3f8e0b06",
+                          "id": "lnk-129bb02e67",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -417,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8d7e4b9471",
+                          "id": "lnk-e014956853",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
