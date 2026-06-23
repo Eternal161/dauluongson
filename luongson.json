@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:10 23/06/2026",
+  "last_updated": "08:20 23/06/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-7ce98edb03dd",
-          "name": "⚽ Norway vs Senegal | 51' • 2 : 0",
+          "name": "⚽ Norway vs Senegal | 62' • 3 : 1",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/551_164983671192.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/706_165018850327.png?v=2.4.3",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1a0ce83523",
+                          "id": "lnk-2c5078506c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -61,8 +61,61 @@
           ]
         },
         {
+          "id": "luongson-c493e32396d0",
+          "name": "⚽ Jordan vs Algeria | 0 : 0",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16330_165018769444.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c493e32396d0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c493e32396d0",
+                  "name": "Jordan vs Algeria",
+                  "streams": [
+                    {
+                      "id": "luongson-c493e32396d0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18e74e1eef",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-890e5ab07913",
-          "name": "⚽ Flatirons Rush vs Atletico Union | 6' • 0 : 0",
+          "name": "⚽ Flatirons Rush vs Atletico Union | 16' • 0 : 0",
           "tournament": "USA USL League Two",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/57787_1h22jx3pdx23.png?v=2.4.3",
           "logo_khach": "https://ui-avatars.com/api/?name=At&size=200&background=1565C0&color=ffffff&bold=true",
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7537600f55",
+                          "id": "lnk-fcdbcbf02c",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -152,70 +205,10 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-221f199fee",
+                          "id": "lnk-177b9f92be",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c493e32396d0",
-          "name": "⚽ Jordan vs Algeria | 0 : 0",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16330_165018769444.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c493e32396d0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c493e32396d0",
-                  "name": "Jordan vs Algeria",
-                  "streams": [
-                    {
-                      "id": "luongson-c493e32396d0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0184a8d831",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-412bf91d7a",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
@@ -265,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a468e2a924",
+                          "id": "lnk-b849d17abb",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -318,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-add80f1aab",
+                          "id": "lnk-5a38ad2859",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -371,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ff2b86c17a",
+                          "id": "lnk-6ac874d019",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -424,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-456ea0a658",
+                          "id": "lnk-0f9fb22eaf",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
