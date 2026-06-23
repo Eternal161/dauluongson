@@ -1,18 +1,71 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:50 23/06/2026",
+  "last_updated": "12:01 23/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-c493e32396d0",
-          "name": "⚽ Jordan vs Algeria | 89' • 1 : 2",
+          "id": "luongson-75ee7fbcd9d5",
+          "name": "⚽ Dinamo Tbilisi vs Dinamo Batumi | 0 : 0",
+          "tournament": "Georgia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/532_1h53w2zt601q.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6120_1h56c4f7bqe.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/532_1h53w2zt601q.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-75ee7fbcd9d5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-75ee7fbcd9d5",
+                  "name": "Dinamo Tbilisi vs Dinamo Batumi",
+                  "streams": [
+                    {
+                      "id": "luongson-75ee7fbcd9d5",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2008bbcfdb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f895306a723d",
+          "name": "⚽ Portugal vs Uzbekistan | 0 : 0",
           "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16330_165018769444.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/659_164983333830.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/761_166261269158.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +73,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/659_164983333830.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,185 +87,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-c493e32396d0",
+              "id": "luongson-f895306a723d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c493e32396d0",
-                  "name": "Jordan vs Algeria",
+                  "id": "luongson-f895306a723d",
+                  "name": "Portugal vs Uzbekistan",
                   "streams": [
                     {
-                      "id": "luongson-c493e32396d0",
+                      "id": "luongson-f895306a723d",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-580cdcffa7",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bad8f150b3a0",
-          "name": "⚽ Seattle Storm W vs Dallas Wings W | H1 • 0 : 0",
-          "tournament": "WNBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782156878.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782156876.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782156878.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bad8f150b3a0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bad8f150b3a0",
-                  "name": "Seattle Storm W vs Dallas Wings W",
-                  "streams": [
-                    {
-                      "id": "luongson-bad8f150b3a0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-797362d32f",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d797aa27ae04",
-          "name": "⚽ Guizhou Xufengtang vs Shaanxi Northwest Juniors | 0 : 0",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d797aa27ae04",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d797aa27ae04",
-                  "name": "Guizhou Xufengtang vs Shaanxi Northwest Juniors",
-                  "streams": [
-                    {
-                      "id": "luongson-d797aa27ae04",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79bc3d32a9",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        },
-                        {
-                          "id": "lnk-b189d703dd",
-                          "name": "Link 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-997a50ab9add",
-          "name": "⚽ Beijing Warriors vs Shandong Qiutan | 0 : 0",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Be&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65748_1hzkvvh5g6c.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Be&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-997a50ab9add",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-997a50ab9add",
-                  "name": "Beijing Warriors vs Shandong Qiutan",
-                  "streams": [
-                    {
-                      "id": "luongson-997a50ab9add",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-13ce60a223",
+                          "id": "lnk-6ea4ecfb1a",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -227,11 +114,11 @@
           ]
         },
         {
-          "id": "luongson-5579c1c9b78a",
-          "name": "⚽ Batang Kankaloo vs Manila Batang Quiapo | 0 : 0",
-          "tournament": "MPBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782156766.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782156788.png?v=2.4.3",
+          "id": "luongson-c235e39abae9",
+          "name": "⚽ Ifk Mariehamn vs Hjk Helsinki | 0 : 0",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/347_1gtzct7tvc22.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -239,7 +126,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782156766.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -253,19 +140,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-5579c1c9b78a",
+              "id": "luongson-c235e39abae9",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-5579c1c9b78a",
-                  "name": "Batang Kankaloo vs Manila Batang Quiapo",
+                  "id": "luongson-c235e39abae9",
+                  "name": "Ifk Mariehamn vs Hjk Helsinki",
                   "streams": [
                     {
-                      "id": "luongson-5579c1c9b78a",
+                      "id": "luongson-c235e39abae9",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e91c047e3f",
+                          "id": "lnk-91efe3fdfe",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -280,11 +167,11 @@
           ]
         },
         {
-          "id": "luongson-d8b04eb4c7f6",
-          "name": "⚽ Xiamen1026 vs Hubei Istar | 0 : 0",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29148_1h0peeb6gf1.png?v=2.4.3",
+          "id": "luongson-5943b275b985",
+          "name": "⚽ Jarfalla vs Fc Arlanda | 0 : 0",
+          "tournament": "Sweden Cupen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/49871_1h6swz4d5328.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29988_1ht90zqa35n.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -292,7 +179,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/49871_1h6swz4d5328.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -306,19 +193,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-d8b04eb4c7f6",
+              "id": "luongson-5943b275b985",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d8b04eb4c7f6",
-                  "name": "Xiamen1026 vs Hubei Istar",
+                  "id": "luongson-5943b275b985",
+                  "name": "Jarfalla vs Fc Arlanda",
                   "streams": [
                     {
-                      "id": "luongson-d8b04eb4c7f6",
+                      "id": "luongson-5943b275b985",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a6dfcd44e0",
+                          "id": "lnk-92af87eb22",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -333,11 +220,11 @@
           ]
         },
         {
-          "id": "luongson-d3b08d38c9a4",
-          "name": "⚽ Qingdao Red Lions vs Dalian Kewei | 0 : 0",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/37107_1hrk13ttwm19.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
+          "id": "luongson-5305f8009b74",
+          "name": "⚽ Cruzeiro (Youth) vs America Mg (Youth) | 0 : 0",
+          "tournament": "Brazil Youth",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8395_1h4w82myz72.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38309_1gtg0nfx9x28.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -345,7 +232,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/37107_1hrk13ttwm19.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/8395_1h4w82myz72.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -359,19 +246,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-d3b08d38c9a4",
+              "id": "luongson-5305f8009b74",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d3b08d38c9a4",
-                  "name": "Qingdao Red Lions vs Dalian Kewei",
+                  "id": "luongson-5305f8009b74",
+                  "name": "Cruzeiro (Youth) vs America Mg (Youth)",
                   "streams": [
                     {
-                      "id": "luongson-d3b08d38c9a4",
+                      "id": "luongson-5305f8009b74",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a5e00b153b",
+                          "id": "lnk-2c4a0e0acc",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -386,11 +273,11 @@
           ]
         },
         {
-          "id": "luongson-699ba00a5f51",
-          "name": "⚽ Shanghai Second vs Dalian Yingbo B | 0 : 0",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64762_1hy5bwm31c2v.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=Da&size=200&background=1565C0&color=ffffff&bold=true",
+          "id": "luongson-c611309a7fcb",
+          "name": "⚽ Sao Paulo Youth vs Fortaleza U20 | 0 : 0",
+          "tournament": "Brazil Youth",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8426_1gy3wnd0am2y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8341_1hk7185tgdw.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -398,7 +285,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64762_1hy5bwm31c2v.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/8426_1gy3wnd0am2y.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -412,19 +299,125 @@
           ],
           "sources": [
             {
-              "id": "luongson-699ba00a5f51",
+              "id": "luongson-c611309a7fcb",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-699ba00a5f51",
-                  "name": "Shanghai Second vs Dalian Yingbo B",
+                  "id": "luongson-c611309a7fcb",
+                  "name": "Sao Paulo Youth vs Fortaleza U20",
                   "streams": [
                     {
-                      "id": "luongson-699ba00a5f51",
+                      "id": "luongson-c611309a7fcb",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a7b4e98687",
+                          "id": "lnk-8509fa85d7",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-08ceb941e199",
+          "name": "⚽ Vitoria Salvador (Youth) vs Santos (Youth) | 0 : 0",
+          "tournament": "Brazil Youth",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8340_1gxmc4589sa.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11775_1h046a3ss42q.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8340_1gxmc4589sa.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-08ceb941e199",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-08ceb941e199",
+                  "name": "Vitoria Salvador (Youth) vs Santos (Youth)",
+                  "streams": [
+                    {
+                      "id": "luongson-08ceb941e199",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dfe5b12449",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-fa197e8d6a25",
+          "name": "⚽ Cuiaba (Mt) (Youth) vs Juventude (Youth) | 0 : 0",
+          "tournament": "Brazil Youth",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8385_1hk96gh8ek29.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8417_1h4w7jmmz41e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8385_1hk96gh8ek29.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fa197e8d6a25",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fa197e8d6a25",
+                  "name": "Cuiaba (Mt) (Youth) vs Juventude (Youth)",
+                  "streams": [
+                    {
+                      "id": "luongson-fa197e8d6a25",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c05edc312",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
