@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:01 24/06/2026",
+  "last_updated": "22:10 24/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-a09549c39b8c",
-          "name": "⚽ Al-Ahed vs Al-Safa | 90+' • 3 : 1",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3102_1k62c88php10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3104_1h71mpgjeg26.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3102_1k62c88php10.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a09549c39b8c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a09549c39b8c",
-                  "name": "Al-Ahed vs Al-Safa",
-                  "streams": [
-                    {
-                      "id": "luongson-a09549c39b8c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be961c101a",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-9cb1d70e3fee",
-          "name": "⚽ Dynamo Kyiv vs Msk Zilina | 0 : 0",
+          "name": "⚽ Dynamo Kyiv vs Msk Zilina | 9' • 0 : 0",
           "tournament": "International Club Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/610_1h53w1vb5v27.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/891_1h56c4f6vh22.png?v=2.4.3",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9fa07125a9",
+                          "id": "lnk-92b130068f",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -115,7 +62,7 @@
         },
         {
           "id": "luongson-04089eecd7a1",
-          "name": "⚽ Siauliai vs Dziugas Telsiai | 0 : 0",
+          "name": "⚽ Siauliai vs Dziugas Telsiai | 10' • 1 : 0",
           "tournament": "Lithuania cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2073_1j3c1pj1t517.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/21208_1grgfd4mpf24.png?v=2.4.3",
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f07a918ff8",
+                          "id": "lnk-f2813074db",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-520579786c1b",
+          "name": "⚽ Gagra Tbilisi vs Samgurali Tskh | 0 : 0",
+          "tournament": "Georgia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7808_1h71mssksj5.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/14134_1h71mssksq22.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7808_1h71mssksj5.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-520579786c1b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-520579786c1b",
+                  "name": "Gagra Tbilisi vs Samgurali Tskh",
+                  "streams": [
+                    {
+                      "id": "luongson-520579786c1b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-955b6767ee",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d4633abd2e",
+                          "id": "lnk-60ea49b238",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4062174794",
+                          "id": "lnk-9298f81640",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -311,60 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a100ba1ddf",
-                          "name": "Link 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://tvc.ls55.site/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-520579786c1b",
-          "name": "⚽ Gagra Tbilisi vs Samgurali Tskh | 0 : 0",
-          "tournament": "Georgia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7808_1h71mssksj5.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/14134_1h71mssksq22.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7808_1h71mssksj5.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-520579786c1b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-520579786c1b",
-                  "name": "Gagra Tbilisi vs Samgurali Tskh",
-                  "streams": [
-                    {
-                      "id": "luongson-520579786c1b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-91d28102af",
+                          "id": "lnk-199e05ca06",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
@@ -417,7 +364,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-11cbc4df6d",
+                          "id": "lnk-5f4dd3881b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.ls55.site/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e8076f634310",
+          "name": "⚽ Vaxjo (W) vs Brommapojkarna (W) | 0 : 0",
+          "tournament": "Sweden Damallsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44017_1hrgcxx9m82d.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8864_1htv3141wx2m.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44017_1hrgcxx9m82d.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e8076f634310",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e8076f634310",
+                  "name": "Vaxjo (W) vs Brommapojkarna (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-e8076f634310",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-82421b1c15",
                           "name": "Link 1",
                           "type": "hls",
                           "default": true,
