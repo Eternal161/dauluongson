@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:30 26/06/2026",
+  "last_updated": "02:40 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-13409aabb3",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-2f83e9721e",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-4c84b2bdaf",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-3e028dd399",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -99,131 +113,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-832144ff72",
-                          "name": "BLV PELE",
+                          "id": "lnk-bf05512293",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        },
-                        {
-                          "id": "lnk-5495621678",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-683eaee8ff",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-c93bdff605",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-da4261a90557",
-          "name": "⚽ Al-Salmiyah vs Al-Arabi Club (Kuw) | Không rõ",
-          "tournament": "Kuwaiti Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3083_1gr5dy718s1w.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-da4261a90557",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-da4261a90557",
-                  "name": "Al-Salmiyah vs Al-Arabi Club (Kuw)",
-                  "streams": [
-                    {
-                      "id": "luongson-da4261a90557",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
                         {
-                          "id": "lnk-bbf8a687f8",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-85464e4705",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-565b05b716ee",
-          "name": "⚽ Al Kuwait Sc vs Kazma | Không rõ",
-          "tournament": "Kuwaiti Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4221_1gq16mdyzsj.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4221_1gq16mdyzsj.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-565b05b716ee",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-565b05b716ee",
-                  "name": "Al Kuwait Sc vs Kazma",
-                  "streams": [
-                    {
-                      "id": "luongson-565b05b716ee",
-                      "name": "F",
-                      "stream_links": [
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
                         {
-                          "id": "lnk-3f5bd49c40",
-                          "name": "BLV DƯƠNG CHÍ",
+                          "id": "lnk-94e413e4a5",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -252,7 +167,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 4 : 1",
+              "text": "● Live 4 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -272,11 +187,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8d752c9103",
+                          "id": "lnk-bef36f31b0",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-565b05b716ee",
+          "name": "⚽ Al Kuwait Sc vs Kazma | Không rõ",
+          "tournament": "Kuwaiti Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4221_1gq16mdyzsj.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4221_1gq16mdyzsj.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-565b05b716ee",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-565b05b716ee",
+                  "name": "Al Kuwait Sc vs Kazma",
+                  "streams": [
+                    {
+                      "id": "luongson-565b05b716ee",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2a8fa1715",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-da4261a90557",
+          "name": "⚽ Al-Salmiyah vs Al-Arabi Club (Kuw) | Không rõ",
+          "tournament": "Kuwaiti Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3083_1gr5dy718s1w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-da4261a90557",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-da4261a90557",
+                  "name": "Al-Salmiyah vs Al-Arabi Club (Kuw)",
+                  "streams": [
+                    {
+                      "id": "luongson-da4261a90557",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a619271e20",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -325,7 +346,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a01c6ca9c2",
+                          "id": "lnk-e9aca715a4",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
