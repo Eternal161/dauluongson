@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:10 26/06/2026",
+  "last_updated": "06:20 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,21 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-68732ae455",
-                          "name": "BLV TRIỆU TỬ LONG",
+                          "id": "lnk-85a19e76d4",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-16a5d1465a",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-56d9995eb8",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-e6013cc45a",
+                          "id": "lnk-5d26ebe0bc",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
@@ -113,21 +113,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c90a4f843b",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-0a70af2885",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-fcad6fe74e",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-ec93ffe251",
+                          "id": "lnk-e143b814cc",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-544dcb68e4",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
@@ -180,7 +180,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3dbde3b88e",
+                          "id": "lnk-9fc59ee137",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -233,7 +233,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a425230787",
+                          "id": "lnk-6107fbca64",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -421,18 +421,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-548daca32d",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-45b8e6db9b",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-36117b9575",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-351b97eb04",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -481,10 +481,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8bdd4924cd",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-1805ff1973",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-e178f10f31",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
