@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:40 26/06/2026",
+  "last_updated": "03:50 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live HT 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,32 +46,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bb500ba547",
-                          "name": "BLV MÃ SIÊU",
+                          "id": "lnk-9f1f7403d7",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-4b132ded42",
+                          "id": "lnk-3aa12cc3e8",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-a3f89434e6",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-bc543f9ff7",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-11ae945cb8",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -120,85 +113,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bd7e8fd600",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-de8dcc5b7e",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-9bffccd703",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         },
                         {
-                          "id": "lnk-bf5724bc8e",
+                          "id": "lnk-e63ebde2a2",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-5a34ea7fbf",
+                          "id": "lnk-6ca050f42b",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-da4261a90557",
-          "name": "⚽ Al-Salmiyah vs Al-Arabi Club (Kuw) | Không rõ",
-          "tournament": "Kuwaiti Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3083_1gr5dy718s1w.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-da4261a90557",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-da4261a90557",
-                  "name": "Al-Salmiyah vs Al-Arabi Club (Kuw)",
-                  "streams": [
-                    {
-                      "id": "luongson-da4261a90557",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d3dc1609c1",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -227,7 +160,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live 0 : 4",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -247,7 +180,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-935cb65d63",
+                          "id": "lnk-0f0a8860e0",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -280,10 +213,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -298,7 +231,15 @@
                     {
                       "id": "luongson-7e697e40bbc3",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8e98af1f60",
+                          "name": "BLV KEVILL",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -345,18 +286,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3f089b1397",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-02439a6810",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-c415dc8ba6",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -610,10 +544,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -627,6 +561,104 @@
                   "streams": [
                     {
                       "id": "luongson-3aec85646200",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b78946b7f2",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-43c67e8831b5",
+          "name": "⚽ Las Vegas Aces W vs Dallas Wings W | 09:00",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420533.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420534.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420533.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-43c67e8831b5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-43c67e8831b5",
+                  "name": "Las Vegas Aces W vs Dallas Wings W",
+                  "streams": [
+                    {
+                      "id": "luongson-43c67e8831b5",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b53ce514fe4e",
+          "name": "⚽ Wellington Saints vs Nelson Giants | 14:30",
+          "tournament": "NBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420562.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420563.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420562.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b53ce514fe4e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b53ce514fe4e",
+                  "name": "Wellington Saints vs Nelson Giants",
+                  "streams": [
+                    {
+                      "id": "luongson-b53ce514fe4e",
                       "name": "F",
                       "stream_links": []
                     }
@@ -719,59 +751,6 @@
                       "id": "luongson-a99dcdb2b0ed",
                       "name": "F",
                       "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5269e429ec7c",
-          "name": "⚽ Bentleigh Greens (W) vs Alamein (W) | 15:15",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23732_20200322184719.jpg?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 15:15",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5269e429ec7c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5269e429ec7c",
-                  "name": "Bentleigh Greens (W) vs Alamein (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-5269e429ec7c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c60c79a1b",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
                     }
                   ]
                 }
