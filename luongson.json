@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:01 25/06/2026",
+  "last_updated": "17:10 25/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-6685a083fb6a",
-          "name": "⚽ Than Ksvn (W) vs Tng Thai Nguyen (W) | Không rõ",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22094_1gs6t2rq401s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 2 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6685a083fb6a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6685a083fb6a",
-                  "name": "Than Ksvn (W) vs Tng Thai Nguyen (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-6685a083fb6a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fa8c8f5eb",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-aa905d26eb",
-                          "name": "Vào phòng",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-3873372aae01",
           "name": "⚽ Darwin Hearts vs Port Darwin Fc | Không rõ",
@@ -86,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -106,18 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b62e382a68",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-3b611679bc",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-733f38185e",
+                          "id": "lnk-df4cff9121",
                           "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6685a083fb6a",
+          "name": "⚽ Than Ksvn (W) vs Tng Thai Nguyen (W) | Không rõ",
+          "tournament": "Vietnam Women's League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22094_1gs6t2rq401s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6685a083fb6a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6685a083fb6a",
+                  "name": "Than Ksvn (W) vs Tng Thai Nguyen (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-6685a083fb6a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c31e5e2480",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-2723a193df",
+                          "name": "Vào phòng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -146,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-193e2653bb",
+                          "id": "lnk-2472e58bb7",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -219,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0838f6247a",
+                          "id": "lnk-0f96d12c5e",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -272,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-454f1d5b42",
+                          "id": "lnk-6c3af5159e",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -415,7 +415,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e038ccefe7",
+                          "id": "lnk-a409e7698c",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
