@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:01 26/06/2026",
+  "last_updated": "05:10 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-b921f16e4044",
+          "name": "⚽ Bồ Đào Nha vs Uzbekistan | 03:26 27/06/504",
+          "tournament": "World Cup 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782425064.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782425068.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782425064.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b921f16e4044",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b921f16e4044",
+                  "name": "Bồ Đào Nha vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "luongson-b921f16e4044",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1a628344ac",
+                          "name": "BLV KEVILL REPLAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-0bc18bbe76a8",
           "name": "⚽ Al Fahaheel Sc vs Al-Qadsia Sc | Không rõ",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c51a297884",
+                          "id": "lnk-22d386a18d",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -124,10 +177,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -142,7 +195,22 @@
                     {
                       "id": "luongson-2d6fd35fc0e9",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-064105fded",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-f1ee45394a",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -234,8 +302,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1750bb8c43",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-58e4ef6c9c",
+                          "name": "NHÀ ĐÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr95q99AyGan84/playlist.m3u8"
@@ -519,51 +587,6 @@
           ]
         },
         {
-          "id": "luongson-b53ce514fe4e",
-          "name": "⚽ Wellington Saints vs Nelson Giants | 14:30",
-          "tournament": "NBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420562.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420563.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420562.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b53ce514fe4e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b53ce514fe4e",
-                  "name": "Wellington Saints vs Nelson Giants",
-                  "streams": [
-                    {
-                      "id": "luongson-b53ce514fe4e",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-09e82364eb83",
           "name": "⚽ West Coast Rangers (W) vs Fencibles United (W) | 14:30",
           "tournament": "New Zealand Premier League Women",
@@ -609,6 +632,51 @@
           ]
         },
         {
+          "id": "luongson-b53ce514fe4e",
+          "name": "⚽ Wellington Saints vs Nelson Giants | 14:30",
+          "tournament": "NBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420562.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420563.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420562.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b53ce514fe4e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b53ce514fe4e",
+                  "name": "Wellington Saints vs Nelson Giants",
+                  "streams": [
+                    {
+                      "id": "luongson-b53ce514fe4e",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-a99dcdb2b0ed",
           "name": "⚽ Fk Ural Youth vs Almaz Antey Youth | 15:00",
           "tournament": "Russia Youth Championship League",
@@ -644,51 +712,6 @@
                   "streams": [
                     {
                       "id": "luongson-a99dcdb2b0ed",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5269e429ec7c",
-          "name": "⚽ Bentleigh Greens (W) vs Alamein (W) | 15:15",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23732_20200322184719.jpg?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5269e429ec7c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5269e429ec7c",
-                  "name": "Bentleigh Greens (W) vs Alamein (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-5269e429ec7c",
                       "name": "F",
                       "stream_links": []
                     }
