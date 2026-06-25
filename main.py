@@ -169,7 +169,7 @@ def capture_stream(context, match_url: str) -> list:
     seen_urls = set()
     current_captured = []
 
-    BAD = [".gif", ".png", ".jpg", ".mp4", "saba.m3u8", "/ad/", "/ads/", "quangcao", "banner"]
+    BAD = [".gif", ".png", ".jpg", ".mp4", "saba.m3u8", "/ad/", "/ads/", "quangcao", "banner", "tvc.", "tvc/"]
 
     def process_url(url):
         u = url.lower()
