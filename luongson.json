@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:30 25/06/2026",
+  "last_updated": "16:40 25/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-66265350928a",
-          "name": "⚽ Ha Noi Ii(W) vs Ho Chi Minh City (W) | Không rõ",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22247_1gs6t2rq4q1m.png?v=2.4.3",
+          "id": "luongson-12435e309449",
+          "name": "⚽ Khovd vs Hunters Fc | Không rõ",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/54419_1hd7w1aebg2a.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 5",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-66265350928a",
+              "id": "luongson-12435e309449",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-66265350928a",
-                  "name": "Ha Noi Ii(W) vs Ho Chi Minh City (W)",
+                  "id": "luongson-12435e309449",
+                  "name": "Khovd vs Hunters Fc",
                   "streams": [
                     {
-                      "id": "luongson-66265350928a",
+                      "id": "luongson-12435e309449",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fbf8b5166f",
-                          "name": "BLV DƯƠNG CHÍ",
+                          "id": "lnk-1fd039a67b",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-a478802b42",
+                          "name": "Vào phòng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -99,18 +106,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a45b8ce241",
-                          "name": "BLV GẤU KA",
+                          "id": "lnk-dda0382e8d",
+                          "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-7dbb053a2f",
+                          "id": "lnk-b8e264f8ec",
                           "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -159,18 +166,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-538bf15b1f",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-70063135c0",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-f65bfd5f2c",
+                          "id": "lnk-7c22f14e3b",
                           "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -181,11 +188,11 @@
           ]
         },
         {
-          "id": "luongson-12435e309449",
-          "name": "⚽ Khovd vs Hunters Fc | Không rõ",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/54419_1hd7w1aebg2a.png?v=2.4.3",
+          "id": "luongson-66265350928a",
+          "name": "⚽ Ha Noi Ii(W) vs Ho Chi Minh City (W) | Không rõ",
+          "tournament": "Vietnam Women's League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22247_1gs6t2rq4q1m.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -193,13 +200,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 4",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -207,30 +214,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-12435e309449",
+              "id": "luongson-66265350928a",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-12435e309449",
-                  "name": "Khovd vs Hunters Fc",
+                  "id": "luongson-66265350928a",
+                  "name": "Ha Noi Ii(W) vs Ho Chi Minh City (W)",
                   "streams": [
                     {
-                      "id": "luongson-12435e309449",
+                      "id": "luongson-66265350928a",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-08a7894a5e",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-6e72e531f2",
+                          "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-21f8ea28e7",
-                          "name": "Vào phòng",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -279,7 +279,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cd29dcf350",
+                          "id": "lnk-7b5005e442",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -332,7 +332,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-90c5c0b9a0",
+                          "id": "lnk-1301e51e9d",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -430,8 +430,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4ae86ee4ca",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-40c24fae5a",
+                          "name": "Vào phòng",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
