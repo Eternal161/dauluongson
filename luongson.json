@@ -1,12 +1,86 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:40 26/06/2026",
+  "last_updated": "06:50 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-2d6fd35fc0e9",
+          "name": "⚽ Tunisia vs Netherlands | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/712_165018860211.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/556_16498334962.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/712_165018860211.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2d6fd35fc0e9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2d6fd35fc0e9",
+                  "name": "Tunisia vs Netherlands",
+                  "streams": [
+                    {
+                      "id": "luongson-2d6fd35fc0e9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f08a5c37cd",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-4087f00ccd",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-419fa3e6ba",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-5f565550db",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-7e697e40bbc3",
           "name": "⚽ Japan vs Sweden | Không rõ",
@@ -46,99 +120,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1e31d60b7c",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-5558fffb96",
+                          "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-003823a25f",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-2e237d012e",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-0972f122c7",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-c63276c814",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-3f131bec05",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2d6fd35fc0e9",
-          "name": "⚽ Tunisia vs Netherlands | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/712_165018860211.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/556_16498334962.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/712_165018860211.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2d6fd35fc0e9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2d6fd35fc0e9",
-                  "name": "Tunisia vs Netherlands",
-                  "streams": [
-                    {
-                      "id": "luongson-2d6fd35fc0e9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf734e0f22",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-27df1a81cb",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-5c4e3cb361",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -187,7 +187,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a06864413f",
+                          "id": "lnk-c45b036771",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -240,7 +240,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c63f8d4f9b",
+                          "id": "lnk-41e757ee22",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -293,7 +293,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c4ed60bd72",
+                          "id": "lnk-f278c0b5dd",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -398,59 +398,6 @@
           ]
         },
         {
-          "id": "luongson-9ca17770f810",
-          "name": "⚽ Turkey vs Usa | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9ca17770f810",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9ca17770f810",
-                  "name": "Turkey vs Usa",
-                  "streams": [
-                    {
-                      "id": "luongson-9ca17770f810",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-65edfe7c62",
-                          "name": "BLV KEVILL",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-3aec85646200",
           "name": "⚽ Paraguay vs Australia | Không rõ",
           "tournament": "FIFA World Cup",
@@ -489,11 +436,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e6bb3c11b9",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-0c7476dcbc",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -504,11 +451,11 @@
           ]
         },
         {
-          "id": "luongson-09e82364eb83",
-          "name": "⚽ West Coast Rangers (W) vs Fencibles United (W) | 14:30",
-          "tournament": "New Zealand Premier League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66101_1j23ekgg5x16.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69037_1jqzdsk53p29.png?v=2.4.3",
+          "id": "luongson-9ca17770f810",
+          "name": "⚽ Turkey vs Usa | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -516,31 +463,46 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/66101_1j23ekgg5x16.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-09e82364eb83",
+              "id": "luongson-9ca17770f810",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-09e82364eb83",
-                  "name": "West Coast Rangers (W) vs Fencibles United (W)",
+                  "id": "luongson-9ca17770f810",
+                  "name": "Turkey vs Usa",
                   "streams": [
                     {
-                      "id": "luongson-09e82364eb83",
+                      "id": "luongson-9ca17770f810",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-92f0e7c85c",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-731fdfbaa5",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -584,6 +546,51 @@
                   "streams": [
                     {
                       "id": "luongson-b53ce514fe4e",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-09e82364eb83",
+          "name": "⚽ West Coast Rangers (W) vs Fencibles United (W) | 14:30",
+          "tournament": "New Zealand Premier League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66101_1j23ekgg5x16.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69037_1jqzdsk53p29.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/66101_1j23ekgg5x16.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-09e82364eb83",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-09e82364eb83",
+                  "name": "West Coast Rangers (W) vs Fencibles United (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-09e82364eb83",
                       "name": "F",
                       "stream_links": []
                     }
@@ -684,51 +691,6 @@
           ]
         },
         {
-          "id": "luongson-b7baad66eeaa",
-          "name": "⚽ Sydney Fc (Youth) vs Sydney United | 16:30",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b7baad66eeaa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b7baad66eeaa",
-                  "name": "Sydney Fc (Youth) vs Sydney United",
-                  "streams": [
-                    {
-                      "id": "luongson-b7baad66eeaa",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-f7973562bd7f",
           "name": "⚽ Heidelberg United vs Oakleigh Cannons | 16:30",
           "tournament": "VIC Premier League",
@@ -764,6 +726,51 @@
                   "streams": [
                     {
                       "id": "luongson-f7973562bd7f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b7baad66eeaa",
+          "name": "⚽ Sydney Fc (Youth) vs Sydney United | 16:30",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b7baad66eeaa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b7baad66eeaa",
+                  "name": "Sydney Fc (Youth) vs Sydney United",
+                  "streams": [
+                    {
+                      "id": "luongson-b7baad66eeaa",
                       "name": "F",
                       "stream_links": []
                     }
