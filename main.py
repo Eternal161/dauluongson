@@ -163,9 +163,9 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# CAPTURE STREAM (TỐI ƯU TỐC ĐỘ + CHỐNG TRÙNG BLV TUYỆT ĐỐI)
+# CAPTURE STREAM (TỐI ƯU + CHỐNG TRÙNG CHÉO TOÀN TRANG + BỎ REPLAY)
 # =========================================================
-def capture_stream(context, match_url: str) -> list:
+def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
     page = context.new_page()
     try: Stealth().apply_stealth_sync(page)
     except: pass
@@ -179,18 +179,18 @@ def capture_stream(context, match_url: str) -> list:
         if ".m3u8" in u and not any(b in u for b in BAD):
             if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
                 url = url.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-            if url not in seen_urls:
+            
+            # 💡 CHẶN TRÙNG LẶP TUYỆT ĐỐI TOÀN TRANG: Nếu link đã thuộc về trận trước, bỏ qua ngay!
+            if url not in seen_urls and url not in global_seen_streams:
                 seen_urls.add(url)
                 current_captured.append(url)
 
     page.on("request",  lambda req: process_url(req.url))
     page.on("response", lambda res: process_url(res.url))
 
-    # 💡 TỪ ĐIỂN LƯU LUỒNG: Chìa khóa chống dán nhầm tên BLV
     streams_dict = {}
 
     try:
-        # 1. TẢI TRANG MẶC ĐỊNH & BẮT LUỒNG ĐẦU TIÊN
         page.goto(match_url, wait_until="domcontentloaded", timeout=15000)
         try:
             vp = page.viewport_size
@@ -223,13 +223,15 @@ def capture_stream(context, match_url: str) -> list:
             let currentPath = window.location.pathname; 
             
             document.querySelectorAll('a[href*="?blv="]').forEach(a => {
-                // 💡 BỘ LỌC CHỐNG NHIỄU: Phớt lờ các nút nằm trong danh sách cuộn ở đáy trang
                 if (a.closest('.swiper-wrapper') || a.closest('.match-grid') || a.closest('[data-role="match-grid"]')) {
                     return;
                 }
                 
                 let text = a.innerText.trim();
                 if (text.toLowerCase().includes('vào phòng')) text = "🎙️ Luồng Phụ"; 
+                
+                // 💡 TIÊU DIỆT NÚT REPLAY
+                if (text.toLowerCase().includes('replay')) return;
                 
                 if (text && a.href.includes(currentPath) && !seenHrefs.has(a.href)) {
                     seenHrefs.add(a.href);
@@ -240,21 +242,18 @@ def capture_stream(context, match_url: str) -> list:
             return { current: currentBlv, links: links };
         }''')
 
-        # 💡 PHÂN LOẠI CÁC LUỒNG LOAD NGẦM Ở TRANG MẶC ĐỊNH
         if current_captured:
             for u in list(dict.fromkeys(current_captured)):
-                # Trích xuất mã ID (VD: KAKA, LUBO) từ đường dẫn m3u8
                 blv_match = re.search(r'/live/([^/]+)/', u)
                 key = blv_match.group(1).upper() if blv_match else u
                 
                 if key not in streams_dict:
                     if len(streams_dict) == 0:
-                        name = blv_data["current"] # Luồng đầu tiên lấy tên phòng
+                        name = blv_data["current"]
                     else:
                         name = f"BLV {key}" if blv_match else f"Luồng {len(streams_dict)+1}"
                     streams_dict[key] = {"name": name, "url": u}
 
-        # 2. LẶP QUA CÁC BLV KHÁC (Đã lọc sạch sẽ)
         for link in blv_data["links"]:
             print(f"      > Đang cào thêm: {link['name']}...") 
             current_captured.clear()
@@ -273,7 +272,6 @@ def capture_stream(context, match_url: str) -> list:
                         if key not in streams_dict:
                             streams_dict[key] = {"name": link["name"], "url": u}
                         else:
-                            # 💡 ĐỔI TÊN NẾU LUỒNG NÀY ĐÃ BỊ LOAD NGẦM TỪ TRƯỚC VỚI TÊN TẠM
                             if streams_dict[key]["name"] == f"BLV {key}":
                                 streams_dict[key]["name"] = link["name"]
             except: pass
@@ -284,7 +282,6 @@ def capture_stream(context, match_url: str) -> list:
     streams = list(streams_dict.values())
     if not streams: return []
     
-    # Chấm điểm chất lượng CDN
     for s in streams:
         score = 0
         lo = s["url"].lower()
@@ -407,16 +404,23 @@ def scrape_and_push():
                 valid_matches.append(m)
 
         raw_matches = valid_matches[:LIMIT_MATCHES]
-        print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...  Untitled1:286 - ls.py:381")
+        print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...")
+
+        # 💡 TẠO SỔ ĐEN TOÀN CỤC CHỐNG TRÙNG M3U8 GIỮA CÁC TRẬN
+        global_seen_streams = set()
 
         for idx, m in enumerate(raw_matches, 1):
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
-            print(f"[{idx}/{len(raw_matches)}] {m['home']} vs {m['away']} ({m['timeStr']})  Untitled1:290 - ls.py:385")
+            print(f"[{idx}/{len(raw_matches)}] {m['home']} vs {m['away']} ({m['timeStr']})")
             
-            # Chỉ đi cào stream nếu trận đấu có dấu hiệu đang Live (Tiết kiệm thời gian)
             m["streams"] = []
             if m.get("isLiveUI") or any(char.isdigit() for char in m["timeStr"]):
-                m["streams"] = capture_stream(context, m["href"])
+                # 💡 Truyền global_seen_streams vào trong
+                m["streams"] = capture_stream(context, m["href"], global_seen_streams)
+                
+                # 💡 Bổ sung các luồng vừa cào được vào danh sách cấm của các trận đi sau
+                for s in m["streams"]:
+                    global_seen_streams.add(s["url"])
             
             m["homeLogo"] = get_final_logo(m["home"], m.get("homeLogo"))
             m["awayLogo"] = get_final_logo(m["away"], m.get("awayLogo"))
