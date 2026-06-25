@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:11 26/06/2026",
+  "last_updated": "01:21 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,10 +46,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-10e4d589e5",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-f536b19f22",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-3d4d45b0de",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
@@ -61,11 +68,11 @@
           ]
         },
         {
-          "id": "luongson-9624c898e030",
-          "name": "⚽ Renaissance Zmamra vs Olympique De Safi | Không rõ",
+          "id": "luongson-ae5a797e558b",
+          "name": "⚽ Kawkab De Marrakech vs Union Touarga Sport Rabat | Không rõ",
           "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17899_1k5n6v06fh22.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2617_1ht6en4kst9.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4071_1k5n6pv3zb1.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3117_1h1jgsze5y1f.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,13 +80,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17899_1k5n6v06fh22.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/4071_1k5n6pv3zb1.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -87,76 +94,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-9624c898e030",
+              "id": "luongson-ae5a797e558b",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-9624c898e030",
-                  "name": "Renaissance Zmamra vs Olympique De Safi",
+                  "id": "luongson-ae5a797e558b",
+                  "name": "Kawkab De Marrakech vs Union Touarga Sport Rabat",
                   "streams": [
                     {
-                      "id": "luongson-9624c898e030",
+                      "id": "luongson-ae5a797e558b",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dc46c8b884",
-                          "name": "BLV TÀO THÁO",
+                          "id": "lnk-eb75b9503e",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d760425ecb47",
-          "name": "⚽ Wydad Casablanca vs Maghreb Fez | Không rõ",
-          "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/13618_1j119mmhgw18.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d760425ecb47",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d760425ecb47",
-                  "name": "Wydad Casablanca vs Maghreb Fez",
-                  "streams": [
-                    {
-                      "id": "luongson-d760425ecb47",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b08bfcea68",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -185,7 +139,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -205,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ad67334304",
+                          "id": "lnk-fb660f82ac",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -258,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-769800b242",
+                          "id": "lnk-627a9fc697",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
@@ -273,11 +227,11 @@
           ]
         },
         {
-          "id": "luongson-ae5a797e558b",
-          "name": "⚽ Kawkab De Marrakech vs Union Touarga Sport Rabat | Không rõ",
+          "id": "luongson-9624c898e030",
+          "name": "⚽ Renaissance Zmamra vs Olympique De Safi | Không rõ",
           "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4071_1k5n6pv3zb1.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3117_1h1jgsze5y1f.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17899_1k5n6v06fh22.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2617_1ht6en4kst9.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -285,13 +239,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4071_1k5n6pv3zb1.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/17899_1k5n6v06fh22.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -299,76 +253,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-ae5a797e558b",
+              "id": "luongson-9624c898e030",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ae5a797e558b",
-                  "name": "Kawkab De Marrakech vs Union Touarga Sport Rabat",
+                  "id": "luongson-9624c898e030",
+                  "name": "Renaissance Zmamra vs Olympique De Safi",
                   "streams": [
                     {
-                      "id": "luongson-ae5a797e558b",
+                      "id": "luongson-9624c898e030",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3057c4ce17",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-ba166a2627",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-495ac07f14cb",
-          "name": "⚽ Codm Meknes vs Hassania Agadir | Không rõ",
-          "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3118_1j77rv8hw7a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3202_1gxsjfmnkx2n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3118_1j77rv8hw7a.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-495ac07f14cb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-495ac07f14cb",
-                  "name": "Codm Meknes vs Hassania Agadir",
-                  "streams": [
-                    {
-                      "id": "luongson-495ac07f14cb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea0e039f9c",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -417,11 +318,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c90edb3617",
+                          "id": "lnk-8595166db7",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d760425ecb47",
+          "name": "⚽ Wydad Casablanca vs Maghreb Fez | Không rõ",
+          "tournament": "Botola Pro 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/13618_1j119mmhgw18.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d760425ecb47",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d760425ecb47",
+                  "name": "Wydad Casablanca vs Maghreb Fez",
+                  "streams": [
+                    {
+                      "id": "luongson-d760425ecb47",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0b73e1e53",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-495ac07f14cb",
+          "name": "⚽ Codm Meknes vs Hassania Agadir | Không rõ",
+          "tournament": "Botola Pro 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3118_1j77rv8hw7a.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3202_1gxsjfmnkx2n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3118_1j77rv8hw7a.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-495ac07f14cb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-495ac07f14cb",
+                  "name": "Codm Meknes vs Hassania Agadir",
+                  "streams": [
+                    {
+                      "id": "luongson-495ac07f14cb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a3a7126d1",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -470,7 +477,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-703132e394",
+                          "id": "lnk-0d76d308f9",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -568,7 +575,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e06f335d4f",
+                          "id": "lnk-15e74fa288",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
