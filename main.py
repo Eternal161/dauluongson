@@ -202,7 +202,8 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
             if current_captured: break
             time.sleep(0.5)
 
-       blv_data = page.evaluate('''() => {
+        # 👇 Căn cho chữ "blv_data" thẳng hàng đứng với chữ "while" và "deadline" ở trên
+        blv_data = page.evaluate('''() => {
             let currentBlv = "BLV Mặc định";
             let allTexts = document.body.innerText.split('\\n');
             for (let t of allTexts) {
@@ -226,22 +227,16 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
                 let text = a.innerText.trim();
                 if (!text) return;
                 
-                // 💡 BỘ LỌC TỐI THƯỢNG: Loại bỏ hoàn toàn các thẻ là "Trận đấu" (có chứa tỉ số hoặc chữ VS)
-                // Phớt lờ mọi loại Class HTML, chỉ quan tâm nội dung chữ!
+                // Loại bỏ hoàn toàn các thẻ là "Trận đấu" (có chứa tỉ số hoặc chữ VS)
                 if (/[0-9]\\s*[:\\-]\\s*[0-9]/.test(text) || /\\bvs\\b/i.test(text)) {
                     return;
                 }
                 
-                // 💡 Sửa tên "Vào phòng" bị rút gọn trên Mobile
                 if (text.toLowerCase().includes('vào phòng')) text = "🎙️ Luồng Phụ"; 
-                
-                // 💡 TIÊU DIỆT NÚT REPLAY HOÀN TOÀN
                 if (text.toLowerCase().includes('replay')) return;
                 
                 if (a.href.includes(currentPath) && !seenHrefs.has(a.href)) {
                     seenHrefs.add(a.href);
-                    
-                    // Rút gọn text nếu nút có chứa icon và bị xuống dòng
                     let cleanName = text.split('\\n').pop().trim(); 
                     links.push({ name: cleanName, href: a.href });
                 }
