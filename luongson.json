@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:21 25/06/2026",
+  "last_updated": "14:31 25/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-836e6cb523",
-                          "name": "BLV LIO",
+                          "id": "lnk-286a89807d",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-fe7ecbaa7b",
+                          "id": "lnk-fcc50f41b6",
                           "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -106,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e845c42cdd",
+                          "id": "lnk-ebde987ec2",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -159,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1db55d9d99",
+                          "id": "lnk-1df51b1941",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -212,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6492a0f1f1",
+                          "id": "lnk-3dafcc8c61",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -245,10 +245,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -263,7 +263,22 @@
                     {
                       "id": "luongson-12435e309449",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0c61d871d0",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-df93891d6f",
+                          "name": "Vào phòng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
                     }
                   ]
                 }
