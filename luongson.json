@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:30 25/06/2026",
+  "last_updated": "22:40 25/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-6f667579c4d6",
-          "name": "⚽ Grobina vs Fk Auda Riga | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6f667579c4d6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6f667579c4d6",
-                  "name": "Grobina vs Fk Auda Riga",
-                  "streams": [
-                    {
-                      "id": "luongson-6f667579c4d6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b14d5e073",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-42389c38c8eb",
           "name": "⚽ Bfc Daugavpils vs Riga Fc | Không rõ",
@@ -99,18 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0cc2357fc7",
-                          "name": "BLV KAKA",
+                          "id": "lnk-89354196f4",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-4bbe1f5397",
-                          "name": "P.HỔ",
+                          "id": "lnk-fb96834505",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6f667579c4d6",
+          "name": "⚽ Grobina vs Fk Auda Riga | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6f667579c4d6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6f667579c4d6",
+                  "name": "Grobina vs Fk Auda Riga",
+                  "streams": [
+                    {
+                      "id": "luongson-6f667579c4d6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-72d491b625",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-25387c0ea6",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
