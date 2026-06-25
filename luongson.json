@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:11 25/06/2026",
+  "last_updated": "14:21 25/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-5808815916a1",
+          "name": "⚽ Shandong Qiutan vs Beijing Warriors | Không rõ",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65748_1hzkvvh5g6c.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782371087.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/65748_1hzkvvh5g6c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5808815916a1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5808815916a1",
+                  "name": "Shandong Qiutan vs Beijing Warriors",
+                  "streams": [
+                    {
+                      "id": "luongson-5808815916a1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-836e6cb523",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-fe7ecbaa7b",
+                          "name": "Vào phòng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-615c0c265237",
           "name": "⚽ Manawatu Jets vs Otago Nuggets | 03:26 26/06/1400",
@@ -46,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0426a443fe",
+                          "id": "lnk-e845c42cdd",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -99,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-72c86886e2",
+                          "id": "lnk-1db55d9d99",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -152,64 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-97dd11c2d2",
+                          "id": "lnk-6492a0f1f1",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TO3A/index.m3u8?expire=1891408380&sign=9c81b067b218299e5542cfcd512206bf"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5808815916a1",
-          "name": "⚽ Shandong Qiutan vs Beijing Warriors | 14:30",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65748_1hzkvvh5g6c.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782371087.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65748_1hzkvvh5g6c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 14:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5808815916a1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5808815916a1",
-                  "name": "Shandong Qiutan vs Beijing Warriors",
-                  "streams": [
-                    {
-                      "id": "luongson-5808815916a1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1381de1345",
-                          "name": "Vào phòng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
