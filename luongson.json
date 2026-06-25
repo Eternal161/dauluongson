@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:01 25/06/2026",
+  "last_updated": "19:11 25/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b2533634732c",
-          "name": "⚽ Fk Yelimay Semey B vs Turan Turkistan | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782385597.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39028_1gvvp9f85w29.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782385597.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b2533634732c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b2533634732c",
-                  "name": "Fk Yelimay Semey B vs Turan Turkistan",
-                  "streams": [
-                    {
-                      "id": "luongson-b2533634732c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21b8c4f2df",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-f8ddbe4a10",
-                          "name": "Vào phòng",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-08619c3b51f3",
           "name": "⚽ Kairat Almaty Ii vs Khan Tengri Fc | Không rõ",
@@ -106,18 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f1c276b3b1",
+                          "id": "lnk-5b04adc4a5",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         },
                         {
-                          "id": "lnk-16d7d778a1",
+                          "id": "lnk-10ea83829a",
                           "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b2533634732c",
+          "name": "⚽ Fk Yelimay Semey B vs Turan Turkistan | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782385597.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39028_1gvvp9f85w29.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782385597.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b2533634732c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b2533634732c",
+                  "name": "Fk Yelimay Semey B vs Turan Turkistan",
+                  "streams": [
+                    {
+                      "id": "luongson-b2533634732c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d4efbd7ae",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-5a9031714c",
+                          "name": "Vào phòng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -146,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 2 : 1",
+              "text": "● Live 2 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-00e634ac2c",
+                          "id": "lnk-9875035b04",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
@@ -219,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6954b9ddd5",
+                          "id": "lnk-8953315f8d",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -272,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-764812fb9b",
+                          "id": "lnk-a9f51866a0",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -305,10 +305,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 19:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -323,7 +323,22 @@
                     {
                       "id": "luongson-43154e767b12",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-043d986acb",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-02bea47683",
+                          "name": "Vào phòng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -350,10 +365,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 20:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -368,7 +383,15 @@
                     {
                       "id": "luongson-0c60f35f7081",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c04910b5c",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
                     }
                   ]
                 }
