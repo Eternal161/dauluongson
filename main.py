@@ -132,20 +132,31 @@ JS_EXTRACT = """
             awayLogo = teamLogos[teamLogos.length - 1].src;
         }
 
+        // 💡 BỘ LỌC THÔNG MINH MỚI: Tách bạch Thời gian và Tỷ số
+        let fullText = clean(a.innerText || '');
         let timeStr = '';
-        const scoreSection = a.querySelector('.score-section');
-        if (scoreSection) {
-            timeStr = (scoreSection.innerText || '').split('\\n').map(s => s.trim()).filter(s => s).join(' • ');
+        let scoreStr = '';
+        
+        // 1. Dò tìm Giờ (vd: 14:00) và Ngày (vd: 25/06)
+        let timeMatch = fullText.match(/(\\d{1,2}:\\d{2})/);
+        let dateMatch = fullText.match(/(\\d{1,2}\\/\\d{1,2})/);
+        if (timeMatch) {
+            timeStr = timeMatch[1];
+            if (dateMatch) timeStr += ' ' + dateMatch[1]; // Thành phẩm: "14:00 25/06"
         }
         
-        if (!timeStr || timeStr.toLowerCase() === 'vs') {
-            const timeEl = a.querySelector('[class*="time" i], [class*="date" i]');
-            if (timeEl) timeStr = clean(timeEl.innerText);
+        // 2. Dò tìm Tỷ số (vd: 0:0, 2-1) và Số phút (vd: H1, 45')
+        let scoreMatch = fullText.match(/(\\d+)\\s*[:\\-]\\s*(\\d+)/);
+        if (scoreMatch) {
+            scoreStr = scoreMatch[0];
+            let minuteMatch = fullText.match(/\\b(H[T12]|FT|\\d{1,3}')\\b/i);
+            if (minuteMatch) scoreStr = minuteMatch[0] + ' ' + scoreStr; // Thành phẩm: "H1 0:0"
         }
+        
         let title = a.querySelector('.team-name') ? a.innerText : 'Match';
         let tournament = a.querySelector('.league-name')?.innerText?.trim() || '';
         
-        results.push({ href, home, away, timeStr, homeLogo, awayLogo, tournament });
+        results.push({ href, home, away, timeStr, scoreStr, isLiveUI, homeLogo, awayLogo, tournament });
     }
     return results;
 }
@@ -282,9 +293,6 @@ def capture_stream(context, match_url: str) -> list:
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
 # =========================================================
-# =========================================================
-# XÂY DỰNG CẤU TRÚC JSON
-# =========================================================
 def build_channel(m: dict, stream_data: list) -> dict:
     home = m.get("home", "").title()
     away = m.get("away", "").title()
@@ -296,7 +304,13 @@ def build_channel(m: dict, stream_data: list) -> dict:
 
     # TRẠNG THÁI HIỂN THỊ
     is_live = len(stream_data) > 0
-    label_text = "● Live" if is_live else ("🔴 Chờ stream" if m.get("isLiveUI") else "⏳ Chưa live")
+    
+    # 💡 NẾU ĐANG LIVE -> BƠM TỶ SỐ VÀO LABEL ĐỂ FLUTTER HIỆN BẢNG TỶ SỐ
+    if is_live:
+        label_text = f"● Live {m.get('scoreStr', '')}".strip()
+    else:
+        label_text = "🔴 Chờ stream" if m.get("isLiveUI") else "⏳ Chưa live"
+        
     label_color = "#ff0000" if is_live else ("#ff6600" if m.get("isLiveUI") else "#d54f1a")
 
     # 💡 MAP DỮ LIỆU ĐA LUỒNG BLV VÀO JSON
