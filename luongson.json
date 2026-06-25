@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:20 26/06/2026",
+  "last_updated": "05:31 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b4118f67a2",
+                          "id": "lnk-e7f3cd0da4",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5145c7cb59",
+                          "id": "lnk-ac96df46e5",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -132,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -150,7 +150,15 @@
                     {
                       "id": "luongson-7e697e40bbc3",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b749c89437",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -197,25 +205,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b2697e97cf",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-0b18249d30",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-d47f9ed5f3",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-ec5ac40233",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-317bcd50a8",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-8432168d26",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -309,8 +317,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-01e9fd90d5",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-65f1d3af29",
+                          "name": "NHÀ ĐÀI",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr95q99AyGan84/playlist.m3u8"
