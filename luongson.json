@@ -1,15 +1,68 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:10 25/06/2026",
+  "last_updated": "17:20 25/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-3873372aae01",
-          "name": "⚽ Darwin Hearts vs Port Darwin Fc | Không rõ",
+          "id": "luongson-66265350928a",
+          "name": "⚽ Ha Noi Ii(W) vs Ho Chi Minh City (W) | Không rõ",
+          "tournament": "Vietnam Women's League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22247_1gs6t2rq4q1m.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-66265350928a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-66265350928a",
+                  "name": "Ha Noi Ii(W) vs Ho Chi Minh City (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-66265350928a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d51046543a",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-12f8519f9b69",
+          "name": "⚽ Darwin Hearts vs Port Darwin Fc | 03:26 26/06/1600",
           "tournament": "Australia Darwin Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/44812_1gyk775sb32e.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/29750_1gyk775sbe17.png?v=2.4.3",
@@ -34,30 +87,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-3873372aae01",
+              "id": "luongson-12f8519f9b69",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3873372aae01",
+                  "id": "luongson-12f8519f9b69",
                   "name": "Darwin Hearts vs Port Darwin Fc",
                   "streams": [
                     {
-                      "id": "luongson-3873372aae01",
+                      "id": "luongson-12f8519f9b69",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3b611679bc",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-e5f1dd3594",
+                          "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-df4cff9121",
-                          "name": "Vào phòng",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -106,71 +152,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c31e5e2480",
-                          "name": "BLV GẤU KA",
+                          "id": "lnk-a9b18e048f",
+                          "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-2723a193df",
+                          "id": "lnk-098e01886d",
                           "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-66265350928a",
-          "name": "⚽ Ha Noi Ii(W) vs Ho Chi Minh City (W) | Không rõ",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22247_1gs6t2rq4q1m.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-66265350928a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-66265350928a",
-                  "name": "Ha Noi Ii(W) vs Ho Chi Minh City (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-66265350928a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2472e58bb7",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -219,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0f96d12c5e",
+                          "id": "lnk-09415407c4",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -272,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6c3af5159e",
+                          "id": "lnk-246eda9811",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -415,8 +408,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a409e7698c",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-3dea96606c",
+                          "name": "Vào phòng",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
