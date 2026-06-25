@@ -154,54 +154,138 @@ JS_EXTRACT = """
 # =========================================================
 # CAPTURE STREAM (ĐÃ FIX LỖI LIVE/LIVE)
 # =========================================================
+# =========================================================
+# CAPTURE STREAM (ĐA LUỒNG - CÓ BÌNH LUẬN VIÊN)
+# =========================================================
+# =========================================================
+# CAPTURE STREAM (TỐI ƯU TỐC ĐỘ + IN LOG TỪNG BLV)
+# =========================================================
 def capture_stream(context, match_url: str) -> list:
     page = context.new_page()
     try: Stealth().apply_stealth_sync(page)
     except: pass
-    streams = set()
+    
+    streams = [] 
+    seen_urls = set()
+    current_captured = []
+
     BAD = [".gif", ".png", ".jpg", ".mp4", "saba.m3u8", "/ad/", "/ads/", "quangcao", "banner"]
 
     def process_url(url):
         u = url.lower()
         if ".m3u8" in u and not any(b in u for b in BAD):
-            # CHUẨN HÓA LINK CDNFÁTER ĐỂ PHÁT ĐƯỢC 100%
             if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
                 url = url.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-            streams.add(url)
+            if url not in seen_urls:
+                seen_urls.add(url)
+                current_captured.append(url)
 
     page.on("request",  lambda req: process_url(req.url))
     page.on("response", lambda res: process_url(res.url))
 
     try:
-        page.goto(match_url, wait_until="load", timeout=60000)
+        # 1. TẢI TRANG MẶC ĐỊNH & BẮT LUỒNG ĐẦU TIÊN
+        page.goto(match_url, wait_until="domcontentloaded", timeout=15000) # Giảm timeout xuống 15s
         try:
             vp = page.viewport_size
             if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
         except: pass
-        page.wait_for_timeout(8000)
         
-        deadline = time.time() + 15
+        # Chỉ đợi tối đa 6 giây cho BLV đầu tiên
+        deadline = time.time() + 6
         while time.time() < deadline:
-            if any("cdnfaster-a.live" in s.lower() for s in streams): break
-            time.sleep(1)
-    except: pass
+            if current_captured: break
+            time.sleep(0.5)
+
+        # 2. CÀO TÊN BLV HIỆN TẠI VÀ TÌM CÁC NÚT BLV KHÁC
+        # 2. CÀO TÊN BLV HIỆN TẠI VÀ TÌM CÁC NÚT BLV KHÁC CỦA ĐÚNG TRẬN NÀY (Bao gồm cả Replay)
+        blv_data = page.evaluate('''() => {
+            let currentBlv = "BLV Mặc định";
+            let allTexts = document.body.innerText.split('\\n');
+            for (let t of allTexts) {
+                if (t.includes('BLV: BLV')) {
+                    currentBlv = t.split('BLV: ')[1].trim();
+                    break;
+                } else if (t.includes('Bình luận viên: ') && !t.includes('tiếng Việt')) {
+                    let parts = t.split('Bình luận viên: ');
+                    if (parts[1]) { 
+                        currentBlv = parts[1].split(' Tỷ số')[0].split(' thuộc')[0].trim(); 
+                        break; 
+                    }
+                }
+            }
+            
+            let links = [];
+            // Lấy đường dẫn gốc của trận đấu hiện tại
+            let currentPath = window.location.pathname; 
+            
+            document.querySelectorAll('a[href*="?blv="]').forEach(a => {
+                let text = a.innerText.trim();
+                
+                // 💡 CHỈ CẦN: Link chứa đúng currentPath (BLV hoặc Replay của trận này)
+                if (text && a.href.includes(currentPath)) {
+                    links.push({ name: text, href: a.href });
+                }
+            });
+            
+            return { current: currentBlv, links: links };
+        }''')
+
+        if current_captured:
+            unique_urls = list(dict.fromkeys(current_captured))
+            for i, u in enumerate(unique_urls):
+                name = blv_data["current"]
+                if len(unique_urls) > 1: name += f" (Nguồn {i+1})"
+                streams.append({"name": name, "url": u})
+
+        # 3. LẶP QUA CÁC BLV KHÁC (Ép thời gian xử lý nhanh)
+        for link in blv_data["links"]:
+            if any(link["name"] in s["name"] for s in streams): continue
+            
+            # 💡 Thêm dòng này để terminal báo cáo nó đang làm gì, không bị có cảm giác "treo"
+            print(f"> Đang cào thêm: {link['name']}... - ls.py:246") 
+            
+            current_captured.clear()
+            try:
+                # 💡 Giảm thời gian load các BLV phụ xuống siêu ngắn để tăng tốc độ
+                page.goto(link["href"], wait_until="domcontentloaded", timeout=10000)
+                deadline = time.time() + 4 # Chỉ đợi 4 giây cho video xuất hiện
+                while time.time() < deadline:
+                    if current_captured: break
+                    time.sleep(0.5)
+                    
+                if current_captured:
+                    unique_urls = list(dict.fromkeys(current_captured))
+                    for i, u in enumerate(unique_urls):
+                        name = link["name"]
+                        if len(unique_urls) > 1: name += f" (Nguồn {i+1})"
+                        streams.append({"name": name, "url": u})
+            except: pass
+            
+    except Exception as e: pass
     finally: page.close()
 
     if not streams: return []
-    scored = []
+    
     for s in streams:
         score = 0
-        lo = s.lower()
+        lo = s["url"].lower()
         if "cdnfaster-a.live" in lo: score += 10000 
         if "100ycdn" in lo: score += 5000
-        scored.append((score, s))
-    scored.sort(reverse=True, key=lambda x: x[0])
-    return [s for sc, s in scored]
+        s["score"] = score
+        
+    streams.sort(reverse=True, key=lambda x: x.get("score", 0))
+    for s in streams: s.pop("score", None)
+    
+    return streams
 
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
 # =========================================================
-def build_channel(m: dict, stream_urls: list) -> dict:
+# =========================================================
+# XÂY DỰNG CẤU TRÚC JSON
+# =========================================================
+def build_channel(m: dict, stream_data: list) -> dict:
     home = m.get("home", "").title()
     away = m.get("away", "").title()
     thoi_gian = re.sub(r'(\d{1,2}:\d{2})(\d{1,2}/\d{2})', r'\1 \2', m.get("timeStr", ""))
@@ -211,9 +295,20 @@ def build_channel(m: dict, stream_urls: list) -> dict:
     display_name = f"⚽ {title_clean}" + (f" | {m.get('league')}" if m.get('league') else "") + (f" | {thoi_gian}" if thoi_gian else "")
 
     # TRẠNG THÁI HIỂN THỊ
-    is_live = len(stream_urls) > 0
+    is_live = len(stream_data) > 0
     label_text = "● Live" if is_live else ("🔴 Chờ stream" if m.get("isLiveUI") else "⏳ Chưa live")
     label_color = "#ff0000" if is_live else ("#ff6600" if m.get("isLiveUI") else "#d54f1a")
+
+    # 💡 MAP DỮ LIỆU ĐA LUỒNG BLV VÀO JSON
+    stream_links = []
+    for idx, s in enumerate(stream_data):
+        stream_links.append({
+            "id": make_link_id(), 
+            "name": s["name"] if s.get("name") else f"Link {idx+1}", 
+            "type": "hls", 
+            "default": idx == 0, 
+            "url": s["url"]
+        })
 
     return {
         "id": cid, "name": display_name, 
@@ -226,7 +321,7 @@ def build_channel(m: dict, stream_urls: list) -> dict:
             "id": cid, "name": "Lương Sơn",
             "contents": [{
                 "id": cid, "name": title_clean,
-                "streams": [{"id": cid, "name": "F", "stream_links": [{"id": make_link_id(), "name": f"Link {idx+1}", "type": "hls", "default": idx==0, "url": u} for idx, u in enumerate(stream_urls[:2])]}]
+                "streams": [{"id": cid, "name": "F", "stream_links": stream_links}]
             }]
         }],
     }
@@ -236,7 +331,7 @@ def build_channel(m: dict, stream_urls: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {now_str}")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {now_str}  Untitled1:239 - ls.py:334")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
@@ -283,11 +378,11 @@ def scrape_and_push():
                 valid_matches.append(m)
 
         raw_matches = valid_matches[:LIMIT_MATCHES]
-        print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...")
+        print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...  Untitled1:286 - ls.py:381")
 
         for idx, m in enumerate(raw_matches, 1):
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
-            print(f"   [{idx}/{len(raw_matches)}] {m['home']} vs {m['away']} ({m['timeStr']})")
+            print(f"[{idx}/{len(raw_matches)}] {m['home']} vs {m['away']} ({m['timeStr']})  Untitled1:290 - ls.py:385")
             
             # Chỉ đi cào stream nếu trận đấu có dấu hiệu đang Live (Tiết kiệm thời gian)
             m["streams"] = []
@@ -313,10 +408,10 @@ def scrape_and_push():
         try:
             existing = repo.get_contents(FILE_PATH)
             repo.update_file(existing.path, msg, content, existing.sha)
-            print("\n✅ Đã cập nhật thành công lên GitHub!")
+            print("\n✅ Đã cập nhật thành công lên GitHub!  Untitled1:316 - ls.py:411")
         except:
             repo.create_file(FILE_PATH, msg, content)
-            print("\n✅ Đã khởi tạo file mới trên GitHub!")
+            print("\n✅ Đã khởi tạo file mới trên GitHub!  Untitled1:319 - ls.py:414")
 
 if __name__ == "__main__":
     scrape_and_push()
