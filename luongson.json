@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:00 26/06/2026",
+  "last_updated": "04:10 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,21 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-feaa2d5ce6",
+                          "id": "lnk-86419dcfa0",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         },
                         {
-                          "id": "lnk-b7de001ccb",
+                          "id": "lnk-d0d015f32c",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-64f9179ee4",
+                          "id": "lnk-a560621773",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
@@ -93,7 +93,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -113,85 +113,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-128d2491e6",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-3d13c42d5c",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-661fe2dcd6",
+                          "id": "lnk-40891c997e",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-153e7bb676",
+                          "id": "lnk-858ec7c8fd",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-20bd953067",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-24ec32378620",
-          "name": "⚽ Breidablik vs Vikingur Reykjavik | Không rõ",
-          "tournament": "Iceland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3422_165363440831.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3422_165363440831.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 4",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-24ec32378620",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-24ec32378620",
-                  "name": "Breidablik vs Vikingur Reykjavik",
-                  "streams": [
-                    {
-                      "id": "luongson-24ec32378620",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-259b8982cc",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -240,8 +180,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-520ba3575b",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-aa225f4a2c",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
@@ -293,10 +233,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-534530a2c1",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-cfa3ef21a5",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-13e062e482",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
@@ -353,51 +300,6 @@
           ]
         },
         {
-          "id": "luongson-77d8b10a1bdc",
-          "name": "⚽ Nublense vs Universidad De Concepcion | 06:30",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1614_1h6mrdn89h29.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-77d8b10a1bdc",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-77d8b10a1bdc",
-                  "name": "Nublense vs Universidad De Concepcion",
-                  "streams": [
-                    {
-                      "id": "luongson-77d8b10a1bdc",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-ce3748dfcb66",
           "name": "⚽ Cuiaba vs Londrina Pr | 06:30",
           "tournament": "Brazil Serie B",
@@ -433,6 +335,51 @@
                   "streams": [
                     {
                       "id": "luongson-ce3748dfcb66",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-56644dd6f230",
+          "name": "⚽ Long Island Rough Riders vs Cedar Star | 07:00",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12782_20121217171936.jpg?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39749_1h0y004ej21w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12782_20121217171936.jpg?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-56644dd6f230",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-56644dd6f230",
+                  "name": "Long Island Rough Riders vs Cedar Star",
+                  "streams": [
+                    {
+                      "id": "luongson-56644dd6f230",
                       "name": "F",
                       "stream_links": []
                     }
@@ -533,51 +480,6 @@
           ]
         },
         {
-          "id": "luongson-3aec85646200",
-          "name": "⚽ Paraguay vs Australia | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/795_165018939680.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3aec85646200",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3aec85646200",
-                  "name": "Paraguay vs Australia",
-                  "streams": [
-                    {
-                      "id": "luongson-3aec85646200",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-9ca17770f810",
           "name": "⚽ Turkey vs Usa | Không rõ",
           "tournament": "FIFA World Cup",
@@ -613,6 +515,51 @@
                   "streams": [
                     {
                       "id": "luongson-9ca17770f810",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3aec85646200",
+          "name": "⚽ Paraguay vs Australia | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/795_165018939680.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3aec85646200",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3aec85646200",
+                  "name": "Paraguay vs Australia",
+                  "streams": [
+                    {
+                      "id": "luongson-3aec85646200",
                       "name": "F",
                       "stream_links": []
                     }
@@ -750,6 +697,59 @@
                       "id": "luongson-a99dcdb2b0ed",
                       "name": "F",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5269e429ec7c",
+          "name": "⚽ Bentleigh Greens (W) vs Alamein (W) | 15:15",
+          "tournament": "VIC Women’s Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23732_20200322184719.jpg?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 15:15",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5269e429ec7c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5269e429ec7c",
+                  "name": "Bentleigh Greens (W) vs Alamein (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-5269e429ec7c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b03ca2ee0",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
                     }
                   ]
                 }
