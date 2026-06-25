@@ -1,12 +1,79 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:50 26/06/2026",
+  "last_updated": "04:00 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-97eff6570c1f",
+          "name": "⚽ Curacao vs Ivory Coast | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15945_1gwbryn6pn1.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/700_165018809229.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/15945_1gwbryn6pn1.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-97eff6570c1f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-97eff6570c1f",
+                  "name": "Curacao vs Ivory Coast",
+                  "streams": [
+                    {
+                      "id": "luongson-97eff6570c1f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-feaa2d5ce6",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-b7de001ccb",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-64f9179ee4",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-94c77dbfb7e5",
           "name": "⚽ Ecuador vs Germany | Không rõ",
@@ -46,92 +113,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9f1f7403d7",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-128d2491e6",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-3aa12cc3e8",
+                          "id": "lnk-661fe2dcd6",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-bc543f9ff7",
-                          "name": "BLV LEO",
+                          "id": "lnk-153e7bb676",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-97eff6570c1f",
-          "name": "⚽ Curacao vs Ivory Coast | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15945_1gwbryn6pn1.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/700_165018809229.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15945_1gwbryn6pn1.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-97eff6570c1f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-97eff6570c1f",
-                  "name": "Curacao vs Ivory Coast",
-                  "streams": [
-                    {
-                      "id": "luongson-97eff6570c1f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de8dcc5b7e",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-e63ebde2a2",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-20bd953067",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-6ca050f42b",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -160,7 +167,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 4",
+              "text": "● Live 1 : 4",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -180,7 +187,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0f0a8860e0",
+                          "id": "lnk-259b8982cc",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -233,7 +240,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8e98af1f60",
+                          "id": "lnk-520ba3575b",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
@@ -286,11 +293,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-02439a6810",
+                          "id": "lnk-534530a2c1",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -481,104 +488,6 @@
           ]
         },
         {
-          "id": "luongson-9ca17770f810",
-          "name": "⚽ Turkey vs Usa | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9ca17770f810",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9ca17770f810",
-                  "name": "Turkey vs Usa",
-                  "streams": [
-                    {
-                      "id": "luongson-9ca17770f810",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3aec85646200",
-          "name": "⚽ Paraguay vs Australia | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/795_165018939680.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3aec85646200",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3aec85646200",
-                  "name": "Paraguay vs Australia",
-                  "streams": [
-                    {
-                      "id": "luongson-3aec85646200",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b78946b7f2",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-43c67e8831b5",
           "name": "⚽ Las Vegas Aces W vs Dallas Wings W | 09:00",
           "tournament": "WNBA",
@@ -614,6 +523,96 @@
                   "streams": [
                     {
                       "id": "luongson-43c67e8831b5",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3aec85646200",
+          "name": "⚽ Paraguay vs Australia | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/795_165018939680.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3aec85646200",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3aec85646200",
+                  "name": "Paraguay vs Australia",
+                  "streams": [
+                    {
+                      "id": "luongson-3aec85646200",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9ca17770f810",
+          "name": "⚽ Turkey vs Usa | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9ca17770f810",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9ca17770f810",
+                  "name": "Turkey vs Usa",
+                  "streams": [
+                    {
+                      "id": "luongson-9ca17770f810",
                       "name": "F",
                       "stream_links": []
                     }
