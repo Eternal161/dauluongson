@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:40 25/06/2026",
+  "last_updated": "12:50 25/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-d10dd5072b11",
+          "name": "⚽ Bồ Đào Nha vs Uzbekistan | 03:26 26/06/1242",
+          "tournament": "World Cup 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782366156.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782366160.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782366156.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d10dd5072b11",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d10dd5072b11",
+                  "name": "Bồ Đào Nha vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "luongson-d10dd5072b11",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d12d254cfe",
+                          "name": "BLV KEVILL REPLAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-6ad255205620",
           "name": "⚽ Scotland vs Brazil | 03:26 26/06/1108",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c2601ed60b",
+                          "id": "lnk-59126215b9",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -321,51 +374,6 @@
                   "streams": [
                     {
                       "id": "luongson-3873372aae01",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-042a07ceac2b",
-          "name": "⚽ Khoromkhon Club vs Ulaangom City Fc | 18:00",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-042a07ceac2b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-042a07ceac2b",
-                  "name": "Khoromkhon Club vs Ulaangom City Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-042a07ceac2b",
                       "name": "F",
                       "stream_links": []
                     }
