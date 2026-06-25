@@ -202,7 +202,7 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
             if current_captured: break
             time.sleep(0.5)
 
-        blv_data = page.evaluate('''() => {
+       blv_data = page.evaluate('''() => {
             let currentBlv = "BLV Mặc định";
             let allTexts = document.body.innerText.split('\\n');
             for (let t of allTexts) {
@@ -223,25 +223,32 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
             let currentPath = window.location.pathname; 
             
             document.querySelectorAll('a[href*="?blv="]').forEach(a => {
-                if (a.closest('.swiper-wrapper') || a.closest('.match-grid') || a.closest('[data-role="match-grid"]')) {
+                let text = a.innerText.trim();
+                if (!text) return;
+                
+                // 💡 BỘ LỌC TỐI THƯỢNG: Loại bỏ hoàn toàn các thẻ là "Trận đấu" (có chứa tỉ số hoặc chữ VS)
+                // Phớt lờ mọi loại Class HTML, chỉ quan tâm nội dung chữ!
+                if (/[0-9]\\s*[:\\-]\\s*[0-9]/.test(text) || /\\bvs\\b/i.test(text)) {
                     return;
                 }
                 
-                let text = a.innerText.trim();
+                // 💡 Sửa tên "Vào phòng" bị rút gọn trên Mobile
                 if (text.toLowerCase().includes('vào phòng')) text = "🎙️ Luồng Phụ"; 
                 
-                // 💡 TIÊU DIỆT NÚT REPLAY
+                // 💡 TIÊU DIỆT NÚT REPLAY HOÀN TOÀN
                 if (text.toLowerCase().includes('replay')) return;
                 
-                if (text && a.href.includes(currentPath) && !seenHrefs.has(a.href)) {
+                if (a.href.includes(currentPath) && !seenHrefs.has(a.href)) {
                     seenHrefs.add(a.href);
-                    links.push({ name: text, href: a.href });
+                    
+                    // Rút gọn text nếu nút có chứa icon và bị xuống dòng
+                    let cleanName = text.split('\\n').pop().trim(); 
+                    links.push({ name: cleanName, href: a.href });
                 }
             });
             
             return { current: currentBlv, links: links };
         }''')
-
         if current_captured:
             for u in list(dict.fromkeys(current_captured)):
                 blv_match = re.search(r'/live/([^/]+)/', u)
