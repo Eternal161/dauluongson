@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:10 26/06/2026",
+  "last_updated": "02:20 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-36b1caf420aa",
-          "name": "⚽ Al-Hikma vs Al-Mabarrah | Không rõ",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5800_1gq92pex2wr.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3101_1gqc36amkr2t.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5800_1gq92pex2wr.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-36b1caf420aa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-36b1caf420aa",
-                  "name": "Al-Hikma vs Al-Mabarrah",
-                  "streams": [
-                    {
-                      "id": "luongson-36b1caf420aa",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d8d33dd6ce",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-da4261a90557",
           "name": "⚽ Al-Salmiyah vs Al-Arabi Club (Kuw) | Không rõ",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2334832c13",
+                          "id": "lnk-39cd9ff5e9",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-36b1caf420aa",
+          "name": "⚽ Al-Hikma vs Al-Mabarrah | Không rõ",
+          "tournament": "Lebanese Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5800_1gq92pex2wr.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3101_1gqc36amkr2t.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5800_1gq92pex2wr.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 4 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-36b1caf420aa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-36b1caf420aa",
+                  "name": "Al-Hikma vs Al-Mabarrah",
+                  "streams": [
+                    {
+                      "id": "luongson-36b1caf420aa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f903b8ed60",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-94cac722dd",
+                          "id": "lnk-b9c3829c8f",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -168,7 +168,7 @@
         },
         {
           "id": "luongson-24ec32378620",
-          "name": "⚽ Breidablik vs Vikingur Reykjavik | 02:15",
+          "name": "⚽ Breidablik vs Vikingur Reykjavik | Không rõ",
           "tournament": "Iceland Premier Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3422_165363440831.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png?v=2.4.3",
@@ -185,7 +185,7 @@
           },
           "labels": [
             {
-              "text": "● Live 02:15",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2e69261855",
+                          "id": "lnk-93e4d18b22",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -258,11 +258,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5cbe53fd87",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-e2bfa97f6e",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-bc08c73ea8",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-eda8263408",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -311,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2b4ddaefdb",
+                          "id": "lnk-c5631583ae",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
