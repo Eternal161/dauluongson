@@ -163,13 +163,7 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# CAPTURE STREAM (ĐÃ FIX LỖI LIVE/LIVE)
-# =========================================================
-# =========================================================
-# CAPTURE STREAM (ĐA LUỒNG - CÓ BÌNH LUẬN VIÊN)
-# =========================================================
-# =========================================================
-# CAPTURE STREAM (TỐI ƯU TỐC ĐỘ + IN LOG TỪNG BLV)
+# CAPTURE STREAM (TỐI ƯU TỐC ĐỘ + CHỐNG TRÙNG BLV TUYỆT ĐỐI)
 # =========================================================
 def capture_stream(context, match_url: str) -> list:
     page = context.new_page()
@@ -196,20 +190,18 @@ def capture_stream(context, match_url: str) -> list:
 
     try:
         # 1. TẢI TRANG MẶC ĐỊNH & BẮT LUỒNG ĐẦU TIÊN
-        page.goto(match_url, wait_until="domcontentloaded", timeout=15000) # Giảm timeout xuống 15s
+        page.goto(match_url, wait_until="domcontentloaded", timeout=15000)
         try:
             vp = page.viewport_size
             if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
         except: pass
         
-        # Chỉ đợi tối đa 6 giây cho BLV đầu tiên
         deadline = time.time() + 6
         while time.time() < deadline:
             if current_captured: break
             time.sleep(0.5)
 
-        # 2. CÀO TÊN BLV HIỆN TẠI VÀ TÌM CÁC NÚT BLV KHÁC
-        # 2. CÀO TÊN BLV HIỆN TẠI VÀ TÌM CÁC NÚT BLV KHÁC CỦA ĐÚNG TRẬN NÀY (Bao gồm cả Replay)
+        # 2. CÀO TÊN BLV HIỆN TẠI VÀ TÌM CÁC NÚT BLV KHÁC CỦA ĐÚNG TRẬN NÀY
         blv_data = page.evaluate('''() => {
             let currentBlv = "BLV Mặc định";
             let allTexts = document.body.innerText.split('\\n');
@@ -227,14 +219,19 @@ def capture_stream(context, match_url: str) -> list:
             }
             
             let links = [];
-            // Lấy đường dẫn gốc của trận đấu hiện tại
+            let seenHrefs = new Set();
             let currentPath = window.location.pathname; 
             
             document.querySelectorAll('a[href*="?blv="]').forEach(a => {
                 let text = a.innerText.trim();
                 
-                // 💡 CHỈ CẦN: Link chứa đúng currentPath (BLV hoặc Replay của trận này)
-                if (text && a.href.includes(currentPath)) {
+                // 💡 CHỐNG LỖI GIAO DIỆN MOBILE
+                if (text.toLowerCase().includes('vào phòng')) {
+                    text = "🎙️ Luồng Phụ"; 
+                }
+                
+                if (text && a.href.includes(currentPath) && !seenHrefs.has(a.href)) {
+                    seenHrefs.add(a.href);
                     links.push({ name: text, href: a.href });
                 }
             });
@@ -247,20 +244,17 @@ def capture_stream(context, match_url: str) -> list:
             for i, u in enumerate(unique_urls):
                 name = blv_data["current"]
                 if len(unique_urls) > 1: name += f" (Nguồn {i+1})"
+                # 💡 THÊM VÀO STREAMS
                 streams.append({"name": name, "url": u})
 
-        # 3. LẶP QUA CÁC BLV KHÁC (Ép thời gian xử lý nhanh)
+        # 3. LẶP QUA CÁC BLV KHÁC
         for link in blv_data["links"]:
-            if any(link["name"] in s["name"] for s in streams): continue
-            
-            # 💡 Thêm dòng này để terminal báo cáo nó đang làm gì, không bị có cảm giác "treo"
-            print(f"> Đang cào thêm: {link['name']}... - ls.py:246") 
+            print(f"> Đang cào thêm: {link['name']}...") 
             
             current_captured.clear()
             try:
-                # 💡 Giảm thời gian load các BLV phụ xuống siêu ngắn để tăng tốc độ
                 page.goto(link["href"], wait_until="domcontentloaded", timeout=10000)
-                deadline = time.time() + 4 # Chỉ đợi 4 giây cho video xuất hiện
+                deadline = time.time() + 4
                 while time.time() < deadline:
                     if current_captured: break
                     time.sleep(0.5)
@@ -268,9 +262,11 @@ def capture_stream(context, match_url: str) -> list:
                 if current_captured:
                     unique_urls = list(dict.fromkeys(current_captured))
                     for i, u in enumerate(unique_urls):
-                        name = link["name"]
-                        if len(unique_urls) > 1: name += f" (Nguồn {i+1})"
-                        streams.append({"name": name, "url": u})
+                        # 💡 BỘ LỌC CHỐNG TRÙNG TUYỆT ĐỐI: Bỏ qua nếu link m3u8 đã tồn tại
+                        if not any(s["url"] == u for s in streams):
+                            name = link["name"]
+                            if len(unique_urls) > 1: name += f" (Nguồn {i+1})"
+                            streams.append({"name": name, "url": u})
             except: pass
             
     except Exception as e: pass
@@ -289,7 +285,6 @@ def capture_stream(context, match_url: str) -> list:
     for s in streams: s.pop("score", None)
     
     return streams
-
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
 # =========================================================
@@ -359,14 +354,21 @@ def scrape_and_push():
         page.wait_for_timeout(5000)
 
         # Cuộn trang sâu hơn để lấy cả trận sắp tới
+        # 💡 BẤM NÚT "XEM THÊM" ĐỂ MỞ KHÓA TẤT CẢ CÁC TRẬN
         for _ in range(5):
-            page.mouse.wheel(0, 3000)
-            page.wait_for_timeout(1000)
+            try:
+                # Tìm nút có chữ "Xem thêm" và bấm vào
+                btn_xem_them = page.get_by_text("Xem thêm", exact=True).last
+                if btn_xem_them.is_visible(timeout=2000):
+                    btn_xem_them.click()
+                
+                # Cuộn xuống để load ảnh logo
+                page.mouse.wheel(0, 3000)
+                page.wait_for_timeout(1500)
+            except:
+                break # Thoát vòng lặp nếu không còn nút Xem thêm
 
         raw_matches = page.evaluate(JS_EXTRACT)
-        
-        valid_matches = []
-        seen_keys = set()
 
         for m in raw_matches:
             h = (m.get("home") or "").strip()
