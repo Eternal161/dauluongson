@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:20 25/06/2026",
+  "last_updated": "17:31 25/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d51046543a",
+                          "id": "lnk-e23371dff9",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -61,8 +61,8 @@
           ]
         },
         {
-          "id": "luongson-12f8519f9b69",
-          "name": "⚽ Darwin Hearts vs Port Darwin Fc | 03:26 26/06/1600",
+          "id": "luongson-3873372aae01",
+          "name": "⚽ Darwin Hearts vs Port Darwin Fc | Không rõ",
           "tournament": "Australia Darwin Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/44812_1gyk775sb32e.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/29750_1gyk775sbe17.png?v=2.4.3",
@@ -79,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 3 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -87,23 +87,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-12f8519f9b69",
+              "id": "luongson-3873372aae01",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-12f8519f9b69",
+                  "id": "luongson-3873372aae01",
                   "name": "Darwin Hearts vs Port Darwin Fc",
                   "streams": [
                     {
-                      "id": "luongson-12f8519f9b69",
+                      "id": "luongson-3873372aae01",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e5f1dd3594",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-5d9ed0c340",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-8e3fba7d7a",
+                          "name": "Vào phòng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -152,14 +159,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a9b18e048f",
+                          "id": "lnk-8ea52264ec",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-098e01886d",
+                          "id": "lnk-33eb605609",
                           "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
@@ -212,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-09415407c4",
+                          "id": "lnk-c84fc2955d",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -265,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-246eda9811",
+                          "id": "lnk-462b94bb82",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -298,10 +305,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 18:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -316,7 +323,15 @@
                     {
                       "id": "luongson-042a07ceac2b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb3c29930e",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -408,8 +423,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3dea96606c",
-                          "name": "Vào phòng",
+                          "id": "lnk-27c31fbacb",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
