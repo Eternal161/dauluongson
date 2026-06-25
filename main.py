@@ -369,6 +369,8 @@ def scrape_and_push():
                 break # Thoát vòng lặp nếu không còn nút Xem thêm
 
         raw_matches = page.evaluate(JS_EXTRACT)
+        valid_matches = []
+        seen_keys = set()
 
         for m in raw_matches:
             h = (m.get("home") or "").strip()
