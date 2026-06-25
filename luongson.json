@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:50 25/06/2026",
+  "last_updated": "17:01 25/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-12f8519f9b69",
-          "name": "⚽ Darwin Hearts vs Port Darwin Fc | 03:26 26/06/1600",
-          "tournament": "Australia Darwin Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44812_1gyk775sb32e.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29750_1gyk775sbe17.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/44812_1gyk775sb32e.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-12f8519f9b69",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-12f8519f9b69",
-                  "name": "Darwin Hearts vs Port Darwin Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-12f8519f9b69",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8aa889a6c",
-                          "name": "BLV KEVILL",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-6685a083fb6a",
           "name": "⚽ Than Ksvn (W) vs Tng Thai Nguyen (W) | Không rõ",
@@ -99,18 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-17ae248b05",
+                          "id": "lnk-4fa8c8f5eb",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-7af9367b6d",
+                          "id": "lnk-aa905d26eb",
                           "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3873372aae01",
+          "name": "⚽ Darwin Hearts vs Port Darwin Fc | Không rõ",
+          "tournament": "Australia Darwin Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44812_1gyk775sb32e.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29750_1gyk775sbe17.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44812_1gyk775sb32e.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3873372aae01",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3873372aae01",
+                  "name": "Darwin Hearts vs Port Darwin Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-3873372aae01",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b62e382a68",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-733f38185e",
+                          "name": "Vào phòng",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -139,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -159,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-78f23ba2ea",
+                          "id": "lnk-193e2653bb",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -212,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2af9b602c1",
+                          "id": "lnk-0838f6247a",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -265,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-021f4fbd08",
+                          "id": "lnk-454f1d5b42",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -408,7 +415,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5204644e83",
+                          "id": "lnk-e038ccefe7",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
