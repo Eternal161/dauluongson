@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:30 25/06/2026",
+  "last_updated": "18:41 25/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-82dd5225d0",
+                          "id": "lnk-ec2ed21b8d",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-35a6b5e703",
+                          "id": "lnk-5ecf41bdcb",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-270cc534bf",
+                          "id": "lnk-a795a46ec4",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -185,10 +185,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 19:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -203,7 +203,15 @@
                     {
                       "id": "luongson-b2533634732c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-40c7fd314b",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -250,15 +258,15 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6f4c244785",
-                          "name": "BLV SHIN",
+                          "id": "lnk-103ef290d4",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-3a40e9a765",
-                          "name": "L.BỊ",
+                          "id": "lnk-49003c3c13",
+                          "name": "Vào phòng",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
