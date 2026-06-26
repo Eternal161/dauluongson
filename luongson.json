@@ -1,12 +1,125 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:01 27/06/2026",
+  "last_updated": "05:10 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-8be7eeda13a4",
+          "name": "⚽ Hfx Wanderers Fc vs Pacific Fc | Không rõ",
+          "tournament": "Canadian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8be7eeda13a4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8be7eeda13a4",
+                  "name": "Hfx Wanderers Fc vs Pacific Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-8be7eeda13a4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30f7dd857b",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-4e4d835f38",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-632085570009",
+          "name": "⚽ Gremio Novorizontino vs Vila Nova | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1645_1gv1yhgq3tw.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-632085570009",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-632085570009",
+                  "name": "Gremio Novorizontino vs Vila Nova",
+                  "streams": [
+                    {
+                      "id": "luongson-632085570009",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-82593d3add",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-e3d0c96237a8",
           "name": "⚽ Nam Phi vs Hàn Quốc | 03:26 28/06/403",
@@ -46,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0958631130",
+                          "id": "lnk-cdec395ad1",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
@@ -99,124 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2b96e9eda8",
+                          "id": "lnk-09850fe420",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-632085570009",
-          "name": "⚽ Gremio Novorizontino vs Vila Nova | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1645_1gv1yhgq3tw.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-632085570009",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-632085570009",
-                  "name": "Gremio Novorizontino vs Vila Nova",
-                  "streams": [
-                    {
-                      "id": "luongson-632085570009",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32a4948e57",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8be7eeda13a4",
-          "name": "⚽ Hfx Wanderers Fc vs Pacific Fc | Không rõ",
-          "tournament": "Canadian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8be7eeda13a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8be7eeda13a4",
-                  "name": "Hfx Wanderers Fc vs Pacific Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-8be7eeda13a4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9410e49a79",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-9af4c7a5f8",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -355,7 +355,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7077c3e76c",
+                          "id": "lnk-32c67356ba",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
