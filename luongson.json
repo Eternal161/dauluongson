@@ -1,102 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:50 26/06/2026",
+  "last_updated": "21:01 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-13162fd63554",
-          "name": "⚽ Fk Taraz vs Fc Shakhtyor Karagandy | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-13162fd63554",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-13162fd63554",
-                  "name": "Fk Taraz vs Fc Shakhtyor Karagandy",
-                  "streams": [
-                    {
-                      "id": "luongson-13162fd63554",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a9971332dac5",
-          "name": "⚽ Ekibastuzets vs Astana B | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a9971332dac5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a9971332dac5",
-                  "name": "Ekibastuzets vs Astana B",
-                  "streams": [
-                    {
-                      "id": "luongson-a9971332dac5",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f487ed6a02b3",
           "name": "⚽ Kedus Giorgis vs Fasil Kenema | Không rõ",
@@ -116,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -133,6 +43,171 @@
                   "streams": [
                     {
                       "id": "luongson-f487ed6a02b3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7a67ff154f",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        },
+                        {
+                          "id": "lnk-32b9356690",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-13162fd63554",
+          "name": "⚽ Fk Taraz vs Fc Shakhtyor Karagandy | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-13162fd63554",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-13162fd63554",
+                  "name": "Fk Taraz vs Fc Shakhtyor Karagandy",
+                  "streams": [
+                    {
+                      "id": "luongson-13162fd63554",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86c5d585a3",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-a48c71a14a",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6716f58e8aa7",
+          "name": "⚽ Ogre United vs Tukums-2000 | 22:00",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6716f58e8aa7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6716f58e8aa7",
+                  "name": "Ogre United vs Tukums-2000",
+                  "streams": [
+                    {
+                      "id": "luongson-6716f58e8aa7",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-81c5ebc43b3f",
+          "name": "⚽ Fc Baranovichi vs Slavia Mozyr | 22:00",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9586_1j3c1q7sqv1.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2043_1gtqmg9t2g1h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9586_1j3c1q7sqv1.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-81c5ebc43b3f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-81c5ebc43b3f",
+                  "name": "Fc Baranovichi vs Slavia Mozyr",
+                  "streams": [
+                    {
+                      "id": "luongson-81c5ebc43b3f",
                       "name": "F",
                       "stream_links": []
                     }
@@ -178,104 +253,6 @@
                   "streams": [
                     {
                       "id": "luongson-9b291b6ed4ba",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6716f58e8aa7",
-          "name": "⚽ Ogre United vs Tukums-2000 | 22:00",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 22:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6716f58e8aa7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6716f58e8aa7",
-                  "name": "Ogre United vs Tukums-2000",
-                  "streams": [
-                    {
-                      "id": "luongson-6716f58e8aa7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8ccb2bbf96",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-81c5ebc43b3f",
-          "name": "⚽ Fc Baranovichi vs Slavia Mozyr | 22:00",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9586_1j3c1q7sqv1.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2043_1gtqmg9t2g1h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9586_1j3c1q7sqv1.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-81c5ebc43b3f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-81c5ebc43b3f",
-                  "name": "Fc Baranovichi vs Slavia Mozyr",
-                  "streams": [
-                    {
-                      "id": "luongson-81c5ebc43b3f",
                       "name": "F",
                       "stream_links": []
                     }
@@ -681,6 +658,51 @@
                   "streams": [
                     {
                       "id": "luongson-0bbb8ec5f4b5",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9f78a7c94368",
+          "name": "⚽ Shamrock Rovers vs Galway United | 01:30",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/164_165958084230.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/164_165958084230.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9f78a7c94368",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9f78a7c94368",
+                  "name": "Shamrock Rovers vs Galway United",
+                  "streams": [
+                    {
+                      "id": "luongson-9f78a7c94368",
                       "name": "F",
                       "stream_links": []
                     }
