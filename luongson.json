@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:01 26/06/2026",
+  "last_updated": "21:10 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f487ed6a02b3",
-          "name": "⚽ Kedus Giorgis vs Fasil Kenema | Không rõ",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f487ed6a02b3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f487ed6a02b3",
-                  "name": "Kedus Giorgis vs Fasil Kenema",
-                  "streams": [
-                    {
-                      "id": "luongson-f487ed6a02b3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a67ff154f",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        },
-                        {
-                          "id": "lnk-32b9356690",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-13162fd63554",
           "name": "⚽ Fk Taraz vs Fc Shakhtyor Karagandy | Không rõ",
@@ -86,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -106,20 +46,65 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86c5d585a3",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-a48c71a14a",
+                          "id": "lnk-20f25da24a",
                           "name": "BLV SHIN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        },
+                        {
+                          "id": "lnk-596375e592",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9b291b6ed4ba",
+          "name": "⚽ Arba Minch vs Welwalo Adigrat | 22:00",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/32969_1j890xs2s110.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9b291b6ed4ba",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9b291b6ed4ba",
+                  "name": "Arba Minch vs Welwalo Adigrat",
+                  "streams": [
+                    {
+                      "id": "luongson-9b291b6ed4ba",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
@@ -191,10 +176,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -209,52 +194,15 @@
                     {
                       "id": "luongson-81c5ebc43b3f",
                       "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9b291b6ed4ba",
-          "name": "⚽ Arba Minch vs Welwalo Adigrat | 22:00",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/32969_1j890xs2s110.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9b291b6ed4ba",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9b291b6ed4ba",
-                  "name": "Arba Minch vs Welwalo Adigrat",
-                  "streams": [
-                    {
-                      "id": "luongson-9b291b6ed4ba",
-                      "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e9a30222b",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -703,6 +651,51 @@
                   "streams": [
                     {
                       "id": "luongson-9f78a7c94368",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3ad73924882a",
+          "name": "⚽ Derry City vs Drogheda United | 01:45",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/295_165958076584.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3ad73924882a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3ad73924882a",
+                  "name": "Derry City vs Drogheda United",
+                  "streams": [
+                    {
+                      "id": "luongson-3ad73924882a",
                       "name": "F",
                       "stream_links": []
                     }
