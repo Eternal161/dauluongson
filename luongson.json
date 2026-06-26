@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:40 27/06/2026",
+  "last_updated": "05:50 27/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,71 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-35b97eda42",
+                          "id": "lnk-1dd3ddc930",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8be7eeda13a4",
-          "name": "⚽ Hfx Wanderers Fc vs Pacific Fc | Không rõ",
-          "tournament": "Canadian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8be7eeda13a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8be7eeda13a4",
-                  "name": "Hfx Wanderers Fc vs Pacific Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-8be7eeda13a4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ce8c11e75",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-fee09178cb",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -159,11 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9825cc6b0f",
+                          "id": "lnk-6b7f8db53a",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8be7eeda13a4",
+          "name": "⚽ Hfx Wanderers Fc vs Pacific Fc | Không rõ",
+          "tournament": "Canadian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8be7eeda13a4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8be7eeda13a4",
+                  "name": "Hfx Wanderers Fc vs Pacific Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-8be7eeda13a4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d589bd3550",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-ab7f73a07b",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -257,7 +257,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-05d5cc1cac",
+                          "id": "lnk-41c90fba99",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -310,7 +310,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-678e876467",
+                          "id": "lnk-dc0282ec4f",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
