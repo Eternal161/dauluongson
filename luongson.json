@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:30 27/06/2026",
+  "last_updated": "04:40 27/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e400a3d20c",
+                          "id": "lnk-5befe2b410",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b05851770a",
+                          "id": "lnk-a1bdd98250",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -152,18 +152,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7391a3ed11",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-bf42ab364a",
+                          "id": "lnk-cf3f505248",
                           "name": "BLV GẤU KA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-62872001e8",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -192,10 +192,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 05:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -210,7 +210,15 @@
                     {
                       "id": "luongson-632085570009",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-af6a52ae61",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -347,7 +355,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7aaa025f95",
+                          "id": "lnk-a823ea3263",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
