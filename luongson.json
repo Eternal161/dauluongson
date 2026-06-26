@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:01 26/06/2026",
+  "last_updated": "10:10 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 2 : 1",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,39 +46,39 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3687c846b4",
-                          "name": "BLV TRIỆU TỬ LONG",
+                          "id": "lnk-69095be41a",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-5d23b3318e",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-7584bdf05d",
+                          "id": "lnk-ce756a8c90",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-5809902eb2",
+                          "id": "lnk-9e87008e37",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-dc350a1445",
+                          "id": "lnk-e9d610fb47",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-3330978941",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -107,7 +107,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -127,99 +127,46 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-291224dc75",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-371e83d88f",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-07c99e4a01",
+                          "id": "lnk-dbd3bf7065",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-212a8eb909",
+                          "id": "lnk-f6fff115db",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-a84f11a701",
+                          "id": "lnk-ec94442347",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-a1b88907c3",
+                          "id": "lnk-986936f3be",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-f93f40a5e8",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-ea12bfde45",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d42276763ea0",
-          "name": "⚽ Flatirons Rush vs Utah United | 08:00",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57787_1h22jx3pdx23.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65536_1hyqf05n0g1x.PNG?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57787_1h22jx3pdx23.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 08:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d42276763ea0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d42276763ea0",
-                  "name": "Flatirons Rush vs Utah United",
-                  "streams": [
-                    {
-                      "id": "luongson-d42276763ea0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e78a9d38ec",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -268,7 +215,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5f00195067",
+                          "id": "lnk-754c08eff9",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -418,51 +365,6 @@
           ]
         },
         {
-          "id": "luongson-c8332dcb78d3",
-          "name": "⚽ Rochedale Rovers vs Gold Coast Knights | 16:30",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c8332dcb78d3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c8332dcb78d3",
-                  "name": "Rochedale Rovers vs Gold Coast Knights",
-                  "streams": [
-                    {
-                      "id": "luongson-c8332dcb78d3",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-b7baad66eeaa",
           "name": "⚽ Sydney Fc (Youth) vs Sydney United | 16:30",
           "tournament": "NSW Premier League",
@@ -543,6 +445,51 @@
                   "streams": [
                     {
                       "id": "luongson-f7973562bd7f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c8332dcb78d3",
+          "name": "⚽ Rochedale Rovers vs Gold Coast Knights | 16:30",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c8332dcb78d3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c8332dcb78d3",
+                  "name": "Rochedale Rovers vs Gold Coast Knights",
+                  "streams": [
+                    {
+                      "id": "luongson-c8332dcb78d3",
                       "name": "F",
                       "stream_links": []
                     }
@@ -768,6 +715,51 @@
                   "streams": [
                     {
                       "id": "luongson-337d81a05095",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9d5a4e0b8778",
+          "name": "⚽ Brisbane Strikers vs Ipswich City | 17:30",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28978_1hw51f2k1x11.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9d5a4e0b8778",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9d5a4e0b8778",
+                  "name": "Brisbane Strikers vs Ipswich City",
+                  "streams": [
+                    {
+                      "id": "luongson-9d5a4e0b8778",
                       "name": "F",
                       "stream_links": []
                     }
