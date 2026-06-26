@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:20 26/06/2026",
+  "last_updated": "22:30 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-6716f58e8aa7",
+          "name": "⚽ Ogre United vs Tukums-2000 | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6716f58e8aa7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6716f58e8aa7",
+                  "name": "Ogre United vs Tukums-2000",
+                  "streams": [
+                    {
+                      "id": "luongson-6716f58e8aa7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7e7c5f085b",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-ea49c722fe",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-81c5ebc43b3f",
           "name": "⚽ Fc Baranovichi vs Slavia Mozyr | Không rõ",
@@ -46,21 +106,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9375b9801b",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-4a657e488c",
+                          "id": "lnk-135065b1ac",
                           "name": "BLV LEO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-278120b3d8",
+                          "id": "lnk-a414804859",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-1bd4a087e1",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
@@ -113,71 +173,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-613cba6c0b",
+                          "id": "lnk-7e53136ec6",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6716f58e8aa7",
-          "name": "⚽ Ogre United vs Tukums-2000 | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6716f58e8aa7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6716f58e8aa7",
-                  "name": "Ogre United vs Tukums-2000",
-                  "streams": [
-                    {
-                      "id": "luongson-6716f58e8aa7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1a2d6664",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-1a34ab44d3",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -226,18 +226,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fe70c85a8c",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-18c2b6d9f7",
+                          "id": "lnk-b86178e408",
                           "name": "BLV PELE",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-b98841d2ad",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -266,10 +266,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -284,7 +284,15 @@
                     {
                       "id": "luongson-9090c76e7626",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2234c0c2f8",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
                     }
                   ]
                 }
