@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:30 26/06/2026",
+  "last_updated": "14:40 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,64 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8de40a2d97",
+                          "id": "lnk-fd39569e01",
                           "name": "BLV TO1A",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b53ce514fe4e",
-          "name": "⚽ Wellington Saints vs Nelson Giants | 14:30",
-          "tournament": "NBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420562.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420563.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782420562.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 14:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b53ce514fe4e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b53ce514fe4e",
-                  "name": "Wellington Saints vs Nelson Giants",
-                  "streams": [
-                    {
-                      "id": "luongson-b53ce514fe4e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa7acb9a2c",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -152,11 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6727b34078",
+                          "id": "lnk-43a82c9190",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        },
+                        {
+                          "id": "lnk-c79eadf980",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -185,10 +139,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:15",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -203,7 +157,15 @@
                     {
                       "id": "luongson-5269e429ec7c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1b4e5b66c2",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -697,6 +659,51 @@
                   "streams": [
                     {
                       "id": "luongson-51f776d7be14",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d34d365b511d",
+          "name": "⚽ Qingdao Manatee vs Yunnan Yukun | 18:35",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61513_1k0qw9nssh1n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d34d365b511d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d34d365b511d",
+                  "name": "Qingdao Manatee vs Yunnan Yukun",
+                  "streams": [
+                    {
+                      "id": "luongson-d34d365b511d",
                       "name": "F",
                       "stream_links": []
                     }
