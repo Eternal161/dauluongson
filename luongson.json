@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:30 26/06/2026",
+  "last_updated": "08:36 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-1b0d4e668cad",
-          "name": "⚽ Colo Colo vs O.Higgins | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/912_1h51a7xcwc1q.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
+          "id": "luongson-9ca17770f810",
+          "name": "⚽ Turkey vs Usa | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/912_1h51a7xcwc1q.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 3 : 2",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,44 @@
           ],
           "sources": [
             {
-              "id": "luongson-1b0d4e668cad",
+              "id": "luongson-9ca17770f810",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-1b0d4e668cad",
-                  "name": "Colo Colo vs O.Higgins",
+                  "id": "luongson-9ca17770f810",
+                  "name": "Turkey vs Usa",
                   "streams": [
                     {
-                      "id": "luongson-1b0d4e668cad",
+                      "id": "luongson-9ca17770f810",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-abb5187deb",
-                          "name": "BLV HEINEKEN",
+                          "id": "lnk-8324f3e4e4",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-7f7eae30cc",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-38ff842722",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-7fb52b96f0",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -99,7 +120,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b9c5fd3be7",
+                          "id": "lnk-81078835ca",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -152,78 +173,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-579fd1d279",
+                          "id": "lnk-8b137a17b5",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9ca17770f810",
-          "name": "⚽ Turkey vs Usa | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/690_165102965258.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/656_164984190591.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9ca17770f810",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9ca17770f810",
-                  "name": "Turkey vs Usa",
-                  "streams": [
-                    {
-                      "id": "luongson-9ca17770f810",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbe1345af4",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-cd3e7feeed",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-647aa50533",
-                          "name": "BLV KEVILL",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -272,25 +226,46 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c09cdaf050",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-35f77fa9bb",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-a31fd3c22f",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-6b1057ef4f",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-c4036d5861",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-2e66acd71b",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-30f563a4a6",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-e224e7b691",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-b663aecfd8",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -339,7 +314,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0e431394",
+                          "id": "lnk-8a9618fcb4",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -749,6 +724,51 @@
                   "streams": [
                     {
                       "id": "luongson-0718c9b55e98",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-907660b680ed",
+          "name": "⚽ Rtc Fc vs Transport United Fc | 17:00",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57936_167066175516.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/30158_1h8qppr9qk2v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/57936_167066175516.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-907660b680ed",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-907660b680ed",
+                  "name": "Rtc Fc vs Transport United Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-907660b680ed",
                       "name": "F",
                       "stream_links": []
                     }
