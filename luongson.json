@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:01 26/06/2026",
+  "last_updated": "18:11 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-c8332dcb78d3",
-          "name": "⚽ Rochedale Rovers vs Gold Coast Knights | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
+          "id": "luongson-0718c9b55e98",
+          "name": "⚽ Suwon Fmc (W) vs Gyeongju Fc (W) | Không rõ",
+          "tournament": "WK League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29415_20200322172925.gif?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,76 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-c8332dcb78d3",
+              "id": "luongson-0718c9b55e98",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c8332dcb78d3",
-                  "name": "Rochedale Rovers vs Gold Coast Knights",
+                  "id": "luongson-0718c9b55e98",
+                  "name": "Suwon Fmc (W) vs Gyeongju Fc (W)",
                   "streams": [
                     {
-                      "id": "luongson-c8332dcb78d3",
+                      "id": "luongson-0718c9b55e98",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3821dcdf95",
-                          "name": "BLV HÀN TÍN",
+                          "id": "lnk-675fd85281",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b7baad66eeaa",
-          "name": "⚽ Sydney Fc (Youth) vs Sydney United | Không rõ",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b7baad66eeaa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b7baad66eeaa",
-                  "name": "Sydney Fc (Youth) vs Sydney United",
-                  "streams": [
-                    {
-                      "id": "luongson-b7baad66eeaa",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
                         {
-                          "id": "lnk-9af5dc1891",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-78ede7e30d",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -152,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-11ae0fc6e9",
+                          "id": "lnk-72eaf47de3",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -167,11 +121,11 @@
           ]
         },
         {
-          "id": "luongson-51f776d7be14",
-          "name": "⚽ Adelaide Comets Fc vs Adelaide City Fc | Không rõ",
-          "tournament": "FFSA Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12774_1gsh36afdg1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12158_1hvszb500y2k.png?v=2.4.3",
+          "id": "luongson-c8332dcb78d3",
+          "name": "⚽ Rochedale Rovers vs Gold Coast Knights | Không rõ",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,13 +133,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12774_1gsh36afdg1c.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -193,249 +147,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-51f776d7be14",
+              "id": "luongson-c8332dcb78d3",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-51f776d7be14",
-                  "name": "Adelaide Comets Fc vs Adelaide City Fc",
+                  "id": "luongson-c8332dcb78d3",
+                  "name": "Rochedale Rovers vs Gold Coast Knights",
                   "streams": [
                     {
-                      "id": "luongson-51f776d7be14",
+                      "id": "luongson-c8332dcb78d3",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e1e2a628c8",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-4cac4f7d4a",
+                          "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2a9026fb5925",
-          "name": "⚽ Croydon Kings vs Adelaide United Fc (Youth) | Không rõ",
-          "tournament": "FFSA Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12816_1hvszb50gr1q.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7895_20130923112748.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12816_1hvszb50gr1q.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2a9026fb5925",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2a9026fb5925",
-                  "name": "Croydon Kings vs Adelaide United Fc (Youth)",
-                  "streams": [
-                    {
-                      "id": "luongson-2a9026fb5925",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e221014df7",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c41f6abe1127",
-          "name": "⚽ Holland Park Hawks Fc vs Redlands United Fc | Không rõ",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9295_1gryyqvj2d12.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c41f6abe1127",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c41f6abe1127",
-                  "name": "Holland Park Hawks Fc vs Redlands United Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-c41f6abe1127",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a568f4d176",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0718c9b55e98",
-          "name": "⚽ Suwon Fmc (W) vs Gyeongju Fc (W) | Không rõ",
-          "tournament": "WK League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29415_20200322172925.gif?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0718c9b55e98",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0718c9b55e98",
-                  "name": "Suwon Fmc (W) vs Gyeongju Fc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-0718c9b55e98",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b237f098dd",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-416b4bc5ff",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f7973562bd7f",
-          "name": "⚽ Heidelberg United vs Oakleigh Cannons | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f7973562bd7f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f7973562bd7f",
-                  "name": "Heidelberg United vs Oakleigh Cannons",
-                  "streams": [
-                    {
-                      "id": "luongson-f7973562bd7f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-93b534e85a",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        },
-                        {
-                          "id": "lnk-9e471350c3",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -484,11 +212,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2825c2c3ec",
+                          "id": "lnk-9c341254b9",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b7baad66eeaa",
+          "name": "⚽ Sydney Fc (Youth) vs Sydney United | Không rõ",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b7baad66eeaa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b7baad66eeaa",
+                  "name": "Sydney Fc (Youth) vs Sydney United",
+                  "streams": [
+                    {
+                      "id": "luongson-b7baad66eeaa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3ac7e90fd",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -537,18 +318,124 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cc40e414ca",
+                          "id": "lnk-0a671e30ba",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-0f24f29907",
+                          "id": "lnk-04bab0fd11",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2a9026fb5925",
+          "name": "⚽ Croydon Kings vs Adelaide United Fc (Youth) | Không rõ",
+          "tournament": "FFSA Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12816_1hvszb50gr1q.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7895_20130923112748.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12816_1hvszb50gr1q.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2a9026fb5925",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2a9026fb5925",
+                  "name": "Croydon Kings vs Adelaide United Fc (Youth)",
+                  "streams": [
+                    {
+                      "id": "luongson-2a9026fb5925",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4defd6b9ed",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-51f776d7be14",
+          "name": "⚽ Adelaide Comets Fc vs Adelaide City Fc | Không rõ",
+          "tournament": "FFSA Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12774_1gsh36afdg1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12158_1hvszb500y2k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12774_1gsh36afdg1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-51f776d7be14",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-51f776d7be14",
+                  "name": "Adelaide Comets Fc vs Adelaide City Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-51f776d7be14",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-387ea57fae",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -577,7 +464,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -597,11 +484,124 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9333edd40e",
+                          "id": "lnk-70825fca8e",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f7973562bd7f",
+          "name": "⚽ Heidelberg United vs Oakleigh Cannons | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f7973562bd7f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f7973562bd7f",
+                  "name": "Heidelberg United vs Oakleigh Cannons",
+                  "streams": [
+                    {
+                      "id": "luongson-f7973562bd7f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-16fe43950c",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        },
+                        {
+                          "id": "lnk-ce5ba72c46",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c41f6abe1127",
+          "name": "⚽ Holland Park Hawks Fc vs Redlands United Fc | Không rõ",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9295_1gryyqvj2d12.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c41f6abe1127",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c41f6abe1127",
+                  "name": "Holland Park Hawks Fc vs Redlands United Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-c41f6abe1127",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10c219cc73",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -650,7 +650,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-122dda674c",
+                          "id": "lnk-73eb47fb9a",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
