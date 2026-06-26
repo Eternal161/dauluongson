@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:31 26/06/2026",
+  "last_updated": "21:40 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7171c25fa6",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        },
-                        {
-                          "id": "lnk-9f92fddacb",
+                          "id": "lnk-414d16d265",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-ba0dea1e9b",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -86,10 +86,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -104,7 +104,15 @@
                     {
                       "id": "luongson-9b291b6ed4ba",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1478b57413",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -131,10 +139,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -149,7 +157,22 @@
                     {
                       "id": "luongson-6716f58e8aa7",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-af7cc8a62c",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        },
+                        {
+                          "id": "lnk-9cbae7e5af",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -196,10 +219,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a1f7ab36b5",
-                          "name": "BLV LIO",
+                          "id": "lnk-e15bad8b63",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-49094915ef",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
