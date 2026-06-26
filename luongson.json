@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:41 26/06/2026",
+  "last_updated": "16:50 26/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-568a14e580",
+                          "id": "lnk-c0826771b0",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f7973562bd7f",
+          "name": "⚽ Heidelberg United vs Oakleigh Cannons | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f7973562bd7f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f7973562bd7f",
+                  "name": "Heidelberg United vs Oakleigh Cannons",
+                  "streams": [
+                    {
+                      "id": "luongson-f7973562bd7f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f64271082",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        },
+                        {
+                          "id": "lnk-fb625127cc",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -99,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c77d0f5bb1",
+                          "id": "lnk-a3c5e8d3ec",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -152,17 +212,10 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eaa0b1b89d",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-e2e9585e36",
+                          "id": "lnk-80922f3fe3",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
@@ -174,68 +227,8 @@
           ]
         },
         {
-          "id": "luongson-f7973562bd7f",
-          "name": "⚽ Heidelberg United vs Oakleigh Cannons | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f7973562bd7f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f7973562bd7f",
-                  "name": "Heidelberg United vs Oakleigh Cannons",
-                  "streams": [
-                    {
-                      "id": "luongson-f7973562bd7f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2b21d7c297",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        },
-                        {
-                          "id": "lnk-fc75d55ff8",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-ed995b0baff0",
-          "name": "⚽ Dandenong City Sc vs Avondale Fc | 16:45",
+          "name": "⚽ Dandenong City Sc vs Avondale Fc | Không rõ",
           "tournament": "VIC Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/17109_1gzmqcsvef17.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/20222_1gzsya27tv1x.png?v=2.4.3",
@@ -252,7 +245,7 @@
           },
           "labels": [
             {
-              "text": "● Live 16:45",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -272,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c293d6a479",
+                          "id": "lnk-6ad990c6d5",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -325,11 +318,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ca12b055b4",
+                          "id": "lnk-be252ffbdb",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-8bafaa8b4b",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -378,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-23b8f8a5ec",
+                          "id": "lnk-8666247efa",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -431,7 +431,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ff53e4364",
+                          "id": "lnk-81876c167b",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
