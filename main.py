@@ -6,6 +6,7 @@ import uuid
 import hashlib
 import datetime
 import requests
+import unicodedata
 from github import Github
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 from playwright_stealth import Stealth
@@ -162,14 +163,23 @@ JS_EXTRACT = """
 }
 """
 
-# =========================================================
-# CAPTURE STREAM (TỐI ƯU + CHỐNG TRÙNG CHÉO TOÀN TRANG + BỎ REPLAY)
-# =========================================================
 def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
     page = context.new_page()
-    try: Stealth().apply_stealth_sync(page)
-    except: pass
-    
+    try:
+        Stealth().apply_stealth_sync(page)
+    except:
+        pass
+
+    def norm_key(s: str) -> str:
+        s = s or ""
+        s = unicodedata.normalize("NFD", s)
+        s = "".join(c for c in s if unicodedata.category(c) != "Mn")
+        return re.sub(r"[^A-Za-z0-9]", "", s).upper()
+
+    def get_stream_key(url: str) -> str:
+        m = re.search(r"/live/([^/?#]+)/", url, flags=re.I)
+        return norm_key(m.group(1)) if m else ""
+
     seen_urls = set()
     current_captured = []
     BAD = [".gif", ".png", ".jpg", ".mp4", "saba.m3u8", "/ad/", "/ads/", "quangcao", "banner", "tvc.", "tvc/"]
@@ -179,121 +189,235 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
         if ".m3u8" in u and not any(b in u for b in BAD):
             if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
                 url = url.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-            
-            # 💡 CHẶN TRÙNG LẶP TUYỆT ĐỐI TOÀN TRANG: Nếu link đã thuộc về trận trước, bỏ qua ngay!
+
             if url not in seen_urls and url not in global_seen_streams:
                 seen_urls.add(url)
                 current_captured.append(url)
 
-    page.on("request",  lambda req: process_url(req.url))
+    page.on("request", lambda req: process_url(req.url))
     page.on("response", lambda res: process_url(res.url))
 
     streams_dict = {}
 
-    try:
-        page.goto(match_url, wait_until="domcontentloaded", timeout=15000)
-        try:
-            vp = page.viewport_size
-            if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
-        except: pass
-        
-        deadline = time.time() + 6
-        while time.time() < deadline:
-            if current_captured: break
-            time.sleep(0.5)
+    def add_stream(url: str, name_hint: str = "", expected_key: str = ""):
+        key = get_stream_key(url)
+        if not key:
+            key = norm_key(url)
 
-        # 👇 Căn cho chữ "blv_data" thẳng hàng đứng với chữ "while" và "deadline" ở trên
-        blv_data = page.evaluate('''() => {
-            let currentBlv = "BLV Mặc định";
-            let allTexts = document.body.innerText.split('\\n');
-            for (let t of allTexts) {
-                if (t.includes('BLV: BLV')) {
-                    currentBlv = t.split('BLV: ')[1].trim();
+        expected_key = norm_key(expected_key)
+
+        # Nếu đang bấm BLV VÕ TÒNG thì chỉ nhận m3u8 /live/VOTONG/
+        # Tránh lấy nhầm request cũ của LEO hoặc BLV khác.
+        if expected_key and get_stream_key(url) and key != expected_key:
+            return False
+
+        if key not in streams_dict:
+            name = name_hint or f"BLV {key}"
+            streams_dict[key] = {
+                "name": name,
+                "url": url
+            }
+        return True
+
+    def read_blv_data():
+        return page.evaluate("""
+        () => {
+            const clean = t => (t || '').replace(/\\s+/g, ' ').trim();
+            const norm = s => (s || '')
+                .normalize('NFD')
+                .replace(/[\\u0300-\\u036f]/g, '')
+                .replace(/[^a-zA-Z0-9]/g, '')
+                .toUpperCase();
+
+            function pickName(text) {
+                const lines = (text || '')
+                    .split('\\n')
+                    .map(clean)
+                    .filter(Boolean);
+
+                for (const line of lines) {
+                    const m = line.match(/^BLV\\s*(.+)$/i);
+                    if (m) return 'BLV ' + clean(m[1]);
+                }
+
+                const m2 = clean(text).match(/BLV\\s+[^0-9|•]+/i);
+                return m2 ? clean(m2[0]) : '';
+            }
+
+            let current = '';
+            const bodyLines = (document.body.innerText || '')
+                .split('\\n')
+                .map(clean)
+                .filter(Boolean);
+
+            // Ưu tiên dòng trên player: "BLV: BLV VÕ TÒNG"
+            for (const line of bodyLines) {
+                let m = line.match(/BLV:\\s*(BLV\\s*[^•|]+?)(?:\\s+Theo dõi|\\s+👁|\\s*$)/i);
+                if (m) {
+                    current = clean(m[1]);
                     break;
-                } else if (t.includes('Bình luận viên: ') && !t.includes('tiếng Việt')) {
-                    let parts = t.split('Bình luận viên: ');
-                    if (parts[1]) { 
-                        currentBlv = parts[1].split(' Tỷ số')[0].split(' thuộc')[0].trim(); 
-                        break; 
+                }
+            }
+
+            // Fallback: đoạn mô tả bên dưới
+            if (!current) {
+                for (const line of bodyLines) {
+                    let m = line.match(/Bình luận viên:\\s*(BLV\\s*[^.]+?)(?:\\s+Tỷ số|\\s+thuộc|\\s*$)/i);
+                    if (m) {
+                        current = clean(m[1]);
+                        break;
                     }
                 }
             }
-            
-            let links = [];
-            let seenHrefs = new Set();
-            let currentPath = window.location.pathname; 
-            
-            document.querySelectorAll('a[href*="?blv="]').forEach(a => {
-                let text = a.innerText.trim();
-                if (!text) return;
-                
-                // Loại bỏ hoàn toàn các thẻ là "Trận đấu" (có chứa tỉ số hoặc chữ VS)
-                if (/[0-9]\\s*[:\\-]\\s*[0-9]/.test(text) || /\\bvs\\b/i.test(text)) {
+
+            const currentPath = window.location.pathname.replace(/\\/$/, '');
+            const best = new Map();
+
+            document.querySelectorAll('a[href*="blv="]').forEach(a => {
+                let url;
+                try {
+                    url = new URL(a.href);
+                } catch(e) {
                     return;
                 }
-                
-                if (text.toLowerCase().includes('vào phòng')) text = "🎙️ Luồng Phụ"; 
-                if (text.toLowerCase().includes('replay')) return;
-                
-                if (a.href.includes(currentPath) && !seenHrefs.has(a.href)) {
-                    seenHrefs.add(a.href);
-                    let cleanName = text.split('\\n').pop().trim(); 
-                    links.push({ name: cleanName, href: a.href });
+
+                if (url.pathname.replace(/\\/$/, '') !== currentPath) return;
+
+                const keyRaw = url.searchParams.get('blv') || '';
+                const key = norm(keyRaw);
+                if (!key) return;
+
+                const rawText = a.innerText || '';
+                const text = clean(rawText);
+                if (!text) return;
+                if (/replay/i.test(text)) return;
+                if (/vào phòng/i.test(text)) return;
+
+                let name = pickName(rawText);
+                if (!name) return;
+
+                const item = {
+                    key,
+                    name,
+                    href: a.href,
+                    len: text.length
+                };
+
+                // Nếu DOM có nhiều thẻ trùng href/key, lấy thẻ có text ngắn nhất,
+                // thường là card BLV thật, không phải container slider.
+                const old = best.get(key);
+                if (!old || item.len < old.len) {
+                    best.set(key, item);
                 }
             });
-            
-            return { current: currentBlv, links: links };
-        }''')
-        if current_captured:
-            for u in list(dict.fromkeys(current_captured)):
-                blv_match = re.search(r'/live/([^/]+)/', u)
-                key = blv_match.group(1).upper() if blv_match else u
-                
-                if key not in streams_dict:
-                    if len(streams_dict) == 0:
-                        name = blv_data["current"]
-                    else:
-                        name = f"BLV {key}" if blv_match else f"Luồng {len(streams_dict)+1}"
-                    streams_dict[key] = {"name": name, "url": u}
 
-        for link in blv_data["links"]:
-            print(f"      > Đang cào thêm: {link['name']}...") 
+            const links = Array.from(best.values());
+            const map = {};
+            links.forEach(x => map[x.key] = x.name);
+
+            return { current, links, map };
+        }
+        """)
+
+    try:
+        page.goto(match_url, wait_until="domcontentloaded", timeout=15000)
+
+        try:
+            vp = page.viewport_size
+            if vp:
+                page.mouse.click(vp["width"] // 2, vp["height"] // 2)
+        except:
+            pass
+
+        deadline = time.time() + 6
+        while time.time() < deadline:
+            if current_captured:
+                break
+            time.sleep(0.5)
+
+        blv_data = read_blv_data()
+        blv_map = blv_data.get("map", {}) or {}
+
+        # Luồng đang mở mặc định
+        if current_captured:
+            current_name = blv_data.get("current") or ""
+            for u in list(dict.fromkeys(current_captured)):
+                key = get_stream_key(u)
+                name = blv_map.get(key) or current_name or f"BLV {key}"
+                add_stream(u, name_hint=name)
+
+        # Cào từng BLV khác
+        for link in blv_data.get("links", []):
+            link_name = link.get("name") or ""
+            expected_key = link.get("key") or ""
+
+            print(f"      > Đang cào thêm: {link_name} [{expected_key}]...")
+
             current_captured.clear()
+
             try:
                 page.goto(link["href"], wait_until="domcontentloaded", timeout=10000)
-                deadline = time.time() + 4
+
+                try:
+                    vp = page.viewport_size
+                    if vp:
+                        page.mouse.click(vp["width"] // 2, vp["height"] // 2)
+                except:
+                    pass
+
+                deadline = time.time() + 5
                 while time.time() < deadline:
-                    if current_captured: break
+                    if current_captured:
+                        break
                     time.sleep(0.5)
-                    
+
+                page_blv_data = read_blv_data()
+                page_current_name = page_blv_data.get("current") or link_name
+
                 if current_captured:
+                    accepted = False
+
                     for u in list(dict.fromkeys(current_captured)):
-                        blv_match = re.search(r'/live/([^/]+)/', u)
-                        key = blv_match.group(1).upper() if blv_match else u
-                        
-                        if key not in streams_dict:
-                            streams_dict[key] = {"name": link["name"], "url": u}
-                        else:
-                            if streams_dict[key]["name"] == f"BLV {key}":
-                                streams_dict[key]["name"] = link["name"]
-            except: pass
-            
-    except Exception as e: pass
-    finally: page.close()
+                        key = get_stream_key(u)
+                        name = blv_map.get(key) or page_current_name or link_name or f"BLV {key}"
+
+                        if add_stream(u, name_hint=name, expected_key=expected_key):
+                            accepted = True
+
+                    # Fallback nếu key trên URL web không trùng key trong m3u8
+                    if not accepted:
+                        for u in list(dict.fromkeys(current_captured)):
+                            key = get_stream_key(u)
+                            name = blv_map.get(key) or page_current_name or link_name or f"BLV {key}"
+                            add_stream(u, name_hint=name)
+
+            except Exception as e:
+                print(f"      ⚠️ Lỗi khi cào {link_name}: {e}")
+
+    except Exception as e:
+        print(f"      ⚠️ Lỗi capture_stream: {e}")
+
+    finally:
+        page.close()
 
     streams = list(streams_dict.values())
-    if not streams: return []
-    
+    if not streams:
+        return []
+
     for s in streams:
         score = 0
         lo = s["url"].lower()
-        if "cdnfaster-a.live" in lo: score += 10000 
-        if "100ycdn" in lo: score += 5000
+        if "cdnfaster-a.live" in lo:
+            score += 10000
+        if "100ycdn" in lo:
+            score += 5000
         s["score"] = score
-        
+
     streams.sort(reverse=True, key=lambda x: x.get("score", 0))
-    for s in streams: s.pop("score", None)
-    
+
+    for s in streams:
+        s.pop("score", None)
+
     return streams
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
