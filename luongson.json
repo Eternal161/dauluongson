@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:10 27/06/2026",
+  "last_updated": "06:21 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-e3d0c96237a8",
-          "name": "⚽ Nam Phi vs Hàn Quốc | 03:26 28/06/403",
-          "tournament": "World Cup 2026",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782507808.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782507812.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782507808.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live H1 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e3d0c96237a8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e3d0c96237a8",
-                  "name": "Nam Phi vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "luongson-e3d0c96237a8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-123de4c71d",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-632085570009",
           "name": "⚽ Gremio Novorizontino vs Vila Nova | Không rõ",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e9aa410f01",
+                          "id": "lnk-06b34d9803",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -132,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 3 : 2",
+              "text": "● Live 4 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3929019024",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-db12261af3",
+                          "id": "lnk-08bf1be6a7",
                           "name": "BLV GẤU KA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-07144b4cfd",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -257,11 +204,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-af64254a1b",
+                          "id": "lnk-9c7a1e2ffe",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-e08a2784f8",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-84852ef90c",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -310,7 +271,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-691a427761",
+                          "id": "lnk-b9a0320730",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -720,6 +681,51 @@
                   "streams": [
                     {
                       "id": "luongson-6e35b21839db",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d39f9fe1b6d6",
+          "name": "⚽ Logan Lightning vs Caboolture Fc | 14:00",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d39f9fe1b6d6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d39f9fe1b6d6",
+                  "name": "Logan Lightning vs Caboolture Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-d39f9fe1b6d6",
                       "name": "F",
                       "stream_links": []
                     }
