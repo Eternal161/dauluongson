@@ -1,12 +1,178 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:10 27/06/2026",
+  "last_updated": "00:20 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-79d3208d029a",
+          "name": "⚽ Klubi 04 Helsinki vs Sjk Akatemia | Không rõ",
+          "tournament": "Finland Ykkonen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2008_1hptwm1jvy2v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28709_1gqvn6qhmy29.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2008_1hptwm1jvy2v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-79d3208d029a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-79d3208d029a",
+                  "name": "Klubi 04 Helsinki vs Sjk Akatemia",
+                  "streams": [
+                    {
+                      "id": "luongson-79d3208d029a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a229421cc6",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c54d1ff3897d",
+          "name": "⚽ Pk-35 Vantaa vs Mp Mikeli | Không rõ",
+          "tournament": "Finland Ykkonen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1850_1hxdga205x10.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c54d1ff3897d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c54d1ff3897d",
+                  "name": "Pk-35 Vantaa vs Mp Mikeli",
+                  "streams": [
+                    {
+                      "id": "luongson-c54d1ff3897d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15bd1476cc",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9090c76e7626",
+          "name": "⚽ Fk Liepaja vs Fk Rigas Futbola Skola | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9090c76e7626",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9090c76e7626",
+                  "name": "Fk Liepaja vs Fk Rigas Futbola Skola",
+                  "streams": [
+                    {
+                      "id": "luongson-9090c76e7626",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58176ed0d2",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-84ee56860a",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-d8f218bb9aea",
           "name": "⚽ Garr And Ava vs Fk Minija | Không rõ",
@@ -46,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-82d06048d8",
+                          "id": "lnk-fbaf2500ee",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -99,184 +265,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-22f71ca0f5",
+                          "id": "lnk-d19b8b7bbb",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-d3a16ee5e6",
+                          "id": "lnk-a0789a0b83",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-79d3208d029a",
-          "name": "⚽ Klubi 04 Helsinki vs Sjk Akatemia | Không rõ",
-          "tournament": "Finland Ykkonen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2008_1hptwm1jvy2v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28709_1gqvn6qhmy29.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2008_1hptwm1jvy2v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-79d3208d029a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-79d3208d029a",
-                  "name": "Klubi 04 Helsinki vs Sjk Akatemia",
-                  "streams": [
-                    {
-                      "id": "luongson-79d3208d029a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0dd81344d2",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9090c76e7626",
-          "name": "⚽ Fk Liepaja vs Fk Rigas Futbola Skola | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9090c76e7626",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9090c76e7626",
-                  "name": "Fk Liepaja vs Fk Rigas Futbola Skola",
-                  "streams": [
-                    {
-                      "id": "luongson-9090c76e7626",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9fb021b0f2",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-e116756603",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c54d1ff3897d",
-          "name": "⚽ Pk-35 Vantaa vs Mp Mikeli | Không rõ",
-          "tournament": "Finland Ykkonen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1850_1hxdga205x10.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c54d1ff3897d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c54d1ff3897d",
-                  "name": "Pk-35 Vantaa vs Mp Mikeli",
-                  "streams": [
-                    {
-                      "id": "luongson-c54d1ff3897d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09d8ee3d18",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -325,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-96e63b30a6",
+                          "id": "lnk-3e9d08ddfb",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -378,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-24c948e69d",
+                          "id": "lnk-78195ce9d9",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -411,10 +411,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:45",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -429,7 +429,22 @@
                     {
                       "id": "luongson-0bbb8ec5f4b5",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3bb51e93f",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-b0cfe48d42",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -476,14 +491,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ce5fb6eb9d",
+                          "id": "lnk-61d43319a0",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-2790640bce",
+                          "id": "lnk-a42236eca6",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
