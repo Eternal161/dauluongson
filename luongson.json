@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:21 27/06/2026",
+  "last_updated": "06:31 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-632085570009",
-          "name": "⚽ Gremio Novorizontino vs Vila Nova | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1645_1gv1yhgq3tw.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-632085570009",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-632085570009",
-                  "name": "Gremio Novorizontino vs Vila Nova",
-                  "streams": [
-                    {
-                      "id": "luongson-632085570009",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-06b34d9803",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-8be7eeda13a4",
           "name": "⚽ Hfx Wanderers Fc vs Pacific Fc | Không rõ",
@@ -99,18 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-08bf1be6a7",
+                          "id": "lnk-aa0d74c28b",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         },
                         {
-                          "id": "lnk-07144b4cfd",
+                          "id": "lnk-21313dd096",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-632085570009",
+          "name": "⚽ Gremio Novorizontino vs Vila Nova | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1645_1gv1yhgq3tw.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-632085570009",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-632085570009",
+                  "name": "Gremio Novorizontino vs Vila Nova",
+                  "streams": [
+                    {
+                      "id": "luongson-632085570009",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-475ee51286",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -139,10 +139,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -157,7 +157,29 @@
                     {
                       "id": "luongson-e5e9b9b5619c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-264e5a2123",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-e1fc8268b8",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-6c53a3e6e1",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -204,21 +226,28 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9c7a1e2ffe",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-3d4ccc0148",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-4bb7d6e3eb",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-e08a2784f8",
+                          "id": "lnk-839750a435",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-84852ef90c",
+                          "id": "lnk-7135800228",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -251,7 +280,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -271,7 +300,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b9a0320730",
+                          "id": "lnk-f11b0a14b4",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
