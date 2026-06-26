@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:20 26/06/2026",
+  "last_updated": "16:30 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f7973562bd7f",
-          "name": "⚽ Heidelberg United vs Oakleigh Cannons | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f7973562bd7f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f7973562bd7f",
-                  "name": "Heidelberg United vs Oakleigh Cannons",
-                  "streams": [
-                    {
-                      "id": "luongson-f7973562bd7f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a86cfef45d",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        },
-                        {
-                          "id": "lnk-01bf6a550a",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-b7baad66eeaa",
           "name": "⚽ Sydney Fc (Youth) vs Sydney United | Không rõ",
@@ -106,11 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b422bd6a58",
+                          "id": "lnk-fbed7bd3b2",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5269e429ec7c",
+          "name": "⚽ Bentleigh Greens (W) vs Alamein (W) | Không rõ",
+          "tournament": "VIC Women’s Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23732_20200322184719.jpg?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5269e429ec7c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5269e429ec7c",
+                  "name": "Bentleigh Greens (W) vs Alamein (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-5269e429ec7c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e75c45285",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-557a1aae30",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -159,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-05a369cbf9",
+                          "id": "lnk-389c6170b5",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -174,11 +174,11 @@
           ]
         },
         {
-          "id": "luongson-5269e429ec7c",
-          "name": "⚽ Bentleigh Greens (W) vs Alamein (W) | Không rõ",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23732_20200322184719.jpg?v=2.4.3",
+          "id": "luongson-f7973562bd7f",
+          "name": "⚽ Heidelberg United vs Oakleigh Cannons | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -186,13 +186,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 1",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -200,30 +200,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-5269e429ec7c",
+              "id": "luongson-f7973562bd7f",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-5269e429ec7c",
-                  "name": "Bentleigh Greens (W) vs Alamein (W)",
+                  "id": "luongson-f7973562bd7f",
+                  "name": "Heidelberg United vs Oakleigh Cannons",
                   "streams": [
                     {
-                      "id": "luongson-5269e429ec7c",
+                      "id": "luongson-f7973562bd7f",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d8c1bd8e6c",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-7ab8e4b625",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         },
                         {
-                          "id": "lnk-4ae36d4305",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-8f5d1dcc4f",
+                          "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -252,10 +252,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:45",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -270,7 +270,15 @@
                     {
                       "id": "luongson-ed995b0baff0",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3717943b52",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -342,10 +350,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -360,7 +368,15 @@
                     {
                       "id": "luongson-907660b680ed",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2467080a2c",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -387,10 +403,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -405,7 +421,15 @@
                     {
                       "id": "luongson-2a9026fb5925",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0828f5cb6a",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
                     }
                   ]
                 }
