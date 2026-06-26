@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:31 27/06/2026",
+  "last_updated": "06:40 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-8be7eeda13a4",
-          "name": "⚽ Hfx Wanderers Fc vs Pacific Fc | Không rõ",
-          "tournament": "Canadian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 4 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8be7eeda13a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8be7eeda13a4",
-                  "name": "Hfx Wanderers Fc vs Pacific Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-8be7eeda13a4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa0d74c28b",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        },
-                        {
-                          "id": "lnk-21313dd096",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-632085570009",
           "name": "⚽ Gremio Novorizontino vs Vila Nova | Không rõ",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-475ee51286",
+                          "id": "lnk-4e37f8900b",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -159,25 +99,39 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-264e5a2123",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-e1fc8268b8",
+                          "id": "lnk-8c88edb72b",
                           "name": "BLV KAKA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-6c53a3e6e1",
+                          "id": "lnk-ae5e43b613",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-eda829b6e4",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-698a9a87e1",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-80b3a75147",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -226,28 +180,42 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3d4ccc0148",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-f9eaf05b11",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-c2246aee32",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-d391179c5b",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-4bb7d6e3eb",
+                          "id": "lnk-c279737525",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-a2fef1342b",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-839750a435",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-7135800228",
+                          "id": "lnk-953426eddd",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -280,7 +248,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -300,7 +268,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f11b0a14b4",
+                          "id": "lnk-1390855f6a",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -755,6 +723,51 @@
                   "streams": [
                     {
                       "id": "luongson-d39f9fe1b6d6",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-630ae6eb3f0f",
+          "name": "⚽ Dandenong Thunder vs Hume City | 14:00",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8681_1gxpydyxbk1t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8681_1gxpydyxbk1t.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-630ae6eb3f0f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-630ae6eb3f0f",
+                  "name": "Dandenong Thunder vs Hume City",
+                  "streams": [
+                    {
+                      "id": "luongson-630ae6eb3f0f",
                       "name": "F",
                       "stream_links": []
                     }
