@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:00 26/06/2026",
+  "last_updated": "19:10 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-c41f6abe1127",
-          "name": "⚽ Holland Park Hawks Fc vs Redlands United Fc | Không rõ",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9295_1gryyqvj2d12.png?v=2.4.3",
+          "id": "luongson-f487ed6a02b3",
+          "name": "⚽ Kedus Giorgis vs Fasil Kenema | Không rõ",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 3",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-c41f6abe1127",
+              "id": "luongson-f487ed6a02b3",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c41f6abe1127",
-                  "name": "Holland Park Hawks Fc vs Redlands United Fc",
+                  "id": "luongson-f487ed6a02b3",
+                  "name": "Kedus Giorgis vs Fasil Kenema",
                   "streams": [
                     {
-                      "id": "luongson-c41f6abe1127",
+                      "id": "luongson-f487ed6a02b3",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-491fc0d214",
-                          "name": "BLV GẤU KA",
+                          "id": "lnk-7c07598aa2",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-ace80ebb12",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -99,11 +106,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f9d5785412",
+                          "id": "lnk-090f40fdf0",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d34d365b511d",
+          "name": "⚽ Qingdao Manatee vs Yunnan Yukun | Không rõ",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61513_1k0qw9nssh1n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d34d365b511d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d34d365b511d",
+                  "name": "Qingdao Manatee vs Yunnan Yukun",
+                  "streams": [
+                    {
+                      "id": "luongson-d34d365b511d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fac2e04a3",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -132,7 +192,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb1e6bbda7",
+                          "id": "lnk-a1349d2483",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -167,11 +227,11 @@
           ]
         },
         {
-          "id": "luongson-f487ed6a02b3",
-          "name": "⚽ Kedus Giorgis vs Fasil Kenema | Không rõ",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
+          "id": "luongson-c41f6abe1127",
+          "name": "⚽ Holland Park Hawks Fc vs Redlands United Fc | Không rõ",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9295_1gryyqvj2d12.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,13 +239,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/17395_1gtnnc22wpd.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -193,143 +253,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-f487ed6a02b3",
+              "id": "luongson-c41f6abe1127",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-f487ed6a02b3",
-                  "name": "Kedus Giorgis vs Fasil Kenema",
+                  "id": "luongson-c41f6abe1127",
+                  "name": "Holland Park Hawks Fc vs Redlands United Fc",
                   "streams": [
                     {
-                      "id": "luongson-f487ed6a02b3",
+                      "id": "luongson-c41f6abe1127",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3566f1a5b3",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-da85f8c38a",
+                          "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-35a624d757",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a9971332dac5",
-          "name": "⚽ Ekibastuzets vs Astana B | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a9971332dac5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a9971332dac5",
-                  "name": "Ekibastuzets vs Astana B",
-                  "streams": [
-                    {
-                      "id": "luongson-a9971332dac5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-218161e13f",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        },
-                        {
-                          "id": "lnk-172f200d1a",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-42a18c36f924",
-          "name": "⚽ Qingdao Manatee vs Yunnan Yukun | 03:26 27/06/1835",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61513_1k0qw9nssh1n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-42a18c36f924",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-42a18c36f924",
-                  "name": "Qingdao Manatee vs Yunnan Yukun",
-                  "streams": [
-                    {
-                      "id": "luongson-42a18c36f924",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-843790d809",
-                          "name": "BLV KEVILL",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -378,18 +318,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ff4a79fa6c",
+                          "id": "lnk-148ac27446",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-c7a5c72970",
+                          "id": "lnk-b00923c5aa",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a9971332dac5",
+          "name": "⚽ Ekibastuzets vs Astana B | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a9971332dac5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a9971332dac5",
+                  "name": "Ekibastuzets vs Astana B",
+                  "streams": [
+                    {
+                      "id": "luongson-a9971332dac5",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25fb415ce3",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-e7e56aba6a",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
