@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:20 26/06/2026",
+  "last_updated": "20:30 26/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f487ed6a02b3",
-          "name": "⚽ Kedus Giorgis vs Fasil Kenema | Không rõ",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f487ed6a02b3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f487ed6a02b3",
-                  "name": "Kedus Giorgis vs Fasil Kenema",
-                  "streams": [
-                    {
-                      "id": "luongson-f487ed6a02b3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-548f69efae",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-1b931661bb",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-a9971332dac5",
           "name": "⚽ Ekibastuzets vs Astana B | Không rõ",
@@ -106,18 +46,131 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2be4527bae",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        },
-                        {
-                          "id": "lnk-407dbafadd",
+                          "id": "lnk-50813704bb",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-ecfc5dc30d",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f487ed6a02b3",
+          "name": "⚽ Kedus Giorgis vs Fasil Kenema | Không rõ",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23638_1grd51rh8r27.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f487ed6a02b3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f487ed6a02b3",
+                  "name": "Kedus Giorgis vs Fasil Kenema",
+                  "streams": [
+                    {
+                      "id": "luongson-f487ed6a02b3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b08aeea740",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-91df5b3548",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-42a18c36f924",
+          "name": "⚽ Qingdao Manatee vs Yunnan Yukun | 03:26 27/06/1835",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61513_1k0qw9nssh1n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 4 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-42a18c36f924",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-42a18c36f924",
+                  "name": "Qingdao Manatee vs Yunnan Yukun",
+                  "streams": [
+                    {
+                      "id": "luongson-42a18c36f924",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd64b5aa53",
+                          "name": "BLV KEVILL",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -166,71 +219,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9ab8b186b3",
+                          "id": "lnk-c5f32192d0",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         },
                         {
-                          "id": "lnk-8bb0c9cdac",
+                          "id": "lnk-9cab7d51d2",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d34d365b511d",
-          "name": "⚽ Qingdao Manatee vs Yunnan Yukun | Không rõ",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61513_1k0qw9nssh1n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 4 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d34d365b511d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d34d365b511d",
-                  "name": "Qingdao Manatee vs Yunnan Yukun",
-                  "streams": [
-                    {
-                      "id": "luongson-d34d365b511d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99580864f1",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
