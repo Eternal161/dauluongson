@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:50 27/06/2026",
+  "last_updated": "23:01 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-c6e9e3abe960",
+          "name": "⚽ Ifk Mariehamn vs Inter Turku | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c6e9e3abe960",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c6e9e3abe960",
+                  "name": "Ifk Mariehamn vs Inter Turku",
+                  "streams": [
+                    {
+                      "id": "luongson-c6e9e3abe960",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80a6d26f85",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-455d89f8ec",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-9850cbd0fe3b",
           "name": "⚽ Fk Kaspyi Aktau vs Fk Atyrau | Không rõ",
@@ -46,198 +106,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-169aa92f85",
+                          "id": "lnk-f3e5157a76",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-b73d6a6da8",
+                          "id": "lnk-a189a76ba3",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-23ad6c4fff9d",
-          "name": "⚽ Fk Yelimay Semey vs Kyzylzhar Petropavlovsk | Không rõ",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61058_1gykhvdms22g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4918_1grmmxhty619.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61058_1gykhvdms22g.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-23ad6c4fff9d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-23ad6c4fff9d",
-                  "name": "Fk Yelimay Semey vs Kyzylzhar Petropavlovsk",
-                  "streams": [
-                    {
-                      "id": "luongson-23ad6c4fff9d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-248d44a459",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-0d70085593",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-00f993627ead",
-          "name": "⚽ Hjk Helsinki vs Kups | Không rõ",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/347_1gtzct7tvc22.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/347_1gtzct7tvc22.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 4",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-00f993627ead",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-00f993627ead",
-                  "name": "Hjk Helsinki vs Kups",
-                  "streams": [
-                    {
-                      "id": "luongson-00f993627ead",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a99715794",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-7ec78cf6f6",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c6e9e3abe960",
-          "name": "⚽ Ifk Mariehamn vs Inter Turku | Không rõ",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c6e9e3abe960",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c6e9e3abe960",
-                  "name": "Ifk Mariehamn vs Inter Turku",
-                  "streams": [
-                    {
-                      "id": "luongson-c6e9e3abe960",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-631aa06d49",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        },
-                        {
-                          "id": "lnk-641f9a0dd4",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -286,18 +166,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-397a5e984b",
+                          "id": "lnk-4bbf689b05",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-9b2e24db75",
+                          "id": "lnk-f8177e1630",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-568695d2401f",
+          "name": "⚽ Stromsgodset vs Odds Ballklubb | Không rõ",
+          "tournament": "Norway Adeccoligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1110_1gxmbm1ncn10.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/435_1jjx4n5qy3b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1110_1gxmbm1ncn10.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-568695d2401f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-568695d2401f",
+                  "name": "Stromsgodset vs Odds Ballklubb",
+                  "streams": [
+                    {
+                      "id": "luongson-568695d2401f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4024104ffc",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -346,71 +279,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dbf9882597",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-4aee8b3a80",
+                          "id": "lnk-011331ddba",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-568695d2401f",
-          "name": "⚽ Stromsgodset vs Odds Ballklubb | 23:00",
-          "tournament": "Norway Adeccoligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1110_1gxmbm1ncn10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/435_1jjx4n5qy3b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1110_1gxmbm1ncn10.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 23:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-568695d2401f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-568695d2401f",
-                  "name": "Stromsgodset vs Odds Ballklubb",
-                  "streams": [
-                    {
-                      "id": "luongson-568695d2401f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1bc2576576",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-b25c360c99",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -459,14 +339,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2b70adaa1a",
+                          "id": "lnk-982afe449b",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-b7ec2924b8",
+                          "id": "lnk-56a996abfd",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
@@ -786,6 +666,96 @@
                   "streams": [
                     {
                       "id": "luongson-fdc0e7181c1f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a2ffc4eb2d41",
+          "name": "⚽ San Marcos De Arica vs Coquimbo Unido | 04:00",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6627_1jr4ewcwd62r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/952_1h53w636s72j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6627_1jr4ewcwd62r.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a2ffc4eb2d41",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a2ffc4eb2d41",
+                  "name": "San Marcos De Arica vs Coquimbo Unido",
+                  "streams": [
+                    {
+                      "id": "luongson-a2ffc4eb2d41",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-080465d1b818",
+          "name": "⚽ Croatia vs Ghana | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/662_164983770149.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/701_165018802248.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/662_164983770149.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-080465d1b818",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-080465d1b818",
+                  "name": "Croatia vs Ghana",
+                  "streams": [
+                    {
+                      "id": "luongson-080465d1b818",
                       "name": "F",
                       "stream_links": []
                     }
