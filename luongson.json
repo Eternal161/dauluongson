@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:00 27/06/2026",
+  "last_updated": "21:10 27/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-08573f85b5",
+                          "id": "lnk-031e674430",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-5aa9f88ce0",
+                          "id": "lnk-81af9b40d4",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
@@ -86,7 +86,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -106,14 +106,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c2930ffa60",
+                          "id": "lnk-09821d930b",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-4c2ae61703",
+                          "id": "lnk-a444e9a19c",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
@@ -128,11 +128,11 @@
           ]
         },
         {
-          "id": "luongson-e402dc9ebbd9",
-          "name": "⚽ Beijing Guoan vs Wuhan Three Towns | 03:26 28/06/1900",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/36_1jr565tbs5z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38904_1hd5at5b6g1y.png?v=2.4.3",
+          "id": "luongson-c6e9e3abe960",
+          "name": "⚽ Ifk Mariehamn vs Inter Turku | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -140,13 +140,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/36_1jr565tbs5z.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -154,23 +154,90 @@
           ],
           "sources": [
             {
-              "id": "luongson-e402dc9ebbd9",
+              "id": "luongson-c6e9e3abe960",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e402dc9ebbd9",
-                  "name": "Beijing Guoan vs Wuhan Three Towns",
+                  "id": "luongson-c6e9e3abe960",
+                  "name": "Ifk Mariehamn vs Inter Turku",
                   "streams": [
                     {
-                      "id": "luongson-e402dc9ebbd9",
+                      "id": "luongson-c6e9e3abe960",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-82b6645101",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-54f90e4f1c",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-6a6b047c0c",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-00f993627ead",
+          "name": "⚽ Hjk Helsinki vs Kups | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/347_1gtzct7tvc22.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/347_1gtzct7tvc22.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-00f993627ead",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-00f993627ead",
+                  "name": "Hjk Helsinki vs Kups",
+                  "streams": [
+                    {
+                      "id": "luongson-00f993627ead",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32732108f2",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-2730e30a9f",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -219,138 +286,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3be0514947",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-c9d161b544",
+                          "id": "lnk-3fb6926b38",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c6e9e3abe960",
-          "name": "⚽ Ifk Mariehamn vs Inter Turku | 21:00",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 21:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c6e9e3abe960",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c6e9e3abe960",
-                  "name": "Ifk Mariehamn vs Inter Turku",
-                  "streams": [
-                    {
-                      "id": "luongson-c6e9e3abe960",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d6a825452",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         },
                         {
-                          "id": "lnk-daa3721a84",
-                          "name": "BLV KAKA",
+                          "id": "lnk-81ed95e5ba",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-00f993627ead",
-          "name": "⚽ Hjk Helsinki vs Kups | 21:00",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/347_1gtzct7tvc22.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/347_1gtzct7tvc22.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 21:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-00f993627ead",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-00f993627ead",
-                  "name": "Hjk Helsinki vs Kups",
-                  "streams": [
-                    {
-                      "id": "luongson-00f993627ead",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4a410a01e3",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-9c1303da66",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -451,51 +398,6 @@
           ]
         },
         {
-          "id": "luongson-0eb74d8a0656",
-          "name": "⚽ Gnistan Helsinki vs Vaasa Vps | 23:00",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0eb74d8a0656",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0eb74d8a0656",
-                  "name": "Gnistan Helsinki vs Vaasa Vps",
-                  "streams": [
-                    {
-                      "id": "luongson-0eb74d8a0656",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-d07ed4f5bbe9",
           "name": "⚽ Tps Turku vs Jaro | 23:00",
           "tournament": "Finland Veikkausliga",
@@ -576,6 +478,51 @@
                   "streams": [
                     {
                       "id": "luongson-568695d2401f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0eb74d8a0656",
+          "name": "⚽ Gnistan Helsinki vs Vaasa Vps | 23:00",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0eb74d8a0656",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0eb74d8a0656",
+                  "name": "Gnistan Helsinki vs Vaasa Vps",
+                  "streams": [
+                    {
+                      "id": "luongson-0eb74d8a0656",
                       "name": "F",
                       "stream_links": []
                     }
@@ -756,6 +703,51 @@
                   "streams": [
                     {
                       "id": "luongson-3ff38728f9b8",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-48592b4c5040",
+          "name": "⚽ Sligo Rovers vs Shelbourne | 01:45",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/281_1grd5f04es2w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-48592b4c5040",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-48592b4c5040",
+                  "name": "Sligo Rovers vs Shelbourne",
+                  "streams": [
+                    {
+                      "id": "luongson-48592b4c5040",
                       "name": "F",
                       "stream_links": []
                     }
