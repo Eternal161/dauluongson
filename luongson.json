@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:20 27/06/2026",
+  "last_updated": "21:30 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-2cf33db4bdaa",
-          "name": "⚽ Fc Zhetysu Taldykorgan vs Fk Aktobe Lento | Không rõ",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3698_1gzq8pzdweg.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2cf33db4bdaa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2cf33db4bdaa",
-                  "name": "Fc Zhetysu Taldykorgan vs Fk Aktobe Lento",
-                  "streams": [
-                    {
-                      "id": "luongson-2cf33db4bdaa",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a524d4b3a",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-c5275e64b4",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-76cd24159881",
           "name": "⚽ Ml Vitebsk vs Naftan Novopolock | Không rõ",
@@ -106,18 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5fa8483052",
+                          "id": "lnk-5c26dcde40",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-c9d89d0cb6",
+                          "id": "lnk-fbd0d3a263",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2cf33db4bdaa",
+          "name": "⚽ Fc Zhetysu Taldykorgan vs Fk Aktobe Lento | Không rõ",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3698_1gzq8pzdweg.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2cf33db4bdaa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2cf33db4bdaa",
+                  "name": "Fc Zhetysu Taldykorgan vs Fk Aktobe Lento",
+                  "streams": [
+                    {
+                      "id": "luongson-2cf33db4bdaa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8b6157b98",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-287c95e706",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -166,18 +166,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-707cd11512",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-fb99358cb3",
+                          "id": "lnk-a561bb48c7",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        },
+                        {
+                          "id": "lnk-6d81fac99e",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -226,14 +226,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6f1b2530b2",
+                          "id": "lnk-65601d3b43",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         },
                         {
-                          "id": "lnk-182cfc26de",
+                          "id": "lnk-ea4dbfa65c",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
@@ -286,11 +286,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7aa16f0d3f",
+                          "id": "lnk-0afecc234a",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-c7cd722156",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -319,10 +326,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -337,7 +344,15 @@
                     {
                       "id": "luongson-9850cbd0fe3b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4aaabd656a",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
                     }
                   ]
                 }
