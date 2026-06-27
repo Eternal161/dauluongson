@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:50 27/06/2026",
+  "last_updated": "21:00 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-2cf33db4bdaa",
+          "name": "⚽ Fc Zhetysu Taldykorgan vs Fk Aktobe Lento | Không rõ",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3698_1gzq8pzdweg.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2cf33db4bdaa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2cf33db4bdaa",
+                  "name": "Fc Zhetysu Taldykorgan vs Fk Aktobe Lento",
+                  "streams": [
+                    {
+                      "id": "luongson-2cf33db4bdaa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08573f85b5",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-5aa9f88ce0",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-76cd24159881",
           "name": "⚽ Ml Vitebsk vs Naftan Novopolock | Không rõ",
@@ -46,71 +106,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bbe9b9f587",
+                          "id": "lnk-c2930ffa60",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-388aa2a514",
+                          "id": "lnk-4c2ae61703",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b25bfd6b2c6d",
-          "name": "⚽ Chongqing Tonglianglong vs Tianjin Tigers | Không rõ",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61524_1hysdzw5hv1f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/81_1gy3vkgfwn2t.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61524_1hysdzw5hv1f.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b25bfd6b2c6d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b25bfd6b2c6d",
-                  "name": "Chongqing Tonglianglong vs Tianjin Tigers",
-                  "streams": [
-                    {
-                      "id": "luongson-b25bfd6b2c6d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79362367f2",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -159,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-641c0e1fd0",
+                          "id": "lnk-82b6645101",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -174,11 +181,11 @@
           ]
         },
         {
-          "id": "luongson-2cf33db4bdaa",
-          "name": "⚽ Fc Zhetysu Taldykorgan vs Fk Aktobe Lento | Không rõ",
+          "id": "luongson-23ad6c4fff9d",
+          "name": "⚽ Fk Yelimay Semey vs Kyzylzhar Petropavlovsk | Không rõ",
           "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3698_1gzq8pzdweg.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61058_1gykhvdms22g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4918_1grmmxhty619.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -186,13 +193,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/61058_1gykhvdms22g.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -200,30 +207,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-2cf33db4bdaa",
+              "id": "luongson-23ad6c4fff9d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2cf33db4bdaa",
-                  "name": "Fc Zhetysu Taldykorgan vs Fk Aktobe Lento",
+                  "id": "luongson-23ad6c4fff9d",
+                  "name": "Fk Yelimay Semey vs Kyzylzhar Petropavlovsk",
                   "streams": [
                     {
-                      "id": "luongson-2cf33db4bdaa",
+                      "id": "luongson-23ad6c4fff9d",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d1a8f942a4",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-3be0514947",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-b16dd05721",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-c9d161b544",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -272,14 +279,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dd859cd4e0",
+                          "id": "lnk-9d6a825452",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         },
                         {
-                          "id": "lnk-8de8da75c8",
+                          "id": "lnk-daa3721a84",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
@@ -332,78 +339,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8b1a35b415",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-a1ba8eed88",
+                          "id": "lnk-4a410a01e3",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-23ad6c4fff9d",
-          "name": "⚽ Fk Yelimay Semey vs Kyzylzhar Petropavlovsk | 21:00",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61058_1gykhvdms22g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4918_1grmmxhty619.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61058_1gykhvdms22g.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 21:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-23ad6c4fff9d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-23ad6c4fff9d",
-                  "name": "Fk Yelimay Semey vs Kyzylzhar Petropavlovsk",
-                  "streams": [
-                    {
-                      "id": "luongson-23ad6c4fff9d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86b066de3d",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-e1f6ed2ed8",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-9c1303da66",
+                          "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -764,6 +711,51 @@
                   "streams": [
                     {
                       "id": "luongson-49fbee45b271",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3ff38728f9b8",
+          "name": "⚽ Sogndal vs Egersunds Ik | 01:00",
+          "tournament": "Norway Adeccoligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/467_1grmmxhterh.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1874_1gxmbzxa9b1b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/467_1grmmxhterh.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3ff38728f9b8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3ff38728f9b8",
+                  "name": "Sogndal vs Egersunds Ik",
+                  "streams": [
+                    {
+                      "id": "luongson-3ff38728f9b8",
                       "name": "F",
                       "stream_links": []
                     }
