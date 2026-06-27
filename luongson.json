@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:01 28/06/2026",
+  "last_updated": "03:10 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-07d36757746c",
-          "name": "⚽ Portuguesa Desportos vs Sampaio Correa (Rj) | Không rõ",
-          "tournament": "Brazil Serie D",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1582_20130913233507.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22047_1j3h5z0qzd2e.png?v=2.4.3",
+          "id": "luongson-53b6a6568c07",
+          "name": "⚽ Portland Timbers Reserve vs San Jose Earthquakes Reserve | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18982_20130921172639.gif?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57022_1hts50z92h32.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1582_20130913233507.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/18982_20130921172639.gif?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-07d36757746c",
+              "id": "luongson-53b6a6568c07",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-07d36757746c",
-                  "name": "Portuguesa Desportos vs Sampaio Correa (Rj)",
+                  "id": "luongson-53b6a6568c07",
+                  "name": "Portland Timbers Reserve vs San Jose Earthquakes Reserve",
                   "streams": [
                     {
-                      "id": "luongson-07d36757746c",
+                      "id": "luongson-53b6a6568c07",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b0b36e18a6",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-d9d84fea95",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -99,18 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e4f3b991a6",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-8af0aa9d60",
+                          "id": "lnk-f453cb3e11",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-a402c323c6",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-07d36757746c",
+          "name": "⚽ Portuguesa Desportos vs Sampaio Correa (Rj) | Không rõ",
+          "tournament": "Brazil Serie D",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1582_20130913233507.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22047_1j3h5z0qzd2e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1582_20130913233507.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-07d36757746c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-07d36757746c",
+                  "name": "Portuguesa Desportos vs Sampaio Correa (Rj)",
+                  "streams": [
+                    {
+                      "id": "luongson-07d36757746c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-601cc41ebc",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -139,7 +192,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -159,64 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d83e55b90a",
+                          "id": "lnk-c1c7f69ea0",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-53b6a6568c07",
-          "name": "⚽ Portland Timbers Reserve vs San Jose Earthquakes Reserve | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18982_20130921172639.gif?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57022_1hts50z92h32.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/18982_20130921172639.gif?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-53b6a6568c07",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-53b6a6568c07",
-                  "name": "Portland Timbers Reserve vs San Jose Earthquakes Reserve",
-                  "streams": [
-                    {
-                      "id": "luongson-53b6a6568c07",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86b325ee62",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
