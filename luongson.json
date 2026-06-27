@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:30 27/06/2026",
+  "last_updated": "23:40 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-cdc5d9b3db7e",
-          "name": "⚽ Dinamo Brest vs Fc Minsk | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4645_1h6z25dg6y2m.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-cdc5d9b3db7e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-cdc5d9b3db7e",
-                  "name": "Dinamo Brest vs Fc Minsk",
-                  "streams": [
-                    {
-                      "id": "luongson-cdc5d9b3db7e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87164b4ae2",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-1a4c049c2a",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-568695d2401f",
           "name": "⚽ Stromsgodset vs Odds Ballklubb | Không rõ",
@@ -106,11 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-512232872f",
+                          "id": "lnk-3718232e18",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-cbabc39d26",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0eb74d8a0656",
+          "name": "⚽ Gnistan Helsinki vs Vaasa Vps | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0eb74d8a0656",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0eb74d8a0656",
+                  "name": "Gnistan Helsinki vs Vaasa Vps",
+                  "streams": [
+                    {
+                      "id": "luongson-0eb74d8a0656",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e0ac2c64f8",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-88494e122a",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -139,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -159,14 +166,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5d244e9b83",
+                          "id": "lnk-9b78216fea",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-ef63674f65",
+                          "id": "lnk-bbac7b0a7c",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
@@ -219,14 +226,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-db0e24279b",
+                          "id": "lnk-07f5c6a219",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-34a0e45d45",
+                          "id": "lnk-3069180bc6",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": false,
@@ -241,11 +248,11 @@
           ]
         },
         {
-          "id": "luongson-0eb74d8a0656",
-          "name": "⚽ Gnistan Helsinki vs Vaasa Vps | Không rõ",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
+          "id": "luongson-cdc5d9b3db7e",
+          "name": "⚽ Dinamo Brest vs Fc Minsk | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4645_1h6z25dg6y2m.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -253,13 +260,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -267,30 +274,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-0eb74d8a0656",
+              "id": "luongson-cdc5d9b3db7e",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-0eb74d8a0656",
-                  "name": "Gnistan Helsinki vs Vaasa Vps",
+                  "id": "luongson-cdc5d9b3db7e",
+                  "name": "Dinamo Brest vs Fc Minsk",
                   "streams": [
                     {
-                      "id": "luongson-0eb74d8a0656",
+                      "id": "luongson-cdc5d9b3db7e",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e5b4bf1799",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-baf37aa7ae",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-71de2542b0",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-5d9a1f9bd4",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -301,11 +308,11 @@
           ]
         },
         {
-          "id": "luongson-7a62d433f197",
-          "name": "⚽ Fc Milsami vs Zimbru Chisinau | 00:00",
-          "tournament": "Moldova Divizia Nationala",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13699_1gxa4pfbhy26.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3694_1gtr9cktjg2n.png?v=2.4.3",
+          "id": "luongson-ee1d7a1a96f8",
+          "name": "⚽ Dila Gori vs Torpedo Kutaisi | 00:00",
+          "tournament": "GEO SC",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2108_1grmmxhtymq.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -313,7 +320,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/13699_1gxa4pfbhy26.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -327,23 +334,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-7a62d433f197",
+              "id": "luongson-ee1d7a1a96f8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-7a62d433f197",
-                  "name": "Fc Milsami vs Zimbru Chisinau",
+                  "id": "luongson-ee1d7a1a96f8",
+                  "name": "Dila Gori vs Torpedo Kutaisi",
                   "streams": [
                     {
-                      "id": "luongson-7a62d433f197",
+                      "id": "luongson-ee1d7a1a96f8",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b052caa71f",
+                          "id": "lnk-b14d16f868",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-adfbbfa4ec",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
