@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:31 27/06/2026",
+  "last_updated": "16:40 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-fff8de2e69ff",
+          "name": "⚽ Caroline Springs George Cross vs Preston Lions | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fff8de2e69ff",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fff8de2e69ff",
+                  "name": "Caroline Springs George Cross vs Preston Lions",
+                  "streams": [
+                    {
+                      "id": "luongson-fff8de2e69ff",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d87a40c997",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-20946ac91e50",
           "name": "⚽ Deren Fc vs Fc Ulaanbaatar | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5078b58e93",
+                          "id": "lnk-5dcc5609f1",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a37b7078e078",
-          "name": "⚽ Broadbeach United vs Capalaba Bulldogs | 03:26 28/06/1500",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23125_1gq9031yhs21.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8798_1gytyt690mp.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23125_1gq9031yhs21.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a37b7078e078",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a37b7078e078",
-                  "name": "Broadbeach United vs Capalaba Bulldogs",
-                  "streams": [
-                    {
-                      "id": "luongson-a37b7078e078",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6691c6fb20",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-93ec559fab",
+                          "id": "lnk-90ba1b3d08",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -185,7 +185,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4ea12a7587",
+                          "id": "lnk-d1810baf04",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -220,11 +220,11 @@
           ]
         },
         {
-          "id": "luongson-fff8de2e69ff",
-          "name": "⚽ Caroline Springs George Cross vs Preston Lions | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
+          "id": "luongson-a37b7078e078",
+          "name": "⚽ Broadbeach United vs Capalaba Bulldogs | 03:26 28/06/1500",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23125_1gq9031yhs21.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8798_1gytyt690mp.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -232,13 +232,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/23125_1gq9031yhs21.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 3 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -246,23 +246,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-fff8de2e69ff",
+              "id": "luongson-a37b7078e078",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-fff8de2e69ff",
-                  "name": "Caroline Springs George Cross vs Preston Lions",
+                  "id": "luongson-a37b7078e078",
+                  "name": "Broadbeach United vs Capalaba Bulldogs",
                   "streams": [
                     {
-                      "id": "luongson-fff8de2e69ff",
+                      "id": "luongson-a37b7078e078",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d1793fe0ce",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-58a0745a0b",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -291,10 +291,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -309,7 +309,15 @@
                     {
                       "id": "luongson-80471a658bb1",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cc20c54b35",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -356,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dcdf10c8b0",
+                          "id": "lnk-a40889e206",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
@@ -389,10 +397,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -407,7 +415,15 @@
                     {
                       "id": "luongson-16a721bc6049",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0510cf3815",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
