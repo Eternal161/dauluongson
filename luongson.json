@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:30 28/06/2026",
+  "last_updated": "01:40 28/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,78 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3e892f44e3",
+                          "id": "lnk-b195025784",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-2414b0b833",
+                          "id": "lnk-cb6da85c6a",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ee1d7a1a96f8",
-          "name": "⚽ Dila Gori vs Torpedo Kutaisi | Không rõ",
-          "tournament": "GEO SC",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2108_1grmmxhtymq.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ee1d7a1a96f8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ee1d7a1a96f8",
-                  "name": "Dila Gori vs Torpedo Kutaisi",
-                  "streams": [
-                    {
-                      "id": "luongson-ee1d7a1a96f8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0dea9cb9a",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-2fb15eb1f3",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -166,18 +106,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6c4eca5b25",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-0c95cac0aa",
+                          "id": "lnk-45091ec1d9",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-c8c45c8a6f",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ee1d7a1a96f8",
+          "name": "⚽ Dila Gori vs Torpedo Kutaisi | Không rõ",
+          "tournament": "GEO SC",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2108_1grmmxhtymq.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ee1d7a1a96f8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ee1d7a1a96f8",
+                  "name": "Dila Gori vs Torpedo Kutaisi",
+                  "streams": [
+                    {
+                      "id": "luongson-ee1d7a1a96f8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c98689ffe9",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-ed60b6d023",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -226,7 +226,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-67ae5a3b3d",
+                          "id": "lnk-be2633acef",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
@@ -279,14 +279,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cfac293a28",
+                          "id": "lnk-abf5fcdd4c",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-e835d4b10a",
+                          "id": "lnk-c154c42eaf",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": false,
@@ -319,10 +319,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 02:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -337,7 +337,15 @@
                     {
                       "id": "luongson-e18190b6eb95",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-69516fd68f",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -384,7 +392,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7dc479e604",
+                          "id": "lnk-721e07b254",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
