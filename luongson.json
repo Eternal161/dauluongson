@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:01 27/06/2026",
+  "last_updated": "15:10 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-d39f9fe1b6d6",
+          "name": "⚽ Logan Lightning vs Caboolture Fc | Không rõ",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d39f9fe1b6d6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d39f9fe1b6d6",
+                  "name": "Logan Lightning vs Caboolture Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-d39f9fe1b6d6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2303c6908",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-acfa72e1d9ba",
           "name": "⚽ Spirit Fc vs Wollongong Wolves | Không rõ",
@@ -46,177 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d55e79ffe4",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        },
-                        {
-                          "id": "lnk-92b653a6a2",
+                          "id": "lnk-2b30e26544",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d39f9fe1b6d6",
-          "name": "⚽ Logan Lightning vs Caboolture Fc | Không rõ",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d39f9fe1b6d6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d39f9fe1b6d6",
-                  "name": "Logan Lightning vs Caboolture Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-d39f9fe1b6d6",
-                      "name": "F",
-                      "stream_links": [
+                        },
                         {
-                          "id": "lnk-f0dcd8dfdc",
-                          "name": "BLV SHIN",
+                          "id": "lnk-eef3b64a73",
+                          "name": "BLV GẤU KA",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fff8de2e69ff",
-          "name": "⚽ Caroline Springs George Cross vs Preston Lions | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fff8de2e69ff",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fff8de2e69ff",
-                  "name": "Caroline Springs George Cross vs Preston Lions",
-                  "streams": [
-                    {
-                      "id": "luongson-fff8de2e69ff",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-310cdb8b1a",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-48d5b73cd663",
-          "name": "⚽ Changchun Yatai vs Guangxi Hengchen | Không rõ",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/483_1jr56ftb35z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/63119_1hd8n6awev0.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/483_1jr56ftb35z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-48d5b73cd663",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-48d5b73cd663",
-                  "name": "Changchun Yatai vs Guangxi Hengchen",
-                  "streams": [
-                    {
-                      "id": "luongson-48d5b73cd663",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b67ddd510",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -265,11 +159,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eaf32d79f3",
+                          "id": "lnk-2a7cfcef57",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d5591fb4fa1b",
+          "name": "⚽ St George Saints vs Sydney Olympic | Không rõ",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6661_1grcyn2cdt2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d5591fb4fa1b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d5591fb4fa1b",
+                  "name": "St George Saints vs Sydney Olympic",
+                  "streams": [
+                    {
+                      "id": "luongson-d5591fb4fa1b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd9d1fa6dc",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-48d5b73cd663",
+          "name": "⚽ Changchun Yatai vs Guangxi Hengchen | Không rõ",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/483_1jr56ftb35z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/63119_1hd8n6awev0.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/483_1jr56ftb35z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-48d5b73cd663",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-48d5b73cd663",
+                  "name": "Changchun Yatai vs Guangxi Hengchen",
+                  "streams": [
+                    {
+                      "id": "luongson-48d5b73cd663",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c95ecbc52",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -318,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-251cefa55f",
+                          "id": "lnk-52228be4cd",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -333,11 +333,11 @@
           ]
         },
         {
-          "id": "luongson-d5591fb4fa1b",
-          "name": "⚽ St George Saints vs Sydney Olympic | 15:30",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6661_1grcyn2cdt2s.png?v=2.4.3",
+          "id": "luongson-fff8de2e69ff",
+          "name": "⚽ Caroline Springs George Cross vs Preston Lions | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -345,13 +345,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 15:30",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -359,23 +359,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-d5591fb4fa1b",
+              "id": "luongson-fff8de2e69ff",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d5591fb4fa1b",
-                  "name": "St George Saints vs Sydney Olympic",
+                  "id": "luongson-fff8de2e69ff",
+                  "name": "Caroline Springs George Cross vs Preston Lions",
                   "streams": [
                     {
-                      "id": "luongson-d5591fb4fa1b",
+                      "id": "luongson-fff8de2e69ff",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8cfbb63b71",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-a485486039",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
