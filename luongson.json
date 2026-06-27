@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:40 28/06/2026",
+  "last_updated": "00:50 28/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 2 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,11 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-29f900a50b",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-e28dd1b45b",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-e6b478123b",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-49fbee45b271",
+          "name": "⚽ Ac Oulu vs Lahti | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1855_165724417951.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/356_165724428576.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1855_165724417951.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-49fbee45b271",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-49fbee45b271",
+                  "name": "Ac Oulu vs Lahti",
+                  "streams": [
+                    {
+                      "id": "luongson-49fbee45b271",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8f212272d8",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-377cea3272",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -79,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 2",
+              "text": "● Live 3 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,14 +166,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fd1e84c5e1",
+                          "id": "lnk-b4e7697ad6",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-a83c5a0ac7",
+                          "id": "lnk-774c46a26d",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -121,11 +188,11 @@
           ]
         },
         {
-          "id": "luongson-0eb74d8a0656",
-          "name": "⚽ Gnistan Helsinki vs Vaasa Vps | Không rõ",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
+          "id": "luongson-3ff38728f9b8",
+          "name": "⚽ Sogndal vs Egersunds Ik | Không rõ",
+          "tournament": "Norway Adeccoligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/467_1grmmxhterh.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1874_1gxmbzxa9b1b.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -133,67 +200,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0eb74d8a0656",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0eb74d8a0656",
-                  "name": "Gnistan Helsinki vs Vaasa Vps",
-                  "streams": [
-                    {
-                      "id": "luongson-0eb74d8a0656",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c8220c765",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-28ff629728",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ee1d7a1a96f8",
-          "name": "⚽ Dila Gori vs Torpedo Kutaisi | Không rõ",
-          "tournament": "GEO SC",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2108_1grmmxhtymq.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/467_1grmmxhterh.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -207,30 +214,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-ee1d7a1a96f8",
+              "id": "luongson-3ff38728f9b8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ee1d7a1a96f8",
-                  "name": "Dila Gori vs Torpedo Kutaisi",
+                  "id": "luongson-3ff38728f9b8",
+                  "name": "Sogndal vs Egersunds Ik",
                   "streams": [
                     {
-                      "id": "luongson-ee1d7a1a96f8",
+                      "id": "luongson-3ff38728f9b8",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-78fe14533e",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-5d664480c7",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-d0aadaa87e",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -279,78 +279,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c001dc54e7",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-3fbdc67042",
+                          "id": "lnk-2ec9172391",
                           "name": "BLV MAYBACH",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-49fbee45b271",
-          "name": "⚽ Ac Oulu vs Lahti | 01:00",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1855_165724417951.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/356_165724428576.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1855_165724417951.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 01:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-49fbee45b271",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-49fbee45b271",
-                  "name": "Ac Oulu vs Lahti",
-                  "streams": [
-                    {
-                      "id": "luongson-49fbee45b271",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e5df62780c",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-839298d9ba",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-453ce616c2",
+                          "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -361,11 +301,11 @@
           ]
         },
         {
-          "id": "luongson-3ff38728f9b8",
-          "name": "⚽ Sogndal vs Egersunds Ik | 01:00",
-          "tournament": "Norway Adeccoligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/467_1grmmxhterh.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1874_1gxmbzxa9b1b.png?v=2.4.3",
+          "id": "luongson-0eb74d8a0656",
+          "name": "⚽ Gnistan Helsinki vs Vaasa Vps | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -373,13 +313,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/467_1grmmxhterh.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 01:00",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -387,23 +327,90 @@
           ],
           "sources": [
             {
-              "id": "luongson-3ff38728f9b8",
+              "id": "luongson-0eb74d8a0656",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3ff38728f9b8",
-                  "name": "Sogndal vs Egersunds Ik",
+                  "id": "luongson-0eb74d8a0656",
+                  "name": "Gnistan Helsinki vs Vaasa Vps",
                   "streams": [
                     {
-                      "id": "luongson-3ff38728f9b8",
+                      "id": "luongson-0eb74d8a0656",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fc2963eff5",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-0aee911128",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-95f22fd0db",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ee1d7a1a96f8",
+          "name": "⚽ Dila Gori vs Torpedo Kutaisi | Không rõ",
+          "tournament": "GEO SC",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2108_1grmmxhtymq.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/823_1gt31t0a3yx.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ee1d7a1a96f8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ee1d7a1a96f8",
+                  "name": "Dila Gori vs Torpedo Kutaisi",
+                  "streams": [
+                    {
+                      "id": "luongson-ee1d7a1a96f8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f5e51207bd",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-9b613c690e",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -567,10 +574,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -585,15 +592,7 @@
                     {
                       "id": "luongson-080465d1b818",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9fd8108e9b",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
