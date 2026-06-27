@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:01 28/06/2026",
+  "last_updated": "01:10 28/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,18 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b869ce6777",
+                          "id": "lnk-006452b8fc",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         },
                         {
-                          "id": "lnk-4d82ebfdb7",
+                          "id": "lnk-8c2cbde301",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c136f494f789",
+          "name": "⚽ Dinamo Minsk vs Fk Vitebsk | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/809_1h56c4f7b5w.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3516_1gtqmg9t2d24.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/809_1h56c4f7b5w.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c136f494f789",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c136f494f789",
+                  "name": "Dinamo Minsk vs Fk Vitebsk",
+                  "streams": [
+                    {
+                      "id": "luongson-c136f494f789",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3341769197",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        },
+                        {
+                          "id": "lnk-02fa25ae24",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -86,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -106,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-db699bdee9",
+                          "id": "lnk-5d47bdcbd4",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
@@ -159,78 +219,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d5a7faf43c",
+                          "id": "lnk-4396a8fb68",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-bd2821d1b6",
+                          "id": "lnk-db8669a1fe",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c136f494f789",
-          "name": "⚽ Dinamo Minsk vs Fk Vitebsk | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/809_1h56c4f7b5w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3516_1gtqmg9t2d24.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/809_1h56c4f7b5w.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c136f494f789",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c136f494f789",
-                  "name": "Dinamo Minsk vs Fk Vitebsk",
-                  "streams": [
-                    {
-                      "id": "luongson-c136f494f789",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbafeb333a",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-a5e26fc127",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
