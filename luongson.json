@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:20 27/06/2026",
+  "last_updated": "15:30 27/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-20946ac91e50",
+          "name": "⚽ Deren Fc vs Fc Ulaanbaatar | Không rõ",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/31978_1h4f5c60r62d.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35397_1h4pznznxt2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/31978_1h4f5c60r62d.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-20946ac91e50",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-20946ac91e50",
+                  "name": "Deren Fc vs Fc Ulaanbaatar",
+                  "streams": [
+                    {
+                      "id": "luongson-20946ac91e50",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c8a9cb51f",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-a37b7078e078",
           "name": "⚽ Broadbeach United vs Capalaba Bulldogs | 03:26 28/06/1500",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-688b511d4a",
+                          "id": "lnk-c3cba5c8fa",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d5591fb4fa1b",
-          "name": "⚽ St George Saints vs Sydney Olympic | Không rõ",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6661_1grcyn2cdt2s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d5591fb4fa1b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d5591fb4fa1b",
-                  "name": "St George Saints vs Sydney Olympic",
-                  "streams": [
-                    {
-                      "id": "luongson-d5591fb4fa1b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc8feaf88d",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -152,117 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86b5982157",
+                          "id": "lnk-466d139c3c",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d39f9fe1b6d6",
-          "name": "⚽ Logan Lightning vs Caboolture Fc | Không rõ",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d39f9fe1b6d6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d39f9fe1b6d6",
-                  "name": "Logan Lightning vs Caboolture Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-d39f9fe1b6d6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b3492e6fd",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-20946ac91e50",
-          "name": "⚽ Deren Fc vs Fc Ulaanbaatar | Không rõ",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/31978_1h4f5c60r62d.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35397_1h4pznznxt2s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/31978_1h4f5c60r62d.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-20946ac91e50",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-20946ac91e50",
-                  "name": "Deren Fc vs Fc Ulaanbaatar",
-                  "streams": [
-                    {
-                      "id": "luongson-20946ac91e50",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46124d7e1c",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -291,7 +185,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live HT 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -311,18 +205,124 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-547d6f246a",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-cfc83f447b",
+                          "id": "lnk-d4f6b55822",
                           "name": "BLV GẤU KA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-0c88740e3d",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d5591fb4fa1b",
+          "name": "⚽ St George Saints vs Sydney Olympic | Không rõ",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6661_1grcyn2cdt2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d5591fb4fa1b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d5591fb4fa1b",
+                  "name": "St George Saints vs Sydney Olympic",
+                  "streams": [
+                    {
+                      "id": "luongson-d5591fb4fa1b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b11b55bc47",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d39f9fe1b6d6",
+          "name": "⚽ Logan Lightning vs Caboolture Fc | Không rõ",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d39f9fe1b6d6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d39f9fe1b6d6",
+                  "name": "Logan Lightning vs Caboolture Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-d39f9fe1b6d6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e55cdfb761",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -371,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cdbf6b9dd4",
+                          "id": "lnk-89ace6b980",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
