@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:30 28/06/2026",
+  "last_updated": "00:40 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-568695d2401f",
+          "name": "⚽ Stromsgodset vs Odds Ballklubb | Không rõ",
+          "tournament": "Norway Adeccoligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1110_1gxmbm1ncn10.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/435_1jjx4n5qy3b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1110_1gxmbm1ncn10.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-568695d2401f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-568695d2401f",
+                  "name": "Stromsgodset vs Odds Ballklubb",
+                  "streams": [
+                    {
+                      "id": "luongson-568695d2401f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29f900a50b",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-d07ed4f5bbe9",
           "name": "⚽ Tps Turku vs Jaro | Không rõ",
@@ -46,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-91d260d1bf",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-ada58974bb",
+                          "id": "lnk-fd1e84c5e1",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-a83c5a0ac7",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -106,78 +159,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f6bd435448",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-a9640610e1",
+                          "id": "lnk-7c8220c765",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-568695d2401f",
-          "name": "⚽ Stromsgodset vs Odds Ballklubb | Không rõ",
-          "tournament": "Norway Adeccoligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1110_1gxmbm1ncn10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/435_1jjx4n5qy3b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1110_1gxmbm1ncn10.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-568695d2401f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-568695d2401f",
-                  "name": "Stromsgodset vs Odds Ballklubb",
-                  "streams": [
-                    {
-                      "id": "luongson-568695d2401f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96401f3761",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-4a61cf5ac6",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-28ff629728",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -226,18 +219,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3b6933d0e5",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        },
-                        {
-                          "id": "lnk-060e0b267e",
+                          "id": "lnk-78fe14533e",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-d0aadaa87e",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -249,7 +242,7 @@
         },
         {
           "id": "luongson-c136f494f789",
-          "name": "⚽ Dinamo Minsk vs Fk Vitebsk | 00:30",
+          "name": "⚽ Dinamo Minsk vs Fk Vitebsk | Không rõ",
           "tournament": "Belarusian Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/809_1h56c4f7b5w.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/3516_1gtqmg9t2d24.png?v=2.4.3",
@@ -266,7 +259,7 @@
           },
           "labels": [
             {
-              "text": "● Live 00:30",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -286,14 +279,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-489034c45e",
+                          "id": "lnk-c001dc54e7",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         },
                         {
-                          "id": "lnk-3e77b3df20",
+                          "id": "lnk-3fbdc67042",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": false,
@@ -346,10 +339,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-70bbd81c16",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-e5df62780c",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-839298d9ba",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
@@ -399,7 +399,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9127b710a2",
+                          "id": "lnk-fc2963eff5",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
@@ -567,10 +567,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -585,7 +585,15 @@
                     {
                       "id": "luongson-080465d1b818",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9fd8108e9b",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
