@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:50 29/06/2026",
+  "last_updated": "04:01 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-eefcab03c537",
-          "name": "⚽ South Africa vs Canada | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/695_165018843635.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png?v=2.4.3",
+          "id": "luongson-858f63774e5e",
+          "name": "⚽ Los Chankas vs Santos Ica | Không rõ",
+          "tournament": "Peru Copa de la Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/54557_1h4hr90t6427.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/37867_1gy1eh27s01s.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,113 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/695_165018843635.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/54557_1h4hr90t6427.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-858f63774e5e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-858f63774e5e",
+                  "name": "Los Chankas vs Santos Ica",
+                  "streams": [
+                    {
+                      "id": "luongson-858f63774e5e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0c8c8b0da1",
+                          "name": "BLV SD6MWDPXZUR9XYYNWOL8",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpxZuR9xYYNWoL8/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-52941f7d6f0a",
+          "name": "⚽ Sporting Cristal W vs Atletico Andahuaylas (W) | Không rõ",
+          "tournament": "Peru Campeonato Nacional Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/51167_1gwzx5cfrg1s.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=At&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/51167_1gwzx5cfrg1s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-52941f7d6f0a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-52941f7d6f0a",
+                  "name": "Sporting Cristal W vs Atletico Andahuaylas (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-52941f7d6f0a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4b2003228",
+                          "name": "BLV SD6MWEA3WEY8KZNMOMDE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwea3wEY8kznMomDE/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-373a671c13b6",
+          "name": "⚽ Club Oriental vs Colon Cf | Không rõ",
+          "tournament": "Uruguay Segunda",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29602_1gtn1evae52r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35622_1h4a339hj9a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29602_1gtn1evae52r.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,58 +140,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-eefcab03c537",
+              "id": "luongson-373a671c13b6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-eefcab03c537",
-                  "name": "South Africa vs Canada",
+                  "id": "luongson-373a671c13b6",
+                  "name": "Club Oriental vs Colon Cf",
                   "streams": [
                     {
-                      "id": "luongson-eefcab03c537",
+                      "id": "luongson-373a671c13b6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-30dbea0d7c",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-ba08001a40",
+                          "name": "BLV SD6MWDQ8MDUFRS1HFSX2",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-4e1a5ef995",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-fe69312382",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-48de24bb44",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-9ca76a82b0",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-e16ffb8543",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdq8MdUfrs1hfsX2/playlist.m3u8"
                         }
                       ]
                     }
@@ -96,11 +167,64 @@
           ]
         },
         {
-          "id": "luongson-8af68c98d970",
-          "name": "⚽ Juventude vs Ceara | Không rõ",
+          "id": "luongson-1fe5084f5071",
+          "name": "⚽ San Luis Fc (W) vs Boca Juniors (W) | 04:00",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60264_1h4yn4wgbek.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/14160_1grfkrkrc610.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/60264_1h4yn4wgbek.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 04:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1fe5084f5071",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1fe5084f5071",
+                  "name": "San Luis Fc (W) vs Boca Juniors (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-1fe5084f5071",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc2b5a5644",
+                          "name": "BLV SD6MWEZZDH1H75ZNWKBZ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MweZzdH1h75ZnwKBz/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-edf4c80f6308",
+          "name": "⚽ Fortaleza vs Sport Club Do Recife | 04:30",
           "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1755_1grmn77tvad.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3524_1gxsf3fv7a21.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -108,46 +232,31 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
             {
-              "id": "luongson-8af68c98d970",
+              "id": "luongson-edf4c80f6308",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-8af68c98d970",
-                  "name": "Juventude vs Ceara",
+                  "id": "luongson-edf4c80f6308",
+                  "name": "Fortaleza vs Sport Club Do Recife",
                   "streams": [
                     {
-                      "id": "luongson-8af68c98d970",
+                      "id": "luongson-edf4c80f6308",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9504cb09b5",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        },
-                        {
-                          "id": "lnk-cf545e1dab",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -156,11 +265,11 @@
           ]
         },
         {
-          "id": "luongson-bf21988a2322",
-          "name": "⚽ Atletico Clube Goianiense vs Ponte Preta | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4381_1gtqpsvqgb1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/345_1gy3vp9wzp2.png?v=2.4.3",
+          "id": "luongson-bc8abfcc80de",
+          "name": "⚽ Universidad De Chile vs Union San Felipe | 04:30",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1238_1gy3vpt0ee2.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1290_1jzy49khgh0.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -168,13 +277,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4381_1gtqpsvqgb1h.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1238_1gy3vpt0ee2.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live 04:30",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -182,129 +291,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-bf21988a2322",
+              "id": "luongson-bc8abfcc80de",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-bf21988a2322",
-                  "name": "Atletico Clube Goianiense vs Ponte Preta",
+                  "id": "luongson-bc8abfcc80de",
+                  "name": "Universidad De Chile vs Union San Felipe",
                   "streams": [
                     {
-                      "id": "luongson-bf21988a2322",
+                      "id": "luongson-bc8abfcc80de",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ad95833a9",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-d74572882b",
+                          "name": "BLV SD6MWDPR95L5KCRHVSUQ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e1a40a865089",
-          "name": "⚽ Athletic Club Mg vs Avai Fc | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/38678_1hptb8ckca1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3523_1gtqpszsvf1a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/38678_1hptb8ckca1p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e1a40a865089",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e1a40a865089",
-                  "name": "Athletic Club Mg vs Avai Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-e1a40a865089",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-647db58307",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e00156c7924d",
-          "name": "⚽ Germany U19 vs Denmark U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 4 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e00156c7924d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e00156c7924d",
-                  "name": "Germany U19 vs Denmark U19",
-                  "streams": [
-                    {
-                      "id": "luongson-e00156c7924d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad9c5849d7",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr95L5KcRHvsUQ/playlist.m3u8"
                         }
                       ]
                     }
@@ -360,11 +363,11 @@
           ]
         },
         {
-          "id": "luongson-edf4c80f6308",
-          "name": "⚽ Fortaleza vs Sport Club Do Recife | 04:30",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3524_1gxsf3fv7a21.png?v=2.4.3",
+          "id": "luongson-556780fd210c",
+          "name": "⚽ Cincinnati Ii vs International Miami B | 05:00",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56986_1gwdxst6an1a.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -372,31 +375,39 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 05:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-edf4c80f6308",
+              "id": "luongson-556780fd210c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-edf4c80f6308",
-                  "name": "Fortaleza vs Sport Club Do Recife",
+                  "id": "luongson-556780fd210c",
+                  "name": "Cincinnati Ii vs International Miami B",
                   "streams": [
                     {
-                      "id": "luongson-edf4c80f6308",
+                      "id": "luongson-556780fd210c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f71ae788d",
+                          "name": "BLV SD6MWEA7CXMS4CGZKM7R",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwea7CxmS4CGzkM7r/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -423,10 +434,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 05:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -441,7 +452,15 @@
                     {
                       "id": "luongson-c87b4161c85e",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3fd4edc563",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -540,11 +559,11 @@
           ]
         },
         {
-          "id": "luongson-f388191fcb65",
-          "name": "⚽ Minnesota United B vs Tacoma Defiance | 07:00",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56981_1gw8qv1xcj1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38960_1jr4fxamwa13.png?v=2.4.3",
+          "id": "luongson-fd74816ec5a7",
+          "name": "⚽ Cusco Fc vs Cienciano | 06:00",
+          "tournament": "Peru Copa de la Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15069_1gragmnk6v21.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1606_1gv1yk239x26.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -552,31 +571,39 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56981_1gw8qv1xcj1h.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/15069_1gragmnk6v21.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 06:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-f388191fcb65",
+              "id": "luongson-fd74816ec5a7",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-f388191fcb65",
-                  "name": "Minnesota United B vs Tacoma Defiance",
+                  "id": "luongson-fd74816ec5a7",
+                  "name": "Cusco Fc vs Cienciano",
                   "streams": [
                     {
-                      "id": "luongson-f388191fcb65",
+                      "id": "luongson-fd74816ec5a7",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4158c903f0",
+                          "name": "BLV SD6MWDPXZURGYZ9OZYNP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdpxZuRGYz9ozYnp/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -585,11 +612,11 @@
           ]
         },
         {
-          "id": "luongson-03ba9537ee4a",
-          "name": "⚽ Saint Louis City B vs Austin Fc Ii | 07:00",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61320_1gwzx5cg7w30.png?v=2.4.3",
+          "id": "luongson-b55aab59df15",
+          "name": "⚽ Cavalry Fc vs Supra Du Quebec | 06:00",
+          "tournament": "Canadian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29691_1jr1s723sd2c.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -597,31 +624,39 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/29691_1jr1s723sd2c.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 06:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-03ba9537ee4a",
+              "id": "luongson-b55aab59df15",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-03ba9537ee4a",
-                  "name": "Saint Louis City B vs Austin Fc Ii",
+                  "id": "luongson-b55aab59df15",
+                  "name": "Cavalry Fc vs Supra Du Quebec",
                   "streams": [
                     {
-                      "id": "luongson-03ba9537ee4a",
+                      "id": "luongson-b55aab59df15",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2bfbc1085b",
+                          "name": "BLV SD6MWDADHIAW6DYSQUSA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdadhiAw6dYsqusa/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -630,11 +665,11 @@
           ]
         },
         {
-          "id": "luongson-527101e673c5",
-          "name": "⚽ Puerto Montt vs D. Concepcion | 07:00",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/911_1ht6ey8jxp1j.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1233_1jna7k7vjg2a.png?v=2.4.3",
+          "id": "luongson-b1ca51aa81d2",
+          "name": "⚽ Ypiranga(Rs) vs Confianca Se | 06:30",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11621_1jrryd3krh2s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1648_1hkewhda5r4.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -642,31 +677,39 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/911_1ht6ey8jxp1j.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/11621_1jrryd3krh2s.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 06:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-527101e673c5",
+              "id": "luongson-b1ca51aa81d2",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-527101e673c5",
-                  "name": "Puerto Montt vs D. Concepcion",
+                  "id": "luongson-b1ca51aa81d2",
+                  "name": "Ypiranga(Rs) vs Confianca Se",
                   "streams": [
                     {
-                      "id": "luongson-527101e673c5",
+                      "id": "luongson-b1ca51aa81d2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-143c77f376",
+                          "name": "BLV SD6MWD5EJHQ3N7JJFR5A",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5eJhq3N7JjFr5A/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -675,11 +718,11 @@
           ]
         },
         {
-          "id": "luongson-28e6458f57a4",
-          "name": "⚽ Los Angeles Fc Ii vs Houston Dynamo B | 09:00",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
+          "id": "luongson-958d3716c338",
+          "name": "⚽ Ituano Sp vs Maranhao | 06:30",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6398_167376678632.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -687,76 +730,39 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 06:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-28e6458f57a4",
+              "id": "luongson-958d3716c338",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-28e6458f57a4",
-                  "name": "Los Angeles Fc Ii vs Houston Dynamo B",
+                  "id": "luongson-958d3716c338",
+                  "name": "Ituano Sp vs Maranhao",
                   "streams": [
                     {
-                      "id": "luongson-28e6458f57a4",
+                      "id": "luongson-958d3716c338",
                       "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-91d1886f19ea",
-          "name": "⚽ Academica Sc vs Marin Fc Legends | 09:00",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33929_1jwd1rhs30n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57581_1h0y004ej91b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/33929_1jwd1rhs30n.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-91d1886f19ea",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-91d1886f19ea",
-                  "name": "Academica Sc vs Marin Fc Legends",
-                  "streams": [
-                    {
-                      "id": "luongson-91d1886f19ea",
-                      "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-662826c9e3",
+                          "name": "BLV SD6MWD5EJHPTABPOXBTA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5eJhptaBpoxBTa/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
