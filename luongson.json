@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:50 28/06/2026",
+  "last_updated": "19:01 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-49d59db4908a",
+          "name": "⚽ Dalian Zhixing vs Shanghai Shenhua | Không rõ",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20319_1jr56cj6pv19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/20319_1jr56cj6pv19.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-49d59db4908a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-49d59db4908a",
+                  "name": "Dalian Zhixing vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "luongson-49d59db4908a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-475de8dd70",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-b5bdef214f",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-d6aa3c8d838b",
           "name": "⚽ Suzhou Dongwu vs Ningbo Professional Football Club | Không rõ",
@@ -46,10 +106,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0e4aca729f",
-                          "name": "BLV HÀN TÍN",
+                          "id": "lnk-e90b7d5901",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-67eae9b2af",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
@@ -61,174 +128,8 @@
           ]
         },
         {
-          "id": "luongson-49d59db4908a",
-          "name": "⚽ Dalian Zhixing vs Shanghai Shenhua | Không rõ",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20319_1jr56cj6pv19.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20319_1jr56cj6pv19.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-49d59db4908a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-49d59db4908a",
-                  "name": "Dalian Zhixing vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "luongson-49d59db4908a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0289c9c832",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-1ce89fff50",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-98c4c94da3b5",
-          "name": "⚽ Qingdao West Coast vs Zhejiang Professional Fc | 03:26 29/06/1700",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41556_1h1n1m7x0f8.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/41556_1h1n1m7x0f8.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-98c4c94da3b5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-98c4c94da3b5",
-                  "name": "Qingdao West Coast vs Zhejiang Professional Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-98c4c94da3b5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eba9485f50",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6dd243da2d0f",
-          "name": "⚽ Busan Transportation Corporation vs Daejeon Korail | Không rõ",
-          "tournament": "Korea Challengers League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4791_1hrkjbh2vb30.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4778_1hrgcy8px412.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4791_1hrkjbh2vb30.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6dd243da2d0f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6dd243da2d0f",
-                  "name": "Busan Transportation Corporation vs Daejeon Korail",
-                  "streams": [
-                    {
-                      "id": "luongson-6dd243da2d0f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9710b62126",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-f50dad8e3e7a",
-          "name": "⚽ Irtysh Pavlodar vs Kaisar Kyzylorda | 19:00",
+          "name": "⚽ Irtysh Pavlodar vs Kaisar Kyzylorda | Không rõ",
           "tournament": "Kazakhstan Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4912_20130804165930.gif?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4917_1gs99xcwg62a.png?v=2.4.3",
@@ -245,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live 19:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -265,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3189d37831",
+                          "id": "lnk-63d8d77f0c",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -281,7 +182,7 @@
         },
         {
           "id": "luongson-66c62da2b845",
-          "name": "⚽ Dingnan Ganlian vs Wuxi Wugou | 19:00",
+          "name": "⚽ Dingnan Ganlian vs Wuxi Wugou | Không rõ",
           "tournament": "Chinese Football Association Jia League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/23801_1jvr6nqwgn1k.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/50189_1hrk14nehb2t.png?v=2.4.3",
@@ -298,7 +199,7 @@
           },
           "labels": [
             {
-              "text": "● Live 19:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -318,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1b0a03ebd3",
+                          "id": "lnk-e26dfc6284",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -531,10 +432,10 @@
           },
           "labels": [
             {
-              "text": "● Live 21:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -549,15 +450,7 @@
                     {
                       "id": "luongson-ddc67e02e9a6",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d169f6e71",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -656,6 +549,51 @@
           ]
         },
         {
+          "id": "luongson-6872ae564637",
+          "name": "⚽ Sandvikens If vs Helsingborg | 22:00",
+          "tournament": "Sweden Superettan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1807_1h8fzp9tbb3.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/368_1h4yn3a5rr27.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1807_1h8fzp9tbb3.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6872ae564637",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6872ae564637",
+                  "name": "Sandvikens If vs Helsingborg",
+                  "streams": [
+                    {
+                      "id": "luongson-6872ae564637",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-0efb04db910b",
           "name": "⚽ Dnepr Mogilev vs Neman Grodno | 22:00",
           "tournament": "Belarusian Premier League",
@@ -701,11 +639,11 @@
           ]
         },
         {
-          "id": "luongson-6872ae564637",
-          "name": "⚽ Sandvikens If vs Helsingborg | 22:00",
-          "tournament": "Sweden Superettan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1807_1h8fzp9tbb3.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/368_1h4yn3a5rr27.png?v=2.4.3",
+          "id": "luongson-3462ee45c370",
+          "name": "⚽ Fk Isloch Minsk vs Fc Belshina Babruisk | 22:30",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11908_1k0387g55229.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -713,7 +651,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1807_1h8fzp9tbb3.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -727,15 +665,60 @@
           ],
           "sources": [
             {
-              "id": "luongson-6872ae564637",
+              "id": "luongson-3462ee45c370",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-6872ae564637",
-                  "name": "Sandvikens If vs Helsingborg",
+                  "id": "luongson-3462ee45c370",
+                  "name": "Fk Isloch Minsk vs Fc Belshina Babruisk",
                   "streams": [
                     {
-                      "id": "luongson-6872ae564637",
+                      "id": "luongson-3462ee45c370",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-cf27a259ac68",
+          "name": "⚽ Dziugas Telsiai vs Fk Zalgiris Vilnius | 22:45",
+          "tournament": "Lithuania - 1.Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21208_1grgfd4mpf24.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1991_1gqk9g9bnk27.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/21208_1grgfd4mpf24.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cf27a259ac68",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cf27a259ac68",
+                  "name": "Dziugas Telsiai vs Fk Zalgiris Vilnius",
+                  "streams": [
+                    {
+                      "id": "luongson-cf27a259ac68",
                       "name": "F",
                       "stream_links": []
                     }
