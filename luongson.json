@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:40 29/06/2026",
+  "last_updated": "02:50 29/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,46 +46,46 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3223bfdc21",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-f616852181",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-7ed8e7a836",
+                          "id": "lnk-f973d996a3",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-b68b5ef59e",
+                          "id": "lnk-340a07a13b",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-c8e8e376db",
+                          "id": "lnk-8df4067d86",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-7af2d8afc5",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-78ee04de06",
+                          "id": "lnk-179848f7e7",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-d40d017418",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -97,7 +97,7 @@
         },
         {
           "id": "luongson-072f6865f9c4",
-          "name": "⚽ Huachipato vs Deportes Temuco | Không rõ",
+          "name": "⚽ Huachipato vs Deportes Temuco | 02:00",
           "tournament": "Chile Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/908_1htgre2d542b.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/894_1h6mrdn89c0.png?v=2.4.3",
@@ -114,7 +114,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live HT 02:00",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -134,11 +134,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-74df9e819e",
+                          "id": "lnk-23af70f3b5",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e00156c7924d",
+          "name": "⚽ Germany U19 vs Denmark U19 | 02:00",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 02:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e00156c7924d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e00156c7924d",
+                  "name": "Germany U19 vs Denmark U19",
+                  "streams": [
+                    {
+                      "id": "luongson-e00156c7924d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-827bb5c3cb",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -187,17 +240,10 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-76d3cf2323",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        },
-                        {
-                          "id": "lnk-b5e1ed8156",
+                          "id": "lnk-caac3a98dd",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
@@ -247,7 +293,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9017f39959",
+                          "id": "lnk-4304b6ce62",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -300,64 +346,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ecc8121da4",
+                          "id": "lnk-42fd61b126",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e00156c7924d",
-          "name": "⚽ Germany U19 vs Denmark U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e00156c7924d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e00156c7924d",
-                  "name": "Germany U19 vs Denmark U19",
-                  "streams": [
-                    {
-                      "id": "luongson-e00156c7924d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76ca19a134",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
