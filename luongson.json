@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:31 28/06/2026",
+  "last_updated": "17:40 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-98c4c94da3b5",
-          "name": "⚽ Qingdao West Coast vs Zhejiang Professional Fc | 03:26 29/06/1700",
+          "id": "luongson-a69c2c9c6939",
+          "name": "⚽ Qingdao West Coast vs Zhejiang Professional Fc | Không rõ",
           "tournament": "Chinese Super League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/41556_1h1n1m7x0f8.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
@@ -34,23 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-98c4c94da3b5",
+              "id": "luongson-a69c2c9c6939",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-98c4c94da3b5",
+                  "id": "luongson-a69c2c9c6939",
                   "name": "Qingdao West Coast vs Zhejiang Professional Fc",
                   "streams": [
                     {
-                      "id": "luongson-98c4c94da3b5",
+                      "id": "luongson-a69c2c9c6939",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9b2eab5635",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-6064afd527",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-98beeb3c0f",
+                          "id": "lnk-c5a9a46c8c",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -132,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 18:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -150,7 +150,22 @@
                     {
                       "id": "luongson-49d59db4908a",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff0946ae04",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-fe233997ca",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -197,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9128985f70",
+                          "id": "lnk-a5a424feef",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -455,10 +470,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 20:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -473,7 +488,15 @@
                     {
                       "id": "luongson-c24921f2eb58",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-75c3685a96",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
