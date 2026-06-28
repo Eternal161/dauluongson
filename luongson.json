@@ -1,12 +1,93 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:50 28/06/2026",
+  "last_updated": "10:01 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-eddc4aade267",
+          "name": "⚽ Jordan vs Argentina | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eddc4aade267",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eddc4aade267",
+                  "name": "Jordan vs Argentina",
+                  "streams": [
+                    {
+                      "id": "luongson-eddc4aade267",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-49f8124a43",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-5d2b768cd0",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-c5efcb2f6c",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-a0003a723b",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-7b8da0a3a8",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-65f4dc3d7b20",
           "name": "⚽ Algeria vs Austria | Không rõ",
@@ -46,127 +127,46 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8d7a849643",
+                          "id": "lnk-86b174702a",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-d855699901",
+                          "id": "lnk-27c7260971",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-e6ec309b82",
+                          "id": "lnk-20360ad676",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-e31e18a23e",
+                          "id": "lnk-7976776561",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-c0dfb4941e",
+                          "id": "lnk-289a63ea41",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-4a57221844",
+                          "id": "lnk-77dec399d7",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eddc4aade267",
-          "name": "⚽ Jordan vs Argentina | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/766_165018997867.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eddc4aade267",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eddc4aade267",
-                  "name": "Jordan vs Argentina",
-                  "streams": [
-                    {
-                      "id": "luongson-eddc4aade267",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ec13869696",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-7af1dd13fc",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-5c0cf1116b",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-6821ba81a6",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-cd9c4f7761",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -215,7 +215,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-31f8d26884",
+                          "id": "lnk-c6f166e131",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -365,51 +365,6 @@
           ]
         },
         {
-          "id": "luongson-6bd8e2c693c9",
-          "name": "⚽ Broadmeadow Magic vs Weston Workers Fc | 12:00",
-          "tournament": "Australia Northern NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22588_1h6z210pq51j.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21186_1gtk2yyspwa.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22588_1h6z210pq51j.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6bd8e2c693c9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6bd8e2c693c9",
-                  "name": "Broadmeadow Magic vs Weston Workers Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-6bd8e2c693c9",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-e92209e07210",
           "name": "⚽ Marconi Stallions vs Blacktown City Demons | 12:00",
           "tournament": "NSW Premier League",
@@ -445,6 +400,51 @@
                   "streams": [
                     {
                       "id": "luongson-e92209e07210",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6bd8e2c693c9",
+          "name": "⚽ Broadmeadow Magic vs Weston Workers Fc | 12:00",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22588_1h6z210pq51j.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21186_1gtk2yyspwa.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22588_1h6z210pq51j.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6bd8e2c693c9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6bd8e2c693c9",
+                  "name": "Broadmeadow Magic vs Weston Workers Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-6bd8e2c693c9",
                       "name": "F",
                       "stream_links": []
                     }
