@@ -1,125 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:10 28/06/2026",
+  "last_updated": "21:20 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-9e79301c559f",
-          "name": "⚽ Kapa vs Japs | 03:26 29/06/2000",
-          "tournament": "Finland Ykkonen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2009_1gy3vmcar026.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7156_1hj4ysev4e23.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2009_1gy3vmcar026.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9e79301c559f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9e79301c559f",
-                  "name": "Kapa vs Japs",
-                  "streams": [
-                    {
-                      "id": "luongson-9e79301c559f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c17a8d0553",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-37944cf2ce31",
-          "name": "⚽ Ethio Electric Fc vs Hawassa City Fc | Không rõ",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28828_1k7v7k60ba2d.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28905_1grwpzvvfj1x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/28828_1k7v7k60ba2d.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-37944cf2ce31",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-37944cf2ce31",
-                  "name": "Ethio Electric Fc vs Hawassa City Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-37944cf2ce31",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bcec66ca77",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-dee0f233d4",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-dd132e55dcd4",
           "name": "⚽ Ifk Norrkoping Fk vs Norrby If | Không rõ",
@@ -159,18 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9d09b4f753",
+                          "id": "lnk-ccb362a826",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-342a8d00a9",
+                          "id": "lnk-013d6ce2f9",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9e79301c559f",
+          "name": "⚽ Kapa vs Japs | 03:26 29/06/2000",
+          "tournament": "Finland Ykkonen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2009_1gy3vmcar026.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7156_1hj4ysev4e23.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2009_1gy3vmcar026.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9e79301c559f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9e79301c559f",
+                  "name": "Kapa vs Japs",
+                  "streams": [
+                    {
+                      "id": "luongson-9e79301c559f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0539a924ad",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -219,11 +159,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9373f283bd",
+                          "id": "lnk-ce5305dc6e",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-37944cf2ce31",
+          "name": "⚽ Ethio Electric Fc vs Hawassa City Fc | Không rõ",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28828_1k7v7k60ba2d.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28905_1grwpzvvfj1x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/28828_1k7v7k60ba2d.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-37944cf2ce31",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-37944cf2ce31",
+                  "name": "Ethio Electric Fc vs Hawassa City Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-37944cf2ce31",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8e48866b92",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-71cc28e341",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -272,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6504bec620",
+                          "id": "lnk-a432ce6796",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
@@ -325,14 +325,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-804d2bb8c4",
+                          "id": "lnk-6bca9de084",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         },
                         {
-                          "id": "lnk-4d2a379641",
+                          "id": "lnk-8f929b2d13",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": false,
@@ -430,7 +430,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4cd8609e09",
+                          "id": "lnk-44b03fc49b",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
