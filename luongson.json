@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:40 29/06/2026",
+  "last_updated": "04:50 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-894c402b02c4",
-          "name": "⚽ Nautico (Pe) vs Goias | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1621_1grmn7hx11v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/326_1gtqpsvqgg2d.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1621_1grmn7hx11v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-894c402b02c4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-894c402b02c4",
-                  "name": "Nautico (Pe) vs Goias",
-                  "streams": [
-                    {
-                      "id": "luongson-894c402b02c4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58029c614b",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        },
-                        {
-                          "id": "lnk-ed4758ca7f",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-edf4c80f6308",
           "name": "⚽ Fortaleza vs Sport Club Do Recife | Không rõ",
@@ -106,18 +46,131 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5ab5dc4307",
+                          "id": "lnk-e78d283da0",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-de73828eff",
+                          "id": "lnk-fba80a8c7e",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-894c402b02c4",
+          "name": "⚽ Nautico (Pe) vs Goias | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1621_1grmn7hx11v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/326_1gtqpsvqgg2d.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1621_1grmn7hx11v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-894c402b02c4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-894c402b02c4",
+                  "name": "Nautico (Pe) vs Goias",
+                  "streams": [
+                    {
+                      "id": "luongson-894c402b02c4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ab8038402",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-2af54469cf",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-556780fd210c",
+          "name": "⚽ Cincinnati Ii vs International Miami B | 05:00",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56986_1gwdxst6an1a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 05:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-556780fd210c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-556780fd210c",
+                  "name": "Cincinnati Ii vs International Miami B",
+                  "streams": [
+                    {
+                      "id": "luongson-556780fd210c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-446c56ea2b",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -166,14 +219,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-182474e2ff",
+                          "id": "lnk-f40c57d8d2",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-35b6a33167",
+                          "id": "lnk-3a5b707c60",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
@@ -673,51 +726,6 @@
                   "streams": [
                     {
                       "id": "luongson-67c3f58fadb7",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f0fbd45adacf",
-          "name": "⚽ Guangdong Province (W) vs Wuhan Jianghan (W) | 18:00",
-          "tournament": "Chinese Women’s Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/35479_1k6kxr3n6na.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7850_1gtzda45752y.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/35479_1k6kxr3n6na.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f0fbd45adacf",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f0fbd45adacf",
-                  "name": "Guangdong Province (W) vs Wuhan Jianghan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-f0fbd45adacf",
                       "name": "F",
                       "stream_links": []
                     }
