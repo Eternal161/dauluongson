@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:01 29/06/2026",
+  "last_updated": "05:10 29/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-795d602fb5",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-2259caeb8e",
+                          "id": "lnk-1fad2149ee",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-c77deb238f",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c87b4161c85e",
+          "name": "⚽ Carolina Core vs Huntsville City | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61473_1gy95z64a120.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c87b4161c85e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c87b4161c85e",
+                  "name": "Carolina Core vs Huntsville City",
+                  "streams": [
+                    {
+                      "id": "luongson-c87b4161c85e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c20181a01",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-6beb03e448",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -106,14 +166,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1d2e1ced44",
+                          "id": "lnk-a1cc019c93",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-6b36af563f",
+                          "id": "lnk-7ff1a241c1",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
@@ -166,118 +226,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-91b6fb4edc",
+                          "id": "lnk-ada04a0521",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c87b4161c85e",
-          "name": "⚽ Carolina Core vs Huntsville City | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61473_1gy95z64a120.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c87b4161c85e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c87b4161c85e",
-                  "name": "Carolina Core vs Huntsville City",
-                  "streams": [
-                    {
-                      "id": "luongson-c87b4161c85e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2a62d6fc90",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-d29d6cd901",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-621b27eed62c",
-          "name": "⚽ Orlando City B vs Columbus Crew B | 06:00",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56982_1gwdxst6a32m.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56987_1gy95z64sa15.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56982_1gwdxst6a32m.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-621b27eed62c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-621b27eed62c",
-                  "name": "Orlando City B vs Columbus Crew B",
-                  "streams": [
-                    {
-                      "id": "luongson-621b27eed62c",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -331,11 +286,11 @@
           ]
         },
         {
-          "id": "luongson-03ba9537ee4a",
-          "name": "⚽ Saint Louis City B vs Austin Fc Ii | 07:00",
+          "id": "luongson-621b27eed62c",
+          "name": "⚽ Orlando City B vs Columbus Crew B | 06:00",
           "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61320_1gwzx5cg7w30.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56982_1gwdxst6a32m.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56987_1gy95z64sa15.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -343,7 +298,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/56982_1gwdxst6a32m.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -357,15 +312,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-03ba9537ee4a",
+              "id": "luongson-621b27eed62c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-03ba9537ee4a",
-                  "name": "Saint Louis City B vs Austin Fc Ii",
+                  "id": "luongson-621b27eed62c",
+                  "name": "Orlando City B vs Columbus Crew B",
                   "streams": [
                     {
-                      "id": "luongson-03ba9537ee4a",
+                      "id": "luongson-621b27eed62c",
                       "name": "F",
                       "stream_links": []
                     }
@@ -411,6 +366,51 @@
                   "streams": [
                     {
                       "id": "luongson-f388191fcb65",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-03ba9537ee4a",
+          "name": "⚽ Saint Louis City B vs Austin Fc Ii | 07:00",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61320_1gwzx5cg7w30.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-03ba9537ee4a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-03ba9537ee4a",
+                  "name": "Saint Louis City B vs Austin Fc Ii",
+                  "streams": [
+                    {
+                      "id": "luongson-03ba9537ee4a",
                       "name": "F",
                       "stream_links": []
                     }
