@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:01 29/06/2026",
+  "last_updated": "02:10 29/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,46 +46,46 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a27a7028c8",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-750d3dc5ce",
+                          "id": "lnk-187118a025",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-918d95368a",
+                          "id": "lnk-fef5ef7d25",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-004fd07a09",
+                          "id": "lnk-83fe2907e0",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-8748545a43",
+                          "id": "lnk-1be458ad5a",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-14c735cbb2",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-92c1aa56b7",
+                          "id": "lnk-e14f0c3424",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://cms.cdnfaster-ls.site//live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -134,11 +134,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ff93e0ec61",
+                          "id": "lnk-f492a440e7",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8af68c98d970",
+          "name": "⚽ Juventude vs Ceara | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1755_1grmn77tvad.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8af68c98d970",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8af68c98d970",
+                  "name": "Juventude vs Ceara",
+                  "streams": [
+                    {
+                      "id": "luongson-8af68c98d970",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-df8b316f96",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -187,11 +240,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dea1400d3b",
+                          "id": "lnk-7fe8394206",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e1a40a865089",
+          "name": "⚽ Athletic Club Mg vs Avai Fc | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/38678_1hptb8ckca1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3523_1gtqpszsvf1a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/38678_1hptb8ckca1p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e1a40a865089",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e1a40a865089",
+                  "name": "Athletic Club Mg vs Avai Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-e1a40a865089",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21a09aba40",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -220,7 +326,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -240,64 +346,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2a2d509bfb",
+                          "id": "lnk-0706600ddf",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e1a40a865089",
-          "name": "⚽ Athletic Club Mg vs Avai Fc | 02:00",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/38678_1hptb8ckca1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3523_1gtqpszsvf1a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/38678_1hptb8ckca1p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 02:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e1a40a865089",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e1a40a865089",
-                  "name": "Athletic Club Mg vs Avai Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-e1a40a865089",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2fc4ade04d",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -346,64 +399,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d895122cdc",
+                          "id": "lnk-dd816a7c4c",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8af68c98d970",
-          "name": "⚽ Juventude vs Ceara | 02:00",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1755_1grmn77tvad.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 02:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8af68c98d970",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8af68c98d970",
-                  "name": "Juventude vs Ceara",
-                  "streams": [
-                    {
-                      "id": "luongson-8af68c98d970",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32a62542c7",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
