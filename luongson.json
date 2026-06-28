@@ -1,93 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:20 28/06/2026",
+  "last_updated": "08:30 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b29203f46fd5",
-          "name": "⚽ Colombia vs Portugal | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/669_165018896247.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/659_164983333830.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/669_165018896247.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b29203f46fd5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b29203f46fd5",
-                  "name": "Colombia vs Portugal",
-                  "streams": [
-                    {
-                      "id": "luongson-b29203f46fd5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f024bc964",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-a51f0d3c1c",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-0944084a9d",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-761a5a784c",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-670e166d9b",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-892f69517d83",
           "name": "⚽ Democratic Rep Congo vs Uzbekistan | Không rõ",
@@ -107,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "● Live 3 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -127,42 +46,42 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-252099cf07",
+                          "id": "lnk-9aa31f08e2",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-5cc8edd1f3",
+                          "id": "lnk-7555d1abff",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-79835c9124",
+                          "id": "lnk-08a377295c",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-a6ee9668e5",
+                          "id": "lnk-f1a2069da5",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-8456aba002",
+                          "id": "lnk-9ef4d8bec2",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-efbab8b579",
+                          "id": "lnk-fff636e0a8",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
@@ -177,8 +96,8 @@
           ]
         },
         {
-          "id": "luongson-d5ef01fbb7c6",
-          "name": "⚽ Colorado Rapids Ii vs Vancouver Whitecaps Reserve | Không rõ",
+          "id": "luongson-49a55c96ea0a",
+          "name": "⚽ Colorado Rapids Ii vs Vancouver Whitecaps Reserve | 03:26 29/06/700",
           "tournament": "USA MLS Next Pro League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/57159_1gweh4xjqv1w.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/15680_20130921173052.gif?v=2.4.3",
@@ -203,23 +122,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-d5ef01fbb7c6",
+              "id": "luongson-49a55c96ea0a",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d5ef01fbb7c6",
+                  "id": "luongson-49a55c96ea0a",
                   "name": "Colorado Rapids Ii vs Vancouver Whitecaps Reserve",
                   "streams": [
                     {
-                      "id": "luongson-d5ef01fbb7c6",
+                      "id": "luongson-49a55c96ea0a",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7c7ea8d74c",
-                          "name": "BLV PELE",
+                          "id": "lnk-f6fd058203",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -268,7 +187,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1906892d5b",
+                          "id": "lnk-8839255f5b",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -321,7 +240,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-02f0e9b165",
+                          "id": "lnk-16fc13d8b1",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -354,10 +273,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -372,7 +291,36 @@
                     {
                       "id": "luongson-eddc4aade267",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bda105a9db",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-70b0ef36b6",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-887b42c493",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-914a257a9f",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -399,10 +347,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -417,7 +365,15 @@
                     {
                       "id": "luongson-65f4dc3d7b20",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff4e3a1fc6",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -776,6 +732,51 @@
                   "streams": [
                     {
                       "id": "luongson-5db7db311b79",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7125958dab24",
+          "name": "⚽ Nelson Giants vs Auckland Tuatara | 13:00",
+          "tournament": "NBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782593824.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782593826.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782593824.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7125958dab24",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7125958dab24",
+                  "name": "Nelson Giants vs Auckland Tuatara",
+                  "streams": [
+                    {
+                      "id": "luongson-7125958dab24",
                       "name": "F",
                       "stream_links": []
                     }
