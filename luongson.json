@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:20 28/06/2026",
+  "last_updated": "14:30 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-5db7db311b79",
-          "name": "⚽ South Melbourne vs Green Gully Cavaliers | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4472_1ht6ew1xwn1w.png?v=2.4.3",
+          "id": "luongson-c1600218be84",
+          "name": "⚽ Queensland Lions Sc vs Wynnum Wolves | Không rõ",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 2",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-5db7db311b79",
+              "id": "luongson-c1600218be84",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-5db7db311b79",
-                  "name": "South Melbourne vs Green Gully Cavaliers",
+                  "id": "luongson-c1600218be84",
+                  "name": "Queensland Lions Sc vs Wynnum Wolves",
                   "streams": [
                     {
-                      "id": "luongson-5db7db311b79",
+                      "id": "luongson-c1600218be84",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6b2ca26997",
-                          "name": "BLV PELE",
+                          "id": "lnk-352a10ca8c",
+                          "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-f0c8d854e0",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -99,71 +106,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-57b9a3098b",
+                          "id": "lnk-df116903b5",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c1600218be84",
-          "name": "⚽ Queensland Lions Sc vs Wynnum Wolves | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c1600218be84",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c1600218be84",
-                  "name": "Queensland Lions Sc vs Wynnum Wolves",
-                  "streams": [
-                    {
-                      "id": "luongson-c1600218be84",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f0bbb561dc",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-a213d5cacb",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -212,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3839109a3c",
+                          "id": "lnk-a6570c1311",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
@@ -245,10 +192,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -263,7 +210,22 @@
                     {
                       "id": "luongson-9ae0a8dd83dc",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e469b88b36",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-cd6cdbe2bb",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -542,6 +504,51 @@
           ]
         },
         {
+          "id": "luongson-7763d174ba10",
+          "name": "⚽ Ulytau Zhezkazgan vs Ordabasy | 20:00",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61059_1gvszh7ysf19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61059_1gvszh7ysf19.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7763d174ba10",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7763d174ba10",
+                  "name": "Ulytau Zhezkazgan vs Ordabasy",
+                  "streams": [
+                    {
+                      "id": "luongson-7763d174ba10",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-74075ae45fa4",
           "name": "⚽ Kapa vs Japs | 20:00",
           "tournament": "Finland Ykkonen",
@@ -677,11 +684,11 @@
           ]
         },
         {
-          "id": "luongson-7763d174ba10",
-          "name": "⚽ Ulytau Zhezkazgan vs Ordabasy | 20:00",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61059_1gvszh7ysf19.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
+          "id": "luongson-ddc67e02e9a6",
+          "name": "⚽ Nomme Jk Kalju vs Paide Linnameeskond | 21:00",
+          "tournament": "Estonia Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6124_1hv2rtjg821v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8117_1gragj29t9k.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -689,7 +696,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61059_1gvszh7ysf19.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/6124_1hv2rtjg821v.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -703,15 +710,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-7763d174ba10",
+              "id": "luongson-ddc67e02e9a6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-7763d174ba10",
-                  "name": "Ulytau Zhezkazgan vs Ordabasy",
+                  "id": "luongson-ddc67e02e9a6",
+                  "name": "Nomme Jk Kalju vs Paide Linnameeskond",
                   "streams": [
                     {
-                      "id": "luongson-7763d174ba10",
+                      "id": "luongson-ddc67e02e9a6",
                       "name": "F",
                       "stream_links": []
                     }
