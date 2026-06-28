@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:41 28/06/2026",
+  "last_updated": "15:50 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-1cea98ccb545",
+          "name": "⚽ Ulaangom City Fc vs Khovd | Không rõ",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1cea98ccb545",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1cea98ccb545",
+                  "name": "Ulaangom City Fc vs Khovd",
+                  "streams": [
+                    {
+                      "id": "luongson-1cea98ccb545",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28e08284e4",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-b08d074be5",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-9ae0a8dd83dc",
           "name": "⚽ Dangjin Citizen vs Gangneung City | Không rõ",
@@ -26,7 +86,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "● Live HT 3 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,18 +106,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-710a72a233",
+                          "id": "lnk-1f2219d124",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         },
                         {
-                          "id": "lnk-ee7b4fb673",
+                          "id": "lnk-e223a2cf6a",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c1600218be84",
+          "name": "⚽ Queensland Lions Sc vs Wynnum Wolves | Không rõ",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 6 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c1600218be84",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c1600218be84",
+                  "name": "Queensland Lions Sc vs Wynnum Wolves",
+                  "streams": [
+                    {
+                      "id": "luongson-c1600218be84",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2130896919",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-f087e16772",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -106,131 +226,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fd4e19374d",
+                          "id": "lnk-b59689c5ad",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-1cea98ccb545",
-          "name": "⚽ Ulaangom City Fc vs Khovd | Không rõ",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1cea98ccb545",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1cea98ccb545",
-                  "name": "Ulaangom City Fc vs Khovd",
-                  "streams": [
-                    {
-                      "id": "luongson-1cea98ccb545",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f16341d402",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        },
-                        {
-                          "id": "lnk-d85305382f",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c1600218be84",
-          "name": "⚽ Queensland Lions Sc vs Wynnum Wolves | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 5 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c1600218be84",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c1600218be84",
-                  "name": "Queensland Lions Sc vs Wynnum Wolves",
-                  "streams": [
-                    {
-                      "id": "luongson-c1600218be84",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bdd59ab97f",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-9249a9f60b",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
