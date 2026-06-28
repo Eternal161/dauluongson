@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:51 28/06/2026",
+  "last_updated": "12:01 28/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5045729a10",
+                          "id": "lnk-7ca2e5725d",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b3e5dc19f1",
+                          "id": "lnk-9f919eb301",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e7e673bd72",
+                          "id": "lnk-0e78d25ebd",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5a92627a24",
+                          "id": "lnk-bb7d662c9f",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ad78f26ba9",
+                          "id": "lnk-f99604b3ea",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a10f935332",
+                          "id": "lnk-d196a17cae",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -344,10 +344,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 12:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -362,7 +362,15 @@
                     {
                       "id": "luongson-5db7db311b79",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7db7e2d50a",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
                     }
                   ]
                 }
