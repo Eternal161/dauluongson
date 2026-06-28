@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:20 28/06/2026",
+  "last_updated": "17:31 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-6dd243da2d0f",
-          "name": "⚽ Busan Transportation Corporation vs Daejeon Korail | Không rõ",
-          "tournament": "Korea Challengers League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4791_1hrkjbh2vb30.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4778_1hrgcy8px412.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4791_1hrkjbh2vb30.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6dd243da2d0f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6dd243da2d0f",
-                  "name": "Busan Transportation Corporation vs Daejeon Korail",
-                  "streams": [
-                    {
-                      "id": "luongson-6dd243da2d0f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6a29cbfe47",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-98c4c94da3b5",
           "name": "⚽ Qingdao West Coast vs Zhejiang Professional Fc | 03:26 29/06/1700",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6084611eb0",
+                          "id": "lnk-9b2eab5635",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6dd243da2d0f",
+          "name": "⚽ Busan Transportation Corporation vs Daejeon Korail | Không rõ",
+          "tournament": "Korea Challengers League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4791_1hrkjbh2vb30.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4778_1hrgcy8px412.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4791_1hrkjbh2vb30.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6dd243da2d0f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6dd243da2d0f",
+                  "name": "Busan Transportation Corporation vs Daejeon Korail",
+                  "streams": [
+                    {
+                      "id": "luongson-6dd243da2d0f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-98beeb3c0f",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -177,10 +177,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 18:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -195,7 +195,15 @@
                     {
                       "id": "luongson-d6aa3c8d838b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9128985f70",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
                     }
                   ]
                 }
