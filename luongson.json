@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:01 28/06/2026",
+  "last_updated": "14:10 28/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-03cce0b176",
+                          "id": "lnk-58c9a06d97",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -79,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7c50e62beb",
+                          "id": "lnk-060bf642e8",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -115,7 +115,7 @@
         },
         {
           "id": "luongson-c1600218be84",
-          "name": "⚽ Queensland Lions Sc vs Wynnum Wolves | 14:00",
+          "name": "⚽ Queensland Lions Sc vs Wynnum Wolves | Không rõ",
           "tournament": "QLD Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
@@ -132,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 14:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,10 +152,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2b870a729a",
-                          "name": "BLV MÃ SIÊU",
+                          "id": "lnk-05cea8c16b",
+                          "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-336e4bf12b",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
@@ -185,10 +192,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -203,7 +210,15 @@
                     {
                       "id": "luongson-1cea98ccb545",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e06860e31a",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
                     }
                   ]
                 }
