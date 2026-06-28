@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:50 28/06/2026",
+  "last_updated": "23:01 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-bba4f62b870c",
+          "name": "⚽ Levadia Tallinn vs Fc Flora Tallinn | Không rõ",
+          "tournament": "Estonia Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/579_1jbqr7wg8p11.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/579_1jbqr7wg8p11.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bba4f62b870c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bba4f62b870c",
+                  "name": "Levadia Tallinn vs Fc Flora Tallinn",
+                  "streams": [
+                    {
+                      "id": "luongson-bba4f62b870c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-61996698d6",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-6872ae564637",
           "name": "⚽ Sandvikens If vs Helsingborg | Không rõ",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ca79a70644",
+                          "id": "lnk-72145d0fb8",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -79,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,244 +152,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-edcb598a66",
+                          "id": "lnk-a84bd90dc2",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-5791e61e2e",
+                          "id": "lnk-1c044eaa67",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0efb04db910b",
-          "name": "⚽ Dnepr Mogilev vs Neman Grodno | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2038_1h746p87zrk.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/575_1j50e7s8g413.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2038_1h746p87zrk.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0efb04db910b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0efb04db910b",
-                  "name": "Dnepr Mogilev vs Neman Grodno",
-                  "streams": [
-                    {
-                      "id": "luongson-0efb04db910b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2a9a372f0",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e78690f0c097",
-          "name": "⚽ Zhenis vs Fc Astana | Không rõ",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57206_1gw0t7pdbx31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/585_1hpwx41r14z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57206_1gw0t7pdbx31.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e78690f0c097",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e78690f0c097",
-                  "name": "Zhenis vs Fc Astana",
-                  "streams": [
-                    {
-                      "id": "luongson-e78690f0c097",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8d0a9c092",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ddc67e02e9a6",
-          "name": "⚽ Nomme Jk Kalju vs Paide Linnameeskond | Không rõ",
-          "tournament": "Estonia Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6124_1hv2rtjg821v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8117_1gragj29t9k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6124_1hv2rtjg821v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ddc67e02e9a6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ddc67e02e9a6",
-                  "name": "Nomme Jk Kalju vs Paide Linnameeskond",
-                  "streams": [
-                    {
-                      "id": "luongson-ddc67e02e9a6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12c13f89c5",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-9e6ace1564",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3462ee45c370",
-          "name": "⚽ Fk Isloch Minsk vs Fc Belshina Babruisk | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11908_1k0387g55229.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3462ee45c370",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3462ee45c370",
-                  "name": "Fk Isloch Minsk vs Fc Belshina Babruisk",
-                  "streams": [
-                    {
-                      "id": "luongson-3462ee45c370",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af2eef3d84",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-606f93f368",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -385,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ac1f14d7f0",
+                          "id": "lnk-212eb5b112",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -400,11 +227,11 @@
           ]
         },
         {
-          "id": "luongson-bba4f62b870c",
-          "name": "⚽ Levadia Tallinn vs Fc Flora Tallinn | 23:00",
-          "tournament": "Estonia Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/579_1jbqr7wg8p11.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
+          "id": "luongson-0efb04db910b",
+          "name": "⚽ Dnepr Mogilev vs Neman Grodno | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2038_1h746p87zrk.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/575_1j50e7s8g413.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -412,13 +239,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/579_1jbqr7wg8p11.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/2038_1h746p87zrk.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 23:00",
+              "text": "● Live HT 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -426,23 +253,83 @@
           ],
           "sources": [
             {
-              "id": "luongson-bba4f62b870c",
+              "id": "luongson-0efb04db910b",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-bba4f62b870c",
-                  "name": "Levadia Tallinn vs Fc Flora Tallinn",
+                  "id": "luongson-0efb04db910b",
+                  "name": "Dnepr Mogilev vs Neman Grodno",
                   "streams": [
                     {
-                      "id": "luongson-bba4f62b870c",
+                      "id": "luongson-0efb04db910b",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e5719142d7",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-8bfa31b594",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3462ee45c370",
+          "name": "⚽ Fk Isloch Minsk vs Fc Belshina Babruisk | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11908_1k0387g55229.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3462ee45c370",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3462ee45c370",
+                  "name": "Fk Isloch Minsk vs Fc Belshina Babruisk",
+                  "streams": [
+                    {
+                      "id": "luongson-3462ee45c370",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6abf680871",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-b0491af513",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -491,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-73e2643317",
+                          "id": "lnk-3b3d6419ec",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
@@ -544,13 +431,65 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0881bc0b4e",
+                          "id": "lnk-c1ac5972d9",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-d49c06a135",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9faf0647ef8f",
+          "name": "⚽ Wydad Casablanca vs Olympique Dcheira | 00:00",
+          "tournament": "Botola Pro 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15053_1hxwvjxywh31.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9faf0647ef8f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9faf0647ef8f",
+                  "name": "Wydad Casablanca vs Olympique Dcheira",
+                  "streams": [
+                    {
+                      "id": "luongson-9faf0647ef8f",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
@@ -694,11 +633,11 @@
           ]
         },
         {
-          "id": "luongson-9faf0647ef8f",
-          "name": "⚽ Wydad Casablanca vs Olympique Dcheira | 00:00",
-          "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15053_1hxwvjxywh31.png?v=2.4.3",
+          "id": "luongson-e00156c7924d",
+          "name": "⚽ Germany U19 vs Denmark U19 | 02:00",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -706,7 +645,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -720,15 +659,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-9faf0647ef8f",
+              "id": "luongson-e00156c7924d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-9faf0647ef8f",
-                  "name": "Wydad Casablanca vs Olympique Dcheira",
+                  "id": "luongson-e00156c7924d",
+                  "name": "Germany U19 vs Denmark U19",
                   "streams": [
                     {
-                      "id": "luongson-9faf0647ef8f",
+                      "id": "luongson-e00156c7924d",
                       "name": "F",
                       "stream_links": []
                     }
@@ -739,11 +678,11 @@
           ]
         },
         {
-          "id": "luongson-072f6865f9c4",
-          "name": "⚽ Huachipato vs Deportes Temuco | 02:00",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/908_1htgre2d542b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/894_1h6mrdn89c0.png?v=2.4.3",
+          "id": "luongson-eefcab03c537",
+          "name": "⚽ South Africa vs Canada | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/695_165018843635.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/688_165018903917.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -751,7 +690,52 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/908_1htgre2d542b.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/695_165018843635.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eefcab03c537",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eefcab03c537",
+                  "name": "South Africa vs Canada",
+                  "streams": [
+                    {
+                      "id": "luongson-eefcab03c537",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8af68c98d970",
+          "name": "⚽ Juventude vs Ceara | 02:00",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1755_1grmn77tvad.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -765,15 +749,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-072f6865f9c4",
+              "id": "luongson-8af68c98d970",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-072f6865f9c4",
-                  "name": "Huachipato vs Deportes Temuco",
+                  "id": "luongson-8af68c98d970",
+                  "name": "Juventude vs Ceara",
                   "streams": [
                     {
-                      "id": "luongson-072f6865f9c4",
+                      "id": "luongson-8af68c98d970",
                       "name": "F",
                       "stream_links": []
                     }
