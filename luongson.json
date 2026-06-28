@@ -1,12 +1,118 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:20 28/06/2026",
+  "last_updated": "22:31 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-e78690f0c097",
+          "name": "⚽ Zhenis vs Fc Astana | Không rõ",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57206_1gw0t7pdbx31.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/585_1hpwx41r14z.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/57206_1gw0t7pdbx31.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e78690f0c097",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e78690f0c097",
+                  "name": "Zhenis vs Fc Astana",
+                  "streams": [
+                    {
+                      "id": "luongson-e78690f0c097",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2004990383",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6872ae564637",
+          "name": "⚽ Sandvikens If vs Helsingborg | Không rõ",
+          "tournament": "Sweden Superettan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1807_1h8fzp9tbb3.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/368_1h4yn3a5rr27.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1807_1h8fzp9tbb3.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6872ae564637",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6872ae564637",
+                  "name": "Sandvikens If vs Helsingborg",
+                  "streams": [
+                    {
+                      "id": "luongson-6872ae564637",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5915766f1f",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-3d418a044d15",
           "name": "⚽ Fk Banga Gargzdai vs Hegelmann Litauen | Không rõ",
@@ -46,184 +152,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3b7b8154a4",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-d387b99279",
+                          "id": "lnk-241bd06366",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ddc67e02e9a6",
-          "name": "⚽ Nomme Jk Kalju vs Paide Linnameeskond | Không rõ",
-          "tournament": "Estonia Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6124_1hv2rtjg821v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8117_1gragj29t9k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6124_1hv2rtjg821v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ddc67e02e9a6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ddc67e02e9a6",
-                  "name": "Nomme Jk Kalju vs Paide Linnameeskond",
-                  "streams": [
-                    {
-                      "id": "luongson-ddc67e02e9a6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2da729c51b",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-645207fea6",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-bf470333f7",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e78690f0c097",
-          "name": "⚽ Zhenis vs Fc Astana | Không rõ",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57206_1gw0t7pdbx31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/585_1hpwx41r14z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57206_1gw0t7pdbx31.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e78690f0c097",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e78690f0c097",
-                  "name": "Zhenis vs Fc Astana",
-                  "streams": [
-                    {
-                      "id": "luongson-e78690f0c097",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c543fd9766",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6872ae564637",
-          "name": "⚽ Sandvikens If vs Helsingborg | Không rõ",
-          "tournament": "Sweden Superettan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1807_1h8fzp9tbb3.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/368_1h4yn3a5rr27.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1807_1h8fzp9tbb3.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6872ae564637",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6872ae564637",
-                  "name": "Sandvikens If vs Helsingborg",
-                  "streams": [
-                    {
-                      "id": "luongson-6872ae564637",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9cbedeaa7d",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -272,11 +212,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2c8beda4d5",
+                          "id": "lnk-a1e17994d4",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ddc67e02e9a6",
+          "name": "⚽ Nomme Jk Kalju vs Paide Linnameeskond | Không rõ",
+          "tournament": "Estonia Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6124_1hv2rtjg821v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8117_1gragj29t9k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6124_1hv2rtjg821v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ddc67e02e9a6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ddc67e02e9a6",
+                  "name": "Nomme Jk Kalju vs Paide Linnameeskond",
+                  "streams": [
+                    {
+                      "id": "luongson-ddc67e02e9a6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-baca450083",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-369d2d845c",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -325,18 +325,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-92b7e9e471",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-db1c30349d",
+                          "id": "lnk-282fc03c5d",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-e5f05ecdba",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -365,10 +365,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:45",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -383,7 +383,15 @@
                     {
                       "id": "luongson-cf27a259ac68",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-16c6e71a57",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -410,10 +418,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -428,7 +436,15 @@
                     {
                       "id": "luongson-bba4f62b870c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-728a4aa3e2",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
                     }
                   ]
                 }
