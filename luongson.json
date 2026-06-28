@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:40 29/06/2026",
+  "last_updated": "06:50 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-556780fd210c",
+          "name": "⚽ Cincinnati Ii vs International Miami B | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56986_1gwdxst6an1a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-556780fd210c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-556780fd210c",
+                  "name": "Cincinnati Ii vs International Miami B",
+                  "streams": [
+                    {
+                      "id": "luongson-556780fd210c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4101e50538",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-c87b4161c85e",
           "name": "⚽ Carolina Core vs Huntsville City | Không rõ",
@@ -46,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-959975fc69",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-9d669f220d",
+                          "id": "lnk-7718f23a91",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-abd8d6f482",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -106,64 +159,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8cd61b28e9",
+                          "id": "lnk-086497e7b6",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-03ba9537ee4a",
-          "name": "⚽ Saint Louis City B vs Austin Fc Ii | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61320_1gwzx5cg7w30.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-03ba9537ee4a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-03ba9537ee4a",
-                  "name": "Saint Louis City B vs Austin Fc Ii",
-                  "streams": [
-                    {
-                      "id": "luongson-03ba9537ee4a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bb1fa76c29",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -212,64 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a89198effa",
+                          "id": "lnk-6c8ac29dc8",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-556780fd210c",
-          "name": "⚽ Cincinnati Ii vs International Miami B | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56986_1gwdxst6an1a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-556780fd210c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-556780fd210c",
-                  "name": "Cincinnati Ii vs International Miami B",
-                  "streams": [
-                    {
-                      "id": "luongson-556780fd210c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef19b7b91e",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -298,10 +245,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 07:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -316,7 +263,15 @@
                     {
                       "id": "luongson-f388191fcb65",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e7be44a49",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -363,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0bbf63fcba",
+                          "id": "lnk-0c85006233",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -728,6 +683,51 @@
                   "streams": [
                     {
                       "id": "luongson-b4d2acf61bdb",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-119431b6edb7",
+          "name": "⚽ Jelgava vs Grobina | 22:00",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-119431b6edb7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-119431b6edb7",
+                  "name": "Jelgava vs Grobina",
+                  "streams": [
+                    {
+                      "id": "luongson-119431b6edb7",
                       "name": "F",
                       "stream_links": []
                     }
