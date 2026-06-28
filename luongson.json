@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:30 29/06/2026",
+  "last_updated": "06:40 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-c87b4161c85e",
+          "name": "⚽ Carolina Core vs Huntsville City | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61473_1gy95z64a120.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c87b4161c85e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c87b4161c85e",
+                  "name": "Carolina Core vs Huntsville City",
+                  "streams": [
+                    {
+                      "id": "luongson-c87b4161c85e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-959975fc69",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-9d669f220d",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-163b0de37c2f",
           "name": "⚽ New York Red Bulls B vs Philadelphia Union Ii | Không rõ",
@@ -26,7 +86,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1636e2fb57",
+                          "id": "lnk-8cd61b28e9",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -99,71 +159,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e8b51a4bc3",
+                          "id": "lnk-bb1fa76c29",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-894c402b02c4",
-          "name": "⚽ Nautico (Pe) vs Goias | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1621_1grmn7hx11v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/326_1gtqpsvqgg2d.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1621_1grmn7hx11v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-894c402b02c4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-894c402b02c4",
-                  "name": "Nautico (Pe) vs Goias",
-                  "streams": [
-                    {
-                      "id": "luongson-894c402b02c4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5538bb650",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        },
-                        {
-                          "id": "lnk-a524cdf0d3",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -212,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a1c06bf936",
+                          "id": "lnk-a89198effa",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -265,71 +265,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-222237f2be",
+                          "id": "lnk-ef19b7b91e",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c87b4161c85e",
-          "name": "⚽ Carolina Core vs Huntsville City | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61473_1gy95z64a120.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64845_1hsfe494ka8.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c87b4161c85e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c87b4161c85e",
-                  "name": "Carolina Core vs Huntsville City",
-                  "streams": [
-                    {
-                      "id": "luongson-c87b4161c85e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8589982906",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-cf6d546054",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -385,7 +325,7 @@
           ]
         },
         {
-          "id": "luongson-527101e673c5",
+          "id": "luongson-ceab05524212",
           "name": "⚽ Puerto Montt vs D. Concepcion | 07:00",
           "tournament": "Chile Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/911_1ht6ey8jxp1j.png?v=2.4.3",
@@ -403,25 +343,33 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 07:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-527101e673c5",
+              "id": "luongson-ceab05524212",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-527101e673c5",
+                  "id": "luongson-ceab05524212",
                   "name": "Puerto Montt vs D. Concepcion",
                   "streams": [
                     {
-                      "id": "luongson-527101e673c5",
+                      "id": "luongson-ceab05524212",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0bbf63fcba",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -735,6 +683,51 @@
                   "streams": [
                     {
                       "id": "luongson-f0fbd45adacf",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b4d2acf61bdb",
+          "name": "⚽ Big Bullets Fc vs Masters Security | 19:30",
+          "tournament": "Malawi Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21721_1gy1eh298k27.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33114_1j4b2cwhre6.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/21721_1gy1eh298k27.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b4d2acf61bdb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b4d2acf61bdb",
+                  "name": "Big Bullets Fc vs Masters Security",
+                  "streams": [
+                    {
+                      "id": "luongson-b4d2acf61bdb",
                       "name": "F",
                       "stream_links": []
                     }
