@@ -1,71 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:10 28/06/2026",
+  "last_updated": "19:20 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-f50dad8e3e7a",
-          "name": "⚽ Irtysh Pavlodar vs Kaisar Kyzylorda | Không rõ",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4912_20130804165930.gif?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4917_1gs99xcwg62a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4912_20130804165930.gif?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f50dad8e3e7a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f50dad8e3e7a",
-                  "name": "Irtysh Pavlodar vs Kaisar Kyzylorda",
-                  "streams": [
-                    {
-                      "id": "luongson-f50dad8e3e7a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-585a4d5852",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-66c62da2b845",
-          "name": "⚽ Dingnan Ganlian vs Wuxi Wugou | Không rõ",
+          "id": "luongson-d6aa3c8d838b",
+          "name": "⚽ Suzhou Dongwu vs Ningbo Professional Football Club | Không rõ",
           "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23801_1jvr6nqwgn1k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50189_1hrk14nehb2t.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18792_1hy7xtfwac24.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20531_1hrk13pq9fr.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23801_1jvr6nqwgn1k.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/18792_1hy7xtfwac24.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -87,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-66c62da2b845",
+              "id": "luongson-d6aa3c8d838b",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-66c62da2b845",
-                  "name": "Dingnan Ganlian vs Wuxi Wugou",
+                  "id": "luongson-d6aa3c8d838b",
+                  "name": "Suzhou Dongwu vs Ningbo Professional Football Club",
                   "streams": [
                     {
-                      "id": "luongson-66c62da2b845",
+                      "id": "luongson-d6aa3c8d838b",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d3485883d5",
-                          "name": "BLV MAYBACH",
+                          "id": "lnk-98fc1002be",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-a9703b8a56",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -152,14 +106,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8e8bd7b9b9",
+                          "id": "lnk-63f335a1ab",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-5d42ac14d7",
+                          "id": "lnk-51471c9f8b",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
@@ -174,11 +128,11 @@
           ]
         },
         {
-          "id": "luongson-d6aa3c8d838b",
-          "name": "⚽ Suzhou Dongwu vs Ningbo Professional Football Club | Không rõ",
+          "id": "luongson-66c62da2b845",
+          "name": "⚽ Dingnan Ganlian vs Wuxi Wugou | Không rõ",
           "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18792_1hy7xtfwac24.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20531_1hrk13pq9fr.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23801_1jvr6nqwgn1k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50189_1hrk14nehb2t.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -186,13 +140,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/18792_1hy7xtfwac24.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/23801_1jvr6nqwgn1k.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 2",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -200,23 +154,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-d6aa3c8d838b",
+              "id": "luongson-66c62da2b845",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d6aa3c8d838b",
-                  "name": "Suzhou Dongwu vs Ningbo Professional Football Club",
+                  "id": "luongson-66c62da2b845",
+                  "name": "Dingnan Ganlian vs Wuxi Wugou",
                   "streams": [
                     {
-                      "id": "luongson-d6aa3c8d838b",
+                      "id": "luongson-66c62da2b845",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9191576b26",
-                          "name": "BLV HÀN TÍN",
+                          "id": "lnk-75f1174219",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f50dad8e3e7a",
+          "name": "⚽ Irtysh Pavlodar vs Kaisar Kyzylorda | Không rõ",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4912_20130804165930.gif?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4917_1gs99xcwg62a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4912_20130804165930.gif?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f50dad8e3e7a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f50dad8e3e7a",
+                  "name": "Irtysh Pavlodar vs Kaisar Kyzylorda",
+                  "streams": [
+                    {
+                      "id": "luongson-f50dad8e3e7a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6650ac9550",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -380,10 +387,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 20:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -398,7 +405,15 @@
                     {
                       "id": "luongson-c24921f2eb58",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9930c76d5",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -425,10 +440,10 @@
           },
           "labels": [
             {
-              "text": "● Live 21:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -443,15 +458,7 @@
                     {
                       "id": "luongson-ddc67e02e9a6",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d18304605c",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
