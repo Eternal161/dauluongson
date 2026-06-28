@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:31 28/06/2026",
+  "last_updated": "19:40 28/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-49d59db4908a",
-          "name": "⚽ Dalian Zhixing vs Shanghai Shenhua | Không rõ",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20319_1jr56cj6pv19.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20319_1jr56cj6pv19.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-49d59db4908a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-49d59db4908a",
-                  "name": "Dalian Zhixing vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "luongson-49d59db4908a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4909465753",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-d5611e8f31",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-66c62da2b845",
           "name": "⚽ Dingnan Ganlian vs Wuxi Wugou | Không rõ",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6ad1d848bb",
+                          "id": "lnk-0f6ec7a555",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -159,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-930aff0640",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-f2b76e35ef",
+                          "id": "lnk-918b76f320",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-a2768c91fd",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -219,11 +159,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bc7b9603ba",
+                          "id": "lnk-03683e46e1",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-49d59db4908a",
+          "name": "⚽ Dalian Zhixing vs Shanghai Shenhua | Không rõ",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20319_1jr56cj6pv19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/20319_1jr56cj6pv19.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-49d59db4908a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-49d59db4908a",
+                  "name": "Dalian Zhixing vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "luongson-49d59db4908a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2d25f0538",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-185a8ba095",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -252,10 +252,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 20:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -270,7 +270,15 @@
                     {
                       "id": "luongson-7763d174ba10",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6eff678e70",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -362,11 +370,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bd4dd890fc",
+                          "id": "lnk-c657ef3b62",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        },
+                        {
+                          "id": "lnk-b440931b40",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -377,7 +392,7 @@
           ]
         },
         {
-          "id": "luongson-0c2ed08928f9",
+          "id": "luongson-c24921f2eb58",
           "name": "⚽ Landskrona Bois vs Ifk Varnamo | 20:00",
           "tournament": "Sweden Superettan",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/362_1h8fzp9swe28.png?v=2.4.3",
@@ -403,23 +418,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-0c2ed08928f9",
+              "id": "luongson-c24921f2eb58",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-0c2ed08928f9",
+                  "id": "luongson-c24921f2eb58",
                   "name": "Landskrona Bois vs Ifk Varnamo",
                   "streams": [
                     {
-                      "id": "luongson-0c2ed08928f9",
+                      "id": "luongson-c24921f2eb58",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-836d7a8a4b",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-923103e709",
+                          "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -468,14 +483,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cd8cb54b3a",
+                          "id": "lnk-2b7c5fdf96",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-cc3858c0aa",
+                          "id": "lnk-8d9bdca315",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
