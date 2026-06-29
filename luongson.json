@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:50 29/06/2026",
+  "last_updated": "18:01 29/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4b7ef760eb",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-0712b3d813",
+                          "id": "lnk-36c0f70f9f",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-81a9df2f0a",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -68,11 +68,11 @@
           ]
         },
         {
-          "id": "luongson-72ad2cb98f64",
-          "name": "⚽ Ha Noi (W) vs Ho Chi Minh City (W) | Không rõ",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26587_1k4948jhfm2k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22247_1gs6t2rq4q1m.png?v=2.4.3",
+          "id": "luongson-18351ef3d7c6",
+          "name": "⚽ Shenzhen Xinpengcheng U21 vs Guangdong Guangzhou Power U21 | Không rõ",
+          "tournament": "China U21 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65150_1hv0x2dewwy.jpg?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782726318.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -80,13 +80,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/26587_1k4948jhfm2k.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/65150_1hv0x2dewwy.jpg?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -94,30 +94,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-72ad2cb98f64",
+              "id": "luongson-18351ef3d7c6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-72ad2cb98f64",
-                  "name": "Ha Noi (W) vs Ho Chi Minh City (W)",
+                  "id": "luongson-18351ef3d7c6",
+                  "name": "Shenzhen Xinpengcheng U21 vs Guangdong Guangzhou Power U21",
                   "streams": [
                     {
-                      "id": "luongson-72ad2cb98f64",
+                      "id": "luongson-18351ef3d7c6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f48d10bb53",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-6d7690398b",
+                          "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         },
                         {
-                          "id": "lnk-84ffab28f3",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-9419475689",
+                          "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -166,78 +166,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-41a2fb36a7",
+                          "id": "lnk-35b209e134",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-9c495b7699",
+                          "id": "lnk-dd86d113eb",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-18351ef3d7c6",
-          "name": "⚽ Shenzhen Xinpengcheng U21 vs Guangdong Guangzhou Power U21 | 18:00",
-          "tournament": "China U21 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65150_1hv0x2dewwy.jpg?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782726318.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65150_1hv0x2dewwy.jpg?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 18:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-18351ef3d7c6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-18351ef3d7c6",
-                  "name": "Shenzhen Xinpengcheng U21 vs Guangdong Guangzhou Power U21",
-                  "streams": [
-                    {
-                      "id": "luongson-18351ef3d7c6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-10afc5eb1e",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        },
-                        {
-                          "id": "lnk-84cde5def7",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -286,7 +226,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f8d1e09143",
+                          "id": "lnk-8ec68e6477",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -336,51 +276,6 @@
                   "streams": [
                     {
                       "id": "luongson-b4d2acf61bdb",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-119431b6edb7",
-          "name": "⚽ Jelgava vs Grobina | 22:00",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-119431b6edb7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-119431b6edb7",
-                  "name": "Jelgava vs Grobina",
-                  "streams": [
-                    {
-                      "id": "luongson-119431b6edb7",
                       "name": "F",
                       "stream_links": []
                     }
@@ -471,6 +366,51 @@
                   "streams": [
                     {
                       "id": "luongson-841d0e88587c",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-119431b6edb7",
+          "name": "⚽ Jelgava vs Grobina | 22:00",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-119431b6edb7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-119431b6edb7",
+                  "name": "Jelgava vs Grobina",
+                  "streams": [
+                    {
+                      "id": "luongson-119431b6edb7",
                       "name": "F",
                       "stream_links": []
                     }
@@ -741,6 +681,51 @@
                   "streams": [
                     {
                       "id": "luongson-a8550104ca81",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-288f9fd40456",
+          "name": "⚽ Al-Qadsia Sc vs Al Kuwait Sc | 00:45",
+          "tournament": "Kuwaiti Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3087_1gqgp6phbs22.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4221_1gq16mdyzsj.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3087_1gqgp6phbs22.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-288f9fd40456",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-288f9fd40456",
+                  "name": "Al-Qadsia Sc vs Al Kuwait Sc",
+                  "streams": [
+                    {
+                      "id": "luongson-288f9fd40456",
                       "name": "F",
                       "stream_links": []
                     }
