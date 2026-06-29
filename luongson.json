@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:21 29/06/2026",
+  "last_updated": "17:31 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-65a1e52c0892",
-          "name": "⚽ Tsirang Fc vs Paro Fc | Không rõ",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39632_167288870485.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-65a1e52c0892",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-65a1e52c0892",
-                  "name": "Tsirang Fc vs Paro Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-65a1e52c0892",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3646bde4f",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-504ccb9119",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-72ad2cb98f64",
           "name": "⚽ Ha Noi (W) vs Ho Chi Minh City (W) | Không rõ",
@@ -106,18 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1830d5fb7c",
+                          "id": "lnk-adcf3977af",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-5d295ccbce",
+                          "id": "lnk-0393b93dae",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-65a1e52c0892",
+          "name": "⚽ Tsirang Fc vs Paro Fc | Không rõ",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39632_167288870485.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61808_1h04btppv61j.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-65a1e52c0892",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-65a1e52c0892",
+                  "name": "Tsirang Fc vs Paro Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-65a1e52c0892",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-186be98c89",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-d19f100638",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
