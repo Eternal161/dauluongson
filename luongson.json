@@ -1,14 +1,14 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:50 30/06/2026",
+  "last_updated": "01:01 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-94c8e98011b7",
+          "id": "luongson-540e045ccba6",
           "name": "⚽ Brazil vs Japan | Không rõ",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png?v=2.4.3",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,51 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-94c8e98011b7",
+              "id": "luongson-540e045ccba6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-94c8e98011b7",
+                  "id": "luongson-540e045ccba6",
                   "name": "Brazil vs Japan",
                   "streams": [
                     {
-                      "id": "luongson-94c8e98011b7",
+                      "id": "luongson-540e045ccba6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4c946fcf74",
-                          "name": "BLV KAKA",
+                          "id": "lnk-c495a310de",
+                          "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6940e3f931f7",
+          "name": "⚽ Kazma vs Al-Salmiyah | Không rõ",
+          "tournament": "Kuwaiti Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6940e3f931f7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6940e3f931f7",
+                  "name": "Kazma vs Al-Salmiyah",
+                  "streams": [
+                    {
+                      "id": "luongson-6940e3f931f7",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-e644a118fa",
-                          "name": "BLV TRIỆU TỬ LONG",
+                          "id": "lnk-b2e0604c86",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-0e2f8fef83",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-3fc1dc8276",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-bba0a48546",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -127,65 +152,20 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d4a4cc9219",
+                          "id": "lnk-124be2a7eb",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-9c48ae5755",
+                          "id": "lnk-5b15774cea",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a8550104ca81",
-          "name": "⚽ Al-Arabi Club (Kuw) vs Al Fahaheel Sc | Không rõ",
-          "tournament": "Kuwaiti Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3083_1gr5dy718s1w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11069_1hnh9y62xs2y.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3083_1gr5dy718s1w.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a8550104ca81",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a8550104ca81",
-                  "name": "Al-Arabi Club (Kuw) vs Al Fahaheel Sc",
-                  "streams": [
-                    {
-                      "id": "luongson-a8550104ca81",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -212,10 +192,10 @@
           },
           "labels": [
             {
-              "text": "● Live 01:30",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -230,15 +210,7 @@
                     {
                       "id": "luongson-c6d611301ab3",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e5268b412f",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -375,10 +347,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-633827bbf6",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-85d559e71d",
+                          "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-fff3668df8",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
