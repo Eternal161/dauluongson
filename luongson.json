@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:20 29/06/2026",
+  "last_updated": "10:30 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-28e6458f57a4",
-          "name": "⚽ Los Angeles Fc Ii vs Houston Dynamo B | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-28e6458f57a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-28e6458f57a4",
-                  "name": "Los Angeles Fc Ii vs Houston Dynamo B",
-                  "streams": [
-                    {
-                      "id": "luongson-28e6458f57a4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d0e92cccc",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-cb8dbda5b7",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-91d1886f19ea",
           "name": "⚽ Academica Sc vs Marin Fc Legends | Không rõ",
@@ -106,11 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-11ec051c28",
+                          "id": "lnk-274c1e8a63",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-28e6458f57a4",
+          "name": "⚽ Los Angeles Fc Ii vs Houston Dynamo B | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-28e6458f57a4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-28e6458f57a4",
+                  "name": "Los Angeles Fc Ii vs Houston Dynamo B",
+                  "streams": [
+                    {
+                      "id": "luongson-28e6458f57a4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bce451c577",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-9aa9cfe5fd",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
