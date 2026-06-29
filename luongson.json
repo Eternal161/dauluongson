@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:50 30/06/2026",
+  "last_updated": "03:01 30/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,71 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f7d4e75acc",
+                          "id": "lnk-3eeb5825e6",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-fc4a7b126a",
+                          "id": "lnk-e2a24b7d6b",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6940e3f931f7",
-          "name": "⚽ Kazma vs Al-Salmiyah | Không rõ",
-          "tournament": "Kuwaiti Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6940e3f931f7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6940e3f931f7",
-                  "name": "Kazma vs Al-Salmiyah",
-                  "streams": [
-                    {
-                      "id": "luongson-6940e3f931f7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a70c5b081f",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -159,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5d6a621fc6",
+                          "id": "lnk-2cfcd8aa53",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
@@ -212,18 +159,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e09bbc70d1",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-83b8044ab2",
+                          "id": "lnk-3664cd5c34",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-3ea4eca04e",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -272,14 +219,35 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-673dc88446",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-1948c41a8b",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-147c852bc7",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-88ae1ee472",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-d81d70a04c",
+                          "id": "lnk-80af1468cb",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-0611442d98",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
