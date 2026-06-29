@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:20 29/06/2026",
+  "last_updated": "22:31 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-841d0e88587c",
-          "name": "⚽ Fk Auda Riga vs Riga Fc | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
+          "id": "luongson-4e96d37579a3",
+          "name": "⚽ Siauliai vs Transinvest Vilnius | Không rõ",
+          "tournament": "Lithuania - 1.Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2073_1j3c1pj1t517.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57401_1h8878s6mes.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,67 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-841d0e88587c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-841d0e88587c",
-                  "name": "Fk Auda Riga vs Riga Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-841d0e88587c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-410cccc74e",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-a43dc342ab",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-119431b6edb7",
-          "name": "⚽ Jelgava vs Grobina | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/2073_1j3c1pj1t517.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -94,30 +34,37 @@
           ],
           "sources": [
             {
-              "id": "luongson-119431b6edb7",
+              "id": "luongson-4e96d37579a3",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-119431b6edb7",
-                  "name": "Jelgava vs Grobina",
+                  "id": "luongson-4e96d37579a3",
+                  "name": "Siauliai vs Transinvest Vilnius",
                   "streams": [
                     {
-                      "id": "luongson-119431b6edb7",
+                      "id": "luongson-4e96d37579a3",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4216b72484",
-                          "name": "BLV LEO",
+                          "id": "lnk-30ad3cce04",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-b6b1eeab72",
-                          "name": "BLV HEINEKEN",
+                          "id": "lnk-5ccecf8715",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        },
+                        {
+                          "id": "lnk-60ff6c9dc4",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -166,14 +113,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-08cbfe8adb",
+                          "id": "lnk-d74a0bb7b6",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-199f193775",
+                          "id": "lnk-5c9f5417ab",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": false,
@@ -188,11 +135,11 @@
           ]
         },
         {
-          "id": "luongson-4e96d37579a3",
-          "name": "⚽ Siauliai vs Transinvest Vilnius | 22:30",
-          "tournament": "Lithuania - 1.Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2073_1j3c1pj1t517.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57401_1h8878s6mes.png?v=2.4.3",
+          "id": "luongson-841d0e88587c",
+          "name": "⚽ Fk Auda Riga vs Riga Fc | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -200,13 +147,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2073_1j3c1pj1t517.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 22:30",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -214,30 +161,90 @@
           ],
           "sources": [
             {
-              "id": "luongson-4e96d37579a3",
+              "id": "luongson-841d0e88587c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-4e96d37579a3",
-                  "name": "Siauliai vs Transinvest Vilnius",
+                  "id": "luongson-841d0e88587c",
+                  "name": "Fk Auda Riga vs Riga Fc",
                   "streams": [
                     {
-                      "id": "luongson-4e96d37579a3",
+                      "id": "luongson-841d0e88587c",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3384193f2e",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-45c2fef17b",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         },
                         {
-                          "id": "lnk-af8f111f70",
-                          "name": "BLV LIO",
+                          "id": "lnk-18d3e44a04",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-119431b6edb7",
+          "name": "⚽ Jelgava vs Grobina | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-119431b6edb7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-119431b6edb7",
+                  "name": "Jelgava vs Grobina",
+                  "streams": [
+                    {
+                      "id": "luongson-119431b6edb7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3186845e88",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-1c0928dd00",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -286,11 +293,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-353cf4834a",
+                          "id": "lnk-dde9e3e4e6",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-ae168c5d82",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -339,7 +353,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5498c9fb5a",
+                          "id": "lnk-d1c43face6",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
