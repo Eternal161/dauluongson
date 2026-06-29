@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:51 29/06/2026",
+  "last_updated": "20:01 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-18351ef3d7c6",
-          "name": "⚽ Shenzhen Xinpengcheng U21 vs Guangdong Guangzhou Power U21 | Không rõ",
-          "tournament": "China U21 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65150_1hv0x2dewwy.jpg?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782726318.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65150_1hv0x2dewwy.jpg?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-18351ef3d7c6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-18351ef3d7c6",
-                  "name": "Shenzhen Xinpengcheng U21 vs Guangdong Guangzhou Power U21",
-                  "streams": [
-                    {
-                      "id": "luongson-18351ef3d7c6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ec22bca0f5",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        },
-                        {
-                          "id": "lnk-3d772dcead",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f0fbd45adacf",
           "name": "⚽ Guangdong Province (W) vs Wuhan Jianghan (W) | Không rõ",
@@ -106,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-352705b810",
+                          "id": "lnk-372a7f7cd2",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         },
                         {
-                          "id": "lnk-0d962a4092",
+                          "id": "lnk-c1f55888af",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
@@ -166,14 +106,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a085e5ad36",
+                          "id": "lnk-8023187cde",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-eec5a0b885",
+                          "id": "lnk-e0bd5c21f1",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
@@ -226,18 +166,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f10e0e9f7d",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-acabeb80d9",
+                          "id": "lnk-afef74f6ee",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-0ab17136ca",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -733,6 +673,51 @@
                   "streams": [
                     {
                       "id": "luongson-c6d611301ab3",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7f9e2aa6e20b",
+          "name": "⚽ Croatia U19 vs Ukraine U19 | 02:00",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7f9e2aa6e20b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7f9e2aa6e20b",
+                  "name": "Croatia U19 vs Ukraine U19",
+                  "streams": [
+                    {
+                      "id": "luongson-7f9e2aa6e20b",
                       "name": "F",
                       "stream_links": []
                     }
