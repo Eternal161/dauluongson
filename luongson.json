@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:50 29/06/2026",
+  "last_updated": "22:01 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-3754aca5a1bf",
+          "name": "⚽ Fk Auda Riga vs Riga Fc | 03:26 30/06/2200",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3754aca5a1bf",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3754aca5a1bf",
+                  "name": "Fk Auda Riga vs Riga Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-3754aca5a1bf",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c230db4ab",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-4e4507662502",
           "name": "⚽ Italy U19 vs Serbia U19 | 22:00",
@@ -46,78 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5abc6ebeaf",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-7a0f3fdb0b",
+                          "id": "lnk-8765ae1881",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-841d0e88587c",
-          "name": "⚽ Fk Auda Riga vs Riga Fc | 22:00",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 22:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-841d0e88587c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-841d0e88587c",
-                  "name": "Fk Auda Riga vs Riga Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-841d0e88587c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3f98a24610",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-0dc951e856",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-40fcbed21c",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -166,18 +159,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-32b2c866df",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-7d14fa1750",
+                          "id": "lnk-8613cc2381",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-c2d8a6cc82",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -226,11 +219,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-01a3c065a0",
+                          "id": "lnk-058ae5d35a",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-635b820b4e",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -324,7 +324,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-abe7b0d37b",
+                          "id": "lnk-83dc67a4fa",
                           "name": "BLV SD6MWEZZEKEJWCS3UEAP",
                           "type": "hls",
                           "default": true,
@@ -467,7 +467,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f2bb04c39f",
+                          "id": "lnk-783a7ca953",
                           "name": "BLV SD6MVYQRERWQDHPWTEWV",
                           "type": "hls",
                           "default": true,
@@ -520,7 +520,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-02d3713aad",
+                          "id": "lnk-8fd08223ff",
                           "name": "BLV SD6MVYQREQG75K8Y37GX",
                           "type": "hls",
                           "default": true,
@@ -573,7 +573,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0007c88e77",
+                          "id": "lnk-4e860087a2",
                           "name": "BLV SD6MVYQREQG9HE11S2QR",
                           "type": "hls",
                           "default": true,
@@ -651,10 +651,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:45",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -669,7 +669,15 @@
                     {
                       "id": "luongson-a8550104ca81",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f353c04387",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -761,7 +769,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dccb6c4efa",
+                          "id": "lnk-80aef4136c",
                           "name": "BLV SD6MVVDDNQXTSEUHLHZC",
                           "type": "hls",
                           "default": true,
