@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:50 30/06/2026",
+  "last_updated": "06:01 30/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,46 +46,99 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-34f84a2a26",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-fdd834b1fb",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-845a9302c9",
+                          "id": "lnk-c953371a63",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-109a0eb41f",
+                          "id": "lnk-ef4d8cf577",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-d251c62e49",
+                          "id": "lnk-ba25c46d27",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-c1f4db56ba",
+                          "id": "lnk-3f1b131426",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-9f2a773971",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0ddf40e76485",
+          "name": "⚽ Asheville City vs Charlotte Independ B | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/35185_1h0vgy0zaf32.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45593_1h027af06fm.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/35185_1h0vgy0zaf32.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0ddf40e76485",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0ddf40e76485",
+                  "name": "Asheville City vs Charlotte Independ B",
+                  "streams": [
+                    {
+                      "id": "luongson-0ddf40e76485",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-7f87eaceab",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-0f251dd004",
+                          "name": "BLV PELE",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -114,10 +167,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 06:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -132,7 +185,15 @@
                     {
                       "id": "luongson-8dd9d0e1c66e",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-da7611713a",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -321,51 +382,6 @@
           ]
         },
         {
-          "id": "luongson-d995f22f2a4a",
-          "name": "⚽ Rizal Golden Coolers vs Bulacan Kuyas | 15:00",
-          "tournament": "MPBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763793.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763794.webp?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763793.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d995f22f2a4a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d995f22f2a4a",
-                  "name": "Rizal Golden Coolers vs Bulacan Kuyas",
-                  "streams": [
-                    {
-                      "id": "luongson-d995f22f2a4a",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-7042bf5833e7",
           "name": "⚽ Fc Ulaanbaatar vs Tuv Buganuud | 15:00",
           "tournament": "Mongolia Premier League",
@@ -401,6 +417,51 @@
                   "streams": [
                     {
                       "id": "luongson-7042bf5833e7",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d995f22f2a4a",
+          "name": "⚽ Rizal Golden Coolers vs Bulacan Kuyas | 15:00",
+          "tournament": "MPBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763793.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763794.webp?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763793.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d995f22f2a4a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d995f22f2a4a",
+                  "name": "Rizal Golden Coolers vs Bulacan Kuyas",
+                  "streams": [
+                    {
+                      "id": "luongson-d995f22f2a4a",
                       "name": "F",
                       "stream_links": []
                     }
@@ -671,51 +732,6 @@
                   "streams": [
                     {
                       "id": "luongson-a7eb1e5da661",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e9f4a24d4a82",
-          "name": "⚽ Sd Raiders Fc vs Sydney Fc (Youth) | 17:00",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e9f4a24d4a82",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e9f4a24d4a82",
-                  "name": "Sd Raiders Fc vs Sydney Fc (Youth)",
-                  "streams": [
-                    {
-                      "id": "luongson-e9f4a24d4a82",
                       "name": "F",
                       "stream_links": []
                     }
