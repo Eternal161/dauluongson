@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:41 29/06/2026",
+  "last_updated": "07:50 29/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6c904436b3",
+                          "id": "lnk-900ccee369",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -79,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3c1da69633",
+                          "id": "lnk-2b30a84354",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-958d3716c338",
-          "name": "⚽ Ituano Sp vs Maranhao | Không rõ",
-          "tournament": "Brasileiro, Serie C",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6398_167376678632.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-958d3716c338",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-958d3716c338",
-                  "name": "Ituano Sp vs Maranhao",
-                  "streams": [
-                    {
-                      "id": "luongson-958d3716c338",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc3e9ec70c",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -205,11 +152,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-04768ac7de",
+                          "id": "lnk-9ab2873c39",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-958d3716c338",
+          "name": "⚽ Ituano Sp vs Maranhao | Không rõ",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6398_167376678632.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-958d3716c338",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-958d3716c338",
+                  "name": "Ituano Sp vs Maranhao",
+                  "streams": [
+                    {
+                      "id": "luongson-958d3716c338",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6624f7ce9e",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
