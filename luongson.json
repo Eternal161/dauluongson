@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:20 29/06/2026",
+  "last_updated": "21:31 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-b4d2acf61bdb",
-          "name": "⚽ Big Bullets Fc vs Masters Security | Không rõ",
-          "tournament": "Malawi Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21721_1gy1eh298k27.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33114_1j4b2cwhre6.png?v=2.4.3",
+          "id": "luongson-afeb8754dacf",
+          "name": "⚽ Odense Bk vs Kolding If | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/205_1hbcqh2cay19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1449_1j9jcsq451v.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/21721_1gy1eh298k27.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/205_1hbcqh2cay19.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,30 +34,182 @@
           ],
           "sources": [
             {
-              "id": "luongson-b4d2acf61bdb",
+              "id": "luongson-afeb8754dacf",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b4d2acf61bdb",
-                  "name": "Big Bullets Fc vs Masters Security",
+                  "id": "luongson-afeb8754dacf",
+                  "name": "Odense Bk vs Kolding If",
                   "streams": [
                     {
-                      "id": "luongson-b4d2acf61bdb",
+                      "id": "luongson-afeb8754dacf",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5f1f3fc53f",
-                          "name": "BLV KAKA",
+                          "id": "lnk-98bcdb26d7",
+                          "name": "BLV SD6MWEA3XHG2WBNG3MEC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwea3xhg2wbng3MEc/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-75c02dc423d1",
+          "name": "⚽ Al-Nejmeh vs Racing Beirut | Không rõ",
+          "tournament": "Lebanese Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3099_1gqbqgx6f56.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3099_1gqbqgx6f56.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 4 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-75c02dc423d1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-75c02dc423d1",
+                  "name": "Al-Nejmeh vs Racing Beirut",
+                  "streams": [
+                    {
+                      "id": "luongson-75c02dc423d1",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-5dfda26f58",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-65364ab8fd",
+                          "name": "BLV SD6MVYRBKC2WEBSHZA9I",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvYrBkc2wEbShzA9i/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-119431b6edb7",
+          "name": "⚽ Jelgava vs Grobina | 22:00",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 22:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-119431b6edb7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-119431b6edb7",
+                  "name": "Jelgava vs Grobina",
+                  "streams": [
+                    {
+                      "id": "luongson-119431b6edb7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7accfd536a",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4e4507662502",
+          "name": "⚽ Italy U19 vs Serbia U19 | 22:00",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1288_165750299841.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4075_1h4320ns6a2y.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1288_165750299841.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 22:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4e4507662502",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4e4507662502",
+                  "name": "Italy U19 vs Serbia U19",
+                  "streams": [
+                    {
+                      "id": "luongson-4e4507662502",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-73815199ba",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -86,10 +238,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -104,97 +256,15 @@
                     {
                       "id": "luongson-841d0e88587c",
                       "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4e4507662502",
-          "name": "⚽ Italy U19 vs Serbia U19 | 22:00",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1288_165750299841.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4075_1h4320ns6a2y.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1288_165750299841.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4e4507662502",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4e4507662502",
-                  "name": "Italy U19 vs Serbia U19",
-                  "streams": [
-                    {
-                      "id": "luongson-4e4507662502",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-119431b6edb7",
-          "name": "⚽ Jelgava vs Grobina | 22:00",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11949_1j2qken9sgn.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-119431b6edb7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-119431b6edb7",
-                  "name": "Jelgava vs Grobina",
-                  "streams": [
-                    {
-                      "id": "luongson-119431b6edb7",
-                      "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-248070cd69",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -241,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-57d11ed47d",
+                          "id": "lnk-2c8baf9ed3",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -293,6 +363,59 @@
                       "id": "luongson-6d9b48b696a1",
                       "name": "F",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-92192d572f42",
+          "name": "⚽ Arges vs Vllaznia Shkoder | 23:00",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/19486_1ht90sbffxw.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/606_1gragvapx71.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/19486_1ht90sbffxw.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 23:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-92192d572f42",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-92192d572f42",
+                  "name": "Arges vs Vllaznia Shkoder",
+                  "streams": [
+                    {
+                      "id": "luongson-92192d572f42",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1e0f3abb1",
+                          "name": "BLV SD6MWEZZEKEJWCS3UEAP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MweZzekejWCs3UeAp/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -391,11 +514,11 @@
           ]
         },
         {
-          "id": "luongson-6940e3f931f7",
-          "name": "⚽ Kazma vs Al-Salmiyah | 00:45",
-          "tournament": "Kuwaiti Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3081_1gqgp6phb115.png?v=2.4.3",
+          "id": "luongson-0d23e2268a74",
+          "name": "⚽ Hb Torshavn vs Skala Itrottarfelag | 00:30",
+          "tournament": "Faroe Islands Formuladeildin",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2191_1gtqmft1ab19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1990_1jpchy3pah1a.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -403,31 +526,145 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3088_167142126223.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/2191_1gtqmft1ab19.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-6940e3f931f7",
+              "id": "luongson-0d23e2268a74",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-6940e3f931f7",
-                  "name": "Kazma vs Al-Salmiyah",
+                  "id": "luongson-0d23e2268a74",
+                  "name": "Hb Torshavn vs Skala Itrottarfelag",
                   "streams": [
                     {
-                      "id": "luongson-6940e3f931f7",
+                      "id": "luongson-0d23e2268a74",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-04a6022a09",
+                          "name": "BLV SD6MVYQRERWQDHPWTEWV",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvYqrErWqdhPWTewv/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b829318f51f0",
+          "name": "⚽ Toftir B68 vs Ab Argir | 00:30",
+          "tournament": "Faroe Islands Formuladeildin",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6814_200812221725882405.jpg?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6211_1gtqmft1t628.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6814_200812221725882405.jpg?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 00:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b829318f51f0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b829318f51f0",
+                  "name": "Toftir B68 vs Ab Argir",
+                  "streams": [
+                    {
+                      "id": "luongson-b829318f51f0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-988355bdaa",
+                          "name": "BLV SD6MVYQREQG75K8Y37GX",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvYqrEqg75k8Y37gx/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a265d8480fa2",
+          "name": "⚽ Vikingur Gota vs Nsi Runavik | 00:30",
+          "tournament": "Faroe Islands Formuladeildin",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3692_1gtqmft1tw14.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6213_200712910322.gif?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3692_1gtqmft1tw14.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 00:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a265d8480fa2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a265d8480fa2",
+                  "name": "Vikingur Gota vs Nsi Runavik",
+                  "streams": [
+                    {
+                      "id": "luongson-a265d8480fa2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f537b52a4",
+                          "name": "BLV SD6MVYQREQG9HE11S2QR",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvYqrEqg9HE11s2qr/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -516,186 +753,6 @@
                   "streams": [
                     {
                       "id": "luongson-a8550104ca81",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c6d611301ab3",
-          "name": "⚽ Al-Mabarrah vs Al-Ansar (Lib) | 01:30",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3101_1gqc36amkr2t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3098_1hptansvyyx.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3101_1gqc36amkr2t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c6d611301ab3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c6d611301ab3",
-                  "name": "Al-Mabarrah vs Al-Ansar (Lib)",
-                  "streams": [
-                    {
-                      "id": "luongson-c6d611301ab3",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7f9e2aa6e20b",
-          "name": "⚽ Croatia U19 vs Ukraine U19 | 02:00",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7f9e2aa6e20b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7f9e2aa6e20b",
-                  "name": "Croatia U19 vs Ukraine U19",
-                  "streams": [
-                    {
-                      "id": "luongson-7f9e2aa6e20b",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0e3ba66d4345",
-          "name": "⚽ Ia Akranes vs Fram Reykjavik | 02:15",
-          "tournament": "Iceland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1401_165363431223.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1935_165363457013.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1401_165363431223.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0e3ba66d4345",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0e3ba66d4345",
-                  "name": "Ia Akranes vs Fram Reykjavik",
-                  "streams": [
-                    {
-                      "id": "luongson-0e3ba66d4345",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7d3f5a6ef779",
-          "name": "⚽ Germany vs Paraguay | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/560_164983677229.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/560_164983677229.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7d3f5a6ef779",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7d3f5a6ef779",
-                  "name": "Germany vs Paraguay",
-                  "streams": [
-                    {
-                      "id": "luongson-7d3f5a6ef779",
                       "name": "F",
                       "stream_links": []
                     }
