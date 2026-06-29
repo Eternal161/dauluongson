@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:10 29/06/2026",
+  "last_updated": "07:21 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-958d3716c338",
+          "name": "⚽ Ituano Sp vs Maranhao | Không rõ",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6398_167376678632.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-958d3716c338",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-958d3716c338",
+                  "name": "Ituano Sp vs Maranhao",
+                  "streams": [
+                    {
+                      "id": "luongson-958d3716c338",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-623bed8815",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-163b0de37c2f",
           "name": "⚽ New York Red Bulls B vs Philadelphia Union Ii | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-620aab24ac",
+                          "id": "lnk-82776d2419",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -99,164 +152,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c176035963",
+                          "id": "lnk-cfbeea8584",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f388191fcb65",
-          "name": "⚽ Minnesota United B vs Tacoma Defiance | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56981_1gw8qv1xcj1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38960_1jr4fxamwa13.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56981_1gw8qv1xcj1h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f388191fcb65",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f388191fcb65",
-                  "name": "Minnesota United B vs Tacoma Defiance",
-                  "streams": [
-                    {
-                      "id": "luongson-f388191fcb65",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b20f8cfc5",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-958d3716c338",
-          "name": "⚽ Ituano Sp vs Maranhao | Không rõ",
-          "tournament": "Brasileiro, Serie C",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6398_167376678632.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1581_1gtqm6x9y02z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-958d3716c338",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-958d3716c338",
-                  "name": "Ituano Sp vs Maranhao",
-                  "streams": [
-                    {
-                      "id": "luongson-958d3716c338",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80b74f1813",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-28e6458f57a4",
-          "name": "⚽ Los Angeles Fc Ii vs Houston Dynamo B | 09:00",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-28e6458f57a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-28e6458f57a4",
-                  "name": "Los Angeles Fc Ii vs Houston Dynamo B",
-                  "streams": [
-                    {
-                      "id": "luongson-28e6458f57a4",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -300,6 +202,51 @@
                   "streams": [
                     {
                       "id": "luongson-91d1886f19ea",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-28e6458f57a4",
+          "name": "⚽ Los Angeles Fc Ii vs Houston Dynamo B | 09:00",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61321_1gx0c62qcy2n.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-28e6458f57a4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-28e6458f57a4",
+                  "name": "Los Angeles Fc Ii vs Houston Dynamo B",
+                  "streams": [
+                    {
+                      "id": "luongson-28e6458f57a4",
                       "name": "F",
                       "stream_links": []
                     }
@@ -418,10 +365,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -436,7 +383,15 @@
                     {
                       "id": "luongson-65a1e52c0892",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-980b61f6ac",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -705,6 +660,51 @@
                   "streams": [
                     {
                       "id": "luongson-4e4507662502",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4e96d37579a3",
+          "name": "⚽ Siauliai vs Transinvest Vilnius | 22:30",
+          "tournament": "Lithuania - 1.Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2073_1j3c1pj1t517.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57401_1h8878s6mes.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2073_1j3c1pj1t517.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4e96d37579a3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4e96d37579a3",
+                  "name": "Siauliai vs Transinvest Vilnius",
+                  "streams": [
+                    {
+                      "id": "luongson-4e96d37579a3",
                       "name": "F",
                       "stream_links": []
                     }
