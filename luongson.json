@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:41 30/06/2026",
+  "last_updated": "06:50 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-0ddf40e76485",
+          "name": "⚽ Asheville City vs Charlotte Independ B | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/35185_1h0vgy0zaf32.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45593_1h027af06fm.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/35185_1h0vgy0zaf32.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0ddf40e76485",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0ddf40e76485",
+                  "name": "Asheville City vs Charlotte Independ B",
+                  "streams": [
+                    {
+                      "id": "luongson-0ddf40e76485",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1f2b66082",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-8dd9d0e1c66e",
           "name": "⚽ Union Espanola vs Colo Colo | Không rõ",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a54d43233b",
+                          "id": "lnk-b00eaa6728",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0ddf40e76485",
-          "name": "⚽ Asheville City vs Charlotte Independ B | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/35185_1h0vgy0zaf32.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45593_1h027af06fm.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/35185_1h0vgy0zaf32.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0ddf40e76485",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0ddf40e76485",
-                  "name": "Asheville City vs Charlotte Independ B",
-                  "streams": [
-                    {
-                      "id": "luongson-0ddf40e76485",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3e4a274780",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -132,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 07:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -150,7 +150,15 @@
                     {
                       "id": "luongson-48100d048aa7",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-654a728c6e",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -197,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0b952d85a1",
+                          "id": "lnk-88bad2c417",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -250,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-04bd088537",
+                          "id": "lnk-b12757eec0",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
