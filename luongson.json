@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:01 29/06/2026",
+  "last_updated": "20:10 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f0fbd45adacf",
-          "name": "⚽ Guangdong Province (W) vs Wuhan Jianghan (W) | Không rõ",
-          "tournament": "Chinese Women’s Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/35479_1k6kxr3n6na.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7850_1gtzda45752y.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/35479_1k6kxr3n6na.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f0fbd45adacf",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f0fbd45adacf",
-                  "name": "Guangdong Province (W) vs Wuhan Jianghan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-f0fbd45adacf",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-372a7f7cd2",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        },
-                        {
-                          "id": "lnk-c1f55888af",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-67c3f58fadb7",
           "name": "⚽ Guangxi Pingguo Beinong W vs Beijing Yuhong Xiushan (W) | Không rõ",
@@ -106,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8023187cde",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-e0bd5c21f1",
+                          "id": "lnk-da362696ae",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-3f7009c3a8",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -166,14 +106,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-afef74f6ee",
+                          "id": "lnk-8dee0f2ace",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-0ab17136ca",
+                          "id": "lnk-92c8cd6d8a",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
@@ -718,6 +658,51 @@
                   "streams": [
                     {
                       "id": "luongson-7f9e2aa6e20b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0e3ba66d4345",
+          "name": "⚽ Ia Akranes vs Fram Reykjavik | 02:15",
+          "tournament": "Iceland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1401_165363431223.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1935_165363457013.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1401_165363431223.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0e3ba66d4345",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0e3ba66d4345",
+                  "name": "Ia Akranes vs Fram Reykjavik",
+                  "streams": [
+                    {
+                      "id": "luongson-0e3ba66d4345",
                       "name": "F",
                       "stream_links": []
                     }
