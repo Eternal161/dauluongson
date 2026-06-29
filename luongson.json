@@ -1,12 +1,132 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:20 30/06/2026",
+  "last_updated": "02:31 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-7f9e2aa6e20b",
+          "name": "⚽ Croatia U19 vs Ukraine U19 | Không rõ",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7f9e2aa6e20b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7f9e2aa6e20b",
+                  "name": "Croatia U19 vs Ukraine U19",
+                  "streams": [
+                    {
+                      "id": "luongson-7f9e2aa6e20b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2fed4b040",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-498172171a",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c6d611301ab3",
+          "name": "⚽ Al-Mabarrah vs Al-Ansar (Lib) | Không rõ",
+          "tournament": "Lebanese Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3101_1gqc36amkr2t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3098_1hptansvyyx.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3101_1gqc36amkr2t.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 4",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c6d611301ab3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c6d611301ab3",
+                  "name": "Al-Mabarrah vs Al-Ansar (Lib)",
+                  "streams": [
+                    {
+                      "id": "luongson-c6d611301ab3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db5554d0b2",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-382a60d05b",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-288f9fd40456",
           "name": "⚽ Al-Qadsia Sc vs Al Kuwait Sc | Không rõ",
@@ -46,78 +166,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-14322df027",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-8e248538c7",
+                          "id": "lnk-19b2473454",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c6d611301ab3",
-          "name": "⚽ Al-Mabarrah vs Al-Ansar (Lib) | Không rõ",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3101_1gqc36amkr2t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3098_1hptansvyyx.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3101_1gqc36amkr2t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 4",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c6d611301ab3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c6d611301ab3",
-                  "name": "Al-Mabarrah vs Al-Ansar (Lib)",
-                  "streams": [
-                    {
-                      "id": "luongson-c6d611301ab3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d159a45a1",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-9edc79cd38",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-eeaeec29d8",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -166,71 +226,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4271ff148f",
-                          "name": "BLV MAYBACH",
+                          "id": "lnk-bf495730d7",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7f9e2aa6e20b",
-          "name": "⚽ Croatia U19 vs Ukraine U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7f9e2aa6e20b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7f9e2aa6e20b",
-                  "name": "Croatia U19 vs Ukraine U19",
-                  "streams": [
-                    {
-                      "id": "luongson-7f9e2aa6e20b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48cf001566",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-45d9dea3bb",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -279,14 +279,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-993f191dda",
+                          "id": "lnk-2a5adf3281",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-d8f62ba5bc",
+                          "id": "lnk-c3f076a2e0",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": false,
@@ -339,7 +339,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ebafacf950",
+                          "id": "lnk-b070fcdf0d",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
