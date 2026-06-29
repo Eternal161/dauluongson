@@ -1,14 +1,14 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:01 30/06/2026",
+  "last_updated": "01:10 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-540e045ccba6",
+          "id": "luongson-94c8e98011b7",
           "name": "⚽ Brazil vs Japan | Không rõ",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png?v=2.4.3",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,51 @@
           ],
           "sources": [
             {
-              "id": "luongson-540e045ccba6",
+              "id": "luongson-94c8e98011b7",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-540e045ccba6",
+                  "id": "luongson-94c8e98011b7",
                   "name": "Brazil vs Japan",
                   "streams": [
                     {
-                      "id": "luongson-540e045ccba6",
+                      "id": "luongson-94c8e98011b7",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c495a310de",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-78bd4dad53",
+                          "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-0c9038ea5d",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-374e4900e0",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-e87dd29474",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-28051b73eb",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -99,7 +127,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b2e0604c86",
+                          "id": "lnk-be3cd90d1f",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -152,14 +180,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-124be2a7eb",
+                          "id": "lnk-870cbda0b4",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-5b15774cea",
+                          "id": "lnk-43469a6feb",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
@@ -192,10 +220,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 01:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -210,7 +238,15 @@
                     {
                       "id": "luongson-c6d611301ab3",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e8154c1e1",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -347,17 +383,10 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-85d559e71d",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-fff3668df8",
+                          "id": "lnk-37e74b856c",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
