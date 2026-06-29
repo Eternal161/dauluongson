@@ -1,12 +1,93 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:40 29/06/2026",
+  "last_updated": "23:50 29/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-94c8e98011b7",
+          "name": "⚽ Brazil vs Japan | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/788_166919982535.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-94c8e98011b7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-94c8e98011b7",
+                  "name": "Brazil vs Japan",
+                  "streams": [
+                    {
+                      "id": "luongson-94c8e98011b7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4bddb43c5b",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-b2f944ee3c",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-bff1e57bfb",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-76f32df23b",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-0ce4d91c30",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-119431b6edb7",
           "name": "⚽ Jelgava vs Grobina | Không rõ",
@@ -26,7 +107,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,14 +127,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fcac9db34b",
+                          "id": "lnk-2f849652cb",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-d2efa96847",
+                          "id": "lnk-4b4d225ed6",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": false,
@@ -106,71 +187,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-215358f638",
+                          "id": "lnk-91de3805eb",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-94547fe093",
+                          "id": "lnk-614c03b688",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3754aca5a1bf",
-          "name": "⚽ Fk Auda Riga vs Riga Fc | 03:26 30/06/2200",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3754aca5a1bf",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3754aca5a1bf",
-                  "name": "Fk Auda Riga vs Riga Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-3754aca5a1bf",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9616526dc8",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -199,7 +227,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -219,14 +247,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7678a621d1",
+                          "id": "lnk-7aab42a21f",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-75d6493c37",
+                          "id": "lnk-4e32b29822",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": false,
@@ -279,21 +307,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-15e0b57981",
+                          "id": "lnk-95b0f4ba4b",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-996d153592",
+                          "id": "lnk-685602d7e2",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-1b0dec4a1c",
+                          "id": "lnk-68dbcfd679",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
@@ -346,18 +374,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c8fd4a48be",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-540216d243",
+                          "id": "lnk-23e9050664",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-5af6bb8f38",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -368,11 +396,11 @@
           ]
         },
         {
-          "id": "luongson-94c8e98011b7",
-          "name": "⚽ Brazil vs Japan | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/788_166919982535.png?v=2.4.3",
+          "id": "luongson-3754aca5a1bf",
+          "name": "⚽ Fk Auda Riga vs Riga Fc | 03:26 30/06/2200",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -380,13 +408,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/672_165018879430.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -394,51 +422,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-94c8e98011b7",
+              "id": "luongson-3754aca5a1bf",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-94c8e98011b7",
-                  "name": "Brazil vs Japan",
+                  "id": "luongson-3754aca5a1bf",
+                  "name": "Fk Auda Riga vs Riga Fc",
                   "streams": [
                     {
-                      "id": "luongson-94c8e98011b7",
+                      "id": "luongson-3754aca5a1bf",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7aa5fbdb5e",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-c1a6c53cd8",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-d012a987fd",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-f8e3757665",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-84683b32fd",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-e3cd404e94",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -487,7 +487,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3dec8e988a",
+                          "id": "lnk-43c73ec305",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
