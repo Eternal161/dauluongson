@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:01 30/06/2026",
+  "last_updated": "07:10 30/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7cb3a672ea",
+                          "id": "lnk-6bc26d81ba",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -79,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bcc9e2b533",
+                          "id": "lnk-cbcd62c190",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -152,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5db81dafe4",
+                          "id": "lnk-71746cc002",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8dd9d0e1c66e",
-          "name": "⚽ Union Espanola vs Colo Colo | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/912_1h51a7xcwc1q.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8dd9d0e1c66e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8dd9d0e1c66e",
-                  "name": "Union Espanola vs Colo Colo",
-                  "streams": [
-                    {
-                      "id": "luongson-8dd9d0e1c66e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b673ea221",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -258,11 +205,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bf9ca60b18",
+                          "id": "lnk-f71d615f3e",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8dd9d0e1c66e",
+          "name": "⚽ Union Espanola vs Colo Colo | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/912_1h51a7xcwc1q.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8dd9d0e1c66e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8dd9d0e1c66e",
+                  "name": "Union Espanola vs Colo Colo",
+                  "streams": [
+                    {
+                      "id": "luongson-8dd9d0e1c66e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3518745579",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
