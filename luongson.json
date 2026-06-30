@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:01 01/07/2026",
+  "last_updated": "05:11 01/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,35 +46,35 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bb86b4e89c",
+                          "id": "lnk-ede5c391df",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-cd610b911c",
+                          "id": "lnk-35a8d6dbcd",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-f1bc786e18",
+                          "id": "lnk-ee5a13b363",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-54fc1e93c0",
+                          "id": "lnk-eafd5175b6",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-9de9f76bf5",
+                          "id": "lnk-a763aae058",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
@@ -89,11 +89,11 @@
           ]
         },
         {
-          "id": "luongson-7e3737db19d6",
-          "name": "⚽ Botafogo Sp vs Crb Al | 06:00",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8666_1gtda2hsk1s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3340_1gtn82r1dm2a.png?v=2.4.3",
+          "id": "luongson-87b8ce4d09d7",
+          "name": "⚽ Audax Italiano vs Palestino | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/953_1gv1yk239f2n.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -101,31 +101,92 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8666_1gtda2hsk1s.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-7e3737db19d6",
+              "id": "luongson-87b8ce4d09d7",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-7e3737db19d6",
-                  "name": "Botafogo Sp vs Crb Al",
+                  "id": "luongson-87b8ce4d09d7",
+                  "name": "Audax Italiano vs Palestino",
                   "streams": [
                     {
-                      "id": "luongson-7e3737db19d6",
+                      "id": "luongson-87b8ce4d09d7",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5a486d94c1",
+                          "name": "BLV SD6MWDPR95FUFE2VV61S",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr95fUfe2vv61S/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-416e50816253",
+          "name": "⚽ Caxias Rs vs Anapolis Fc | 05:30",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/14589_1jh72kqaxr18.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18605_20130924134718.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/14589_1jh72kqaxr18.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 05:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-416e50816253",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-416e50816253",
+                  "name": "Caxias Rs vs Anapolis Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-416e50816253",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a18b8fc28f",
+                          "name": "BLV SD6MWD5EJHPXY9ZMC1MN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwd5eJhpxy9Zmc1mN/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -169,6 +230,51 @@
                   "streams": [
                     {
                       "id": "luongson-235e78b54d14",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7e3737db19d6",
+          "name": "⚽ Botafogo Sp vs Crb Al | 06:00",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8666_1gtda2hsk1s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3340_1gtn82r1dm2a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8666_1gtda2hsk1s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7e3737db19d6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7e3737db19d6",
+                  "name": "Botafogo Sp vs Crb Al",
+                  "streams": [
+                    {
+                      "id": "luongson-7e3737db19d6",
                       "name": "F",
                       "stream_links": []
                     }
@@ -577,7 +683,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1769dab8bd",
+                          "id": "lnk-035b4253e1",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -627,96 +733,6 @@
                   "streams": [
                     {
                       "id": "luongson-33f70669fa88",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eabcbd366706",
-          "name": "⚽ Seoul Amazones (W) vs Suwon Fmc (W) | 17:00",
-          "tournament": "WK League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9399_1gwbdv1r94c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9399_1gwbdv1r94c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eabcbd366706",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eabcbd366706",
-                  "name": "Seoul Amazones (W) vs Suwon Fmc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-eabcbd366706",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a57265125b11",
-          "name": "⚽ Changnyeong (W) vs Boeun Sangmu (W) | 17:00",
-          "tournament": "WK League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34329_20200322173249.jpg?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9451_1gw8ppsgvw1e.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34329_20200322173249.jpg?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a57265125b11",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a57265125b11",
-                  "name": "Changnyeong (W) vs Boeun Sangmu (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-a57265125b11",
                       "name": "F",
                       "stream_links": []
                     }
