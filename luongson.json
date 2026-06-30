@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:21 30/06/2026",
+  "last_updated": "21:31 30/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-19eeb86b25",
+                          "id": "lnk-0f1679f67f",
                           "name": "BLV YẾN THANH REPLAY",
                           "type": "hls",
                           "default": true,
@@ -79,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -97,7 +97,15 @@
                     {
                       "id": "luongson-729adc4eaf9c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d983f5128",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -124,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -142,7 +150,22 @@
                     {
                       "id": "luongson-2b9a913a77d1",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-09c6e88c11",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-95aeadf324",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -151,7 +174,7 @@
           ]
         },
         {
-          "id": "luongson-814c7fd24816",
+          "id": "luongson-01488ee94065",
           "name": "⚽ Vaasa Vps vs Inter Turku | 22:00",
           "tournament": "Finland Suomen Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
@@ -177,23 +200,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-814c7fd24816",
+              "id": "luongson-01488ee94065",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-814c7fd24816",
+                  "id": "luongson-01488ee94065",
                   "name": "Vaasa Vps vs Inter Turku",
                   "streams": [
                     {
-                      "id": "luongson-814c7fd24816",
+                      "id": "luongson-01488ee94065",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a8b8c704b0",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-dbbecef477",
+                          "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -287,7 +310,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e2adfb2a76",
+                          "id": "lnk-01d3a376ac",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
