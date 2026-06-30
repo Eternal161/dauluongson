@@ -1,14 +1,14 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:21 01/07/2026",
+  "last_updated": "03:31 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-b275acf96a2c",
+          "id": "luongson-edca3df694f9",
           "name": "⚽ Germany vs Paraguay | 03:26 08/01/300",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782850763.png?v=2.4.3",
@@ -26,25 +26,33 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-b275acf96a2c",
+              "id": "luongson-edca3df694f9",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b275acf96a2c",
+                  "id": "luongson-edca3df694f9",
                   "name": "Germany vs Paraguay",
                   "streams": [
                     {
-                      "id": "luongson-b275acf96a2c",
+                      "id": "luongson-edca3df694f9",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d49cc23fc",
+                          "name": "BLV TO1A",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -91,10 +99,24 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6e7ced96df",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-04b49103a9",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-2b11dc40f4",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-756f1091b7",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
@@ -189,7 +211,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2f90a9ad48",
+                          "id": "lnk-9bab24ad53",
                           "name": "BLV SD6MVVNTPZAVIEWVUVE8",
                           "type": "hls",
                           "default": true,
