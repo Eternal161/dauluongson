@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:11 30/06/2026",
+  "last_updated": "15:21 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-7042bf5833e7",
+          "name": "⚽ Fc Ulaanbaatar vs Tuv Buganuud | Không rõ",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/35397_1h4pznznxt2s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/35397_1h4pznznxt2s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7042bf5833e7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7042bf5833e7",
+                  "name": "Fc Ulaanbaatar vs Tuv Buganuud",
+                  "streams": [
+                    {
+                      "id": "luongson-7042bf5833e7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e2904268b",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-d995f22f2a4a",
           "name": "⚽ Rizal Golden Coolers vs Bulacan Kuyas | 03:26 01/07/1500",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b3f499d6df",
+                          "id": "lnk-caf7f5d07c",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7042bf5833e7",
-          "name": "⚽ Fc Ulaanbaatar vs Tuv Buganuud | Không rõ",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/35397_1h4pznznxt2s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/35397_1h4pznznxt2s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7042bf5833e7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7042bf5833e7",
-                  "name": "Fc Ulaanbaatar vs Tuv Buganuud",
-                  "streams": [
-                    {
-                      "id": "luongson-7042bf5833e7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e256893e65",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
