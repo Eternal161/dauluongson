@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:11 30/06/2026",
+  "last_updated": "09:20 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-e015d27ed5d6",
-          "name": "⚽ Netherlands vs Morocco | 03:26 01/07/800",
+          "id": "luongson-433e596951d6",
+          "name": "⚽ Netherlands vs Morocco | Không rõ",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/556_16498334962.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/704_1hkv9bnt8sv.png?v=2.4.3",
@@ -34,23 +34,51 @@
           ],
           "sources": [
             {
-              "id": "luongson-e015d27ed5d6",
+              "id": "luongson-433e596951d6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e015d27ed5d6",
+                  "id": "luongson-433e596951d6",
                   "name": "Netherlands vs Morocco",
                   "streams": [
                     {
-                      "id": "luongson-e015d27ed5d6",
+                      "id": "luongson-433e596951d6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1b8e070ea3",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-261fa5f595",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-b6280d8505",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-3aae95f609",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-39082742d9",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-eaa45d5954",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -214,10 +242,10 @@
           },
           "labels": [
             {
-              "text": "● Live 16:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -232,15 +260,7 @@
                     {
                       "id": "luongson-652786c193fc",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc1842c581",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -447,10 +467,10 @@
           },
           "labels": [
             {
-              "text": "● Live 17:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -465,15 +485,7 @@
                     {
                       "id": "luongson-e9f4a24d4a82",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e4761cb644",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
