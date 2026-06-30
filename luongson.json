@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:11 30/06/2026",
+  "last_updated": "23:21 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-74bb5eeaf8b9",
-          "name": "⚽ Levski Sofia vs Radnik Surdulica | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/537_1h3tkn4pvs2f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/19289_1grags94r71y.png?v=2.4.3",
+          "id": "luongson-2b9a913a77d1",
+          "name": "⚽ Fk Rigas Futbola Skola vs Bfc Daugavpils | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20253_1h5e49xkhm31.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/537_1h3tkn4pvs2f.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 3 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,90 +34,37 @@
           ],
           "sources": [
             {
-              "id": "luongson-74bb5eeaf8b9",
+              "id": "luongson-2b9a913a77d1",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-74bb5eeaf8b9",
-                  "name": "Levski Sofia vs Radnik Surdulica",
+                  "id": "luongson-2b9a913a77d1",
+                  "name": "Fk Rigas Futbola Skola vs Bfc Daugavpils",
                   "streams": [
                     {
-                      "id": "luongson-74bb5eeaf8b9",
+                      "id": "luongson-2b9a913a77d1",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-207ff8b741",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-8ada931a36",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-f9d566fe7b",
-                          "name": "BLV LIO",
+                          "id": "lnk-82dbc2c336",
+                          "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-729adc4eaf9c",
-          "name": "⚽ Bosnia And Herzegovina (W) U19 vs Sweden (W) U19 | Không rõ",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5701_1h4343s4a914.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3703_1h39dc3aaq2v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5701_1h4343s4a914.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-729adc4eaf9c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-729adc4eaf9c",
-                  "name": "Bosnia And Herzegovina (W) U19 vs Sweden (W) U19",
-                  "streams": [
-                    {
-                      "id": "luongson-729adc4eaf9c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26f0ccbbb1",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         },
                         {
-                          "id": "lnk-41d8ccf03a",
-                          "name": "BLV HÀN TÍN",
+                          "id": "lnk-fdb668dcb7",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -166,21 +113,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-260d47d2a8",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        },
-                        {
-                          "id": "lnk-61e382952b",
+                          "id": "lnk-8b3b0ea066",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-6d86636d6a",
+                          "id": "lnk-3feb8a75fe",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-7cfeda9d7d",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": false,
@@ -195,8 +142,128 @@
           ]
         },
         {
-          "id": "luongson-01488ee94065",
-          "name": "⚽ Vaasa Vps vs Inter Turku | 03:26 01/07/2200",
+          "id": "luongson-729adc4eaf9c",
+          "name": "⚽ Bosnia And Herzegovina (W) U19 vs Sweden (W) U19 | Không rõ",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5701_1h4343s4a914.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3703_1h39dc3aaq2v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5701_1h4343s4a914.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-729adc4eaf9c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-729adc4eaf9c",
+                  "name": "Bosnia And Herzegovina (W) U19 vs Sweden (W) U19",
+                  "streams": [
+                    {
+                      "id": "luongson-729adc4eaf9c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63bad74321",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-a7b39978e1",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-74bb5eeaf8b9",
+          "name": "⚽ Levski Sofia vs Radnik Surdulica | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/537_1h3tkn4pvs2f.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/19289_1grags94r71y.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/537_1h3tkn4pvs2f.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-74bb5eeaf8b9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-74bb5eeaf8b9",
+                  "name": "Levski Sofia vs Radnik Surdulica",
+                  "streams": [
+                    {
+                      "id": "luongson-74bb5eeaf8b9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3069e2c789",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-c90082ca58",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-814c7fd24816",
+          "name": "⚽ Vaasa Vps vs Inter Turku | Không rõ",
           "tournament": "Finland Suomen Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
           "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
@@ -221,90 +288,37 @@
           ],
           "sources": [
             {
-              "id": "luongson-01488ee94065",
+              "id": "luongson-814c7fd24816",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-01488ee94065",
+                  "id": "luongson-814c7fd24816",
                   "name": "Vaasa Vps vs Inter Turku",
                   "streams": [
                     {
-                      "id": "luongson-01488ee94065",
+                      "id": "luongson-814c7fd24816",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2015bc0447",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-d52e8a47d7",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2b9a913a77d1",
-          "name": "⚽ Fk Rigas Futbola Skola vs Bfc Daugavpils | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20253_1h5e49xkhm31.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2b9a913a77d1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2b9a913a77d1",
-                  "name": "Fk Rigas Futbola Skola vs Bfc Daugavpils",
-                  "streams": [
-                    {
-                      "id": "luongson-2b9a913a77d1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d122fbbb2",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-5f2b1ac074",
-                          "name": "BLV DƯƠNG CHÍ",
+                          "id": "lnk-4134a54afb",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         },
                         {
-                          "id": "lnk-d78343e7cb",
-                          "name": "BLV MAYBACH",
+                          "id": "lnk-2362782bbf",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -333,10 +347,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -351,7 +365,22 @@
                     {
                       "id": "luongson-0f157fba9bc7",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0dd705fae",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-4296c8670d",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -378,10 +407,10 @@
           },
           "labels": [
             {
-              "text": "● Live 01:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -396,15 +425,7 @@
                     {
                       "id": "luongson-aa30f9f444c5",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcc65c71f9",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -476,10 +497,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -494,7 +515,15 @@
                     {
                       "id": "luongson-68f7ab647daf",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9e9437fb2d",
+                          "name": "BLV KEVILL",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
                     }
                   ]
                 }
