@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:31 30/06/2026",
+  "last_updated": "15:41 30/06/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-821bf955f0",
+                          "id": "lnk-0fe88159ed",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5f13ae1331",
+                          "id": "lnk-5c48a88550",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -115,7 +115,7 @@
         },
         {
           "id": "luongson-d8b4cf84be25",
-          "name": "⚽ Logan Lightning U23 vs Redlands United U23 | 15:30",
+          "name": "⚽ Logan Lightning U23 vs Redlands United U23 | Không rõ",
           "tournament": "Australia NPL Queensland U23",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/48099_1gvsptcmgv29.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/48574_1gt30b8c1ea.png?v=2.4.3",
@@ -132,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -197,11 +197,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ecdeb8f84c",
+                          "id": "lnk-68cb238474",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-a141e806f2",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -230,10 +237,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -248,7 +255,15 @@
                     {
                       "id": "luongson-ad5bc4799ba6",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fd3e1788d",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
                     }
                   ]
                 }
