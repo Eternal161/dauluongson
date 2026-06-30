@@ -1,12 +1,57 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:11 01/07/2026",
+  "last_updated": "03:21 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-b275acf96a2c",
+          "name": "⚽ Germany vs Paraguay | 03:26 08/01/300",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782850763.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782850764.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782850763.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b275acf96a2c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b275acf96a2c",
+                  "name": "Germany vs Paraguay",
+                  "streams": [
+                    {
+                      "id": "luongson-b275acf96a2c",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-68f7ab647daf",
           "name": "⚽ France vs Sweden | Không rõ",
@@ -26,10 +71,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -44,7 +89,15 @@
                     {
                       "id": "luongson-68f7ab647daf",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e7ced96df",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -136,7 +189,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fac3eedc34",
+                          "id": "lnk-2f90a9ad48",
                           "name": "BLV SD6MVVNTPZAVIEWVUVE8",
                           "type": "hls",
                           "default": true,
