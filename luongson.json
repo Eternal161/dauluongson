@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:40 30/06/2026",
+  "last_updated": "07:50 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-e015d27ed5d6",
-          "name": "⚽ Netherlands vs Morocco | 03:26 01/07/800",
+          "id": "luongson-433e596951d6",
+          "name": "⚽ Netherlands vs Morocco | Không rõ",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/556_16498334962.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/704_1hkv9bnt8sv.png?v=2.4.3",
@@ -34,23 +34,51 @@
           ],
           "sources": [
             {
-              "id": "luongson-e015d27ed5d6",
+              "id": "luongson-433e596951d6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e015d27ed5d6",
+                  "id": "luongson-433e596951d6",
                   "name": "Netherlands vs Morocco",
                   "streams": [
                     {
-                      "id": "luongson-e015d27ed5d6",
+                      "id": "luongson-433e596951d6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2645349549",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-498177f866",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-3871ba6c3e",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-f65b41915d",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-7669a89b40",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-bdb5bb22c3",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -99,11 +127,170 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-79234410d9",
+                          "id": "lnk-5372bbce14",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8dd9d0e1c66e",
+          "name": "⚽ Union Espanola vs Colo Colo | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/912_1h51a7xcwc1q.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8dd9d0e1c66e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8dd9d0e1c66e",
+                  "name": "Union Espanola vs Colo Colo",
+                  "streams": [
+                    {
+                      "id": "luongson-8dd9d0e1c66e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d98c7eed38",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-48100d048aa7",
+          "name": "⚽ Gigantes De Carolina vs Osos De Manati | 03:26 01/07/700",
+          "tournament": "BSN",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763775.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763776.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763775.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-48100d048aa7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-48100d048aa7",
+                  "name": "Gigantes De Carolina vs Osos De Manati",
+                  "streams": [
+                    {
+                      "id": "luongson-48100d048aa7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c464ec1f56",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-42c79b4d4b9d",
+          "name": "⚽ Criollos De Caguas vs Leones De Ponce | 03:26 01/07/700",
+          "tournament": "BSN",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763748.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763750.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763748.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-42c79b4d4b9d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-42c79b4d4b9d",
+                  "name": "Criollos De Caguas vs Leones De Ponce",
+                  "streams": [
+                    {
+                      "id": "luongson-42c79b4d4b9d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d56316208c",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -152,170 +339,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3c52ab20bb",
+                          "id": "lnk-03b489a3c7",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-48100d048aa7",
-          "name": "⚽ Gigantes De Carolina vs Osos De Manati | 03:26 01/07/700",
-          "tournament": "BSN",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763775.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763776.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763775.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-48100d048aa7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-48100d048aa7",
-                  "name": "Gigantes De Carolina vs Osos De Manati",
-                  "streams": [
-                    {
-                      "id": "luongson-48100d048aa7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-85a96be536",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-42c79b4d4b9d",
-          "name": "⚽ Criollos De Caguas vs Leones De Ponce | 03:26 01/07/700",
-          "tournament": "BSN",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763748.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763750.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782763748.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-42c79b4d4b9d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-42c79b4d4b9d",
-                  "name": "Criollos De Caguas vs Leones De Ponce",
-                  "streams": [
-                    {
-                      "id": "luongson-42c79b4d4b9d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8a83b5131",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8dd9d0e1c66e",
-          "name": "⚽ Union Espanola vs Colo Colo | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/912_1h51a7xcwc1q.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8dd9d0e1c66e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8dd9d0e1c66e",
-                  "name": "Union Espanola vs Colo Colo",
-                  "streams": [
-                    {
-                      "id": "luongson-8dd9d0e1c66e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-135bc25708",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
