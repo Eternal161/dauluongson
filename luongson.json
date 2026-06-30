@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:31 30/06/2026",
+  "last_updated": "20:41 30/06/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-9627b53d1d1b",
-          "name": "⚽ Zigong Black White vs Ningxia Pingluo | Không rõ",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Zi&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64774_1hs2g1mngqn.png?v=2.4.3",
+          "id": "luongson-fb646cf2abf0",
+          "name": "⚽ Finland U17 vs Lithuania U17 | 21:00",
+          "tournament": "Baltic Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4057_1h39dp74sp7.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1774863484.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Zi&size=200&background=1565C0&color=ffffff&bold=true",
+            "url": "https://cdn-img.cdnokvip.com/logos/4057_1h39dp74sp7.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live 21:00",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,25 +34,70 @@
           ],
           "sources": [
             {
-              "id": "luongson-9627b53d1d1b",
+              "id": "luongson-fb646cf2abf0",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-9627b53d1d1b",
-                  "name": "Zigong Black White vs Ningxia Pingluo",
+                  "id": "luongson-fb646cf2abf0",
+                  "name": "Finland U17 vs Lithuania U17",
                   "streams": [
                     {
-                      "id": "luongson-9627b53d1d1b",
+                      "id": "luongson-fb646cf2abf0",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1b2585739e",
-                          "name": "BLV SHIN",
+                          "id": "lnk-b5157856e4",
+                          "name": "BLV SD6MWE5JEUXEJ8EK5RFA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwe5jeuxeJ8Ek5RFA/playlist.m3u8"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-814c7fd24816",
+          "name": "⚽ Vaasa Vps vs Inter Turku | 22:00",
+          "tournament": "Finland Suomen Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-814c7fd24816",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-814c7fd24816",
+                  "name": "Vaasa Vps vs Inter Turku",
+                  "streams": [
+                    {
+                      "id": "luongson-814c7fd24816",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
@@ -151,51 +196,6 @@
           ]
         },
         {
-          "id": "luongson-814c7fd24816",
-          "name": "⚽ Vaasa Vps vs Inter Turku | 22:00",
-          "tournament": "Finland Suomen Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-814c7fd24816",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-814c7fd24816",
-                  "name": "Vaasa Vps vs Inter Turku",
-                  "streams": [
-                    {
-                      "id": "luongson-814c7fd24816",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-74bb5eeaf8b9",
           "name": "⚽ Levski Sofia vs Radnik Surdulica | 23:00",
           "tournament": "International Club Friendly",
@@ -279,7 +279,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1d16d7d77b",
+                          "id": "lnk-887f6d818f",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
@@ -339,51 +339,6 @@
           ]
         },
         {
-          "id": "luongson-aa30f9f444c5",
-          "name": "⚽ Poland (W) U19 vs Germany (W) U19 | 01:00",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4611_165750436919.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4611_165750436919.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-aa30f9f444c5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-aa30f9f444c5",
-                  "name": "Poland (W) U19 vs Germany (W) U19",
-                  "streams": [
-                    {
-                      "id": "luongson-aa30f9f444c5",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-59ed7cd5107e",
           "name": "⚽ Central Ballester vs Ca Atlas | 01:00",
           "tournament": "Argentina group C Tebolidun League Manchester",
@@ -419,6 +374,51 @@
                   "streams": [
                     {
                       "id": "luongson-59ed7cd5107e",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-aa30f9f444c5",
+          "name": "⚽ Poland (W) U19 vs Germany (W) U19 | 01:00",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4611_165750436919.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4611_165750436919.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-aa30f9f444c5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-aa30f9f444c5",
+                  "name": "Poland (W) U19 vs Germany (W) U19",
+                  "streams": [
+                    {
+                      "id": "luongson-aa30f9f444c5",
                       "name": "F",
                       "stream_links": []
                     }
@@ -511,6 +511,59 @@
                       "id": "luongson-9d366320e4bb",
                       "name": "F",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7cb2638b64be",
+          "name": "⚽ Newcastle Olympic vs Charleston City Blues | 17:00",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 17:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7cb2638b64be",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7cb2638b64be",
+                  "name": "Newcastle Olympic vs Charleston City Blues",
+                  "streams": [
+                    {
+                      "id": "luongson-7cb2638b64be",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44f4f8dae9",
+                          "name": "BLV SD6MVVNTPZAVIEWVUVE8",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvVNtPzAvieWvUve8/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
