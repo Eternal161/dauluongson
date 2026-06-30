@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:51 30/06/2026",
+  "last_updated": "23:01 30/06/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 3",
+              "text": "● Live HT 0 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5dd0ac5d2f",
+                          "id": "lnk-c86f0f235a",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-af0f537498",
+                          "id": "lnk-49dda28580",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
@@ -106,21 +106,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c921fae09b",
+                          "id": "lnk-188af255af",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-3d524745be",
+                          "id": "lnk-ae80741bbb",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-b1dd4df492",
+                          "id": "lnk-25de0f3b67",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
@@ -173,25 +173,92 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-754a169b13",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-4bc2b71910",
+                          "id": "lnk-13feaacd78",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         },
                         {
-                          "id": "lnk-e7c0f39b3b",
+                          "id": "lnk-3082c0756c",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-ffebce19ab",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-18a0ced54487",
+          "name": "⚽ Fk Liepaja vs Ogre United | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-18a0ced54487",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-18a0ced54487",
+                  "name": "Fk Liepaja vs Ogre United",
+                  "streams": [
+                    {
+                      "id": "luongson-18a0ced54487",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd505b6367",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-0061b796bb",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-94e9520a13",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -240,85 +307,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-127bbc0f65",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-fef9a0db9a",
+                          "id": "lnk-87b050e7fb",
                           "name": "BLV LIO",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-18a0ced54487",
-          "name": "⚽ Fk Liepaja vs Ogre United | 23:00",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 23:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-18a0ced54487",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-18a0ced54487",
-                  "name": "Fk Liepaja vs Ogre United",
-                  "streams": [
-                    {
-                      "id": "luongson-18a0ced54487",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8e6888d589",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         },
                         {
-                          "id": "lnk-f4c785be21",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-10af1d1a6c",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-8a9a31283a",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -502,7 +502,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0066746924",
+                          "id": "lnk-1bfe8ba437",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
