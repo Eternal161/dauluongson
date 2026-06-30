@@ -1,79 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:10 01/07/2026",
+  "last_updated": "02:21 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-aa30f9f444c5",
-          "name": "⚽ Poland (W) U19 vs Germany (W) U19 | Không rõ",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4611_165750436919.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4611_165750436919.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-aa30f9f444c5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-aa30f9f444c5",
-                  "name": "Poland (W) U19 vs Germany (W) U19",
-                  "streams": [
-                    {
-                      "id": "luongson-aa30f9f444c5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f42ac24ee0",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-bade724cc7",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-0244aca667",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-59ed7cd5107e",
           "name": "⚽ Central Ballester vs Ca Atlas | Không rõ",
@@ -113,18 +46,85 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1f40112a23",
+                          "id": "lnk-e38d313df9",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         },
                         {
-                          "id": "lnk-fee30ce57f",
+                          "id": "lnk-d16c74fabd",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-aa30f9f444c5",
+          "name": "⚽ Poland (W) U19 vs Germany (W) U19 | Không rõ",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4611_165750436919.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4611_165750436919.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-aa30f9f444c5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-aa30f9f444c5",
+                  "name": "Poland (W) U19 vs Germany (W) U19",
+                  "streams": [
+                    {
+                      "id": "luongson-aa30f9f444c5",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86f963b67a",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-b202ed7a8f",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-e4716f56e1",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
