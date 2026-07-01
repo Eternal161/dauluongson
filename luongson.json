@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:21 01/07/2026",
+  "last_updated": "22:31 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-a75e32c958cb",
-          "name": "⚽ Spain (W) U19 vs Iceland (W) U19 | Không rõ",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5099_1h407n22g52v.png?v=2.4.3",
+          "id": "luongson-100d8f8f5fc2",
+          "name": "⚽ Tukums-2000 vs Super Nova | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-a75e32c958cb",
+              "id": "luongson-100d8f8f5fc2",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a75e32c958cb",
-                  "name": "Spain (W) U19 vs Iceland (W) U19",
+                  "id": "luongson-100d8f8f5fc2",
+                  "name": "Tukums-2000 vs Super Nova",
                   "streams": [
                     {
-                      "id": "luongson-a75e32c958cb",
+                      "id": "luongson-100d8f8f5fc2",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cd17ac3b73",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-0814446584",
+                          "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-2f2a46cc44",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -99,71 +106,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cb592b0965",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-ac895bbbd4",
+                          "id": "lnk-e92800a8ea",
                           "name": "BLV MAYBACH",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d912a7328595",
-          "name": "⚽ Siauliai B vs Fk Tauras Taurage | 03:26 08/01/2200",
-          "tournament": "Lithuania - 2.Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56877_1gv9q6ntsf31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9047_1hrgczjf1b1y.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56877_1gv9q6ntsf31.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d912a7328595",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d912a7328595",
-                  "name": "Siauliai B vs Fk Tauras Taurage",
-                  "streams": [
-                    {
-                      "id": "luongson-d912a7328595",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a027ff939",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        },
+                        {
+                          "id": "lnk-7e48c98285",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -212,17 +166,10 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eb088b8dbc",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-0fe5525c82",
+                          "id": "lnk-324cacde85",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
@@ -234,11 +181,11 @@
           ]
         },
         {
-          "id": "luongson-100d8f8f5fc2",
-          "name": "⚽ Tukums-2000 vs Super Nova | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
+          "id": "luongson-d912a7328595",
+          "name": "⚽ Siauliai B vs Fk Tauras Taurage | 03:26 08/01/2200",
+          "tournament": "Lithuania - 2.Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56877_1gv9q6ntsf31.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9047_1hrgczjf1b1y.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -246,13 +193,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/56877_1gv9q6ntsf31.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -260,30 +207,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-100d8f8f5fc2",
+              "id": "luongson-d912a7328595",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-100d8f8f5fc2",
-                  "name": "Tukums-2000 vs Super Nova",
+                  "id": "luongson-d912a7328595",
+                  "name": "Siauliai B vs Fk Tauras Taurage",
                   "streams": [
                     {
-                      "id": "luongson-100d8f8f5fc2",
+                      "id": "luongson-d912a7328595",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-967b20b317",
-                          "name": "BLV HEINEKEN",
+                          "id": "lnk-f225bbc19c",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a75e32c958cb",
+          "name": "⚽ Spain (W) U19 vs Iceland (W) U19 | Không rõ",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5099_1h407n22g52v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 3 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a75e32c958cb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a75e32c958cb",
+                  "name": "Spain (W) U19 vs Iceland (W) U19",
+                  "streams": [
+                    {
+                      "id": "luongson-a75e32c958cb",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-deffbc78ed",
-                          "name": "BLV TRIỆU TỬ LONG",
+                          "id": "lnk-7cc7e43bef",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -312,10 +305,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -330,7 +323,43 @@
                     {
                       "id": "luongson-8d78e49571af",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ec667a9e4",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-548f642236",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-1e2c31db1f",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-634606fe0e",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-77e47025c8",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -422,10 +451,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-79e1a9e1c7",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-7bc6e3da83",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-7d308e30af",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
@@ -455,10 +491,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -473,7 +509,15 @@
                     {
                       "id": "luongson-75d582517a34",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c5bcd10b57",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -500,10 +544,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -518,7 +562,15 @@
                     {
                       "id": "luongson-5cdb16b54a67",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-add12313c1",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -590,10 +642,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -608,7 +660,15 @@
                     {
                       "id": "luongson-2930fe3243f6",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6c3c2768e",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
                     }
                   ]
                 }
