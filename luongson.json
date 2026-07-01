@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:21 02/07/2026",
+  "last_updated": "01:31 02/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-41db1b95a10b",
-          "name": "⚽ Denmark U19 vs Spain U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-41db1b95a10b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-41db1b95a10b",
-                  "name": "Denmark U19 vs Spain U19",
-                  "streams": [
-                    {
-                      "id": "luongson-41db1b95a10b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebff6ee70a",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-8c6cdf60bd88",
           "name": "⚽ Slavia Mozyr vs Ml Vitebsk | Không rõ",
@@ -99,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-967045a5c9",
+                          "id": "lnk-f79bb88f63",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-9871fad3c6",
+                          "id": "lnk-b84e54f3e4",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
@@ -159,11 +106,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-109366e4bd",
+                          "id": "lnk-c8563470b7",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-41db1b95a10b",
+          "name": "⚽ Denmark U19 vs Spain U19 | Không rõ",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-41db1b95a10b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-41db1b95a10b",
+                  "name": "Denmark U19 vs Spain U19",
+                  "streams": [
+                    {
+                      "id": "luongson-41db1b95a10b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c154038d6",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -192,10 +192,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 02:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -210,7 +210,15 @@
                     {
                       "id": "luongson-51f3fe1e8e60",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e050c351",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -302,7 +310,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-45f172a66d",
+                          "id": "lnk-7c1bbc5b99",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
