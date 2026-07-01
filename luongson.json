@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:31 01/07/2026",
+  "last_updated": "15:41 01/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1bb59f5e96",
+                          "id": "lnk-284e763ee1",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -99,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-463e79db96",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-075e1cd65f",
+                          "id": "lnk-1513d41c77",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-cf3f1a57ca",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -139,10 +139,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -157,7 +157,15 @@
                     {
                       "id": "luongson-7cb2638b64be",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4dbf99f71f",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvVNtPzAvieWvUve8/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
