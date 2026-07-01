@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:30 01/07/2026",
+  "last_updated": "20:31 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-e55135d6df49",
-          "name": "⚽ Bff Academy U19 vs Rtc Fc | Không rõ",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57936_167066175516.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e55135d6df49",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e55135d6df49",
-                  "name": "Bff Academy U19 vs Rtc Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-e55135d6df49",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-738a65d5e1",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-17f773e095",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-a6f6f45074a6",
           "name": "⚽ Austria (W) U19 vs Switzerland (W) U19 | Không rõ",
@@ -106,18 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ace9d989dd",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-8c00f4a3cd",
+                          "id": "lnk-9d8b3e9c0b",
                           "name": "BLV KAKA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-22ce06ba60",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8e60ef557983",
+          "name": "⚽ Rubin Kazan B vs Nosta Novotroitsk | Không rõ",
+          "tournament": "Russian Second League Division B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12260_1j9d3r5bs02n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3675_1gv1yem6dc2t.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12260_1j9d3r5bs02n.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8e60ef557983",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8e60ef557983",
+                  "name": "Rubin Kazan B vs Nosta Novotroitsk",
+                  "streams": [
+                    {
+                      "id": "luongson-8e60ef557983",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8bdbd72a3",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -166,14 +159,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-db02c530d5",
+                          "id": "lnk-70c9cdea96",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-a90bb412a1",
+                          "id": "lnk-9a69d47985",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
@@ -226,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1c1928ecca",
+                          "id": "lnk-0849924778",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -241,11 +234,11 @@
           ]
         },
         {
-          "id": "luongson-8e60ef557983",
-          "name": "⚽ Rubin Kazan B vs Nosta Novotroitsk | Không rõ",
-          "tournament": "Russian Second League Division B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12260_1j9d3r5bs02n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3675_1gv1yem6dc2t.png?v=2.4.3",
+          "id": "luongson-e55135d6df49",
+          "name": "⚽ Bff Academy U19 vs Rtc Fc | Không rõ",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57936_167066175516.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -253,13 +246,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12260_1j9d3r5bs02n.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -267,23 +260,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-8e60ef557983",
+              "id": "luongson-e55135d6df49",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-8e60ef557983",
-                  "name": "Rubin Kazan B vs Nosta Novotroitsk",
+                  "id": "luongson-e55135d6df49",
+                  "name": "Bff Academy U19 vs Rtc Fc",
                   "streams": [
                     {
-                      "id": "luongson-8e60ef557983",
+                      "id": "luongson-e55135d6df49",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-df033c3102",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-cfc4e24546",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-f39ca488b6",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
