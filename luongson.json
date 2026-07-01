@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:31 01/07/2026",
+  "last_updated": "09:40 01/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,35 +46,35 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-edf44d3e20",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-369e9f5ddf",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-50f97b9667",
+                          "id": "lnk-0bb0256034",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-2f93e11b1a",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-ade1f79123",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-c0aa06b3b7",
+                          "id": "lnk-27f22d95ab",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-c03a16e05c",
+                          "id": "lnk-d8749b6796",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -269,6 +269,51 @@
           ]
         },
         {
+          "id": "luongson-33f70669fa88",
+          "name": "⚽ Shaanxi Northwest Juniors vs Guizhou Xufengtang | 17:00",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-33f70669fa88",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-33f70669fa88",
+                  "name": "Shaanxi Northwest Juniors vs Guizhou Xufengtang",
+                  "streams": [
+                    {
+                      "id": "luongson-33f70669fa88",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-7cb2638b64be",
           "name": "⚽ Newcastle Olympic vs Charleston City Blues | 17:00",
           "tournament": "Australia Northern NSW Premier League",
@@ -307,58 +352,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ed98cd66d",
+                          "id": "lnk-c836de2ce7",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6MvVNtPzAvieWvUve8/playlist.m3u8"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-33f70669fa88",
-          "name": "⚽ Shaanxi Northwest Juniors vs Guizhou Xufengtang | 17:00",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-33f70669fa88",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-33f70669fa88",
-                  "name": "Shaanxi Northwest Juniors vs Guizhou Xufengtang",
-                  "streams": [
-                    {
-                      "id": "luongson-33f70669fa88",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -457,11 +457,11 @@
           ]
         },
         {
-          "id": "luongson-b47c0298ab1d",
-          "name": "⚽ Khovd vs Khoromkhon Club | 18:00",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
+          "id": "luongson-75d83319fa9a",
+          "name": "⚽ Brisbane Knights vs Souths United | 17:30",
+          "tournament": "Australia Queensland Premier League 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18993_1hv7yedq1h1f.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8803_1gtqqe8bxg7.PNG?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -469,7 +469,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/18993_1hv7yedq1h1f.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -483,15 +483,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-b47c0298ab1d",
+              "id": "luongson-75d83319fa9a",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b47c0298ab1d",
-                  "name": "Khovd vs Khoromkhon Club",
+                  "id": "luongson-75d83319fa9a",
+                  "name": "Brisbane Knights vs Souths United",
                   "streams": [
                     {
-                      "id": "luongson-b47c0298ab1d",
+                      "id": "luongson-75d83319fa9a",
                       "name": "F",
                       "stream_links": []
                     }
@@ -547,11 +547,11 @@
           ]
         },
         {
-          "id": "luongson-9392dc78098c",
-          "name": "⚽ Lokomotiv Sofia vs Fc Botosani | 18:00",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/986_1grcyc2fjr0.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5823_1gq929axg77.png?v=2.4.3",
+          "id": "luongson-b47c0298ab1d",
+          "name": "⚽ Khovd vs Khoromkhon Club | 18:00",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -559,7 +559,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/986_1grcyc2fjr0.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -573,15 +573,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-9392dc78098c",
+              "id": "luongson-b47c0298ab1d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-9392dc78098c",
-                  "name": "Lokomotiv Sofia vs Fc Botosani",
+                  "id": "luongson-b47c0298ab1d",
+                  "name": "Khovd vs Khoromkhon Club",
                   "streams": [
                     {
-                      "id": "luongson-9392dc78098c",
+                      "id": "luongson-b47c0298ab1d",
                       "name": "F",
                       "stream_links": []
                     }
@@ -592,11 +592,11 @@
           ]
         },
         {
-          "id": "luongson-2896e88becfa",
-          "name": "⚽ Dire Dawa vs Arba Minch | 19:00",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
+          "id": "luongson-e55135d6df49",
+          "name": "⚽ Bff Academy U19 vs Rtc Fc | 19:00",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57936_167066175516.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -604,7 +604,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -618,60 +618,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-2896e88becfa",
+              "id": "luongson-e55135d6df49",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2896e88becfa",
-                  "name": "Dire Dawa vs Arba Minch",
+                  "id": "luongson-e55135d6df49",
+                  "name": "Bff Academy U19 vs Rtc Fc",
                   "streams": [
                     {
-                      "id": "luongson-2896e88becfa",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0b042ac377cd",
-          "name": "⚽ Mekelle 70 Enderta Fc vs Negelle Arsi | 19:00",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41191_1j8nxtb21m10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64950_1hsq2mfjksc.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/41191_1j8nxtb21m10.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0b042ac377cd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0b042ac377cd",
-                  "name": "Mekelle 70 Enderta Fc vs Negelle Arsi",
-                  "streams": [
-                    {
-                      "id": "luongson-0b042ac377cd",
+                      "id": "luongson-e55135d6df49",
                       "name": "F",
                       "stream_links": []
                     }
@@ -717,6 +672,51 @@
                   "streams": [
                     {
                       "id": "luongson-a6f6f45074a6",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0b042ac377cd",
+          "name": "⚽ Mekelle 70 Enderta Fc vs Negelle Arsi | 19:00",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41191_1j8nxtb21m10.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64950_1hsq2mfjksc.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/41191_1j8nxtb21m10.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0b042ac377cd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0b042ac377cd",
+                  "name": "Mekelle 70 Enderta Fc vs Negelle Arsi",
+                  "streams": [
+                    {
+                      "id": "luongson-0b042ac377cd",
                       "name": "F",
                       "stream_links": []
                     }
