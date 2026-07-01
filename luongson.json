@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:01 01/07/2026",
+  "last_updated": "21:11 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-e55135d6df49",
-          "name": "⚽ Bff Academy U19 vs Rtc Fc | Không rõ",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57936_167066175516.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e55135d6df49",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e55135d6df49",
-                  "name": "Bff Academy U19 vs Rtc Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-e55135d6df49",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1af38f50b6",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-8e60ef557983",
           "name": "⚽ Rubin Kazan B vs Nosta Novotroitsk | Không rõ",
@@ -79,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d2c906addd",
+                          "id": "lnk-2d0817adeb",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -267,10 +214,10 @@
           },
           "labels": [
             {
-              "text": "● Live 22:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -285,15 +232,7 @@
                     {
                       "id": "luongson-0a5aed7bdf4c",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00c615778c",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -340,7 +279,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-122cd803b6",
+                          "id": "lnk-8bd846fd22",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -625,6 +564,51 @@
           ]
         },
         {
+          "id": "luongson-2930fe3243f6",
+          "name": "⚽ Forge Fc vs Vancouver Fc | 00:00",
+          "tournament": "Canadian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2930fe3243f6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2930fe3243f6",
+                  "name": "Forge Fc vs Vancouver Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-2930fe3243f6",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-41db1b95a10b",
           "name": "⚽ Denmark U19 vs Spain U19 | 00:00",
           "tournament": "UEFA European U-19 Football Championship",
@@ -670,11 +654,11 @@
           ]
         },
         {
-          "id": "luongson-2930fe3243f6",
-          "name": "⚽ Forge Fc vs Vancouver Fc | 00:00",
-          "tournament": "Canadian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
+          "id": "luongson-8c6cdf60bd88",
+          "name": "⚽ Slavia Mozyr vs Ml Vitebsk | 00:30",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2043_1gtqmg9t2g1h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44671_1gwy1c0s131t.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -682,7 +666,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/2043_1gtqmg9t2g1h.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -696,15 +680,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-2930fe3243f6",
+              "id": "luongson-8c6cdf60bd88",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2930fe3243f6",
-                  "name": "Forge Fc vs Vancouver Fc",
+                  "id": "luongson-8c6cdf60bd88",
+                  "name": "Slavia Mozyr vs Ml Vitebsk",
                   "streams": [
                     {
-                      "id": "luongson-2930fe3243f6",
+                      "id": "luongson-8c6cdf60bd88",
                       "name": "F",
                       "stream_links": []
                     }
