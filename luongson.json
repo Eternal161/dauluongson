@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:01 01/07/2026",
+  "last_updated": "07:11 01/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-240df59d63",
+                          "id": "lnk-48f7449d1e",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-07e0a384e9",
+                          "id": "lnk-4f51400259",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1da3ca4b05",
+                          "id": "lnk-136edd458e",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-79052f09bf",
+                          "id": "lnk-7380a9df26",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -258,11 +258,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bce40f43e2",
+                          "id": "lnk-3aada67dde",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-a5a2ecc22c",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-294eb6a306",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -311,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3b52ce2116",
+                          "id": "lnk-2f985f5f1a",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -506,6 +520,104 @@
           ]
         },
         {
+          "id": "luongson-7cb2638b64be",
+          "name": "⚽ Newcastle Olympic vs Charleston City Blues | 17:00",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 17:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7cb2638b64be",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7cb2638b64be",
+                  "name": "Newcastle Olympic vs Charleston City Blues",
+                  "streams": [
+                    {
+                      "id": "luongson-7cb2638b64be",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94536376ff",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvVNtPzAvieWvUve8/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-33f70669fa88",
+          "name": "⚽ Shaanxi Northwest Juniors vs Guizhou Xufengtang | 17:00",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-33f70669fa88",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-33f70669fa88",
+                  "name": "Shaanxi Northwest Juniors vs Guizhou Xufengtang",
+                  "streams": [
+                    {
+                      "id": "luongson-33f70669fa88",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-eabcbd366706",
           "name": "⚽ Seoul Amazones (W) vs Suwon Fmc (W) | 17:00",
           "tournament": "WK League",
@@ -586,104 +698,6 @@
                   "streams": [
                     {
                       "id": "luongson-a57265125b11",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7cb2638b64be",
-          "name": "⚽ Newcastle Olympic vs Charleston City Blues | 17:00",
-          "tournament": "Australia Northern NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 17:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7cb2638b64be",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7cb2638b64be",
-                  "name": "Newcastle Olympic vs Charleston City Blues",
-                  "streams": [
-                    {
-                      "id": "luongson-7cb2638b64be",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbc47976be",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MvVNtPzAvieWvUve8/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-33f70669fa88",
-          "name": "⚽ Shaanxi Northwest Juniors vs Guizhou Xufengtang | 17:00",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65746_1hzgdayc6q1t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-33f70669fa88",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-33f70669fa88",
-                  "name": "Shaanxi Northwest Juniors vs Guizhou Xufengtang",
-                  "streams": [
-                    {
-                      "id": "luongson-33f70669fa88",
                       "name": "F",
                       "stream_links": []
                     }
