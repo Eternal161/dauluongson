@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:51 01/07/2026",
+  "last_updated": "18:01 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-e1f2fd1b6871",
+          "name": "⚽ Liaoning Shengjing Xinrui vs Kunshan Zhangpu | Không rõ",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782903404.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782903391.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782903404.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e1f2fd1b6871",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e1f2fd1b6871",
+                  "name": "Liaoning Shengjing Xinrui vs Kunshan Zhangpu",
+                  "streams": [
+                    {
+                      "id": "luongson-e1f2fd1b6871",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2058426368",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-75d83319fa9a",
           "name": "⚽ Brisbane Knights vs Souths United | Không rõ",
@@ -46,230 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-663a1525ff",
+                          "id": "lnk-356af8dd82",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-92005b5e5a62",
-          "name": "⚽ Myawady Fc (W) vs Shan Utd (W) | Không rõ",
-          "tournament": "Myanmar League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/38235_1h2z891tnnt.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65644_1j02m8g23v1r.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/38235_1h2z891tnnt.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-92005b5e5a62",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-92005b5e5a62",
-                  "name": "Myawady Fc (W) vs Shan Utd (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-92005b5e5a62",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f0aeb2f148",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-5fbf24b1d4",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a57265125b11",
-          "name": "⚽ Gangjin Swans (W) vs Boeun Sangmu (W) | Không rõ",
-          "tournament": "WK League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34329_20200322173249.jpg?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9451_1gw8ppsgvw1e.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34329_20200322173249.jpg?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a57265125b11",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a57265125b11",
-                  "name": "Gangjin Swans (W) vs Boeun Sangmu (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-a57265125b11",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e578a671e",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7cb2638b64be",
-          "name": "⚽ Newcastle Olympic vs Charleston City Blues | Không rõ",
-          "tournament": "Australia Northern NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 6 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7cb2638b64be",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7cb2638b64be",
-                  "name": "Newcastle Olympic vs Charleston City Blues",
-                  "streams": [
-                    {
-                      "id": "luongson-7cb2638b64be",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8cf6594cf6",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eabcbd366706",
-          "name": "⚽ Seoul Amazones (W) vs Suwon Fmc (W) | Không rõ",
-          "tournament": "WK League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9399_1gwbdv1r94c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9399_1gwbdv1r94c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eabcbd366706",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eabcbd366706",
-                  "name": "Seoul Amazones (W) vs Suwon Fmc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-eabcbd366706",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d79915c7de",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -318,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9d22d1d49d",
+                          "id": "lnk-6144de08dc",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -333,11 +167,11 @@
           ]
         },
         {
-          "id": "luongson-e1f2fd1b6871",
-          "name": "⚽ Liaoning Shengjing Xinrui vs Kunshan Zhangpu | 18:00",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Li&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://ui-avatars.com/api/?name=Ku&size=200&background=1565C0&color=ffffff&bold=true",
+          "id": "luongson-92005b5e5a62",
+          "name": "⚽ Myawady Fc (W) vs Shan Utd (W) | Không rõ",
+          "tournament": "Myanmar League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/38235_1h2z891tnnt.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65644_1j02m8g23v1r.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -345,13 +179,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Li&size=200&background=1565C0&color=ffffff&bold=true",
+            "url": "https://cdn-img.cdnokvip.com/logos/38235_1h2z891tnnt.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 18:00",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -359,23 +193,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-e1f2fd1b6871",
+              "id": "luongson-92005b5e5a62",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e1f2fd1b6871",
-                  "name": "Liaoning Shengjing Xinrui vs Kunshan Zhangpu",
+                  "id": "luongson-92005b5e5a62",
+                  "name": "Myawady Fc (W) vs Shan Utd (W)",
                   "streams": [
                     {
-                      "id": "luongson-e1f2fd1b6871",
+                      "id": "luongson-92005b5e5a62",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-42f6934ec1",
-                          "name": "BLV GẤU KA",
+                          "id": "lnk-26f2247d68",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-8d057b1e70",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -386,8 +227,61 @@
           ]
         },
         {
-          "id": "luongson-920b4d7ff818",
-          "name": "⚽ Khovd vs Khoromkhon Club | 18:00",
+          "id": "luongson-a57265125b11",
+          "name": "⚽ Gangjin Swans (W) vs Boeun Sangmu (W) | Không rõ",
+          "tournament": "WK League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34329_20200322173249.jpg?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9451_1gw8ppsgvw1e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/34329_20200322173249.jpg?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a57265125b11",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a57265125b11",
+                  "name": "Gangjin Swans (W) vs Boeun Sangmu (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-a57265125b11",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c20b9fbab",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b47c0298ab1d",
+          "name": "⚽ Khovd vs Khoromkhon Club | Không rõ",
           "tournament": "Mongolia Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/45113_1gv9qrwcf91r.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
@@ -404,7 +298,7 @@
           },
           "labels": [
             {
-              "text": "● Live 18:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -412,23 +306,129 @@
           ],
           "sources": [
             {
-              "id": "luongson-920b4d7ff818",
+              "id": "luongson-b47c0298ab1d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-920b4d7ff818",
+                  "id": "luongson-b47c0298ab1d",
                   "name": "Khovd vs Khoromkhon Club",
                   "streams": [
                     {
-                      "id": "luongson-920b4d7ff818",
+                      "id": "luongson-b47c0298ab1d",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-895aad538a",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-74d9a7606c",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-eabcbd366706",
+          "name": "⚽ Seoul Amazones (W) vs Suwon Fmc (W) | Không rõ",
+          "tournament": "WK League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9399_1gwbdv1r94c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9399_1gwbdv1r94c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eabcbd366706",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eabcbd366706",
+                  "name": "Seoul Amazones (W) vs Suwon Fmc (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-eabcbd366706",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-631a6c3b3b",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7cb2638b64be",
+          "name": "⚽ Newcastle Olympic vs Charleston City Blues | Không rõ",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 7 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7cb2638b64be",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7cb2638b64be",
+                  "name": "Newcastle Olympic vs Charleston City Blues",
+                  "streams": [
+                    {
+                      "id": "luongson-7cb2638b64be",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-abfb83b639",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
