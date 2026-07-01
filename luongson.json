@@ -1,12 +1,125 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:31 01/07/2026",
+  "last_updated": "20:41 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-0b042ac377cd",
+          "name": "⚽ Mekelle 70 Enderta Fc vs Negelle Arsi | Không rõ",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41191_1j8nxtb21m10.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64950_1hsq2mfjksc.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/41191_1j8nxtb21m10.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 3 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0b042ac377cd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0b042ac377cd",
+                  "name": "Mekelle 70 Enderta Fc vs Negelle Arsi",
+                  "streams": [
+                    {
+                      "id": "luongson-0b042ac377cd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-585c81c77f",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-a9b80c7433",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2896e88becfa",
+          "name": "⚽ Dire Dawa vs Arba Minch | Không rõ",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2896e88becfa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2896e88becfa",
+                  "name": "Dire Dawa vs Arba Minch",
+                  "streams": [
+                    {
+                      "id": "luongson-2896e88becfa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8c74eff4a",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-a6f6f45074a6",
           "name": "⚽ Austria (W) U19 vs Switzerland (W) U19 | Không rõ",
@@ -46,18 +159,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9d8b3e9c0b",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-22ce06ba60",
+                          "id": "lnk-fcc8d3880e",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-1747010a48",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -106,124 +219,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e8bdbd72a3",
+                          "id": "lnk-8dd0a044b0",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0b042ac377cd",
-          "name": "⚽ Mekelle 70 Enderta Fc vs Negelle Arsi | Không rõ",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41191_1j8nxtb21m10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64950_1hsq2mfjksc.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/41191_1j8nxtb21m10.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0b042ac377cd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0b042ac377cd",
-                  "name": "Mekelle 70 Enderta Fc vs Negelle Arsi",
-                  "streams": [
-                    {
-                      "id": "luongson-0b042ac377cd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-70c9cdea96",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        },
-                        {
-                          "id": "lnk-9a69d47985",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2896e88becfa",
-          "name": "⚽ Dire Dawa vs Arba Minch | Không rõ",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2896e88becfa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2896e88becfa",
-                  "name": "Dire Dawa vs Arba Minch",
-                  "streams": [
-                    {
-                      "id": "luongson-2896e88becfa",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0849924778",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -272,17 +272,10 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cfc4e24546",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-f39ca488b6",
+                          "id": "lnk-5e8980ef2a",
                           "name": "BLV PELE",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
@@ -447,10 +440,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -465,7 +458,15 @@
                     {
                       "id": "luongson-0a5aed7bdf4c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-49298d5434",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -492,10 +493,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -510,7 +511,15 @@
                     {
                       "id": "luongson-a75e32c958cb",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a17f47804a",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
