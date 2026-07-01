@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:20 01/07/2026",
+  "last_updated": "16:31 01/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f149c7421f",
+                          "id": "lnk-234c42abdc",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-d456ea0932",
+                          "id": "lnk-e26c3e9a4f",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
@@ -68,7 +68,67 @@
           ]
         },
         {
-          "id": "luongson-7cb2638b64be",
+          "id": "luongson-92005b5e5a62",
+          "name": "⚽ Myawady Fc (W) vs Shan Utd (W) | Không rõ",
+          "tournament": "Myanmar League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/38235_1h2z891tnnt.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65644_1j02m8g23v1r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/38235_1h2z891tnnt.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-92005b5e5a62",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-92005b5e5a62",
+                  "name": "Myawady Fc (W) vs Shan Utd (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-92005b5e5a62",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-06694459b8",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-a10a430017",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4711519c2e75",
           "name": "⚽ Newcastle Olympic vs Charleston City Blues | 16:30",
           "tournament": "Australia Northern NSW Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
@@ -94,83 +154,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-7cb2638b64be",
+              "id": "luongson-4711519c2e75",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-7cb2638b64be",
+                  "id": "luongson-4711519c2e75",
                   "name": "Newcastle Olympic vs Charleston City Blues",
                   "streams": [
                     {
-                      "id": "luongson-7cb2638b64be",
+                      "id": "luongson-4711519c2e75",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aefd076df8",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-a49498cdc8",
+                          "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-99160e9337e3",
-          "name": "⚽ Monaro Panthers vs Queanbeyan City | 16:30",
-          "tournament": "Australia Capital Gatorade Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12665_1gy9320vvs1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34799_1gtqjzm9yk1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12665_1gy9320vvs1h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 16:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-99160e9337e3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-99160e9337e3",
-                  "name": "Monaro Panthers vs Queanbeyan City",
-                  "streams": [
-                    {
-                      "id": "luongson-99160e9337e3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-202f7b7dd8",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-849be5b635",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -199,10 +199,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -217,7 +217,15 @@
                     {
                       "id": "luongson-33f70669fa88",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3248265bd0",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -289,10 +297,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -307,7 +315,15 @@
                     {
                       "id": "luongson-a57265125b11",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-433e613116",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -451,51 +467,6 @@
           ]
         },
         {
-          "id": "luongson-e55135d6df49",
-          "name": "⚽ Bff Academy U19 vs Rtc Fc | 19:00",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57936_167066175516.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e55135d6df49",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e55135d6df49",
-                  "name": "Bff Academy U19 vs Rtc Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-e55135d6df49",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-a6f6f45074a6",
           "name": "⚽ Austria (W) U19 vs Switzerland (W) U19 | 19:00",
           "tournament": "European Women",
@@ -541,11 +512,11 @@
           ]
         },
         {
-          "id": "luongson-2896e88becfa",
-          "name": "⚽ Dire Dawa vs Arba Minch | 19:00",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
+          "id": "luongson-e55135d6df49",
+          "name": "⚽ Bff Academy U19 vs Rtc Fc | 19:00",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57936_167066175516.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -553,7 +524,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -567,15 +538,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-2896e88becfa",
+              "id": "luongson-e55135d6df49",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2896e88becfa",
-                  "name": "Dire Dawa vs Arba Minch",
+                  "id": "luongson-e55135d6df49",
+                  "name": "Bff Academy U19 vs Rtc Fc",
                   "streams": [
                     {
-                      "id": "luongson-2896e88becfa",
+                      "id": "luongson-e55135d6df49",
                       "name": "F",
                       "stream_links": []
                     }
@@ -631,6 +602,96 @@
           ]
         },
         {
+          "id": "luongson-2896e88becfa",
+          "name": "⚽ Dire Dawa vs Arba Minch | 19:00",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2896e88becfa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2896e88becfa",
+                  "name": "Dire Dawa vs Arba Minch",
+                  "streams": [
+                    {
+                      "id": "luongson-2896e88becfa",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0a5aed7bdf4c",
+          "name": "⚽ Fasil Kenema vs Ethiopian Insurance Fc | 22:00",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/59649_1grt0ne4471f.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0a5aed7bdf4c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0a5aed7bdf4c",
+                  "name": "Fasil Kenema vs Ethiopian Insurance Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-0a5aed7bdf4c",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-100d8f8f5fc2",
           "name": "⚽ Tukums-2000 vs Super Nova | 22:00",
           "tournament": "Latvian Higher League",
@@ -666,51 +727,6 @@
                   "streams": [
                     {
                       "id": "luongson-100d8f8f5fc2",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b8b4c3d80d71",
-          "name": "⚽ Fc Viktoria Plzen vs Spartak Trnava | 22:00",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2121_1h6wfe05881f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/810_1gtaqaqgsvq.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2121_1h6wfe05881f.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b8b4c3d80d71",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b8b4c3d80d71",
-                  "name": "Fc Viktoria Plzen vs Spartak Trnava",
-                  "streams": [
-                    {
-                      "id": "luongson-b8b4c3d80d71",
                       "name": "F",
                       "stream_links": []
                     }
