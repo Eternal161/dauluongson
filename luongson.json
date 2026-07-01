@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:01 01/07/2026",
+  "last_updated": "15:11 01/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b04759f557",
+                          "id": "lnk-ace66d9a27",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -62,7 +62,7 @@
         },
         {
           "id": "luongson-564cfcb45d12",
-          "name": "⚽ Khovd Western vs Ulaangom City Fc | 15:00",
+          "name": "⚽ Khovd Western vs Ulaangom City Fc | Không rõ",
           "tournament": "Mongolia Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/44980_1k6phcrs0f2b.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/70265_1k5wkt3ys614.png?v=2.4.3",
@@ -79,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 15:00",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,18 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-35419799fa",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-eebfd07735",
+                          "id": "lnk-33f0d58692",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-eee751b5ad",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7cb2638b64be",
+          "name": "⚽ Newcastle Olympic vs Charleston City Blues | 16:30",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 16:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7cb2638b64be",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7cb2638b64be",
+                  "name": "Newcastle Olympic vs Charleston City Blues",
+                  "streams": [
+                    {
+                      "id": "luongson-7cb2638b64be",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4dd87db61a",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvVNtPzAvieWvUve8/playlist.m3u8"
                         }
                       ]
                     }
@@ -201,51 +254,6 @@
                   "streams": [
                     {
                       "id": "luongson-33f70669fa88",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7cb2638b64be",
-          "name": "⚽ Newcastle Olympic vs Charleston City Blues | 17:00",
-          "tournament": "Australia Northern NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22442_1gtn2jbzvv6.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7cb2638b64be",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7cb2638b64be",
-                  "name": "Newcastle Olympic vs Charleston City Blues",
-                  "streams": [
-                    {
-                      "id": "luongson-7cb2638b64be",
                       "name": "F",
                       "stream_links": []
                     }
@@ -481,51 +489,6 @@
           ]
         },
         {
-          "id": "luongson-a6f6f45074a6",
-          "name": "⚽ Austria (W) U19 vs Switzerland (W) U19 | 19:00",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4613_1hdftgr47vg.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2239_165750223133.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4613_1hdftgr47vg.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a6f6f45074a6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a6f6f45074a6",
-                  "name": "Austria (W) U19 vs Switzerland (W) U19",
-                  "streams": [
-                    {
-                      "id": "luongson-a6f6f45074a6",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-e55135d6df49",
           "name": "⚽ Bff Academy U19 vs Rtc Fc | 19:00",
           "tournament": "Bhutan Thimphu League",
@@ -561,6 +524,51 @@
                   "streams": [
                     {
                       "id": "luongson-e55135d6df49",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a6f6f45074a6",
+          "name": "⚽ Austria (W) U19 vs Switzerland (W) U19 | 19:00",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4613_1hdftgr47vg.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2239_165750223133.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4613_1hdftgr47vg.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a6f6f45074a6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a6f6f45074a6",
+                  "name": "Austria (W) U19 vs Switzerland (W) U19",
+                  "streams": [
+                    {
+                      "id": "luongson-a6f6f45074a6",
                       "name": "F",
                       "stream_links": []
                     }
@@ -661,11 +669,11 @@
           ]
         },
         {
-          "id": "luongson-b8b4c3d80d71",
-          "name": "⚽ Fc Viktoria Plzen vs Spartak Trnava | 22:00",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2121_1h6wfe05881f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/810_1gtaqaqgsvq.png?v=2.4.3",
+          "id": "luongson-0a5aed7bdf4c",
+          "name": "⚽ Fasil Kenema vs Ethiopian Insurance Fc | 22:00",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/59649_1grt0ne4471f.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -673,7 +681,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2121_1h6wfe05881f.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -687,15 +695,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-b8b4c3d80d71",
+              "id": "luongson-0a5aed7bdf4c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b8b4c3d80d71",
-                  "name": "Fc Viktoria Plzen vs Spartak Trnava",
+                  "id": "luongson-0a5aed7bdf4c",
+                  "name": "Fasil Kenema vs Ethiopian Insurance Fc",
                   "streams": [
                     {
-                      "id": "luongson-b8b4c3d80d71",
+                      "id": "luongson-0a5aed7bdf4c",
                       "name": "F",
                       "stream_links": []
                     }
