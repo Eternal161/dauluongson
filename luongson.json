@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:20 01/07/2026",
+  "last_updated": "09:31 01/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,106 +46,39 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7fddb07a8d",
-                          "name": "BLV TRIỆU TỬ LONG",
+                          "id": "lnk-edf44d3e20",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-50f97b9667",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-e3ded2bcc4",
+                          "id": "lnk-2f93e11b1a",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-71cc8702eb",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-bd87bfcc2b",
+                          "id": "lnk-c0aa06b3b7",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-6f61a249d4",
+                          "id": "lnk-c03a16e05c",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-709721ab5885",
-          "name": "⚽ Univ Catolica vs Everton Cd | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/945_1h8qpdhpf91b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/913_1hpqqzvjn52f.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/945_1h8qpdhpf91b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-709721ab5885",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-709721ab5885",
-                  "name": "Univ Catolica vs Everton Cd",
-                  "streams": [
-                    {
-                      "id": "luongson-709721ab5885",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7929b65832",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        },
-                        {
-                          "id": "lnk-06d521ed0b",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-e01911a545",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -374,7 +307,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e7aa17a9ad",
+                          "id": "lnk-3ed98cd66d",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -480,7 +413,7 @@
         },
         {
           "id": "luongson-a57265125b11",
-          "name": "⚽ Changnyeong (W) vs Boeun Sangmu (W) | 17:00",
+          "name": "⚽ Gangjin Swans (W) vs Boeun Sangmu (W) | 17:00",
           "tournament": "WK League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/34329_20200322173249.jpg?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/9451_1gw8ppsgvw1e.png?v=2.4.3",
@@ -510,7 +443,7 @@
               "contents": [
                 {
                   "id": "luongson-a57265125b11",
-                  "name": "Changnyeong (W) vs Boeun Sangmu (W)",
+                  "name": "Gangjin Swans (W) vs Boeun Sangmu (W)",
                   "streams": [
                     {
                       "id": "luongson-a57265125b11",
@@ -659,6 +592,51 @@
           ]
         },
         {
+          "id": "luongson-2896e88becfa",
+          "name": "⚽ Dire Dawa vs Arba Minch | 19:00",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2896e88becfa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2896e88becfa",
+                  "name": "Dire Dawa vs Arba Minch",
+                  "streams": [
+                    {
+                      "id": "luongson-2896e88becfa",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-0b042ac377cd",
           "name": "⚽ Mekelle 70 Enderta Fc vs Negelle Arsi | 19:00",
           "tournament": "Ethiopia Premier League",
@@ -704,11 +682,11 @@
           ]
         },
         {
-          "id": "luongson-2896e88becfa",
-          "name": "⚽ Dire Dawa vs Arba Minch | 19:00",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28416_1grwgmk5g017.png?v=2.4.3",
+          "id": "luongson-a6f6f45074a6",
+          "name": "⚽ Austria (W) U19 vs Switzerland (W) U19 | 19:00",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4613_1hdftgr47vg.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2239_165750223133.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -716,7 +694,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/28101_1grszbtmwt2p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/4613_1hdftgr47vg.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -730,15 +708,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-2896e88becfa",
+              "id": "luongson-a6f6f45074a6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2896e88becfa",
-                  "name": "Dire Dawa vs Arba Minch",
+                  "id": "luongson-a6f6f45074a6",
+                  "name": "Austria (W) U19 vs Switzerland (W) U19",
                   "streams": [
                     {
-                      "id": "luongson-2896e88becfa",
+                      "id": "luongson-a6f6f45074a6",
                       "name": "F",
                       "stream_links": []
                     }
