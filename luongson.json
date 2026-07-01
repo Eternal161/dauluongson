@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:01 02/07/2026",
+  "last_updated": "06:11 02/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-549243761964",
+          "name": "⚽ Charlotte Independence vs Corpus Christi Fc | Không rõ",
+          "tournament": "USL League One",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21815_1j22s4yk1m2f.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34887_1h24kc808r6.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/21815_1j22s4yk1m2f.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-549243761964",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-549243761964",
+                  "name": "Charlotte Independence vs Corpus Christi Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-549243761964",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-57dcfcac14",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-d70685b06d2d",
           "name": "⚽ Deportes Limache vs Coquimbo Unido | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,14 +99,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-07d03b28ac",
+                          "id": "lnk-1a4a40eab8",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         },
                         {
-                          "id": "lnk-7168c14070",
+                          "id": "lnk-8889423237",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
@@ -106,71 +159,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4e3b24be1f",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-5c07c3d642",
+                          "id": "lnk-f245435728",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-549243761964",
-          "name": "⚽ Charlotte Independence vs Corpus Christi Fc | Không rõ",
-          "tournament": "USL League One",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21815_1j22s4yk1m2f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34887_1h24kc808r6.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/21815_1j22s4yk1m2f.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-549243761964",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-549243761964",
-                  "name": "Charlotte Independence vs Corpus Christi Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-549243761964",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c60bab58b",
-                          "name": "BLV LIO",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-e0a90c0ef2",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -199,7 +199,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -219,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-148a742810",
+                          "id": "lnk-2c6dd35aaf",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -272,18 +272,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a7506a572b",
+                          "id": "lnk-4e47625ac3",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-31d27fe49b",
+                          "id": "lnk-c2f242fb3f",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-ab2973c55f",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
