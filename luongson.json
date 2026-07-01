@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:10 01/07/2026",
+  "last_updated": "22:21 01/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-0a5aed7bdf4c",
-          "name": "⚽ Fasil Kenema vs Ethiopian Insurance Fc | Không rõ",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/59649_1grt0ne4471f.png?v=2.4.3",
+          "id": "luongson-a75e32c958cb",
+          "name": "⚽ Spain (W) U19 vs Iceland (W) U19 | Không rõ",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5099_1h407n22g52v.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,30 +34,83 @@
           ],
           "sources": [
             {
-              "id": "luongson-0a5aed7bdf4c",
+              "id": "luongson-a75e32c958cb",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-0a5aed7bdf4c",
-                  "name": "Fasil Kenema vs Ethiopian Insurance Fc",
+                  "id": "luongson-a75e32c958cb",
+                  "name": "Spain (W) U19 vs Iceland (W) U19",
                   "streams": [
                     {
-                      "id": "luongson-0a5aed7bdf4c",
+                      "id": "luongson-a75e32c958cb",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a34c3002d6",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-cd17ac3b73",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1172ca4e70bc",
+          "name": "⚽ Houston Fc vs Twin City Toucans | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29799_202201211630144746.gif?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/62038_1h2we928732d.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29799_202201211630144746.gif?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1172ca4e70bc",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1172ca4e70bc",
+                  "name": "Houston Fc vs Twin City Toucans",
+                  "streams": [
+                    {
+                      "id": "luongson-1172ca4e70bc",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb592b0965",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-64e84b6e1e",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-ac895bbbd4",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -106,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-55ffa6afc5",
+                          "id": "lnk-3a027ff939",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -121,11 +174,11 @@
           ]
         },
         {
-          "id": "luongson-1172ca4e70bc",
-          "name": "⚽ Houston Fc vs Twin City Toucans | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29799_202201211630144746.gif?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/62038_1h2we928732d.png?v=2.4.3",
+          "id": "luongson-0a5aed7bdf4c",
+          "name": "⚽ Fasil Kenema vs Ethiopian Insurance Fc | Không rõ",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/59649_1grt0ne4471f.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -133,7 +186,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29799_202201211630144746.gif?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1766583531.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -147,83 +200,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-1172ca4e70bc",
+              "id": "luongson-0a5aed7bdf4c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-1172ca4e70bc",
-                  "name": "Houston Fc vs Twin City Toucans",
+                  "id": "luongson-0a5aed7bdf4c",
+                  "name": "Fasil Kenema vs Ethiopian Insurance Fc",
                   "streams": [
                     {
-                      "id": "luongson-1172ca4e70bc",
+                      "id": "luongson-0a5aed7bdf4c",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-de673316ab",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-eb088b8dbc",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-2275742f38",
-                          "name": "BLV MAYBACH",
+                          "id": "lnk-0fe5525c82",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a75e32c958cb",
-          "name": "⚽ Spain (W) U19 vs Iceland (W) U19 | Không rõ",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5099_1h407n22g52v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a75e32c958cb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a75e32c958cb",
-                  "name": "Spain (W) U19 vs Iceland (W) U19",
-                  "streams": [
-                    {
-                      "id": "luongson-a75e32c958cb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e67bc0112b",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -272,20 +272,65 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f65c172685",
+                          "id": "lnk-967b20b317",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         },
                         {
-                          "id": "lnk-5e6d035452",
+                          "id": "lnk-deffbc78ed",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8d78e49571af",
+          "name": "⚽ England vs Democratic Rep Congo | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/702_1gpwrcjd1c7.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8d78e49571af",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8d78e49571af",
+                  "name": "England vs Democratic Rep Congo",
+                  "streams": [
+                    {
+                      "id": "luongson-8d78e49571af",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
@@ -357,10 +402,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -375,7 +420,15 @@
                     {
                       "id": "luongson-baa07e8052e3",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-79e1a9e1c7",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -464,51 +517,6 @@
                   "streams": [
                     {
                       "id": "luongson-5cdb16b54a67",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8d78e49571af",
-          "name": "⚽ England vs Democratic Rep Congo | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/702_1gpwrcjd1c7.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8d78e49571af",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8d78e49571af",
-                  "name": "England vs Democratic Rep Congo",
-                  "streams": [
-                    {
-                      "id": "luongson-8d78e49571af",
                       "name": "F",
                       "stream_links": []
                     }
