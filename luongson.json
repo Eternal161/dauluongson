@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:01 03/07/2026",
+  "last_updated": "04:11 03/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 2",
+              "text": "● Live 3 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,20 +46,163 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4c10c3c37a",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-14e80a9215",
+                          "id": "lnk-c3464a2429",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-f00ebf8a3a",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4229c2617176",
+          "name": "⚽ Bồ Đào Nha vs Uzbekistan | 03:26 08/03/403",
+          "tournament": "World Cup 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026231.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026236.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026231.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4229c2617176",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4229c2617176",
+                  "name": "Bồ Đào Nha vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "luongson-4229c2617176",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ac8d868a32",
+                          "name": "BLV KEVILL REPLAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a82f603acfa6",
+          "name": "⚽ New Zealand vs Philippines | 14:00",
+          "tournament": "FIBA WCQL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026479.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026480.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026479.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a82f603acfa6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a82f603acfa6",
+                  "name": "New Zealand vs Philippines",
+                  "streams": [
+                    {
+                      "id": "luongson-a82f603acfa6",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7ebbd60d2d23",
+          "name": "⚽ Canterbury Rams vs Manawatu Jets | 14:30",
+          "tournament": "NBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026504.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026505.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026504.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7ebbd60d2d23",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7ebbd60d2d23",
+                  "name": "Canterbury Rams vs Manawatu Jets",
+                  "streams": [
+                    {
+                      "id": "luongson-7ebbd60d2d23",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
@@ -553,141 +696,6 @@
                   "streams": [
                     {
                       "id": "luongson-e8f8a0a47c5f",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ad3f78fc6d7d",
-          "name": "⚽ Cong An Ha Noi U21 vs Ttbd Phu Dong （U21） | 16:00",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=TT&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ad3f78fc6d7d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ad3f78fc6d7d",
-                  "name": "Cong An Ha Noi U21 vs Ttbd Phu Dong （U21）",
-                  "streams": [
-                    {
-                      "id": "luongson-ad3f78fc6d7d",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bb7f52ce3beb",
-          "name": "⚽ Song Lan - Yi U21 vs Pvf-Cand U21 | 16:00",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/40313_1hatnm7qwwk.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bb7f52ce3beb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bb7f52ce3beb",
-                  "name": "Song Lan - Yi U21 vs Pvf-Cand U21",
-                  "streams": [
-                    {
-                      "id": "luongson-bb7f52ce3beb",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7dbfc096f842",
-          "name": "⚽ University Azzurri Fc vs Casuarina Fc | 16:00",
-          "tournament": "Australia Darwin Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44813_1gyk775sbr25.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29671_1gyk775sb99.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/44813_1gyk775sbr25.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7dbfc096f842",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7dbfc096f842",
-                  "name": "University Azzurri Fc vs Casuarina Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-7dbfc096f842",
                       "name": "F",
                       "stream_links": []
                     }
