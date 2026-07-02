@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:21 03/07/2026",
+  "last_updated": "03:31 03/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-b2a69289b273",
-          "name": "⚽ Spain vs Austria | 03:26 08/03/200",
+          "id": "luongson-d8fd1044484a",
+          "name": "⚽ Spain vs Austria | Không rõ",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/666_164983321668.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/557_1h3eak1vzg7.png?v=2.4.3",
@@ -26,59 +26,6 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b2a69289b273",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b2a69289b273",
-                  "name": "Spain vs Austria",
-                  "streams": [
-                    {
-                      "id": "luongson-b2a69289b273",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6ac21c94eb",
-                          "name": "BLV KEVILL",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7055caaf53f1",
-          "name": "⚽ Sao Luis Ma vs Americano Bacabal | Không rõ",
-          "tournament": "Brazil Campeonato Maranhense",
-          "logo_nha": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68368_1k64n2wzma2t.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
               "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
@@ -87,30 +34,58 @@
           ],
           "sources": [
             {
-              "id": "luongson-7055caaf53f1",
+              "id": "luongson-d8fd1044484a",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-7055caaf53f1",
-                  "name": "Sao Luis Ma vs Americano Bacabal",
+                  "id": "luongson-d8fd1044484a",
+                  "name": "Spain vs Austria",
                   "streams": [
                     {
-                      "id": "luongson-7055caaf53f1",
+                      "id": "luongson-d8fd1044484a",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1fe5d6d583",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-2988aaefcb",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-b1fe360bbe",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-ed23d3915d",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-2f9dbc0063",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-ddb15e8fe7",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-05d6d92362",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-8eaebde10b",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -159,18 +134,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3680b6c958",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-c9fe56e9c7",
+                          "id": "lnk-546ac0487e",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-eeb82fbcff",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -199,10 +174,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -217,43 +192,7 @@
                     {
                       "id": "luongson-bf89596a6c8a",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1e1f39ea1c",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-1c6ef83d17",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-29350a6960",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-0218228c6b",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-2a1ebcb3a5",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -280,10 +219,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -298,7 +237,15 @@
                     {
                       "id": "luongson-3acaa83de851",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-60c3ec8787",
+                          "name": "BLV KEVILL",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
                     }
                   ]
                 }
