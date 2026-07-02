@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:41 02/07/2026",
+  "last_updated": "09:51 02/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-70f6eb1e3f",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-46d89a81a0",
+                          "id": "lnk-6beef9348b",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-cc48270805",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -68,8 +68,8 @@
           ]
         },
         {
-          "id": "luongson-62f011ea48b5",
-          "name": "⚽ Spokane Velocity vs Forward Madison Fc | Không rõ",
+          "id": "luongson-f50dc50db3c4",
+          "name": "⚽ Spokane Velocity vs Forward Madison Fc | 03:26 08/02/900",
           "tournament": "USL League One",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/64839_1hs2g1mnzd2c.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/39256_1gxfc9gh58j.png?v=2.4.3",
@@ -94,23 +94,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-62f011ea48b5",
+              "id": "luongson-f50dc50db3c4",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-62f011ea48b5",
+                  "id": "luongson-f50dc50db3c4",
                   "name": "Spokane Velocity vs Forward Madison Fc",
                   "streams": [
                     {
-                      "id": "luongson-62f011ea48b5",
+                      "id": "luongson-f50dc50db3c4",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9a7627b8d1",
-                          "name": "BLV DƯƠNG CHÍ",
+                          "id": "lnk-001e3e8bee",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -454,10 +454,10 @@
           },
           "labels": [
             {
-              "text": "● Live 19:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -472,15 +472,7 @@
                     {
                       "id": "luongson-016490321dc0",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-527a643346",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -642,10 +634,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 20:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -660,7 +652,15 @@
                     {
                       "id": "luongson-7588fdab66e7",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2c193825c",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
                     }
                   ]
                 }
