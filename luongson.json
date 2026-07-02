@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:11 03/07/2026",
+  "last_updated": "04:21 03/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-0a04d5bbde56",
-          "name": "⚽ Vikingur Reykjavik vs Ka Akureyri | Không rõ",
-          "tournament": "Iceland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1399_1grd72dgm5h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0a04d5bbde56",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0a04d5bbde56",
-                  "name": "Vikingur Reykjavik vs Ka Akureyri",
-                  "streams": [
-                    {
-                      "id": "luongson-0a04d5bbde56",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3464a2429",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-f00ebf8a3a",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-4229c2617176",
           "name": "⚽ Bồ Đào Nha vs Uzbekistan | 03:26 08/03/403",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ac8d868a32",
+                          "id": "lnk-410654ed03",
                           "name": "BLV KEVILL REPLAY",
                           "type": "hls",
                           "default": true,
@@ -121,11 +61,11 @@
           ]
         },
         {
-          "id": "luongson-a82f603acfa6",
-          "name": "⚽ New Zealand vs Philippines | 14:00",
-          "tournament": "FIBA WCQL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026479.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026480.png?v=2.4.3",
+          "id": "luongson-b318fef26afe",
+          "name": "⚽ Birmingham Legion B vs Columbus United Fc | 03:25",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65493_1hyyetshkv1g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/66220_1j2nrbyk5521.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -133,31 +73,39 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026479.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/65493_1hyyetshkv1g.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live HT 03:25",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-a82f603acfa6",
+              "id": "luongson-b318fef26afe",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a82f603acfa6",
-                  "name": "New Zealand vs Philippines",
+                  "id": "luongson-b318fef26afe",
+                  "name": "Birmingham Legion B vs Columbus United Fc",
                   "streams": [
                     {
-                      "id": "luongson-a82f603acfa6",
+                      "id": "luongson-b318fef26afe",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-955e8fdebe",
+                          "name": "BLV SD6MWEALECW613UJ2EHA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MweaLECw613uj2EHA/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -166,11 +114,11 @@
           ]
         },
         {
-          "id": "luongson-7ebbd60d2d23",
-          "name": "⚽ Canterbury Rams vs Manawatu Jets | 14:30",
-          "tournament": "NBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026504.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026505.png?v=2.4.3",
+          "id": "luongson-1b6582cb7517",
+          "name": "⚽ Cumbaya Fc vs 22 De Julio | 03:30",
+          "tournament": "Ecuador Campeonato Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41786_1jpnydbz202.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68782_1jpkj5zrpev.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -178,31 +126,92 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026504.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/41786_1jpnydbz202.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live HT 03:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-7ebbd60d2d23",
+              "id": "luongson-1b6582cb7517",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-7ebbd60d2d23",
-                  "name": "Canterbury Rams vs Manawatu Jets",
+                  "id": "luongson-1b6582cb7517",
+                  "name": "Cumbaya Fc vs 22 De Julio",
                   "streams": [
                     {
-                      "id": "luongson-7ebbd60d2d23",
+                      "id": "luongson-1b6582cb7517",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3d65b7136",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqG74QuEBjdG364/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6fa82fe36eaf",
+          "name": "⚽ Atletico Futbol Club vs Cd El Nacional | Không rõ",
+          "tournament": "Ecuador Campeonato Serie B",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782958651.jpg?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2300_1j8kbqtwec23.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782958651.jpg?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6fa82fe36eaf",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6fa82fe36eaf",
+                  "name": "Atletico Futbol Club vs Cd El Nacional",
+                  "streams": [
+                    {
+                      "id": "luongson-6fa82fe36eaf",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d54c1c9e3b",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwcqG74QpqDzfcCnG/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -616,11 +625,11 @@
           ]
         },
         {
-          "id": "luongson-4b1f7709cb88",
-          "name": "⚽ Tuv Buganuud vs Deren Fc | 15:00",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/31978_1h4f5c60r62d.png?v=2.4.3",
+          "id": "luongson-a82f603acfa6",
+          "name": "⚽ New Zealand vs Philippines | 14:00",
+          "tournament": "FIBA WCQL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026479.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026480.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -628,7 +637,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026479.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -642,15 +651,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-4b1f7709cb88",
+              "id": "luongson-a82f603acfa6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-4b1f7709cb88",
-                  "name": "Tuv Buganuud vs Deren Fc",
+                  "id": "luongson-a82f603acfa6",
+                  "name": "New Zealand vs Philippines",
                   "streams": [
                     {
-                      "id": "luongson-4b1f7709cb88",
+                      "id": "luongson-a82f603acfa6",
                       "name": "F",
                       "stream_links": []
                     }
@@ -661,11 +670,11 @@
           ]
         },
         {
-          "id": "luongson-e8f8a0a47c5f",
-          "name": "⚽ Pvf Vietnam U21 vs Viettel Fc U21 | 15:30",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/27519_1hak20p8k12p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
+          "id": "luongson-7ebbd60d2d23",
+          "name": "⚽ Canterbury Rams vs Manawatu Jets | 14:30",
+          "tournament": "NBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026504.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026505.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -673,7 +682,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/27519_1hak20p8k12p.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026504.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -687,15 +696,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-e8f8a0a47c5f",
+              "id": "luongson-7ebbd60d2d23",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e8f8a0a47c5f",
-                  "name": "Pvf Vietnam U21 vs Viettel Fc U21",
+                  "id": "luongson-7ebbd60d2d23",
+                  "name": "Canterbury Rams vs Manawatu Jets",
                   "streams": [
                     {
-                      "id": "luongson-e8f8a0a47c5f",
+                      "id": "luongson-7ebbd60d2d23",
                       "name": "F",
                       "stream_links": []
                     }
