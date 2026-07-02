@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:41 02/07/2026",
+  "last_updated": "20:51 02/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-3f56cfc9da17",
-          "name": "⚽ Tobol Kostanai B vs Fk Aktobe Ii | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://ui-avatars.com/api/?name=To&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43628_1gxj2r9j2y1w.png?v=2.4.3",
+          "id": "luongson-d2b239476366",
+          "name": "⚽ Croatia U19 vs Italy U19 | Không rõ",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1288_165750299841.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=To&size=200&background=1565C0&color=ffffff&bold=true",
+            "url": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 3 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,37 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-3f56cfc9da17",
+              "id": "luongson-d2b239476366",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3f56cfc9da17",
-                  "name": "Tobol Kostanai B vs Fk Aktobe Ii",
+                  "id": "luongson-d2b239476366",
+                  "name": "Croatia U19 vs Italy U19",
                   "streams": [
                     {
-                      "id": "luongson-3f56cfc9da17",
+                      "id": "luongson-d2b239476366",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-55674ff277",
-                          "name": "BLV SHIN",
+                          "id": "lnk-0d511f4f06",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-f8572c5a04",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-1c5713551f",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-bc7e5c2a1b",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -93,7 +86,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -113,11 +106,184 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-edefa32434",
+                          "id": "lnk-2f92ab819e",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5b4b32c910d2",
+          "name": "⚽ Transport United Fc vs Drukpa Fc | Không rõ",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/30158_1h8qppr9qk2v.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782999718.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/30158_1h8qppr9qk2v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5b4b32c910d2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5b4b32c910d2",
+                  "name": "Transport United Fc vs Drukpa Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-5b4b32c910d2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f46523daa",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-5fb874cac1",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a3fdd737d8b4",
+          "name": "⚽ Jwaya vs Shabab Sahel | Không rõ",
+          "tournament": "Lebanese Premier League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782319921.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5799_1gq92pex2aj.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782319921.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a3fdd737d8b4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a3fdd737d8b4",
+                  "name": "Jwaya vs Shabab Sahel",
+                  "streams": [
+                    {
+                      "id": "luongson-a3fdd737d8b4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14bf5c3cd1",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-be908ddf95",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7588fdab66e7",
+          "name": "⚽ Astana B vs Fk Kaspiy Aktau B | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1782999683.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 6 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7588fdab66e7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7588fdab66e7",
+                  "name": "Astana B vs Fk Kaspiy Aktau B",
+                  "streams": [
+                    {
+                      "id": "luongson-7588fdab66e7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e36284fd7e",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -166,11 +332,124 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86208b0deb",
+                          "id": "lnk-62ef43861b",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3f56cfc9da17",
+          "name": "⚽ Tobol Kostanai B vs Fk Aktobe Ii | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782999752.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43628_1gxj2r9j2y1w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782999752.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 3 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3f56cfc9da17",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3f56cfc9da17",
+                  "name": "Tobol Kostanai B vs Fk Aktobe Ii",
+                  "streams": [
+                    {
+                      "id": "luongson-3f56cfc9da17",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-84b5b5a07a",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-9fcafe2716",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7e791d73f05b",
+          "name": "⚽ Hawassa City Fc vs Adama City | 03:26 08/02/1900",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/28905_1grwpzvvfj1x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24559_1hdak510yc1y.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/28905_1grwpzvvfj1x.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7e791d73f05b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7e791d73f05b",
+                  "name": "Hawassa City Fc vs Adama City",
+                  "streams": [
+                    {
+                      "id": "luongson-7e791d73f05b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d7ee634c8",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -199,7 +478,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -219,283 +498,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-306cc41f9b",
+                          "id": "lnk-2316b78284",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a3fdd737d8b4",
-          "name": "⚽ Jwaya vs Shabab Sahel | Không rõ",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782319921.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5799_1gq92pex2aj.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782319921.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a3fdd737d8b4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a3fdd737d8b4",
-                  "name": "Jwaya vs Shabab Sahel",
-                  "streams": [
-                    {
-                      "id": "luongson-a3fdd737d8b4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b8394131b",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-390eee84edd6",
-          "name": "⚽ Croatia U19 vs Italy U19 | 03:26 08/02/2000",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1288_165750299841.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-390eee84edd6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-390eee84edd6",
-                  "name": "Croatia U19 vs Italy U19",
-                  "streams": [
-                    {
-                      "id": "luongson-390eee84edd6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1a9dc068b",
-                          "name": "BLV KEVILL",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7588fdab66e7",
-          "name": "⚽ Astana B vs Fk Kaspiy Aktau B | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 6 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7588fdab66e7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7588fdab66e7",
-                  "name": "Astana B vs Fk Kaspiy Aktau B",
-                  "streams": [
-                    {
-                      "id": "luongson-7588fdab66e7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-225287cb4e",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5b4b32c910d2",
-          "name": "⚽ Transport United Fc vs Drukpa Fc | Không rõ",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/30158_1h8qppr9qk2v.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=Dr&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/30158_1h8qppr9qk2v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5b4b32c910d2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5b4b32c910d2",
-                  "name": "Transport United Fc vs Drukpa Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-5b4b32c910d2",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f4f3d7a35",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-704b3b7412",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2d2b437561fb",
-          "name": "⚽ Fc Kairat Almaty vs Okzhetpes | 21:00",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4920_1gtqmd3b4nt.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 21:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2d2b437561fb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2d2b437561fb",
-                  "name": "Fc Kairat Almaty vs Okzhetpes",
-                  "streams": [
-                    {
-                      "id": "luongson-2d2b437561fb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6fdcdb4120",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -544,18 +551,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0d1b3cb788",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-6c4b0ba200",
+                          "id": "lnk-fd6c49fbd1",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-b8e9f52f4a",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2d2b437561fb",
+          "name": "⚽ Fc Kairat Almaty vs Okzhetpes | 21:00",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4920_1gtqmd3b4nt.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 21:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2d2b437561fb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2d2b437561fb",
+                  "name": "Fc Kairat Almaty vs Okzhetpes",
+                  "streams": [
+                    {
+                      "id": "luongson-2d2b437561fb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e79a3e8817",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -649,7 +709,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a98b8ba727",
+                          "id": "lnk-3be498bc07",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -744,51 +804,6 @@
                   "streams": [
                     {
                       "id": "luongson-c6aabf7df6ff",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-86878e0ca999",
-          "name": "⚽ Bate Borisov vs Fc Gomel | 22:00",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2032_1h51a5wm332r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2040_1grd5f04ec10.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2032_1h51a5wm332r.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-86878e0ca999",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-86878e0ca999",
-                  "name": "Bate Borisov vs Fc Gomel",
-                  "streams": [
-                    {
-                      "id": "luongson-86878e0ca999",
                       "name": "F",
                       "stream_links": []
                     }
