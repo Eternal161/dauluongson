@@ -1,12 +1,178 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:41 03/07/2026",
+  "last_updated": "00:51 03/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-34daa94f04f8",
+          "name": "⚽ Fc Neftci Baku vs Cfr Cluj | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2195_1jej31aybee.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1123_1h5bjev11v1r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2195_1jej31aybee.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-34daa94f04f8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-34daa94f04f8",
+                  "name": "Fc Neftci Baku vs Cfr Cluj",
+                  "streams": [
+                    {
+                      "id": "luongson-34daa94f04f8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4cf652aaaf",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-99246c3dfd",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1db5e9d5c125",
+          "name": "⚽ Thor Akureyri vs Kr Reykjavik | Không rõ",
+          "tournament": "Iceland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2169_1gs1kjv8zn1s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1402_165363447390.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2169_1gs1kjv8zn1s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 3 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1db5e9d5c125",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1db5e9d5c125",
+                  "name": "Thor Akureyri vs Kr Reykjavik",
+                  "streams": [
+                    {
+                      "id": "luongson-1db5e9d5c125",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56a820ed83",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ba34b143f4dc",
+          "name": "⚽ Fc Minsk vs Dinamo Minsk | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4645_1h6z25dg6y2m.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/809_1h56c4f7b5w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4645_1h6z25dg6y2m.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ba34b143f4dc",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ba34b143f4dc",
+                  "name": "Fc Minsk vs Dinamo Minsk",
+                  "streams": [
+                    {
+                      "id": "luongson-ba34b143f4dc",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b4a16d0a4",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-ca393dd7c321",
           "name": "⚽ Fc Kuressaare vs Fc Flora Tallinn | Không rõ",
@@ -46,244 +212,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d7076db539",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-c2bfc78c96",
+                          "id": "lnk-8f9aac13ee",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5835a831eb20",
-          "name": "⚽ Fc Koper vs Corvinul Hunedoara | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/833_1gqbph0t4t2t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4098_1gqv25gzasb.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/833_1gqbph0t4t2t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5835a831eb20",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5835a831eb20",
-                  "name": "Fc Koper vs Corvinul Hunedoara",
-                  "streams": [
-                    {
-                      "id": "luongson-5835a831eb20",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7735e84a42",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-00a53a8f42",
-                          "name": "BLV HEINEKEN",
+                          "id": "lnk-fb78b427a2",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-1db5e9d5c125",
-          "name": "⚽ Thor Akureyri vs Kr Reykjavik | Không rõ",
-          "tournament": "Iceland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2169_1gs1kjv8zn1s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1402_165363447390.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2169_1gs1kjv8zn1s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1db5e9d5c125",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1db5e9d5c125",
-                  "name": "Thor Akureyri vs Kr Reykjavik",
-                  "streams": [
-                    {
-                      "id": "luongson-1db5e9d5c125",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ddebe74a5c",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e1762febd08a",
-          "name": "⚽ Lyn Oslo vs Asane Fotball | Không rõ",
-          "tournament": "Norway Adeccoligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/438_1hv2rhpddw1m.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1860_1gxmbp26a51t.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/438_1hv2rhpddw1m.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 6 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e1762febd08a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e1762febd08a",
-                  "name": "Lyn Oslo vs Asane Fotball",
-                  "streams": [
-                    {
-                      "id": "luongson-e1762febd08a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ae7360640f",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f8c81e454b4c",
-          "name": "⚽ Serbia U19 vs Ukraine U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4075_1h4320ns6a2y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4075_1h4320ns6a2y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f8c81e454b4c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f8c81e454b4c",
-                  "name": "Serbia U19 vs Ukraine U19",
-                  "streams": [
-                    {
-                      "id": "luongson-f8c81e454b4c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53550aa458",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-6a8a50a91f",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -332,124 +272,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c826ebe5cd",
+                          "id": "lnk-a09fa6f21d",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-34daa94f04f8",
-          "name": "⚽ Fc Neftci Baku vs Cfr Cluj | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2195_1jej31aybee.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1123_1h5bjev11v1r.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2195_1jej31aybee.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-34daa94f04f8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-34daa94f04f8",
-                  "name": "Fc Neftci Baku vs Cfr Cluj",
-                  "streams": [
-                    {
-                      "id": "luongson-34daa94f04f8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-77ce82ec31",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-b299e1d013",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b3472f42ac24",
-          "name": "⚽ Renaissance Sportive De Berkane vs Wydad Casablanca | Không rõ",
-          "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15050_1h8t9zjsr70.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15050_1h8t9zjsr70.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b3472f42ac24",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b3472f42ac24",
-                  "name": "Renaissance Sportive De Berkane vs Wydad Casablanca",
-                  "streams": [
-                    {
-                      "id": "luongson-b3472f42ac24",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6c4494b1b",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -478,7 +305,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live HT 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -498,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-71ce17f69e",
+                          "id": "lnk-3929b2d632",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
@@ -513,11 +340,11 @@
           ]
         },
         {
-          "id": "luongson-ba34b143f4dc",
-          "name": "⚽ Fc Minsk vs Dinamo Minsk | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4645_1h6z25dg6y2m.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/809_1h56c4f7b5w.png?v=2.4.3",
+          "id": "luongson-b3472f42ac24",
+          "name": "⚽ Renaissance Sportive De Berkane vs Wydad Casablanca | Không rõ",
+          "tournament": "Botola Pro 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15050_1h8t9zjsr70.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2466_1gtaqccsmsh.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -525,13 +352,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4645_1h6z25dg6y2m.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/15050_1h8t9zjsr70.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -539,23 +366,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-ba34b143f4dc",
+              "id": "luongson-b3472f42ac24",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ba34b143f4dc",
-                  "name": "Fc Minsk vs Dinamo Minsk",
+                  "id": "luongson-b3472f42ac24",
+                  "name": "Renaissance Sportive De Berkane vs Wydad Casablanca",
                   "streams": [
                     {
-                      "id": "luongson-ba34b143f4dc",
+                      "id": "luongson-b3472f42ac24",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-20693d47c4",
-                          "name": "BLV DƯƠNG CHÍ",
+                          "id": "lnk-405c937958",
+                          "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -566,11 +393,11 @@
           ]
         },
         {
-          "id": "luongson-3009a130bf27",
-          "name": "⚽ Jk Welco Elekter vs Viimsi Mrjk | Không rõ",
-          "tournament": "Estonia Esi Liiga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15617_1gqbsgc0q225.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17441_1gq924y3y31r.png?v=2.4.3",
+          "id": "luongson-f8c81e454b4c",
+          "name": "⚽ Serbia U19 vs Ukraine U19 | Không rõ",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4075_1h4320ns6a2y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -578,13 +405,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15617_1gqbsgc0q225.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/4075_1h4320ns6a2y.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 2",
+              "text": "● Live HT 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -592,29 +419,82 @@
           ],
           "sources": [
             {
-              "id": "luongson-3009a130bf27",
+              "id": "luongson-f8c81e454b4c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3009a130bf27",
-                  "name": "Jk Welco Elekter vs Viimsi Mrjk",
+                  "id": "luongson-f8c81e454b4c",
+                  "name": "Serbia U19 vs Ukraine U19",
                   "streams": [
                     {
-                      "id": "luongson-3009a130bf27",
+                      "id": "luongson-f8c81e454b4c",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f3f56e6999",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-f09af0178c",
+                          "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-47b6fd0658",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-fda8aec2d0",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7055caaf53f1",
+          "name": "⚽ Sao Luis Ma vs Americano Bacabal | 01:30",
+          "tournament": "Brazil Campeonato Maranhense",
+          "logo_nha": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68368_1k64n2wzma2t.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 01:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7055caaf53f1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7055caaf53f1",
+                  "name": "Sao Luis Ma vs Americano Bacabal",
+                  "streams": [
+                    {
+                      "id": "luongson-7055caaf53f1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af3333d4b7",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
@@ -644,10 +524,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -662,15 +542,7 @@
                     {
                       "id": "luongson-d8fd1044484a",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1650db46da",
-                          "name": "BLV KEVILL",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -714,6 +586,51 @@
                   "streams": [
                     {
                       "id": "luongson-0a04d5bbde56",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6fa82fe36eaf",
+          "name": "⚽ Atletico Futbol Club vs Cd El Nacional | 03:30",
+          "tournament": "Ecuador Campeonato Serie B",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782958651.jpg?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2300_1j8kbqtwec23.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782958651.jpg?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6fa82fe36eaf",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6fa82fe36eaf",
+                  "name": "Atletico Futbol Club vs Cd El Nacional",
+                  "streams": [
+                    {
+                      "id": "luongson-6fa82fe36eaf",
                       "name": "F",
                       "stream_links": []
                     }
@@ -769,11 +686,11 @@
           ]
         },
         {
-          "id": "luongson-6fa82fe36eaf",
-          "name": "⚽ Atletico Futbol Club vs Cd El Nacional | 03:30",
-          "tournament": "Ecuador Campeonato Serie B",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1782958651.jpg?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2300_1j8kbqtwec23.png?v=2.4.3",
+          "id": "luongson-cf561f8aca23",
+          "name": "⚽ 1º De Marzo Fdm vs Sport Colonial | 04:00",
+          "tournament": "Paraguay Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69493_1jzs0g1c3414.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/52845_1j2wg88w8h19.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -781,7 +698,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1782958651.jpg?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/69493_1jzs0g1c3414.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -795,15 +712,60 @@
           ],
           "sources": [
             {
-              "id": "luongson-6fa82fe36eaf",
+              "id": "luongson-cf561f8aca23",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-6fa82fe36eaf",
-                  "name": "Atletico Futbol Club vs Cd El Nacional",
+                  "id": "luongson-cf561f8aca23",
+                  "name": "1º De Marzo Fdm vs Sport Colonial",
                   "streams": [
                     {
-                      "id": "luongson-6fa82fe36eaf",
+                      "id": "luongson-cf561f8aca23",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bf89596a6c8a",
+          "name": "⚽ Portugal vs Croatia | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/659_164983333830.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/662_164983770149.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/659_164983333830.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bf89596a6c8a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bf89596a6c8a",
+                  "name": "Portugal vs Croatia",
+                  "streams": [
+                    {
+                      "id": "luongson-bf89596a6c8a",
                       "name": "F",
                       "stream_links": []
                     }
