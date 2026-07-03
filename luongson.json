@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:51 04/07/2026",
+  "last_updated": "03:01 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-fc9b8cd1676d",
-          "name": "⚽ Australia vs Egypt | 03:26 08/04/100",
+          "id": "luongson-6ec40d6cf605",
+          "name": "⚽ Australia vs Egypt | Không rõ",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/795_165018939680.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/631_165018770975.png?v=2.4.3",
@@ -34,23 +34,51 @@
           ],
           "sources": [
             {
-              "id": "luongson-fc9b8cd1676d",
+              "id": "luongson-6ec40d6cf605",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-fc9b8cd1676d",
+                  "id": "luongson-6ec40d6cf605",
                   "name": "Australia vs Egypt",
                   "streams": [
                     {
-                      "id": "luongson-fc9b8cd1676d",
+                      "id": "luongson-6ec40d6cf605",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5447077386",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-18df975f87",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-bfaca4bc5a",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-626bce1a4b",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-b24d6391c7",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-fb47c5fff8",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -79,7 +107,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,131 +127,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c94d85d4c6",
+                          "id": "lnk-38c11f7709",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eb4f44c14bf4",
-          "name": "⚽ Derry City vs Waterford United | Không rõ",
-          "tournament": "Ireland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/283_1gsej6h1yxx.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eb4f44c14bf4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eb4f44c14bf4",
-                  "name": "Derry City vs Waterford United",
-                  "streams": [
-                    {
-                      "id": "luongson-eb4f44c14bf4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0544902e6b",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-c01f1c16b3",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2aeacb7a4eae",
-          "name": "⚽ Sligo Rovers vs Shamrock Rovers | Không rõ",
-          "tournament": "Ireland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/164_165958084230.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2aeacb7a4eae",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2aeacb7a4eae",
-                  "name": "Sligo Rovers vs Shamrock Rovers",
-                  "streams": [
-                    {
-                      "id": "luongson-2aeacb7a4eae",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e64a2a0226",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-dfc350fb52",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -272,11 +180,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-99db02bdea",
+                          "id": "lnk-f9290cd628",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2aeacb7a4eae",
+          "name": "⚽ Sligo Rovers vs Shamrock Rovers | Không rõ",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/164_165958084230.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2aeacb7a4eae",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2aeacb7a4eae",
+                  "name": "Sligo Rovers vs Shamrock Rovers",
+                  "streams": [
+                    {
+                      "id": "luongson-2aeacb7a4eae",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed827042f1",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-8a0cbd92c5",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -325,18 +293,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-35eea1db5b",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-164f921125",
+                          "id": "lnk-b141fcdc3b",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-3f7a456015",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-eb4f44c14bf4",
+          "name": "⚽ Derry City vs Waterford United | Không rõ",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/283_1gsej6h1yxx.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eb4f44c14bf4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eb4f44c14bf4",
+                  "name": "Derry City vs Waterford United",
+                  "streams": [
+                    {
+                      "id": "luongson-eb4f44c14bf4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c032eb6e23",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-40a0eb2257",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -385,7 +413,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e7d928274c",
+                          "id": "lnk-722fc1c693",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -438,18 +466,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f5f5e656e7",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        },
-                        {
-                          "id": "lnk-c1c936437e",
+                          "id": "lnk-63a86ef4b2",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-2b964bf352",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -498,39 +526,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c717b96c7c",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-43c84e803c",
+                          "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-bcbc8ab1f5",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-e5a145aaba",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-65ef94ab21",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-ceb6fc176d",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -586,11 +586,11 @@
           ]
         },
         {
-          "id": "luongson-c04ccce253f7",
-          "name": "⚽ Fc Naples vs Portland Hearts Of Pine | 06:30",
-          "tournament": "USL League One",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68488_1jnwb1hhp3y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68491_1jqt0d625h2t.png?v=2.4.3",
+          "id": "luongson-553ca35755c8",
+          "name": "⚽ New York Liberty W vs Minnesota Lynx W | 06:30",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106720.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106721.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -598,7 +598,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/68488_1jnwb1hhp3y.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106720.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -612,15 +612,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-c04ccce253f7",
+              "id": "luongson-553ca35755c8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c04ccce253f7",
-                  "name": "Fc Naples vs Portland Hearts Of Pine",
+                  "id": "luongson-553ca35755c8",
+                  "name": "New York Liberty W vs Minnesota Lynx W",
                   "streams": [
                     {
-                      "id": "luongson-c04ccce253f7",
+                      "id": "luongson-553ca35755c8",
                       "name": "F",
                       "stream_links": []
                     }
@@ -676,11 +676,11 @@
           ]
         },
         {
-          "id": "luongson-553ca35755c8",
-          "name": "⚽ New York Liberty W vs Minnesota Lynx W | 06:30",
-          "tournament": "WNBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106720.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106721.png?v=2.4.3",
+          "id": "luongson-c04ccce253f7",
+          "name": "⚽ Fc Naples vs Portland Hearts Of Pine | 06:30",
+          "tournament": "USL League One",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68488_1jnwb1hhp3y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68491_1jqt0d625h2t.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -688,7 +688,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106720.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/68488_1jnwb1hhp3y.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -702,15 +702,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-553ca35755c8",
+              "id": "luongson-c04ccce253f7",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-553ca35755c8",
-                  "name": "New York Liberty W vs Minnesota Lynx W",
+                  "id": "luongson-c04ccce253f7",
+                  "name": "Fc Naples vs Portland Hearts Of Pine",
                   "streams": [
                     {
-                      "id": "luongson-553ca35755c8",
+                      "id": "luongson-c04ccce253f7",
                       "name": "F",
                       "stream_links": []
                     }
@@ -766,11 +766,11 @@
           ]
         },
         {
-          "id": "luongson-364405eab78d",
-          "name": "⚽ Avondale Fc (W) vs Essendon Royals (W) | 09:00",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/50452_1h187y2dv332.PNG?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57174_1gzyzknqy5z.png?v=2.4.3",
+          "id": "luongson-dca4b176de92",
+          "name": "⚽ Las Vegas Aces W vs Chicago Sky W | 09:00",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106780.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106782.webp?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -778,7 +778,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/50452_1h187y2dv332.PNG?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106780.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -792,15 +792,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-364405eab78d",
+              "id": "luongson-dca4b176de92",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-364405eab78d",
-                  "name": "Avondale Fc (W) vs Essendon Royals (W)",
+                  "id": "luongson-dca4b176de92",
+                  "name": "Las Vegas Aces W vs Chicago Sky W",
                   "streams": [
                     {
-                      "id": "luongson-364405eab78d",
+                      "id": "luongson-dca4b176de92",
                       "name": "F",
                       "stream_links": []
                     }
