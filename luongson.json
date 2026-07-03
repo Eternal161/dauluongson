@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:31 03/07/2026",
+  "last_updated": "08:41 03/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b9db7b5cc357",
-          "name": "⚽ Fortaleza vs Ponte Preta | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/345_1gy3vp9wzp2.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b9db7b5cc357",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b9db7b5cc357",
-                  "name": "Fortaleza vs Ponte Preta",
-                  "streams": [
-                    {
-                      "id": "luongson-b9db7b5cc357",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19f96a252b",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-84c372a67f61",
           "name": "⚽ Birmingham Legion vs Detroit City | Không rõ",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cb37f16a3a",
+                          "id": "lnk-838ab3f128",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c008f12bc788",
+          "name": "⚽ Ac Boise vs Knoxville Troops | Không rõ",
+          "tournament": "USL League One",
+          "logo_nha": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24318_1gx54nvs4c1n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c008f12bc788",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c008f12bc788",
+                  "name": "Ac Boise vs Knoxville Troops",
+                  "streams": [
+                    {
+                      "id": "luongson-c008f12bc788",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a70a6eeb38",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -132,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 2 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,20 +152,576 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a806bc0c38",
+                          "id": "lnk-d89f545484",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         },
                         {
-                          "id": "lnk-900e1d57ff",
+                          "id": "lnk-a4074f75f4",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b9db7b5cc357",
+          "name": "⚽ Fortaleza vs Ponte Preta | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/345_1gy3vp9wzp2.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1673_1gqxnqd00y2y.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b9db7b5cc357",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b9db7b5cc357",
+                  "name": "Fortaleza vs Ponte Preta",
+                  "streams": [
+                    {
+                      "id": "luongson-b9db7b5cc357",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8e27c3fe7",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ba83aa83f160",
+          "name": "⚽ Phoenix Mercury Nữ vs Seattle Storm Nữ | 09:00",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783042642.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783042647.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783042642.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 09:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ba83aa83f160",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ba83aa83f160",
+                  "name": "Phoenix Mercury Nữ vs Seattle Storm Nữ",
+                  "streams": [
+                    {
+                      "id": "luongson-ba83aa83f160",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a83c1a2ed",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3acaa83de851",
+          "name": "⚽ Switzerland vs Algeria | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/558_164983533378.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16330_165018769444.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/558_164983533378.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3acaa83de851",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3acaa83de851",
+                  "name": "Switzerland vs Algeria",
+                  "streams": [
+                    {
+                      "id": "luongson-3acaa83de851",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-16e64bef9572",
+          "name": "⚽ Shb Da Nang U21 vs Hoang Anh Gia Lai U21 | 13:30",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23286_167142140590.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23286_167142140590.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-16e64bef9572",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-16e64bef9572",
+                  "name": "Shb Da Nang U21 vs Hoang Anh Gia Lai U21",
+                  "streams": [
+                    {
+                      "id": "luongson-16e64bef9572",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a82f603acfa6",
+          "name": "⚽ New Zealand vs Philippines | 14:00",
+          "tournament": "FIBA WCQL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026479.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026480.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026479.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a82f603acfa6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a82f603acfa6",
+                  "name": "New Zealand vs Philippines",
+                  "streams": [
+                    {
+                      "id": "luongson-a82f603acfa6",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7ebbd60d2d23",
+          "name": "⚽ Canterbury Rams vs Manawatu Jets | 14:30",
+          "tournament": "NBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026504.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026505.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783026504.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7ebbd60d2d23",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7ebbd60d2d23",
+                  "name": "Canterbury Rams vs Manawatu Jets",
+                  "streams": [
+                    {
+                      "id": "luongson-7ebbd60d2d23",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4b1f7709cb88",
+          "name": "⚽ Tuv Buganuud vs Deren Fc | 15:00",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/31978_1h4f5c60r62d.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4b1f7709cb88",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4b1f7709cb88",
+                  "name": "Tuv Buganuud vs Deren Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-4b1f7709cb88",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e8f8a0a47c5f",
+          "name": "⚽ Pvf Vietnam U21 vs Viettel Fc U21 | 15:30",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/27519_1hak20p8k12p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/27519_1hak20p8k12p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e8f8a0a47c5f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e8f8a0a47c5f",
+                  "name": "Pvf Vietnam U21 vs Viettel Fc U21",
+                  "streams": [
+                    {
+                      "id": "luongson-e8f8a0a47c5f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bb7f52ce3beb",
+          "name": "⚽ Song Lan - Yi U21 vs Pvf-Cand U21 | 16:00",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/40313_1hatnm7qwwk.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bb7f52ce3beb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bb7f52ce3beb",
+                  "name": "Song Lan - Yi U21 vs Pvf-Cand U21",
+                  "streams": [
+                    {
+                      "id": "luongson-bb7f52ce3beb",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ad3f78fc6d7d",
+          "name": "⚽ Cong An Ha Noi U21 vs Ttbd Phu Dong （U21） | 16:00",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=TT&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ad3f78fc6d7d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ad3f78fc6d7d",
+                  "name": "Cong An Ha Noi U21 vs Ttbd Phu Dong （U21）",
+                  "streams": [
+                    {
+                      "id": "luongson-ad3f78fc6d7d",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7dbfc096f842",
+          "name": "⚽ University Azzurri Fc vs Casuarina Fc | 16:00",
+          "tournament": "Australia Darwin Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44813_1gyk775sbr25.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29671_1gyk775sb99.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44813_1gyk775sbr25.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7dbfc096f842",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7dbfc096f842",
+                  "name": "University Azzurri Fc vs Casuarina Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-7dbfc096f842",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2a3931548f33",
+          "name": "⚽ Heidelberg United vs St Albans Saints | 16:30",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12874_1gskkb8he46.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4490_1gzcz9rar61c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2a3931548f33",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2a3931548f33",
+                  "name": "Heidelberg United vs St Albans Saints",
+                  "streams": [
+                    {
+                      "id": "luongson-2a3931548f33",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
