@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:01 04/07/2026",
+  "last_updated": "02:11 04/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,35 +46,35 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9a171d060a",
+                          "id": "lnk-b62e0feea2",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-be367df699",
+                          "id": "lnk-e34d580437",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-0d3dc38035",
+                          "id": "lnk-a3b16e92a9",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-6d0ac33070",
+                          "id": "lnk-5122c66f88",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-2b96077a79",
+                          "id": "lnk-c5c157338f",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
@@ -172,11 +172,124 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-179319f0ea",
+                          "id": "lnk-ffca97aa1c",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-eb4f44c14bf4",
+          "name": "⚽ Derry City vs Waterford United | Không rõ",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/283_1gsej6h1yxx.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eb4f44c14bf4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eb4f44c14bf4",
+                  "name": "Derry City vs Waterford United",
+                  "streams": [
+                    {
+                      "id": "luongson-eb4f44c14bf4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8fda5ee50c",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-5df293204e",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3a5f18fab52c",
+          "name": "⚽ St. Patricks Athletic vs Galway United | Không rõ",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 3 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3a5f18fab52c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3a5f18fab52c",
+                  "name": "St. Patricks Athletic vs Galway United",
+                  "streams": [
+                    {
+                      "id": "luongson-3a5f18fab52c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cc5e29f4e5",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -225,18 +338,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-44713e30f8",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-7375797e8d",
+                          "id": "lnk-1bc9167d0c",
                           "name": "BLV FERNANDO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-782e1f6e70",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -265,7 +378,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -285,131 +398,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b20d42d750",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-0156789bce",
+                          "id": "lnk-17d0e15b50",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eb4f44c14bf4",
-          "name": "⚽ Derry City vs Waterford United | Không rõ",
-          "tournament": "Ireland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/283_1gsej6h1yxx.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/278_165958064560.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eb4f44c14bf4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eb4f44c14bf4",
-                  "name": "Derry City vs Waterford United",
-                  "streams": [
-                    {
-                      "id": "luongson-eb4f44c14bf4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67b8a2f657",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         },
                         {
-                          "id": "lnk-545b02103d",
-                          "name": "BLV LIO",
+                          "id": "lnk-a88eddbe68",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3a5f18fab52c",
-          "name": "⚽ St. Patricks Athletic vs Galway United | Không rõ",
-          "tournament": "Ireland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/298_1grd5f04ev13.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3a5f18fab52c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3a5f18fab52c",
-                  "name": "St. Patricks Athletic vs Galway United",
-                  "streams": [
-                    {
-                      "id": "luongson-3a5f18fab52c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6385f020ff",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -421,7 +421,7 @@
         },
         {
           "id": "luongson-494f8181d5ad",
-          "name": "⚽ Shelbourne vs Dundalk | 02:00",
+          "name": "⚽ Shelbourne vs Dundalk | Không rõ",
           "tournament": "Ireland Premier Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/281_1grd5f04es2w.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1163_165958078962.png?v=2.4.3",
@@ -438,7 +438,7 @@
           },
           "labels": [
             {
-              "text": "● Live 02:00",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -458,7 +458,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3102da2634",
+                          "id": "lnk-8bc5876ccd",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -511,14 +511,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5506c45261",
+                          "id": "lnk-282532f6e6",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-2f42adfeb8",
+                          "id": "lnk-b5e939b81b",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
@@ -571,7 +571,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ca9c866eea",
+                          "id": "lnk-7dc6c48213",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
@@ -631,51 +631,6 @@
           ]
         },
         {
-          "id": "luongson-fb3b4b307605",
-          "name": "⚽ Richmond Kickers vs Sarasota Paradise | 06:30",
-          "tournament": "USL League One",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5093_1hy4p5d2r12k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61865_1h4shezbpn2n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5093_1hy4p5d2r12k.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fb3b4b307605",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fb3b4b307605",
-                  "name": "Richmond Kickers vs Sarasota Paradise",
-                  "streams": [
-                    {
-                      "id": "luongson-fb3b4b307605",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-c04ccce253f7",
           "name": "⚽ Fc Naples vs Portland Hearts Of Pine | 06:30",
           "tournament": "USL League One",
@@ -711,6 +666,51 @@
                   "streams": [
                     {
                       "id": "luongson-c04ccce253f7",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-fb3b4b307605",
+          "name": "⚽ Richmond Kickers vs Sarasota Paradise | 06:30",
+          "tournament": "USL League One",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5093_1hy4p5d2r12k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61865_1h4shezbpn2n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5093_1hy4p5d2r12k.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fb3b4b307605",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fb3b4b307605",
+                  "name": "Richmond Kickers vs Sarasota Paradise",
+                  "streams": [
+                    {
+                      "id": "luongson-fb3b4b307605",
                       "name": "F",
                       "stream_links": []
                     }
