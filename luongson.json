@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:01 03/07/2026",
+  "last_updated": "18:11 03/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-16391b281166",
-          "name": "⚽ Caboolture Fc vs Sunshine Coast Wanderers Fc | Không rõ",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33654_1gt31y56wf25.png?v=2.4.3",
+          "id": "luongson-b15f9dfe7ae2",
+          "name": "⚽ Spring Hills Fc (W) vs Heidelberg United (W) | 03:26 08/03/1730",
+          "tournament": "VIC Women’s Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61434_1gxt3eqjwry.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4795_1gxsf8zxtvn.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/61434_1gxt3eqjwry.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-16391b281166",
+              "id": "luongson-b15f9dfe7ae2",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-16391b281166",
-                  "name": "Caboolture Fc vs Sunshine Coast Wanderers Fc",
+                  "id": "luongson-b15f9dfe7ae2",
+                  "name": "Spring Hills Fc (W) vs Heidelberg United (W)",
                   "streams": [
                     {
-                      "id": "luongson-16391b281166",
+                      "id": "luongson-b15f9dfe7ae2",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3eb5d9176f",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-01b165571b",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6d956d62fe90",
+          "name": "⚽ Tensung Fc vs Thimphu Fc | Không rõ",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6d956d62fe90",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6d956d62fe90",
+                  "name": "Tensung Fc vs Thimphu Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-6d956d62fe90",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f978585d29",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -79,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,11 +152,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cdd4df5fa4",
+                          "id": "lnk-fd12e91d83",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1d70bad1c465",
+          "name": "⚽ Cooks Hill United vs Valentine | Không rõ",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34113_1gtk2yyspnx.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23910_1gtn2jbzve17.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/34113_1gtk2yyspnx.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1d70bad1c465",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1d70bad1c465",
+                  "name": "Cooks Hill United vs Valentine",
+                  "streams": [
+                    {
+                      "id": "luongson-1d70bad1c465",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a935f2d396",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bea8ba04d2f2",
+          "name": "⚽ Bentleigh Greens (W) vs Fc Bulleen Lions (W) | Không rõ",
+          "tournament": "VIC Women’s Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18898_1h56hzxyc12v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bea8ba04d2f2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bea8ba04d2f2",
+                  "name": "Bentleigh Greens (W) vs Fc Bulleen Lions (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-bea8ba04d2f2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-04f300315d",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -152,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-942239a079",
+                          "id": "lnk-f3429c412d",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -167,11 +326,11 @@
           ]
         },
         {
-          "id": "luongson-6d956d62fe90",
-          "name": "⚽ Tensung Fc vs Thimphu Fc | Không rõ",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
+          "id": "luongson-fdd74b84e150",
+          "name": "⚽ Hellenic Ac vs Mindil Aces | Không rõ",
+          "tournament": "Australia Darwin Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29672_1gygqrsndb28.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29757_1hvjb7ffpn1g.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,60 +338,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6d956d62fe90",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6d956d62fe90",
-                  "name": "Tensung Fc vs Thimphu Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-6d956d62fe90",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c31e9e9abe",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ea839d2e56b6",
-          "name": "⚽ Wynnum Wolves vs Rochedale Rovers | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/29672_1gygqrsndb28.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -246,83 +352,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-ea839d2e56b6",
+              "id": "luongson-fdd74b84e150",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ea839d2e56b6",
-                  "name": "Wynnum Wolves vs Rochedale Rovers",
+                  "id": "luongson-fdd74b84e150",
+                  "name": "Hellenic Ac vs Mindil Aces",
                   "streams": [
                     {
-                      "id": "luongson-ea839d2e56b6",
+                      "id": "luongson-fdd74b84e150",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0230e591e3",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-7bd614f8c3",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-6da3171c42",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-1d70bad1c465",
-          "name": "⚽ Cooks Hill United vs Valentine | Không rõ",
-          "tournament": "Australia Northern NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34113_1gtk2yyspnx.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23910_1gtn2jbzve17.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34113_1gtk2yyspnx.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1d70bad1c465",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1d70bad1c465",
-                  "name": "Cooks Hill United vs Valentine",
-                  "streams": [
-                    {
-                      "id": "luongson-1d70bad1c465",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48033cf92f",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -371,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2e834e4439",
+                          "id": "lnk-93d2d4e1aa",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
@@ -424,11 +470,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f5f6ce5ed8",
+                          "id": "lnk-e7456abbba",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-16391b281166",
+          "name": "⚽ Caboolture Fc vs Sunshine Coast Wanderers Fc | Không rõ",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/33654_1gt31y56wf25.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29983_1gytyt690re.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-16391b281166",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-16391b281166",
+                  "name": "Caboolture Fc vs Sunshine Coast Wanderers Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-16391b281166",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5dd0de82c0",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -457,7 +556,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -477,7 +576,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-533cbb3c43",
+                          "id": "lnk-2c617bc58a",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -492,11 +591,11 @@
           ]
         },
         {
-          "id": "luongson-b15f9dfe7ae2",
-          "name": "⚽ Spring Hills Fc (W) vs Heidelberg United (W) | 03:26 08/03/1730",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61434_1gxt3eqjwry.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4795_1gxsf8zxtvn.png?v=2.4.3",
+          "id": "luongson-ea839d2e56b6",
+          "name": "⚽ Wynnum Wolves vs Rochedale Rovers | Không rõ",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -504,7 +603,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61434_1gxt3eqjwry.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/8797_1grzww51z62n.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -518,129 +617,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-b15f9dfe7ae2",
+              "id": "luongson-ea839d2e56b6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b15f9dfe7ae2",
-                  "name": "Spring Hills Fc (W) vs Heidelberg United (W)",
+                  "id": "luongson-ea839d2e56b6",
+                  "name": "Wynnum Wolves vs Rochedale Rovers",
                   "streams": [
                     {
-                      "id": "luongson-b15f9dfe7ae2",
+                      "id": "luongson-ea839d2e56b6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a94eb065e3",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-cf47af4362",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fdd74b84e150",
-          "name": "⚽ Hellenic Ac vs Mindil Aces | Không rõ",
-          "tournament": "Australia Darwin Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29672_1gygqrsndb28.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29757_1hvjb7ffpn1g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29672_1gygqrsndb28.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fdd74b84e150",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fdd74b84e150",
-                  "name": "Hellenic Ac vs Mindil Aces",
-                  "streams": [
-                    {
-                      "id": "luongson-fdd74b84e150",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
                         {
-                          "id": "lnk-5954860392",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-aa1b75df3e",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bea8ba04d2f2",
-          "name": "⚽ Bentleigh Greens (W) vs Fc Bulleen Lions (W) | Không rõ",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18898_1h56hzxyc12v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64932_1hs2g1mnztm.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bea8ba04d2f2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bea8ba04d2f2",
-                  "name": "Bentleigh Greens (W) vs Fc Bulleen Lions (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-bea8ba04d2f2",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-655513562d",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -689,7 +689,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-759193a9e2",
+                          "id": "lnk-919ea5a10b",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
