@@ -1,12 +1,125 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:11 03/07/2026",
+  "last_updated": "08:21 03/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-5373c42e6f0b",
+          "name": "⚽ O.Higgins vs Colo Colo | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/912_1h51a7xcwc1q.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5373c42e6f0b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5373c42e6f0b",
+                  "name": "O.Higgins vs Colo Colo",
+                  "streams": [
+                    {
+                      "id": "luongson-5373c42e6f0b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f73bf78702",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        },
+                        {
+                          "id": "lnk-0867eea829",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c008f12bc788",
+          "name": "⚽ Ac Boise vs Knoxville Troops | Không rõ",
+          "tournament": "USL League One",
+          "logo_nha": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24318_1gx54nvs4c1n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c008f12bc788",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c008f12bc788",
+                  "name": "Ac Boise vs Knoxville Troops",
+                  "streams": [
+                    {
+                      "id": "luongson-c008f12bc788",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3ec64125a4",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-b9db7b5cc357",
           "name": "⚽ Fortaleza vs Ponte Preta | Không rõ",
@@ -46,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-19a298e5fc",
+                          "id": "lnk-3bd4c3b8ae",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -79,7 +192,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,71 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5a04c338b0",
+                          "id": "lnk-92d9aad87c",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5373c42e6f0b",
-          "name": "⚽ O.Higgins vs Colo Colo | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/912_1h51a7xcwc1q.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5373c42e6f0b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5373c42e6f0b",
-                  "name": "O.Higgins vs Colo Colo",
-                  "streams": [
-                    {
-                      "id": "luongson-5373c42e6f0b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ff55c094f",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        },
-                        {
-                          "id": "lnk-19d67f170e",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -211,59 +264,6 @@
                       "id": "luongson-3acaa83de851",
                       "name": "F",
                       "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c008f12bc788",
-          "name": "⚽ Ac Boise vs Knoxville Troops | 08:30",
-          "tournament": "USL League One",
-          "logo_nha": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24318_1gx54nvs4c1n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 08:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c008f12bc788",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c008f12bc788",
-                  "name": "Ac Boise vs Knoxville Troops",
-                  "streams": [
-                    {
-                      "id": "luongson-c008f12bc788",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-78558c5fdf",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
                     }
                   ]
                 }
