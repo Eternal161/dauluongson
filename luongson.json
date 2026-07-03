@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:31 03/07/2026",
+  "last_updated": "13:41 03/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,64 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5ec1d4393e",
+                          "id": "lnk-fa95dcc232",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TO3A/index.m3u8?expire=1891408380&sign=9c81b067b218299e5542cfcd512206bf"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-16e64bef9572",
-          "name": "⚽ Shb Da Nang U21 vs Hoang Anh Gia Lai U21 | 13:30",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23286_167142140590.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23286_167142140590.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 13:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-16e64bef9572",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-16e64bef9572",
-                  "name": "Shb Da Nang U21 vs Hoang Anh Gia Lai U21",
-                  "streams": [
-                    {
-                      "id": "luongson-16e64bef9572",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86e89a6a18",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -132,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 14:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -150,7 +97,15 @@
                     {
                       "id": "luongson-a82f603acfa6",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-306c4eb66a",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -294,51 +249,6 @@
           ]
         },
         {
-          "id": "luongson-bb7f52ce3beb",
-          "name": "⚽ Song Lan - Yi U21 vs Pvf-Cand U21 | 16:00",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/40313_1hatnm7qwwk.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bb7f52ce3beb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bb7f52ce3beb",
-                  "name": "Song Lan - Yi U21 vs Pvf-Cand U21",
-                  "streams": [
-                    {
-                      "id": "luongson-bb7f52ce3beb",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-ad3f78fc6d7d",
           "name": "⚽ Cong An Ha Noi U21 vs Ttbd Phu Dong （U21） | 16:00",
           "tournament": "Vietnam Championship U21",
@@ -374,6 +284,51 @@
                   "streams": [
                     {
                       "id": "luongson-ad3f78fc6d7d",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bb7f52ce3beb",
+          "name": "⚽ Song Lan - Yi U21 vs Pvf-Cand U21 | 16:00",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/40313_1hatnm7qwwk.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bb7f52ce3beb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bb7f52ce3beb",
+                  "name": "Song Lan - Yi U21 vs Pvf-Cand U21",
+                  "streams": [
+                    {
+                      "id": "luongson-bb7f52ce3beb",
                       "name": "F",
                       "stream_links": []
                     }
@@ -429,51 +384,6 @@
           ]
         },
         {
-          "id": "luongson-f46bc3c51423",
-          "name": "⚽ Green Gully Cavaliers vs Bentleigh Greens | 16:30",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4472_1ht6ew1xwn1w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11632_1grwfg41c52r.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4472_1ht6ew1xwn1w.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f46bc3c51423",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f46bc3c51423",
-                  "name": "Green Gully Cavaliers vs Bentleigh Greens",
-                  "streams": [
-                    {
-                      "id": "luongson-f46bc3c51423",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-2a3931548f33",
           "name": "⚽ Heidelberg United vs St Albans Saints | 16:30",
           "tournament": "VIC Premier League",
@@ -509,6 +419,51 @@
                   "streams": [
                     {
                       "id": "luongson-2a3931548f33",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f46bc3c51423",
+          "name": "⚽ Green Gully Cavaliers vs Bentleigh Greens | 16:30",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4472_1ht6ew1xwn1w.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11632_1grwfg41c52r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4472_1ht6ew1xwn1w.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f46bc3c51423",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f46bc3c51423",
+                  "name": "Green Gully Cavaliers vs Bentleigh Greens",
+                  "streams": [
+                    {
+                      "id": "luongson-f46bc3c51423",
                       "name": "F",
                       "stream_links": []
                     }
@@ -691,6 +646,59 @@
                       "id": "luongson-1d70bad1c465",
                       "name": "F",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-400d40f8344c",
+          "name": "⚽ Edgeworth Eagles Fc vs Kahibah Fc | 17:00",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22083_1hxb3yc9362t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34114_1gxa4819391.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22083_1hxb3yc9362t.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 17:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-400d40f8344c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-400d40f8344c",
+                  "name": "Edgeworth Eagles Fc vs Kahibah Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-400d40f8344c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-017868b0ec",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MvVNtPzB7i3sKcWQc/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
