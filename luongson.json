@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:21 03/07/2026",
+  "last_updated": "14:31 03/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1c29cae5ea",
+                          "id": "lnk-afa703f221",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d206351220",
+                          "id": "lnk-39e0067a78",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -197,7 +197,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c3468c73d8",
+                          "id": "lnk-f134cbacc5",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -230,10 +230,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -248,7 +248,15 @@
                     {
                       "id": "luongson-4b1f7709cb88",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-efa722ef2c",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -700,7 +708,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-990c240468",
+                          "id": "lnk-7b28e1890a",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
