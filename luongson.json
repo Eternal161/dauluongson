@@ -1,132 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:31 03/07/2026",
+  "last_updated": "21:41 03/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-7819c068cadc",
-          "name": "⚽ Defence Force Fc vs Hadiya Hossana | Không rõ",
-          "tournament": "Ethiopia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24348_1jqzdtg1km2k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43374_166925555510.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24348_1jqzdtg1km2k.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7819c068cadc",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7819c068cadc",
-                  "name": "Defence Force Fc vs Hadiya Hossana",
-                  "streams": [
-                    {
-                      "id": "luongson-7819c068cadc",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b03cf4e46",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-0838066627",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-190ee27dc88e",
-          "name": "⚽ Shao Jiang vs Artilheiros | Không rõ",
-          "tournament": "Liga de Elite",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68742_1jxv4m70rh25.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783074458.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/68742_1jxv4m70rh25.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 11 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-190ee27dc88e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-190ee27dc88e",
-                  "name": "Shao Jiang vs Artilheiros",
-                  "streams": [
-                    {
-                      "id": "luongson-190ee27dc88e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc4eab5886",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-379465d649",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-7108dfdc3c3d",
           "name": "⚽ Naftan Novopolock vs Dinamo Brest | Không rõ",
@@ -166,25 +46,145 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-89eb81b5b8",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-b6f72a137e",
+                          "id": "lnk-f29c309239",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-31811fbf68",
+                          "id": "lnk-3120527536",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-5ab238aa6c",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7819c068cadc",
+          "name": "⚽ Defence Force Fc vs Hadiya Hossana | Không rõ",
+          "tournament": "Ethiopia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24348_1jqzdtg1km2k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43374_166925555510.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/24348_1jqzdtg1km2k.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7819c068cadc",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7819c068cadc",
+                  "name": "Defence Force Fc vs Hadiya Hossana",
+                  "streams": [
+                    {
+                      "id": "luongson-7819c068cadc",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea198bfde7",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        },
+                        {
+                          "id": "lnk-a97a8b8406",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-190ee27dc88e",
+          "name": "⚽ Shao Jiang vs Artilheiros | Không rõ",
+          "tournament": "Liga de Elite",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68742_1jxv4m70rh25.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783074458.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/68742_1jxv4m70rh25.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 12 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-190ee27dc88e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-190ee27dc88e",
+                  "name": "Shao Jiang vs Artilheiros",
+                  "streams": [
+                    {
+                      "id": "luongson-190ee27dc88e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-79144ae0f0",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-48045e8357",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -213,7 +213,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -233,7 +233,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b3c63c0485",
+                          "id": "lnk-adb83691d1",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -266,7 +266,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -286,7 +286,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fd75d7d77e",
+                          "id": "lnk-70c1e97095",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -339,10 +339,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-703004ee8f",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-320f9c1d03",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-8c36259621",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
@@ -372,10 +379,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -390,7 +397,22 @@
                     {
                       "id": "luongson-bca459365ec2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-db9b3b4c9e",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-7ffab4f0ae",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -707,7 +729,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dbbde357c0",
+                          "id": "lnk-f600a76217",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
