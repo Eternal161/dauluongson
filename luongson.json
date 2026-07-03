@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:51 04/07/2026",
+  "last_updated": "05:01 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-0182fb370d3a",
-          "name": "⚽ Bồ Đào Nha vs Uzbekistan | 03:26 08/04/408",
-          "tournament": "World Cup 2026",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783112912.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783112919.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783112912.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live H1 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0182fb370d3a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0182fb370d3a",
-                  "name": "Bồ Đào Nha vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "luongson-0182fb370d3a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d28f4d394",
-                          "name": "BLV KEVILL REPLAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f8dded978d98",
           "name": "⚽ Argentina vs Cape Verde | Không rõ",
@@ -99,159 +46,53 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5a7424d8c0",
-                          "name": "BLV KAKA",
+                          "id": "lnk-9af008299b",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-00ea86f2b1",
+                          "id": "lnk-3ef0c8d39f",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-dd2666b77b",
+                          "id": "lnk-975385b255",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-4b753fb39c",
+                          "id": "lnk-62983ca87b",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-64c2bbc40e",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-09e5635d16",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-63dfcd7de9",
+                          "id": "lnk-0050731f01",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-9ce3ffd36c",
+                          "id": "lnk-a195204164",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bb826f73382d",
-          "name": "⚽ Carneras Ups (W) vs Emelec (W) | Không rõ",
-          "tournament": "Ecuador Primera Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/53542_1gykhvdn9p22.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50506_1jpgy2z67r2d.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/53542_1gykhvdn9p22.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bb826f73382d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bb826f73382d",
-                  "name": "Carneras Ups (W) vs Emelec (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-bb826f73382d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-379ee1de7f",
-                          "name": "BLV SD6MWEKFOKPUMUJRHKVQ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MweKfoKPuMUJRhkvQ/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6e4f5ab87c64",
-          "name": "⚽ El Nacional (W) vs Cd Espuce (W) | 04:00",
-          "tournament": "Ecuador Primera Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47689_1gz7zsjngxc.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50227_1j0swzj32rf.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47689_1gz7zsjngxc.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 04:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6e4f5ab87c64",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6e4f5ab87c64",
-                  "name": "El Nacional (W) vs Cd Espuce (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-6e4f5ab87c64",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7ef596018",
-                          "name": "BLV SD6MWEKFOKPS9ZRWSQMW",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MweKfoKPs9zRwsqmW/playlist.m3u8"
                         }
                       ]
                     }
@@ -487,51 +328,6 @@
           ]
         },
         {
-          "id": "luongson-364405eab78d",
-          "name": "⚽ Avondale Fc (W) vs Essendon Royals (W) | 09:00",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/50452_1h187y2dv332.PNG?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57174_1gzyzknqy5z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/50452_1h187y2dv332.PNG?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-364405eab78d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-364405eab78d",
-                  "name": "Avondale Fc (W) vs Essendon Royals (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-364405eab78d",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-dca4b176de92",
           "name": "⚽ Las Vegas Aces W vs Chicago Sky W | 09:00",
           "tournament": "WNBA",
@@ -567,6 +363,51 @@
                   "streams": [
                     {
                       "id": "luongson-dca4b176de92",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-364405eab78d",
+          "name": "⚽ Avondale Fc (W) vs Essendon Royals (W) | 09:00",
+          "tournament": "VIC Women’s Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/50452_1h187y2dv332.PNG?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57174_1gzyzknqy5z.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/50452_1h187y2dv332.PNG?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-364405eab78d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-364405eab78d",
+                  "name": "Avondale Fc (W) vs Essendon Royals (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-364405eab78d",
                       "name": "F",
                       "stream_links": []
                     }
@@ -667,6 +508,51 @@
           ]
         },
         {
+          "id": "luongson-adc7de0e484f",
+          "name": "⚽ Devonport City vs Riverside Olympic | 11:30",
+          "tournament": "TAS Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22324_1gzq934x5w2a.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24804_1gzq934x5na.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22324_1gzq934x5w2a.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-adc7de0e484f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-adc7de0e484f",
+                  "name": "Devonport City vs Riverside Olympic",
+                  "streams": [
+                    {
+                      "id": "luongson-adc7de0e484f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-e28ace9ec0bb",
           "name": "⚽ Ulverstone Fc vs Kingborough Lions | 11:30",
           "tournament": "TAS Premier League",
@@ -712,11 +598,11 @@
           ]
         },
         {
-          "id": "luongson-adc7de0e484f",
-          "name": "⚽ Devonport City vs Riverside Olympic | 11:30",
-          "tournament": "TAS Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22324_1gzq934x5w2a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24804_1gzq934x5na.png?v=2.4.3",
+          "id": "luongson-9ea80169e8cc",
+          "name": "⚽ Avondale Fc vs Preston Lions | 12:00",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20222_1gzsya27tv1x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -724,7 +610,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22324_1gzq934x5w2a.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/20222_1gzsya27tv1x.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -738,15 +624,105 @@
           ],
           "sources": [
             {
-              "id": "luongson-adc7de0e484f",
+              "id": "luongson-9ea80169e8cc",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-adc7de0e484f",
-                  "name": "Devonport City vs Riverside Olympic",
+                  "id": "luongson-9ea80169e8cc",
+                  "name": "Avondale Fc vs Preston Lions",
                   "streams": [
                     {
-                      "id": "luongson-adc7de0e484f",
+                      "id": "luongson-9ea80169e8cc",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e7798a21dfc0",
+          "name": "⚽ University Nsw vs Sydney Fc (Youth) | 12:00",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/49102_1h1avxc44w1v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7897_1grcyn2cdw6.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/49102_1h1avxc44w1v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e7798a21dfc0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e7798a21dfc0",
+                  "name": "University Nsw vs Sydney Fc (Youth)",
+                  "streams": [
+                    {
+                      "id": "luongson-e7798a21dfc0",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a6fc54ebc4db",
+          "name": "⚽ Western Sydney Wanderers Am vs Sydney Olympic | 12:00",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18338_1jqmy413jr32.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6661_1grcyn2cdt2s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/18338_1jqmy413jr32.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a6fc54ebc4db",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a6fc54ebc4db",
+                  "name": "Western Sydney Wanderers Am vs Sydney Olympic",
+                  "streams": [
+                    {
+                      "id": "luongson-a6fc54ebc4db",
                       "name": "F",
                       "stream_links": []
                     }
