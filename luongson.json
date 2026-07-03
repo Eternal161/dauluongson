@@ -1,68 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:31 03/07/2026",
+  "last_updated": "09:41 03/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-c008f12bc788",
-          "name": "⚽ Ac Boise vs Knoxville Troops | Không rõ",
-          "tournament": "USL League One",
-          "logo_nha": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24318_1gx54nvs4c1n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c008f12bc788",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c008f12bc788",
-                  "name": "Ac Boise vs Knoxville Troops",
-                  "streams": [
-                    {
-                      "id": "luongson-c008f12bc788",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2fa60f4c30",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3acaa83de851",
-          "name": "⚽ Switzerland vs Algeria | Không rõ",
+          "id": "luongson-613aa551f1ab",
+          "name": "⚽ Switzerland vs Algeria | 03:26 08/03/1000",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/558_164983533378.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/16330_165018769444.png?v=2.4.3",
@@ -87,30 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-3acaa83de851",
+              "id": "luongson-613aa551f1ab",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3acaa83de851",
+                  "id": "luongson-613aa551f1ab",
                   "name": "Switzerland vs Algeria",
                   "streams": [
                     {
-                      "id": "luongson-3acaa83de851",
+                      "id": "luongson-613aa551f1ab",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4daf69634f",
-                          "name": "BLV KAKA",
+                          "id": "lnk-bbba93ee15",
+                          "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c008f12bc788",
+          "name": "⚽ Ac Boise vs Knoxville Troops | 08:30",
+          "tournament": "USL League One",
+          "logo_nha": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24318_1gx54nvs4c1n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 08:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c008f12bc788",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c008f12bc788",
+                  "name": "Ac Boise vs Knoxville Troops",
+                  "streams": [
+                    {
+                      "id": "luongson-c008f12bc788",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-14f6092751",
-                          "name": "BLV LEO",
+                          "id": "lnk-7ea58497e7",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -159,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-55aae9c9da",
+                          "id": "lnk-dfe55b84b5",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
