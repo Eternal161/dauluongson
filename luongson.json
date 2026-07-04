@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:41 04/07/2026",
+  "last_updated": "21:51 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-037a13408cf1",
-          "name": "⚽ Denmark U19 vs Wales U19 | Không rõ",
+          "id": "luongson-a48cce9720dd",
+          "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
           "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4121_165750462530.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 3 : 0",
+              "text": "● Live 4 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-037a13408cf1",
+              "id": "luongson-a48cce9720dd",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-037a13408cf1",
-                  "name": "Denmark U19 vs Wales U19",
+                  "id": "luongson-a48cce9720dd",
+                  "name": "Spain U19 vs Germany U19",
                   "streams": [
                     {
-                      "id": "luongson-037a13408cf1",
+                      "id": "luongson-a48cce9720dd",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f6ff7232f0",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-3da58a5ff3",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8ab1eb623649",
+          "name": "⚽ Fk Panevezys vs Hegelmann Litauen | Không rõ",
+          "tournament": "Lithuania - 1.Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18873_1gq6j9e9y926.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21207_1gtn1w103p2c.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/18873_1gq6j9e9y926.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8ab1eb623649",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8ab1eb623649",
+                  "name": "Fk Panevezys vs Hegelmann Litauen",
+                  "streams": [
+                    {
+                      "id": "luongson-8ab1eb623649",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1a10254eba",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -79,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,18 +152,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9616d1358b",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-71df542718",
+                          "id": "lnk-64a760b409",
                           "name": "BLV FERNANDO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-448a50dd6e",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9cacd834d42b",
+          "name": "⚽ Ekenas If Fotboll vs Pk-35 Vantaa | 03:26 08/04/2000",
+          "tournament": "Finland Ykkonen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2077_1htrhve7yw2x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2077_1htrhve7yw2x.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9cacd834d42b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9cacd834d42b",
+                  "name": "Ekenas If Fotboll vs Pk-35 Vantaa",
+                  "streams": [
+                    {
+                      "id": "luongson-9cacd834d42b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37050eb428",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -159,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-386e608663",
+                          "id": "lnk-ee61975201",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
@@ -174,11 +280,11 @@
           ]
         },
         {
-          "id": "luongson-46f424405508",
-          "name": "⚽ Jaro vs Ilves Tampere | Không rõ",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/353_1gqvn6qhmr11.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1997_165724438863.png?v=2.4.3",
+          "id": "luongson-80f28b581346",
+          "name": "⚽ Bfc Daugavpils vs Fk Liepaja | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20253_1h5e49xkhm31.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -186,13 +292,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/353_1gqvn6qhmr11.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/20253_1h5e49xkhm31.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live 3 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -200,76 +306,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-46f424405508",
+              "id": "luongson-80f28b581346",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-46f424405508",
-                  "name": "Jaro vs Ilves Tampere",
+                  "id": "luongson-80f28b581346",
+                  "name": "Bfc Daugavpils vs Fk Liepaja",
                   "streams": [
                     {
-                      "id": "luongson-46f424405508",
+                      "id": "luongson-80f28b581346",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d27f352f89",
-                          "name": "BLV GẤU KA",
+                          "id": "lnk-792f6a42fd",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8ab1eb623649",
-          "name": "⚽ Fk Panevezys vs Hegelmann Litauen | Không rõ",
-          "tournament": "Lithuania - 1.Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18873_1gq6j9e9y926.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21207_1gtn1w103p2c.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/18873_1gq6j9e9y926.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8ab1eb623649",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8ab1eb623649",
-                  "name": "Fk Panevezys vs Hegelmann Litauen",
-                  "streams": [
-                    {
-                      "id": "luongson-8ab1eb623649",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6ef17e2bd",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -318,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0b70bf8329",
+                          "id": "lnk-4785284c80",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -333,11 +386,11 @@
           ]
         },
         {
-          "id": "luongson-9cacd834d42b",
-          "name": "⚽ Ekenas If Fotboll vs Pk-35 Vantaa | 03:26 08/04/2000",
-          "tournament": "Finland Ykkonen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2077_1htrhve7yw2x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png?v=2.4.3",
+          "id": "luongson-46f424405508",
+          "name": "⚽ Jaro vs Ilves Tampere | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/353_1gqvn6qhmr11.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1997_165724438863.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -345,13 +398,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2077_1htrhve7yw2x.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/353_1gqvn6qhmr11.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live HT 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -359,129 +412,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-9cacd834d42b",
+              "id": "luongson-46f424405508",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-9cacd834d42b",
-                  "name": "Ekenas If Fotboll vs Pk-35 Vantaa",
+                  "id": "luongson-46f424405508",
+                  "name": "Jaro vs Ilves Tampere",
                   "streams": [
                     {
-                      "id": "luongson-9cacd834d42b",
+                      "id": "luongson-46f424405508",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9541b08f67",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-59bb861ba6",
+                          "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-80f28b581346",
-          "name": "⚽ Bfc Daugavpils vs Fk Liepaja | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20253_1h5e49xkhm31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/534_1h5e49xmg9e.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20253_1h5e49xkhm31.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-80f28b581346",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-80f28b581346",
-                  "name": "Bfc Daugavpils vs Fk Liepaja",
-                  "streams": [
-                    {
-                      "id": "luongson-80f28b581346",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5cd00db24c",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a48cce9720dd",
-          "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 4 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a48cce9720dd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a48cce9720dd",
-                  "name": "Spain U19 vs Germany U19",
-                  "streams": [
-                    {
-                      "id": "luongson-a48cce9720dd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab7b0aea68",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -530,7 +477,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-45b05e6e8b",
+                          "id": "lnk-6d2f31fd07",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -583,7 +530,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-acc7e2f0ed",
+                          "id": "lnk-b4ae37e099",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -636,7 +583,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b7a399aebf",
+                          "id": "lnk-e5b5fe3ddd",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -689,7 +636,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b5e50228c8",
+                          "id": "lnk-3c1d3007a2",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -742,18 +689,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ef617645ea",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-6e2f42c514",
+                          "id": "lnk-e868d69bc8",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-54ae6eeb75",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -799,6 +746,51 @@
                   "streams": [
                     {
                       "id": "luongson-ad4c26eebfbe",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9dc47ff8f1f9",
+          "name": "⚽ Trans Narva vs Levadia Tallinn | 23:00",
+          "tournament": "Estonia Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3471_1jbqr7wgr24.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/579_1jbqr7wg8p11.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3471_1jbqr7wgr24.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9dc47ff8f1f9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9dc47ff8f1f9",
+                  "name": "Trans Narva vs Levadia Tallinn",
+                  "streams": [
+                    {
+                      "id": "luongson-9dc47ff8f1f9",
                       "name": "F",
                       "stream_links": []
                     }
