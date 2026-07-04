@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:01 04/07/2026",
+  "last_updated": "17:11 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-3fc200bb6a52",
-          "name": "⚽ Eastern Suburbs Brisbane vs Peninsula Power | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4994_1gt31y56whz.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8806_1grzybp3442f.png?v=2.4.3",
+          "id": "luongson-f19a2f14f9d8",
+          "name": "⚽ Metrostars Sc vs West Torrens Birkalla | Không rõ",
+          "tournament": "FFSA Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12209_1gsh36afd818.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17049_1grwgk9v0d2v.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4994_1gt31y56whz.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12209_1gsh36afd818.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 1",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,30 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-3fc200bb6a52",
+              "id": "luongson-f19a2f14f9d8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3fc200bb6a52",
-                  "name": "Eastern Suburbs Brisbane vs Peninsula Power",
+                  "id": "luongson-f19a2f14f9d8",
+                  "name": "Metrostars Sc vs West Torrens Birkalla",
                   "streams": [
                     {
-                      "id": "luongson-3fc200bb6a52",
+                      "id": "luongson-f19a2f14f9d8",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-398250b1e7",
-                          "name": "BLV GẤU KA",
+                          "id": "lnk-2f2fea2ecc",
+                          "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        },
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dfc95c23dcd7",
+          "name": "⚽ Ha Noi Ii(W) vs Tng Thai Nguyen (W) | Không rõ",
+          "tournament": "Vietnam Women's League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22094_1gs6t2rq401s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dfc95c23dcd7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dfc95c23dcd7",
+                  "name": "Ha Noi Ii(W) vs Tng Thai Nguyen (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-dfc95c23dcd7",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-7cf94e51d1",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-4c5ef66b7f",
+                          "name": "BLV SHIN",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -106,14 +152,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7a21175b42",
+                          "id": "lnk-7ebd4ece48",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-9cd8792ff2",
+                          "id": "lnk-38899d2156",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": false,
@@ -128,11 +174,11 @@
           ]
         },
         {
-          "id": "luongson-dfc95c23dcd7",
-          "name": "⚽ Ha Noi Ii(W) vs Tng Thai Nguyen (W) | Không rõ",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22094_1gs6t2rq401s.png?v=2.4.3",
+          "id": "luongson-3fc200bb6a52",
+          "name": "⚽ Eastern Suburbs Brisbane vs Peninsula Power | Không rõ",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4994_1gt31y56whz.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8806_1grzybp3442f.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -140,13 +186,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/4994_1gt31y56whz.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -154,76 +200,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-dfc95c23dcd7",
+              "id": "luongson-3fc200bb6a52",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-dfc95c23dcd7",
-                  "name": "Ha Noi Ii(W) vs Tng Thai Nguyen (W)",
+                  "id": "luongson-3fc200bb6a52",
+                  "name": "Eastern Suburbs Brisbane vs Peninsula Power",
                   "streams": [
                     {
-                      "id": "luongson-dfc95c23dcd7",
+                      "id": "luongson-3fc200bb6a52",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0f647f2683",
-                          "name": "BLV SHIN",
+                          "id": "lnk-71de1f8449",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f19a2f14f9d8",
-          "name": "⚽ Metrostars Sc vs West Torrens Birkalla | Không rõ",
-          "tournament": "FFSA Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12209_1gsh36afd818.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17049_1grwgk9v0d2v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12209_1gsh36afd818.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f19a2f14f9d8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f19a2f14f9d8",
-                  "name": "Metrostars Sc vs West Torrens Birkalla",
-                  "streams": [
-                    {
-                      "id": "luongson-f19a2f14f9d8",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
                         {
-                          "id": "lnk-64c8102714",
-                          "name": "BLV DƯƠNG CHÍ",
+                          "id": "lnk-bd3f5565be",
+                          "name": "BLV GẤU KA",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
@@ -272,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-251f127793",
+                          "id": "lnk-fb9395c5b2",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -325,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ff35c2423d",
+                          "id": "lnk-cb96f38a9c",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -378,10 +378,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-55eb91bfd9",
-                          "name": "BLV TÀO THÁO",
+                          "id": "lnk-46e69cf14f",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-e1d719f05f",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
@@ -456,10 +463,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 18:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -474,7 +481,15 @@
                     {
                       "id": "luongson-5567caf4915b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-130bf8701d",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
                     }
                   ]
                 }
