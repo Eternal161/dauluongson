@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:41 05/07/2026",
+  "last_updated": "05:51 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-2ceb8cc1dcd5",
-          "name": "⚽ Paraguay vs France | 03:26 08/05/400",
+          "id": "luongson-cf8a19f000cd",
+          "name": "⚽ Paraguay vs France | Không rõ",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/559_164983446440.png?v=2.4.3",
@@ -34,23 +34,65 @@
           ],
           "sources": [
             {
-              "id": "luongson-2ceb8cc1dcd5",
+              "id": "luongson-cf8a19f000cd",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2ceb8cc1dcd5",
+                  "id": "luongson-cf8a19f000cd",
                   "name": "Paraguay vs France",
                   "streams": [
                     {
-                      "id": "luongson-2ceb8cc1dcd5",
+                      "id": "luongson-cf8a19f000cd",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-56fe057d45",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-9831abf66e",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-2f500cdd51",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-ea57d2ef49",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-a901c019cc",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-8082e04f10",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-986b9466f6",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-31400883a3",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -99,11 +141,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-99e5970e54",
+                          "id": "lnk-519b8ca0f1",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bfa05312f092",
+          "name": "⚽ Deportes Iquique vs Coquimbo Unido | 05:00",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6630_1grz8jwyh02b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/952_1h53w636s72j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6630_1grz8jwyh02b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 05:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bfa05312f092",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bfa05312f092",
+                  "name": "Deportes Iquique vs Coquimbo Unido",
+                  "streams": [
+                    {
+                      "id": "luongson-bfa05312f092",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb8e507872",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -152,71 +247,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c0cfbbfb00",
+                          "id": "lnk-83c200ab95",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         },
                         {
-                          "id": "lnk-72b3851b2c",
+                          "id": "lnk-eaf843e5ab",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bfa05312f092",
-          "name": "⚽ Deportes Iquique vs Coquimbo Unido | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6630_1grz8jwyh02b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/952_1h53w636s72j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6630_1grz8jwyh02b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bfa05312f092",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bfa05312f092",
-                  "name": "Deportes Iquique vs Coquimbo Unido",
-                  "streams": [
-                    {
-                      "id": "luongson-bfa05312f092",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6e4382208",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
