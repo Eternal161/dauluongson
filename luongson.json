@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:31 05/07/2026",
+  "last_updated": "04:41 05/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,53 +46,53 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fcbba6aa51",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-afcd571bba",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-fa4c9800bc",
+                          "id": "lnk-53e05c226b",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-6ea4ea1c5d",
+                          "id": "lnk-65b4ab1896",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-36506d054b",
+                          "id": "lnk-8d83722642",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-9aecfab769",
+                          "id": "lnk-b8a130c089",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-4edd1c04fa",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-020750ce5a",
+                          "id": "lnk-d04e3fa11b",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-a4972a5836",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -141,7 +141,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6cdbff756c",
+                          "id": "lnk-6183644c50",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -194,7 +194,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1884e3e986",
+                          "id": "lnk-3ddd198ff2",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
@@ -247,7 +247,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-25144287ee",
+                          "id": "lnk-5d8514e81a",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -280,10 +280,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 05:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -298,7 +298,15 @@
                     {
                       "id": "luongson-bfa05312f092",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2bd6b73689",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -345,58 +353,20 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6dddf512f8",
-                          "name": "BLV PELE",
+                          "id": "lnk-cadab9b4d2",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-da0e67892a",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://auto.cdnfaster.live/live/sd-6MvYqd9Ab4Z9WhMqWt/playlist.m3u8"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eea1e5f0fdf5",
-          "name": "⚽ Vancouver Fc vs York United Fc | 06:00",
-          "tournament": "Canadian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39798_1hwrwgvn4dn.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eea1e5f0fdf5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eea1e5f0fdf5",
-                  "name": "Vancouver Fc vs York United Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-eea1e5f0fdf5",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
