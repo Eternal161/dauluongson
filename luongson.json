@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:21 04/07/2026",
+  "last_updated": "23:31 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-04e6ae9fb2fb",
-          "name": "⚽ Iceland (W) U19 vs Switzerland (W) U19 | Không rõ",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5099_1h407n22g52v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2239_165750223133.png?v=2.4.3",
+          "id": "luongson-3f69ac3fe6cd",
+          "name": "⚽ Fk Rigas Futbola Skola vs Fk Auda Riga | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5099_1h407n22g52v.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 3",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,83 @@
           ],
           "sources": [
             {
-              "id": "luongson-04e6ae9fb2fb",
+              "id": "luongson-3f69ac3fe6cd",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-04e6ae9fb2fb",
-                  "name": "Iceland (W) U19 vs Switzerland (W) U19",
+                  "id": "luongson-3f69ac3fe6cd",
+                  "name": "Fk Rigas Futbola Skola vs Fk Auda Riga",
                   "streams": [
                     {
-                      "id": "luongson-04e6ae9fb2fb",
+                      "id": "luongson-3f69ac3fe6cd",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2831c17560",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-bd2eb05b5d",
+                          "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-27be34429f",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b73862114793",
+          "name": "⚽ Ibv Vestmannaeyjar vs Valur Reykjavik | 03:26 08/04/2300",
+          "tournament": "Iceland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1934_165363458637.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1932_165363454417.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1934_165363458637.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b73862114793",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b73862114793",
+                  "name": "Ibv Vestmannaeyjar vs Valur Reykjavik",
+                  "streams": [
+                    {
+                      "id": "luongson-b73862114793",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-419366f65e",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -99,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-94e6137a82",
+                          "id": "lnk-955a7e6c07",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -152,184 +212,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9e57142081",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-08ea2b6b65",
+                          "id": "lnk-437a908b12",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b73862114793",
-          "name": "⚽ Ibv Vestmannaeyjar vs Valur Reykjavik | 03:26 08/04/2300",
-          "tournament": "Iceland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1934_165363458637.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1932_165363454417.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1934_165363458637.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b73862114793",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b73862114793",
-                  "name": "Ibv Vestmannaeyjar vs Valur Reykjavik",
-                  "streams": [
-                    {
-                      "id": "luongson-b73862114793",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9653dbaad0",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3f69ac3fe6cd",
-          "name": "⚽ Fk Rigas Futbola Skola vs Fk Auda Riga | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12865_1h5e49xmge1b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/13159_1gq6j9e8z19.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3f69ac3fe6cd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3f69ac3fe6cd",
-                  "name": "Fk Rigas Futbola Skola vs Fk Auda Riga",
-                  "streams": [
-                    {
-                      "id": "luongson-3f69ac3fe6cd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-61b53d387e",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-374af25261",
-                          "name": "BLV TÀO THÁO",
+                          "id": "lnk-3e22edd2ac",
+                          "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ad4c26eebfbe",
-          "name": "⚽ Paide Linnameeskond vs Parnu Jk Vaprus | Không rõ",
-          "tournament": "Estonia Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8117_1gragj29t9k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3474_1jbqr7wgrk19.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8117_1gragj29t9k.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ad4c26eebfbe",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ad4c26eebfbe",
-                  "name": "Paide Linnameeskond vs Parnu Jk Vaprus",
-                  "streams": [
-                    {
-                      "id": "luongson-ad4c26eebfbe",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2f8f46876",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -378,11 +272,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eeefec8416",
+                          "id": "lnk-184f9b1a6f",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ad4c26eebfbe",
+          "name": "⚽ Paide Linnameeskond vs Parnu Jk Vaprus | Không rõ",
+          "tournament": "Estonia Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8117_1gragj29t9k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3474_1jbqr7wgrk19.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8117_1gragj29t9k.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ad4c26eebfbe",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ad4c26eebfbe",
+                  "name": "Paide Linnameeskond vs Parnu Jk Vaprus",
+                  "streams": [
+                    {
+                      "id": "luongson-ad4c26eebfbe",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-91baed2e4a",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-04e6ae9fb2fb",
+          "name": "⚽ Iceland (W) U19 vs Switzerland (W) U19 | Không rõ",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5099_1h407n22g52v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2239_165750223133.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5099_1h407n22g52v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 4",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-04e6ae9fb2fb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-04e6ae9fb2fb",
+                  "name": "Iceland (W) U19 vs Switzerland (W) U19",
+                  "streams": [
+                    {
+                      "id": "luongson-04e6ae9fb2fb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6fe7f0ddfd",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -431,14 +431,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2b601fb834",
+                          "id": "lnk-1dd95b610b",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         },
                         {
-                          "id": "lnk-d715007d05",
+                          "id": "lnk-be7037c105",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
@@ -471,10 +471,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -489,7 +489,50 @@
                     {
                       "id": "luongson-218e4a1a8e20",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b9306688a",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-0f79aa5ef7",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-1387f93c8c",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-de538942f3",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-0ebc64bf2c",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-b0811af728",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
                     }
                   ]
                 }
