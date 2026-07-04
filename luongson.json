@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:31 04/07/2026",
+  "last_updated": "11:41 04/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-536b46e971",
+                          "id": "lnk-b1a1966676",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2ea0158045",
+                          "id": "lnk-7156efe14e",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d7949009eb",
+                          "id": "lnk-168061cf28",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-75e1f5b193",
+                          "id": "lnk-bc40a55cf8",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9e0edd96ec",
+                          "id": "lnk-fe857bd45a",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -311,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3cfb5370e4",
+                          "id": "lnk-c4c63ddb77",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -344,10 +344,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 12:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -362,7 +362,15 @@
                     {
                       "id": "luongson-a6fc54ebc4db",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-86a7e4ce2b",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -409,7 +417,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f68ff2ff59",
+                          "id": "lnk-626e5fb364",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
