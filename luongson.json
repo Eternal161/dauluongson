@@ -1,71 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:21 04/07/2026",
+  "last_updated": "15:31 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-f95aeb3b91cf",
-          "name": "⚽ Caroline Springs George Cross vs Oakleigh Cannons | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f95aeb3b91cf",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f95aeb3b91cf",
-                  "name": "Caroline Springs George Cross vs Oakleigh Cannons",
-                  "streams": [
-                    {
-                      "id": "luongson-f95aeb3b91cf",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-289d0c95a4",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-739eeff73188",
-          "name": "⚽ Brisbane Strikers vs Logan Lightning | Không rõ",
+          "id": "luongson-1e3933e0e3e2",
+          "name": "⚽ Capalaba Bulldogs vs St George Willawong Fc | Không rõ",
           "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8798_1gytyt690mp.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29662_1gtqqe8bxk4.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/8798_1gytyt690mp.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -87,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-739eeff73188",
+              "id": "luongson-1e3933e0e3e2",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-739eeff73188",
-                  "name": "Brisbane Strikers vs Logan Lightning",
+                  "id": "luongson-1e3933e0e3e2",
+                  "name": "Capalaba Bulldogs vs St George Willawong Fc",
                   "streams": [
                     {
-                      "id": "luongson-739eeff73188",
+                      "id": "luongson-1e3933e0e3e2",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6793b5777b",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-c4dd0d26ee",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-6dc774cd8b",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -132,7 +86,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,18 +106,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e6ca53f25f",
+                          "id": "lnk-13e4db8f8d",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-d96a0dd187",
+                          "id": "lnk-919d0b94da",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-739eeff73188",
+          "name": "⚽ Brisbane Strikers vs Logan Lightning | Không rõ",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16882_1jry10yyb519.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-739eeff73188",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-739eeff73188",
+                  "name": "Brisbane Strikers vs Logan Lightning",
+                  "streams": [
+                    {
+                      "id": "luongson-739eeff73188",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee11013c24",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -212,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7d8c69a7d2",
+                          "id": "lnk-b287a643f7",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -227,11 +234,11 @@
           ]
         },
         {
-          "id": "luongson-1e3933e0e3e2",
-          "name": "⚽ Capalaba Bulldogs vs St George Willawong Fc | Không rõ",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8798_1gytyt690mp.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29662_1gtqqe8bxk4.png?v=2.4.3",
+          "id": "luongson-f95aeb3b91cf",
+          "name": "⚽ Caroline Springs George Cross vs Oakleigh Cannons | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -239,13 +246,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8798_1gytyt690mp.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -253,30 +260,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-1e3933e0e3e2",
+              "id": "luongson-f95aeb3b91cf",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-1e3933e0e3e2",
-                  "name": "Capalaba Bulldogs vs St George Willawong Fc",
+                  "id": "luongson-f95aeb3b91cf",
+                  "name": "Caroline Springs George Cross vs Oakleigh Cannons",
                   "streams": [
                     {
-                      "id": "luongson-1e3933e0e3e2",
+                      "id": "luongson-f95aeb3b91cf",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-59127a565d",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-e068cc7abc",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-8bee967a1d",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -325,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dcadb77856",
+                          "id": "lnk-1b09756d8b",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -378,11 +378,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6e822f1148",
+                          "id": "lnk-e75763076a",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        },
+                        {
+                          "id": "lnk-824d8ce292",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -431,7 +438,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e428a481c3",
+                          "id": "lnk-fcf6a0d606",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
