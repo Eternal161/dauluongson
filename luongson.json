@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:51 04/07/2026",
+  "last_updated": "11:01 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-364405eab78d",
-          "name": "⚽ Avondale Fc (W) vs Essendon Royals (W) | Không rõ",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/50452_1h187y2dv332.PNG?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57174_1gzyzknqy5z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/50452_1h187y2dv332.PNG?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 4 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-364405eab78d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-364405eab78d",
-                  "name": "Avondale Fc (W) vs Essendon Royals (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-364405eab78d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d364fc47be",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f77d62144df1",
           "name": "⚽ Golden State Warriors vs Los Angeles Lakers | 03:26 08/04/930",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ed512ae48a",
+                          "id": "lnk-6c442065a4",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -152,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0b2b9532f8",
+                          "id": "lnk-85e2469848",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -205,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a992d18d3b",
+                          "id": "lnk-ef850c313c",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -258,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb79679f3c",
+                          "id": "lnk-1057e4fdaf",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -336,10 +283,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 11:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -354,7 +301,15 @@
                     {
                       "id": "luongson-e28ace9ec0bb",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a2f771df6",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -401,7 +356,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8210ace7d2",
+                          "id": "lnk-4b752c83f3",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -721,6 +676,51 @@
                   "streams": [
                     {
                       "id": "luongson-c4cfdd601f7d",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a395f2312ba5",
+          "name": "⚽ Otago Nuggets vs Wellington Saints | 14:30",
+          "tournament": "NZBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106923.webp?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106925.webp?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783106923.webp?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a395f2312ba5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a395f2312ba5",
+                  "name": "Otago Nuggets vs Wellington Saints",
+                  "streams": [
+                    {
+                      "id": "luongson-a395f2312ba5",
                       "name": "F",
                       "stream_links": []
                     }
