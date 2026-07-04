@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:41 05/07/2026",
+  "last_updated": "02:51 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-d59fcc27edba",
-          "name": "⚽ Colegiales vs Gimnasia Ytiro | Không rõ",
+          "id": "luongson-f4e868cbec77",
+          "name": "⚽ Club Ciudad De Bolivar vs Godoy Cruz Antonio Tomba | Không rõ",
           "tournament": "Argentine Division 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11767_1gzcyzgemh2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16048_1gqgp9yyfyv.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/43755_1jqmym4qz7y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3759_164940931449.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11767_1gzcyzgemh2p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/43755_1jqmym4qz7y.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 2",
+              "text": "● Live HT 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-d59fcc27edba",
+              "id": "luongson-f4e868cbec77",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d59fcc27edba",
-                  "name": "Colegiales vs Gimnasia Ytiro",
+                  "id": "luongson-f4e868cbec77",
+                  "name": "Club Ciudad De Bolivar vs Godoy Cruz Antonio Tomba",
                   "streams": [
                     {
-                      "id": "luongson-d59fcc27edba",
+                      "id": "luongson-f4e868cbec77",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-28de3aa07b",
-                          "name": "BLV MAYBACH",
+                          "id": "lnk-f7ff81a8be",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -99,18 +99,131 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3caf798961",
+                          "id": "lnk-21c4d1a2f2",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-ed1fb507f5",
+                          "id": "lnk-e1ce963e60",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-35d49caac43d",
+          "name": "⚽ Gremio Novorizontino vs Atletico Clube Goianiense | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4381_1gtqpsvqgb1h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-35d49caac43d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-35d49caac43d",
+                  "name": "Gremio Novorizontino vs Atletico Clube Goianiense",
+                  "streams": [
+                    {
+                      "id": "luongson-35d49caac43d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a9a08f0ea",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-8fa5f3967c",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3495c770337f",
+          "name": "⚽ Londrina Pr vs Crb Al | 03:26 08/05/200",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1619_1gy3vp9xf810.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3340_1gtn82r1dm2a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1619_1gy3vp9xf810.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3495c770337f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3495c770337f",
+                  "name": "Londrina Pr vs Crb Al",
+                  "streams": [
+                    {
+                      "id": "luongson-3495c770337f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ba1d9034a",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -159,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bc3d861339",
+                          "id": "lnk-faca8ec494",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -174,11 +287,11 @@
           ]
         },
         {
-          "id": "luongson-e909927c0519",
-          "name": "⚽ Londrina Pr vs Crb Al | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1619_1gy3vp9xf810.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3340_1gtn82r1dm2a.png?v=2.4.3",
+          "id": "luongson-d59fcc27edba",
+          "name": "⚽ Colegiales vs Gimnasia Ytiro | Không rõ",
+          "tournament": "Argentine Division 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11767_1gzcyzgemh2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16048_1gqgp9yyfyv.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -186,13 +299,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1619_1gy3vp9xf810.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/11767_1gzcyzgemh2p.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -200,83 +313,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-e909927c0519",
+              "id": "luongson-d59fcc27edba",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e909927c0519",
-                  "name": "Londrina Pr vs Crb Al",
+                  "id": "luongson-d59fcc27edba",
+                  "name": "Colegiales vs Gimnasia Ytiro",
                   "streams": [
                     {
-                      "id": "luongson-e909927c0519",
+                      "id": "luongson-d59fcc27edba",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-59a728c9d0",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-07f5a9d3b3",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-35d49caac43d",
-          "name": "⚽ Gremio Novorizontino vs Atletico Clube Goianiense | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4381_1gtqpsvqgb1h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-35d49caac43d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-35d49caac43d",
-                  "name": "Gremio Novorizontino vs Atletico Clube Goianiense",
-                  "streams": [
-                    {
-                      "id": "luongson-35d49caac43d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea588485bb",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-6666154dc2",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         }
                       ]
                     }
@@ -305,7 +358,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -325,64 +378,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-28b862a59b",
+                          "id": "lnk-d63891f091",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f4e868cbec77",
-          "name": "⚽ Club Ciudad De Bolivar vs Godoy Cruz Antonio Tomba | Không rõ",
-          "tournament": "Argentine Division 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/43755_1jqmym4qz7y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3759_164940931449.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/43755_1jqmym4qz7y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f4e868cbec77",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f4e868cbec77",
-                  "name": "Club Ciudad De Bolivar vs Godoy Cruz Antonio Tomba",
-                  "streams": [
-                    {
-                      "id": "luongson-f4e868cbec77",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c71e3824a",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -431,7 +431,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0ed1b65432",
+                          "id": "lnk-498b6a9e59",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -484,7 +484,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c2cf0738f3",
+                          "id": "lnk-94551896ab",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
