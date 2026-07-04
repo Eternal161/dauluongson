@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:31 04/07/2026",
+  "last_updated": "14:41 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-c4cfdd601f7d",
-          "name": "⚽ Manly United vs Sd Raiders Fc | Không rõ",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c4cfdd601f7d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c4cfdd601f7d",
-                  "name": "Manly United vs Sd Raiders Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-c4cfdd601f7d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6977850554",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-d05b08f879",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-a395f2312ba5",
           "name": "⚽ Otago Nuggets vs Wellington Saints | 03:26 08/04/1430",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4c980edccc",
+                          "id": "lnk-7d68e1d09d",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -159,11 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5b9d74c6dc",
+                          "id": "lnk-dcfed7978f",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c4cfdd601f7d",
+          "name": "⚽ Manly United vs Sd Raiders Fc | Không rõ",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c4cfdd601f7d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c4cfdd601f7d",
+                  "name": "Manly United vs Sd Raiders Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-c4cfdd601f7d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a662a39e16",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-51c1aa4730",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -257,7 +257,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ae291db867",
+                          "id": "lnk-11c5ed3bf2",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -310,14 +310,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-63038e9b81",
+                          "id": "lnk-28e977f848",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-b8b6ff1f69",
+                          "id": "lnk-121e8a4953",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
