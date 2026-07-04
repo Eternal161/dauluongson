@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:11 04/07/2026",
+  "last_updated": "15:21 04/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-c4cfdd601f7d",
-          "name": "⚽ Manly United vs Sd Raiders Fc | Không rõ",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
+          "id": "luongson-f95aeb3b91cf",
+          "name": "⚽ Caroline Springs George Cross vs Oakleigh Cannons | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-c4cfdd601f7d",
+              "id": "luongson-f95aeb3b91cf",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c4cfdd601f7d",
-                  "name": "Manly United vs Sd Raiders Fc",
+                  "id": "luongson-f95aeb3b91cf",
+                  "name": "Caroline Springs George Cross vs Oakleigh Cannons",
                   "streams": [
                     {
-                      "id": "luongson-c4cfdd601f7d",
+                      "id": "luongson-f95aeb3b91cf",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-80c80f9b6f",
-                          "name": "BLV DƯƠNG CHÍ",
+                          "id": "lnk-289d0c95a4",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -99,11 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b645cf84f6",
+                          "id": "lnk-6793b5777b",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c4cfdd601f7d",
+          "name": "⚽ Manly United vs Sd Raiders Fc | Không rõ",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c4cfdd601f7d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c4cfdd601f7d",
+                  "name": "Manly United vs Sd Raiders Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-c4cfdd601f7d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6ca53f25f",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-d96a0dd187",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -152,64 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5edbe1e9fb",
+                          "id": "lnk-7d8c69a7d2",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fba0b4a0c924",
-          "name": "⚽ Khoromkhon Club vs Khovd Western | Không rõ",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44980_1k6phcrs0f2b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fba0b4a0c924",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fba0b4a0c924",
-                  "name": "Khoromkhon Club vs Khovd Western",
-                  "streams": [
-                    {
-                      "id": "luongson-fba0b4a0c924",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-29c9a36d08",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -258,18 +265,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1009924f7b",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-e0b01d6cc6",
+                          "id": "lnk-59127a565d",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-8bee967a1d",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -280,11 +287,11 @@
           ]
         },
         {
-          "id": "luongson-f95aeb3b91cf",
-          "name": "⚽ Caroline Springs George Cross vs Oakleigh Cannons | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
+          "id": "luongson-fba0b4a0c924",
+          "name": "⚽ Khoromkhon Club vs Khovd Western | Không rõ",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44980_1k6phcrs0f2b.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -292,13 +299,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/24949_1gv76qy5yt29.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -306,23 +313,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-f95aeb3b91cf",
+              "id": "luongson-fba0b4a0c924",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-f95aeb3b91cf",
-                  "name": "Caroline Springs George Cross vs Oakleigh Cannons",
+                  "id": "luongson-fba0b4a0c924",
+                  "name": "Khoromkhon Club vs Khovd Western",
                   "streams": [
                     {
-                      "id": "luongson-f95aeb3b91cf",
+                      "id": "luongson-fba0b4a0c924",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dccc6c5d2e",
-                          "name": "BLV PELE",
+                          "id": "lnk-dcadb77856",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -371,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dd5c64be3e",
+                          "id": "lnk-6e822f1148",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
@@ -404,10 +411,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -422,7 +429,15 @@
                     {
                       "id": "luongson-dfc95c23dcd7",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e428a481c3",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
                     }
                   ]
                 }
