@@ -1,12 +1,107 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:31 05/07/2026",
+  "last_updated": "03:41 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-cf8a19f000cd",
+          "name": "⚽ Paraguay vs France | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/559_164983446440.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cf8a19f000cd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cf8a19f000cd",
+                  "name": "Paraguay vs France",
+                  "streams": [
+                    {
+                      "id": "luongson-cf8a19f000cd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-886d49b079",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-deb9d21cfd",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-11b0831115",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-89ef52db20",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-0e19be88c8",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-b328c3b90d",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-5a0a5f4618",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-ffaacff03959",
           "name": "⚽ Indy Eleven vs Charleston Battery | Không rõ",
@@ -46,7 +141,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-65de07287e",
+                          "id": "lnk-3416bfb90c",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -99,131 +194,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-117884d1f8",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-859b659b36",
+                          "id": "lnk-b42a61a333",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-35d49caac43d",
-          "name": "⚽ Gremio Novorizontino vs Atletico Clube Goianiense | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4381_1gtqpsvqgb1h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-35d49caac43d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-35d49caac43d",
-                  "name": "Gremio Novorizontino vs Atletico Clube Goianiense",
-                  "streams": [
-                    {
-                      "id": "luongson-35d49caac43d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e620ff6a0",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-1e78599c93",
-                          "name": "BLV LIO",
+                          "id": "lnk-cff3fb6048",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f4e868cbec77",
-          "name": "⚽ Club Ciudad De Bolivar vs Godoy Cruz Antonio Tomba | Không rõ",
-          "tournament": "Argentine Division 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/43755_1jqmym4qz7y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3759_164940931449.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/43755_1jqmym4qz7y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f4e868cbec77",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f4e868cbec77",
-                  "name": "Club Ciudad De Bolivar vs Godoy Cruz Antonio Tomba",
-                  "streams": [
-                    {
-                      "id": "luongson-f4e868cbec77",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2c438b297",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -252,7 +234,7 @@
           },
           "labels": [
             {
-              "text": "● Live 3 : 0",
+              "text": "● Live 4 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -272,7 +254,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4d6412ab3e",
+                          "id": "lnk-2fbb9edb43",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -325,7 +307,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d120106955",
+                          "id": "lnk-0d8b547001",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
@@ -340,11 +322,11 @@
           ]
         },
         {
-          "id": "luongson-2ceb8cc1dcd5",
-          "name": "⚽ Paraguay vs France | 03:26 08/05/400",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/559_164983446440.png?v=2.4.3",
+          "id": "luongson-f4e868cbec77",
+          "name": "⚽ Club Ciudad De Bolivar vs Godoy Cruz Antonio Tomba | Không rõ",
+          "tournament": "Argentine Division 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/43755_1jqmym4qz7y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3759_164940931449.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -352,13 +334,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/670_165018876382.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/43755_1jqmym4qz7y.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -366,23 +348,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-2ceb8cc1dcd5",
+              "id": "luongson-f4e868cbec77",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2ceb8cc1dcd5",
-                  "name": "Paraguay vs France",
+                  "id": "luongson-f4e868cbec77",
+                  "name": "Club Ciudad De Bolivar vs Godoy Cruz Antonio Tomba",
                   "streams": [
                     {
-                      "id": "luongson-2ceb8cc1dcd5",
+                      "id": "luongson-f4e868cbec77",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-08ab6ffce5",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-9d301dcd81",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-35d49caac43d",
+          "name": "⚽ Gremio Novorizontino vs Atletico Clube Goianiense | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4381_1gtqpsvqgb1h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/20053_1hvszap3cv1h.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 3 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-35d49caac43d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-35d49caac43d",
+                  "name": "Gremio Novorizontino vs Atletico Clube Goianiense",
+                  "streams": [
+                    {
+                      "id": "luongson-35d49caac43d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aaa711bd82",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -411,10 +446,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 04:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -429,7 +464,15 @@
                     {
                       "id": "luongson-cdbf2bc28451",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-25b5ce127d",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
                     }
                   ]
                 }
