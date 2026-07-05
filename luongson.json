@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:11 06/07/2026",
+  "last_updated": "01:21 06/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e61075e4ad",
+                          "id": "lnk-0785e881b1",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -61,11 +61,11 @@
           ]
         },
         {
-          "id": "luongson-ac84e2ec5a49",
-          "name": "⚽ Danubio Fc vs Ca Juventud | Không rõ",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3355_1hdak55h0s2e.png?v=2.4.3",
+          "id": "luongson-43ee737c5f80",
+          "name": "⚽ Santiago Wanderers vs Universidad De Chile | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/951_1gy3wqzbvb1j.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1238_1gy3vpt0ee2.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,13 +73,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/951_1gy3wqzbvb1j.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 2 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -87,30 +87,90 @@
           ],
           "sources": [
             {
-              "id": "luongson-ac84e2ec5a49",
+              "id": "luongson-43ee737c5f80",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ac84e2ec5a49",
-                  "name": "Danubio Fc vs Ca Juventud",
+                  "id": "luongson-43ee737c5f80",
+                  "name": "Santiago Wanderers vs Universidad De Chile",
                   "streams": [
                     {
-                      "id": "luongson-ac84e2ec5a49",
+                      "id": "luongson-43ee737c5f80",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4415a8910c",
-                          "name": "BLV TRIỆU TỬ LONG",
+                          "id": "lnk-eb7bc9980f",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-b3d9fc0231",
-                          "name": "BLV LEO",
+                          "id": "lnk-09454a5846",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f0efc21c7712",
+          "name": "⚽ Fc Torpedo Zhodino vs Fk Isloch Minsk | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f0efc21c7712",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f0efc21c7712",
+                  "name": "Fc Torpedo Zhodino vs Fk Isloch Minsk",
+                  "streams": [
+                    {
+                      "id": "luongson-f0efc21c7712",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9f61284af",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-f50b488194",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -139,7 +199,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -159,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fa85286d37",
+                          "id": "lnk-0a52029739",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -212,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-87705fb566",
+                          "id": "lnk-e133b2a49e",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -227,11 +287,11 @@
           ]
         },
         {
-          "id": "luongson-43ee737c5f80",
-          "name": "⚽ Santiago Wanderers vs Universidad De Chile | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/951_1gy3wqzbvb1j.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1238_1gy3vpt0ee2.png?v=2.4.3",
+          "id": "luongson-ac84e2ec5a49",
+          "name": "⚽ Danubio Fc vs Ca Juventud | Không rõ",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3355_1hdak55h0s2e.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -239,13 +299,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/951_1gy3wqzbvb1j.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 3",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -253,90 +313,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-43ee737c5f80",
+              "id": "luongson-ac84e2ec5a49",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-43ee737c5f80",
-                  "name": "Santiago Wanderers vs Universidad De Chile",
+                  "id": "luongson-ac84e2ec5a49",
+                  "name": "Danubio Fc vs Ca Juventud",
                   "streams": [
                     {
-                      "id": "luongson-43ee737c5f80",
+                      "id": "luongson-ac84e2ec5a49",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8b1ea7a2ca",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-100125a89c",
+                          "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-bfae40202e",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-f764ce292c",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f0efc21c7712",
-          "name": "⚽ Fc Torpedo Zhodino vs Fk Isloch Minsk | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f0efc21c7712",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f0efc21c7712",
-                  "name": "Fc Torpedo Zhodino vs Fk Isloch Minsk",
-                  "streams": [
-                    {
-                      "id": "luongson-f0efc21c7712",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d061b648d",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-9d0aa87b02",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -385,7 +385,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0e095b4e9f",
+                          "id": "lnk-482de03365",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -438,7 +438,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3d9a5b1511",
+                          "id": "lnk-15a45f8c0e",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
