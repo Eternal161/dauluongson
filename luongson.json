@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:11 06/07/2026",
+  "last_updated": "06:21 06/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-65510d1c177d",
-          "name": "⚽ Pacific Fc vs Hfx Wanderers Fc | Không rõ",
-          "tournament": "Canadian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
+          "id": "luongson-abf2ef55070f",
+          "name": "⚽ Union Espanola vs O.Higgins | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,83 @@
           ],
           "sources": [
             {
-              "id": "luongson-65510d1c177d",
+              "id": "luongson-abf2ef55070f",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-65510d1c177d",
-                  "name": "Pacific Fc vs Hfx Wanderers Fc",
+                  "id": "luongson-abf2ef55070f",
+                  "name": "Union Espanola vs O.Higgins",
                   "streams": [
                     {
-                      "id": "luongson-65510d1c177d",
+                      "id": "luongson-abf2ef55070f",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a3f6775e28",
-                          "name": "BLV PELE",
+                          "id": "lnk-36f52b64a9",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-5a71475309",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-14108832f50b",
+          "name": "⚽ Cincinnati Ii vs New York Red Bulls B | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16322_1gy3wwapm01s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-14108832f50b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-14108832f50b",
+                  "name": "Cincinnati Ii vs New York Red Bulls B",
+                  "streams": [
+                    {
+                      "id": "luongson-14108832f50b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83d3790cfa",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -79,7 +139,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7e49f1fd13",
+                          "id": "lnk-825bc874ec",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -152,71 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-590dca3808",
+                          "id": "lnk-5b61c0d5cc",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-abf2ef55070f",
-          "name": "⚽ Union Espanola vs O.Higgins | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/910_1grwfny1j51c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-abf2ef55070f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-abf2ef55070f",
-                  "name": "Union Espanola vs O.Higgins",
-                  "streams": [
-                    {
-                      "id": "luongson-abf2ef55070f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45d4bffc52",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-0fd751f983",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7c71da4ffe",
+                          "id": "lnk-53ed147af0",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -280,11 +280,11 @@
           ]
         },
         {
-          "id": "luongson-a95f66aca437",
-          "name": "⚽ Crown Legacy Fc vs Orlando City B | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61455_1gxyv434dg10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56982_1gwdxst6a32m.png?v=2.4.3",
+          "id": "luongson-65510d1c177d",
+          "name": "⚽ Pacific Fc vs Hfx Wanderers Fc | Không rõ",
+          "tournament": "Canadian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -292,13 +292,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61455_1gxyv434dg10.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -306,76 +306,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-a95f66aca437",
+              "id": "luongson-65510d1c177d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a95f66aca437",
-                  "name": "Crown Legacy Fc vs Orlando City B",
+                  "id": "luongson-65510d1c177d",
+                  "name": "Pacific Fc vs Hfx Wanderers Fc",
                   "streams": [
                     {
-                      "id": "luongson-a95f66aca437",
+                      "id": "luongson-65510d1c177d",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7d00b9affb",
-                          "name": "BLV MAYBACH",
+                          "id": "lnk-d93d2f38e6",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-14108832f50b",
-          "name": "⚽ Cincinnati Ii vs New York Red Bulls B | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16322_1gy3wwapm01s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-14108832f50b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-14108832f50b",
-                  "name": "Cincinnati Ii vs New York Red Bulls B",
-                  "streams": [
-                    {
-                      "id": "luongson-14108832f50b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc1064d103",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -424,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8bfdf33913",
+                          "id": "lnk-50d86c7b72",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -744,6 +691,51 @@
                   "streams": [
                     {
                       "id": "luongson-826fa6da038b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-cdc5dad02f33",
+          "name": "⚽ China vs Chinese Taipei | 13:00",
+          "tournament": "FIBA WCQL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783283252.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783283253.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783283252.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cdc5dad02f33",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cdc5dad02f33",
+                  "name": "China vs Chinese Taipei",
+                  "streams": [
+                    {
+                      "id": "luongson-cdc5dad02f33",
                       "name": "F",
                       "stream_links": []
                     }
