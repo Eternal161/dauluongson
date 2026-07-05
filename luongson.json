@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:11 05/07/2026",
+  "last_updated": "16:21 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-fe1480a90f81",
-          "name": "⚽ Rwanda vs Nigeria | 03:26 08/05/1600",
-          "tournament": "WCPAF",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201734.jpg?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201736.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201734.jpg?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fe1480a90f81",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fe1480a90f81",
-                  "name": "Rwanda vs Nigeria",
-                  "streams": [
-                    {
-                      "id": "luongson-fe1480a90f81",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9023a3e8aa",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-798afcddaed2",
           "name": "⚽ Ha Noi (W) vs Phong Phu Ha Nam (W) | Không rõ",
@@ -99,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ae8f11d541",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-6ceade0a75",
+                          "id": "lnk-1a15ee48d5",
                           "name": "BLV PELE",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-90a9746393",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -159,11 +106,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-75e34c1585",
+                          "id": "lnk-07ff5d790d",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-fe1480a90f81",
+          "name": "⚽ Rwanda vs Nigeria | 03:26 08/05/1600",
+          "tournament": "WCPAF",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201734.jpg?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201736.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201734.jpg?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fe1480a90f81",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fe1480a90f81",
+                  "name": "Rwanda vs Nigeria",
+                  "streams": [
+                    {
+                      "id": "luongson-fe1480a90f81",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19d442a11b",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -212,14 +212,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-380807b6e4",
+                          "id": "lnk-c970e1f497",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-5cc70b953f",
+                          "id": "lnk-f019539e74",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
