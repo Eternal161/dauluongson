@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:41 05/07/2026",
+  "last_updated": "14:51 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-f2f7c60429b8",
+          "name": "⚽ Yan An Ronghai vs Shanghai Second | 03:26 08/05/1500",
+          "tournament": "Chinese Football Association Yi League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64762_1hy5bwm31c2v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f2f7c60429b8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f2f7c60429b8",
+                  "name": "Yan An Ronghai vs Shanghai Second",
+                  "streams": [
+                    {
+                      "id": "luongson-f2f7c60429b8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2f7fa5042",
+                          "name": "BLV KEVILL",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-afcad7f921be",
           "name": "⚽ Caloundra vs Samford Ranges | Không rõ",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-75cc8e7879",
+                          "id": "lnk-59226e53f5",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -61,114 +114,8 @@
           ]
         },
         {
-          "id": "luongson-a8f27b23933b",
-          "name": "⚽ Yan An Ronghai vs Shanghai Second | Không rõ",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64762_1hy5bwm31c2v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a8f27b23933b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a8f27b23933b",
-                  "name": "Yan An Ronghai vs Shanghai Second",
-                  "streams": [
-                    {
-                      "id": "luongson-a8f27b23933b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db54229146",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3772a185e683",
-          "name": "⚽ Brisbane City vs Brisbane Roar (Youth) | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7283_1j3krbgr3tt.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7283_1j3krbgr3tt.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3772a185e683",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3772a185e683",
-                  "name": "Brisbane City vs Brisbane Roar (Youth)",
-                  "streams": [
-                    {
-                      "id": "luongson-3772a185e683",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-10ae904aea",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-d5e4b27869e0",
-          "name": "⚽ Xiamen1026 vs Shenzhen 2028 | 15:00",
+          "name": "⚽ Xiamen1026 vs Shenzhen 2028 | Không rõ",
           "tournament": "Chinese Football Association Yi League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65765_1hzc1j8zxb26.PNG?v=2.4.3",
@@ -185,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 15:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -205,18 +152,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a390c5a3a4",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-1fabd24bf3",
+                          "id": "lnk-44b6875496",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-8fbb9e0c9f",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -712,6 +659,51 @@
                   "streams": [
                     {
                       "id": "luongson-1ec077e00d6f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5c0e9921a4d3",
+          "name": "⚽ Kalmar vs Orgryte | 19:00",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/390_1h6wfe05rcg.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/373_1gtqm2wp9p5.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/390_1h6wfe05rcg.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5c0e9921a4d3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5c0e9921a4d3",
+                  "name": "Kalmar vs Orgryte",
+                  "streams": [
+                    {
+                      "id": "luongson-5c0e9921a4d3",
                       "name": "F",
                       "stream_links": []
                     }
