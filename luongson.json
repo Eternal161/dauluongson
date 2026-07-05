@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:11 06/07/2026",
+  "last_updated": "05:21 06/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 2",
+              "text": "● Live HT 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c0855645a8",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-bb58c2506a",
+                          "id": "lnk-a665f6b964",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-1e154926f6",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -106,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-522f3f71e9",
+                          "id": "lnk-3e6d7d0db2",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -121,11 +121,11 @@
           ]
         },
         {
-          "id": "luongson-65510d1c177d",
-          "name": "⚽ Pacific Fc vs Hfx Wanderers Fc | Không rõ",
-          "tournament": "Canadian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39713_201912161923340998.gif?v=2.4.3",
+          "id": "luongson-febee9789a60",
+          "name": "⚽ Westchester Sc vs Ac Boise | 06:00",
+          "tournament": "USL League One",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68702_1jqtyj4xq91e.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -133,60 +133,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/39994_1h04rh2t3e1p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-65510d1c177d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-65510d1c177d",
-                  "name": "Pacific Fc vs Hfx Wanderers Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-65510d1c177d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-78d29f452f",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a95f66aca437",
-          "name": "⚽ Crown Legacy Fc vs Orlando City B | 06:00",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61455_1gxyv434dg10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56982_1gwdxst6a32m.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61455_1gxyv434dg10.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/68702_1jqtyj4xq91e.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -200,15 +147,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-a95f66aca437",
+              "id": "luongson-febee9789a60",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a95f66aca437",
-                  "name": "Crown Legacy Fc vs Orlando City B",
+                  "id": "luongson-febee9789a60",
+                  "name": "Westchester Sc vs Ac Boise",
                   "streams": [
                     {
-                      "id": "luongson-a95f66aca437",
+                      "id": "luongson-febee9789a60",
                       "name": "F",
                       "stream_links": []
                     }
@@ -264,6 +211,51 @@
           ]
         },
         {
+          "id": "luongson-a95f66aca437",
+          "name": "⚽ Crown Legacy Fc vs Orlando City B | 06:00",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61455_1gxyv434dg10.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56982_1gwdxst6a32m.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61455_1gxyv434dg10.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a95f66aca437",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a95f66aca437",
+                  "name": "Crown Legacy Fc vs Orlando City B",
+                  "streams": [
+                    {
+                      "id": "luongson-a95f66aca437",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-84e803516308",
           "name": "⚽ Pennsylvania Classics vs Reading United | 06:00",
           "tournament": "USA USL League Two",
@@ -302,58 +294,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2f99ef6829",
+                          "id": "lnk-7c6fba8853",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-febee9789a60",
-          "name": "⚽ Westchester Sc vs Ac Boise | 06:00",
-          "tournament": "USL League One",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68702_1jqtyj4xq91e.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/68702_1jqtyj4xq91e.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-febee9789a60",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-febee9789a60",
-                  "name": "Westchester Sc vs Ac Boise",
-                  "streams": [
-                    {
-                      "id": "luongson-febee9789a60",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -712,6 +659,51 @@
                   "streams": [
                     {
                       "id": "luongson-826fa6da038b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-cdc5dad02f33",
+          "name": "⚽ China vs Chinese Taipei | 13:00",
+          "tournament": "FIBA WCQL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783283252.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783283253.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783283252.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cdc5dad02f33",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cdc5dad02f33",
+                  "name": "China vs Chinese Taipei",
+                  "streams": [
+                    {
+                      "id": "luongson-cdc5dad02f33",
                       "name": "F",
                       "stream_links": []
                     }
