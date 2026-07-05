@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:31 05/07/2026",
+  "last_updated": "07:41 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-ce8a512ad21b",
-          "name": "⚽ Louisville City Fc vs Hartford Athletic | Không rõ",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21816_1gz593hw9g1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38932_1gytye1xp64.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/21816_1gz593hw9g1c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ce8a512ad21b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ce8a512ad21b",
-                  "name": "Louisville City Fc vs Hartford Athletic",
-                  "streams": [
-                    {
-                      "id": "luongson-ce8a512ad21b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c5224e3da9",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-073c6512090d",
           "name": "⚽ Fc Tulsa vs Sacramento Republic Fc | Không rõ",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ade9f3d12f",
+                          "id": "lnk-8bf8dace02",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ce8a512ad21b",
+          "name": "⚽ Louisville City Fc vs Hartford Athletic | Không rõ",
+          "tournament": "USL Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21816_1gz593hw9g1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38932_1gytye1xp64.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/21816_1gz593hw9g1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ce8a512ad21b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ce8a512ad21b",
+                  "name": "Louisville City Fc vs Hartford Athletic",
+                  "streams": [
+                    {
+                      "id": "luongson-ce8a512ad21b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14d15807df",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
