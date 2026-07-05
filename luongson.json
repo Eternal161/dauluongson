@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:01 05/07/2026",
+  "last_updated": "15:11 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-d5e4b27869e0",
-          "name": "⚽ Xiamen1026 vs Shenzhen 2028 | Không rõ",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65765_1hzc1j8zxb26.PNG?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d5e4b27869e0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d5e4b27869e0",
-                  "name": "Xiamen1026 vs Shenzhen 2028",
-                  "streams": [
-                    {
-                      "id": "luongson-d5e4b27869e0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f21027125",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-aca4697c66",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-afcad7f921be",
           "name": "⚽ Caloundra vs Samford Ranges | Không rõ",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8c6374200f",
+                          "id": "lnk-733cd3e7a8",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -159,11 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1d122a5f1c",
+                          "id": "lnk-9e2b8574ec",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d5e4b27869e0",
+          "name": "⚽ Xiamen1026 vs Shenzhen 2028 | Không rõ",
+          "tournament": "Chinese Football Association Yi League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65765_1hzc1j8zxb26.PNG?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d5e4b27869e0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d5e4b27869e0",
+                  "name": "Xiamen1026 vs Shenzhen 2028",
+                  "streams": [
+                    {
+                      "id": "luongson-d5e4b27869e0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c69d61f6c8",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-0e0a5ce8d1",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
