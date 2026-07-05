@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:01 06/07/2026",
+  "last_updated": "01:11 06/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-abe8ec2a7c06",
-          "name": "⚽ Far Forces Armee Royales vs Renaissance Zmamra | Không rõ",
-          "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3201_1k5n6dcs0d2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17899_1k5n6v06fh22.png?v=2.4.3",
+          "id": "luongson-2fa8233df2a6",
+          "name": "⚽ Supra Du Quebec vs Forge Fc | Không rõ",
+          "tournament": "Canadian Premier League",
+          "logo_nha": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3201_1k5n6dcs0d2p.png?v=2.4.3",
+            "url": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,83 @@
           ],
           "sources": [
             {
-              "id": "luongson-abe8ec2a7c06",
+              "id": "luongson-2fa8233df2a6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-abe8ec2a7c06",
-                  "name": "Far Forces Armee Royales vs Renaissance Zmamra",
+                  "id": "luongson-2fa8233df2a6",
+                  "name": "Supra Du Quebec vs Forge Fc",
                   "streams": [
                     {
-                      "id": "luongson-abe8ec2a7c06",
+                      "id": "luongson-2fa8233df2a6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6f32f9bb99",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-e61075e4ad",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ac84e2ec5a49",
+          "name": "⚽ Danubio Fc vs Ca Juventud | Không rõ",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3355_1hdak55h0s2e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ac84e2ec5a49",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ac84e2ec5a49",
+                  "name": "Danubio Fc vs Ca Juventud",
+                  "streams": [
+                    {
+                      "id": "luongson-ac84e2ec5a49",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4415a8910c",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-b3d9fc0231",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -99,184 +159,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6d99004ae0",
+                          "id": "lnk-fa85286d37",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f0efc21c7712",
-          "name": "⚽ Fc Torpedo Zhodino vs Fk Isloch Minsk | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f0efc21c7712",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f0efc21c7712",
-                  "name": "Fc Torpedo Zhodino vs Fk Isloch Minsk",
-                  "streams": [
-                    {
-                      "id": "luongson-f0efc21c7712",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-357a5ec2fb",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-a5beababc6",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2fa8233df2a6",
-          "name": "⚽ Supra Du Quebec vs Forge Fc | Không rõ",
-          "tournament": "Canadian Premier League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Su&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2fa8233df2a6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2fa8233df2a6",
-                  "name": "Supra Du Quebec vs Forge Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-2fa8233df2a6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49fbc104bf",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ac84e2ec5a49",
-          "name": "⚽ Danubio Fc vs Ca Juventud | Không rõ",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3355_1hdak55h0s2e.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ac84e2ec5a49",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ac84e2ec5a49",
-                  "name": "Danubio Fc vs Ca Juventud",
-                  "streams": [
-                    {
-                      "id": "luongson-ac84e2ec5a49",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9280bee304",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-da777d501d",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -325,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d54431d449",
+                          "id": "lnk-87705fb566",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -378,18 +265,131 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c644a3fa72",
+                          "id": "lnk-8b1ea7a2ca",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-27a8145c1a",
+                          "id": "lnk-bfae40202e",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f0efc21c7712",
+          "name": "⚽ Fc Torpedo Zhodino vs Fk Isloch Minsk | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12850_1h5btqv04m1k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f0efc21c7712",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f0efc21c7712",
+                  "name": "Fc Torpedo Zhodino vs Fk Isloch Minsk",
+                  "streams": [
+                    {
+                      "id": "luongson-f0efc21c7712",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d061b648d",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-9d0aa87b02",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-abe8ec2a7c06",
+          "name": "⚽ Far Forces Armee Royales vs Renaissance Zmamra | Không rõ",
+          "tournament": "Botola Pro 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3201_1k5n6dcs0d2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17899_1k5n6v06fh22.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3201_1k5n6dcs0d2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-abe8ec2a7c06",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-abe8ec2a7c06",
+                  "name": "Far Forces Armee Royales vs Renaissance Zmamra",
+                  "streams": [
+                    {
+                      "id": "luongson-abe8ec2a7c06",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e095b4e9f",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -418,10 +418,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 01:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -436,7 +436,15 @@
                     {
                       "id": "luongson-538e0b34f88f",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d9a5b1511",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
                     }
                   ]
                 }
