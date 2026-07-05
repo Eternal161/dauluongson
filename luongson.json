@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:41 05/07/2026",
+  "last_updated": "21:51 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-a3dacb9fe22b",
-          "name": "⚽ Fk Atyrau vs Fk Kaspyi Aktau | Không rõ",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4919_1hxb3x0nwt10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
+          "id": "luongson-ab9007bd09ce",
+          "name": "⚽ Grobina vs Tukums-2000 | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4919_1hxb3x0nwt10.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 3 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,30 +34,90 @@
           ],
           "sources": [
             {
-              "id": "luongson-a3dacb9fe22b",
+              "id": "luongson-ab9007bd09ce",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a3dacb9fe22b",
-                  "name": "Fk Atyrau vs Fk Kaspyi Aktau",
+                  "id": "luongson-ab9007bd09ce",
+                  "name": "Grobina vs Tukums-2000",
                   "streams": [
                     {
-                      "id": "luongson-a3dacb9fe22b",
+                      "id": "luongson-ab9007bd09ce",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-157e2a13cb",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-c34dbc2a88",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-5be815f306",
-                          "name": "BLV KAKA",
+                          "id": "lnk-fae3fce091",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-406e8652422a",
+          "name": "⚽ Odds Ballklubb vs Haugesund | Không rõ",
+          "tournament": "Norway Adeccoligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/435_1jjx4n5qy3b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2357_1gxmbm1nc6q.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/435_1jjx4n5qy3b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-406e8652422a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-406e8652422a",
+                  "name": "Odds Ballklubb vs Haugesund",
+                  "streams": [
+                    {
+                      "id": "luongson-406e8652422a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ad79333c8",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-bc20471542",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -106,18 +166,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cc41725837",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-7894045b5a",
+                          "id": "lnk-e36eef9400",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-2a01f3f599",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a3dacb9fe22b",
+          "name": "⚽ Fk Atyrau vs Fk Kaspyi Aktau | Không rõ",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4919_1hxb3x0nwt10.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4919_1hxb3x0nwt10.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a3dacb9fe22b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a3dacb9fe22b",
+                  "name": "Fk Atyrau vs Fk Kaspyi Aktau",
+                  "streams": [
+                    {
+                      "id": "luongson-a3dacb9fe22b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-92d35b6a9b",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-dfecb90a02",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -146,7 +266,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,138 +286,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7c209edf42",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-ef314f5007",
+                          "id": "lnk-10eb7e1203",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ab9007bd09ce",
-          "name": "⚽ Grobina vs Tukums-2000 | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12828_1h5bjfmbws2g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15094_1ht90tbsec2s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ab9007bd09ce",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ab9007bd09ce",
-                  "name": "Grobina vs Tukums-2000",
-                  "streams": [
-                    {
-                      "id": "luongson-ab9007bd09ce",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d36079e0e0",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-7477829b1d",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-49d5088588",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-406e8652422a",
-          "name": "⚽ Odds Ballklubb vs Haugesund | Không rõ",
-          "tournament": "Norway Adeccoligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/435_1jjx4n5qy3b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2357_1gxmbm1nc6q.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/435_1jjx4n5qy3b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-406e8652422a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-406e8652422a",
-                  "name": "Odds Ballklubb vs Haugesund",
-                  "streams": [
-                    {
-                      "id": "luongson-406e8652422a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b39ab11e3",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
-                        {
-                          "id": "lnk-70fd293363",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -346,7 +346,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ecc421bfc6",
+                          "id": "lnk-df54f3404a",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
@@ -361,7 +361,7 @@
           ]
         },
         {
-          "id": "luongson-a4ef2f26a9d4",
+          "id": "luongson-dd2409519670",
           "name": "⚽ Kaisar Kyzylorda vs Irtysh Pavlodar | 22:00",
           "tournament": "Kazakhstan Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4917_1gs99xcwg62a.png?v=2.4.3",
@@ -387,23 +387,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-a4ef2f26a9d4",
+              "id": "luongson-dd2409519670",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a4ef2f26a9d4",
+                  "id": "luongson-dd2409519670",
                   "name": "Kaisar Kyzylorda vs Irtysh Pavlodar",
                   "streams": [
                     {
-                      "id": "luongson-a4ef2f26a9d4",
+                      "id": "luongson-dd2409519670",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-09a495843b",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-7ae65da70a",
+                          "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
                         }
                       ]
                     }
@@ -452,7 +452,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0575bdb1ef",
+                          "id": "lnk-d1cf821316",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -505,7 +505,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-83a1fb8465",
+                          "id": "lnk-9b2ca945e1",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -558,21 +558,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fc67f549e5",
+                          "id": "lnk-db92152395",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-d8fd020b30",
+                          "id": "lnk-7ed43c2f6d",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-a6308ec5e5",
+                          "id": "lnk-a43659c956",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
@@ -625,7 +625,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1f9b65b381",
+                          "id": "lnk-d0634df799",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
