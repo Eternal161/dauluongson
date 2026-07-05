@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:31 05/07/2026",
+  "last_updated": "17:41 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-726f08c07ab4",
-          "name": "⚽ Fc Seoul vs Incheon United | Không rõ",
+          "id": "luongson-d886d7c3d05a",
+          "name": "⚽ Gimcheon Sangmu Fc vs Jeju Sk Fc | Không rõ",
           "tournament": "K League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/635_1gxsf6qjyq26.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/452_1h6swyavg60.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/449_1grzke26w41a.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3443_1jr577tbbf8.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/635_1gxsf6qjyq26.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/449_1grzke26w41a.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,30 +34,90 @@
           ],
           "sources": [
             {
-              "id": "luongson-726f08c07ab4",
+              "id": "luongson-d886d7c3d05a",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-726f08c07ab4",
-                  "name": "Fc Seoul vs Incheon United",
+                  "id": "luongson-d886d7c3d05a",
+                  "name": "Gimcheon Sangmu Fc vs Jeju Sk Fc",
                   "streams": [
                     {
-                      "id": "luongson-726f08c07ab4",
+                      "id": "luongson-d886d7c3d05a",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fa8e3488c9",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-e479f46742",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-1a76bd3b51",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-e6d6f1330a",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-798afcddaed2",
+          "name": "⚽ Ha Noi (W) vs Phong Phu Ha Nam (W) | Không rõ",
+          "tournament": "Vietnam Women's League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26587_1k4948jhfm2k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/26505_1gs6wsc42n4.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/26587_1k4948jhfm2k.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-798afcddaed2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-798afcddaed2",
+                  "name": "Ha Noi (W) vs Phong Phu Ha Nam (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-798afcddaed2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ecff53eb05",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-9963088609",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -106,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0c0044bff6",
+                          "id": "lnk-ae15cca3a8",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -121,11 +181,11 @@
           ]
         },
         {
-          "id": "luongson-798afcddaed2",
-          "name": "⚽ Ha Noi (W) vs Phong Phu Ha Nam (W) | Không rõ",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26587_1k4948jhfm2k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/26505_1gs6wsc42n4.png?v=2.4.3",
+          "id": "luongson-726f08c07ab4",
+          "name": "⚽ Fc Seoul vs Incheon United | Không rõ",
+          "tournament": "K League 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/635_1gxsf6qjyq26.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/452_1h6swyavg60.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -133,13 +193,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/26587_1k4948jhfm2k.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/635_1gxsf6qjyq26.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -147,30 +207,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-798afcddaed2",
+              "id": "luongson-726f08c07ab4",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-798afcddaed2",
-                  "name": "Ha Noi (W) vs Phong Phu Ha Nam (W)",
+                  "id": "luongson-726f08c07ab4",
+                  "name": "Fc Seoul vs Incheon United",
                   "streams": [
                     {
-                      "id": "luongson-798afcddaed2",
+                      "id": "luongson-726f08c07ab4",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e27038c4db",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-ea6047743f",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-38d814f764",
-                          "name": "BLV PELE",
+                          "id": "lnk-62996f1cfe",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -219,71 +279,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-db62ed87da",
+                          "id": "lnk-1aa594942c",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d886d7c3d05a",
-          "name": "⚽ Gimcheon Sangmu Fc vs Jeju Sk Fc | Không rõ",
-          "tournament": "K League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/449_1grzke26w41a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3443_1jr577tbbf8.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/449_1grzke26w41a.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d886d7c3d05a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d886d7c3d05a",
-                  "name": "Gimcheon Sangmu Fc vs Jeju Sk Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-d886d7c3d05a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9cd756b5e",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-c525b2bf90",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -312,10 +312,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 18:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -330,7 +330,22 @@
                     {
                       "id": "luongson-e31ec7b2af7e",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc9efa8c89",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-e17c4b7ca7",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
                     }
                   ]
                 }
