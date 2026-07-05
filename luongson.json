@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:21 05/07/2026",
+  "last_updated": "15:31 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-afcad7f921be",
+          "name": "⚽ Caloundra vs Samford Ranges | Không rõ",
+          "tournament": "Australia Queensland Premier League 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29563_1k64w7ec27v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11724_1gwbea77x4s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29563_1k64w7ec27v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-afcad7f921be",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-afcad7f921be",
+                  "name": "Caloundra vs Samford Ranges",
+                  "streams": [
+                    {
+                      "id": "luongson-afcad7f921be",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b10fa6664f",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-f2f7c60429b8",
           "name": "⚽ Yan An Ronghai vs Shanghai Second | 03:26 08/05/1500",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-10ef972bdb",
+                          "id": "lnk-cd1daa39b5",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
@@ -99,71 +152,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e84a2dbaa6",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-f64d99e799",
+                          "id": "lnk-e5ed270936",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-afcad7f921be",
-          "name": "⚽ Caloundra vs Samford Ranges | Không rõ",
-          "tournament": "Australia Queensland Premier League 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29563_1k64w7ec27v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11724_1gwbea77x4s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29563_1k64w7ec27v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-afcad7f921be",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-afcad7f921be",
-                  "name": "Caloundra vs Samford Ranges",
-                  "streams": [
-                    {
-                      "id": "luongson-afcad7f921be",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d4d90d354",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-d6542a4f3c",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -237,10 +237,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -255,7 +255,15 @@
                     {
                       "id": "luongson-798afcddaed2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-282cfc0b4f",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
