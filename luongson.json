@@ -1,118 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:01 05/07/2026",
+  "last_updated": "18:11 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b4209c90650a",
-          "name": "⚽ Gwangju Football Club vs Ulsan Hd Fc | Không rõ",
-          "tournament": "K League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/14694_1jnj5r1v732z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/436_1jr576ev8wv.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/14694_1jnj5r1v732z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b4209c90650a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b4209c90650a",
-                  "name": "Gwangju Football Club vs Ulsan Hd Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-b4209c90650a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-388305964a",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fe1480a90f81",
-          "name": "⚽ Rwanda vs Nigeria | 03:26 08/05/1600",
-          "tournament": "WCPAF",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201734.jpg?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201736.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201734.jpg?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live H1 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fe1480a90f81",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fe1480a90f81",
-                  "name": "Rwanda vs Nigeria",
-                  "streams": [
-                    {
-                      "id": "luongson-fe1480a90f81",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f60691f1e7",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-d886d7c3d05a",
           "name": "⚽ Gimcheon Sangmu Fc vs Jeju Sk Fc | Không rõ",
@@ -152,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-44c2c0e510",
+                          "id": "lnk-ff97e5f9db",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-ed1b1d253f",
+                          "id": "lnk-3167ca3e7f",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
@@ -212,18 +106,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-34db76ea56",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-38eb06d46c",
+                          "id": "lnk-f3a09adf32",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-4dce8259ae",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b4209c90650a",
+          "name": "⚽ Gwangju Football Club vs Ulsan Hd Fc | Không rõ",
+          "tournament": "K League 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/14694_1jnj5r1v732z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/436_1jr576ev8wv.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/14694_1jnj5r1v732z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b4209c90650a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b4209c90650a",
+                  "name": "Gwangju Football Club vs Ulsan Hd Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-b4209c90650a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2fbc1fb54",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -272,14 +219,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ad07801c2",
+                          "id": "lnk-ed0b905597",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-0ace127495",
+                          "id": "lnk-de993f0823",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
@@ -332,10 +279,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a71d4e8cdc",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-9fa4685248",
+                          "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-918f24bd5d",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
@@ -385,11 +339,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-828200183f",
+                          "id": "lnk-3bd634589d",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        },
+                        {
+                          "id": "lnk-faf9636de9",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -400,7 +361,7 @@
           ]
         },
         {
-          "id": "luongson-53e33cbfa38c",
+          "id": "luongson-25c9f1cab8d5",
           "name": "⚽ Meizhou Hakka vs Changchun Yatai | 18:30",
           "tournament": "Chinese Football Association Jia League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/18788_1j0w7x44xa19.png?v=2.4.3",
@@ -426,23 +387,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-53e33cbfa38c",
+              "id": "luongson-25c9f1cab8d5",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-53e33cbfa38c",
+                  "id": "luongson-25c9f1cab8d5",
                   "name": "Meizhou Hakka vs Changchun Yatai",
                   "streams": [
                     {
-                      "id": "luongson-53e33cbfa38c",
+                      "id": "luongson-25c9f1cab8d5",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0fb3d47d06",
-                          "name": "BLV TÀO THÁO",
+                          "id": "lnk-63f2a184d5",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -491,7 +452,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-99d7b470f0",
+                          "id": "lnk-a519bf3627",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -766,6 +727,51 @@
                   "streams": [
                     {
                       "id": "luongson-a3dacb9fe22b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ba356076f1a0",
+          "name": "⚽ Elfsborg vs Hammarby | 21:30",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/381_1h8wtxnzmc2g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/374_1h6wfe05rw26.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/381_1h8wtxnzmc2g.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ba356076f1a0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ba356076f1a0",
+                  "name": "Elfsborg vs Hammarby",
+                  "streams": [
+                    {
+                      "id": "luongson-ba356076f1a0",
                       "name": "F",
                       "stream_links": []
                     }
