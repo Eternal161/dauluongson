@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:51 05/07/2026",
+  "last_updated": "10:01 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-e00b76f75f9f",
-          "name": "⚽ San Antonio vs Monterey Bay Fc | Không rõ",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23800_1hxb3tc8nn2a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56452_1gytyddyyq2g.png?v=2.4.3",
+          "id": "luongson-09f6ecb6c12d",
+          "name": "⚽ Nelson Giants vs Franklin Bulls | 03:26 08/05/1000",
+          "tournament": "NZBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201675.webp?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201677.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23800_1hxb3tc8nn2a.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201675.webp?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,23 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-e00b76f75f9f",
+              "id": "luongson-09f6ecb6c12d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e00b76f75f9f",
-                  "name": "San Antonio vs Monterey Bay Fc",
+                  "id": "luongson-09f6ecb6c12d",
+                  "name": "Nelson Giants vs Franklin Bulls",
                   "streams": [
                     {
-                      "id": "luongson-e00b76f75f9f",
+                      "id": "luongson-09f6ecb6c12d",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d1fc88b939",
-                          "name": "BLV PELE",
+                          "id": "lnk-6c7019a4be",
+                          "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -99,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-90ba515950",
+                          "id": "lnk-7495d40f94",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e00b76f75f9f",
+          "name": "⚽ San Antonio vs Monterey Bay Fc | Không rõ",
+          "tournament": "USL Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23800_1hxb3tc8nn2a.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56452_1gytyddyyq2g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23800_1hxb3tc8nn2a.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e00b76f75f9f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e00b76f75f9f",
+                  "name": "San Antonio vs Monterey Bay Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-e00b76f75f9f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-93ef11b8f3",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -132,7 +185,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,64 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ccd0d4c013",
+                          "id": "lnk-b013717809",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-09f6ecb6c12d",
-          "name": "⚽ Nelson Giants vs Franklin Bulls | 10:00",
-          "tournament": "NZBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201675.webp?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201677.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783201675.webp?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 10:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-09f6ecb6c12d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-09f6ecb6c12d",
-                  "name": "Nelson Giants vs Franklin Bulls",
-                  "streams": [
-                    {
-                      "id": "luongson-09f6ecb6c12d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245010bd58",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
