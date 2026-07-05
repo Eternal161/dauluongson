@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:21 05/07/2026",
+  "last_updated": "10:31 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-8f374f1e99bb",
-          "name": "⚽ Las Vegas Lights vs El Paso Locomotive Fc | Không rõ",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33660_1jryx04ktp28.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38791_1jsqvnqx9y18.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/33660_1jryx04ktp28.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8f374f1e99bb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8f374f1e99bb",
-                  "name": "Las Vegas Lights vs El Paso Locomotive Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-8f374f1e99bb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee6448d1d9",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-09f6ecb6c12d",
           "name": "⚽ Nelson Giants vs Franklin Bulls | 03:26 08/05/1000",
@@ -79,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live H1 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e37e8163ae",
+                          "id": "lnk-475d5e6aac",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8f374f1e99bb",
+          "name": "⚽ Las Vegas Lights vs El Paso Locomotive Fc | Không rõ",
+          "tournament": "USL Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33660_1jryx04ktp28.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38791_1jsqvnqx9y18.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/33660_1jryx04ktp28.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8f374f1e99bb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8f374f1e99bb",
+                  "name": "Las Vegas Lights vs El Paso Locomotive Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-8f374f1e99bb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75e61db65b",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-74bf7ac055",
+                          "id": "lnk-b1ba940c80",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
