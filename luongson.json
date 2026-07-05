@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:31 05/07/2026",
+  "last_updated": "15:41 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-d5e4b27869e0",
+          "name": "⚽ Xiamen1026 vs Shenzhen 2028 | Không rõ",
+          "tournament": "Chinese Football Association Yi League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65765_1hzc1j8zxb26.PNG?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d5e4b27869e0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d5e4b27869e0",
+                  "name": "Xiamen1026 vs Shenzhen 2028",
+                  "streams": [
+                    {
+                      "id": "luongson-d5e4b27869e0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2fd5c463a3",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-93df75e6db",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-afcad7f921be",
           "name": "⚽ Caloundra vs Samford Ranges | Không rõ",
@@ -26,7 +86,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b10fa6664f",
+                          "id": "lnk-e520fe9f81",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -99,71 +159,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cd1daa39b5",
+                          "id": "lnk-e412d6d90c",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d5e4b27869e0",
-          "name": "⚽ Xiamen1026 vs Shenzhen 2028 | Không rõ",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65765_1hzc1j8zxb26.PNG?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65766_1hzzvwkqan1c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d5e4b27869e0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d5e4b27869e0",
-                  "name": "Xiamen1026 vs Shenzhen 2028",
-                  "streams": [
-                    {
-                      "id": "luongson-d5e4b27869e0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e5ed270936",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-d6542a4f3c",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -192,10 +192,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -210,7 +210,15 @@
                     {
                       "id": "luongson-fe1480a90f81",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9254319ce4",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -257,10 +265,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-282cfc0b4f",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-bd578c9345",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-cc4d525bc5",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
