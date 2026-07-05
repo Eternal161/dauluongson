@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:51 05/07/2026",
+  "last_updated": "13:01 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-e9c7f8f7d913",
+          "name": "⚽ Canberra Fc vs Canberra Olympic | Không rõ",
+          "tournament": "Australia Capital Gatorade Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8663_1h6z210pq43.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12562_1jr4fsveg11c.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8663_1h6z210pq43.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e9c7f8f7d913",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e9c7f8f7d913",
+                  "name": "Canberra Fc vs Canberra Olympic",
+                  "streams": [
+                    {
+                      "id": "luongson-e9c7f8f7d913",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99cf24d08e",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-628735605179",
           "name": "⚽ South Melbourne vs Dandenong Thunder | Không rõ",
@@ -46,18 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f26141b72a",
+                          "id": "lnk-3179b61fc8",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-81e2c8745e",
+                          "id": "lnk-0c4c5fabcd",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f593f21ac630",
+          "name": "⚽ Blacktown City Demons vs Sydney United | 03:26 08/05/1200",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6664_1hw9fx4graq.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6664_1hw9fx4graq.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f593f21ac630",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f593f21ac630",
+                  "name": "Blacktown City Demons vs Sydney United",
+                  "streams": [
+                    {
+                      "id": "luongson-f593f21ac630",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44646f5ffb",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -106,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-04a65c340b",
+                          "id": "lnk-72241fc55b",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -159,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-320d4b65cf",
+                          "id": "lnk-cb19619915",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -212,117 +318,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7cd4d3cd0b",
+                          "id": "lnk-7d86756668",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f593f21ac630",
-          "name": "⚽ Blacktown City Demons vs Sydney United | 03:26 08/05/1200",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6664_1hw9fx4graq.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6664_1hw9fx4graq.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f593f21ac630",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f593f21ac630",
-                  "name": "Blacktown City Demons vs Sydney United",
-                  "streams": [
-                    {
-                      "id": "luongson-f593f21ac630",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6dd97a5608",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e9c7f8f7d913",
-          "name": "⚽ Canberra Fc vs Canberra Olympic | Không rõ",
-          "tournament": "Australia Capital Gatorade Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8663_1h6z210pq43.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12562_1jr4fsveg11c.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8663_1h6z210pq43.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e9c7f8f7d913",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e9c7f8f7d913",
-                  "name": "Canberra Fc vs Canberra Olympic",
-                  "streams": [
-                    {
-                      "id": "luongson-e9c7f8f7d913",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8a66937d0",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -351,7 +351,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -371,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4d3e9a54a1",
+                          "id": "lnk-2b38fe48e2",
                           "name": "BLV DƯƠNG CHÍ",
                           "type": "hls",
                           "default": true,
