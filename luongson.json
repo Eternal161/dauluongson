@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:01 05/07/2026",
+  "last_updated": "14:11 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-f593f21ac630",
-          "name": "⚽ Blacktown City Demons vs Sydney United | 03:26 08/05/1200",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6664_1hw9fx4graq.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
+          "id": "luongson-628735605179",
+          "name": "⚽ South Melbourne vs Dandenong Thunder | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8681_1gxpydyxbk1t.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6664_1hw9fx4graq.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,76 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-f593f21ac630",
+              "id": "luongson-628735605179",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-f593f21ac630",
-                  "name": "Blacktown City Demons vs Sydney United",
+                  "id": "luongson-628735605179",
+                  "name": "South Melbourne vs Dandenong Thunder",
                   "streams": [
                     {
-                      "id": "luongson-f593f21ac630",
+                      "id": "luongson-628735605179",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d506e6f556",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-1ca65a1f84",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3772a185e683",
-          "name": "⚽ Brisbane City vs Brisbane Roar (Youth) | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7283_1j3krbgr3tt.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7283_1j3krbgr3tt.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3772a185e683",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3772a185e683",
-                  "name": "Brisbane City vs Brisbane Roar (Youth)",
-                  "streams": [
-                    {
-                      "id": "luongson-3772a185e683",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
                         {
-                          "id": "lnk-423d2250b5",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-80cd431257",
+                          "name": "BLV KAKA",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -152,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-debd50562c",
+                          "id": "lnk-186b352cb5",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -167,11 +121,11 @@
           ]
         },
         {
-          "id": "luongson-628735605179",
-          "name": "⚽ South Melbourne vs Dandenong Thunder | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8681_1gxpydyxbk1t.png?v=2.4.3",
+          "id": "luongson-3772a185e683",
+          "name": "⚽ Brisbane City vs Brisbane Roar (Youth) | Không rõ",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7283_1j3krbgr3tt.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,13 +133,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/7283_1j3krbgr3tt.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -193,83 +147,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-628735605179",
+              "id": "luongson-3772a185e683",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-628735605179",
-                  "name": "South Melbourne vs Dandenong Thunder",
+                  "id": "luongson-3772a185e683",
+                  "name": "Brisbane City vs Brisbane Roar (Youth)",
                   "streams": [
                     {
-                      "id": "luongson-628735605179",
+                      "id": "luongson-3772a185e683",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9b91357c19",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-ee61c68abe",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-5b61ddd8a3",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-342c1c4f13eb",
-          "name": "⚽ Marconi Stallions vs St George Saints | Không rõ",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-342c1c4f13eb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-342c1c4f13eb",
-                  "name": "Marconi Stallions vs St George Saints",
-                  "streams": [
-                    {
-                      "id": "luongson-342c1c4f13eb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0e29b22ba2",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -720,6 +614,96 @@
                   "streams": [
                     {
                       "id": "luongson-6a504e39235b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-53e33cbfa38c",
+          "name": "⚽ Meizhou Hakka vs Changchun Yatai | 18:30",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18788_1j0w7x44xa19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/483_1jr56ftb35z.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/18788_1j0w7x44xa19.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-53e33cbfa38c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-53e33cbfa38c",
+                  "name": "Meizhou Hakka vs Changchun Yatai",
+                  "streams": [
+                    {
+                      "id": "luongson-53e33cbfa38c",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6ac978101b69",
+          "name": "⚽ Shanghai Shenhua vs Zhejiang Professional Fc | 18:35",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6ac978101b69",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6ac978101b69",
+                  "name": "Shanghai Shenhua vs Zhejiang Professional Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-6ac978101b69",
                       "name": "F",
                       "stream_links": []
                     }
