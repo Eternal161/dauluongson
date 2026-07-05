@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:31 06/07/2026",
+  "last_updated": "01:41 06/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-bfb8e2150b0e",
+          "name": "⚽ Maghreb Fez vs Olympique Dcheira | Không rõ",
+          "tournament": "Botola Pro 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13618_1j119mmhgw18.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15053_1hxwvjxywh31.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/13618_1j119mmhgw18.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bfb8e2150b0e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bfb8e2150b0e",
+                  "name": "Maghreb Fez vs Olympique Dcheira",
+                  "streams": [
+                    {
+                      "id": "luongson-bfb8e2150b0e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37e61a9426",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-f0efc21c7712",
           "name": "⚽ Fc Torpedo Zhodino vs Fk Isloch Minsk | Không rõ",
@@ -46,14 +99,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f4d4850de9",
+                          "id": "lnk-bac613f399",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-af747f3add",
+                          "id": "lnk-a71693198b",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": false,
@@ -106,124 +159,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bf2ef598b1",
+                          "id": "lnk-c6f268c705",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         },
                         {
-                          "id": "lnk-b73213a244",
+                          "id": "lnk-12d3aad9ec",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-abe8ec2a7c06",
-          "name": "⚽ Far Forces Armee Royales vs Renaissance Zmamra | Không rõ",
-          "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3201_1k5n6dcs0d2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17899_1k5n6v06fh22.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3201_1k5n6dcs0d2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-abe8ec2a7c06",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-abe8ec2a7c06",
-                  "name": "Far Forces Armee Royales vs Renaissance Zmamra",
-                  "streams": [
-                    {
-                      "id": "luongson-abe8ec2a7c06",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01b818c8c3",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8ae4e6ae0c6d",
-          "name": "⚽ Deportivo Madryn vs Colon De Santa Fe | Không rõ",
-          "tournament": "Argentine Division 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15979_1gryyw1bnm31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/259_164940919615.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15979_1gryyw1bnm31.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8ae4e6ae0c6d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8ae4e6ae0c6d",
-                  "name": "Deportivo Madryn vs Colon De Santa Fe",
-                  "streams": [
-                    {
-                      "id": "luongson-8ae4e6ae0c6d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d73aeb9420",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -272,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2ade9af25d",
+                          "id": "lnk-4a60da48b5",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
@@ -287,11 +234,11 @@
           ]
         },
         {
-          "id": "luongson-bfb8e2150b0e",
-          "name": "⚽ Maghreb Fez vs Olympique Dcheira | Không rõ",
-          "tournament": "Botola Pro 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/13618_1j119mmhgw18.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15053_1hxwvjxywh31.png?v=2.4.3",
+          "id": "luongson-8ae4e6ae0c6d",
+          "name": "⚽ Deportivo Madryn vs Colon De Santa Fe | Không rõ",
+          "tournament": "Argentine Division 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15979_1gryyw1bnm31.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/259_164940919615.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -299,7 +246,60 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/13618_1j119mmhgw18.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/15979_1gryyw1bnm31.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8ae4e6ae0c6d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8ae4e6ae0c6d",
+                  "name": "Deportivo Madryn vs Colon De Santa Fe",
+                  "streams": [
+                    {
+                      "id": "luongson-8ae4e6ae0c6d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ebc0a6ce1",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-abe8ec2a7c06",
+          "name": "⚽ Far Forces Armee Royales vs Renaissance Zmamra | Không rõ",
+          "tournament": "Botola Pro 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3201_1k5n6dcs0d2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17899_1k5n6v06fh22.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3201_1k5n6dcs0d2p.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -313,23 +313,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-bfb8e2150b0e",
+              "id": "luongson-abe8ec2a7c06",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-bfb8e2150b0e",
-                  "name": "Maghreb Fez vs Olympique Dcheira",
+                  "id": "luongson-abe8ec2a7c06",
+                  "name": "Far Forces Armee Royales vs Renaissance Zmamra",
                   "streams": [
                     {
-                      "id": "luongson-bfb8e2150b0e",
+                      "id": "luongson-abe8ec2a7c06",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cc0c591c9e",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-e4df62b538",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -341,7 +341,7 @@
         },
         {
           "id": "luongson-538e0b34f88f",
-          "name": "⚽ Ferrol Carril Oeste vs San Telmo | 01:30",
+          "name": "⚽ Ferrol Carril Oeste vs San Telmo | Không rõ",
           "tournament": "Argentine Division 2",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4342_20121218165053.jpg?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/11717_20121218170334.gif?v=2.4.3",
@@ -358,7 +358,7 @@
           },
           "labels": [
             {
-              "text": "● Live 01:30",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -378,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0e873a0ace",
+                          "id": "lnk-c748e14362",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -431,14 +431,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a4aacd02e1",
+                          "id": "lnk-414ab6059a",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-8b58ba487b",
+                          "id": "lnk-09e10ec5a0",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -453,7 +453,7 @@
           ]
         },
         {
-          "id": "luongson-e6892b551f28",
+          "id": "luongson-600da9057eb0",
           "name": "⚽ Nublense vs Curico Unido | 02:00",
           "tournament": "Chile Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
@@ -479,23 +479,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-e6892b551f28",
+              "id": "luongson-600da9057eb0",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e6892b551f28",
+                  "id": "luongson-600da9057eb0",
                   "name": "Nublense vs Curico Unido",
                   "streams": [
                     {
-                      "id": "luongson-e6892b551f28",
+                      "id": "luongson-600da9057eb0",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d83cf33c96",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-11e5749c56",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
