@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:11 05/07/2026",
+  "last_updated": "18:21 05/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-d886d7c3d05a",
-          "name": "⚽ Gimcheon Sangmu Fc vs Jeju Sk Fc | Không rõ",
-          "tournament": "K League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/449_1grzke26w41a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3443_1jr577tbbf8.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/449_1grzke26w41a.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d886d7c3d05a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d886d7c3d05a",
-                  "name": "Gimcheon Sangmu Fc vs Jeju Sk Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-d886d7c3d05a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff97e5f9db",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-3167ca3e7f",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-726f08c07ab4",
           "name": "⚽ Fc Seoul vs Incheon United | Không rõ",
@@ -86,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -106,18 +46,251 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f3a09adf32",
+                          "id": "lnk-8ec906722f",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-4dce8259ae",
+                          "id": "lnk-34d6afe74e",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d886d7c3d05a",
+          "name": "⚽ Gimcheon Sangmu Fc vs Jeju Sk Fc | Không rõ",
+          "tournament": "K League 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/449_1grzke26w41a.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3443_1jr577tbbf8.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/449_1grzke26w41a.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d886d7c3d05a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d886d7c3d05a",
+                  "name": "Gimcheon Sangmu Fc vs Jeju Sk Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-d886d7c3d05a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cb549a273",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-0a429f47ab",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-cdb38f9c771a",
+          "name": "⚽ Guangxi Hengchen vs Dalian Kun City | Không rõ",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/63119_1hd8n6awev0.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64776_1htrhy34n123.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/63119_1hd8n6awev0.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cdb38f9c771a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cdb38f9c771a",
+                  "name": "Guangxi Hengchen vs Dalian Kun City",
+                  "streams": [
+                    {
+                      "id": "luongson-cdb38f9c771a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c40ee45733",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-37185d411e",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-53e33cbfa38c",
+          "name": "⚽ Meizhou Hakka vs Changchun Yatai | Không rõ",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18788_1j0w7x44xa19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/483_1jr56ftb35z.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/18788_1j0w7x44xa19.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-53e33cbfa38c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-53e33cbfa38c",
+                  "name": "Meizhou Hakka vs Changchun Yatai",
+                  "streams": [
+                    {
+                      "id": "luongson-53e33cbfa38c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4727069929",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6ac978101b69",
+          "name": "⚽ Shanghai Shenhua vs Zhejiang Professional Fc | Không rõ",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6ac978101b69",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6ac978101b69",
+                  "name": "Shanghai Shenhua vs Zhejiang Professional Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-6ac978101b69",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5cf715bb92",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-a9f1d8f5e0",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -146,7 +319,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,11 +339,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e2fbc1fb54",
+                          "id": "lnk-44facfe79b",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6a504e39235b",
+          "name": "⚽ Nanjing City vs Foshan Nanshi | Không rõ",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41376_1hy5brmffe2k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50185_1hrgcs0ft7a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/41376_1hy5brmffe2k.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6a504e39235b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6a504e39235b",
+                  "name": "Nanjing City vs Foshan Nanshi",
+                  "streams": [
+                    {
+                      "id": "luongson-6a504e39235b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-daa5107bca",
+                          "name": "BLV DƯƠNG CHÍ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
+                        },
+                        {
+                          "id": "lnk-254fe779a8",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -219,244 +452,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ed0b905597",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-de993f0823",
+                          "id": "lnk-5332d1bb43",
                           "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-cdb38f9c771a",
-          "name": "⚽ Guangxi Hengchen vs Dalian Kun City | 18:30",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/63119_1hd8n6awev0.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/64776_1htrhy34n123.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/63119_1hd8n6awev0.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 18:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-cdb38f9c771a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-cdb38f9c771a",
-                  "name": "Guangxi Hengchen vs Dalian Kun City",
-                  "streams": [
-                    {
-                      "id": "luongson-cdb38f9c771a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9fa4685248",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-918f24bd5d",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-2d9af0a7a7",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6a504e39235b",
-          "name": "⚽ Nanjing City vs Foshan Nanshi | 18:30",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41376_1hy5brmffe2k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50185_1hrgcs0ft7a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/41376_1hy5brmffe2k.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 18:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6a504e39235b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6a504e39235b",
-                  "name": "Nanjing City vs Foshan Nanshi",
-                  "streams": [
-                    {
-                      "id": "luongson-6a504e39235b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3bd634589d",
-                          "name": "BLV DƯƠNG CHÍ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VANCONAN/index.m3u8?expire=1830276060&sign=53991e2e589a2f7031dd37b82a585e33"
-                        },
-                        {
-                          "id": "lnk-faf9636de9",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-25c9f1cab8d5",
-          "name": "⚽ Meizhou Hakka vs Changchun Yatai | 18:30",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18788_1j0w7x44xa19.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/483_1jr56ftb35z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/18788_1j0w7x44xa19.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 18:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-25c9f1cab8d5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-25c9f1cab8d5",
-                  "name": "Meizhou Hakka vs Changchun Yatai",
-                  "streams": [
-                    {
-                      "id": "luongson-25c9f1cab8d5",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-63f2a184d5",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6ac978101b69",
-          "name": "⚽ Shanghai Shenhua vs Zhejiang Professional Fc | 18:35",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/33_1gy3vjsrhn1p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 18:35",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6ac978101b69",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6ac978101b69",
-                  "name": "Shanghai Shenhua vs Zhejiang Professional Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-6ac978101b69",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a519bf3627",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
