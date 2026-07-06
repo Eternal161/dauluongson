@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:11 07/07/2026",
+  "last_updated": "04:21 07/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-1abb7a033f39",
+          "name": "⚽ Mexico vs Anh | 03:26 08/07/413",
+          "tournament": "World Cup 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783372411.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783372413.webp?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783372411.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1abb7a033f39",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1abb7a033f39",
+                  "name": "Mexico vs Anh",
+                  "streams": [
+                    {
+                      "id": "luongson-1abb7a033f39",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0843a45012",
+                          "name": "BLV KEVILL REPLAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-8f4d2459347c",
           "name": "⚽ Universidad Catolica vs Mushuc Runa | Không rõ",
@@ -26,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -44,7 +97,15 @@
                     {
                       "id": "luongson-8f4d2459347c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-682aaf7a1b",
+                          "name": "BLV MAYBACH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -91,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-af245444f1",
+                          "id": "lnk-80ca92f5dc",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -144,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-53da6bcbaa",
+                          "id": "lnk-ec50b728bb",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -242,7 +303,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7f997fead5",
+                          "id": "lnk-aeea2e00d2",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -652,51 +713,6 @@
                   "streams": [
                     {
                       "id": "luongson-72e2cecb9f36",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4c79f5621698",
-          "name": "⚽ Charleston City Blues vs Weston Workers Fc | 17:00",
-          "tournament": "Australia Northern NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21186_1gtk2yyspwa.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22082_1gtk2yyspq1a.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4c79f5621698",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4c79f5621698",
-                  "name": "Charleston City Blues vs Weston Workers Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-4c79f5621698",
                       "name": "F",
                       "stream_links": []
                     }
