@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:31 07/07/2026",
+  "last_updated": "00:41 07/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-9c9e0587380b",
-          "name": "⚽ Suduva vs Transinvest Vilnius | Không rõ",
-          "tournament": "Lithuania - 1.Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2069_1gzz88jqt08.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57401_1h8878s6mes.png?v=2.4.3",
+          "id": "luongson-2423560afb5f",
+          "name": "⚽ Brommapojkarna vs Gais | Không rõ",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2069_1gzz88jqt08.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,37 +34,90 @@
           ],
           "sources": [
             {
-              "id": "luongson-9c9e0587380b",
+              "id": "luongson-2423560afb5f",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-9c9e0587380b",
-                  "name": "Suduva vs Transinvest Vilnius",
+                  "id": "luongson-2423560afb5f",
+                  "name": "Brommapojkarna vs Gais",
                   "streams": [
                     {
-                      "id": "luongson-9c9e0587380b",
+                      "id": "luongson-2423560afb5f",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-84d2cbd516",
-                          "name": "BLV LEO",
+                          "id": "lnk-69cac65563",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-adb17c1779",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-d7ac40b5f0",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-056dfc11c2ed",
+          "name": "⚽ Super Nova vs Ogre United | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-056dfc11c2ed",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-056dfc11c2ed",
+                  "name": "Super Nova vs Ogre United",
+                  "streams": [
+                    {
+                      "id": "luongson-056dfc11c2ed",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d65905023a",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-5e6ef6f5ae",
-                          "name": "BLV LIO",
+                          "id": "lnk-ecfe8016b4",
+                          "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
                         }
                       ]
                     }
@@ -93,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -113,191 +166,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9aa8df1950",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-e3ebcc9d8a",
+                          "id": "lnk-dcdd58b97f",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2423560afb5f",
-          "name": "⚽ Brommapojkarna vs Gais | Không rõ",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2423560afb5f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2423560afb5f",
-                  "name": "Brommapojkarna vs Gais",
-                  "streams": [
-                    {
-                      "id": "luongson-2423560afb5f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d606370b9d",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-b55ab1d89c",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-69e496bc75",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-342f499b228e",
-          "name": "⚽ Super Nova vs Ogre United | 03:26 08/06/2300",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-342f499b228e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-342f499b228e",
-                  "name": "Super Nova vs Ogre United",
-                  "streams": [
-                    {
-                      "id": "luongson-342f499b228e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7aeb359354",
-                          "name": "BLV KEVILL",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-09a584907909",
-          "name": "⚽ Sportivo Barracas vs Yupanqui | 01:00",
-          "tournament": "Argentina group C Tebolidun League Manchester",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15913_202003231503594300.gif?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15924_1gr5e77txj30.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15913_202003231503594300.gif?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 01:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-09a584907909",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-09a584907909",
-                  "name": "Sportivo Barracas vs Yupanqui",
-                  "streams": [
-                    {
-                      "id": "luongson-09a584907909",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e28a41ca4",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        },
-                        {
-                          "id": "lnk-8f9d0f14b3",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -346,18 +226,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-132bd6aca1",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        },
-                        {
-                          "id": "lnk-ae44f34b34",
+                          "id": "lnk-64b0c51b61",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1788427256&sign=30a15463eec9495979c452130fd9c75f"
+                        },
+                        {
+                          "id": "lnk-8edc9a0cbd",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-09a584907909",
+          "name": "⚽ Sportivo Barracas vs Yupanqui | 01:00",
+          "tournament": "Argentina group C Tebolidun League Manchester",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15913_202003231503594300.gif?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15924_1gr5e77txj30.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/15913_202003231503594300.gif?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 01:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-09a584907909",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-09a584907909",
+                  "name": "Sportivo Barracas vs Yupanqui",
+                  "streams": [
+                    {
+                      "id": "luongson-09a584907909",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-07b418b0cf",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        },
+                        {
+                          "id": "lnk-29a20ad799",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -386,10 +326,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -404,15 +344,7 @@
                     {
                       "id": "luongson-c0b04f26f92c",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75197ba624",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
