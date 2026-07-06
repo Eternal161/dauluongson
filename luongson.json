@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:21 06/07/2026",
+  "last_updated": "15:31 06/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-45a2c84a5c",
+                          "id": "lnk-3685731e82",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -99,14 +99,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9871e34234",
+                          "id": "lnk-57066f465d",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-f34ad033b3",
+                          "id": "lnk-128a319e6e",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
@@ -159,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eec3c5ce18",
+                          "id": "lnk-6169cbbd9e",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -192,7 +192,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -212,18 +212,230 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e6da2275ba",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-5b22e0b7b2",
+                          "id": "lnk-a2bb3fc105",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-3a453ce0b3",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-16dc79726c37",
+          "name": "⚽ Linyi Yihu U21 vs Shijiazhuang Gongfu U21 | 03:26 08/06/1530",
+          "tournament": "China U21 League",
+          "logo_nha": "https://ui-avatars.com/api/?name=Li&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Li&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-16dc79726c37",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-16dc79726c37",
+                  "name": "Linyi Yihu U21 vs Shijiazhuang Gongfu U21",
+                  "streams": [
+                    {
+                      "id": "luongson-16dc79726c37",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5dc2f609a5",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9295b659193c",
+          "name": "⚽ Yunnan Yukun U21 vs Liaoning Tieren U21 | Không rõ",
+          "tournament": "China U21 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69828_1k5je0jjvhv.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=Li&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/69828_1k5je0jjvhv.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9295b659193c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9295b659193c",
+                  "name": "Yunnan Yukun U21 vs Liaoning Tieren U21",
+                  "streams": [
+                    {
+                      "id": "luongson-9295b659193c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cc62d1898",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-181d4dbe870b",
+          "name": "⚽ Qingdao Youth Island U21 vs Wuhan Three Towns U21 | Không rõ",
+          "tournament": "China U21 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65149_1hv0x6hq1x1m.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61561_1hv3faqaza2.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/65149_1hv0x6hq1x1m.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-181d4dbe870b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-181d4dbe870b",
+                  "name": "Qingdao Youth Island U21 vs Wuhan Three Towns U21",
+                  "streams": [
+                    {
+                      "id": "luongson-181d4dbe870b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d952510b61",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5ce6e152c35f",
+          "name": "⚽ Qingdao Hainiu U21 vs Nantong Zhiyun U21 | Không rõ",
+          "tournament": "China U21 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57818_1hv3ffkbs62.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57846_1hv1180qtt21.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/57818_1hv3ffkbs62.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5ce6e152c35f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5ce6e152c35f",
+                  "name": "Qingdao Hainiu U21 vs Nantong Zhiyun U21",
+                  "streams": [
+                    {
+                      "id": "luongson-5ce6e152c35f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3999fb4b0a",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -272,223 +484,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-21723cfc61",
+                          "id": "lnk-a0b7f83fa7",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-16dc79726c37",
-          "name": "⚽ Linyi Yihu U21 vs Shijiazhuang Gongfu U21 | 15:30",
-          "tournament": "China U21 League",
-          "logo_nha": "https://ui-avatars.com/api/?name=Li&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://ui-avatars.com/api/?name=Sh&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Li&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 15:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-16dc79726c37",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-16dc79726c37",
-                  "name": "Linyi Yihu U21 vs Shijiazhuang Gongfu U21",
-                  "streams": [
-                    {
-                      "id": "luongson-16dc79726c37",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1cb6e3d2a9",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9295b659193c",
-          "name": "⚽ Yunnan Yukun U21 vs Liaoning Tieren U21 | 15:30",
-          "tournament": "China U21 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69828_1k5je0jjvhv.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=Li&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69828_1k5je0jjvhv.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 15:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9295b659193c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9295b659193c",
-                  "name": "Yunnan Yukun U21 vs Liaoning Tieren U21",
-                  "streams": [
-                    {
-                      "id": "luongson-9295b659193c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8bda481494",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-181d4dbe870b",
-          "name": "⚽ Qingdao Youth Island U21 vs Wuhan Three Towns U21 | 15:30",
-          "tournament": "China U21 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65149_1hv0x6hq1x1m.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61561_1hv3faqaza2.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65149_1hv0x6hq1x1m.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 15:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-181d4dbe870b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-181d4dbe870b",
-                  "name": "Qingdao Youth Island U21 vs Wuhan Three Towns U21",
-                  "streams": [
-                    {
-                      "id": "luongson-181d4dbe870b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aca22eeb67",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5ce6e152c35f",
-          "name": "⚽ Qingdao Hainiu U21 vs Nantong Zhiyun U21 | 15:30",
-          "tournament": "China U21 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57818_1hv3ffkbs62.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57846_1hv1180qtt21.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57818_1hv3ffkbs62.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 15:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5ce6e152c35f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5ce6e152c35f",
-                  "name": "Qingdao Hainiu U21 vs Nantong Zhiyun U21",
-                  "streams": [
-                    {
-                      "id": "luongson-5ce6e152c35f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4803304880",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
