@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:51 06/07/2026",
+  "last_updated": "00:01 07/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-0c91dff222fb",
-          "name": "⚽ Mexico vs Anh | 03:26 08/06/2115",
-          "tournament": "World Cup 2026",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783347328.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783347360.webp?v=2.4.3",
+          "id": "luongson-056dfc11c2ed",
+          "name": "⚽ Super Nova vs Ogre United | Không rõ",
+          "tournament": "Latvian Higher League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783347328.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live H1 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-0c91dff222fb",
+              "id": "luongson-056dfc11c2ed",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-0c91dff222fb",
-                  "name": "Mexico vs Anh",
+                  "id": "luongson-056dfc11c2ed",
+                  "name": "Super Nova vs Ogre United",
                   "streams": [
                     {
-                      "id": "luongson-0c91dff222fb",
+                      "id": "luongson-056dfc11c2ed",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-071dd91b29",
-                          "name": "BLV KEVILL REPLAY",
+                          "id": "lnk-455101b943",
+                          "name": "BLV TRIỆU TỬ LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-a2ca24316a",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -99,21 +106,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bf1ab72d42",
+                          "id": "lnk-4459ea6ab2",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-6f30b36619",
+                          "id": "lnk-9961f6eeab",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-234cd436df",
+                          "id": "lnk-4812f3bdd1",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
@@ -128,68 +135,8 @@
           ]
         },
         {
-          "id": "luongson-056dfc11c2ed",
-          "name": "⚽ Super Nova vs Ogre United | Không rõ",
-          "tournament": "Latvian Higher League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/62168_1htxvrk4wrb.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22043_1htv3bvjp32v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-056dfc11c2ed",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-056dfc11c2ed",
-                  "name": "Super Nova vs Ogre United",
-                  "streams": [
-                    {
-                      "id": "luongson-056dfc11c2ed",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c47357cd1",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-37414503bf",
-                          "name": "BLV TRIỆU TỬ LONG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-2423560afb5f",
-          "name": "⚽ Brommapojkarna vs Gais | 00:00",
+          "name": "⚽ Brommapojkarna vs Gais | Không rõ",
           "tournament": "Swedish Allsvenskan",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png?v=2.4.3",
@@ -206,7 +153,7 @@
           },
           "labels": [
             {
-              "text": "● Live 00:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -226,14 +173,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9414bf6311",
+                          "id": "lnk-f43dc3f79c",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-5f34c67299",
+                          "id": "lnk-3c908fdc5b",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
@@ -249,7 +196,7 @@
         },
         {
           "id": "luongson-d60e00ba85b6",
-          "name": "⚽ Hacken vs Djurgardens | 00:00",
+          "name": "⚽ Hacken vs Djurgardens | Không rõ",
           "tournament": "Swedish Allsvenskan",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1307_1h53w2zt69f.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
@@ -266,7 +213,7 @@
           },
           "labels": [
             {
-              "text": "● Live 00:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -286,14 +233,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8fed798219",
+                          "id": "lnk-47b0316884",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-ddf1f9055a",
+                          "id": "lnk-626df943ad",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
@@ -436,7 +383,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4c5296a9a1",
+                          "id": "lnk-194bf27896",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
