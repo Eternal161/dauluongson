@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:01 07/07/2026",
+  "last_updated": "01:11 07/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-2423560afb5f",
-          "name": "⚽ Brommapojkarna vs Gais | Không rõ",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2423560afb5f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2423560afb5f",
-                  "name": "Brommapojkarna vs Gais",
-                  "streams": [
-                    {
-                      "id": "luongson-2423560afb5f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-230bfb2de7",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-ec45170e59",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-d60e00ba85b6",
           "name": "⚽ Hacken vs Djurgardens | Không rõ",
@@ -86,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 2",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -106,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fd2dc1acdb",
+                          "id": "lnk-a4ab6d0326",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-f8f402c63c",
+                          "id": "lnk-1829cbe61c",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -128,8 +68,68 @@
           ]
         },
         {
+          "id": "luongson-2423560afb5f",
+          "name": "⚽ Brommapojkarna vs Gais | Không rõ",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1314_1h8jkhmh491m.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2423560afb5f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2423560afb5f",
+                  "name": "Brommapojkarna vs Gais",
+                  "streams": [
+                    {
+                      "id": "luongson-2423560afb5f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c27c8b828",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-c53d8a3ded",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-09a584907909",
-          "name": "⚽ Sportivo Barracas vs Yupanqui | 01:00",
+          "name": "⚽ Sportivo Barracas vs Yupanqui | Không rõ",
           "tournament": "Argentina group C Tebolidun League Manchester",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/15913_202003231503594300.gif?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/15924_1gr5e77txj30.png?v=2.4.3",
@@ -146,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live 01:00",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,14 +166,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f4a1b1a327",
+                          "id": "lnk-e42de2b2a7",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-048bfca324",
+                          "id": "lnk-877421d0dd",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": false,
@@ -189,7 +189,7 @@
         },
         {
           "id": "luongson-329256c87aca",
-          "name": "⚽ Centro Espanol vs Mercedes | 01:00",
+          "name": "⚽ Centro Espanol vs Mercedes | Không rõ",
           "tournament": "Argentina group C Tebolidun League Manchester",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/15153_1hcnxebawx1a.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/18371_1gvs76tvyx12.png?v=2.4.3",
@@ -206,7 +206,7 @@
           },
           "labels": [
             {
-              "text": "● Live 01:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -226,18 +226,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-da1643683a",
-                          "name": "BLV GẤU KA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
-                        },
-                        {
-                          "id": "lnk-0ec6f1366a",
+                          "id": "lnk-4fb98f2402",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1788427256&sign=30a15463eec9495979c452130fd9c75f"
+                        },
+                        {
+                          "id": "lnk-9a9a5557b8",
+                          "name": "BLV GẤU KA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
                         }
                       ]
                     }
