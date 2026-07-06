@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:11 06/07/2026",
+  "last_updated": "15:21 06/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-ad3fdfa03f08",
-          "name": "⚽ Khangarid Klub vs Tuv Buganuud | Không rõ",
-          "tournament": "Mongolia Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34495_1j0x3a0m6bc.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34495_1j0x3a0m6bc.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ad3fdfa03f08",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ad3fdfa03f08",
-                  "name": "Khangarid Klub vs Tuv Buganuud",
-                  "streams": [
-                    {
-                      "id": "luongson-ad3fdfa03f08",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2fefa4d338",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-dc7ab91632",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-cdc5dad02f33",
           "name": "⚽ China vs Chinese Taipei | 03:26 08/06/1300",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-811d04b07e",
+                          "id": "lnk-45a2c84a5c",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -159,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-117518d304",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-68681d8219",
+                          "id": "lnk-9871e34234",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-f34ad033b3",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -219,11 +159,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d3f2997874",
+                          "id": "lnk-eec3c5ce18",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ad3fdfa03f08",
+          "name": "⚽ Khangarid Klub vs Tuv Buganuud | Không rõ",
+          "tournament": "Mongolia Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34495_1j0x3a0m6bc.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/44990_1k69hb342n2v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/34495_1j0x3a0m6bc.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ad3fdfa03f08",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ad3fdfa03f08",
+                  "name": "Khangarid Klub vs Tuv Buganuud",
+                  "streams": [
+                    {
+                      "id": "luongson-ad3fdfa03f08",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e6da2275ba",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-5b22e0b7b2",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -272,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8de1831d4f",
+                          "id": "lnk-21723cfc61",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -325,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-89a8dbd82a",
+                          "id": "lnk-1cb6e3d2a9",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -378,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-378a4e46cc",
+                          "id": "lnk-8bda481494",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": true,
@@ -411,10 +411,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -429,7 +429,15 @@
                     {
                       "id": "luongson-181d4dbe870b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-aca22eeb67",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -476,7 +484,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a88cb3f0dd",
+                          "id": "lnk-4803304880",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
