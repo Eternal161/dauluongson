@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:01 06/07/2026",
+  "last_updated": "07:11 06/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-2af9f28bc564",
-          "name": "⚽ Huntsville City vs Chicago Flame B | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61473_1gy95z64a120.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56983_1gy3wwapm51d.png?v=2.4.3",
+          "id": "luongson-31727cdc34dc",
+          "name": "⚽ Mexico vs England | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/710_165018908829.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61473_1gy95z64a120.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/710_165018908829.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,23 +34,65 @@
           ],
           "sources": [
             {
-              "id": "luongson-2af9f28bc564",
+              "id": "luongson-31727cdc34dc",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2af9f28bc564",
-                  "name": "Huntsville City vs Chicago Flame B",
+                  "id": "luongson-31727cdc34dc",
+                  "name": "Mexico vs England",
                   "streams": [
                     {
-                      "id": "luongson-2af9f28bc564",
+                      "id": "luongson-31727cdc34dc",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7b32a82981",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-ae0ce7372d",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-979714dfef",
+                          "name": "BLV TRIỆU TỬ LONG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
+                        },
+                        {
+                          "id": "lnk-336698d668",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-8e73e8f4cd",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-f040dd4d84",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-78ffb76b6f",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-3decc8cbfe",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -61,11 +103,11 @@
           ]
         },
         {
-          "id": "luongson-febee9789a60",
-          "name": "⚽ Westchester Sc vs Ac Boise | Không rõ",
-          "tournament": "USL League One",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68702_1jqtyj4xq91e.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
+          "id": "luongson-14108832f50b",
+          "name": "⚽ Cincinnati Ii vs New York Red Bulls B | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16322_1gy3wwapm01s.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,13 +115,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/68702_1jqtyj4xq91e.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live FT 2 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -87,23 +129,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-febee9789a60",
+              "id": "luongson-14108832f50b",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-febee9789a60",
-                  "name": "Westchester Sc vs Ac Boise",
+                  "id": "luongson-14108832f50b",
+                  "name": "Cincinnati Ii vs New York Red Bulls B",
                   "streams": [
                     {
-                      "id": "luongson-febee9789a60",
+                      "id": "luongson-14108832f50b",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-77cc791332",
-                          "name": "BLV KAKA",
+                          "id": "lnk-1bb3d78285",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -152,7 +194,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e4ee9bfa13",
+                          "id": "lnk-5dca908a7b",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -167,8 +209,61 @@
           ]
         },
         {
+          "id": "luongson-febee9789a60",
+          "name": "⚽ Westchester Sc vs Ac Boise | Không rõ",
+          "tournament": "USL League One",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68702_1jqtyj4xq91e.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=AC&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/68702_1jqtyj4xq91e.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-febee9789a60",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-febee9789a60",
+                  "name": "Westchester Sc vs Ac Boise",
+                  "streams": [
+                    {
+                      "id": "luongson-febee9789a60",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-714546bf52",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-203acc6c6610",
-          "name": "⚽ Miami Fc vs Birmingham Legion | Không rõ",
+          "name": "⚽ Miami Fc vs Birmingham Legion | 06:00",
           "tournament": "USL Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/38659_1jstdenywf1v.png?v=2.4.3",
@@ -185,7 +280,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live HT 06:00",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -205,7 +300,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1369407b7b",
+                          "id": "lnk-da875514d3",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -220,11 +315,11 @@
           ]
         },
         {
-          "id": "luongson-be8e4588ceaa",
-          "name": "⚽ Deportes Limache vs San Marcos De Arica | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24723_1gt88fy22y1n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6627_1jr4ewcwd62r.png?v=2.4.3",
+          "id": "luongson-84e803516308",
+          "name": "⚽ Pennsylvania Classics vs Reading United | 06:00",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47041_1h2hfs9j4j2x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12783_1h33g43a9b2f.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -232,13 +327,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24723_1gt88fy22y1n.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/47041_1h2hfs9j4j2x.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 06:00",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -246,30 +341,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-be8e4588ceaa",
+              "id": "luongson-84e803516308",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-be8e4588ceaa",
-                  "name": "Deportes Limache vs San Marcos De Arica",
+                  "id": "luongson-84e803516308",
+                  "name": "Pennsylvania Classics vs Reading United",
                   "streams": [
                     {
-                      "id": "luongson-be8e4588ceaa",
+                      "id": "luongson-84e803516308",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-68a79f5d9f",
-                          "name": "BLV SHIN",
+                          "id": "lnk-a708282c47",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        },
-                        {
-                          "id": "lnk-36fd6d906b",
-                          "name": "BLV MAYBACH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -318,7 +406,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fd6dafd652",
+                          "id": "lnk-ea1920748e",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -333,11 +421,11 @@
           ]
         },
         {
-          "id": "luongson-84e803516308",
-          "name": "⚽ Pennsylvania Classics vs Reading United | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47041_1h2hfs9j4j2x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12783_1h33g43a9b2f.png?v=2.4.3",
+          "id": "luongson-be8e4588ceaa",
+          "name": "⚽ Deportes Limache vs San Marcos De Arica | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24723_1gt88fy22y1n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6627_1jr4ewcwd62r.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -345,113 +433,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47041_1h2hfs9j4j2x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 2 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-84e803516308",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-84e803516308",
-                  "name": "Pennsylvania Classics vs Reading United",
-                  "streams": [
-                    {
-                      "id": "luongson-84e803516308",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c46350b8d4",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-14108832f50b",
-          "name": "⚽ Cincinnati Ii vs New York Red Bulls B | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/16322_1gy3wwapm01s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56999_1gynxgz04m2b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-14108832f50b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-14108832f50b",
-                  "name": "Cincinnati Ii vs New York Red Bulls B",
-                  "streams": [
-                    {
-                      "id": "luongson-14108832f50b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4884be8a23",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-31727cdc34dc",
-          "name": "⚽ Mexico vs England | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/710_165018908829.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/710_165018908829.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/24723_1gt88fy22y1n.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -465,65 +447,83 @@
           ],
           "sources": [
             {
-              "id": "luongson-31727cdc34dc",
+              "id": "luongson-be8e4588ceaa",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-31727cdc34dc",
-                  "name": "Mexico vs England",
+                  "id": "luongson-be8e4588ceaa",
+                  "name": "Deportes Limache vs San Marcos De Arica",
                   "streams": [
                     {
-                      "id": "luongson-31727cdc34dc",
+                      "id": "luongson-be8e4588ceaa",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2a35380901",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-fdc5ffdb83",
+                          "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-f8656ad242",
-                          "name": "BLV TRIỆU TỬ LONG",
+                          "id": "lnk-38932dd0e0",
+                          "name": "BLV SHIN",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TRIEUTULONG/index.m3u8?expire=1788427256&sign=45e4fdc4bdb8472f513ccc78f57f6070"
-                        },
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2af9f28bc564",
+          "name": "⚽ Huntsville City vs Chicago Flame B | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61473_1gy95z64a120.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56983_1gy3wwapm51d.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61473_1gy95z64a120.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2af9f28bc564",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2af9f28bc564",
+                  "name": "Huntsville City vs Chicago Flame B",
+                  "streams": [
+                    {
+                      "id": "luongson-2af9f28bc564",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-16ed804553",
-                          "name": "BLV MÃ SIÊU",
+                          "id": "lnk-2774132f07",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-083cdf7adc",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-5389404eb3",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-858524e0eb",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-2a4d98b516",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -617,7 +617,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a29e2ab3ea",
+                          "id": "lnk-65b4d5a8b1",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
