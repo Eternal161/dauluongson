@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:31 07/07/2026",
+  "last_updated": "19:41 07/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6ea228337e",
+                          "id": "lnk-29655d2023",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         },
                         {
-                          "id": "lnk-1ea7e65d66",
+                          "id": "lnk-12f83999aa",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": false,
@@ -106,11 +106,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c446390303",
+                          "id": "lnk-ea651dfd50",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-af51501f83",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -159,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8763daf98b",
+                          "id": "lnk-ed0f1d8455",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -212,11 +219,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ac87f199b2",
+                          "id": "lnk-c77410706d",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-5f3f208aca",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -290,10 +304,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -308,15 +322,7 @@
                     {
                       "id": "luongson-ab71a7177153",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-781446aa16",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
