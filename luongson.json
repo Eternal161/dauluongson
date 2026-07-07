@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:31 07/07/2026",
+  "last_updated": "11:41 07/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-5e5c53ce7ba7",
-          "name": "⚽ Stars Fc vs Fc Tucson | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1779675080.webp?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18981_202201211617301993.gif?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1779675080.webp?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5e5c53ce7ba7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5e5c53ce7ba7",
-                  "name": "Stars Fc vs Fc Tucson",
-                  "streams": [
-                    {
-                      "id": "luongson-5e5c53ce7ba7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a3c8684f09",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-71fec9b833",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-4da9586bc475",
           "name": "⚽ Irtysh Pavlodar （W） vs Yelimay Semey W | 13:00",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e86d5a7c7f",
+                          "id": "lnk-a687bb69a1",
                           "name": "BLV SD6MWEL7KC9KGMXNNMIT",
                           "type": "hls",
                           "default": true,
@@ -696,6 +636,51 @@
                   "streams": [
                     {
                       "id": "luongson-37247056ec92",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0ee2a3abd03b",
+          "name": "⚽ Kauno Zalgiris vs Kf Drita Gjilan | 23:00",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18298_1gs99xcwgs17.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/31250_1gs1m3cm9g3.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/18298_1gs99xcwgs17.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0ee2a3abd03b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0ee2a3abd03b",
+                  "name": "Kauno Zalgiris vs Kf Drita Gjilan",
+                  "streams": [
+                    {
+                      "id": "luongson-0ee2a3abd03b",
                       "name": "F",
                       "stream_links": []
                     }
