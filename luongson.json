@@ -1,12 +1,118 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:01 08/07/2026",
+  "last_updated": "02:11 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-99784e835ec3",
+          "name": "⚽ Germany (W) U19 vs Austria (W) U19 | Không rõ",
+          "tournament": "European Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4613_1hdftgr47vg.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-99784e835ec3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-99784e835ec3",
+                  "name": "Germany (W) U19 vs Austria (W) U19",
+                  "streams": [
+                    {
+                      "id": "luongson-99784e835ec3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8f48fa648",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7ee605f5d834",
+          "name": "⚽ Ki Klaksvik vs Atert Bissen | 03:26 08/08/145",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4965_1gtqmft1tg3.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/19909_1gy18ermay2c.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4965_1gtqmft1tg3.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7ee605f5d834",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7ee605f5d834",
+                  "name": "Ki Klaksvik vs Atert Bissen",
+                  "streams": [
+                    {
+                      "id": "luongson-7ee605f5d834",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa3783f66d",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-157b9470ab69",
           "name": "⚽ Borac Banja Luka vs Levski Sofia | Không rõ",
@@ -46,78 +152,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-52e76d1c9c",
+                          "id": "lnk-c1cb59370d",
                           "name": "BLV MAYBACH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MAYBACH/index.m3u8?expire=1923468720&sign=862d9b5fa441bf644b6c2fbcec08487b"
                         },
                         {
-                          "id": "lnk-e0072b96a3",
+                          "id": "lnk-19e7277444",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-b8d92999bb",
+                          "id": "lnk-b1ab76e8c7",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-99784e835ec3",
-          "name": "⚽ Germany (W) U19 vs Austria (W) U19 | Không rõ",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4613_1hdftgr47vg.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-99784e835ec3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-99784e835ec3",
-                  "name": "Germany (W) U19 vs Austria (W) U19",
-                  "streams": [
-                    {
-                      "id": "luongson-99784e835ec3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76809118c7",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -146,7 +199,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,11 +219,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6c2efe07ea",
+                          "id": "lnk-4c37b03b05",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-91615f0bfebb",
+          "name": "⚽ Ks Elbasani vs Bate Borisov | Không rõ",
+          "tournament": "UEFA Europa Conference League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3252_1ha8mhx4ws14.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2032_1h51a5wm332r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3252_1ha8mhx4ws14.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-91615f0bfebb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-91615f0bfebb",
+                  "name": "Ks Elbasani vs Bate Borisov",
+                  "streams": [
+                    {
+                      "id": "luongson-91615f0bfebb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-189e2456ca",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -219,184 +325,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8ef804d5f2",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-37fd18c880",
+                          "id": "lnk-06af6f512e",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-91615f0bfebb",
-          "name": "⚽ Ks Elbasani vs Bate Borisov | Không rõ",
-          "tournament": "UEFA Europa Conference League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3252_1ha8mhx4ws14.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2032_1h51a5wm332r.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3252_1ha8mhx4ws14.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-91615f0bfebb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-91615f0bfebb",
-                  "name": "Ks Elbasani vs Bate Borisov",
-                  "streams": [
-                    {
-                      "id": "luongson-91615f0bfebb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b9b870dc7",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8aac51436027",
-          "name": "⚽ Una Strassen vs Sp La Fiorita | Không rõ",
-          "tournament": "UEFA Europa Conference League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/19022_1hw729d4xk1e.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17423_1gq94xybnf26.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/19022_1hw729d4xk1e.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8aac51436027",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8aac51436027",
-                  "name": "Una Strassen vs Sp La Fiorita",
-                  "streams": [
-                    {
-                      "id": "luongson-8aac51436027",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f3bf502cc",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c775ad3936dc",
-          "name": "⚽ Ki Klaksvik vs Atert Bissen | Không rõ",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4965_1gtqmft1tg3.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/19909_1gy18ermay2c.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4965_1gtqmft1tg3.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c775ad3936dc",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c775ad3936dc",
-                  "name": "Ki Klaksvik vs Atert Bissen",
-                  "streams": [
-                    {
-                      "id": "luongson-c775ad3936dc",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00d8044032",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-60e2b1a196",
-                          "name": "BLV GẤU KA",
+                          "id": "lnk-4430194eed",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/GAUKA/index.m3u8?expire=2530553700&sign=778587d85b2551e2baa61a02917ace14"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -425,10 +365,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -443,7 +383,15 @@
                     {
                       "id": "luongson-ca018c9ba711",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-63d0bf364b",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -453,7 +401,7 @@
         },
         {
           "id": "luongson-ada0da7f1482",
-          "name": "⚽ Vikingur Reykjavik vs Gyori Eto | 02:00",
+          "name": "⚽ Vikingur Reykjavik vs Gyori Eto | Không rõ",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/3494_1k3yxtsj6e1h.png?v=2.4.3",
@@ -470,7 +418,7 @@
           },
           "labels": [
             {
-              "text": "● Live 02:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -490,25 +438,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c9eef1109f",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-e7df9a08d4",
+                          "id": "lnk-1f03fb016e",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-6e1cc41a6e",
+                          "id": "lnk-f89632f4ed",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-a5af5f2b1c",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
