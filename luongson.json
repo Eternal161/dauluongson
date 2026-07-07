@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:21 07/07/2026",
+  "last_updated": "12:31 07/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-2fcf6ada34ee",
+          "name": "⚽ Uruguay vs Tây Ban Nha | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783401797.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783401801.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783401797.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2fcf6ada34ee",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2fcf6ada34ee",
+                  "name": "Uruguay vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "luongson-2fcf6ada34ee",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3bea003335",
+                          "name": "BLV KAKA REPLAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-4da9586bc475",
           "name": "⚽ Irtysh Pavlodar （W） vs Yelimay Semey W | 13:00",
@@ -46,58 +99,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-84f25f004d",
+                          "id": "lnk-a9da62802a",
                           "name": "BLV SD6MWEL7KC9KGMXNNMIT",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6MweL7kc9KgMxnNMit/playlist.m3u8"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-593ad5d2ec15",
-          "name": "⚽ Charlestown Azzurri Reserves vs Weston Workers Reserves | 15:00",
-          "tournament": "Australia Northern NSW Reserves League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/45167_1gwbdfbey7w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45081_1gvqg1fxy42p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/45167_1gwbdfbey7w.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-593ad5d2ec15",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-593ad5d2ec15",
-                  "name": "Charlestown Azzurri Reserves vs Weston Workers Reserves",
-                  "streams": [
-                    {
-                      "id": "luongson-593ad5d2ec15",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -141,6 +149,51 @@
                   "streams": [
                     {
                       "id": "luongson-147453669f53",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-593ad5d2ec15",
+          "name": "⚽ Charlestown Azzurri Reserves vs Weston Workers Reserves | 15:00",
+          "tournament": "Australia Northern NSW Reserves League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/45167_1gwbdfbey7w.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/45081_1gvqg1fxy42p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/45167_1gwbdfbey7w.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-593ad5d2ec15",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-593ad5d2ec15",
+                  "name": "Charlestown Azzurri Reserves vs Weston Workers Reserves",
+                  "streams": [
+                    {
+                      "id": "luongson-593ad5d2ec15",
                       "name": "F",
                       "stream_links": []
                     }
@@ -636,51 +689,6 @@
                   "streams": [
                     {
                       "id": "luongson-37247056ec92",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0ee2a3abd03b",
-          "name": "⚽ Kauno Zalgiris vs Kf Drita Gjilan | 23:00",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/18298_1gs99xcwgs17.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/31250_1gs1m3cm9g3.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/18298_1gs99xcwgs17.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0ee2a3abd03b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0ee2a3abd03b",
-                  "name": "Kauno Zalgiris vs Kf Drita Gjilan",
-                  "streams": [
-                    {
-                      "id": "luongson-0ee2a3abd03b",
                       "name": "F",
                       "stream_links": []
                     }
