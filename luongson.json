@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:01 07/07/2026",
+  "last_updated": "22:11 07/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8d2dae6cbc",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-989307659e",
+                          "id": "lnk-a756c534cd",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-3cf87224c0",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -113,11 +113,11 @@
           ]
         },
         {
-          "id": "luongson-596cb53451b6",
-          "name": "⚽ Fc Viktoria Plzen vs Fc Copenhagen | 23:00",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2121_1h6wfe05881f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/203_1gtqm082h92c.png?v=2.4.3",
+          "id": "luongson-37247056ec92",
+          "name": "⚽ Fc Ararat Armenia vs Riga Fc | 23:00",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/31044_1h56c4f7vg15.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -125,7 +125,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2121_1h6wfe05881f.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/31044_1h56c4f7vg15.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -139,15 +139,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-596cb53451b6",
+              "id": "luongson-37247056ec92",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-596cb53451b6",
-                  "name": "Fc Viktoria Plzen vs Fc Copenhagen",
+                  "id": "luongson-37247056ec92",
+                  "name": "Fc Ararat Armenia vs Riga Fc",
                   "streams": [
                     {
-                      "id": "luongson-596cb53451b6",
+                      "id": "luongson-37247056ec92",
                       "name": "F",
                       "stream_links": []
                     }
@@ -248,7 +248,7 @@
           ]
         },
         {
-          "id": "luongson-0ee2a3abd03b",
+          "id": "luongson-7d68263850da",
           "name": "⚽ Kauno Zalgiris vs Kf Drita Gjilan | 23:00",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/18298_1gs99xcwgs17.png?v=2.4.3",
@@ -266,70 +266,33 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-0ee2a3abd03b",
+              "id": "luongson-7d68263850da",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-0ee2a3abd03b",
+                  "id": "luongson-7d68263850da",
                   "name": "Kauno Zalgiris vs Kf Drita Gjilan",
                   "streams": [
                     {
-                      "id": "luongson-0ee2a3abd03b",
+                      "id": "luongson-7d68263850da",
                       "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-37247056ec92",
-          "name": "⚽ Fc Ararat Armenia vs Riga Fc | 23:00",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/31044_1h56c4f7vg15.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/31044_1h56c4f7vg15.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-37247056ec92",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-37247056ec92",
-                  "name": "Fc Ararat Armenia vs Riga Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-37247056ec92",
-                      "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a95ba9863",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -563,51 +526,6 @@
           ]
         },
         {
-          "id": "luongson-624562560bc7",
-          "name": "⚽ Tre Fiori vs Larne Fc | 01:30",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9454_1gq94xybnxe.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1412_1gq1ff34cc28.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9454_1gq94xybnxe.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-624562560bc7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-624562560bc7",
-                  "name": "Tre Fiori vs Larne Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-624562560bc7",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-157b9470ab69",
           "name": "⚽ Borac Banja Luka vs Levski Sofia | 01:30",
           "tournament": "UEFA Champions League",
@@ -653,6 +571,51 @@
           ]
         },
         {
+          "id": "luongson-624562560bc7",
+          "name": "⚽ Tre Fiori vs Larne Fc | 01:30",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9454_1gq94xybnxe.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1412_1gq1ff34cc28.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9454_1gq94xybnxe.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-624562560bc7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-624562560bc7",
+                  "name": "Tre Fiori vs Larne Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-624562560bc7",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-c775ad3936dc",
           "name": "⚽ Ki Klaksvik vs Atert Bissen | 01:45",
           "tournament": "UEFA Champions League",
@@ -688,6 +651,51 @@
                   "streams": [
                     {
                       "id": "luongson-c775ad3936dc",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ada0da7f1482",
+          "name": "⚽ Vikingur Reykjavik vs Gyori Eto | 02:00",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3494_1k3yxtsj6e1h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1403_1k0jqr6cf82v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ada0da7f1482",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ada0da7f1482",
+                  "name": "Vikingur Reykjavik vs Gyori Eto",
+                  "streams": [
+                    {
+                      "id": "luongson-ada0da7f1482",
                       "name": "F",
                       "stream_links": []
                     }
