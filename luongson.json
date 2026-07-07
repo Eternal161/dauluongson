@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:01 07/07/2026",
+  "last_updated": "18:11 07/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-72e2cecb9f36",
-          "name": "⚽ North Sunshine Eagles vs Preston Lions | Không rõ",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11687_1gvs76tvye1v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
+          "id": "luongson-6ee492909fd6",
+          "name": "⚽ Kspo Fc (W) vs Suwon Fmc (W) | Không rõ",
+          "tournament": "WK League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/14751_201332443306.jpg?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11687_1gvs76tvye1v.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/14751_201332443306.jpg?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,30 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-72e2cecb9f36",
+              "id": "luongson-6ee492909fd6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-72e2cecb9f36",
-                  "name": "North Sunshine Eagles vs Preston Lions",
+                  "id": "luongson-6ee492909fd6",
+                  "name": "Kspo Fc (W) vs Suwon Fmc (W)",
                   "streams": [
                     {
-                      "id": "luongson-72e2cecb9f36",
+                      "id": "luongson-6ee492909fd6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ce124a0bfb",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-d95a8399a2",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-0ae552af6f",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -106,18 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8bc1fcaf98",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        },
-                        {
-                          "id": "lnk-0baae44429",
+                          "id": "lnk-94b54bc046",
                           "name": "BLV PELE",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-1185fefe73",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -146,7 +139,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,21 +159,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7187f9eefe",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-343acd2380",
+                          "id": "lnk-e68e5964b1",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-fdcc82edff",
+                          "id": "lnk-21bf5cd770",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
@@ -195,11 +181,11 @@
           ]
         },
         {
-          "id": "luongson-6ee492909fd6",
-          "name": "⚽ Kspo Fc (W) vs Suwon Fmc (W) | Không rõ",
-          "tournament": "WK League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/14751_201332443306.jpg?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
+          "id": "luongson-72e2cecb9f36",
+          "name": "⚽ North Sunshine Eagles vs Preston Lions | Không rõ",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11687_1gvs76tvye1v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -207,31 +193,46 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/14751_201332443306.jpg?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/11687_1gvs76tvye1v.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-6ee492909fd6",
+              "id": "luongson-72e2cecb9f36",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-6ee492909fd6",
-                  "name": "Kspo Fc (W) vs Suwon Fmc (W)",
+                  "id": "luongson-72e2cecb9f36",
+                  "name": "North Sunshine Eagles vs Preston Lions",
                   "streams": [
                     {
-                      "id": "luongson-6ee492909fd6",
+                      "id": "luongson-72e2cecb9f36",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7b758d3b5e",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-f3eaec9d23",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -240,8 +241,8 @@
           ]
         },
         {
-          "id": "luongson-c01132d13ea2",
-          "name": "⚽ Gold Coast Knights vs Queensland Lions Sc | 03:26 08/07/1630",
+          "id": "luongson-55b3ceac51c1",
+          "name": "⚽ Gold Coast Knights vs Queensland Lions Sc | Không rõ",
           "tournament": "QLD Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
@@ -266,23 +267,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-c01132d13ea2",
+              "id": "luongson-55b3ceac51c1",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c01132d13ea2",
+                  "id": "luongson-55b3ceac51c1",
                   "name": "Gold Coast Knights vs Queensland Lions Sc",
                   "streams": [
                     {
-                      "id": "luongson-c01132d13ea2",
+                      "id": "luongson-55b3ceac51c1",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a9a3a8ba80",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-fee0091501",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-59990a4042",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -331,7 +339,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a4d0a396c5",
+                          "id": "lnk-c6f6dda3d7",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -499,10 +507,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -517,15 +525,7 @@
                     {
                       "id": "luongson-ab71a7177153",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7ec4b0a34",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
