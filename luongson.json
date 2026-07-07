@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:31 07/07/2026",
+  "last_updated": "16:41 07/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-55b3ceac51c1",
-          "name": "⚽ Gold Coast Knights vs Queensland Lions Sc | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
+          "id": "luongson-147453669f53",
+          "name": "⚽ Basilan Steel vs Marikina Shoemasters | 03:26 08/07/1500",
+          "tournament": "MPBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783370533.webp?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783370534.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,60 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783370533.webp?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-147453669f53",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-147453669f53",
+                  "name": "Basilan Steel vs Marikina Shoemasters",
+                  "streams": [
+                    {
+                      "id": "luongson-147453669f53",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-449213169f",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-72e2cecb9f36",
+          "name": "⚽ North Sunshine Eagles vs Preston Lions | Không rõ",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11687_1gvs76tvye1v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11687_1gvs76tvye1v.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,30 +87,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-55b3ceac51c1",
+              "id": "luongson-72e2cecb9f36",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-55b3ceac51c1",
-                  "name": "Gold Coast Knights vs Queensland Lions Sc",
+                  "id": "luongson-72e2cecb9f36",
+                  "name": "North Sunshine Eagles vs Preston Lions",
                   "streams": [
                     {
-                      "id": "luongson-55b3ceac51c1",
+                      "id": "luongson-72e2cecb9f36",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3d3960d6ce",
-                          "name": "BLV KAKA",
+                          "id": "lnk-6bc8a2d796",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-e49ecbaca0",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-646f221c97",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -106,14 +159,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6479c218a4",
+                          "id": "lnk-59549523b2",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-1ec61ffa29",
+                          "id": "lnk-cb59ba104d",
                           "name": "BLV GẤU KA",
                           "type": "hls",
                           "default": false,
@@ -128,11 +181,11 @@
           ]
         },
         {
-          "id": "luongson-147453669f53",
-          "name": "⚽ Basilan Steel vs Marikina Shoemasters | 03:26 08/07/1500",
-          "tournament": "MPBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783370533.webp?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783370534.png?v=2.4.3",
+          "id": "luongson-c01132d13ea2",
+          "name": "⚽ Gold Coast Knights vs Queensland Lions Sc | 03:26 08/07/1630",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11673_1gryyqvhkg2.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -140,13 +193,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783370533.webp?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/29208_1gryyqvj2y1r.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live H1 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -154,23 +207,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-147453669f53",
+              "id": "luongson-c01132d13ea2",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-147453669f53",
-                  "name": "Basilan Steel vs Marikina Shoemasters",
+                  "id": "luongson-c01132d13ea2",
+                  "name": "Gold Coast Knights vs Queensland Lions Sc",
                   "streams": [
                     {
-                      "id": "luongson-147453669f53",
+                      "id": "luongson-c01132d13ea2",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b6ada23165",
-                          "name": "BLV SHIN",
+                          "id": "lnk-929f4e5acd",
+                          "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         }
                       ]
                     }
@@ -226,66 +279,6 @@
           ]
         },
         {
-          "id": "luongson-72e2cecb9f36",
-          "name": "⚽ North Sunshine Eagles vs Preston Lions | 16:45",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11687_1gvs76tvye1v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11687_1gvs76tvye1v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 16:45",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-72e2cecb9f36",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-72e2cecb9f36",
-                  "name": "North Sunshine Eagles vs Preston Lions",
-                  "streams": [
-                    {
-                      "id": "luongson-72e2cecb9f36",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f4abfc04ec",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-2f8ce0c25b",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-6e9c0af80ade",
           "name": "⚽ The Cove Fc vs Modbury Jets | 17:00",
           "tournament": "South Australian Premier League",
@@ -324,10 +317,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-94b5f3486e",
-                          "name": "BLV HÀN TÍN",
+                          "id": "lnk-ab87aa4b20",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-231331120b",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
@@ -377,7 +377,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5f1c2ab4e3",
+                          "id": "lnk-140dad4369",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -500,10 +500,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 19:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -518,7 +518,15 @@
                     {
                       "id": "luongson-c4eb51a2bd2a",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7e9be976ac",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
                     }
                   ]
                 }
