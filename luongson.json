@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:11 08/07/2026",
+  "last_updated": "22:21 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-9389692a23a8",
-          "name": "⚽ Denmark U19 vs Italy U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1288_165750299841.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9389692a23a8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9389692a23a8",
-                  "name": "Denmark U19 vs Italy U19",
-                  "streams": [
-                    {
-                      "id": "luongson-9389692a23a8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-157ee849dd",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-321e5085b29a",
           "name": "⚽ Fc Kairat Almaty vs Fk Sutjeska Niksic | Không rõ",
@@ -99,18 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-481a4f65b3",
+                          "id": "lnk-49d1784f8c",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-b85e88fff6",
+                          "id": "lnk-760cb69295",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9389692a23a8",
+          "name": "⚽ Denmark U19 vs Italy U19 | Không rõ",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1288_165750299841.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3594_165750011548.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9389692a23a8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9389692a23a8",
+                  "name": "Denmark U19 vs Italy U19",
+                  "streams": [
+                    {
+                      "id": "luongson-9389692a23a8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c60e508dbe",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -159,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b069a16c92",
+                          "id": "lnk-0c0d867e1d",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -372,10 +372,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -390,7 +390,15 @@
                     {
                       "id": "luongson-a5ee34cdf50b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-292a68824d",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
