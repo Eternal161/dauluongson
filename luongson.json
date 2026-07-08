@@ -1,12 +1,132 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:21 09/07/2026",
+  "last_updated": "00:31 09/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-bfae6fd20c3d",
+          "name": "⚽ Fc Flora Tallinn vs Fc Iberia 1999 Tbilisi | Không rõ",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/19599_1j1e9frnyg16.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bfae6fd20c3d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bfae6fd20c3d",
+                  "name": "Fc Flora Tallinn vs Fc Iberia 1999 Tbilisi",
+                  "streams": [
+                    {
+                      "id": "luongson-bfae6fd20c3d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-466edf7976",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-c853b5134e",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b75ebece9fcd",
+          "name": "⚽ Cs Petrocub vs Egnatia | Không rõ",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3408_1h576e9phny.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b75ebece9fcd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b75ebece9fcd",
+                  "name": "Cs Petrocub vs Egnatia",
+                  "streams": [
+                    {
+                      "id": "luongson-b75ebece9fcd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8363035c24",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-a8d31031c2",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-392b50473572",
           "name": "⚽ Connahs Quay Nomads Fc vs Fc Ballkani | Không rõ",
@@ -46,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-38ce9cb186",
+                          "id": "lnk-78345364fc",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -99,138 +219,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b3a25e72d3",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-f6295ea998",
+                          "id": "lnk-d495922604",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a5ee34cdf50b",
-          "name": "⚽ Ml Vitebsk vs Cs Universitatea Craiova | Không rõ",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44671_1gwy1c0s131t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/13229_1hbcs9m1a2t.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/44671_1gwy1c0s131t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a5ee34cdf50b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a5ee34cdf50b",
-                  "name": "Ml Vitebsk vs Cs Universitatea Craiova",
-                  "streams": [
-                    {
-                      "id": "luongson-a5ee34cdf50b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ba3a786fa6",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-b3b1b143de",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-3dac73e1a4",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bfae6fd20c3d",
-          "name": "⚽ Fc Flora Tallinn vs Fc Iberia 1999 Tbilisi | Không rõ",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/19599_1j1e9frnyg16.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bfae6fd20c3d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bfae6fd20c3d",
-                  "name": "Fc Flora Tallinn vs Fc Iberia 1999 Tbilisi",
-                  "streams": [
-                    {
-                      "id": "luongson-bfae6fd20c3d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-65e96cf85d",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-1d26c46d40",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -279,7 +279,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9581b0b0ee",
+                          "id": "lnk-a5eb792153",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -294,71 +294,11 @@
           ]
         },
         {
-          "id": "luongson-b41cffc8b05a",
-          "name": "⚽ Spain U19 vs Croatia U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b41cffc8b05a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b41cffc8b05a",
-                  "name": "Spain U19 vs Croatia U19",
-                  "streams": [
-                    {
-                      "id": "luongson-b41cffc8b05a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23a9ff9dd9",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-bd720ad2f0",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b75ebece9fcd",
-          "name": "⚽ Cs Petrocub vs Egnatia | Không rõ",
+          "id": "luongson-a5ee34cdf50b",
+          "name": "⚽ Ml Vitebsk vs Cs Universitatea Craiova | Không rõ",
           "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3408_1h576e9phny.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44671_1gwy1c0s131t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/13229_1hbcs9m1a2t.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -366,13 +306,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/44671_1gwy1c0s131t.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -380,30 +320,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-b75ebece9fcd",
+              "id": "luongson-a5ee34cdf50b",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b75ebece9fcd",
-                  "name": "Cs Petrocub vs Egnatia",
+                  "id": "luongson-a5ee34cdf50b",
+                  "name": "Ml Vitebsk vs Cs Universitatea Craiova",
                   "streams": [
                     {
-                      "id": "luongson-b75ebece9fcd",
+                      "id": "luongson-a5ee34cdf50b",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-acf70cc10f",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-b0f7f712f2",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-a0b74dfab6",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-a281013727",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -522,10 +462,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 01:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -540,7 +480,15 @@
                     {
                       "id": "luongson-37e4802c8882",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7275ee122c",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -567,10 +515,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 01:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -585,7 +533,15 @@
                     {
                       "id": "luongson-37e8b622c87b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4dc0c486f6",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -632,7 +588,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1fd251ba1d",
+                          "id": "lnk-249a2f5e43",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -772,6 +728,51 @@
                   "streams": [
                     {
                       "id": "luongson-b7e436ff71e2",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3f85285e6c71",
+          "name": "⚽ Hartford Athletic vs Orange County Blues Fc | 06:00",
+          "tournament": "USL Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/38932_1gytye1xp64.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/14776_1jsqvnqx9d32.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/38932_1gytye1xp64.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3f85285e6c71",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3f85285e6c71",
+                  "name": "Hartford Athletic vs Orange County Blues Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-3f85285e6c71",
                       "name": "F",
                       "stream_links": []
                     }
