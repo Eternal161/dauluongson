@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:31 08/07/2026",
+  "last_updated": "14:41 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-0ef92942a06c",
-          "name": "⚽ Uruguay vs Tây Ban Nha | 03:26 08/08/1100",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485062.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485081.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485062.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live H1 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0ef92942a06c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0ef92942a06c",
-                  "name": "Uruguay vs Tây Ban Nha",
-                  "streams": [
-                    {
-                      "id": "luongson-0ef92942a06c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15cf2f4306",
-                          "name": "BLV KAKA REPLAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TO6A/index.m3u8?expire=1891408380&sign=df6b95775ca8cf6b58a17d54271d96e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-1034caa89eb3",
           "name": "⚽ Guizhou Xufengtang vs Guangzhou Zhicheng | Không rõ",
@@ -99,18 +46,124 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2d6ecb74e6",
+                          "id": "lnk-8f2ae4fc3f",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         },
                         {
-                          "id": "lnk-0cbf0d81ee",
+                          "id": "lnk-4e28532c20",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d388dd7cd8a2",
+          "name": "⚽ Yan An Ronghai vs Dalian Kewei | Không rõ",
+          "tournament": "Chinese Football Association Yi League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d388dd7cd8a2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d388dd7cd8a2",
+                  "name": "Yan An Ronghai vs Dalian Kewei",
+                  "streams": [
+                    {
+                      "id": "luongson-d388dd7cd8a2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b4c8f9f4ba",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0ef92942a06c",
+          "name": "⚽ Uruguay vs Tây Ban Nha | 03:26 08/08/1100",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485062.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485081.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485062.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0ef92942a06c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0ef92942a06c",
+                  "name": "Uruguay vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "luongson-0ef92942a06c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d673019538",
+                          "name": "BLV KAKA REPLAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO6A/index.m3u8?expire=1891408380&sign=df6b95775ca8cf6b58a17d54271d96e3"
                         }
                       ]
                     }
@@ -139,10 +192,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -157,52 +210,15 @@
                     {
                       "id": "luongson-515445ef1c6c",
                       "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d388dd7cd8a2",
-          "name": "⚽ Yan An Ronghai vs Dalian Kewei | 15:00",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d388dd7cd8a2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d388dd7cd8a2",
-                  "name": "Yan An Ronghai vs Dalian Kewei",
-                  "streams": [
-                    {
-                      "id": "luongson-d388dd7cd8a2",
-                      "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad5fef1b36",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -519,7 +535,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-88fd067c47",
+                          "id": "lnk-e002c87b18",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
