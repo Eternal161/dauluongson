@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:01 08/07/2026",
+  "last_updated": "17:11 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-adf53d204e33",
-          "name": "⚽ Canton United vs Chongqing Handa | Không rõ",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486390.webp?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65885_1j0swys7t26.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486390.webp?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-adf53d204e33",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-adf53d204e33",
-                  "name": "Canton United vs Chongqing Handa",
-                  "streams": [
-                    {
-                      "id": "luongson-adf53d204e33",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff04b1babb",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-42b383b39cc2",
           "name": "⚽ Zwekapin Fc (W) vs Ayeyawady Utd (W) | Không rõ",
@@ -99,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ed7b2a8923",
+                          "id": "lnk-d6e0d97193",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-e23f270408",
+                          "id": "lnk-ff2056fe8e",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
@@ -139,7 +86,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -159,18 +106,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d58d9ceb1b",
+                          "id": "lnk-cd40f9d35b",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-8090d67b5e",
+                          "id": "lnk-d7bf0a63ab",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-adf53d204e33",
+          "name": "⚽ Canton United vs Chongqing Handa | Không rõ",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486390.webp?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65885_1j0swys7t26.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486390.webp?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-adf53d204e33",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-adf53d204e33",
+                  "name": "Canton United vs Chongqing Handa",
+                  "streams": [
+                    {
+                      "id": "luongson-adf53d204e33",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b42a75e886",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -219,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-89a285ccef",
+                          "id": "lnk-b1abcd4abe",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -362,7 +362,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ffa16cef00",
+                          "id": "lnk-b62e5ad89b",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
