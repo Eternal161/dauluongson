@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:21 08/07/2026",
+  "last_updated": "20:31 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-42896526f64f",
-          "name": "⚽ Hangzhou Linping Wuyue vs Jiangxi Liansheng Fc | Không rõ",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/62261_1hyse2yvqp11.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17126_1hrgchqnb01z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/62261_1hyse2yvqp11.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-42896526f64f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-42896526f64f",
-                  "name": "Hangzhou Linping Wuyue vs Jiangxi Liansheng Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-42896526f64f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53d97b0dc3",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-3297afd210",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-9389692a23a8",
           "name": "⚽ Denmark U19 vs Italy U19 | Không rõ",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d7f31479ac",
+                          "id": "lnk-cd47987d13",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
@@ -159,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f12b505808",
+                          "id": "lnk-015d31b6b0",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -704,6 +644,51 @@
                   "streams": [
                     {
                       "id": "luongson-37e8b622c87b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-99e06c45d838",
+          "name": "⚽ Saint Lauren vs Forge Fc | 02:00",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-99e06c45d838",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-99e06c45d838",
+                  "name": "Saint Lauren vs Forge Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-99e06c45d838",
                       "name": "F",
                       "stream_links": []
                     }
