@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:21 08/07/2026",
+  "last_updated": "15:31 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-d388dd7cd8a2",
-          "name": "⚽ Yan An Ronghai vs Dalian Kewei | Không rõ",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
+          "id": "luongson-1034caa89eb3",
+          "name": "⚽ Guizhou Xufengtang vs Guangzhou Zhicheng | Không rõ",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486281.webp?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-d388dd7cd8a2",
+              "id": "luongson-1034caa89eb3",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d388dd7cd8a2",
-                  "name": "Yan An Ronghai vs Dalian Kewei",
+                  "id": "luongson-1034caa89eb3",
+                  "name": "Guizhou Xufengtang vs Guangzhou Zhicheng",
                   "streams": [
                     {
-                      "id": "luongson-d388dd7cd8a2",
+                      "id": "luongson-1034caa89eb3",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-95536a1032",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-c9273ba9d9",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-9f33c00504",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -99,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5be551d3d9",
+                          "id": "lnk-d3df845718",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -114,11 +121,11 @@
           ]
         },
         {
-          "id": "luongson-1034caa89eb3",
-          "name": "⚽ Guizhou Xufengtang vs Guangzhou Zhicheng | Không rõ",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486281.webp?v=2.4.3",
+          "id": "luongson-d388dd7cd8a2",
+          "name": "⚽ Yan An Ronghai vs Dalian Kewei | Không rõ",
+          "tournament": "Chinese Football Association Yi League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -126,13 +133,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64768_1hs0qh9ez99.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -140,30 +147,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-1034caa89eb3",
+              "id": "luongson-d388dd7cd8a2",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-1034caa89eb3",
-                  "name": "Guizhou Xufengtang vs Guangzhou Zhicheng",
+                  "id": "luongson-d388dd7cd8a2",
+                  "name": "Yan An Ronghai vs Dalian Kewei",
                   "streams": [
                     {
-                      "id": "luongson-1034caa89eb3",
+                      "id": "luongson-d388dd7cd8a2",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-40953e732b",
-                          "name": "BLV PELE",
+                          "id": "lnk-30beece4d6",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        },
-                        {
-                          "id": "lnk-3437117b4a",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -212,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-18520c23a8",
+                          "id": "lnk-82f6de0f5b",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -245,10 +245,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -263,7 +263,15 @@
                     {
                       "id": "luongson-adf53d204e33",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-929301c8db",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -535,7 +543,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1305351468",
+                          "id": "lnk-6a8336fed7",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
