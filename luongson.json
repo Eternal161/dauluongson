@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:01 08/07/2026",
+  "last_updated": "19:11 08/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,10 +46,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b74f3d386d",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-0a19feda78",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-f275cbd7c5",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
@@ -144,7 +151,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8eca67972b",
+                          "id": "lnk-7e0ba4d171",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -222,10 +229,10 @@
           },
           "labels": [
             {
-              "text": "● Live 23:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -240,15 +247,7 @@
                     {
                       "id": "luongson-bfae6fd20c3d",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08287f9182",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
