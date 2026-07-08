@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:51 08/07/2026",
+  "last_updated": "16:01 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-d388dd7cd8a2",
-          "name": "⚽ Yan An Ronghai vs Dalian Kewei | Không rõ",
-          "tournament": "Chinese Football Association Yi League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d388dd7cd8a2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d388dd7cd8a2",
-                  "name": "Yan An Ronghai vs Dalian Kewei",
-                  "streams": [
-                    {
-                      "id": "luongson-d388dd7cd8a2",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97e1e329ce",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-515445ef1c6c",
           "name": "⚽ Manila Batang Quiapo vs Binan Tatak Gel | 03:26 08/08/1500",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-99de064a9e",
+                          "id": "lnk-3c2eb3620c",
                           "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
@@ -132,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,18 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dd90243f41",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        },
-                        {
-                          "id": "lnk-bdf2028c26",
+                          "id": "lnk-0c1abb9212",
                           "name": "BLV LIO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-a3999b2404",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d388dd7cd8a2",
+          "name": "⚽ Yan An Ronghai vs Dalian Kewei | Không rõ",
+          "tournament": "Chinese Football Association Yi League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/60083_1jrcx9hjze2z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d388dd7cd8a2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d388dd7cd8a2",
+                  "name": "Yan An Ronghai vs Dalian Kewei",
+                  "streams": [
+                    {
+                      "id": "luongson-d388dd7cd8a2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7f0431217",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -212,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e2a54664ab",
+                          "id": "lnk-86d3870576",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e4c6ff85f3",
+                          "id": "lnk-9924e3e319",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -298,10 +298,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -316,7 +316,15 @@
                     {
                       "id": "luongson-42b383b39cc2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1b1ba5b12",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -543,7 +551,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e398aabf6b",
+                          "id": "lnk-ca02c43789",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
