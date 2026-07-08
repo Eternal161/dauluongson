@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:31 09/07/2026",
+  "last_updated": "02:41 09/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-011fc86e2b25",
-          "name": "⚽ Saint Lauren vs Forge Fc | 03:26 08/09/200",
-          "tournament": "Canadian Championship",
-          "logo_nha": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-011fc86e2b25",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-011fc86e2b25",
-                  "name": "Saint Lauren vs Forge Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-011fc86e2b25",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed78fbc3b7",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-37e8b622c87b",
           "name": "⚽ Santos (Youth) vs Botafogo Rj (Youth) | Không rõ",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b515110db8",
+                          "id": "lnk-eaf209d336",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -152,11 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ddb02c5347",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-e65ac9a68b",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-ef651c190d",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-011fc86e2b25",
+          "name": "⚽ Saint Lauren vs Forge Fc | 03:26 08/09/200",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39671_1gzz88n8wd13.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-011fc86e2b25",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-011fc86e2b25",
+                  "name": "Saint Lauren vs Forge Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-011fc86e2b25",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-943b5daf8b",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
