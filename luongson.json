@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:01 08/07/2026",
+  "last_updated": "14:11 08/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6d2221e8ab",
+                          "id": "lnk-28606da270",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -79,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 14:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -97,7 +97,15 @@
                     {
                       "id": "luongson-1034caa89eb3",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3d5e7322c",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -504,7 +512,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-26dea5d877",
+                          "id": "lnk-11835d9832",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
