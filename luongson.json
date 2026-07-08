@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:41 09/07/2026",
+  "last_updated": "02:51 09/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 3 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,71 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eaf209d336",
+                          "id": "lnk-b2c25ccd4a",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-64a210afe314",
-          "name": "⚽ Ukraine U19 vs Germany U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-64a210afe314",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-64a210afe314",
-                  "name": "Ukraine U19 vs Germany U19",
-                  "streams": [
-                    {
-                      "id": "luongson-64a210afe314",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e65ac9a68b",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-ef651c190d",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -159,11 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-943b5daf8b",
+                          "id": "lnk-8272180c08",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-64a210afe314",
+          "name": "⚽ Ukraine U19 vs Germany U19 | Không rõ",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1929_1gw4ahja8g2k.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-64a210afe314",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-64a210afe314",
+                  "name": "Ukraine U19 vs Germany U19",
+                  "streams": [
+                    {
+                      "id": "luongson-64a210afe314",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d36e0fb4bb",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-0c7fa3cddf",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
