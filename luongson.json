@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:01 08/07/2026",
+  "last_updated": "16:11 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-515445ef1c6c",
-          "name": "⚽ Manila Batang Quiapo vs Binan Tatak Gel | 03:26 08/08/1500",
-          "tournament": "MPBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783455001.webp?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783455003.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783455001.webp?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live H1 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-515445ef1c6c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-515445ef1c6c",
-                  "name": "Manila Batang Quiapo vs Binan Tatak Gel",
-                  "streams": [
-                    {
-                      "id": "luongson-515445ef1c6c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c2eb3620c",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-1034caa89eb3",
           "name": "⚽ Guizhou Xufengtang vs Guangzhou Zhicheng | Không rõ",
@@ -99,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0c1abb9212",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-a3999b2404",
+                          "id": "lnk-81277cd615",
                           "name": "BLV PELE",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-9f57e1372d",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -139,7 +86,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -159,11 +106,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f7f0431217",
+                          "id": "lnk-191553132e",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-515445ef1c6c",
+          "name": "⚽ Manila Batang Quiapo vs Binan Tatak Gel | 03:26 08/08/1500",
+          "tournament": "MPBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783455001.webp?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783455003.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783455001.webp?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-515445ef1c6c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-515445ef1c6c",
+                  "name": "Manila Batang Quiapo vs Binan Tatak Gel",
+                  "streams": [
+                    {
+                      "id": "luongson-515445ef1c6c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c5b5166e9",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
                         }
                       ]
                     }
@@ -212,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86d3870576",
+                          "id": "lnk-265f8bc764",
                           "name": "BLV KAKA REPLAY",
                           "type": "hls",
                           "default": true,
@@ -228,7 +228,7 @@
         },
         {
           "id": "luongson-adf53d204e33",
-          "name": "⚽ Canton United vs Chongqing Handa | 16:00",
+          "name": "⚽ Canton United vs Chongqing Handa | Không rõ",
           "tournament": "Chinese Champions League",
           "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486390.webp?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65885_1j0swys7t26.png?v=2.4.3",
@@ -245,7 +245,7 @@
           },
           "labels": [
             {
-              "text": "● Live 16:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9924e3e319",
+                          "id": "lnk-468289903d",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -318,10 +318,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b1b1ba5b12",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-5e38ef557a",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-a08032c0c4",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
@@ -551,7 +558,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ca02c43789",
+                          "id": "lnk-f530a032de",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
