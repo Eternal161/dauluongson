@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:11 08/07/2026",
+  "last_updated": "08:21 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-ec0671dc39f0",
+          "name": "⚽ Texoma vs Denton Diablos Fc | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68490_1jpkj5zrpwr.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39708_1gzsy16dgwc.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/68490_1jpkj5zrpwr.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 3 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ec0671dc39f0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ec0671dc39f0",
+                  "name": "Texoma vs Denton Diablos Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-ec0671dc39f0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd9517a04a",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-f5fa1f4867",
+                          "name": "BLV SHIN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-6099c6ddc260",
           "name": "⚽ New York Liberty W vs Dallas Wings W | 03:26 08/08/700",
@@ -46,71 +106,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-34bbfb5a93",
+                          "id": "lnk-23b9904618",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ec0671dc39f0",
-          "name": "⚽ Texoma vs Denton Diablos Fc | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/68490_1jpkj5zrpwr.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39708_1gzsy16dgwc.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/68490_1jpkj5zrpwr.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ec0671dc39f0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ec0671dc39f0",
-                  "name": "Texoma vs Denton Diablos Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-ec0671dc39f0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f6026425c",
-                          "name": "BLV SHIN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
-                        },
-                        {
-                          "id": "lnk-b35c160c82",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -159,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6934f6cd5b",
+                          "id": "lnk-e85fafd083",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
