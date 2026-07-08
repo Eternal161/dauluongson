@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:31 08/07/2026",
+  "last_updated": "11:41 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-0ef92942a06c",
+          "name": "⚽ Uruguay vs Tây Ban Nha | 03:26 08/08/1100",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485062.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485081.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783485062.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0ef92942a06c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0ef92942a06c",
+                  "name": "Uruguay vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "luongson-0ef92942a06c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a9f1ad36fe",
+                          "name": "BLV KAKA REPLAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO6A/index.m3u8?expire=1891408380&sign=df6b95775ca8cf6b58a17d54271d96e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-1034caa89eb3",
           "name": "⚽ Guizhou Xufengtang vs Guangzhou Zhicheng | 14:30",
@@ -451,7 +504,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a8da332795",
+                          "id": "lnk-95bc9bccbd",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -636,51 +689,6 @@
                   "streams": [
                     {
                       "id": "luongson-3fd5c093d6f4",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b75ebece9fcd",
-          "name": "⚽ Cs Petrocub vs Egnatia | 00:00",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3408_1h576e9phny.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b75ebece9fcd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b75ebece9fcd",
-                  "name": "Cs Petrocub vs Egnatia",
-                  "streams": [
-                    {
-                      "id": "luongson-b75ebece9fcd",
                       "name": "F",
                       "stream_links": []
                     }
