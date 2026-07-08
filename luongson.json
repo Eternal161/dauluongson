@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:21 08/07/2026",
+  "last_updated": "22:31 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-321e5085b29a",
-          "name": "⚽ Fc Kairat Almaty vs Fk Sutjeska Niksic | Không rõ",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-321e5085b29a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-321e5085b29a",
-                  "name": "Fc Kairat Almaty vs Fk Sutjeska Niksic",
-                  "streams": [
-                    {
-                      "id": "luongson-321e5085b29a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49d1784f8c",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-760cb69295",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-9389692a23a8",
           "name": "⚽ Denmark U19 vs Italy U19 | Không rõ",
@@ -106,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c60e508dbe",
+                          "id": "lnk-ca8b59e7d4",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
@@ -121,8 +61,75 @@
           ]
         },
         {
+          "id": "luongson-321e5085b29a",
+          "name": "⚽ Fc Kairat Almaty vs Fk Sutjeska Niksic | Không rõ",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-321e5085b29a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-321e5085b29a",
+                  "name": "Fc Kairat Almaty vs Fk Sutjeska Niksic",
+                  "streams": [
+                    {
+                      "id": "luongson-321e5085b29a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9cf978c97b",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-e0f588b381",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-7972218adc",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-b41cffc8b05a",
-          "name": "⚽ Spain U19 vs Croatia U19 | 22:30",
+          "name": "⚽ Spain U19 vs Croatia U19 | Không rõ",
           "tournament": "UEFA European U-19 Football Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1927_165750042421.png?v=2.4.3",
@@ -139,7 +146,7 @@
           },
           "labels": [
             {
-              "text": "● Live 22:30",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -159,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0c0d867e1d",
+                          "id": "lnk-74d3a5ad77",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -192,10 +199,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -210,7 +217,15 @@
                     {
                       "id": "luongson-bfae6fd20c3d",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b649ddf8c1",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -237,10 +252,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -255,7 +270,15 @@
                     {
                       "id": "luongson-ec66d848287b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0040905bbb",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -392,7 +415,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-292a68824d",
+                          "id": "lnk-d53a68759a",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
