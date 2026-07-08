@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:51 08/07/2026",
+  "last_updated": "07:01 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-6099c6ddc260",
-          "name": "⚽ New York Liberty W vs Dallas Wings W | 03:26 08/08/700",
-          "tournament": "WNBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783454935.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783454936.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783454935.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6099c6ddc260",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6099c6ddc260",
-                  "name": "New York Liberty W vs Dallas Wings W",
-                  "streams": [
-                    {
-                      "id": "luongson-6099c6ddc260",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1da3cbb07f",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-d6ae241728b7",
           "name": "⚽ Athletic Club Mg vs Operario Ferroviario Pr | Không rõ",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1bc1c417be",
+                          "id": "lnk-2e66bc5a83",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6099c6ddc260",
+          "name": "⚽ New York Liberty W vs Dallas Wings W | 03:26 08/08/700",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783454935.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783454936.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783454935.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6099c6ddc260",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6099c6ddc260",
+                  "name": "New York Liberty W vs Dallas Wings W",
+                  "streams": [
+                    {
+                      "id": "luongson-6099c6ddc260",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ae2b10c7b",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -152,10 +152,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0191304e1a",
-                          "name": "BLV PELE",
+                          "id": "lnk-327f8f8329",
+                          "name": "BLV SHIN",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/SHIN/index.m3u8?expire=1830276060&sign=2e2271dce625a0d03d328eeed8859587"
+                        },
+                        {
+                          "id": "lnk-27c0058fb3",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
