@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:51 08/07/2026",
+  "last_updated": "22:01 08/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-949aa25bfd",
+                          "id": "lnk-01b5eb9485",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
@@ -62,7 +62,7 @@
         },
         {
           "id": "luongson-321e5085b29a",
-          "name": "⚽ Fc Kairat Almaty vs Fk Sutjeska Niksic | 22:00",
+          "name": "⚽ Fc Kairat Almaty vs Fk Sutjeska Niksic | Không rõ",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
@@ -79,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 22:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,25 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2edf78b97d",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-bd23baf8b6",
+                          "id": "lnk-3e40a2b63b",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-a9465f3455",
-                          "name": "BLV KAKA",
+                          "id": "lnk-ebb98f15a5",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -146,10 +139,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -164,7 +157,15 @@
                     {
                       "id": "luongson-b41cffc8b05a",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f71a51fc5a",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
