@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:31 08/07/2026",
+  "last_updated": "09:41 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-e51c441260d0",
-          "name": "⚽ Tacoma Stars vs Midlakes United | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65540_1hysdtwbec1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65539_1hy78knmk92.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65540_1hysdtwbec1h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e51c441260d0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e51c441260d0",
-                  "name": "Tacoma Stars vs Midlakes United",
-                  "streams": [
-                    {
-                      "id": "luongson-e51c441260d0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0c59fcc3fd",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-42882eae90f1",
           "name": "⚽ Oklahoma City Thunder vs Utah Jazz | 03:26 08/08/800",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-291e91fb63",
+                          "id": "lnk-c80eee298c",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e51c441260d0",
+          "name": "⚽ Tacoma Stars vs Midlakes United | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65540_1hysdtwbec1h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65539_1hy78knmk92.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/65540_1hysdtwbec1h.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e51c441260d0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e51c441260d0",
+                  "name": "Tacoma Stars vs Midlakes United",
+                  "streams": [
+                    {
+                      "id": "luongson-e51c441260d0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2390d590f",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -132,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-97c23ede72",
+                          "id": "lnk-f2e5275b45",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
