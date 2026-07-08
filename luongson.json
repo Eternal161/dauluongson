@@ -1,118 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:51 08/07/2026",
+  "last_updated": "11:01 08/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-e51c441260d0",
-          "name": "⚽ Tacoma Stars vs Midlakes United | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65540_1hysdtwbec1h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65539_1hy78knmk92.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65540_1hysdtwbec1h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e51c441260d0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e51c441260d0",
-                  "name": "Tacoma Stars vs Midlakes United",
-                  "streams": [
-                    {
-                      "id": "luongson-e51c441260d0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b4a030792",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-529f0b18cffa",
-          "name": "⚽ San Jose Earthquakes Reserve vs Sporting Kansas City(R) | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57022_1hts50z92h32.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15296_20130921172939.gif?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57022_1hts50z92h32.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 5 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-529f0b18cffa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-529f0b18cffa",
-                  "name": "San Jose Earthquakes Reserve vs Sporting Kansas City(R)",
-                  "streams": [
-                    {
-                      "id": "luongson-529f0b18cffa",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4cc53743b4",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-1034caa89eb3",
           "name": "⚽ Guizhou Xufengtang vs Guangzhou Zhicheng | 14:30",
@@ -537,10 +431,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -555,7 +449,15 @@
                     {
                       "id": "luongson-321e5085b29a",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1052682050",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -689,6 +591,96 @@
                   "streams": [
                     {
                       "id": "luongson-ec66d848287b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3fd5c093d6f4",
+          "name": "⚽ Luawa Fc vs Star Sport Academy | 23:15",
+          "tournament": "Sierra Leone Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60313_1hny3vpeth1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68511_1jhc43zgmv0.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/60313_1hny3vpeth1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3fd5c093d6f4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3fd5c093d6f4",
+                  "name": "Luawa Fc vs Star Sport Academy",
+                  "streams": [
+                    {
+                      "id": "luongson-3fd5c093d6f4",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b75ebece9fcd",
+          "name": "⚽ Cs Petrocub vs Egnatia | 00:00",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3408_1h576e9phny.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b75ebece9fcd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b75ebece9fcd",
+                  "name": "Cs Petrocub vs Egnatia",
+                  "streams": [
+                    {
+                      "id": "luongson-b75ebece9fcd",
                       "name": "F",
                       "stream_links": []
                     }
