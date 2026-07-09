@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:41 09/07/2026",
+  "last_updated": "14:56 09/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e15e3e409c",
+                          "id": "lnk-8cd7201555",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ead4db9359",
+                          "id": "lnk-37620ccba0",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-69ad35acb2",
+                          "id": "lnk-a4137208ac",
                           "name": "BLV SD6MWB6KWCBD1BCMDLZS",
                           "type": "hls",
                           "default": true,
@@ -185,7 +185,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live 1 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0d8285239d",
+                          "id": "lnk-6dd5ed07b8",
                           "name": "BLV SD6MWB6KWCBFCFUQTFIL",
                           "type": "hls",
                           "default": true,
@@ -238,7 +238,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -258,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-72c08d7025",
+                          "id": "lnk-beb0cc241e",
                           "name": "BLV SD6MWB6KWCBWQJZV9B6K",
                           "type": "hls",
                           "default": true,
@@ -336,10 +336,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -354,7 +354,15 @@
                     {
                       "id": "luongson-af3bb84de6df",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-685678af67",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        }
+                      ]
                     }
                   ]
                 }
