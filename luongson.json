@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:21 09/07/2026",
+  "last_updated": "14:31 09/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9f88fc64bb",
+                          "id": "lnk-555df34b3d",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8bd1afbe57",
+                          "id": "lnk-aa2687b0ad",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -114,11 +114,11 @@
           ]
         },
         {
-          "id": "luongson-fc2c69f69d80",
-          "name": "⚽ Jungwon University vs Dongguk University | 13:30",
+          "id": "luongson-afe0fc424d37",
+          "name": "⚽ Ajou University vs Soongsil University | Không rõ",
           "tournament": "Korean University Championship",
-          "logo_nha": "https://ui-avatars.com/api/?name=Ju&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://ui-avatars.com/api/?name=Do&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_nha": "https://ui-avatars.com/api/?name=Aj&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=So&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -126,13 +126,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Ju&size=200&background=1565C0&color=ffffff&bold=true",
+            "url": "https://ui-avatars.com/api/?name=Aj&size=200&background=1565C0&color=ffffff&bold=true",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 13:30",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -140,23 +140,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-fc2c69f69d80",
+              "id": "luongson-afe0fc424d37",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-fc2c69f69d80",
-                  "name": "Jungwon University vs Dongguk University",
+                  "id": "luongson-afe0fc424d37",
+                  "name": "Ajou University vs Soongsil University",
                   "streams": [
                     {
-                      "id": "luongson-fc2c69f69d80",
+                      "id": "luongson-afe0fc424d37",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cec5691af2",
-                          "name": "BLV SD6MWB6KWCBD1BCMDLZS",
+                          "id": "lnk-4fe9989029",
+                          "name": "BLV SD6MWB6KWCBFCFUQTFIL",
                           "type": "hls",
                           "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwb6kWCbd1BcMdLZS/playlist.m3u8"
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwb6kWCbfCfUqTFiL/playlist.m3u8"
                         }
                       ]
                     }
@@ -205,11 +205,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5a37ca96cc",
+                          "id": "lnk-9e3b927fe0",
                           "name": "BLV SD6MWB6KWCBWQJZV9B6K",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6Mwb6kWCbWQjzv9b6k/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-fc2c69f69d80",
+          "name": "⚽ Jungwon University vs Dongguk University | 13:30",
+          "tournament": "Korean University Championship",
+          "logo_nha": "https://ui-avatars.com/api/?name=Ju&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=Do&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Ju&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 13:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fc2c69f69d80",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fc2c69f69d80",
+                  "name": "Jungwon University vs Dongguk University",
+                  "streams": [
+                    {
+                      "id": "luongson-fc2c69f69d80",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27a21ba635",
+                          "name": "BLV SD6MWB6KWCBD1BCMDLZS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwb6kWCbd1BcMdLZS/playlist.m3u8"
                         }
                       ]
                     }
@@ -660,51 +713,6 @@
                   "streams": [
                     {
                       "id": "luongson-bf7d6935f23f",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-64a44fee48d7",
-          "name": "⚽ Jaiyq vs Tobol Kostanai B | 20:00",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://ui-avatars.com/api/?name=Ja&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://ui-avatars.com/api/?name=To&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Ja&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-64a44fee48d7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-64a44fee48d7",
-                  "name": "Jaiyq vs Tobol Kostanai B",
-                  "streams": [
-                    {
-                      "id": "luongson-64a44fee48d7",
                       "name": "F",
                       "stream_links": []
                     }
