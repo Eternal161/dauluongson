@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:11 09/07/2026",
+  "last_updated": "10:21 09/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-94fedf9b73b9",
+          "name": "⚽ Los Angeles Sparks Nữ vs Indiana Fever Nữ | 03:26 08/09/900",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783531836.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783531837.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783531836.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-94fedf9b73b9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-94fedf9b73b9",
+                  "name": "Los Angeles Sparks Nữ vs Indiana Fever Nữ",
+                  "streams": [
+                    {
+                      "id": "luongson-94fedf9b73b9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eb0fe71127",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-613d2b8bdbca",
           "name": "⚽ Vancouver Whitecaps vs Cavalry Fc | Không rõ",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ea6f32a850",
+                          "id": "lnk-a4e961c858",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -61,11 +114,11 @@
           ]
         },
         {
-          "id": "luongson-0180b2286792",
-          "name": "⚽ Bigfoot vs Ballard Football Club | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69283_1jvxe0100w1x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57571_1h1dyjv2t34.png?v=2.4.3",
+          "id": "luongson-6a70e935446b",
+          "name": "⚽ Vancouver Fc vs Cf Montreal | Không rõ",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4730_1hxkcfqmkck.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -73,13 +126,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69283_1jvxe0100w1x.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -87,23 +140,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-0180b2286792",
+              "id": "luongson-6a70e935446b",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-0180b2286792",
-                  "name": "Bigfoot vs Ballard Football Club",
+                  "id": "luongson-6a70e935446b",
+                  "name": "Vancouver Fc vs Cf Montreal",
                   "streams": [
                     {
-                      "id": "luongson-0180b2286792",
+                      "id": "luongson-6a70e935446b",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d67ec00904",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-e53f2d4a2a",
+                          "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -152,18 +205,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a8c6e8109f",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-89eddaada5",
+                          "id": "lnk-897cd4beda",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-40f0f86c78",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -174,11 +227,11 @@
           ]
         },
         {
-          "id": "luongson-94fedf9b73b9",
-          "name": "⚽ Los Angeles Sparks Nữ vs Indiana Fever Nữ | 03:26 08/09/900",
-          "tournament": "WNBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783531836.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783531837.png?v=2.4.3",
+          "id": "luongson-0180b2286792",
+          "name": "⚽ Bigfoot vs Ballard Football Club | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69283_1jvxe0100w1x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57571_1h1dyjv2t34.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -186,13 +239,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783531836.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/69283_1jvxe0100w1x.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -200,76 +253,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-94fedf9b73b9",
+              "id": "luongson-0180b2286792",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-94fedf9b73b9",
-                  "name": "Los Angeles Sparks Nữ vs Indiana Fever Nữ",
+                  "id": "luongson-0180b2286792",
+                  "name": "Bigfoot vs Ballard Football Club",
                   "streams": [
                     {
-                      "id": "luongson-94fedf9b73b9",
+                      "id": "luongson-0180b2286792",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f202752464",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-52bbc71f59",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6a70e935446b",
-          "name": "⚽ Vancouver Fc vs Cf Montreal | Không rõ",
-          "tournament": "Canadian Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4730_1hxkcfqmkck.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6a70e935446b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6a70e935446b",
-                  "name": "Vancouver Fc vs Cf Montreal",
-                  "streams": [
-                    {
-                      "id": "luongson-6a70e935446b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-171b313953",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
