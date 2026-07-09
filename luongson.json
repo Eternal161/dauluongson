@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:21 09/07/2026",
+  "last_updated": "12:31 09/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-2c610ccbe2e8",
+          "name": "⚽ Uruguay vs Tây Ban Nha | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783574935.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783574938.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783574935.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2c610ccbe2e8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2c610ccbe2e8",
+                  "name": "Uruguay vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "luongson-2c610ccbe2e8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3ffa35b0e3",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TO1A/index.m3u8?expire=1891408380&sign=1a95dc0ba619a6c97d9caf1000577cd1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-babe65030b86",
           "name": "⚽ Canterbury Rams vs Taranaki Airs | 14:00",
@@ -628,51 +681,6 @@
                   "streams": [
                     {
                       "id": "luongson-4ae894899cb0",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8ce4e767133d",
-          "name": "⚽ Qarabag vs Vestri | 23:00",
-          "tournament": "UEFA Europa League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3695_1gskkd7yqg2w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23953_1gt88qdnp22y.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3695_1gskkd7yqg2w.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8ce4e767133d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8ce4e767133d",
-                  "name": "Qarabag vs Vestri",
-                  "streams": [
-                    {
-                      "id": "luongson-8ce4e767133d",
                       "name": "F",
                       "stream_links": []
                     }
