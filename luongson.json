@@ -1,79 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:41 09/07/2026",
+  "last_updated": "20:51 09/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-a0d093bbbd34",
-          "name": "⚽ Akademiya Ontustik vs Fk Arys | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33976_1gxa4ree2a3.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61228_1gwbdfbdzq1k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/33976_1gxa4ree2a3.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a0d093bbbd34",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a0d093bbbd34",
-                  "name": "Akademiya Ontustik vs Fk Arys",
-                  "streams": [
-                    {
-                      "id": "luongson-a0d093bbbd34",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbf040660a",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-80b21f9433",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-ccd162bf2c",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-bf7d6935f23f",
           "name": "⚽ Fk Aktobe Ii vs Khan Tengri Fc | Không rõ",
@@ -113,18 +46,85 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c4f10fb035",
+                          "id": "lnk-60aeb6052c",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-b2aa837e23",
+                          "id": "lnk-d80ccdc210",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a0d093bbbd34",
+          "name": "⚽ Akademiya Ontustik vs Fk Arys | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33976_1gxa4ree2a3.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61228_1gwbdfbdzq1k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/33976_1gxa4ree2a3.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a0d093bbbd34",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a0d093bbbd34",
+                  "name": "Akademiya Ontustik vs Fk Arys",
+                  "streams": [
+                    {
+                      "id": "luongson-a0d093bbbd34",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b3636d488",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-3fc5275fcf",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-6f3a7a11c0",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -173,14 +173,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a79c5000f7",
+                          "id": "lnk-21b9e96af9",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-185810c541",
+                          "id": "lnk-1d528ad8d2",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
@@ -213,7 +213,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -233,14 +233,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9e8889a27b",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-c46507a15f",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-5d62717a19",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-ca119dabc8",
+                          "id": "lnk-3b2798f710",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
@@ -293,7 +300,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2317ae4989",
+                          "id": "lnk-915f075fbf",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
