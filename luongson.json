@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:01 10/07/2026",
+  "last_updated": "06:11 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8b34cfff46",
+                          "id": "lnk-be666cd88f",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bcd174cefb35",
+          "name": "⚽ Nublense vs O.Higgins | Không rõ",
+          "tournament": "Chile Copa de la Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bcd174cefb35",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bcd174cefb35",
+                  "name": "Nublense vs O.Higgins",
+                  "streams": [
+                    {
+                      "id": "luongson-bcd174cefb35",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f05c6618cd",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-36631cab11",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-ef45030d2d",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -106,73 +173,6 @@
           ]
         },
         {
-          "id": "luongson-bcd174cefb35",
-          "name": "⚽ Nublense vs O.Higgins | 06:00",
-          "tournament": "Chile Copa de la Liga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 06:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bcd174cefb35",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bcd174cefb35",
-                  "name": "Nublense vs O.Higgins",
-                  "streams": [
-                    {
-                      "id": "luongson-bcd174cefb35",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8cf5bb6d7f",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-8f035d72d5",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-a5be80e47e",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-40d9731546a6",
           "name": "⚽ Nacional Potosi vs Aurora | 07:00",
           "tournament": "Bolivia Primera Division",
@@ -211,7 +211,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-991df474b4",
+                          "id": "lnk-6363a888b6",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -289,10 +289,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 08:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -307,7 +307,15 @@
                     {
                       "id": "luongson-8f0911e406c4",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e98c03841f",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
                     }
                   ]
                 }
