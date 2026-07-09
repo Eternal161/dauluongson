@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:11 09/07/2026",
+  "last_updated": "22:21 09/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-64f5dcc631da",
-          "name": "⚽ Atletic Club D Escaldes vs Fk Mornar Bar | Không rõ",
+          "id": "luongson-d99ccd60f9da",
+          "name": "⚽ Atletic Club D Escaldes vs Fk Mornar Bar | 03:26 08/09/2100",
           "tournament": "UEFA Europa Conference League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/16808_1hbcsyjrtm8.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/7984_1j2fnwwdy5d.png?v=2.4.3",
@@ -34,30 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-64f5dcc631da",
+              "id": "luongson-d99ccd60f9da",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-64f5dcc631da",
+                  "id": "luongson-d99ccd60f9da",
                   "name": "Atletic Club D Escaldes vs Fk Mornar Bar",
                   "streams": [
                     {
-                      "id": "luongson-64f5dcc631da",
+                      "id": "luongson-d99ccd60f9da",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bbaf67f3c9",
-                          "name": "BLV LEO",
+                          "id": "lnk-fb9196a594",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-e19dfc036c",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -176,10 +169,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -194,7 +187,15 @@
                     {
                       "id": "luongson-3705210975f2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a5f60f3017",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
                     }
                   ]
                 }
