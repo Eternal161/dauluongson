@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:31 09/07/2026",
+  "last_updated": "13:41 09/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a161892259",
+                          "id": "lnk-37e890c013",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -79,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 14:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -97,7 +97,15 @@
                     {
                       "id": "luongson-babe65030b86",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0e8c46763",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
                     }
                   ]
                 }
