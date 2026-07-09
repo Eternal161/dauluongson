@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:21 09/07/2026",
+  "last_updated": "22:31 09/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-d99ccd60f9da",
-          "name": "⚽ Atletic Club D Escaldes vs Fk Mornar Bar | 03:26 08/09/2100",
+          "id": "luongson-64f5dcc631da",
+          "name": "⚽ Atletic Club D Escaldes vs Fk Mornar Bar | Không rõ",
           "tournament": "UEFA Europa Conference League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/16808_1hbcsyjrtm8.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/7984_1j2fnwwdy5d.png?v=2.4.3",
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-d99ccd60f9da",
+              "id": "luongson-64f5dcc631da",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d99ccd60f9da",
+                  "id": "luongson-64f5dcc631da",
                   "name": "Atletic Club D Escaldes vs Fk Mornar Bar",
                   "streams": [
                     {
-                      "id": "luongson-d99ccd60f9da",
+                      "id": "luongson-64f5dcc631da",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb9196a594",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-d3e84d1977",
+                          "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-16ec7e5d4f",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -124,10 +131,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -142,7 +149,22 @@
                     {
                       "id": "luongson-7473592d2a98",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1b8d089443",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-fc09679e72",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -189,7 +211,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a5f60f3017",
+                          "id": "lnk-a327ac077c",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -222,10 +244,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -240,7 +262,15 @@
                     {
                       "id": "luongson-80006607a708",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-03670819f6",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -267,10 +297,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -285,7 +315,15 @@
                     {
                       "id": "luongson-1e7a17f4e9f2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c96c927281",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
                     }
                   ]
                 }
