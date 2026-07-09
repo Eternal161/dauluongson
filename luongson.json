@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:06 09/07/2026",
+  "last_updated": "19:11 09/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,78 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-35b9695ddc",
+                          "id": "lnk-15daebebf2",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         },
                         {
-                          "id": "lnk-6a593721a2",
+                          "id": "lnk-f89379bdae",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5cf0bb12506a",
-          "name": "⚽ Beijing Warriors vs Xinjiang Jindun | Không rõ",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595691.webp?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595693.webp?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595691.webp?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5cf0bb12506a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5cf0bb12506a",
-                  "name": "Beijing Warriors vs Xinjiang Jindun",
-                  "streams": [
-                    {
-                      "id": "luongson-5cf0bb12506a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-925eabbdd2",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-0e7717d147",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -166,25 +106,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-45802cea87",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-eb0b2a5081",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-d65bffb6c0",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-fdc8a89f1a",
+                          "id": "lnk-935287b3c6",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-d1bd400156",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -195,11 +135,11 @@
           ]
         },
         {
-          "id": "luongson-64a44fee48d7",
-          "name": "⚽ Jaiyq vs Tobol Kostanai B | 20:00",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595722.webp?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595724.webp?v=2.4.3",
+          "id": "luongson-5cf0bb12506a",
+          "name": "⚽ Beijing Warriors vs Xinjiang Jindun | Không rõ",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595691.webp?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595693.webp?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -207,31 +147,46 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595722.webp?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595691.webp?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-64a44fee48d7",
+              "id": "luongson-5cf0bb12506a",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-64a44fee48d7",
-                  "name": "Jaiyq vs Tobol Kostanai B",
+                  "id": "luongson-5cf0bb12506a",
+                  "name": "Beijing Warriors vs Xinjiang Jindun",
                   "streams": [
                     {
-                      "id": "luongson-64a44fee48d7",
+                      "id": "luongson-5cf0bb12506a",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e19f106d79",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-016acaaac1",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -275,6 +230,51 @@
                   "streams": [
                     {
                       "id": "luongson-bf7d6935f23f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-64a44fee48d7",
+          "name": "⚽ Jaiyq vs Tobol Kostanai B | 20:00",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595722.webp?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595724.webp?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783595722.webp?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-64a44fee48d7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-64a44fee48d7",
+                  "name": "Jaiyq vs Tobol Kostanai B",
+                  "streams": [
+                    {
+                      "id": "luongson-64a44fee48d7",
                       "name": "F",
                       "stream_links": []
                     }
