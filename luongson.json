@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:51 09/07/2026",
+  "last_updated": "10:01 09/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-6a70e935446b",
+          "name": "⚽ Vancouver Fc vs Cf Montreal | Không rõ",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4730_1hxkcfqmkck.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6a70e935446b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6a70e935446b",
+                  "name": "Vancouver Fc vs Cf Montreal",
+                  "streams": [
+                    {
+                      "id": "luongson-6a70e935446b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03e7a5e500",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-94fedf9b73b9",
           "name": "⚽ Los Angeles Sparks Nữ vs Indiana Fever Nữ | 03:26 08/09/900",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aa792fdf21",
+                          "id": "lnk-dd4e9a6626",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -79,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c5352728d3",
+                          "id": "lnk-f0f8f29258",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6a70e935446b",
-          "name": "⚽ Vancouver Fc vs Cf Montreal | Không rõ",
-          "tournament": "Canadian Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4730_1hxkcfqmkck.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/60644_1jvtw472gk2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6a70e935446b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6a70e935446b",
-                  "name": "Vancouver Fc vs Cf Montreal",
-                  "streams": [
-                    {
-                      "id": "luongson-6a70e935446b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-73b6131969",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a597057e0c",
+                          "id": "lnk-cdf4ae3a34",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -238,7 +238,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -258,18 +258,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-169a07a52e",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-6bfad9b27b",
+                          "id": "lnk-605ff18f2e",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-8af86b9645",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
