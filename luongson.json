@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:11 10/07/2026",
+  "last_updated": "15:21 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-82ed62423a",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-67859b79ab",
+                          "id": "lnk-039f7b48f2",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-bc8ba1857b",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9ec642b301de",
+          "name": "⚽ Fc Arda Kardzhali vs Botev Vratsa | 14:30",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/35413_1gqye1qnz7g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/10705_1jmxac7h3g23.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/35413_1gqye1qnz7g.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 14:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9ec642b301de",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9ec642b301de",
+                  "name": "Fc Arda Kardzhali vs Botev Vratsa",
+                  "streams": [
+                    {
+                      "id": "luongson-9ec642b301de",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18ec2e1627",
+                          "name": "BLV SD6MWEL7MM8YYWRE8DUP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MweL7mM8YYwRE8dUp/playlist.m3u8"
                         }
                       ]
                     }
@@ -106,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-97611c060e",
+                          "id": "lnk-e705d19169",
                           "name": "BLV SD6MWEKTJPF6DVYX7DVC",
                           "type": "hls",
                           "default": true,
@@ -159,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1a711f7cc3",
+                          "id": "lnk-0f2f59a68a",
                           "name": "BLV SD6MWELB649H5HDVWLBW",
                           "type": "hls",
                           "default": true,
@@ -192,10 +245,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:45",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -210,7 +263,15 @@
                     {
                       "id": "luongson-ebf0fcc6b47f",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a42567f4ce",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -257,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb0f3a956e",
+                          "id": "lnk-3fa284211d",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -310,7 +371,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ea63b42811",
+                          "id": "lnk-a58ff3901f",
                           "name": "BLV SD6MWDLJPKBRCGCDYTGC",
                           "type": "hls",
                           "default": true,
@@ -363,7 +424,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ca44cec0e1",
+                          "id": "lnk-2d24533937",
                           "name": "BLV SD6MWELB649MUEXTAAUJ",
                           "type": "hls",
                           "default": true,
@@ -683,51 +744,6 @@
                   "streams": [
                     {
                       "id": "luongson-c77f5bce5dba",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-1e8ab0a166b3",
-          "name": "⚽ Cheonan City vs Gimhae City | 17:30",
-          "tournament": "K League 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6844_1gy3wms8nw1.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6839_1ht6enrswx1r.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6844_1gy3wms8nw1.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1e8ab0a166b3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1e8ab0a166b3",
-                  "name": "Cheonan City vs Gimhae City",
-                  "streams": [
-                    {
-                      "id": "luongson-1e8ab0a166b3",
                       "name": "F",
                       "stream_links": []
                     }
