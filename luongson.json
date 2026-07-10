@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:42 11/07/2026",
+  "last_updated": "06:51 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-7ccd01c016a6",
+          "name": "⚽ Deportivo Maldonado vs Albion Fc | Không rõ",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16833_1gq6j9e8zn18.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34393_1hce5639dd28.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/16833_1gq6j9e8zn18.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7ccd01c016a6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7ccd01c016a6",
+                  "name": "Deportivo Maldonado vs Albion Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-7ccd01c016a6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9844e470d0",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-a41201d46c94",
           "name": "⚽ Sport Club Do Recife vs Botafogo Sp | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-68747b7205",
+                          "id": "lnk-b374d6be97",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2ea9e8e9ae",
+                          "id": "lnk-f8761e5cb5",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
@@ -114,61 +167,8 @@
           ]
         },
         {
-          "id": "luongson-7ccd01c016a6",
-          "name": "⚽ Deportivo Maldonado vs Albion Fc | Không rõ",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16833_1gq6j9e8zn18.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34393_1hce5639dd28.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/16833_1gq6j9e8zn18.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7ccd01c016a6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7ccd01c016a6",
-                  "name": "Deportivo Maldonado vs Albion Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-7ccd01c016a6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48a9e929ad",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-705dd5b5d550",
-          "name": "⚽ Fc Motown Team B vs Long Island Rough Riders | 07:00",
+          "name": "⚽ Fc Motown Team B vs Long Island Rough Riders | Không rõ",
           "tournament": "USA USL League Two",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/57675_1h2hn8xkyjm.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/12782_20121217171936.jpg?v=2.4.3",
@@ -185,7 +185,7 @@
           },
           "labels": [
             {
-              "text": "● Live 07:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b07a1026e0",
+                          "id": "lnk-0e88ff4706",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
