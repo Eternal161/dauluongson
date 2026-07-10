@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:51 10/07/2026",
+  "last_updated": "07:01 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-40d9731546a6",
+          "name": "⚽ Nacional Potosi vs Aurora | Không rõ",
+          "tournament": "Bolivia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8624_1h4zefjmd5f.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3773_1gz08jvwbw18.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8624_1h4zefjmd5f.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-40d9731546a6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-40d9731546a6",
+                  "name": "Nacional Potosi vs Aurora",
+                  "streams": [
+                    {
+                      "id": "luongson-40d9731546a6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad6e283df4",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6MwdakGemXKGmwSZrc/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-bcd174cefb35",
           "name": "⚽ Nublense vs O.Higgins | Không rõ",
@@ -46,25 +99,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fca1aaeac6",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-4fa7cd9c39",
+                          "id": "lnk-39f36e1f7b",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-03eda7d416",
+                          "id": "lnk-8b0e520489",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-b2e4a83f60",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-da6602d792df",
+          "name": "⚽ New England vs Blackwatch Rush | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69318_1jxp34ypd51y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57583_1h2hhr4j992z.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/69318_1jxp34ypd51y.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-da6602d792df",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-da6602d792df",
+                  "name": "New England vs Blackwatch Rush",
+                  "streams": [
+                    {
+                      "id": "luongson-da6602d792df",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0377827e2",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -113,117 +219,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e41f69b861",
+                          "id": "lnk-08aa5aa12e",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-da6602d792df",
-          "name": "⚽ New England vs Blackwatch Rush | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69318_1jxp34ypd51y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57583_1h2hhr4j992z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69318_1jxp34ypd51y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-da6602d792df",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-da6602d792df",
-                  "name": "New England vs Blackwatch Rush",
-                  "streams": [
-                    {
-                      "id": "luongson-da6602d792df",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6b0ce944ab",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-40d9731546a6",
-          "name": "⚽ Nacional Potosi vs Aurora | 07:00",
-          "tournament": "Bolivia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8624_1h4zefjmd5f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3773_1gz08jvwbw18.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8624_1h4zefjmd5f.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 07:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-40d9731546a6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-40d9731546a6",
-                  "name": "Nacional Potosi vs Aurora",
-                  "streams": [
-                    {
-                      "id": "luongson-40d9731546a6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e05203cf47",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MwdakGemXKGmwSZrc/playlist.m3u8"
                         }
                       ]
                     }
@@ -317,7 +317,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2a0c3ebabc",
+                          "id": "lnk-396f30c87e",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
