@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:41 10/07/2026",
+  "last_updated": "16:51 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-77bcbc1627a9",
+          "name": "⚽ Yangon United Fc U20 vs Shan Utd U20 | Không rõ",
+          "tournament": "Myanmar U20 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66085_1j1yb8d9rm13.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65978_1j2asa4xcj19.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/66085_1j1yb8d9rm13.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-77bcbc1627a9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-77bcbc1627a9",
+                  "name": "Yangon United Fc U20 vs Shan Utd U20",
+                  "streams": [
+                    {
+                      "id": "luongson-77bcbc1627a9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8ec8a71c96",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-9b25ec0c5870",
           "name": "⚽ Preston Lions (W) vs Fc Bulleen Lions (W) | Không rõ",
@@ -46,124 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eccc722408",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-1f00d73809",
+                          "id": "lnk-ef693a0cee",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-77bcbc1627a9",
-          "name": "⚽ Yangon United Fc U20 vs Shan Utd U20 | Không rõ",
-          "tournament": "Myanmar U20 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66085_1j1yb8d9rm13.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65978_1j2asa4xcj19.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/66085_1j1yb8d9rm13.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-77bcbc1627a9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-77bcbc1627a9",
-                  "name": "Yangon United Fc U20 vs Shan Utd U20",
-                  "streams": [
-                    {
-                      "id": "luongson-77bcbc1627a9",
-                      "name": "F",
-                      "stream_links": [
+                        },
                         {
-                          "id": "lnk-2530c0fa51",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-ace9ef47c6",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fa5dbf05a69a",
-          "name": "⚽ Brisbane Roar (Youth) vs Rochedale Rovers | Không rõ",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fa5dbf05a69a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fa5dbf05a69a",
-                  "name": "Brisbane Roar (Youth) vs Rochedale Rovers",
-                  "streams": [
-                    {
-                      "id": "luongson-fa5dbf05a69a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e74faa0680",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -192,7 +139,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -212,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-04660049a4",
+                          "id": "lnk-6f68224f22",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -227,8 +174,61 @@
           ]
         },
         {
+          "id": "luongson-fa5dbf05a69a",
+          "name": "⚽ Brisbane Roar (Youth) vs Rochedale Rovers | Không rõ",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fa5dbf05a69a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fa5dbf05a69a",
+                  "name": "Brisbane Roar (Youth) vs Rochedale Rovers",
+                  "streams": [
+                    {
+                      "id": "luongson-fa5dbf05a69a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00f2946d7f",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-623d78a12498",
-          "name": "⚽ Dandenong City Sc vs South Melbourne | 16:45",
+          "name": "⚽ Dandenong City Sc vs South Melbourne | Không rõ",
           "tournament": "VIC Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/17109_1gzmqcsvef17.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4486_1gxpydyxb71z.png?v=2.4.3",
@@ -245,7 +245,7 @@
           },
           "labels": [
             {
-              "text": "● Live 16:45",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ede55d94de",
+                          "id": "lnk-0ba243dddb",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
@@ -318,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-04c343a5f4",
+                          "id": "lnk-e001f48d96",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -333,7 +333,7 @@
           ]
         },
         {
-          "id": "luongson-aaee6f45e764",
+          "id": "luongson-390a9673e32a",
           "name": "⚽ Than Ksvn (W) vs Ho Chi Minh City B (W) | 17:00",
           "tournament": "Vietnam Women's League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
@@ -351,25 +351,33 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-aaee6f45e764",
+              "id": "luongson-390a9673e32a",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-aaee6f45e764",
+                  "id": "luongson-390a9673e32a",
                   "name": "Than Ksvn (W) vs Ho Chi Minh City B (W)",
                   "streams": [
                     {
-                      "id": "luongson-aaee6f45e764",
+                      "id": "luongson-390a9673e32a",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9af011c5f",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -396,10 +404,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:15",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -414,7 +422,15 @@
                     {
                       "id": "luongson-c77f5bce5dba",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-284d6b60ae",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
                     }
                   ]
                 }
