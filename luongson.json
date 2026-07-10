@@ -1,12 +1,125 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:31 10/07/2026",
+  "last_updated": "16:41 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-9b25ec0c5870",
+          "name": "⚽ Preston Lions (W) vs Fc Bulleen Lions (W) | Không rõ",
+          "tournament": "VIC Women’s Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4794_1gvpm1ga6e1g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18898_1h56hzxyc12v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4794_1gvpm1ga6e1g.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9b25ec0c5870",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9b25ec0c5870",
+                  "name": "Preston Lions (W) vs Fc Bulleen Lions (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-9b25ec0c5870",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eccc722408",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-1f00d73809",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-77bcbc1627a9",
+          "name": "⚽ Yangon United Fc U20 vs Shan Utd U20 | Không rõ",
+          "tournament": "Myanmar U20 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66085_1j1yb8d9rm13.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65978_1j2asa4xcj19.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/66085_1j1yb8d9rm13.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-77bcbc1627a9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-77bcbc1627a9",
+                  "name": "Yangon United Fc U20 vs Shan Utd U20",
+                  "streams": [
+                    {
+                      "id": "luongson-77bcbc1627a9",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2530c0fa51",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-fa5dbf05a69a",
           "name": "⚽ Brisbane Roar (Youth) vs Rochedale Rovers | Không rõ",
@@ -46,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e53eb37706",
+                          "id": "lnk-e74faa0680",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -99,124 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3beeb4b05b",
+                          "id": "lnk-04660049a4",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9b25ec0c5870",
-          "name": "⚽ Preston Lions (W) vs Fc Bulleen Lions (W) | Không rõ",
-          "tournament": "VIC Women’s Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4794_1gvpm1ga6e1g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18898_1h56hzxyc12v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4794_1gvpm1ga6e1g.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9b25ec0c5870",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9b25ec0c5870",
-                  "name": "Preston Lions (W) vs Fc Bulleen Lions (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-9b25ec0c5870",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ddb71d0c3c",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-f9bce0f21b",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-77bcbc1627a9",
-          "name": "⚽ Yangon United Fc U20 vs Shan Utd U20 | Không rõ",
-          "tournament": "Myanmar U20 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66085_1j1yb8d9rm13.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65978_1j2asa4xcj19.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/66085_1j1yb8d9rm13.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-77bcbc1627a9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-77bcbc1627a9",
-                  "name": "Yangon United Fc U20 vs Shan Utd U20",
-                  "streams": [
-                    {
-                      "id": "luongson-77bcbc1627a9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fd6eedccd",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -265,58 +265,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-56a93f4998",
+                          "id": "lnk-ede55d94de",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eabcbd366706",
-          "name": "⚽ Seoul Amazones (W) vs Suwon Fmc (W) | 16:55",
-          "tournament": "WK League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9399_1gwbdv1r94c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9400_1gwbdv1r9x2w.PNG?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9399_1gwbdv1r94c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eabcbd366706",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eabcbd366706",
-                  "name": "Seoul Amazones (W) vs Suwon Fmc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-eabcbd366706",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -363,7 +318,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-efa72342b8",
+                          "id": "lnk-04c343a5f4",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -728,6 +683,51 @@
                   "streams": [
                     {
                       "id": "luongson-d097ef8d0219",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d808b758acb8",
+          "name": "⚽ Ekibastuzets vs Kairat Almaty Ii | 19:00",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/49070_1hwa79xdn22c.jpg?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d808b758acb8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d808b758acb8",
+                  "name": "Ekibastuzets vs Kairat Almaty Ii",
+                  "streams": [
+                    {
+                      "id": "luongson-d808b758acb8",
                       "name": "F",
                       "stream_links": []
                     }
