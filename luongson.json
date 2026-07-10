@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:41 10/07/2026",
+  "last_updated": "14:51 10/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-30dc0f9426",
+                          "id": "lnk-f72bfb1df9",
                           "name": "BLV SD6MWB6KYRTGNF23PHGQ",
                           "type": "hls",
                           "default": true,
@@ -79,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:15",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -97,7 +97,22 @@
                     {
                       "id": "luongson-9b25ec0c5870",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7b591645e3",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-9794ae4f39",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -144,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6b9e257436",
+                          "id": "lnk-dd2a5dc320",
                           "name": "BLV SD6MWELB649H5HDVWLBW",
                           "type": "hls",
                           "default": true,
@@ -222,10 +237,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -240,7 +255,15 @@
                     {
                       "id": "luongson-490f73e8bb9f",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-153c143134",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://auto.cdnfaster.live/live/sd-6Mwdpr93zRk26GA6BN/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -287,7 +310,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-17cbf430a0",
+                          "id": "lnk-b3e4ec1e0a",
                           "name": "BLV SD6MWDLJPKBRCGCDYTGC",
                           "type": "hls",
                           "default": true,
@@ -340,7 +363,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e59e05dc81",
+                          "id": "lnk-fa562eb0cc",
                           "name": "BLV SD6MWELB649MUEXTAAUJ",
                           "type": "hls",
                           "default": true,
