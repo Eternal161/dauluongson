@@ -1,15 +1,15 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:11 11/07/2026",
+  "last_updated": "03:21 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-a16acb7df963",
-          "name": "⚽ Spain vs Belgium | 03:26 08/11/200",
+          "id": "luongson-492c75f89934",
+          "name": "⚽ Spain vs Belgium | Không rõ",
           "tournament": "FIFA World Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/666_164983321668.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/555_1j0aw46xvtk.png?v=2.4.3",
@@ -34,23 +34,51 @@
           ],
           "sources": [
             {
-              "id": "luongson-a16acb7df963",
+              "id": "luongson-492c75f89934",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a16acb7df963",
+                  "id": "luongson-492c75f89934",
                   "name": "Spain vs Belgium",
                   "streams": [
                     {
-                      "id": "luongson-a16acb7df963",
+                      "id": "luongson-492c75f89934",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6d92851df9",
-                          "name": "BLV KEVILL",
+                          "id": "lnk-485e8a0e9c",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-43bdf21adb",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-39eadf7b5b",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-7851f3b6fb",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-1bae695f60",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -79,7 +107,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,14 +127,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-686845d17b",
+                          "id": "lnk-7de182c49d",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-fd1ea43033",
+                          "id": "lnk-1e6048eb03",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
@@ -159,20 +187,560 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c0919dfeb2",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-6e8d3156e4",
+                          "id": "lnk-aa1208cb00",
                           "name": "BLV LIO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-a58017fedb",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-53ade5d8e76a",
+          "name": "⚽ Juventude vs Vila Nova | 05:00",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1645_1gv1yhgq3tw.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-53ade5d8e76a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-53ade5d8e76a",
+                  "name": "Juventude vs Vila Nova",
+                  "streams": [
+                    {
+                      "id": "luongson-53ade5d8e76a",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7ccd01c016a6",
+          "name": "⚽ Deportivo Maldonado vs Albion Fc | 05:00",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16833_1gq6j9e8zn18.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34393_1hce5639dd28.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/16833_1gq6j9e8zn18.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7ccd01c016a6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7ccd01c016a6",
+                  "name": "Deportivo Maldonado vs Albion Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-7ccd01c016a6",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a41201d46c94",
+          "name": "⚽ Sport Club Do Recife vs Botafogo Sp | 06:00",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3524_1gxsf3fv7a21.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8666_1gtda2hsk1s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3524_1gxsf3fv7a21.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a41201d46c94",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a41201d46c94",
+                  "name": "Sport Club Do Recife vs Botafogo Sp",
+                  "streams": [
+                    {
+                      "id": "luongson-a41201d46c94",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-705dd5b5d550",
+          "name": "⚽ Fc Motown Team B vs Long Island Rough Riders | 07:00",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57675_1h2hn8xkyjm.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12782_20121217171936.jpg?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/57675_1h2hn8xkyjm.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-705dd5b5d550",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-705dd5b5d550",
+                  "name": "Fc Motown Team B vs Long Island Rough Riders",
+                  "streams": [
+                    {
+                      "id": "luongson-705dd5b5d550",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ebe34ee8f581",
+          "name": "⚽ Sport Boys vs Comerciantes Fc | 08:00",
+          "tournament": "Peru Copa de la Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2128_1j23f66mzs2h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42758_1gyk775sbc9.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2128_1j23f66mzs2h.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ebe34ee8f581",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ebe34ee8f581",
+                  "name": "Sport Boys vs Comerciantes Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-ebe34ee8f581",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-97c698aa57d3",
+          "name": "⚽ Utah Royals (W) vs Gotham Fc (W) | 09:00",
+          "tournament": "USA Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34017_1j5ym3zha8h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9235_1gyc7gmdpw7.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/34017_1j5ym3zha8h.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-97c698aa57d3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-97c698aa57d3",
+                  "name": "Utah Royals (W) vs Gotham Fc (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-97c698aa57d3",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2f4717b0727e",
+          "name": "⚽ Weston Workers Fc vs Lambton Jaffas Fc | 11:00",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21186_1gtk2yyspwa.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22421_1gtk2yys6q1e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/21186_1gtk2yyspwa.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2f4717b0727e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2f4717b0727e",
+                  "name": "Weston Workers Fc vs Lambton Jaffas Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-2f4717b0727e",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dc8720395288",
+          "name": "⚽ Maitland vs Adamstown Rosebuds Fc | 13:30",
+          "tournament": "Australia Northern NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22441_1gtk2yysp418.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11849_1hxb3y88n89.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22441_1gtk2yysp418.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dc8720395288",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dc8720395288",
+                  "name": "Maitland vs Adamstown Rosebuds Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-dc8720395288",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c7336e52692e",
+          "name": "⚽ Sd Raiders Fc vs Blacktown City Demons | 14:00",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6664_1hw9fx4graq.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c7336e52692e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c7336e52692e",
+                  "name": "Sd Raiders Fc vs Blacktown City Demons",
+                  "streams": [
+                    {
+                      "id": "luongson-c7336e52692e",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d27988cfbfa6",
+          "name": "⚽ Manly United vs Sutherland Sharks | 14:00",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6670_1j051xz44k2x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6667_1gzcz9ra8h1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d27988cfbfa6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d27988cfbfa6",
+                  "name": "Manly United vs Sutherland Sharks",
+                  "streams": [
+                    {
+                      "id": "luongson-d27988cfbfa6",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-efcac773a711",
+          "name": "⚽ Sydney Olympic vs Wollongong Wolves | 14:00",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6661_1grcyn2cdt2s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11671_1gragv13bn2r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6661_1grcyn2cdt2s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-efcac773a711",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-efcac773a711",
+                  "name": "Sydney Olympic vs Wollongong Wolves",
+                  "streams": [
+                    {
+                      "id": "luongson-efcac773a711",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-13f3d249581b",
+          "name": "⚽ Spirit Fc vs St George Saints | 14:30",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7078_1grd51rgr61r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17250_1hv5bxt12t22.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7078_1grd51rgr61r.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-13f3d249581b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-13f3d249581b",
+                  "name": "Spirit Fc vs St George Saints",
+                  "streams": [
+                    {
+                      "id": "luongson-13f3d249581b",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
