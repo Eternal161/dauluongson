@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:31 10/07/2026",
+  "last_updated": "08:41 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-edebc184577c",
-          "name": "⚽ Real Colorado Foxes vs Flatirons Rush | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://ui-avatars.com/api/?name=Re&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57787_1h22jx3pdx23.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=Re&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-edebc184577c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-edebc184577c",
-                  "name": "Real Colorado Foxes vs Flatirons Rush",
-                  "streams": [
-                    {
-                      "id": "luongson-edebc184577c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-928d5a6d87",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-40d9731546a6",
           "name": "⚽ Nacional Potosi vs Aurora | Không rõ",
@@ -79,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7c364c2d5f",
+                          "id": "lnk-e4ce01a957",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a7e36d8d1f",
+                          "id": "lnk-6a72f5e4eb",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-edebc184577c",
+          "name": "⚽ Real Colorado Foxes vs Flatirons Rush | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://ui-avatars.com/api/?name=Re&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57787_1h22jx3pdx23.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=Re&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-edebc184577c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-edebc184577c",
+                  "name": "Real Colorado Foxes vs Flatirons Rush",
+                  "streams": [
+                    {
+                      "id": "luongson-edebc184577c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6042ad5602",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
