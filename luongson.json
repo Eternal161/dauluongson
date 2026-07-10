@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:41 11/07/2026",
+  "last_updated": "06:42 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-53ade5d8e76a",
-          "name": "⚽ Juventude vs Vila Nova | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1645_1gv1yhgq3tw.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-53ade5d8e76a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-53ade5d8e76a",
-                  "name": "Juventude vs Vila Nova",
-                  "streams": [
-                    {
-                      "id": "luongson-53ade5d8e76a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c5f7b42b23",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-a41201d46c94",
           "name": "⚽ Sport Club Do Recife vs Botafogo Sp | Không rõ",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6b125c8fb3",
+                          "id": "lnk-68747b7205",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-53ade5d8e76a",
+          "name": "⚽ Juventude vs Vila Nova | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1645_1gv1yhgq3tw.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/336_1hwrwf8axx1r.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-53ade5d8e76a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-53ade5d8e76a",
+                  "name": "Juventude vs Vila Nova",
+                  "streams": [
+                    {
+                      "id": "luongson-53ade5d8e76a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ea9e8e9ae",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-839a68b229",
+                          "id": "lnk-48a9e929ad",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7b7641e237",
+                          "id": "lnk-b07a1026e0",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
