@@ -1,125 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:41 11/07/2026",
+  "last_updated": "00:51 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b11369043a54",
-          "name": "⚽ Germany (W) U19 vs Spain (W) U19 | Không rõ",
-          "tournament": "European Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18881_165750135665.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2237_165750277378.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b11369043a54",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b11369043a54",
-                  "name": "Germany (W) U19 vs Spain (W) U19",
-                  "streams": [
-                    {
-                      "id": "luongson-b11369043a54",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-184fe4d0df",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-23798a53bc",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5ebb66af3321",
-          "name": "⚽ Harju Jk Laagri vs Trans Narva | Không rõ",
-          "tournament": "Estonia Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/48058_167368512786.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3471_1jbqr7wgr24.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/48058_167368512786.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5ebb66af3321",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5ebb66af3321",
-                  "name": "Harju Jk Laagri vs Trans Narva",
-                  "streams": [
-                    {
-                      "id": "luongson-5ebb66af3321",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23d9bca826",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-de5293bbb063",
           "name": "⚽ Vaasa Vps vs Sjk Seinajoen | Không rõ",
@@ -159,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0f76cb7a4a",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-34ba734f94",
+                          "id": "lnk-223fcf9d8c",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-1a36ae5c03",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -181,11 +68,11 @@
           ]
         },
         {
-          "id": "luongson-6f6f07993b6b",
-          "name": "⚽ Pk-35 Vantaa vs Kapa | Không rõ",
-          "tournament": "Finland Ykkonen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2009_1gy3vmcar026.png?v=2.4.3",
+          "id": "luongson-5ebb66af3321",
+          "name": "⚽ Harju Jk Laagri vs Trans Narva | Không rõ",
+          "tournament": "Estonia Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/48058_167368512786.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3471_1jbqr7wgr24.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -193,13 +80,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2176_1gqxnaerpe2.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/48058_167368512786.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "● Live 3 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -207,30 +94,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-6f6f07993b6b",
+              "id": "luongson-5ebb66af3321",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-6f6f07993b6b",
-                  "name": "Pk-35 Vantaa vs Kapa",
+                  "id": "luongson-5ebb66af3321",
+                  "name": "Harju Jk Laagri vs Trans Narva",
                   "streams": [
                     {
-                      "id": "luongson-6f6f07993b6b",
+                      "id": "luongson-5ebb66af3321",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-52fab65ce0",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-e585871051",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-5912e10573",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -242,7 +122,7 @@
         },
         {
           "id": "luongson-97b6ba209e38",
-          "name": "⚽ Saldus Ss/Leevon vs Riga Fc | Không rõ",
+          "name": "⚽ Saldus Ss/Leevon vs Riga Fc | 00:00",
           "tournament": "Latvia Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/44963_1j2j921cnn3.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
@@ -259,7 +139,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live HT 00:00",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -279,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8ef75747ae",
+                          "id": "lnk-6742b4ce2a",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -332,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8abac9e1a4",
+                          "id": "lnk-fda4c42b2d",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -545,10 +425,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -563,7 +443,15 @@
                     {
                       "id": "luongson-492c75f89934",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5bd5bc4171",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
