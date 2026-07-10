@@ -1,12 +1,132 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:01 10/07/2026",
+  "last_updated": "07:11 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-bcd174cefb35",
+          "name": "⚽ Nublense vs O.Higgins | Không rõ",
+          "tournament": "Chile Copa de la Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bcd174cefb35",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bcd174cefb35",
+                  "name": "Nublense vs O.Higgins",
+                  "streams": [
+                    {
+                      "id": "luongson-bcd174cefb35",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-310bd9fc60",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-8a660867ca",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-f0d47b910e",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-da6602d792df",
+          "name": "⚽ New England vs Blackwatch Rush | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69318_1jxp34ypd51y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57583_1h2hhr4j992z.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/69318_1jxp34ypd51y.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-da6602d792df",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-da6602d792df",
+                  "name": "New England vs Blackwatch Rush",
+                  "streams": [
+                    {
+                      "id": "luongson-da6602d792df",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5754ca634f",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-40d9731546a6",
           "name": "⚽ Nacional Potosi vs Aurora | Không rõ",
@@ -46,184 +166,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ad6e283df4",
+                          "id": "lnk-22659d6008",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://auto.cdnfaster.live/live/sd-6MwdakGemXKGmwSZrc/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bcd174cefb35",
-          "name": "⚽ Nublense vs O.Higgins | Không rõ",
-          "tournament": "Chile Copa de la Liga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3282_1gy3vpt0ej2.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4304_1gzczbcwxg1a.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bcd174cefb35",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bcd174cefb35",
-                  "name": "Nublense vs O.Higgins",
-                  "streams": [
-                    {
-                      "id": "luongson-bcd174cefb35",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39f36e1f7b",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-8b0e520489",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-b2e4a83f60",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-da6602d792df",
-          "name": "⚽ New England vs Blackwatch Rush | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69318_1jxp34ypd51y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57583_1h2hhr4j992z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69318_1jxp34ypd51y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-da6602d792df",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-da6602d792df",
-                  "name": "New England vs Blackwatch Rush",
-                  "streams": [
-                    {
-                      "id": "luongson-da6602d792df",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0377827e2",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d8745d1f1468",
-          "name": "⚽ Dayton Dutch Lions vs West Virginia Alliance Fc | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12781_20130921173413.gif?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39701_1h0kwse4av25.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12781_20130921173413.gif?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d8745d1f1468",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d8745d1f1468",
-                  "name": "Dayton Dutch Lions vs West Virginia Alliance Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-d8745d1f1468",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08aa5aa12e",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -317,7 +264,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-396f30c87e",
+                          "id": "lnk-15bfa18214",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -467,51 +414,6 @@
           ]
         },
         {
-          "id": "luongson-fa5dbf05a69a",
-          "name": "⚽ Brisbane Roar (Youth) vs Rochedale Rovers | 16:30",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fa5dbf05a69a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fa5dbf05a69a",
-                  "name": "Brisbane Roar (Youth) vs Rochedale Rovers",
-                  "streams": [
-                    {
-                      "id": "luongson-fa5dbf05a69a",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-9de3243ca7ee",
           "name": "⚽ Green Gully Cavaliers vs Altona Magic | 16:30",
           "tournament": "VIC Premier League",
@@ -547,6 +449,51 @@
                   "streams": [
                     {
                       "id": "luongson-9de3243ca7ee",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-fa5dbf05a69a",
+          "name": "⚽ Brisbane Roar (Youth) vs Rochedale Rovers | 16:30",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/10101_1gt31y56wx2x.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fa5dbf05a69a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fa5dbf05a69a",
+                  "name": "Brisbane Roar (Youth) vs Rochedale Rovers",
+                  "streams": [
+                    {
+                      "id": "luongson-fa5dbf05a69a",
                       "name": "F",
                       "stream_links": []
                     }
@@ -727,6 +674,51 @@
                   "streams": [
                     {
                       "id": "luongson-aaee6f45e764",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c77f5bce5dba",
+          "name": "⚽ Oakleigh Cannons vs Avondale Fc | 17:15",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20222_1gzsya27tv1x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4468_1h2s4gqr3d32.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c77f5bce5dba",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c77f5bce5dba",
+                  "name": "Oakleigh Cannons vs Avondale Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-c77f5bce5dba",
                       "name": "F",
                       "stream_links": []
                     }
