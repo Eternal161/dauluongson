@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:01 11/07/2026",
+  "last_updated": "01:11 11/07/2026",
   "groups": [
     {
       "id": "live",
@@ -9,7 +9,7 @@
       "channels": [
         {
           "id": "luongson-9b05e473ab91",
-          "name": "⚽ Saldus Ss/Leevon vs Riga Fc | 00:00",
+          "name": "⚽ Saldus Ss/Leevon vs Riga Fc | Không rõ",
           "tournament": "Latvia Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/44963_1j2j921cnn3.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 00:00",
+              "text": "● Live 1 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b0c608c17f",
+                          "id": "lnk-ce17db5b27",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ff854185b9",
+                          "id": "lnk-adb047c442",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -222,10 +222,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 01:45",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -240,7 +240,15 @@
                     {
                       "id": "luongson-b7d48683f729",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d40b965f7d",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -332,18 +340,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-215979a04c",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-35670388a6",
+                          "id": "lnk-870946958f",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-a1eb956ae2",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
