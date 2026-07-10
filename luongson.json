@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:01 11/07/2026",
+  "last_updated": "00:11 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-bb002e463b19",
+          "name": "⚽ Dnepr Mogilev vs Fc Minsk | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2038_1h746p87zrk.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4645_1h6z25dg6y2m.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2038_1h746p87zrk.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bb002e463b19",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bb002e463b19",
+                  "name": "Dnepr Mogilev vs Fc Minsk",
+                  "streams": [
+                    {
+                      "id": "luongson-bb002e463b19",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b28605073e",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-6f6f07993b6b",
           "name": "⚽ Pk-35 Vantaa vs Kapa | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 2 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,14 +99,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bb14fdb42b",
+                          "id": "lnk-586f053e7f",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-53faac5725",
+                          "id": "lnk-72539f39d5",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
@@ -106,14 +159,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d57c329c57",
+                          "id": "lnk-18e01590c5",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-69554b7219",
+                          "id": "lnk-ed2698c65a",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
@@ -146,7 +199,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 2 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ffb0eb3578",
+                          "id": "lnk-41b3d9651f",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -219,71 +272,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3cf175f42c",
+                          "id": "lnk-0343a69804",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-de5293bbb063",
-          "name": "⚽ Vaasa Vps vs Sjk Seinajoen | Không rõ",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466641.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-de5293bbb063",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-de5293bbb063",
-                  "name": "Vaasa Vps vs Sjk Seinajoen",
-                  "streams": [
-                    {
-                      "id": "luongson-de5293bbb063",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0bdfb8bc10",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-3320880062",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -312,7 +305,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "● Live 4 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -332,18 +325,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ee07eb205a",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-7bf7d664de",
+                          "id": "lnk-3db2ea604d",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-3d604587fe",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -354,11 +347,11 @@
           ]
         },
         {
-          "id": "luongson-bb002e463b19",
-          "name": "⚽ Dnepr Mogilev vs Fc Minsk | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2038_1h746p87zrk.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4645_1h6z25dg6y2m.png?v=2.4.3",
+          "id": "luongson-de5293bbb063",
+          "name": "⚽ Vaasa Vps vs Sjk Seinajoen | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466641.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -366,13 +359,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2038_1h746p87zrk.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/1853_165724449442.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -380,23 +373,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-bb002e463b19",
+              "id": "luongson-de5293bbb063",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-bb002e463b19",
-                  "name": "Dnepr Mogilev vs Fc Minsk",
+                  "id": "luongson-de5293bbb063",
+                  "name": "Vaasa Vps vs Sjk Seinajoen",
                   "streams": [
                     {
-                      "id": "luongson-bb002e463b19",
+                      "id": "luongson-de5293bbb063",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-64bb7fb465",
-                          "name": "BLV LIO",
+                          "id": "lnk-2709507511",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-7bea31d104",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -407,7 +407,7 @@
           ]
         },
         {
-          "id": "luongson-97b6ba209e38",
+          "id": "luongson-9b05e473ab91",
           "name": "⚽ Saldus Ss/Leevon vs Riga Fc | Không rõ",
           "tournament": "Latvia Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/44963_1j2j921cnn3.png?v=2.4.3",
@@ -433,23 +433,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-97b6ba209e38",
+              "id": "luongson-9b05e473ab91",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-97b6ba209e38",
+                  "id": "luongson-9b05e473ab91",
                   "name": "Saldus Ss/Leevon vs Riga Fc",
                   "streams": [
                     {
-                      "id": "luongson-97b6ba209e38",
+                      "id": "luongson-9b05e473ab91",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-33e13aefbe",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-85ef0f04ca",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
