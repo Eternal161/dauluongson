@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:51 10/07/2026",
+  "last_updated": "19:01 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-faf0c477392f",
-          "name": "⚽ Sejong Gumi Sportstoto (W) vs Boeun Sangmu (W) | Không rõ",
-          "tournament": "WK League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/14750_201332443258.jpg?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9451_1gw8ppsgvw1e.png?v=2.4.3",
+          "id": "luongson-ef0b2c54e909",
+          "name": "⚽ Suwon Fc vs Jeonnam Dragons | Không rõ",
+          "tournament": "K League 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4779_1gxsf6qjy222.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/14750_201332443258.jpg?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/4779_1gxsf6qjy222.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 4 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-faf0c477392f",
+              "id": "luongson-ef0b2c54e909",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-faf0c477392f",
-                  "name": "Sejong Gumi Sportstoto (W) vs Boeun Sangmu (W)",
+                  "id": "luongson-ef0b2c54e909",
+                  "name": "Suwon Fc vs Jeonnam Dragons",
                   "streams": [
                     {
-                      "id": "luongson-faf0c477392f",
+                      "id": "luongson-ef0b2c54e909",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-373945fe91",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-794a9b14a1",
+                          "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-53b4a03417ed",
+          "name": "⚽ Preston Lions vs Hume City | Không rõ",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-53b4a03417ed",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-53b4a03417ed",
+                  "name": "Preston Lions vs Hume City",
+                  "streams": [
+                    {
+                      "id": "luongson-53b4a03417ed",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75fa7afb87",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-efca3a79e3",
+                          "id": "lnk-9d028e913f",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ef0b2c54e909",
-          "name": "⚽ Suwon Fc vs Jeonnam Dragons | Không rõ",
-          "tournament": "K League 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4779_1gxsf6qjy222.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4779_1gxsf6qjy222.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 4 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ef0b2c54e909",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ef0b2c54e909",
-                  "name": "Suwon Fc vs Jeonnam Dragons",
-                  "streams": [
-                    {
-                      "id": "luongson-ef0b2c54e909",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-070b2ff879",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -205,64 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6ce2fa2623",
+                          "id": "lnk-27b18fc959",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-53b4a03417ed",
-          "name": "⚽ Preston Lions vs Hume City | Không rõ",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8542_1gq924y4x41f.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4467_1htp6esmkg27.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-53b4a03417ed",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-53b4a03417ed",
-                  "name": "Preston Lions vs Hume City",
-                  "streams": [
-                    {
-                      "id": "luongson-53b4a03417ed",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c61345517",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -311,64 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb989cbe0a",
+                          "id": "lnk-754d3d4c8a",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-390a9673e32a",
-          "name": "⚽ Than Ksvn (W) vs Ho Chi Minh City B (W) | 03:26 08/10/1700",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/26515_1hfay0zx4811.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-390a9673e32a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-390a9673e32a",
-                  "name": "Than Ksvn (W) vs Ho Chi Minh City B (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-390a9673e32a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-722ed3e124",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -397,7 +291,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live 3 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -417,14 +311,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1e4b86e631",
+                          "id": "lnk-6f1c5e427d",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-5bc70541f6",
+                          "id": "lnk-275277e42f",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
@@ -439,61 +333,8 @@
           ]
         },
         {
-          "id": "luongson-d808b758acb8",
-          "name": "⚽ Ekibastuzets vs Kairat Almaty Ii | 19:00",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/49070_1hwa79xdn22c.jpg?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 19:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d808b758acb8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d808b758acb8",
-                  "name": "Ekibastuzets vs Kairat Almaty Ii",
-                  "streams": [
-                    {
-                      "id": "luongson-d808b758acb8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4116b9e2f1",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-dc5fc8f4e638",
-          "name": "⚽ Fk Kaspiy Aktau B vs Fk Taraz | 19:00",
+          "name": "⚽ Fk Kaspiy Aktau B vs Fk Taraz | Không rõ",
           "tournament": "Kazakhstan Division 1",
           "logo_nha": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
@@ -510,10 +351,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -575,11 +416,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-780796c356",
+                          "id": "lnk-7e7c0e6d8c",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d808b758acb8",
+          "name": "⚽ Ekibastuzets vs Kairat Almaty Ii | 19:00",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/49070_1hwa79xdn22c.jpg?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 19:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d808b758acb8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d808b758acb8",
+                  "name": "Ekibastuzets vs Kairat Almaty Ii",
+                  "streams": [
+                    {
+                      "id": "luongson-d808b758acb8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5b237c07fa",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -635,51 +529,6 @@
           ]
         },
         {
-          "id": "luongson-f0f20b37477e",
-          "name": "⚽ Benfica De Macau vs Shao Jiang | 20:00",
-          "tournament": "Liga de Elite",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21637_1gtn878e752m.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68742_1jxv4m70rh25.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/21637_1gtn878e752m.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f0f20b37477e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f0f20b37477e",
-                  "name": "Benfica De Macau vs Shao Jiang",
-                  "streams": [
-                    {
-                      "id": "luongson-f0f20b37477e",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-0903b0a2e361",
           "name": "⚽ Fc Shakhtyor Karagandy vs Turan Turkistan | 20:00",
           "tournament": "Kazakhstan Division 1",
@@ -725,6 +574,51 @@
           ]
         },
         {
+          "id": "luongson-f0f20b37477e",
+          "name": "⚽ Benfica De Macau vs Shao Jiang | 20:00",
+          "tournament": "Liga de Elite",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/21637_1gtn878e752m.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68742_1jxv4m70rh25.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/21637_1gtn878e752m.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f0f20b37477e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f0f20b37477e",
+                  "name": "Benfica De Macau vs Shao Jiang",
+                  "streams": [
+                    {
+                      "id": "luongson-f0f20b37477e",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-1672c8fd3a9c",
           "name": "⚽ Kommunalnik Slonim vs Niva Dolbizno | 21:30",
           "tournament": "Belarus Pershaya Liga",
@@ -760,6 +654,96 @@
                   "streams": [
                     {
                       "id": "luongson-1672c8fd3a9c",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-54698ed66878",
+          "name": "⚽ Ostrowitz vs Energetik-Bgu Minsk | 22:30",
+          "tournament": "Belarus Pershaya Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44781_1hpwx41r1r1w.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12851_1h54k7bfpx1.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44781_1hpwx41r1r1w.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-54698ed66878",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-54698ed66878",
+                  "name": "Ostrowitz vs Energetik-Bgu Minsk",
+                  "streams": [
+                    {
+                      "id": "luongson-54698ed66878",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-44710559c8a7",
+          "name": "⚽ Ktp Kotka vs Japs | 22:30",
+          "tournament": "Finland Ykkonen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7101_1gq9hn6k3519.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7156_1hj4ysev4e23.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7101_1gq9hn6k3519.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-44710559c8a7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-44710559c8a7",
+                  "name": "Ktp Kotka vs Japs",
+                  "streams": [
+                    {
+                      "id": "luongson-44710559c8a7",
                       "name": "F",
                       "stream_links": []
                     }
