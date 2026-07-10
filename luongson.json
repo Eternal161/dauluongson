@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:31 10/07/2026",
+  "last_updated": "20:41 10/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-8b8987857801",
+          "name": "⚽ Fc Shakhtyor Karagandy vs Turan Turkistan | 03:26 08/10/2000",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39028_1gvvp9f85w29.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8b8987857801",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8b8987857801",
+                  "name": "Fc Shakhtyor Karagandy vs Turan Turkistan",
+                  "streams": [
+                    {
+                      "id": "luongson-8b8987857801",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0b91a369a",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-d808b758acb8",
           "name": "⚽ Ekibastuzets vs Kairat Almaty Ii | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 4",
+              "text": "● Live 2 : 4",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,244 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-af9ebf6a38",
+                          "id": "lnk-0e75a33eec",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-026629d49d3a",
-          "name": "⚽ Malaysia (W) vs Laos (W) | Không rõ",
-          "tournament": "Women’s ASEAN Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5501_165726969295.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5499_1gzfm3q7cw23.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/5501_165726969295.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-026629d49d3a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-026629d49d3a",
-                  "name": "Malaysia (W) vs Laos (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-026629d49d3a",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-89bb7b1ac6",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-add80dfcf9",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d097ef8d0219",
-          "name": "⚽ Fk Yelimay Semey B vs Astana B | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d097ef8d0219",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d097ef8d0219",
-                  "name": "Fk Yelimay Semey B vs Astana B",
-                  "streams": [
-                    {
-                      "id": "luongson-d097ef8d0219",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b01cb5db91",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-1fac75a95a1f",
-          "name": "⚽ Racing Beirut vs Tadamon Sour | Không rõ",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3100_20121220221843.gif?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1fac75a95a1f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1fac75a95a1f",
-                  "name": "Racing Beirut vs Tadamon Sour",
-                  "streams": [
-                    {
-                      "id": "luongson-1fac75a95a1f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c9251bf9b",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-20ca2c7d77",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3268ed295001",
-          "name": "⚽ Shandong Taishan vs Yunnan Yukun | Không rõ",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34_1gy3vjsrhjq.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61513_1k0qw9nssh1n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34_1gy3vjsrhjq.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 4 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3268ed295001",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3268ed295001",
-                  "name": "Shandong Taishan vs Yunnan Yukun",
-                  "streams": [
-                    {
-                      "id": "luongson-3268ed295001",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f90ad9a712",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-2e75bfc27f",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -312,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 3",
+              "text": "● Live 1 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -332,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d119e6d1e8",
+                          "id": "lnk-82a66b48c5",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -347,11 +167,11 @@
           ]
         },
         {
-          "id": "luongson-0903b0a2e361",
-          "name": "⚽ Fc Shakhtyor Karagandy vs Turan Turkistan | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39028_1gvvp9f85w29.png?v=2.4.3",
+          "id": "luongson-026629d49d3a",
+          "name": "⚽ Malaysia (W) vs Laos (W) | Không rõ",
+          "tournament": "Women’s ASEAN Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5501_165726969295.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5499_1gzfm3q7cw23.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -359,13 +179,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/5501_165726969295.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -373,23 +193,143 @@
           ],
           "sources": [
             {
-              "id": "luongson-0903b0a2e361",
+              "id": "luongson-026629d49d3a",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-0903b0a2e361",
-                  "name": "Fc Shakhtyor Karagandy vs Turan Turkistan",
+                  "id": "luongson-026629d49d3a",
+                  "name": "Malaysia (W) vs Laos (W)",
                   "streams": [
                     {
-                      "id": "luongson-0903b0a2e361",
+                      "id": "luongson-026629d49d3a",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a244f08f3a",
-                          "name": "BLV TÀO THÁO",
+                          "id": "lnk-85f83c49d5",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-82fae97876",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1fac75a95a1f",
+          "name": "⚽ Racing Beirut vs Tadamon Sour | Không rõ",
+          "tournament": "Lebanese Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3100_20121220221843.gif?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1fac75a95a1f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1fac75a95a1f",
+                  "name": "Racing Beirut vs Tadamon Sour",
+                  "streams": [
+                    {
+                      "id": "luongson-1fac75a95a1f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-50bcc1de08",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-10612be85d",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d097ef8d0219",
+          "name": "⚽ Fk Yelimay Semey B vs Astana B | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39276_1jxyj6jxv35.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d097ef8d0219",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d097ef8d0219",
+                  "name": "Fk Yelimay Semey B vs Astana B",
+                  "streams": [
+                    {
+                      "id": "luongson-d097ef8d0219",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e9b9b11f4",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -435,6 +375,51 @@
                   "streams": [
                     {
                       "id": "luongson-1672c8fd3a9c",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-54698ed66878",
+          "name": "⚽ Ostrowitz vs Energetik-Bgu Minsk | 22:30",
+          "tournament": "Belarus Pershaya Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44781_1hpwx41r1r1w.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12851_1h54k7bfpx1.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44781_1hpwx41r1r1w.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-54698ed66878",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-54698ed66878",
+                  "name": "Ostrowitz vs Energetik-Bgu Minsk",
+                  "streams": [
+                    {
+                      "id": "luongson-54698ed66878",
                       "name": "F",
                       "stream_links": []
                     }
@@ -525,51 +510,6 @@
                   "streams": [
                     {
                       "id": "luongson-bb002e463b19",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-54698ed66878",
-          "name": "⚽ Ostrowitz vs Energetik-Bgu Minsk | 22:30",
-          "tournament": "Belarus Pershaya Liga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44781_1hpwx41r1r1w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12851_1h54k7bfpx1.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/44781_1hpwx41r1r1w.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-54698ed66878",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-54698ed66878",
-                  "name": "Ostrowitz vs Energetik-Bgu Minsk",
-                  "streams": [
-                    {
-                      "id": "luongson-54698ed66878",
                       "name": "F",
                       "stream_links": []
                     }
@@ -750,6 +690,51 @@
                   "streams": [
                     {
                       "id": "luongson-6f6f07993b6b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9b05e473ab91",
+          "name": "⚽ Saldus Ss/Leevon vs Riga Fc | 00:00",
+          "tournament": "Latvia Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/44963_1j2j921cnn3.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20492_1h5e74z2bj1.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/44963_1j2j921cnn3.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9b05e473ab91",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9b05e473ab91",
+                  "name": "Saldus Ss/Leevon vs Riga Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-9b05e473ab91",
                       "name": "F",
                       "stream_links": []
                     }
