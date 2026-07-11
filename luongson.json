@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:31 12/07/2026",
+  "last_updated": "01:41 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-7f6ac4a56ef2",
-          "name": "⚽ Levante vs Leganes | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/94_164871559313.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/856_1h5bja70zq1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/94_164871559313.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7f6ac4a56ef2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7f6ac4a56ef2",
-                  "name": "Levante vs Leganes",
-                  "streams": [
-                    {
-                      "id": "luongson-7f6ac4a56ef2",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-83adbf60f6",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-a48cce9720dd",
           "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
@@ -99,25 +46,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ecfacf9699",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-e9721dcf39",
+                          "id": "lnk-35423e2f91",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-21625d7dfe",
+                          "id": "lnk-17266ece55",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-f7d62d70df",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -146,7 +93,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 2 : 0",
+              "text": "● Live 3 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,18 +113,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8216baf906",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-6227da9d0d",
+                          "id": "lnk-a3998197bf",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-204b3d6f98",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -188,8 +135,8 @@
           ]
         },
         {
-          "id": "luongson-72be8a937d0a",
-          "name": "⚽ Fc Gomel vs Neman Grodno | 03:26 08/12/45",
+          "id": "luongson-72f5c774fcf9",
+          "name": "⚽ Fc Gomel vs Neman Grodno | Không rõ",
           "tournament": "Belarusian Premier League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/2040_1grd5f04ec10.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/575_1j50e7s8g413.png?v=2.4.3",
@@ -206,7 +153,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live HT 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -214,23 +161,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-72be8a937d0a",
+              "id": "luongson-72f5c774fcf9",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-72be8a937d0a",
+                  "id": "luongson-72f5c774fcf9",
                   "name": "Fc Gomel vs Neman Grodno",
                   "streams": [
                     {
-                      "id": "luongson-72be8a937d0a",
+                      "id": "luongson-72f5c774fcf9",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2fe9cc0157",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-2b4a1330a6",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7f6ac4a56ef2",
+          "name": "⚽ Levante vs Leganes | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/94_164871559313.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/856_1h5bja70zq1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/94_164871559313.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7f6ac4a56ef2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7f6ac4a56ef2",
+                  "name": "Levante vs Leganes",
+                  "streams": [
+                    {
+                      "id": "luongson-7f6ac4a56ef2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7dc8018645",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -279,21 +279,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4ff1d6806c",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-5b2640c667",
+                          "id": "lnk-e3ab24201f",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-807e59ded0",
+                          "id": "lnk-4ba34944fd",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-5db1cd36d6",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
@@ -346,7 +346,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4188a4cfe7",
+                          "id": "lnk-4742f4134e",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -379,10 +379,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 02:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -397,7 +397,15 @@
                     {
                       "id": "luongson-4ca3ec152700",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cb437b0a3",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -444,7 +452,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8402577a79",
+                          "id": "lnk-cc94674631",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -477,10 +485,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -495,15 +503,7 @@
                     {
                       "id": "luongson-6fe7698e22fa",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5eed08fa2",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
