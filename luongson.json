@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:01 11/07/2026",
+  "last_updated": "17:11 11/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cf5b631d76",
+                          "id": "lnk-f48a45a3e7",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7c6e4d2a24",
+                          "id": "lnk-8331c4b4c2",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -132,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c3bc3fad53",
+                          "id": "lnk-b9b2d5d780",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a1b671fd0a44",
-          "name": "⚽ Cooma Tigers vs Queanbeyan City | Không rõ",
-          "tournament": "Australia Capital Gatorade Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12667_1jw00590ts21.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/34799_1gtqjzm9yk1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12667_1jw00590ts21.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a1b671fd0a44",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a1b671fd0a44",
-                  "name": "Cooma Tigers vs Queanbeyan City",
-                  "streams": [
-                    {
-                      "id": "luongson-a1b671fd0a44",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f90c696009",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -238,7 +185,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -258,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb2a5517f6",
+                          "id": "lnk-2fb67d4462",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -311,7 +258,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cd9adf2dbb",
+                          "id": "lnk-c2321a8c30",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -344,10 +291,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -362,7 +309,15 @@
                     {
                       "id": "luongson-dfd209144a33",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e52262da50",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -409,7 +364,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-60c8a009ae",
+                          "id": "lnk-5b4db0c60d",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -552,7 +507,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3fdbf6e072",
+                          "id": "lnk-ed103fd7e6",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
@@ -612,51 +567,6 @@
           ]
         },
         {
-          "id": "luongson-10d373805786",
-          "name": "⚽ Fc Ufa vs Fk Leningradets | 19:00",
-          "tournament": "Russian National Football League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35507_1h5e496cr617.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-10d373805786",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-10d373805786",
-                  "name": "Fc Ufa vs Fk Leningradets",
-                  "streams": [
-                    {
-                      "id": "luongson-10d373805786",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-9c49359d2fe7",
           "name": "⚽ Chengdu Rongcheng Fc vs Chongqing Tonglianglong | 19:00",
           "tournament": "Chinese Super League",
@@ -702,6 +612,51 @@
           ]
         },
         {
+          "id": "luongson-10d373805786",
+          "name": "⚽ Fc Ufa vs Fk Leningradets | 19:00",
+          "tournament": "Russian National Football League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35507_1h5e496cr617.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-10d373805786",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-10d373805786",
+                  "name": "Fc Ufa vs Fk Leningradets",
+                  "streams": [
+                    {
+                      "id": "luongson-10d373805786",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-ef64b3f2018b",
           "name": "⚽ Fredrikstad vs Lillestrom | 19:00",
           "tournament": "Norwegian Tippeligaen",
@@ -737,6 +692,51 @@
                   "streams": [
                     {
                       "id": "luongson-ef64b3f2018b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-58942466bfa9",
+          "name": "⚽ Lahti vs Hjk Helsinki | 19:00",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/356_165724428576.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/347_1gtzct7tvc22.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/356_165724428576.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-58942466bfa9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-58942466bfa9",
+                  "name": "Lahti vs Hjk Helsinki",
+                  "streams": [
+                    {
+                      "id": "luongson-58942466bfa9",
                       "name": "F",
                       "stream_links": []
                     }
