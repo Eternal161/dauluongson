@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:21 11/07/2026",
+  "last_updated": "22:31 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-4e37414e79d8",
-          "name": "⚽ Fk Kaspyi Aktau vs Ordabasy | 03:26 08/11/2200",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
+          "id": "luongson-962e76434226",
+          "name": "⚽ Gnistan Helsinki vs Ifk Mariehamn | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-4e37414e79d8",
+              "id": "luongson-962e76434226",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-4e37414e79d8",
-                  "name": "Fk Kaspyi Aktau vs Ordabasy",
+                  "id": "luongson-962e76434226",
+                  "name": "Gnistan Helsinki vs Ifk Mariehamn",
                   "streams": [
                     {
-                      "id": "luongson-4e37414e79d8",
+                      "id": "luongson-962e76434226",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3e896e885e",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-c87ab61d4b",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-4d2d750838",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -99,78 +106,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d16ca64f5a",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-988173f820",
+                          "id": "lnk-62f02c952b",
                           "name": "BLV FERNANDO",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-962e76434226",
-          "name": "⚽ Gnistan Helsinki vs Ifk Mariehamn | Không rõ",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1666_165724435837.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1762188564.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-962e76434226",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-962e76434226",
-                  "name": "Gnistan Helsinki vs Ifk Mariehamn",
-                  "streams": [
-                    {
-                      "id": "luongson-962e76434226",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b950d21fa1",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-938b68b4ea",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-0180ae0004",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -219,18 +166,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f50f00bacb",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-14f9d980eb",
+                          "id": "lnk-637d904923",
                           "name": "BLV LEO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-fe10361c9e",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -241,11 +188,11 @@
           ]
         },
         {
-          "id": "luongson-9d2e7b0c65f3",
-          "name": "⚽ Tps Turku vs Ac Oulu | Không rõ",
-          "tournament": "Finland Veikkausliga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/351_1j0q19x9y11n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1855_165724417951.png?v=2.4.3",
+          "id": "luongson-4e37414e79d8",
+          "name": "⚽ Fk Kaspyi Aktau vs Ordabasy | 03:26 08/11/2200",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -253,13 +200,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/351_1j0q19x9y11n.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 3 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -267,30 +214,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-9d2e7b0c65f3",
+              "id": "luongson-4e37414e79d8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-9d2e7b0c65f3",
-                  "name": "Tps Turku vs Ac Oulu",
+                  "id": "luongson-4e37414e79d8",
+                  "name": "Fk Kaspyi Aktau vs Ordabasy",
                   "streams": [
                     {
-                      "id": "luongson-9d2e7b0c65f3",
+                      "id": "luongson-4e37414e79d8",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e24e5fec03",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-466b6a7df5",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-81c89ae163",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -339,14 +279,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4af625cc3d",
+                          "id": "lnk-a6cff5c3f1",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-2724b8bd10",
+                          "id": "lnk-3ff2d623e4",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
@@ -361,8 +301,68 @@
           ]
         },
         {
+          "id": "luongson-9d2e7b0c65f3",
+          "name": "⚽ Tps Turku vs Ac Oulu | Không rõ",
+          "tournament": "Finland Veikkausliga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/351_1j0q19x9y11n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1855_165724417951.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/351_1j0q19x9y11n.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 3 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9d2e7b0c65f3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9d2e7b0c65f3",
+                  "name": "Tps Turku vs Ac Oulu",
+                  "streams": [
+                    {
+                      "id": "luongson-9d2e7b0c65f3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a990eaa1c6",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-042eeab2fb",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-df0db5918914",
-          "name": "⚽ Orgryte vs Hacken | 22:30",
+          "name": "⚽ Orgryte vs Hacken | Không rõ",
           "tournament": "Swedish Allsvenskan",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/373_1gtqm2wp9p5.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1307_1h53w2zt69f.png?v=2.4.3",
@@ -379,7 +379,7 @@
           },
           "labels": [
             {
-              "text": "● Live 22:30",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -399,18 +399,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-641db877d0",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-5610471a99",
+                          "id": "lnk-80d66712ed",
                           "name": "BLV KAKA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-4e92c9184f",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -459,7 +459,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ed18c5c32d",
+                          "id": "lnk-0f63885b30",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -492,10 +492,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -510,7 +510,15 @@
                     {
                       "id": "luongson-fc460f53ca5d",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f4d6c27212",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
                     }
                   ]
                 }
