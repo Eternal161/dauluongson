@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:51 11/07/2026",
+  "last_updated": "08:01 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-705dd5b5d550",
+          "name": "⚽ Fc Motown Team B vs Long Island Rough Riders | Không rõ",
+          "tournament": "USA USL League Two",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57675_1h2hn8xkyjm.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12782_20121217171936.jpg?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/57675_1h2hn8xkyjm.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-705dd5b5d550",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-705dd5b5d550",
+                  "name": "Fc Motown Team B vs Long Island Rough Riders",
+                  "streams": [
+                    {
+                      "id": "luongson-705dd5b5d550",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a24a08cc0",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-ebe34ee8f581",
           "name": "⚽ Sport Boys vs Comerciantes Fc | Không rõ",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a7e80bebf0",
+                          "id": "lnk-dadbd9c093",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-705dd5b5d550",
-          "name": "⚽ Fc Motown Team B vs Long Island Rough Riders | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57675_1h2hn8xkyjm.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12782_20121217171936.jpg?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57675_1h2hn8xkyjm.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-705dd5b5d550",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-705dd5b5d550",
-                  "name": "Fc Motown Team B vs Long Island Rough Riders",
-                  "streams": [
-                    {
-                      "id": "luongson-705dd5b5d550",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c216068152",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -132,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 3",
+              "text": "● Live 3 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b7f7662a54",
+                          "id": "lnk-6906329058",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
