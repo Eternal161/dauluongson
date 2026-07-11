@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:41 12/07/2026",
+  "last_updated": "05:51 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,49 +46,49 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-825db918b3",
-                          "name": "BLV MÃ SIÊU",
+                          "id": "lnk-1c1d845881",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-2e57557bd0",
+                          "id": "lnk-e195ecfc76",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-3da722f665",
+                          "id": "lnk-455eb45524",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-6c12cc1b7b",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-4de65a66e7",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-fa205b31f0",
+                          "id": "lnk-da2223ebd3",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-45db36db8a",
+                          "id": "lnk-d185a11220",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         },
                         {
-                          "id": "lnk-8e2dd41e02",
+                          "id": "lnk-e76e69ebc8",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -141,7 +141,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9657f37a17",
+                          "id": "lnk-6b86b9e973",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -174,10 +174,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 06:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -192,7 +192,15 @@
                     {
                       "id": "luongson-51b2b485579e",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f114728269",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -284,7 +292,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e1ddee2a26",
+                          "id": "lnk-75bd01f75e",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
