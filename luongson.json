@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:31 11/07/2026",
+  "last_updated": "07:41 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-a41201d46c94",
-          "name": "⚽ Sport Club Do Recife vs Botafogo Sp | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3524_1gxsf3fv7a21.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8666_1gtda2hsk1s.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3524_1gxsf3fv7a21.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a41201d46c94",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a41201d46c94",
-                  "name": "Sport Club Do Recife vs Botafogo Sp",
-                  "streams": [
-                    {
-                      "id": "luongson-a41201d46c94",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a9faccd4a4",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-705dd5b5d550",
           "name": "⚽ Fc Motown Team B vs Long Island Rough Riders | Không rõ",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ba8586146",
+                          "id": "lnk-da55076bbd",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a41201d46c94",
+          "name": "⚽ Sport Club Do Recife vs Botafogo Sp | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3524_1gxsf3fv7a21.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8666_1gtda2hsk1s.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3524_1gxsf3fv7a21.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a41201d46c94",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a41201d46c94",
+                  "name": "Sport Club Do Recife vs Botafogo Sp",
+                  "streams": [
+                    {
+                      "id": "luongson-a41201d46c94",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-633ba4f1a7",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -132,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 08:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -150,7 +150,15 @@
                     {
                       "id": "luongson-ebe34ee8f581",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-baaf944d8d",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
                     }
                   ]
                 }
