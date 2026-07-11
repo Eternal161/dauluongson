@@ -1,12 +1,185 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:31 11/07/2026",
+  "last_updated": "23:41 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-fc460f53ca5d",
+          "name": "⚽ Galway United vs Sligo Rovers | Không rõ",
+          "tournament": "Ireland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fc460f53ca5d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fc460f53ca5d",
+                  "name": "Galway United vs Sligo Rovers",
+                  "streams": [
+                    {
+                      "id": "luongson-fc460f53ca5d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0541884968",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                        },
+                        {
+                          "id": "lnk-d97a9f3ba1",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-df0db5918914",
+          "name": "⚽ Orgryte vs Hacken | Không rõ",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/373_1gtqm2wp9p5.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1307_1h53w2zt69f.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/373_1gtqm2wp9p5.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-df0db5918914",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-df0db5918914",
+                  "name": "Orgryte vs Hacken",
+                  "streams": [
+                    {
+                      "id": "luongson-df0db5918914",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd1d3ece29",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-bbd7c2cb8a",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9ead8abfcfe7",
+          "name": "⚽ Dinamo Brest vs Slavia Mozyr | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2043_1gtqmg9t2g1h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9ead8abfcfe7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9ead8abfcfe7",
+                  "name": "Dinamo Brest vs Slavia Mozyr",
+                  "streams": [
+                    {
+                      "id": "luongson-9ead8abfcfe7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-df7982aeb9",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-7f27d5e6accc",
           "name": "⚽ Neftekhimik Nizhnekamsk vs Veles | Không rõ",
@@ -46,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9bb741ee42",
+                          "id": "lnk-18ca2dffd3",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
@@ -79,7 +252,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 2",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8f362d5012",
+                          "id": "lnk-e9f58fb558",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
@@ -152,191 +325,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ed565fca1e",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-1b8731daad",
+                          "id": "lnk-b2e541662f",
                           "name": "BLV LEO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-df0db5918914",
-          "name": "⚽ Orgryte vs Hacken | Không rõ",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/373_1gtqm2wp9p5.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1307_1h53w2zt69f.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/373_1gtqm2wp9p5.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-df0db5918914",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-df0db5918914",
-                  "name": "Orgryte vs Hacken",
-                  "streams": [
-                    {
-                      "id": "luongson-df0db5918914",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7bac843ea7",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-aff1ff3384",
-                          "name": "BLV KAKA",
+                          "id": "lnk-6da1a692a0",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-9ead8abfcfe7",
-          "name": "⚽ Dinamo Brest vs Slavia Mozyr | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2043_1gtqmg9t2g1h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-9ead8abfcfe7",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-9ead8abfcfe7",
-                  "name": "Dinamo Brest vs Slavia Mozyr",
-                  "streams": [
-                    {
-                      "id": "luongson-9ead8abfcfe7",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-48f35865b5",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fc460f53ca5d",
-          "name": "⚽ Galway United vs Sligo Rovers | Không rõ",
-          "tournament": "Ireland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fc460f53ca5d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fc460f53ca5d",
-                  "name": "Galway United vs Sligo Rovers",
-                  "streams": [
-                    {
-                      "id": "luongson-fc460f53ca5d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eb85d36f2b",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-55da0bc423",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -385,7 +385,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d14ca7fd58",
+                          "id": "lnk-991a44fb32",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -438,7 +438,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-082d53ebbd",
+                          "id": "lnk-edfd2e9e8e",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
