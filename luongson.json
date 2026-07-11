@@ -1,118 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:21 12/07/2026",
+  "last_updated": "02:31 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-7f6ac4a56ef2",
-          "name": "⚽ Levante vs Leganes | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/94_164871559313.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/856_1h5bja70zq1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/94_164871559313.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7f6ac4a56ef2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7f6ac4a56ef2",
-                  "name": "Levante vs Leganes",
-                  "streams": [
-                    {
-                      "id": "luongson-7f6ac4a56ef2",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbe272a293",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-72f5c774fcf9",
-          "name": "⚽ Fc Gomel vs Neman Grodno | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2040_1grd5f04ec10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/575_1j50e7s8g413.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2040_1grd5f04ec10.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-72f5c774fcf9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-72f5c774fcf9",
-                  "name": "Fc Gomel vs Neman Grodno",
-                  "streams": [
-                    {
-                      "id": "luongson-72f5c774fcf9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7a7bb30ff",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-5a82e20f6601",
           "name": "⚽ Danubio Fc vs Nacional Montevideo | Không rõ",
@@ -152,25 +46,92 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2473c08340",
-                          "name": "BLV MÃ SIÊU",
+                          "id": "lnk-41ad379944",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-5a3d6d67a8",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-0f3c8d88fe",
+                          "id": "lnk-fcaf1a1ba3",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a48cce9720dd",
+          "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a48cce9720dd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a48cce9720dd",
+                  "name": "Spain U19 vs Germany U19",
+                  "streams": [
+                    {
+                      "id": "luongson-a48cce9720dd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7019e11adb",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-145c11ac6b",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-e1e689ff30",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-f554b76c7d",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -199,7 +160,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live HT 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -219,7 +180,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ccb547e04b",
+                          "id": "lnk-68eaef7c8d",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -272,138 +233,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-50ca7ef28e",
+                          "id": "lnk-8a59176072",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-810c0b036608",
-          "name": "⚽ Fenerbahce vs Pogon Szczecin | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1064_1h6wfe05rq2h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 4 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-810c0b036608",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-810c0b036608",
-                  "name": "Fenerbahce vs Pogon Szczecin",
-                  "streams": [
-                    {
-                      "id": "luongson-810c0b036608",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d322aa9268",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-57fd78ddaa",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a48cce9720dd",
-          "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a48cce9720dd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a48cce9720dd",
-                  "name": "Spain U19 vs Germany U19",
-                  "streams": [
-                    {
-                      "id": "luongson-a48cce9720dd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45e0f683a0",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-136c98f51f",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-345545fef8",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -432,7 +266,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -452,11 +286,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c66ea2f4e6",
+                          "id": "lnk-c043c7a055",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-72be8a937d0a",
+          "name": "⚽ Fc Gomel vs Neman Grodno | 03:26 08/12/45",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2040_1grd5f04ec10.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/575_1j50e7s8g413.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2040_1grd5f04ec10.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-72be8a937d0a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-72be8a937d0a",
+                  "name": "Fc Gomel vs Neman Grodno",
+                  "streams": [
+                    {
+                      "id": "luongson-72be8a937d0a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bff4980bae",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -485,10 +372,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -503,7 +390,15 @@
                     {
                       "id": "luongson-6fe7698e22fa",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-648713d68b",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -772,6 +667,96 @@
                   "streams": [
                     {
                       "id": "luongson-bb3d58881920",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c6bd448f866f",
+          "name": "⚽ Sydney United vs Rockdale City Suns | 11:30",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8546_1hw72ha4fw2a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c6bd448f866f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c6bd448f866f",
+                  "name": "Sydney United vs Rockdale City Suns",
+                  "streams": [
+                    {
+                      "id": "luongson-c6bd448f866f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-65494fd4310e",
+          "name": "⚽ Marconi Stallions vs Western Sydney Wanderers Am | 12:00",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18338_1jqmy413jr32.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-65494fd4310e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-65494fd4310e",
+                  "name": "Marconi Stallions vs Western Sydney Wanderers Am",
+                  "streams": [
+                    {
+                      "id": "luongson-65494fd4310e",
                       "name": "F",
                       "stream_links": []
                     }
