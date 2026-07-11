@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:51 11/07/2026",
+  "last_updated": "10:01 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-ebe34ee8f581",
-          "name": "⚽ Sport Boys vs Comerciantes Fc | Không rõ",
-          "tournament": "Peru Copa de la Liga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2128_1j23f66mzs2h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42758_1gyk775sbc9.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2128_1j23f66mzs2h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ebe34ee8f581",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ebe34ee8f581",
-                  "name": "Sport Boys vs Comerciantes Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-ebe34ee8f581",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc88166991",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-788f56c3adb9",
           "name": "⚽ West Seattle Junction vs Snohomish United | Không rõ",
@@ -79,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 3 : 2",
+              "text": "● Live HT 3 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-47333ea413",
+                          "id": "lnk-2a5f75f45f",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
@@ -152,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d0f28629ec",
+                          "id": "lnk-6ad9cd80ab",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -697,6 +644,51 @@
                   "streams": [
                     {
                       "id": "luongson-ca7e1623152a",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2f1933ec6a40",
+          "name": "⚽ Wuhan Three Towns U21 vs Qingdao Hainiu U21 | 15:30",
+          "tournament": "China U21 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61561_1hv3faqaza2.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57818_1hv3ffkbs62.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61561_1hv3faqaza2.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2f1933ec6a40",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2f1933ec6a40",
+                  "name": "Wuhan Three Towns U21 vs Qingdao Hainiu U21",
+                  "streams": [
+                    {
+                      "id": "luongson-2f1933ec6a40",
                       "name": "F",
                       "stream_links": []
                     }
