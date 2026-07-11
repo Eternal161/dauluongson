@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:21 11/07/2026",
+  "last_updated": "13:31 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-064074d6c43e",
-          "name": "⚽ Hobart Zebras vs Launceston City | Không rõ",
-          "tournament": "TAS Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22179_1gt3w8txg9p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22352_1gzmqeedf4c.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22179_1gt3w8txg9p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-064074d6c43e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-064074d6c43e",
-                  "name": "Hobart Zebras vs Launceston City",
-                  "streams": [
-                    {
-                      "id": "luongson-064074d6c43e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c526ed49b1",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-dc8720395288",
           "name": "⚽ Maitland vs Adamstown Rosebuds Fc | 13:30",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a5e60333ed",
+                          "id": "lnk-1eb2d0417c",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -132,10 +79,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 14:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -150,7 +97,15 @@
                     {
                       "id": "luongson-efcac773a711",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c44a138e4",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -689,6 +644,51 @@
                   "streams": [
                     {
                       "id": "luongson-703bb82d914b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-57c3cc9f97af",
+          "name": "⚽ Yanbian Longding vs Suzhou Dongwu | 17:00",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/49712_1hzxvn9f1m2e.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18792_1hy7xtfwac24.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/49712_1hzxvn9f1m2e.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-57c3cc9f97af",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-57c3cc9f97af",
+                  "name": "Yanbian Longding vs Suzhou Dongwu",
+                  "streams": [
+                    {
+                      "id": "luongson-57c3cc9f97af",
                       "name": "F",
                       "stream_links": []
                     }
