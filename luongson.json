@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:41 12/07/2026",
+  "last_updated": "02:51 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-a48cce9720dd",
-          "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
+          "id": "luongson-4ca3ec152700",
+          "name": "⚽ Cd Magallanes vs Audax Italiano | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,37 +34,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-a48cce9720dd",
+              "id": "luongson-4ca3ec152700",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a48cce9720dd",
-                  "name": "Spain U19 vs Germany U19",
+                  "id": "luongson-4ca3ec152700",
+                  "name": "Cd Magallanes vs Audax Italiano",
                   "streams": [
                     {
-                      "id": "luongson-a48cce9720dd",
+                      "id": "luongson-4ca3ec152700",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ba8a37d956",
-                          "name": "BLV LEO",
+                          "id": "lnk-2f1869be63",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-f8110e0002",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-cf8ce5d353",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -113,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ae60c864db",
+                          "id": "lnk-28145c25f8",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bc88eec8e4fa",
+          "name": "⚽ Real Oruro vs San Jose De Oruro | Không rõ",
+          "tournament": "Bolivia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61979_1hvdpjd09v20.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bc88eec8e4fa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bc88eec8e4fa",
+                  "name": "Real Oruro vs San Jose De Oruro",
+                  "streams": [
+                    {
+                      "id": "luongson-bc88eec8e4fa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8403fb5c7a",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -166,25 +205,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2fac7c431c",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-da540d9c2c",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-d51d64dd64",
+                          "id": "lnk-0b783b90d8",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-7edf98c7fe",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-90d483d763",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -195,11 +234,11 @@
           ]
         },
         {
-          "id": "luongson-bc88eec8e4fa",
-          "name": "⚽ Real Oruro vs San Jose De Oruro | Không rõ",
-          "tournament": "Bolivia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61979_1hvdpjd09v20.png?v=2.4.3",
+          "id": "luongson-a48cce9720dd",
+          "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
+          "tournament": "UEFA European U-19 Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -207,13 +246,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -221,76 +260,37 @@
           ],
           "sources": [
             {
-              "id": "luongson-bc88eec8e4fa",
+              "id": "luongson-a48cce9720dd",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-bc88eec8e4fa",
-                  "name": "Real Oruro vs San Jose De Oruro",
+                  "id": "luongson-a48cce9720dd",
+                  "name": "Spain U19 vs Germany U19",
                   "streams": [
                     {
-                      "id": "luongson-bc88eec8e4fa",
+                      "id": "luongson-a48cce9720dd",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6ad4b953db",
-                          "name": "BLV HEINEKEN",
+                          "id": "lnk-710e4dcd43",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4ca3ec152700",
-          "name": "⚽ Cd Magallanes vs Audax Italiano | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4ca3ec152700",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4ca3ec152700",
-                  "name": "Cd Magallanes vs Audax Italiano",
-                  "streams": [
-                    {
-                      "id": "luongson-4ca3ec152700",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
                         {
-                          "id": "lnk-994f28ef9d",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-f69ffbc3dc",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-a1a11af98b",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
