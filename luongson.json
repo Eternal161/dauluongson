@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:21 11/07/2026",
+  "last_updated": "23:31 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-9ead8abfcfe7",
-          "name": "⚽ Dinamo Brest vs Slavia Mozyr | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2043_1gtqmg9t2g1h.png?v=2.4.3",
+          "id": "luongson-7f27d5e6accc",
+          "name": "⚽ Neftekhimik Nizhnekamsk vs Veles | Không rõ",
+          "tournament": "Russian National Football League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12357_1gragj29tp28.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24373_1gqvwshxa6k.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12357_1gragj29tp28.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,23 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-9ead8abfcfe7",
+              "id": "luongson-7f27d5e6accc",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-9ead8abfcfe7",
-                  "name": "Dinamo Brest vs Slavia Mozyr",
+                  "id": "luongson-7f27d5e6accc",
+                  "name": "Neftekhimik Nizhnekamsk vs Veles",
                   "streams": [
                     {
-                      "id": "luongson-9ead8abfcfe7",
+                      "id": "luongson-7f27d5e6accc",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aedaffa3f7",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-9bb741ee42",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4e37414e79d8",
+          "name": "⚽ Fk Kaspyi Aktau vs Ordabasy | 03:26 08/11/2200",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4e37414e79d8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4e37414e79d8",
+                  "name": "Fk Kaspyi Aktau vs Ordabasy",
+                  "streams": [
+                    {
+                      "id": "luongson-4e37414e79d8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8f362d5012",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -99,14 +152,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-311f032387",
+                          "id": "lnk-ed565fca1e",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-c32dc5227e",
+                          "id": "lnk-1b8731daad",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
@@ -159,18 +212,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-47ebf969c9",
+                          "id": "lnk-7bac843ea7",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-066b9a90ff",
+                          "id": "lnk-aff1ff3384",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-9ead8abfcfe7",
+          "name": "⚽ Dinamo Brest vs Slavia Mozyr | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2043_1gtqmg9t2g1h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2033_1gtqm2wp9jh.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-9ead8abfcfe7",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-9ead8abfcfe7",
+                  "name": "Dinamo Brest vs Slavia Mozyr",
+                  "streams": [
+                    {
+                      "id": "luongson-9ead8abfcfe7",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-48f35865b5",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -219,131 +325,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d52ad5bb92",
+                          "id": "lnk-eb85d36f2b",
                           "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         },
                         {
-                          "id": "lnk-9f77eff581",
+                          "id": "lnk-55da0bc423",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4e37414e79d8",
-          "name": "⚽ Fk Kaspyi Aktau vs Ordabasy | 03:26 08/11/2200",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4e37414e79d8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4e37414e79d8",
-                  "name": "Fk Kaspyi Aktau vs Ordabasy",
-                  "streams": [
-                    {
-                      "id": "luongson-4e37414e79d8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbe97739fd",
-                          "name": "BLV LÝ ỨNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7f27d5e6accc",
-          "name": "⚽ Neftekhimik Nizhnekamsk vs Veles | Không rõ",
-          "tournament": "Russian National Football League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12357_1gragj29tp28.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24373_1gqvwshxa6k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12357_1gragj29tp28.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7f27d5e6accc",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7f27d5e6accc",
-                  "name": "Neftekhimik Nizhnekamsk vs Veles",
-                  "streams": [
-                    {
-                      "id": "luongson-7f27d5e6accc",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2dfd75a9a",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-e93e8dae27",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         }
                       ]
                     }
@@ -372,10 +365,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -390,7 +383,15 @@
                     {
                       "id": "luongson-7f6ac4a56ef2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d14ca7fd58",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -437,7 +438,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cb77432ef6",
+                          "id": "lnk-082d53ebbd",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
