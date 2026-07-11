@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:11 12/07/2026",
+  "last_updated": "02:21 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0f3e5cee7f",
+                          "id": "lnk-cbe272a293",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -99,11 +99,184 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb92189b91",
+                          "id": "lnk-b7a7bb30ff",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5a82e20f6601",
+          "name": "⚽ Danubio Fc vs Nacional Montevideo | Không rõ",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2353_1gzsy54rhb1g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5a82e20f6601",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5a82e20f6601",
+                  "name": "Danubio Fc vs Nacional Montevideo",
+                  "streams": [
+                    {
+                      "id": "luongson-5a82e20f6601",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2473c08340",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-0f3c8d88fe",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-145c11ac6b",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bf459637e222",
+          "name": "⚽ Benfica vs Flamengo | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/422_165095593478.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/322_1j9d3cawp41r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/422_165095593478.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bf459637e222",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bf459637e222",
+                  "name": "Benfica vs Flamengo",
+                  "streams": [
+                    {
+                      "id": "luongson-bf459637e222",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ccb547e04b",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4ca3ec152700",
+          "name": "⚽ Cd Magallanes vs Audax Italiano | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4ca3ec152700",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4ca3ec152700",
+                  "name": "Cd Magallanes vs Audax Italiano",
+                  "streams": [
+                    {
+                      "id": "luongson-4ca3ec152700",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-50ca7ef28e",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -152,14 +325,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-009905954c",
+                          "id": "lnk-d322aa9268",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-d4341ca4f8",
+                          "id": "lnk-57fd78ddaa",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
@@ -212,145 +385,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b44ff4c844",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-e558dc4fac",
+                          "id": "lnk-45e0f683a0",
                           "name": "BLV LEO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-57293e7794",
+                          "id": "lnk-136c98f51f",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-345545fef8",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5a82e20f6601",
-          "name": "⚽ Danubio Fc vs Nacional Montevideo | Không rõ",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2353_1gzsy54rhb1g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5a82e20f6601",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5a82e20f6601",
-                  "name": "Danubio Fc vs Nacional Montevideo",
-                  "streams": [
-                    {
-                      "id": "luongson-5a82e20f6601",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a112766e4",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        },
-                        {
-                          "id": "lnk-3da2b8ea73",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-78a2f51b14",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bf459637e222",
-          "name": "⚽ Benfica vs Flamengo | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/422_165095593478.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/322_1j9d3cawp41r.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/422_165095593478.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bf459637e222",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bf459637e222",
-                  "name": "Benfica vs Flamengo",
-                  "streams": [
-                    {
-                      "id": "luongson-bf459637e222",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a9f745e1e5",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -399,64 +452,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1508809df7",
+                          "id": "lnk-c66ea2f4e6",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4ca3ec152700",
-          "name": "⚽ Cd Magallanes vs Audax Italiano | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4ca3ec152700",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4ca3ec152700",
-                  "name": "Cd Magallanes vs Audax Italiano",
-                  "streams": [
-                    {
-                      "id": "luongson-4ca3ec152700",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b13ed5aac6",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
