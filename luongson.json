@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:41 11/07/2026",
+  "last_updated": "07:51 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-ebe34ee8f581",
+          "name": "⚽ Sport Boys vs Comerciantes Fc | Không rõ",
+          "tournament": "Peru Copa de la Liga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2128_1j23f66mzs2h.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42758_1gyk775sbc9.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2128_1j23f66mzs2h.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ebe34ee8f581",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ebe34ee8f581",
+                  "name": "Sport Boys vs Comerciantes Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-ebe34ee8f581",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7e80bebf0",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-705dd5b5d550",
           "name": "⚽ Fc Motown Team B vs Long Island Rough Riders | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-da55076bbd",
+                          "id": "lnk-c216068152",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-633ba4f1a7",
+                          "id": "lnk-b7f7662a54",
                           "name": "BLV PELE",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ebe34ee8f581",
-          "name": "⚽ Sport Boys vs Comerciantes Fc | 08:00",
-          "tournament": "Peru Copa de la Liga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2128_1j23f66mzs2h.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42758_1gyk775sbc9.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2128_1j23f66mzs2h.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 08:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ebe34ee8f581",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ebe34ee8f581",
-                  "name": "Sport Boys vs Comerciantes Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-ebe34ee8f581",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-baaf944d8d",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
