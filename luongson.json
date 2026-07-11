@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:01 11/07/2026",
+  "last_updated": "19:11 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-ce52c4166d42",
-          "name": "⚽ Guangdong Gz-Power vs Shijiazhuang Kungfu | Không rõ",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61437_1jywmqcwe01r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50184_1j0ytnsxbj2p.png?v=2.4.3",
+          "id": "luongson-ef64b3f2018b",
+          "name": "⚽ Fredrikstad vs Lillestrom | Không rõ",
+          "tournament": "Norwegian Tippeligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/434_1gxmbn8q2v1f.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/464_1gxmbm1nc124.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61437_1jywmqcwe01r.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/434_1gxmbn8q2v1f.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,23 +34,263 @@
           ],
           "sources": [
             {
-              "id": "luongson-ce52c4166d42",
+              "id": "luongson-ef64b3f2018b",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ce52c4166d42",
-                  "name": "Guangdong Gz-Power vs Shijiazhuang Kungfu",
+                  "id": "luongson-ef64b3f2018b",
+                  "name": "Fredrikstad vs Lillestrom",
                   "streams": [
                     {
-                      "id": "luongson-ce52c4166d42",
+                      "id": "luongson-ef64b3f2018b",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b367275a94",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-183612cffd",
+                          "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-ebcebcbdc7",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2c8389864eec",
+          "name": "⚽ Shenzhen Xinpengcheng vs Qingdao West Coast | Không rõ",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34003_1j0ytnk9yw25.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/41556_1h1n1m7x0f8.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/34003_1j0ytnk9yw25.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2c8389864eec",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2c8389864eec",
+                  "name": "Shenzhen Xinpengcheng vs Qingdao West Coast",
+                  "streams": [
+                    {
+                      "id": "luongson-2c8389864eec",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bab0148850",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-7d037fe1c6",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-745b9eb0f1f8",
+          "name": "⚽ China U17 vs Nigeria U17 | Không rõ",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2434_1h31g8yh782v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4950_165718193337.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2434_1h31g8yh782v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-745b9eb0f1f8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-745b9eb0f1f8",
+                  "name": "China U17 vs Nigeria U17",
+                  "streams": [
+                    {
+                      "id": "luongson-745b9eb0f1f8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd7d89f6d1",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-5effe4e040",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a97952f6b420",
+          "name": "⚽ Dalian Kun City vs Nanjing City | Không rõ",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64776_1htrhy34n123.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/41376_1hy5brmffe2k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64776_1htrhy34n123.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a97952f6b420",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a97952f6b420",
+                  "name": "Dalian Kun City vs Nanjing City",
+                  "streams": [
+                    {
+                      "id": "luongson-a97952f6b420",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6528d897ab",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-5609090f58",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dfd209144a33",
+          "name": "⚽ Ulsan Hd Fc vs Jeonbuk Hyundai Motors | Không rõ",
+          "tournament": "K League 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/436_1jr576ev8wv.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/440_1h1jgrf3gr2k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/436_1jr576ev8wv.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dfd209144a33",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dfd209144a33",
+                  "name": "Ulsan Hd Fc vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "luongson-dfd209144a33",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f0c448cf0",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -99,7 +339,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cf59cb2c6e",
+                          "id": "lnk-de471b19dc",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -152,71 +392,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a523250154",
+                          "id": "lnk-a4c620d14f",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         },
                         {
-                          "id": "lnk-85870311e2",
+                          "id": "lnk-c9a2068714",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-dfd209144a33",
-          "name": "⚽ Ulsan Hd Fc vs Jeonbuk Hyundai Motors | Không rõ",
-          "tournament": "K League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/436_1jr576ev8wv.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/440_1h1jgrf3gr2k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/436_1jr576ev8wv.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dfd209144a33",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dfd209144a33",
-                  "name": "Ulsan Hd Fc vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "luongson-dfd209144a33",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-968befe245",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -245,7 +432,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live 0 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -265,191 +452,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-055554f90a",
+                          "id": "lnk-bd8a336be0",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2c8389864eec",
-          "name": "⚽ Shenzhen Xinpengcheng vs Qingdao West Coast | Không rõ",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34003_1j0ytnk9yw25.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/41556_1h1n1m7x0f8.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34003_1j0ytnk9yw25.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2c8389864eec",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2c8389864eec",
-                  "name": "Shenzhen Xinpengcheng vs Qingdao West Coast",
-                  "streams": [
-                    {
-                      "id": "luongson-2c8389864eec",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6e819bf750",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-a8aebe7e4e",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a97952f6b420",
-          "name": "⚽ Dalian Kun City vs Nanjing City | Không rõ",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64776_1htrhy34n123.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/41376_1hy5brmffe2k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64776_1htrhy34n123.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a97952f6b420",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a97952f6b420",
-                  "name": "Dalian Kun City vs Nanjing City",
-                  "streams": [
-                    {
-                      "id": "luongson-a97952f6b420",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a39864687a",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-652f5f89ef",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ef64b3f2018b",
-          "name": "⚽ Fredrikstad vs Lillestrom | Không rõ",
-          "tournament": "Norwegian Tippeligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/434_1gxmbn8q2v1f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/464_1gxmbm1nc124.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/434_1gxmbn8q2v1f.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ef64b3f2018b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ef64b3f2018b",
-                  "name": "Fredrikstad vs Lillestrom",
-                  "streams": [
-                    {
-                      "id": "luongson-ef64b3f2018b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f66c9b92e2",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-b2ac545c07",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -498,14 +505,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1d8a04d059",
+                          "id": "lnk-dc80a3ec98",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-04824c02cd",
+                          "id": "lnk-c7629674ab",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
@@ -520,11 +527,11 @@
           ]
         },
         {
-          "id": "luongson-745b9eb0f1f8",
-          "name": "⚽ China U17 vs Nigeria U17 | Không rõ",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2434_1h31g8yh782v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4950_165718193337.png?v=2.4.3",
+          "id": "luongson-ce52c4166d42",
+          "name": "⚽ Guangdong Gz-Power vs Shijiazhuang Kungfu | Không rõ",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61437_1jywmqcwe01r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50184_1j0ytnsxbj2p.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -532,13 +539,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2434_1h31g8yh782v.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/61437_1jywmqcwe01r.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -546,30 +553,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-745b9eb0f1f8",
+              "id": "luongson-ce52c4166d42",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-745b9eb0f1f8",
-                  "name": "China U17 vs Nigeria U17",
+                  "id": "luongson-ce52c4166d42",
+                  "name": "Guangdong Gz-Power vs Shijiazhuang Kungfu",
                   "streams": [
                     {
-                      "id": "luongson-745b9eb0f1f8",
+                      "id": "luongson-ce52c4166d42",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9ad046a2a5",
-                          "name": "BLV LEO",
+                          "id": "lnk-ab27cf2d49",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-8b325c6600",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -581,7 +581,7 @@
         },
         {
           "id": "luongson-10d373805786",
-          "name": "⚽ Fc Ufa vs Fk Leningradets | 19:00",
+          "name": "⚽ Fc Ufa vs Fk Leningradets | Không rõ",
           "tournament": "Russian National Football League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/35507_1h5e496cr617.png?v=2.4.3",
@@ -598,7 +598,7 @@
           },
           "labels": [
             {
-              "text": "● Live 19:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -618,7 +618,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d14ee93d79",
+                          "id": "lnk-069f7a10a2",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
