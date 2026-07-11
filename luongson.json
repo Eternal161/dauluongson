@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:51 12/07/2026",
+  "last_updated": "03:01 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-4ca3ec152700",
-          "name": "⚽ Cd Magallanes vs Audax Italiano | Không rõ",
-          "tournament": "Chile Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4ca3ec152700",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4ca3ec152700",
-                  "name": "Cd Magallanes vs Audax Italiano",
-                  "streams": [
-                    {
-                      "id": "luongson-4ca3ec152700",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f1869be63",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-bf459637e222",
           "name": "⚽ Benfica vs Flamengo | Không rõ",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-28145c25f8",
+                          "id": "lnk-b281953b0e",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-4ca3ec152700",
+          "name": "⚽ Cd Magallanes vs Audax Italiano | Không rõ",
+          "tournament": "Chile Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/909_1gy3vpn484g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7789_1gtzctyqwq1b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-4ca3ec152700",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-4ca3ec152700",
+                  "name": "Cd Magallanes vs Audax Italiano",
+                  "streams": [
+                    {
+                      "id": "luongson-4ca3ec152700",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a098b2187",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -152,145 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8403fb5c7a",
+                          "id": "lnk-b2505ef809",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5a82e20f6601",
-          "name": "⚽ Danubio Fc vs Nacional Montevideo | Không rõ",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2353_1gzsy54rhb1g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5a82e20f6601",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5a82e20f6601",
-                  "name": "Danubio Fc vs Nacional Montevideo",
-                  "streams": [
-                    {
-                      "id": "luongson-5a82e20f6601",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da540d9c2c",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-0b783b90d8",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-90d483d763",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a48cce9720dd",
-          "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
-          "tournament": "UEFA European U-19 Football Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a48cce9720dd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a48cce9720dd",
-                  "name": "Spain U19 vs Germany U19",
-                  "streams": [
-                    {
-                      "id": "luongson-a48cce9720dd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-710e4dcd43",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-f69ffbc3dc",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-a1a11af98b",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -661,6 +527,51 @@
           ]
         },
         {
+          "id": "luongson-66ebdbdff612",
+          "name": "⚽ Gold Coast United vs Brisbane Olympic United Fc | 12:00",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9387_1gqhh4j0tfj.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9337_1gryyqvhk2m.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9387_1gqhh4j0tfj.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-66ebdbdff612",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-66ebdbdff612",
+                  "name": "Gold Coast United vs Brisbane Olympic United Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-66ebdbdff612",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-cd6e40670a6a",
           "name": "⚽ Broadmeadow Magic vs Newcastle Olympic | 12:00",
           "tournament": "Australia Northern NSW Premier League",
@@ -741,6 +652,51 @@
                   "streams": [
                     {
                       "id": "luongson-393701bc02a8",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-65494fd4310e",
+          "name": "⚽ Marconi Stallions vs Western Sydney Wanderers Am | 12:00",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18338_1jqmy413jr32.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-65494fd4310e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-65494fd4310e",
+                  "name": "Marconi Stallions vs Western Sydney Wanderers Am",
+                  "streams": [
+                    {
+                      "id": "luongson-65494fd4310e",
                       "name": "F",
                       "stream_links": []
                     }
