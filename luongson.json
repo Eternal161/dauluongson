@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:51 11/07/2026",
+  "last_updated": "20:01 11/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-e8772e901aef",
-          "name": "⚽ Fc Baranovichi vs Fc Torpedo Zhodino | Không rõ",
-          "tournament": "Belarusian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9586_1j3c1q7sqv1.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
+          "id": "luongson-10d373805786",
+          "name": "⚽ Fc Ufa vs Fk Leningradets | Không rõ",
+          "tournament": "Russian National Football League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35507_1h5e496cr617.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,60 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9586_1j3c1q7sqv1.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-10d373805786",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-10d373805786",
+                  "name": "Fc Ufa vs Fk Leningradets",
+                  "streams": [
+                    {
+                      "id": "luongson-10d373805786",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-acdb7b72a7",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1c8b6057b376",
+          "name": "⚽ Fc Zhetysu Taldykorgan vs Altay Fk | Không rõ",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,143 +87,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-e8772e901aef",
+              "id": "luongson-1c8b6057b376",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e8772e901aef",
-                  "name": "Fc Baranovichi vs Fc Torpedo Zhodino",
+                  "id": "luongson-1c8b6057b376",
+                  "name": "Fc Zhetysu Taldykorgan vs Altay Fk",
                   "streams": [
                     {
-                      "id": "luongson-e8772e901aef",
+                      "id": "luongson-1c8b6057b376",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b93faa0e80",
-                          "name": "BLV LÃO HẠC",
+                          "id": "lnk-ad5282f89a",
+                          "name": "BLV HÀN TÍN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ef64b3f2018b",
-          "name": "⚽ Fredrikstad vs Lillestrom | Không rõ",
-          "tournament": "Norwegian Tippeligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/434_1gxmbn8q2v1f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/464_1gxmbm1nc124.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/434_1gxmbn8q2v1f.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ef64b3f2018b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ef64b3f2018b",
-                  "name": "Fredrikstad vs Lillestrom",
-                  "streams": [
-                    {
-                      "id": "luongson-ef64b3f2018b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-64f119c313",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
-                        },
-                        {
-                          "id": "lnk-f39ab97722",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-745b9eb0f1f8",
-          "name": "⚽ China U17 vs Nigeria U17 | Không rõ",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2434_1h31g8yh782v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4950_165718193337.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2434_1h31g8yh782v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-745b9eb0f1f8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-745b9eb0f1f8",
-                  "name": "China U17 vs Nigeria U17",
-                  "streams": [
-                    {
-                      "id": "luongson-745b9eb0f1f8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c43a9a960",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-25f096118e",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -219,14 +152,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3d874bb2e4",
+                          "id": "lnk-a3e69cc252",
                           "name": "BLV KEVILL",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KEVILL/index.m3u8?expire=1788427256&sign=189afcf7f800d4c6c8a5aa97649a110799"
                         },
                         {
-                          "id": "lnk-3eb7ce1bca",
+                          "id": "lnk-5b9ea1a504",
                           "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": false,
@@ -241,11 +174,11 @@
           ]
         },
         {
-          "id": "luongson-ffcc06d13d2c",
-          "name": "⚽ Mjallby Aif vs Aik Solna | Không rõ",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1740_1h8fzp9swxp.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/364_1h8asp945qp.png?v=2.4.3",
+          "id": "luongson-745b9eb0f1f8",
+          "name": "⚽ China U17 vs Nigeria U17 | Không rõ",
+          "tournament": "International Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2434_1h31g8yh782v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4950_165718193337.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -253,13 +186,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1740_1h8fzp9swxp.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/2434_1h31g8yh782v.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -267,143 +200,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-ffcc06d13d2c",
+              "id": "luongson-745b9eb0f1f8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ffcc06d13d2c",
-                  "name": "Mjallby Aif vs Aik Solna",
+                  "id": "luongson-745b9eb0f1f8",
+                  "name": "China U17 vs Nigeria U17",
                   "streams": [
                     {
-                      "id": "luongson-ffcc06d13d2c",
+                      "id": "luongson-745b9eb0f1f8",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0e962d0f99",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-50d9d3e73c",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-8764d0ea70",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-5d796cdf3a",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a97952f6b420",
-          "name": "⚽ Dalian Kun City vs Nanjing City | Không rõ",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64776_1htrhy34n123.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/41376_1hy5brmffe2k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64776_1htrhy34n123.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a97952f6b420",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a97952f6b420",
-                  "name": "Dalian Kun City vs Nanjing City",
-                  "streams": [
-                    {
-                      "id": "luongson-a97952f6b420",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9feae498c4",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-752be95eb5",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-10d373805786",
-          "name": "⚽ Fc Ufa vs Fk Leningradets | Không rõ",
-          "tournament": "Russian National Football League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35507_1h5e496cr617.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12356_1grgc5aqm72w.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-10d373805786",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-10d373805786",
-                  "name": "Fc Ufa vs Fk Leningradets",
-                  "streams": [
-                    {
-                      "id": "luongson-10d373805786",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-390a1a80bb",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -452,18 +272,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7f46865202",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-7b5aefb548",
+                          "id": "lnk-b557df726a",
                           "name": "BLV KAKA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-a24e74bd07",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -474,11 +294,11 @@
           ]
         },
         {
-          "id": "luongson-2c8389864eec",
-          "name": "⚽ Shenzhen Xinpengcheng vs Qingdao West Coast | Không rõ",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34003_1j0ytnk9yw25.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/41556_1h1n1m7x0f8.png?v=2.4.3",
+          "id": "luongson-e8772e901aef",
+          "name": "⚽ Fc Baranovichi vs Fc Torpedo Zhodino | Không rõ",
+          "tournament": "Belarusian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9586_1j3c1q7sqv1.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2034_1h746nqsp62g.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -486,13 +306,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/34003_1j0ytnk9yw25.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/9586_1j3c1q7sqv1.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -500,30 +320,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-2c8389864eec",
+              "id": "luongson-e8772e901aef",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2c8389864eec",
-                  "name": "Shenzhen Xinpengcheng vs Qingdao West Coast",
+                  "id": "luongson-e8772e901aef",
+                  "name": "Fc Baranovichi vs Fc Torpedo Zhodino",
                   "streams": [
                     {
-                      "id": "luongson-2c8389864eec",
+                      "id": "luongson-e8772e901aef",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2a5a76ca31",
-                          "name": "BLV YẾN THANH",
+                          "id": "lnk-6fed0da7da",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-8598a56bb9",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -552,7 +365,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -572,7 +385,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9087bde3b6",
+                          "id": "lnk-e4f7c31549",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -587,11 +400,11 @@
           ]
         },
         {
-          "id": "luongson-1c8b6057b376",
-          "name": "⚽ Fc Zhetysu Taldykorgan vs Altay Fk | 20:00",
-          "tournament": "Kazakhstan Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
+          "id": "luongson-2c8389864eec",
+          "name": "⚽ Shenzhen Xinpengcheng vs Qingdao West Coast | Không rõ",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/34003_1j0ytnk9yw25.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/41556_1h1n1m7x0f8.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -599,13 +412,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4910_1gtn24pfqwj.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/34003_1j0ytnk9yw25.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 20:00",
+              "text": "● Live 3 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -613,23 +426,150 @@
           ],
           "sources": [
             {
-              "id": "luongson-1c8b6057b376",
+              "id": "luongson-2c8389864eec",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-1c8b6057b376",
-                  "name": "Fc Zhetysu Taldykorgan vs Altay Fk",
+                  "id": "luongson-2c8389864eec",
+                  "name": "Shenzhen Xinpengcheng vs Qingdao West Coast",
                   "streams": [
                     {
-                      "id": "luongson-1c8b6057b376",
+                      "id": "luongson-2c8389864eec",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-59efe6c8bc",
-                          "name": "BLV HÀN TÍN",
+                          "id": "lnk-bbf9ad5110",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-ae5cffabe2",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ef64b3f2018b",
+          "name": "⚽ Fredrikstad vs Lillestrom | Không rõ",
+          "tournament": "Norwegian Tippeligaen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/434_1gxmbn8q2v1f.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/464_1gxmbm1nc124.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/434_1gxmbn8q2v1f.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ef64b3f2018b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ef64b3f2018b",
+                  "name": "Fredrikstad vs Lillestrom",
+                  "streams": [
+                    {
+                      "id": "luongson-ef64b3f2018b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-527e2a5083",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        },
+                        {
+                          "id": "lnk-7494ec9532",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ffcc06d13d2c",
+          "name": "⚽ Mjallby Aif vs Aik Solna | Không rõ",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1740_1h8fzp9swxp.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/364_1h8asp945qp.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1740_1h8fzp9swxp.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ffcc06d13d2c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ffcc06d13d2c",
+                  "name": "Mjallby Aif vs Aik Solna",
+                  "streams": [
+                    {
+                      "id": "luongson-ffcc06d13d2c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7b63b1ca74",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-c2050dea72",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -810,6 +750,51 @@
                   "streams": [
                     {
                       "id": "luongson-7f27d5e6accc",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-294447242ed9",
+          "name": "⚽ Fk Kaspyi Aktau vs Ordabasy | 22:00",
+          "tournament": "Kazakhstan Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/12897_1gtn24pfq6n.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-294447242ed9",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-294447242ed9",
+                  "name": "Fk Kaspyi Aktau vs Ordabasy",
+                  "streams": [
+                    {
+                      "id": "luongson-294447242ed9",
                       "name": "F",
                       "stream_links": []
                     }
