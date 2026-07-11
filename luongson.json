@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:51 11/07/2026",
+  "last_updated": "11:01 11/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b406177170",
+                          "id": "lnk-d72a5ecc65",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
@@ -99,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6be7d32afb",
+                          "id": "lnk-c511e6fe4d",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-788f56c3adb9",
-          "name": "⚽ West Seattle Junction vs Snohomish United | Không rõ",
-          "tournament": "USA USL League Two",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/65541_1hysdtwbevk.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69255_1jvbkmxnhy1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/65541_1hysdtwbevk.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 5",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-788f56c3adb9",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-788f56c3adb9",
-                  "name": "West Seattle Junction vs Snohomish United",
-                  "streams": [
-                    {
-                      "id": "luongson-788f56c3adb9",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3d35e8d7b",
-                          "name": "BLV PELE",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
                         }
                       ]
                     }
@@ -185,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 11:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -203,7 +150,15 @@
                     {
                       "id": "luongson-064074d6c43e",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f15935e67b",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -697,6 +652,51 @@
                   "streams": [
                     {
                       "id": "luongson-2f1933ec6a40",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-63b59f9d30c8",
+          "name": "⚽ Dandenong Thunder vs Bentleigh Greens | 16:00",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8681_1gxpydyxbk1t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11632_1grwfg41c52r.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8681_1gxpydyxbk1t.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-63b59f9d30c8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-63b59f9d30c8",
+                  "name": "Dandenong Thunder vs Bentleigh Greens",
+                  "streams": [
+                    {
+                      "id": "luongson-63b59f9d30c8",
                       "name": "F",
                       "stream_links": []
                     }
