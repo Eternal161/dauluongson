@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:51 12/07/2026",
+  "last_updated": "01:01 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-810c0b036608",
+          "name": "⚽ Fenerbahce vs Pogon Szczecin | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1064_1h6wfe05rq2h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-810c0b036608",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-810c0b036608",
+                  "name": "Fenerbahce vs Pogon Szczecin",
+                  "streams": [
+                    {
+                      "id": "luongson-810c0b036608",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd25216f4e",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-42b3cc1149",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-7f6ac4a56ef2",
           "name": "⚽ Levante vs Leganes | Không rõ",
@@ -46,131 +106,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aed31d1e0c",
+                          "id": "lnk-cbc768356f",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fc460f53ca5d",
-          "name": "⚽ Galway United vs Sligo Rovers | Không rõ",
-          "tournament": "Ireland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1079_1h5bj1cvza26.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1165_1grb1z4nwd2b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fc460f53ca5d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fc460f53ca5d",
-                  "name": "Galway United vs Sligo Rovers",
-                  "streams": [
-                    {
-                      "id": "luongson-fc460f53ca5d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-277099a712",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-cf842fc8a7",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-810c0b036608",
-          "name": "⚽ Fenerbahce vs Pogon Szczecin | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1064_1h6wfe05rq2h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-810c0b036608",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-810c0b036608",
-                  "name": "Fenerbahce vs Pogon Szczecin",
-                  "streams": [
-                    {
-                      "id": "luongson-810c0b036608",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fed6bf3280",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-8a9757445f",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -219,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1ee3d5f47f",
+                          "id": "lnk-a02ea4e9a4",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
@@ -235,7 +175,7 @@
         },
         {
           "id": "luongson-a48cce9720dd",
-          "name": "⚽ Spain U19 vs Germany U19 | 01:00",
+          "name": "⚽ Spain U19 vs Germany U19 | Không rõ",
           "tournament": "UEFA European U-19 Football Championship",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/3591_165750121745.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/1926_165750275450.png?v=2.4.3",
@@ -252,7 +192,7 @@
           },
           "labels": [
             {
-              "text": "● Live 01:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -272,18 +212,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-64d2a72073",
-                          "name": "BLV LEO",
+                          "id": "lnk-037cd5af03",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-9475d5a499",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-8a0fb33481",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-03f647f0ff",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -295,7 +242,7 @@
         },
         {
           "id": "luongson-5a82e20f6601",
-          "name": "⚽ Danubio Fc vs Nacional Montevideo | 01:00",
+          "name": "⚽ Danubio Fc vs Nacional Montevideo | Không rõ",
           "tournament": "Uruguay Primera Division",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1656_1gtzd4kmqp30.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/2353_1gzsy54rhb1g.png?v=2.4.3",
@@ -312,7 +259,7 @@
           },
           "labels": [
             {
-              "text": "● Live 01:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -332,21 +279,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cd3942e74e",
+                          "id": "lnk-6c531bb76e",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-498e8e0f50",
+                          "id": "lnk-fb6a213e87",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-c991990195",
+                          "id": "lnk-79afba86be",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
@@ -399,7 +346,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dfa50d5a04",
+                          "id": "lnk-c068620068",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -764,6 +711,51 @@
                   "streams": [
                     {
                       "id": "luongson-bb3d58881920",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c6bd448f866f",
+          "name": "⚽ Sydney United vs Rockdale City Suns | 11:30",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8546_1hw72ha4fw2a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/6665_1gxw2287pxx.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c6bd448f866f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c6bd448f866f",
+                  "name": "Sydney United vs Rockdale City Suns",
+                  "streams": [
+                    {
+                      "id": "luongson-c6bd448f866f",
                       "name": "F",
                       "stream_links": []
                     }
