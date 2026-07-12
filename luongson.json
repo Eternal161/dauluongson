@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:31 12/07/2026",
+  "last_updated": "07:41 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-2f1bb7a60204",
-          "name": "⚽ Colorado Rapids Ii vs North Texas Sc | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57159_1gweh4xjqv1w.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39198_202201211617302462.gif?v=2.4.3",
+          "id": "luongson-e3615ee3d45e",
+          "name": "⚽ Argentina vs Switzerland | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/558_164983533378.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/57159_1gweh4xjqv1w.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,76 +34,65 @@
           ],
           "sources": [
             {
-              "id": "luongson-2f1bb7a60204",
+              "id": "luongson-e3615ee3d45e",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2f1bb7a60204",
-                  "name": "Colorado Rapids Ii vs North Texas Sc",
+                  "id": "luongson-e3615ee3d45e",
+                  "name": "Argentina vs Switzerland",
                   "streams": [
                     {
-                      "id": "luongson-2f1bb7a60204",
+                      "id": "luongson-e3615ee3d45e",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-91815909f7",
-                          "name": "BLV HEINEKEN",
+                          "id": "lnk-dd743f7261",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-51b2b485579e",
-          "name": "⚽ Houston Dynamo B vs Saint Louis City B | Không rõ",
-          "tournament": "USA MLS Next Pro League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-51b2b485579e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-51b2b485579e",
-                  "name": "Houston Dynamo B vs Saint Louis City B",
-                  "streams": [
-                    {
-                      "id": "luongson-51b2b485579e",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
                         {
-                          "id": "lnk-72a1c29d3b",
-                          "name": "BLV PELE",
+                          "id": "lnk-dab984bd5a",
+                          "name": "BLV KAKA",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-f467208467",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-9ad7df2cc2",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-0093cfeaf1",
+                          "name": "BLV YẾN THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-1b71434faa",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-2abc4a5ea7",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -152,7 +141,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fe0e7c74a9",
+                          "id": "lnk-263b352be0",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
@@ -167,11 +156,11 @@
           ]
         },
         {
-          "id": "luongson-e3615ee3d45e",
-          "name": "⚽ Argentina vs Switzerland | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/558_164983533378.png?v=2.4.3",
+          "id": "luongson-51b2b485579e",
+          "name": "⚽ Houston Dynamo B vs Saint Louis City B | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/57101_1gwdxst6at1n.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -179,7 +168,60 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/56979_1gwzt9syhq4.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-51b2b485579e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-51b2b485579e",
+                  "name": "Houston Dynamo B vs Saint Louis City B",
+                  "streams": [
+                    {
+                      "id": "luongson-51b2b485579e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a92ce135d",
+                          "name": "BLV PELE",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUCA/index.m3u8?expire=1788427256&sign=abf9c93edd0de1c833f9ffc14381d526"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-2f1bb7a60204",
+          "name": "⚽ Colorado Rapids Ii vs North Texas Sc | Không rõ",
+          "tournament": "USA MLS Next Pro League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/57159_1gweh4xjqv1w.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39198_202201211617302462.gif?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/57159_1gweh4xjqv1w.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -193,44 +235,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-e3615ee3d45e",
+              "id": "luongson-2f1bb7a60204",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e3615ee3d45e",
-                  "name": "Argentina vs Switzerland",
+                  "id": "luongson-2f1bb7a60204",
+                  "name": "Colorado Rapids Ii vs North Texas Sc",
                   "streams": [
                     {
-                      "id": "luongson-e3615ee3d45e",
+                      "id": "luongson-2f1bb7a60204",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d5c455b64a",
-                          "name": "BLV LƯU BỊ",
+                          "id": "lnk-36fd174047",
+                          "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-e525888d80",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-583e639bbf",
-                          "name": "BLV YẾN THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-eac90ff349",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -376,11 +397,11 @@
           ]
         },
         {
-          "id": "luongson-66ebdbdff612",
-          "name": "⚽ Gold Coast United vs Brisbane Olympic United Fc | 12:00",
-          "tournament": "QLD Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9387_1gqhh4j0tfj.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9337_1gryyqvhk2m.png?v=2.4.3",
+          "id": "luongson-65494fd4310e",
+          "name": "⚽ Marconi Stallions vs Western Sydney Wanderers Am | 12:00",
+          "tournament": "NSW Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18338_1jqmy413jr32.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -388,7 +409,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9387_1gqhh4j0tfj.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -402,60 +423,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-66ebdbdff612",
+              "id": "luongson-65494fd4310e",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-66ebdbdff612",
-                  "name": "Gold Coast United vs Brisbane Olympic United Fc",
+                  "id": "luongson-65494fd4310e",
+                  "name": "Marconi Stallions vs Western Sydney Wanderers Am",
                   "streams": [
                     {
-                      "id": "luongson-66ebdbdff612",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-393701bc02a8",
-          "name": "⚽ St Albans Saints vs Caroline Springs George Cross | 12:00",
-          "tournament": "VIC Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12874_1gskkb8he46.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/12874_1gskkb8he46.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-393701bc02a8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-393701bc02a8",
-                  "name": "St Albans Saints vs Caroline Springs George Cross",
-                  "streams": [
-                    {
-                      "id": "luongson-393701bc02a8",
+                      "id": "luongson-65494fd4310e",
                       "name": "F",
                       "stream_links": []
                     }
@@ -511,11 +487,11 @@
           ]
         },
         {
-          "id": "luongson-65494fd4310e",
-          "name": "⚽ Marconi Stallions vs Western Sydney Wanderers Am | 12:00",
-          "tournament": "NSW Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/18338_1jqmy413jr32.png?v=2.4.3",
+          "id": "luongson-393701bc02a8",
+          "name": "⚽ St Albans Saints vs Caroline Springs George Cross | 12:00",
+          "tournament": "VIC Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/12874_1gskkb8he46.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39196_1hw4esstnex.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -523,7 +499,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6668_1jwmg8p85c2b.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/12874_1gskkb8he46.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -537,15 +513,60 @@
           ],
           "sources": [
             {
-              "id": "luongson-65494fd4310e",
+              "id": "luongson-393701bc02a8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-65494fd4310e",
-                  "name": "Marconi Stallions vs Western Sydney Wanderers Am",
+                  "id": "luongson-393701bc02a8",
+                  "name": "St Albans Saints vs Caroline Springs George Cross",
                   "streams": [
                     {
-                      "id": "luongson-65494fd4310e",
+                      "id": "luongson-393701bc02a8",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-66ebdbdff612",
+          "name": "⚽ Gold Coast United vs Brisbane Olympic United Fc | 12:00",
+          "tournament": "QLD Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9387_1gqhh4j0tfj.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9337_1gryyqvhk2m.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/9387_1gqhh4j0tfj.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-66ebdbdff612",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-66ebdbdff612",
+                  "name": "Gold Coast United vs Brisbane Olympic United Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-66ebdbdff612",
                       "name": "F",
                       "stream_links": []
                     }
@@ -646,51 +667,6 @@
           ]
         },
         {
-          "id": "luongson-462af803e17f",
-          "name": "⚽ Sunshine Coast Wanderers Fc vs Brisbane Strikers | 14:00",
-          "tournament": "Australia Queensland State Leagues",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33654_1gt31y56wf25.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/33654_1gt31y56wf25.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-462af803e17f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-462af803e17f",
-                  "name": "Sunshine Coast Wanderers Fc vs Brisbane Strikers",
-                  "streams": [
-                    {
-                      "id": "luongson-462af803e17f",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-07d1299c5685",
           "name": "⚽ Queensland Lions Sc vs Eastern Suburbs Brisbane | 14:00",
           "tournament": "QLD Premier League",
@@ -726,6 +702,51 @@
                   "streams": [
                     {
                       "id": "luongson-07d1299c5685",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-462af803e17f",
+          "name": "⚽ Sunshine Coast Wanderers Fc vs Brisbane Strikers | 14:00",
+          "tournament": "Australia Queensland State Leagues",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/33654_1gt31y56wf25.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12744_1hrb7tvqb02b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/33654_1gt31y56wf25.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-462af803e17f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-462af803e17f",
+                  "name": "Sunshine Coast Wanderers Fc vs Brisbane Strikers",
+                  "streams": [
+                    {
+                      "id": "luongson-462af803e17f",
                       "name": "F",
                       "stream_links": []
                     }
