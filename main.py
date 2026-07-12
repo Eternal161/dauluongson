@@ -25,7 +25,7 @@ def apply_stealth(page):
     except: pass
 
 # =========================================================
-# CONFIG LƯƠNG SƠN TV - BẢN FULL CHỐNG ĐẠN SPA
+# CONFIG LƯƠNG SƠN TV
 # =========================================================
 TARGET_SITE   = "https://luongson171.pro/"
 BASE_URL      = "https://luongson171.pro"
@@ -171,241 +171,99 @@ JS_EXTRACT = """
 }
 """
 
-def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
-    page = context.new_page()
-    apply_stealth(page)
-
-    def norm_key(s: str) -> str:
-        s = s or ""
-        s = unicodedata.normalize("NFD", s)
-        s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-        return re.sub(r"[^A-Za-z0-9]", "", s).upper()
-
-    def get_stream_key(url: str) -> str:
-        m = re.search(r"/live/([^/?#]+)/", url, flags=re.I)
-        return norm_key(m.group(1)) if m else ""
-
-    seen_urls = set()
-    current_captured = []
-    BAD = [".gif", ".png", ".jpg", ".mp4", "saba.m3u8", "/ad/", "/ads/", "quangcao", "banner", "tvc.", "tvc/"]
-
-    def process_url(url):
-        u = url.lower()
-        if ".m3u8" in u and not any(b in u for b in BAD):
-            if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
-                url = url.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-
-            if url not in seen_urls and url not in global_seen_streams:
-                seen_urls.add(url)
-                current_captured.append(url)
-
-    page.on("request", lambda req: process_url(req.url))
-    page.on("response", lambda res: process_url(res.url))
-
-    streams_dict = {}
-
-    def add_stream(url: str, name_hint: str = "", expected_key: str = ""):
-        key = get_stream_key(url)
-        if not key:
-            key = norm_key(url)
-
-        expected_key = norm_key(expected_key)
-
-        if expected_key and get_stream_key(url) and key != expected_key:
-            return False
-
-        if key not in streams_dict:
-            name = name_hint or f"BLV {key}"
-            streams_dict[key] = {
-                "name": name,
-                "url": url
-            }
-        return True
-
-    def read_blv_data():
-        return page.evaluate("""
-        () => {
-            const clean = t => (t || '').replace(/\\s+/g, ' ').trim();
-            const norm = s => (s || '')
-                .normalize('NFD')
-                .replace(/[\\u0300-\\u036f]/g, '')
-                .replace(/[^a-zA-Z0-9]/g, '')
-                .toUpperCase();
-
-            function pickName(text) {
-                const lines = (text || '').split('\\n').map(clean).filter(Boolean);
-                for (const line of lines) {
-                    const m = line.match(/^BLV\\s*(.+)$/i);
-                    if (m) return 'BLV ' + clean(m[1]);
-                }
-                const m2 = clean(text).match(/BLV\\s+[^0-9|•]+/i);
-                return m2 ? clean(m2[0]) : '';
-            }
-
-            let current = '';
-            const bodyLines = (document.body.innerText || '').split('\\n').map(clean).filter(Boolean);
-
-            for (const line of bodyLines) {
-                let m = line.match(/BLV:\\s*(BLV\\s*[^•|]+?)(?:\\s+Theo dõi|\\s+👁|\\s*$)/i);
-                if (m) {
-                    current = clean(m[1]); break;
-                }
-            }
-
-            if (!current) {
-                for (const line of bodyLines) {
-                    let m = line.match(/Bình luận viên:\\s*(BLV\\s*[^.]+?)(?:\\s+Tỷ số|\\s+thuộc|\\s*$)/i);
-                    if (m) {
-                        current = clean(m[1]); break;
-                    }
-                }
-            }
-
-            const currentPath = window.location.pathname.replace(/\\/$/, '');
-            const best = new Map();
-
-            document.querySelectorAll('a[href*="blv="]').forEach(a => {
-                let url;
-                try { url = new URL(a.href); } catch(e) { return; }
-                if (url.pathname.replace(/\\/$/, '') !== currentPath) return;
-
-                const keyRaw = url.searchParams.get('blv') || '';
-                const key = norm(keyRaw);
-                if (!key) return;
-
-                const rawText = a.innerText || '';
-                const text = clean(rawText);
-                if (!text || /replay/i.test(text) || /vào phòng/i.test(text)) return;
-
-                let name = pickName(rawText);
-                if (!name) return;
-
-                const item = { key, name, href: a.href, len: text.length };
-
-                const old = best.get(key);
-                if (!old || item.len < old.len) {
-                    best.set(key, item);
-                }
-            });
-
-            const links = Array.from(best.values());
-            const map = {};
-            links.forEach(x => map[x.key] = x.name);
-
-            return { current, links, map };
-        }
-        """)
-
-    try:
-        # 💡 TÍCH HỢP ĐỘNG CƠ SPA - BƯỚC 1: LÁCH TƯỜNG LỬA CHO TRẬN CHÍNH
-        try: page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=15000)
+# =========================================================
+# LƯỚI QUÉT SPA + JSON INTERCEPTOR (TỪ SOCOLIVE)
+# =========================================================
+def capture_stream_spa(page, url_path, slug, global_seen_streams):
+    found_urls = set()
+    
+    # Reset bộ nhớ đệm
+    page.evaluate("window.__apiData = [];")
+    
+    def handle_response(response):
+        try:
+            u = response.url.lower()
+            if (".m3u8" in u or ".flv" in u) and "quangcao" not in u and ".ts" not in u:
+                if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
+                    u = u.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
+                found_urls.add(u)
         except: pass
-        page.wait_for_timeout(1000)
-        
-        url_path = match_url.replace(BASE_URL, "") if match_url.startswith("http") else match_url
-        if not url_path.startswith('/'): url_path = '/' + url_path
-        
-        page.evaluate(f'''(path) => {{
-            let link = document.querySelector(`a[href="${{path}}"]`) || document.querySelector(`a[href*="${{path.split('/').pop()}}"]`);
+
+    page.on("response", handle_response)
+    
+    try:
+        # Click chuyển trang Ảo bằng Nuxt Router
+        page.evaluate(f'''([path, matchSlug]) => {{
+            let link = document.querySelector(`a[href*="${{matchSlug}}"]`) || document.querySelector(`a[href="${{path}}"]`);
             if (link) link.click();
             else if (window.$nuxt && window.$nuxt.$router) window.$nuxt.$router.push(path);
-        }}''', url_path)
+            else window.location.href = path;
+        }}''', [url_path, slug])
         
-        page.wait_for_timeout(3000) # Đợi phòng load
-        
-        try:
-            vp = page.viewport_size
-            if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
-        except: pass
-
-        deadline = time.time() + 6
+        deadline = time.time() + 8.0
         while time.time() < deadline:
-            if current_captured: break
-            time.sleep(0.5)
-
-        blv_data = read_blv_data()
-        blv_map = blv_data.get("map", {}) or {}
-
-        if current_captured:
-            current_name = blv_data.get("current") or ""
-            for u in list(dict.fromkeys(current_captured)):
-                key = get_stream_key(u)
-                name = blv_map.get(key) or current_name or f"BLV {key}"
-                add_stream(u, name_hint=name)
-
-        # 💡 TÍCH HỢP ĐỘNG CƠ SPA - BƯỚC 2: CLICK ĐỔI BLV KHÔNG TẢI LẠI TRANG
-        for link in blv_data.get("links", []):
-            link_name = link.get("name") or ""
-            expected_key = link.get("key") or ""
-            print(f"      > Đang cào thêm: {link_name} [{expected_key}]...")
-
-            current_captured.clear()
-
-            try:
-                blv_href = link["href"]
-                blv_path = blv_href.replace(BASE_URL, "") if blv_href.startswith("http") else blv_href
+            # 1. Quét kho JS Inject (Nơi giấu m3u8 của Lương Sơn)
+            api_data = page.evaluate("window.__apiData || []")
+            for item in api_data:
+                text = item.get("text", "")
                 
-                # Bấm trực tiếp vào thẻ chứa tên BLV thay vì goto()
-                page.evaluate(f'''([fullHref, path]) => {{
-                    let a = document.querySelector(`a[href="${{fullHref}}"]`) || document.querySelector(`a[href="${{path}}"]`) || document.querySelector(`a[href*="${{path.split('?')[1]}}"]`);
-                    if (a) a.click();
-                    else if (window.$nuxt && window.$nuxt.$router) window.$nuxt.$router.push(path);
-                }}''', [blv_href, blv_path])
-                
-                page.wait_for_timeout(2000)
-
+                # Bóc m3u8/flv chìm trong JSON
+                matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.(?:m3u8|flv)[^"\'\s<>]*', text)
+                for m in matches:
+                    clean_link = m.replace('\\/', '/')
+                    if "quangcao" not in clean_link.lower():
+                        if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
+                            clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
+                        found_urls.add(clean_link)
+                        
+            # 2. Check Iframe fallback (Dự phòng Lương Sơn gắn Iframe ngoài)
+            for frame in page.frames:
                 try:
-                    vp = page.viewport_size
-                    if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
+                    f_url = frame.url.lower()
+                    if (".m3u8" in f_url or ".flv" in f_url) and "quangcao" not in f_url:
+                        found_urls.add(frame.url)
                 except: pass
-
-                deadline = time.time() + 5
-                while time.time() < deadline:
-                    if current_captured: break
-                    time.sleep(0.5)
-
-                page_blv_data = read_blv_data()
-                page_current_name = page_blv_data.get("current") or link_name
-
-                if current_captured:
-                    accepted = False
-                    for u in list(dict.fromkeys(current_captured)):
-                        key = get_stream_key(u)
-                        name = blv_map.get(key) or page_current_name or link_name or f"BLV {key}"
-                        if add_stream(u, name_hint=name, expected_key=expected_key):
-                            accepted = True
-
-                    if not accepted:
-                        for u in list(dict.fromkeys(current_captured)):
-                            key = get_stream_key(u)
-                            name = blv_map.get(key) or page_current_name or link_name or f"BLV {key}"
-                            add_stream(u, name_hint=name)
-
-            except Exception as e:
-                print(f"      ⚠️ Lỗi khi cào {link_name}: {e}")
-
+            
+            if found_urls:
+                # Đợi thêm 1s để API nôn hết các luồng phụ ra
+                time.sleep(1)
+                api_data = page.evaluate("window.__apiData || []")
+                for item in api_data:
+                    text = item.get("text", "")
+                    matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.(?:m3u8|flv)[^"\'\s<>]*', text)
+                    for m in matches:
+                        clean_link = m.replace('\\/', '/')
+                        if "quangcao" not in clean_link.lower():
+                            found_urls.add(clean_link)
+                break
+                
+            time.sleep(0.5)
+            
     except Exception as e:
-        print(f"      ⚠️ Lỗi capture_stream: {e}")
-
+        print(f"      ⚠️ Lỗi chuyển trang ảo: {e}")
     finally:
-        page.close()
-
-    streams = list(streams_dict.values())
-    if not streams: return []
-
-    for s in streams:
-        score = 0
-        lo = s["url"].lower()
-        if "cdnfaster-a.live" in lo: score += 10000
-        if "100ycdn" in lo: score += 5000
-        s["score"] = score
-
-    streams.sort(reverse=True, key=lambda x: x.get("score", 0))
-
-    for s in streams:
-        s.pop("score", None)
-
-    return streams
+        try: page.remove_listener("response", handle_response)
+        except: pass
+        
+    # Lọc unique và global seen
+    valid_streams = []
+    idx = 1
+    for u in found_urls:
+        if u not in global_seen_streams:
+            # Ưu tiên các server mượt của Lương Sơn
+            score = 0
+            if "cdnfaster" in u.lower(): score += 1000
+            if "100ycdn" in u.lower(): score += 500
+            valid_streams.append({"url": u, "score": score})
+    
+    valid_streams.sort(key=lambda x: x["score"], reverse=True)
+    
+    results = []
+    for s in valid_streams:
+        results.append({"name": f"Luồng {idx}", "url": s["url"]})
+        idx += 1
+        
+    return results
 
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
@@ -432,7 +290,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
     for idx, s in enumerate(stream_data):
         stream_links.append({
             "id": make_link_id(), 
-            "name": s["name"] if s.get("name") else f"Link {idx+1}", 
+            "name": s["name"], 
             "type": "hls", 
             "default": idx == 0, 
             "url": s["url"]
@@ -459,13 +317,45 @@ def build_channel(m: dict, stream_data: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {now_str}")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Cấy Ghép Socolive): {now_str}")
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
+        browser = p.chromium.launch(headless=True, args=[
+            "--no-sandbox", 
+            "--disable-web-security",
+            "--autoplay-policy=no-user-gesture-required", 
+            "--disable-blink-features=AutomationControlled"
+        ])
         context = browser.new_context(viewport={"width": 1920, "height": 1080}, user_agent=_HEADERS["User-Agent"], timezone_id="Asia/Ho_Chi_Minh")
         page = context.new_page()
         apply_stealth(page)
+
+        # 💡 TIÊM MÃ ĐỘC (Y hệt Socolive) để tóm cổ JSON trước khi trình duyệt mã hóa
+        js_interceptor = r"""
+        window.__apiData = [];
+        const origFetch = window.fetch;
+        window.fetch = async function(...args) {
+            let reqUrl = (typeof args[0] === 'string') ? args[0] : (args[0] && args[0].url ? args[0].url : '');
+            const response = await origFetch.apply(this, args);
+            try { 
+                response.clone().text().then(t => {
+                    if (t.length > 50) window.__apiData.push({url: reqUrl, text: t});
+                }).catch(()=>({})); 
+            } catch(e) {}
+            return response;
+        };
+        const origOpen = XMLHttpRequest.prototype.open;
+        XMLHttpRequest.prototype.open = function(method, url) {
+            this._reqUrl = url;
+            this.addEventListener('load', function() {
+                if (this.responseText && this.responseText.length > 50) {
+                    window.__apiData.push({url: this._reqUrl, text: this.responseText});
+                }
+            });
+            origOpen.apply(this, arguments);
+        };
+        """
+        page.add_init_script(js_interceptor)
 
         try: page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=60000)
         except: pass
@@ -476,7 +366,6 @@ def scrape_and_push():
                 btn_xem_them = page.get_by_text("Xem thêm", exact=True).last
                 if btn_xem_them.is_visible(timeout=2000):
                     btn_xem_them.click()
-                
                 page.mouse.wheel(0, 3000)
                 page.wait_for_timeout(1500)
             except:
@@ -514,15 +403,42 @@ def scrape_and_push():
         global_seen_streams = set()
 
         for idx, m in enumerate(raw_matches, 1):
+            
+            # An toàn: Đảm bảo Bot đang đứng ở Trang Chủ, nếu bị rớt trang thì quay về
+            if TARGET_SITE not in page.url:
+                page.goto(TARGET_SITE, wait_until="domcontentloaded")
+                page.wait_for_timeout(1500)
+            elif len(page.url) > len(TARGET_SITE) + 5:
+                try: 
+                    page.evaluate("window.history.back()")
+                    page.wait_for_timeout(1000)
+                except: 
+                    page.goto(TARGET_SITE, wait_until="domcontentloaded")
+                    page.wait_for_timeout(1500)
+            
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
             print(f"[{idx}/{len(raw_matches)}] {m['home']} vs {m['away']} ({m['timeStr']})")
             
+            slug = m["href"].rstrip("/").split("/")[-1]
+            url_path = m["href"].replace(BASE_URL, "") if m["href"].startswith("http") else m["href"]
+            if not url_path.startswith('/'): url_path = '/' + url_path
+            
             m["streams"] = []
             if m.get("isLiveUI") or any(char.isdigit() for char in m["timeStr"]):
-                m["streams"] = capture_stream(context, m["href"], global_seen_streams)
+                m["streams"] = capture_stream_spa(page, url_path, slug, global_seen_streams)
                 
-                for s in m["streams"]:
-                    global_seen_streams.add(s["url"])
+                if m["streams"]:
+                    print(f"      ✅ Tóm được {len(m['streams'])} link!")
+                    for s in m["streams"]:
+                        global_seen_streams.add(s["url"])
+                else:
+                    print("      ❌ Không có link.")
+            
+            # Cào xong lùi lại trang chủ nhẹ nhàng
+            try: 
+                page.evaluate("window.history.back()")
+                page.wait_for_timeout(1000)
+            except: pass
             
             m["homeLogo"] = get_final_logo(m["home"], m.get("homeLogo"))
             m["awayLogo"] = get_final_logo(m["away"], m.get("awayLogo"))
