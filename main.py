@@ -27,7 +27,7 @@ def apply_stealth(page):
 # =========================================================
 # CONFIG LƯƠNG SƠN TV
 # =========================================================
-TARGET_SITE   = "https://luongson171.pro/"
+TARGET_SITE   = "https://luongson171.pro"
 BASE_URL      = "https://luongson171.pro"
 FILE_PATH     = "luongson.json"
 LIMIT_MATCHES = 15 
