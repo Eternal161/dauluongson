@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:41 12/07/2026",
+  "last_updated": "19:51 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-f1328a6e8ce1",
+          "name": "⚽ Vasteras Sk Fk vs Degerfors If | Không rõ",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1313_1h8qpbfht1z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1738_1h8fzpmyv32k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1313_1h8qpbfht1z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f1328a6e8ce1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f1328a6e8ce1",
+                  "name": "Vasteras Sk Fk vs Degerfors If",
+                  "streams": [
+                    {
+                      "id": "luongson-f1328a6e8ce1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d3900efef2",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-f24a58a26787",
           "name": "⚽ Malmo Ff vs Ifk Goteborg | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 0",
+              "text": "● Live HT 3 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,18 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d981e47c9e",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-2e5bb021ad",
+                          "id": "lnk-f7684f6cbd",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-73ff8b9650",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1d9411d24d5c",
+          "name": "⚽ Hammarby vs Kalmar | Không rõ",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/374_1h6wfe05rw26.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/390_1h6wfe05rcg.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/374_1h6wfe05rw26.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1d9411d24d5c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1d9411d24d5c",
+                  "name": "Hammarby vs Kalmar",
+                  "streams": [
+                    {
+                      "id": "luongson-1d9411d24d5c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83eed4527a",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -106,124 +212,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3aadcb5b73",
+                          "id": "lnk-809756fe18",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         },
                         {
-                          "id": "lnk-2706458717",
+                          "id": "lnk-4119afca90",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f1328a6e8ce1",
-          "name": "⚽ Vasteras Sk Fk vs Degerfors If | Không rõ",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1313_1h8qpbfht1z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1738_1h8fzpmyv32k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1313_1h8qpbfht1z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f1328a6e8ce1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f1328a6e8ce1",
-                  "name": "Vasteras Sk Fk vs Degerfors If",
-                  "streams": [
-                    {
-                      "id": "luongson-f1328a6e8ce1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1dd945e786",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-1d9411d24d5c",
-          "name": "⚽ Hammarby vs Kalmar | Không rõ",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/374_1h6wfe05rw26.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/390_1h6wfe05rcg.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/374_1h6wfe05rw26.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1d9411d24d5c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1d9411d24d5c",
-                  "name": "Hammarby vs Kalmar",
-                  "streams": [
-                    {
-                      "id": "luongson-1d9411d24d5c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7195d706b",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -272,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2b3db3ca18",
+                          "id": "lnk-95da3f56d2",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
