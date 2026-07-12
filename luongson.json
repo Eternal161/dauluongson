@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:11 12/07/2026",
+  "last_updated": "15:21 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-59e0defc55",
+                          "id": "lnk-df8f23a9a8",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-30ec98f5cf",
+                          "id": "lnk-6cc89215e2",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
@@ -106,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7323f36714",
+                          "id": "lnk-14a40c9fab",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -139,10 +139,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -157,7 +157,15 @@
                     {
                       "id": "luongson-53f6827eba71",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-549579913b",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -564,7 +572,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b17dedfd61",
+                          "id": "lnk-72bf125378",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
