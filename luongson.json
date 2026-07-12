@@ -1,15 +1,75 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:51 12/07/2026",
+  "last_updated": "18:01 12/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-20a0b312d84d",
-          "name": "⚽ Dalian Kewei vs Shanghai Second | 03:26 08/12/1630",
+          "id": "luongson-692ec5cb8f2c",
+          "name": "⚽ Fc Seoul vs Gangwon Fc | Không rõ",
+          "tournament": "K League 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/635_1gxsf6qjyq26.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8792_1gxsf6qkdd19.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/635_1gxsf6qjyq26.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-692ec5cb8f2c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-692ec5cb8f2c",
+                  "name": "Fc Seoul vs Gangwon Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-692ec5cb8f2c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-028afe993e",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-ff8ab46c8f",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e5fbc976bfa7",
+          "name": "⚽ Dalian Kewei vs Shanghai Second | Không rõ",
           "tournament": "Chinese Football Association Yi League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/64762_1hy5bwm31c2v.png?v=2.4.3",
@@ -34,23 +94,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-20a0b312d84d",
+              "id": "luongson-e5fbc976bfa7",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-20a0b312d84d",
+                  "id": "luongson-e5fbc976bfa7",
                   "name": "Dalian Kewei vs Shanghai Second",
                   "streams": [
                     {
-                      "id": "luongson-20a0b312d84d",
+                      "id": "luongson-e5fbc976bfa7",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5034e52adf",
-                          "name": "BLV LÝ ỨNG",
+                          "id": "lnk-fb2a149d0d",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -99,131 +159,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4e578d7418",
+                          "id": "lnk-c5a678fa8d",
                           "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-a712c11eed",
+                          "id": "lnk-5cb21c7bba",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-53f6827eba71",
-          "name": "⚽ Changwon City vs Chuncheon Citizen | Không rõ",
-          "tournament": "Korea Challengers League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4790_1gxsf6qkx91s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11937_1hrk18ehcb20.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4790_1gxsf6qkx91s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-53f6827eba71",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-53f6827eba71",
-                  "name": "Changwon City vs Chuncheon Citizen",
-                  "streams": [
-                    {
-                      "id": "luongson-53f6827eba71",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02188c5a3e",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-692ec5cb8f2c",
-          "name": "⚽ Fc Seoul vs Gangwon Fc | Không rõ",
-          "tournament": "K League 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/635_1gxsf6qjyq26.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8792_1gxsf6qkdd19.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/635_1gxsf6qjyq26.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-692ec5cb8f2c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-692ec5cb8f2c",
-                  "name": "Fc Seoul vs Gangwon Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-692ec5cb8f2c",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c92b547eb0",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
-                        {
-                          "id": "lnk-a5996187f8",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -272,18 +219,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-658666834e",
-                          "name": "BLV HÀN TÍN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
-                        },
-                        {
-                          "id": "lnk-4e0e230d7d",
+                          "id": "lnk-9945e3ec7a",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-2c2c51264c",
+                          "name": "BLV HÀN TÍN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HANTIN/index.m3u8?expire=1898537700&sign=546f072aa0beee54643020b57b8be5df"
                         }
                       ]
                     }
@@ -295,7 +242,7 @@
         },
         {
           "id": "luongson-9533607c9931",
-          "name": "⚽ Shenzhen Juniors vs Dingnan Ganlian | 18:00",
+          "name": "⚽ Shenzhen Juniors vs Dingnan Ganlian | Không rõ",
           "tournament": "Chinese Football Association Jia League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/61892_1h13r59nwd1d.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/23801_1jvr6nqwgn1k.png?v=2.4.3",
@@ -312,7 +259,7 @@
           },
           "labels": [
             {
-              "text": "● Live 18:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -332,7 +279,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-eff239a8b8",
+                          "id": "lnk-b82adbc900",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -742,6 +689,51 @@
                   "streams": [
                     {
                       "id": "luongson-4dcc43055e4f",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-131e995d1d5e",
+          "name": "⚽ Gais vs Elfsborg | 21:30",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/381_1h8wtxnzmc2g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1310_1h8wtya6esp.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-131e995d1d5e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-131e995d1d5e",
+                  "name": "Gais vs Elfsborg",
+                  "streams": [
+                    {
+                      "id": "luongson-131e995d1d5e",
                       "name": "F",
                       "stream_links": []
                     }
