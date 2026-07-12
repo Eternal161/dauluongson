@@ -14,8 +14,8 @@ from playwright_stealth import Stealth
 # =========================================================
 # CONFIG LƯƠNG SƠN TV - BẢN FULL CHỐNG ĐẠN
 # =========================================================
-TARGET_SITE   = "https://ls91.site/"
-BASE_URL      = "https://ls91.site"
+TARGET_SITE   = "https://luongson171.pro/"
+BASE_URL      = "https://luongson171.pro"
 FILE_PATH     = "luongson.json"
 LIMIT_MATCHES = 15 # Tăng số lượng để hiện được nhiều trận sắp tới hơn
 
