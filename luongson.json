@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:01 12/07/2026",
+  "last_updated": "16:11 12/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-358bb47d7c",
+                          "id": "lnk-aa8616fc92",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "id": "luongson-e5fbc976bfa7",
+          "id": "luongson-20a0b312d84d",
           "name": "⚽ Dalian Kewei vs Shanghai Second | 16:30",
           "tournament": "Chinese Football Association Yi League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69497_1jx3zzzqx6x.png?v=2.4.3",
@@ -79,25 +79,33 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-e5fbc976bfa7",
+              "id": "luongson-20a0b312d84d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e5fbc976bfa7",
+                  "id": "luongson-20a0b312d84d",
                   "name": "Dalian Kewei vs Shanghai Second",
                   "streams": [
                     {
-                      "id": "luongson-e5fbc976bfa7",
+                      "id": "luongson-20a0b312d84d",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-11d23aae25",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
