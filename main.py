@@ -9,15 +9,28 @@ import requests
 import unicodedata
 from github import Github
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
-from playwright_stealth import Stealth
 
 # =========================================================
-# CONFIG LƯƠNG SƠN TV - BẢN FULL CHỐNG ĐẠN
+# BỘ GIÁP STEALTH
+# =========================================================
+def apply_stealth(page):
+    try:
+        from playwright_stealth import stealth_sync
+        stealth_sync(page)
+    except ImportError:
+        try:
+            from playwright_stealth import Stealth
+            Stealth().apply_stealth_sync(page)
+        except: pass
+    except: pass
+
+# =========================================================
+# CONFIG LƯƠNG SƠN TV - BẢN FULL CHỐNG ĐẠN SPA
 # =========================================================
 TARGET_SITE   = "https://luongson171.pro/"
 BASE_URL      = "https://luongson171.pro"
 FILE_PATH     = "luongson.json"
-LIMIT_MATCHES = 15 # Tăng số lượng để hiện được nhiều trận sắp tới hơn
+LIMIT_MATCHES = 15 
 
 VN_TZ = datetime.timezone(datetime.timedelta(hours=7))
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
@@ -62,12 +75,11 @@ def get_final_logo(team_name: str, site_logo: str) -> str:
     return f"https://ui-avatars.com/api/?name={initials}&size=200&background=1565C0&color=ffffff&bold=true"
 
 # =========================================================
-# XỬ LÝ THỜI GIAN (CHỐNG LỖI THÁNG 15)
+# XỬ LÝ THỜI GIAN
 # =========================================================
 def parse_time_from_url(url: str) -> str:
     try:
         slug = url.rstrip('/').split('/')[-1]
-        # Format: YYYY-MM-DD-HHMM
         m = re.search(r'(\d{4})-(\d{2})-(\d{2})-(\d{2})(\d{2})', slug)
         if m:
             y, mth, d, h, mn = map(int, m.groups())
@@ -75,7 +87,6 @@ def parse_time_from_url(url: str) -> str:
             dt_utc = datetime.datetime(y, mth, d, h, mn)
             dt_vn = dt_utc + datetime.timedelta(hours=7)
             return dt_vn.strftime("%H:%M %d/%m/%Y")
-        # Format: HHMM-DD-MM-YYYY
         m2 = re.search(r'(\d{2})(\d{2})-(\d{2})-(\d{2})-(\d{4})', slug)
         if m2:
             hh, mm, dd, mo, yyyy = m2.groups()
@@ -133,25 +144,22 @@ JS_EXTRACT = """
             awayLogo = teamLogos[teamLogos.length - 1].src;
         }
 
-        // 💡 BỘ LỌC THÔNG MINH MỚI: Tách bạch Thời gian và Tỷ số
         let fullText = clean(a.innerText || '');
         let timeStr = '';
         let scoreStr = '';
         
-        // 1. Dò tìm Giờ (vd: 14:00) và Ngày (vd: 25/06)
         let timeMatch = fullText.match(/(\\d{1,2}:\\d{2})/);
         let dateMatch = fullText.match(/(\\d{1,2}\\/\\d{1,2})/);
         if (timeMatch) {
             timeStr = timeMatch[1];
-            if (dateMatch) timeStr += ' ' + dateMatch[1]; // Thành phẩm: "14:00 25/06"
+            if (dateMatch) timeStr += ' ' + dateMatch[1]; 
         }
         
-        // 2. Dò tìm Tỷ số (vd: 0:0, 2-1) và Số phút (vd: H1, 45')
         let scoreMatch = fullText.match(/(\\d+)\\s*[:\\-]\\s*(\\d+)/);
         if (scoreMatch) {
             scoreStr = scoreMatch[0];
             let minuteMatch = fullText.match(/\\b(H[T12]|FT|\\d{1,3}')\\b/i);
-            if (minuteMatch) scoreStr = minuteMatch[0] + ' ' + scoreStr; // Thành phẩm: "H1 0:0"
+            if (minuteMatch) scoreStr = minuteMatch[0] + ' ' + scoreStr; 
         }
         
         let title = a.querySelector('.team-name') ? a.innerText : 'Match';
@@ -165,10 +173,7 @@ JS_EXTRACT = """
 
 def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
     page = context.new_page()
-    try:
-        Stealth().apply_stealth_sync(page)
-    except:
-        pass
+    apply_stealth(page)
 
     def norm_key(s: str) -> str:
         s = s or ""
@@ -206,8 +211,6 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
 
         expected_key = norm_key(expected_key)
 
-        # Nếu đang bấm BLV VÕ TÒNG thì chỉ nhận m3u8 /live/VOTONG/
-        # Tránh lấy nhầm request cũ của LEO hoặc BLV khác.
         if expected_key and get_stream_key(url) and key != expected_key:
             return False
 
@@ -230,42 +233,30 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
                 .toUpperCase();
 
             function pickName(text) {
-                const lines = (text || '')
-                    .split('\\n')
-                    .map(clean)
-                    .filter(Boolean);
-
+                const lines = (text || '').split('\\n').map(clean).filter(Boolean);
                 for (const line of lines) {
                     const m = line.match(/^BLV\\s*(.+)$/i);
                     if (m) return 'BLV ' + clean(m[1]);
                 }
-
                 const m2 = clean(text).match(/BLV\\s+[^0-9|•]+/i);
                 return m2 ? clean(m2[0]) : '';
             }
 
             let current = '';
-            const bodyLines = (document.body.innerText || '')
-                .split('\\n')
-                .map(clean)
-                .filter(Boolean);
+            const bodyLines = (document.body.innerText || '').split('\\n').map(clean).filter(Boolean);
 
-            // Ưu tiên dòng trên player: "BLV: BLV VÕ TÒNG"
             for (const line of bodyLines) {
                 let m = line.match(/BLV:\\s*(BLV\\s*[^•|]+?)(?:\\s+Theo dõi|\\s+👁|\\s*$)/i);
                 if (m) {
-                    current = clean(m[1]);
-                    break;
+                    current = clean(m[1]); break;
                 }
             }
 
-            // Fallback: đoạn mô tả bên dưới
             if (!current) {
                 for (const line of bodyLines) {
                     let m = line.match(/Bình luận viên:\\s*(BLV\\s*[^.]+?)(?:\\s+Tỷ số|\\s+thuộc|\\s*$)/i);
                     if (m) {
-                        current = clean(m[1]);
-                        break;
+                        current = clean(m[1]); break;
                     }
                 }
             }
@@ -275,12 +266,7 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
 
             document.querySelectorAll('a[href*="blv="]').forEach(a => {
                 let url;
-                try {
-                    url = new URL(a.href);
-                } catch(e) {
-                    return;
-                }
-
+                try { url = new URL(a.href); } catch(e) { return; }
                 if (url.pathname.replace(/\\/$/, '') !== currentPath) return;
 
                 const keyRaw = url.searchParams.get('blv') || '';
@@ -289,22 +275,13 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
 
                 const rawText = a.innerText || '';
                 const text = clean(rawText);
-                if (!text) return;
-                if (/replay/i.test(text)) return;
-                if (/vào phòng/i.test(text)) return;
+                if (!text || /replay/i.test(text) || /vào phòng/i.test(text)) return;
 
                 let name = pickName(rawText);
                 if (!name) return;
 
-                const item = {
-                    key,
-                    name,
-                    href: a.href,
-                    len: text.length
-                };
+                const item = { key, name, href: a.href, len: text.length };
 
-                // Nếu DOM có nhiều thẻ trùng href/key, lấy thẻ có text ngắn nhất,
-                // thường là card BLV thật, không phải container slider.
                 const old = best.get(key);
                 if (!old || item.len < old.len) {
                     best.set(key, item);
@@ -320,25 +297,35 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
         """)
 
     try:
-        page.goto(match_url, wait_until="domcontentloaded", timeout=15000)
-
+        # 💡 TÍCH HỢP ĐỘNG CƠ SPA - BƯỚC 1: LÁCH TƯỜNG LỬA CHO TRẬN CHÍNH
+        try: page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=15000)
+        except: pass
+        page.wait_for_timeout(1000)
+        
+        url_path = match_url.replace(BASE_URL, "") if match_url.startswith("http") else match_url
+        if not url_path.startswith('/'): url_path = '/' + url_path
+        
+        page.evaluate(f'''(path) => {{
+            let link = document.querySelector(`a[href="${{path}}"]`) || document.querySelector(`a[href*="${{path.split('/').pop()}}"]`);
+            if (link) link.click();
+            else if (window.$nuxt && window.$nuxt.$router) window.$nuxt.$router.push(path);
+        }}''', url_path)
+        
+        page.wait_for_timeout(3000) # Đợi phòng load
+        
         try:
             vp = page.viewport_size
-            if vp:
-                page.mouse.click(vp["width"] // 2, vp["height"] // 2)
-        except:
-            pass
+            if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
+        except: pass
 
         deadline = time.time() + 6
         while time.time() < deadline:
-            if current_captured:
-                break
+            if current_captured: break
             time.sleep(0.5)
 
         blv_data = read_blv_data()
         blv_map = blv_data.get("map", {}) or {}
 
-        # Luồng đang mở mặc định
         if current_captured:
             current_name = blv_data.get("current") or ""
             for u in list(dict.fromkeys(current_captured)):
@@ -346,29 +333,35 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
                 name = blv_map.get(key) or current_name or f"BLV {key}"
                 add_stream(u, name_hint=name)
 
-        # Cào từng BLV khác
+        # 💡 TÍCH HỢP ĐỘNG CƠ SPA - BƯỚC 2: CLICK ĐỔI BLV KHÔNG TẢI LẠI TRANG
         for link in blv_data.get("links", []):
             link_name = link.get("name") or ""
             expected_key = link.get("key") or ""
-
             print(f"      > Đang cào thêm: {link_name} [{expected_key}]...")
 
             current_captured.clear()
 
             try:
-                page.goto(link["href"], wait_until="domcontentloaded", timeout=10000)
+                blv_href = link["href"]
+                blv_path = blv_href.replace(BASE_URL, "") if blv_href.startswith("http") else blv_href
+                
+                # Bấm trực tiếp vào thẻ chứa tên BLV thay vì goto()
+                page.evaluate(f'''([fullHref, path]) => {{
+                    let a = document.querySelector(`a[href="${{fullHref}}"]`) || document.querySelector(`a[href="${{path}}"]`) || document.querySelector(`a[href*="${{path.split('?')[1]}}"]`);
+                    if (a) a.click();
+                    else if (window.$nuxt && window.$nuxt.$router) window.$nuxt.$router.push(path);
+                }}''', [blv_href, blv_path])
+                
+                page.wait_for_timeout(2000)
 
                 try:
                     vp = page.viewport_size
-                    if vp:
-                        page.mouse.click(vp["width"] // 2, vp["height"] // 2)
-                except:
-                    pass
+                    if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
+                except: pass
 
                 deadline = time.time() + 5
                 while time.time() < deadline:
-                    if current_captured:
-                        break
+                    if current_captured: break
                     time.sleep(0.5)
 
                 page_blv_data = read_blv_data()
@@ -376,15 +369,12 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
 
                 if current_captured:
                     accepted = False
-
                     for u in list(dict.fromkeys(current_captured)):
                         key = get_stream_key(u)
                         name = blv_map.get(key) or page_current_name or link_name or f"BLV {key}"
-
                         if add_stream(u, name_hint=name, expected_key=expected_key):
                             accepted = True
 
-                    # Fallback nếu key trên URL web không trùng key trong m3u8
                     if not accepted:
                         for u in list(dict.fromkeys(current_captured)):
                             key = get_stream_key(u)
@@ -401,16 +391,13 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
         page.close()
 
     streams = list(streams_dict.values())
-    if not streams:
-        return []
+    if not streams: return []
 
     for s in streams:
         score = 0
         lo = s["url"].lower()
-        if "cdnfaster-a.live" in lo:
-            score += 10000
-        if "100ycdn" in lo:
-            score += 5000
+        if "cdnfaster-a.live" in lo: score += 10000
+        if "100ycdn" in lo: score += 5000
         s["score"] = score
 
     streams.sort(reverse=True, key=lambda x: x.get("score", 0))
@@ -419,6 +406,7 @@ def capture_stream(context, match_url: str, global_seen_streams: set) -> list:
         s.pop("score", None)
 
     return streams
+
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
 # =========================================================
@@ -429,12 +417,10 @@ def build_channel(m: dict, stream_data: list) -> dict:
     
     cid = make_id(m["href"])
     title_clean = f"{home} vs {away}"
-    display_name = f"⚽ {title_clean}" + (f" | {m.get('league')}" if m.get('league') else "") + (f" | {thoi_gian}" if thoi_gian else "")
+    display_name = f"⚽ {title_clean}" + (f" | {m.get('tournament')}" if m.get('tournament') else "") + (f" | {thoi_gian}" if thoi_gian else "")
 
-    # TRẠNG THÁI HIỂN THỊ
     is_live = len(stream_data) > 0
     
-    # 💡 NẾU ĐANG LIVE -> BƠM TỶ SỐ VÀO LABEL ĐỂ FLUTTER HIỆN BẢNG TỶ SỐ
     if is_live:
         label_text = f"● Live {m.get('scoreStr', '')}".strip()
     else:
@@ -442,7 +428,6 @@ def build_channel(m: dict, stream_data: list) -> dict:
         
     label_color = "#ff0000" if is_live else ("#ff6600" if m.get("isLiveUI") else "#d54f1a")
 
-    # 💡 MAP DỮ LIỆU ĐA LUỒNG BLV VÀO JSON
     stream_links = []
     for idx, s in enumerate(stream_data):
         stream_links.append({
@@ -474,33 +459,28 @@ def build_channel(m: dict, stream_data: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {now_str}  Untitled1:239 - ls.py:334")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Giờ VN): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
         context = browser.new_context(viewport={"width": 1920, "height": 1080}, user_agent=_HEADERS["User-Agent"], timezone_id="Asia/Ho_Chi_Minh")
         page = context.new_page()
-        try: Stealth().apply_stealth_sync(page)
-        except: pass
+        apply_stealth(page)
 
         try: page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=60000)
         except: pass
         page.wait_for_timeout(5000)
 
-        # Cuộn trang sâu hơn để lấy cả trận sắp tới
-        # 💡 BẤM NÚT "XEM THÊM" ĐỂ MỞ KHÓA TẤT CẢ CÁC TRẬN
         for _ in range(5):
             try:
-                # Tìm nút có chữ "Xem thêm" và bấm vào
                 btn_xem_them = page.get_by_text("Xem thêm", exact=True).last
                 if btn_xem_them.is_visible(timeout=2000):
                     btn_xem_them.click()
                 
-                # Cuộn xuống để load ảnh logo
                 page.mouse.wheel(0, 3000)
                 page.wait_for_timeout(1500)
             except:
-                break # Thoát vòng lặp nếu không còn nút Xem thêm
+                break 
 
         raw_matches = page.evaluate(JS_EXTRACT)
         valid_matches = []
@@ -519,7 +499,6 @@ def scrape_and_push():
 
             h_lower, a_lower = m["home"].lower(), m["away"].lower()
             
-            # CHỐNG RÁC NHẬN ĐỊNH
             if any(x in h_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nhận định"]) or \
                any(x in a_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nhận định"]):
                 continue
@@ -532,7 +511,6 @@ def scrape_and_push():
         raw_matches = valid_matches[:LIMIT_MATCHES]
         print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...")
 
-        # 💡 TẠO SỔ ĐEN TOÀN CỤC CHỐNG TRÙNG M3U8 GIỮA CÁC TRẬN
         global_seen_streams = set()
 
         for idx, m in enumerate(raw_matches, 1):
@@ -541,17 +519,14 @@ def scrape_and_push():
             
             m["streams"] = []
             if m.get("isLiveUI") or any(char.isdigit() for char in m["timeStr"]):
-                # 💡 Truyền global_seen_streams vào trong
                 m["streams"] = capture_stream(context, m["href"], global_seen_streams)
                 
-                # 💡 Bổ sung các luồng vừa cào được vào danh sách cấm của các trận đi sau
                 for s in m["streams"]:
                     global_seen_streams.add(s["url"])
             
             m["homeLogo"] = get_final_logo(m["home"], m.get("homeLogo"))
             m["awayLogo"] = get_final_logo(m["away"], m.get("awayLogo"))
 
-    # Đóng gói JSON
     channels = [build_channel(m, m["streams"]) for m in raw_matches]
     content = json.dumps({
         "id": "luongson", 
@@ -560,17 +535,16 @@ def scrape_and_push():
         "groups": [{"id": "live", "name": "🔴 Trực tiếp & Sắp tới", "channels": channels}]
     }, indent=2, ensure_ascii=False)
     
-    # Đẩy lên GitHub
     if GITHUB_TOKEN:
         repo = Github(GITHUB_TOKEN).get_repo(REPO_NAME)
         msg = "⚽ Sync Lương Sơn: " + now_str
         try:
             existing = repo.get_contents(FILE_PATH)
             repo.update_file(existing.path, msg, content, existing.sha)
-            print("\n✅ Đã cập nhật thành công lên GitHub!  Untitled1:316 - ls.py:411")
+            print("\n✅ Đã cập nhật thành công lên GitHub!")
         except:
             repo.create_file(FILE_PATH, msg, content)
-            print("\n✅ Đã khởi tạo file mới trên GitHub!  Untitled1:319 - ls.py:414")
+            print("\n✅ Đã khởi tạo file mới trên GitHub!")
 
 if __name__ == "__main__":
     scrape_and_push()
