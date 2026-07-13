@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:11 14/07/2026",
+  "last_updated": "05:21 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-096cd14064b2",
+          "name": "⚽ Itabaiana(Se) vs Brusque Fc | Brasileiro, Serie C | Không rõ",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11595_1jnmg7vwfvj.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-096cd14064b2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-096cd14064b2",
+                  "name": "Itabaiana(Se) vs Brusque Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-096cd14064b2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a60f0db756",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-7db9b31eab",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-2b5d5a953ff6",
           "name": "⚽ America Mg vs Londrina Pr | Brazil Serie B | Không rõ",
@@ -46,17 +106,10 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-00f53817b0",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-68b6ee870f",
+                          "id": "lnk-51c9fae2ea",
                           "name": "BLV L.BỊ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
@@ -86,10 +139,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -103,59 +156,6 @@
                   "streams": [
                     {
                       "id": "luongson-3509c8db683f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c5ace0d59c",
-                          "name": "BLV V.TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-096cd14064b2",
-          "name": "⚽ Itabaiana(Se) vs Brusque Fc | Brasileiro, Serie C | 05:30",
-          "tournament": "Brasileiro, Serie C",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11595_1jnmg7vwfvj.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-096cd14064b2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-096cd14064b2",
-                  "name": "Itabaiana(Se) vs Brusque Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-096cd14064b2",
                       "name": "F",
                       "stream_links": []
                     }
