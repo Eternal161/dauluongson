@@ -1,117 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:11 14/07/2026",
+  "last_updated": "04:21 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-d6a5ef1d3dfa",
-          "name": "⚽ Vestri vs Fylkir | Iceland Division 1 | 03:15",
-          "tournament": "Iceland Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23953_1gt88qdnp22y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/829_2012121850402.gif?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23953_1gt88qdnp22y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 03:15",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d6a5ef1d3dfa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d6a5ef1d3dfa",
-                  "name": "Vestri vs Fylkir",
-                  "streams": [
-                    {
-                      "id": "luongson-d6a5ef1d3dfa",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-955d301420",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://auto.cdnfaster.live/live/sd-6MvVcw3f7GSTo1qVzk/playlist.m3u8"
-                        },
-                        {
-                          "id": "lnk-4cc91f6127",
-                          "name": "BLV N.ĐÀI",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://auto.cdnfaster.live/live/sd-6Mwb6hKe6vuSnckUvp/playlist.m3u8"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4ca366a1c3a2",
-          "name": "⚽ Barcelona Guayaquil (W) vs Independiente Del Valle (W) | Ecuador Primera Women | Không rõ",
-          "tournament": "Ecuador Primera Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/53399_1gz7zsjpymc.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50228_1h07f242qe5.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/53399_1gz7zsjpymc.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4ca366a1c3a2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4ca366a1c3a2",
-                  "name": "Barcelona Guayaquil (W) vs Independiente Del Valle (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-4ca366a1c3a2",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-3509c8db683f",
           "name": "⚽ Cerro Largo vs Defensor Sporting Montevideo | Uruguay Primera Division | 05:00",
@@ -446,10 +341,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 08:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -464,7 +359,15 @@
                     {
                       "id": "luongson-270569abacfa",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a87efcb2b5",
+                          "name": "BLV N.REPLAY",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -608,6 +511,51 @@
           ]
         },
         {
+          "id": "luongson-c1a891af41ff",
+          "name": "⚽ Shandong Jinghua Ii W vs Chongqing Olympic (W) | China League Women | 13:00",
+          "tournament": "China League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60910_1h4f5f6ptj2h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c1a891af41ff",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c1a891af41ff",
+                  "name": "Shandong Jinghua Ii W vs Chongqing Olympic (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-c1a891af41ff",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-606ffaab6950",
           "name": "⚽ Dalian Football School(W) vs Shanghai Jiading Huilong B W | China League Women | 13:00",
           "tournament": "China League Women",
@@ -653,11 +601,11 @@
           ]
         },
         {
-          "id": "luongson-c1a891af41ff",
-          "name": "⚽ Shandong Jinghua Ii W vs Chongqing Olympic (W) | China League Women | 13:00",
-          "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60910_1h4f5f6ptj2h.png?v=2.4.3",
+          "id": "luongson-1df0aa3391a4",
+          "name": "⚽ Meycauayan vs San Juan Knights | MPBL | 15:00",
+          "tournament": "MPBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974892.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974885.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -665,7 +613,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974892.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -679,15 +627,60 @@
           ],
           "sources": [
             {
-              "id": "luongson-c1a891af41ff",
+              "id": "luongson-1df0aa3391a4",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c1a891af41ff",
-                  "name": "Shandong Jinghua Ii W vs Chongqing Olympic (W)",
+                  "id": "luongson-1df0aa3391a4",
+                  "name": "Meycauayan vs San Juan Knights",
                   "streams": [
                     {
-                      "id": "luongson-c1a891af41ff",
+                      "id": "luongson-1df0aa3391a4",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c4f2f4cb43f8",
+          "name": "⚽ Qingdao West (W) vs Zhejiang Hangzhou B (W) | China League Women | 15:15",
+          "tournament": "China League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64483_1j28vbswk5d.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=Zh&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64483_1j28vbswk5d.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c4f2f4cb43f8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c4f2f4cb43f8",
+                  "name": "Qingdao West (W) vs Zhejiang Hangzhou B (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-c4f2f4cb43f8",
                       "name": "F",
                       "stream_links": []
                     }
