@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:28 13/07/2026",
+  "last_updated": "18:31 13/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,46 +46,60 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a8a8c90ab7",
+                          "id": "lnk-fa3201add7",
+                          "name": "BLV TONLAP (M3U8)",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-d2adafe9f4",
                           "name": "BLV LUUBI (FLV)",
                           "type": "flv",
-                          "default": true,
+                          "default": false,
                           "url": "https://flv.cdnfaster-a.live/live/LUUBI.flv?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-f56679bf90",
-                          "name": "BLV TAOTHAO (M3U8)",
-                          "type": "hls",
+                          "id": "lnk-fa0e4ab4a9",
+                          "name": "BLV YENTHANH1 (FLV)",
+                          "type": "flv",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://flv.cdnfaster-a.live/live/YENTHANH1.flv?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-dff0fe6471",
+                          "id": "lnk-7195b71b50",
                           "name": "BLV LUUBI (M3U8)",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-dc5733adf0",
-                          "name": "BLV TAYMONKHANH (M3U8)",
+                          "id": "lnk-e7b3bcc8ba",
+                          "name": "BLV TAOTHAO (M3U8)",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-f7a462707e",
+                          "id": "lnk-5a122bb080",
                           "name": "BLV TAOTHAO (FLV)",
                           "type": "flv",
                           "default": false,
                           "url": "https://flv.cdnfaster-a.live/live/TAOTHAO.flv?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-a8ca9c2e12",
-                          "name": "BLV TAYMONKHANH (FLV)",
+                          "id": "lnk-6b4c6103e5",
+                          "name": "BLV YENTHANH1 (M3U8)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-e7d3137d7f",
+                          "name": "BLV TONLAP (FLV)",
                           "type": "flv",
                           "default": false,
-                          "url": "https://flv.cdnfaster-a.live/live/TAYMONKHANH.flv?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://flv.cdnfaster-a.live/live/TONLAP.flv?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -134,18 +148,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8e8f50687b",
-                          "name": "BLV TONLAP (M3U8)",
-                          "type": "hls",
+                          "id": "lnk-d6ce519e6f",
+                          "name": "BLV TAYMONKHANH (FLV)",
+                          "type": "flv",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://flv.cdnfaster-a.live/live/TAYMONKHANH.flv?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         },
                         {
-                          "id": "lnk-cbe1f91fee",
-                          "name": "BLV TONLAP (FLV)",
-                          "type": "flv",
+                          "id": "lnk-67487c8e9c",
+                          "name": "BLV TAYMONKHANH (M3U8)",
+                          "type": "hls",
                           "default": false,
-                          "url": "https://flv.cdnfaster-a.live/live/TONLAP.flv?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -264,10 +278,10 @@
           },
           "labels": [
             {
-              "text": "● Live 21:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -282,15 +296,7 @@
                     {
                       "id": "luongson-38102caf87be",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-adb551b137",
-                          "name": "BLV YENTHANH1 (M3U8)",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
