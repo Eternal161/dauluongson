@@ -1,12 +1,79 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:41 14/07/2026",
+  "last_updated": "02:51 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-d344f179aac3",
+          "name": "⚽ Banfield (W) vs Belgrano (W) | The women's league of Argentina | Không rõ",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56020_1gtwwr8e0c1m.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d344f179aac3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d344f179aac3",
+                  "name": "Banfield (W) vs Belgrano (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-d344f179aac3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9b0d463da",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-637e2d00fc",
+                          "name": "BLV L.ỨNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        },
+                        {
+                          "id": "lnk-599c86212e",
+                          "name": "BLV N.THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-a82f29383365",
           "name": "⚽ Breidablik vs Keflavik | Iceland Premier Division | Không rõ",
@@ -46,125 +113,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-42a4d44ff7",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-c184544c84",
+                          "id": "lnk-200b0e3dba",
                           "name": "BLV T.THÁO",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-936947d827",
-                          "name": "BLV V.LUÂN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d344f179aac3",
-          "name": "⚽ Banfield (W) vs Belgrano (W) | The women's league of Argentina | Không rõ",
-          "tournament": "The women's league of Argentina",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56020_1gtwwr8e0c1m.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d344f179aac3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d344f179aac3",
-                  "name": "Banfield (W) vs Belgrano (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-d344f179aac3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1eae126c7d",
-                          "name": "BLV L.ỨNG",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-957714539165",
-          "name": "⚽ San Lorenzo (W) vs San Luis Fc (W) | The women's league of Argentina | 03:26 15/07/100",
-          "tournament": "The women's league of Argentina",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10577_1grj4sk3et2b.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60264_1h4yn4wgbek.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/10577_1grj4sk3et2b.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-957714539165",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-957714539165",
-                  "name": "San Lorenzo (W) vs San Luis Fc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-957714539165",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -208,6 +163,51 @@
                   "streams": [
                     {
                       "id": "luongson-dc9e1e37b6a5",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-957714539165",
+          "name": "⚽ San Lorenzo (W) vs San Luis Fc (W) | The women's league of Argentina | 03:26 15/07/100",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10577_1grj4sk3et2b.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60264_1h4yn4wgbek.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/10577_1grj4sk3et2b.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-957714539165",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-957714539165",
+                  "name": "San Lorenzo (W) vs San Luis Fc (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-957714539165",
                       "name": "F",
                       "stream_links": []
                     }
