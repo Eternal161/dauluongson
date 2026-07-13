@@ -1,57 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:01 13/07/2026",
+  "last_updated": "18:05 13/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-1ede570c2baa",
-          "name": "⚽ Ningbo Professional Football Club vs Foshan Nanshi | Chinese Football Association Jia League | Không rõ",
-          "tournament": "Chinese Football Association Jia League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20531_1hrk13pq9fr.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50185_1hrgcs0ft7a.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/20531_1hrk13pq9fr.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1ede570c2baa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1ede570c2baa",
-                  "name": "Ningbo Professional Football Club vs Foshan Nanshi",
-                  "streams": [
-                    {
-                      "id": "luongson-1ede570c2baa",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-c625a1043ca8",
           "name": "⚽ Ugyen Academy vs Transport United Fc | Bhutan Thimphu League | Không rõ",
@@ -71,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -89,7 +44,89 @@
                     {
                       "id": "luongson-c625a1043ca8",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c699b63bc",
+                          "name": "Luồng 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-33b9cdcf3d",
+                          "name": "Luồng 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://flv.cdnfaster-a.live/live/TAYMONKHANH.flv?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-7fb0de24ae",
+                          "name": "Luồng 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1ede570c2baa",
+          "name": "⚽ Ningbo Professional Football Club vs Foshan Nanshi | Chinese Football Association Jia League | Không rõ",
+          "tournament": "Chinese Football Association Jia League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/20531_1hrk13pq9fr.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/50185_1hrgcs0ft7a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/20531_1hrk13pq9fr.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1ede570c2baa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1ede570c2baa",
+                  "name": "Ningbo Professional Football Club vs Foshan Nanshi",
+                  "streams": [
+                    {
+                      "id": "luongson-1ede570c2baa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5901f7079d",
+                          "name": "Luồng 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-afd60d2ab6",
+                          "name": "Luồng 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://flv.cdnfaster-a.live/live/TAOTHAO.flv?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
