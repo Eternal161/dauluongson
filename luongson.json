@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:21 14/07/2026",
+  "last_updated": "04:31 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-2b5d5a953ff6",
+          "name": "⚽ America Mg vs Londrina Pr | Brazil Serie B | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1619_1gy3vp9xf810.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-2b5d5a953ff6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-2b5d5a953ff6",
+                  "name": "America Mg vs Londrina Pr",
+                  "streams": [
+                    {
+                      "id": "luongson-2b5d5a953ff6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8aca3044a",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-3509c8db683f",
           "name": "⚽ Cerro Largo vs Defensor Sporting Montevideo | Uruguay Primera Division | 05:00",
@@ -43,51 +96,6 @@
                   "streams": [
                     {
                       "id": "luongson-3509c8db683f",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-2b5d5a953ff6",
-          "name": "⚽ America Mg vs Londrina Pr | Brazil Serie B | 05:00",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1619_1gy3vp9xf810.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-2b5d5a953ff6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-2b5d5a953ff6",
-                  "name": "America Mg vs Londrina Pr",
-                  "streams": [
-                    {
-                      "id": "luongson-2b5d5a953ff6",
                       "name": "F",
                       "stream_links": []
                     }
@@ -251,10 +259,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 07:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -269,7 +277,15 @@
                     {
                       "id": "luongson-e872e4545455",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdea90468d",
+                          "name": "BLV L.BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -341,10 +357,10 @@
           },
           "labels": [
             {
-              "text": "● Live 08:30",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -359,15 +375,7 @@
                     {
                       "id": "luongson-270569abacfa",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a87efcb2b5",
-                          "name": "BLV N.REPLAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -466,51 +474,6 @@
           ]
         },
         {
-          "id": "luongson-7cba73f2cb46",
-          "name": "⚽ Shanghai Shenhua W vs Henan (W) | China League Women | 13:00",
-          "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9203_1k6kxjth8r1k.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7cba73f2cb46",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7cba73f2cb46",
-                  "name": "Shanghai Shenhua W vs Henan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-7cba73f2cb46",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-c1a891af41ff",
           "name": "⚽ Shandong Jinghua Ii W vs Chongqing Olympic (W) | China League Women | 13:00",
           "tournament": "China League Women",
@@ -591,6 +554,51 @@
                   "streams": [
                     {
                       "id": "luongson-606ffaab6950",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7cba73f2cb46",
+          "name": "⚽ Shanghai Shenhua W vs Henan (W) | China League Women | 13:00",
+          "tournament": "China League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9203_1k6kxjth8r1k.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7cba73f2cb46",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7cba73f2cb46",
+                  "name": "Shanghai Shenhua W vs Henan (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-7cba73f2cb46",
                       "name": "F",
                       "stream_links": []
                     }
