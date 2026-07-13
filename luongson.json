@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:01 14/07/2026",
+  "last_updated": "05:11 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,11 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4c885a7ce5",
-                          "name": "BLV LEO",
+                          "id": "lnk-00f53817b0",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-68b6ee870f",
+                          "name": "BLV L.BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -99,11 +106,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2f64098ad6",
-                          "name": "Mặc định",
+                          "id": "lnk-c5ace0d59c",
+                          "name": "BLV V.TÒNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -627,10 +634,10 @@
           },
           "labels": [
             {
-              "text": "● Live 15:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -645,15 +652,7 @@
                     {
                       "id": "luongson-1df0aa3391a4",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6abd66cf3",
-                          "name": "BLV V.TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
