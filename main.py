@@ -172,7 +172,7 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# LƯỚI QUÉT TRỰC TIẾP (CÀN QUÉT MỌI BLV)
+# LƯỚI QUÉT TRỰC TIẾP (CÀN QUÉT MỌI BLV - BẢN TĂNG TỐC)
 # =========================================================
 def capture_stream(page, match_url, global_seen_streams):
     found_urls = set()
@@ -190,7 +190,7 @@ def capture_stream(page, match_url, global_seen_streams):
 
     page.on("response", handle_response)
     
-    # 💡 Hàm con: Rút link từ dữ liệu JS/Iframe hiện tại
+    # Hàm con: Rút link từ dữ liệu JS/Iframe hiện tại
     def extract_current_dom():
         try:
             api_data = page.evaluate("window.__apiData || []")
@@ -221,33 +221,36 @@ def capture_stream(page, match_url, global_seen_streams):
         except: pass
 
         # 1. Quét luồng mặc định
-        deadline = time.time() + 6.0
+        deadline = time.time() + 5.0 # 💡 Giảm thời gian chờ luồng chính
         while time.time() < deadline:
             extract_current_dom()
             if found_urls: break
             time.sleep(0.5)
             
-        time.sleep(1) # Chờ cho dứt điểm luồng 1
         extract_current_dom()
 
-        # 2. 💡 CHIẾN DỊCH CÀN QUÉT CÁC BLV KHÁC
+        # 2. 💡 CHIẾN DỊCH CÀN QUÉT CÁC BLV KHÁC (ĐÃ TỐI ƯU)
         try:
-            # Lấy số lượng nút chuyển BLV trên web
-            blv_count = page.evaluate("""() => {
-                return Array.from(document.querySelectorAll('a[href*="blv="]')).length;
+            # Lấy danh sách link BLV duy nhất (Lọc bỏ nút bị trùng giữa Mobile/PC)
+            blv_hrefs = page.evaluate("""() => {
+                let links = Array.from(document.querySelectorAll('a[href*="blv="]')).map(a => a.href);
+                return [...new Set(links)]; // Lọc trùng lặp
             }""")
             
-            if blv_count > 0:
-                print(f"      > Phát hiện {blv_count} tùy chọn BLV. Đang tiến hành bóc tách...")
-                for i in range(blv_count):
+            # 💡 Giới hạn tối đa 6 BLV để tránh làm chậm tool
+            blv_hrefs = blv_hrefs[:6]
+            
+            if len(blv_hrefs) > 0:
+                print(f"      > Phát hiện {len(blv_hrefs)} BLV. Đang càn quét siêu tốc...")
+                for href in blv_hrefs:
                     try:
-                        # Dùng JS click thẳng vào từng nút một
-                        page.evaluate(f"""(idx) => {{
-                            let btns = Array.from(document.querySelectorAll('a[href*="blv="]'));
-                            if (btns[idx]) btns[idx].click();
-                        }}""", i)
-                        page.wait_for_timeout(1500) # Đợi API trả về luồng mới
-                        extract_current_dom()       # Hứng luồng
+                        # Click chính xác vào href duy nhất
+                        page.evaluate(f"""(h) => {{
+                            let btn = document.querySelector(`a[href="${{h}}"]`);
+                            if(btn) btn.click();
+                        }}""", href)
+                        page.wait_for_timeout(1000) # 💡 Giảm xuống 1s là đủ cho API nhả link
+                        extract_current_dom()
                     except: pass
         except Exception as e:
             print(f"      ⚠️ Lỗi khi dò tìm BLV: {e}")
@@ -284,7 +287,6 @@ def capture_stream(page, match_url, global_seen_streams):
         s.pop("score", None)
         
     return valid_streams
-
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
 # =========================================================
