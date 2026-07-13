@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:01 14/07/2026",
+  "last_updated": "00:11 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,32 +46,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3ddbc752a3",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-5da3976c5f",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-0472335d0f",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-55b7e20261",
+                          "id": "lnk-77497166a0",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-d77068b89f",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-112b6aa725",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-88f1ca0e0b",
+                          "name": "BLV P.HỔ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -100,7 +100,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 4",
+              "text": "● Live 1 : 4",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -120,18 +120,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b12cb72962",
+                          "id": "lnk-b8a8798251",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-4b4ed1fa6d",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-7eb04b1d26",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -180,7 +180,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-aaa7367d44",
+                          "id": "lnk-19ffcb6596",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
@@ -230,51 +230,6 @@
                   "streams": [
                     {
                       "id": "luongson-3b885fb2dc5e",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-dc9e1e37b6a5",
-          "name": "⚽ Gimnasia Lp (W) vs Huracan (W) | The women's league of Argentina | 01:00",
-          "tournament": "The women's league of Argentina",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42166_1grcy3a3tm2q.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24844_1grcy3a3th2f.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/42166_1grcy3a3tm2q.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dc9e1e37b6a5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dc9e1e37b6a5",
-                  "name": "Gimnasia Lp (W) vs Huracan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-dc9e1e37b6a5",
                       "name": "F",
                       "stream_links": []
                     }
@@ -410,6 +365,51 @@
                   "streams": [
                     {
                       "id": "luongson-7004d548da06",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dc9e1e37b6a5",
+          "name": "⚽ Gimnasia Lp (W) vs Huracan (W) | The women's league of Argentina | 01:00",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42166_1grcy3a3tm2q.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24844_1grcy3a3th2f.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/42166_1grcy3a3tm2q.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dc9e1e37b6a5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dc9e1e37b6a5",
+                  "name": "Gimnasia Lp (W) vs Huracan (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-dc9e1e37b6a5",
                       "name": "F",
                       "stream_links": []
                     }
