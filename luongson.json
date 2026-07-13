@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:51 13/07/2026",
+  "last_updated": "00:01 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-3b885fb2dc5e",
-          "name": "⚽ Arsenal Tula vs Tekstilshchik Ivanovo | Russian National Football League | Không rõ",
-          "tournament": "Russian National Football League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17475_165095553317.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4557_1gzq931ga81y.png?v=2.4.3",
+          "id": "luongson-d974c9a341a8",
+          "name": "⚽ Djurgardens vs Halmstads | Swedish Allsvenskan | Không rõ",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/388_1grmna9rvh24.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17475_165095553317.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,37 +34,44 @@
           ],
           "sources": [
             {
-              "id": "luongson-3b885fb2dc5e",
+              "id": "luongson-d974c9a341a8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3b885fb2dc5e",
-                  "name": "Arsenal Tula vs Tekstilshchik Ivanovo",
+                  "id": "luongson-d974c9a341a8",
+                  "name": "Djurgardens vs Halmstads",
                   "streams": [
                     {
-                      "id": "luongson-3b885fb2dc5e",
+                      "id": "luongson-d974c9a341a8",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-db8ffb9c18",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-3ddbc752a3",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-94fbb6029a",
-                          "name": "BLV P.HỔ",
+                          "id": "lnk-0472335d0f",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-c32081dd6f",
+                          "id": "lnk-55b7e20261",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-112b6aa725",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -113,18 +120,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6498f4a3a2",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-b12cb72962",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-a3b674c6b4",
-                          "name": "BLV L.HẠC",
+                          "id": "lnk-4b4ed1fa6d",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -136,7 +143,7 @@
         },
         {
           "id": "luongson-3a0e32e330bd",
-          "name": "⚽ Ferro Carril Oeste (W) vs Boca Juniors (W) | The women's league of Argentina | 00:00",
+          "name": "⚽ Ferro Carril Oeste (W) vs Boca Juniors (W) | The women's league of Argentina | Không rõ",
           "tournament": "The women's league of Argentina",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/47686_1grfkrkrvn2g.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/14160_1grfkrkrc610.png?v=2.4.3",
@@ -153,7 +160,7 @@
           },
           "labels": [
             {
-              "text": "● Live 00:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -173,11 +180,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6faa6f925e",
-                          "name": "BLV L.BỐ",
+                          "id": "lnk-aaa7367d44",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -188,11 +195,11 @@
           ]
         },
         {
-          "id": "luongson-d974c9a341a8",
-          "name": "⚽ Djurgardens vs Halmstads | Swedish Allsvenskan | 00:00",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/388_1grmna9rvh24.png?v=2.4.3",
+          "id": "luongson-3b885fb2dc5e",
+          "name": "⚽ Arsenal Tula vs Tekstilshchik Ivanovo | Russian National Football League | Không rõ",
+          "tournament": "Russian National Football League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17475_165095553317.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4557_1gzq931ga81y.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -200,39 +207,76 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/17475_165095553317.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 00:00",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
             {
-              "id": "luongson-d974c9a341a8",
+              "id": "luongson-3b885fb2dc5e",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d974c9a341a8",
-                  "name": "Djurgardens vs Halmstads",
+                  "id": "luongson-3b885fb2dc5e",
+                  "name": "Arsenal Tula vs Tekstilshchik Ivanovo",
                   "streams": [
                     {
-                      "id": "luongson-d974c9a341a8",
+                      "id": "luongson-3b885fb2dc5e",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2810ad0a9",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dc9e1e37b6a5",
+          "name": "⚽ Gimnasia Lp (W) vs Huracan (W) | The women's league of Argentina | 01:00",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42166_1grcy3a3tm2q.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24844_1grcy3a3th2f.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/42166_1grcy3a3tm2q.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dc9e1e37b6a5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dc9e1e37b6a5",
+                  "name": "Gimnasia Lp (W) vs Huracan (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-dc9e1e37b6a5",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
@@ -366,51 +410,6 @@
                   "streams": [
                     {
                       "id": "luongson-7004d548da06",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-dc9e1e37b6a5",
-          "name": "⚽ Gimnasia Lp (W) vs Huracan (W) | The women's league of Argentina | 01:00",
-          "tournament": "The women's league of Argentina",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42166_1grcy3a3tm2q.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24844_1grcy3a3th2f.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/42166_1grcy3a3tm2q.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dc9e1e37b6a5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dc9e1e37b6a5",
-                  "name": "Gimnasia Lp (W) vs Huracan (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-dc9e1e37b6a5",
                       "name": "F",
                       "stream_links": []
                     }
