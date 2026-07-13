@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:51 13/07/2026",
+  "last_updated": "21:01 13/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,32 +46,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-74ec4ee462",
-                          "name": "Mặc định",
+                          "id": "lnk-bf362d5447",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-057622121c",
+                          "id": "lnk-bc27e865aa",
                           "name": "BLV V.TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-128c00a24b",
-                          "name": "BLV FERNANDO",
+                          "id": "lnk-b3cdba1f66",
+                          "name": "BLV M.SIÊU",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-6ff5d88cd7",
-                          "name": "BLV K.KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -100,7 +93,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live HT 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -120,11 +113,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-28885a9e43",
-                          "name": "BLV Y.THANH",
+                          "id": "lnk-e52bae087b",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-b98de1a793",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -135,11 +135,11 @@
           ]
         },
         {
-          "id": "luongson-38102caf87be",
-          "name": "⚽ Ural Sverdlovsk Oblast vs Torpedo Moscow | Russian National Football League | 21:00",
+          "id": "luongson-3a9ce9f1058c",
+          "name": "⚽ Chelyabinsk vs Ska Khabarovsk | Russian National Football League | Không rõ",
           "tournament": "Russian National Football League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2046_165095556739.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/267_1h5bjf6tw33.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9414_1jqjejaavr21.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2074_1gqvwshxs72e.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -147,31 +147,39 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2046_165095556739.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/9414_1jqjejaavr21.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-38102caf87be",
+              "id": "luongson-3a9ce9f1058c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-38102caf87be",
-                  "name": "Ural Sverdlovsk Oblast vs Torpedo Moscow",
+                  "id": "luongson-3a9ce9f1058c",
+                  "name": "Chelyabinsk vs Ska Khabarovsk",
                   "streams": [
                     {
-                      "id": "luongson-38102caf87be",
+                      "id": "luongson-3a9ce9f1058c",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a033203a0",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -218,18 +226,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9bea52dc23",
+                          "id": "lnk-cfe417be0d",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-ae0fd68b40",
-                          "name": "BLV LÝ QUỲ",
+                          "id": "lnk-84272b8f5e",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -240,11 +248,11 @@
           ]
         },
         {
-          "id": "luongson-3a9ce9f1058c",
-          "name": "⚽ Chelyabinsk vs Ska Khabarovsk | Russian National Football League | 21:00",
+          "id": "luongson-38102caf87be",
+          "name": "⚽ Ural Sverdlovsk Oblast vs Torpedo Moscow | Russian National Football League | 21:00",
           "tournament": "Russian National Football League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/9414_1jqjejaavr21.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2074_1gqvwshxs72e.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2046_165095556739.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/267_1h5bjf6tw33.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -252,7 +260,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/9414_1jqjejaavr21.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/2046_165095556739.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -266,37 +274,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-3a9ce9f1058c",
+              "id": "luongson-38102caf87be",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3a9ce9f1058c",
-                  "name": "Chelyabinsk vs Ska Khabarovsk",
+                  "id": "luongson-38102caf87be",
+                  "name": "Ural Sverdlovsk Oblast vs Torpedo Moscow",
                   "streams": [
                     {
-                      "id": "luongson-3a9ce9f1058c",
+                      "id": "luongson-38102caf87be",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-60e39ad9c9",
+                          "id": "lnk-4390083296",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-bd07a772b9",
-                          "name": "BLV MÃ SIÊU",
+                          "id": "lnk-36fb5a7708",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-62329cfc18",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -397,51 +398,6 @@
           ]
         },
         {
-          "id": "luongson-d974c9a341a8",
-          "name": "⚽ Djurgardens vs Halmstads | Swedish Allsvenskan | 00:00",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/388_1grmna9rvh24.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d974c9a341a8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d974c9a341a8",
-                  "name": "Djurgardens vs Halmstads",
-                  "streams": [
-                    {
-                      "id": "luongson-d974c9a341a8",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-3a0e32e330bd",
           "name": "⚽ Ferro Carril Oeste (W) vs Boca Juniors (W) | The women's league of Argentina | 00:00",
           "tournament": "The women's league of Argentina",
@@ -477,6 +433,51 @@
                   "streams": [
                     {
                       "id": "luongson-3a0e32e330bd",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d974c9a341a8",
+          "name": "⚽ Djurgardens vs Halmstads | Swedish Allsvenskan | 00:00",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/388_1grmna9rvh24.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d974c9a341a8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d974c9a341a8",
+                  "name": "Djurgardens vs Halmstads",
+                  "streams": [
+                    {
+                      "id": "luongson-d974c9a341a8",
                       "name": "F",
                       "stream_links": []
                     }
