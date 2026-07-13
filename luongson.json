@@ -1,79 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:01 13/07/2026",
+  "last_updated": "20:11 13/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-96edecdbe3d1",
-          "name": "⚽ Al Abbasieh Fc vs Racing Beirut | Lebanese Premier League | Không rõ",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-96edecdbe3d1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-96edecdbe3d1",
-                  "name": "Al Abbasieh Fc vs Racing Beirut",
-                  "streams": [
-                    {
-                      "id": "luongson-96edecdbe3d1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e5e62ab48",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-2d84ff38b0",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-94f2a82314",
-                          "name": "BLV P.HỔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-116699625b97",
           "name": "⚽ Singapore (W) vs Laos (W) | Women’s ASEAN Football Championship | Không rõ",
@@ -93,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -110,6 +43,73 @@
                   "streams": [
                     {
                       "id": "luongson-116699625b97",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6c263b37a",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-0d9069bbee",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-f001fad56a",
+                          "name": "BLV V.TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-96edecdbe3d1",
+          "name": "⚽ Al Abbasieh Fc vs Racing Beirut | Lebanese Premier League | Không rõ",
+          "tournament": "Lebanese Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-96edecdbe3d1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-96edecdbe3d1",
+                  "name": "Al Abbasieh Fc vs Racing Beirut",
+                  "streams": [
+                    {
+                      "id": "luongson-96edecdbe3d1",
                       "name": "F",
                       "stream_links": []
                     }
