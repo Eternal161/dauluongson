@@ -1,12 +1,86 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:41 14/07/2026",
+  "last_updated": "01:51 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-3a0e32e330bd",
+          "name": "⚽ Ferro Carril Oeste (W) vs Boca Juniors (W) | The women's league of Argentina | Không rõ",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47686_1grfkrkrvn2g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/14160_1grfkrkrc610.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/47686_1grfkrkrvn2g.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 3 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3a0e32e330bd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3a0e32e330bd",
+                  "name": "Ferro Carril Oeste (W) vs Boca Juniors (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-3a0e32e330bd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b3e60b6d8",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-19b2854737",
+                          "name": "BLV L.QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-415036f1ee",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-f116a99bbb",
+                          "name": "BLV L.BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-d974c9a341a8",
           "name": "⚽ Djurgardens vs Halmstads | Swedish Allsvenskan | Không rõ",
@@ -46,32 +120,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2cf138fb90",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-042d9c7381",
+                          "name": "BLV V.LUÂN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-d027b218f1",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-fb4426b163",
-                          "name": "BLV T.THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-20d6f060ec",
-                          "name": "BLV L.ỨNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -100,7 +153,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -120,118 +173,20 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b13bf9cb74",
-                          "name": "BLV L.HẠC",
+                          "id": "lnk-bc981b3a14",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-7703644901",
-                          "name": "BLV L.QUỲ",
+                          "id": "lnk-aac02fcebe",
+                          "name": "BLV L.ỨNG",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3a0e32e330bd",
-          "name": "⚽ Ferro Carril Oeste (W) vs Boca Juniors (W) | The women's league of Argentina | Không rõ",
-          "tournament": "The women's league of Argentina",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47686_1grfkrkrvn2g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/14160_1grfkrkrc610.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47686_1grfkrkrvn2g.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3a0e32e330bd",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3a0e32e330bd",
-                  "name": "Ferro Carril Oeste (W) vs Boca Juniors (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-3a0e32e330bd",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e8ee284f",
-                          "name": "BLV V.LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d344f179aac3",
-          "name": "⚽ Banfield (W) vs Belgrano (W) | The women's league of Argentina | Không rõ",
-          "tournament": "The women's league of Argentina",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56020_1gtwwr8e0c1m.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d344f179aac3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d344f179aac3",
-                  "name": "Banfield (W) vs Belgrano (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-d344f179aac3",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -275,6 +230,51 @@
                   "streams": [
                     {
                       "id": "luongson-957714539165",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d344f179aac3",
+          "name": "⚽ Banfield (W) vs Belgrano (W) | The women's league of Argentina | Không rõ",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56020_1gtwwr8e0c1m.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d344f179aac3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d344f179aac3",
+                  "name": "Banfield (W) vs Belgrano (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-d344f179aac3",
                       "name": "F",
                       "stream_links": []
                     }
