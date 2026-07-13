@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:21 14/07/2026",
+  "last_updated": "02:31 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-a82f29383365",
-          "name": "⚽ Breidablik vs Keflavik | Iceland Premier Division | Không rõ",
-          "tournament": "Iceland Premier Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3422_165363440831.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1400_165363445085.png?v=2.4.3",
+          "id": "luongson-d344f179aac3",
+          "name": "⚽ Banfield (W) vs Belgrano (W) | The women's league of Argentina | Không rõ",
+          "tournament": "The women's league of Argentina",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56020_1gtwwr8e0c1m.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3422_165363440831.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,40 +34,33 @@
           ],
           "sources": [
             {
-              "id": "luongson-a82f29383365",
+              "id": "luongson-d344f179aac3",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a82f29383365",
-                  "name": "Breidablik vs Keflavik",
+                  "id": "luongson-d344f179aac3",
+                  "name": "Banfield (W) vs Belgrano (W)",
                   "streams": [
                     {
-                      "id": "luongson-a82f29383365",
+                      "id": "luongson-d344f179aac3",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-50401efd3d",
-                          "name": "Mặc định",
+                          "id": "lnk-975b51befe",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-1a3e842796",
-                          "name": "BLV T.THÁO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-bab86aefbb",
-                          "name": "BLV V.LUÂN",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         },
                         {
-                          "id": "lnk-3dbabb3891",
+                          "id": "lnk-e37e01bf6d",
+                          "name": "BLV N.THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-82e2abd002",
                           "name": "BLV L.ỨNG",
                           "type": "hls",
                           "default": false,
@@ -100,10 +93,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -118,7 +111,15 @@
                     {
                       "id": "luongson-dc9e1e37b6a5",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e03aa1e183",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -172,11 +173,11 @@
           ]
         },
         {
-          "id": "luongson-d344f179aac3",
-          "name": "⚽ Banfield (W) vs Belgrano (W) | The women's league of Argentina | Không rõ",
-          "tournament": "The women's league of Argentina",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/56020_1gtwwr8e0c1m.png?v=2.4.3",
+          "id": "luongson-a82f29383365",
+          "name": "⚽ Breidablik vs Keflavik | Iceland Premier Division | Không rõ",
+          "tournament": "Iceland Premier Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3422_165363440831.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1400_165363445085.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -184,7 +185,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47705_1grcy3a3tj1s.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/3422_165363440831.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -198,15 +199,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-d344f179aac3",
+              "id": "luongson-a82f29383365",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d344f179aac3",
-                  "name": "Banfield (W) vs Belgrano (W)",
+                  "id": "luongson-a82f29383365",
+                  "name": "Breidablik vs Keflavik",
                   "streams": [
                     {
-                      "id": "luongson-d344f179aac3",
+                      "id": "luongson-a82f29383365",
                       "name": "F",
                       "stream_links": []
                     }
