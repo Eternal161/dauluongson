@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "03:51 14/07/2026",
+  "last_updated": "04:01 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 1",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,8 +46,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d3e4c1b3ae",
-                          "name": "Mặc định",
+                          "id": "lnk-fccffe3033",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
@@ -511,6 +511,51 @@
           ]
         },
         {
+          "id": "luongson-606ffaab6950",
+          "name": "⚽ Dalian Football School(W) vs Shanghai Jiading Huilong B W | China League Women | 13:00",
+          "tournament": "China League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61797_1k28xd5f3613.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/70439_1k5jdzkfjd1x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61797_1k28xd5f3613.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-606ffaab6950",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-606ffaab6950",
+                  "name": "Dalian Football School(W) vs Shanghai Jiading Huilong B W",
+                  "streams": [
+                    {
+                      "id": "luongson-606ffaab6950",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-7cba73f2cb46",
           "name": "⚽ Shanghai Shenhua W vs Henan (W) | China League Women | 13:00",
           "tournament": "China League Women",
@@ -591,51 +636,6 @@
                   "streams": [
                     {
                       "id": "luongson-c1a891af41ff",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-606ffaab6950",
-          "name": "⚽ Dalian Football School(W) vs Shanghai Jiading Huilong B W | China League Women | 13:00",
-          "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61797_1k28xd5f3613.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/70439_1k5jdzkfjd1x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61797_1k28xd5f3613.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-606ffaab6950",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-606ffaab6950",
-                  "name": "Dalian Football School(W) vs Shanghai Jiading Huilong B W",
-                  "streams": [
-                    {
-                      "id": "luongson-606ffaab6950",
                       "name": "F",
                       "stream_links": []
                     }
