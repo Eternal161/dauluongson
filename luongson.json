@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:41 13/07/2026",
+  "last_updated": "19:51 13/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,32 +46,39 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-14c57cf25d",
+                          "id": "lnk-1abd3c5d22",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-d27beed2a3",
+                          "id": "lnk-7c71675a63",
+                          "name": "BLV Y.THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-ac873fbfbd",
                           "name": "BLV L.BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-fa5135971c",
+                          "id": "lnk-9d1451a566",
                           "name": "BLV T.THÁO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-a959834b39",
-                          "name": "BLV Y.THANH",
+                          "id": "lnk-0230b720b5",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -100,10 +107,10 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -118,15 +125,7 @@
                     {
                       "id": "luongson-1ede570c2baa",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2088854c0b",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -173,8 +172,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8916bf6df0",
-                          "name": "Mặc định",
+                          "id": "lnk-ec5e7fbbfa",
+                          "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
