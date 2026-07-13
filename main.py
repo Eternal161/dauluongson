@@ -25,7 +25,7 @@ def apply_stealth(page):
     except: pass
 
 # =========================================================
-# CONFIG LƯƠNG SƠN TV MỚI NHẤT
+# CONFIG LƯƠNG SƠN TV
 # =========================================================
 TARGET_SITE   = "https://luongsontv60sv.com/"
 BASE_URL      = "https://luongsontv60sv.com"
@@ -172,16 +172,19 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# LƯỚI QUÉT TRỰC TIẾP GOTO (KHÔNG SỢ LỖI CONTEXT)
+# LƯỚI QUÉT TRỰC TIẾP
 # =========================================================
 def capture_stream(page, match_url, global_seen_streams):
     found_urls = set()
+    
+    # 💡 DANH SÁCH ĐEN: Đã thêm 'tvc' để diệt gọn Playlist quảng cáo
+    BAD_KEYWORDS = ["quangcao", "tvc", ".ts"]
     
     def handle_response(response):
         try:
             u = response.url
             u_lower = u.lower()
-            if (".m3u8" in u_lower or ".flv" in u_lower) and "quangcao" not in u_lower and ".ts" not in u_lower:
+            if (".m3u8" in u_lower or ".flv" in u_lower) and not any(bad in u_lower for bad in BAD_KEYWORDS):
                 if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
                     u = u.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
                 found_urls.add(u)
@@ -190,10 +193,7 @@ def capture_stream(page, match_url, global_seen_streams):
     page.on("response", handle_response)
     
     try:
-        # 💡 WEB KHÔNG CHẶN -> TRUY CẬP TRỰC TIẾP LUÔN! XÓA BỎ LỖI CONTEXT!
         page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
-        
-        # Click vào giữa màn hình mồi cho video tự chạy
         page.wait_for_timeout(2000)
         try:
             vp = page.viewport_size
@@ -202,7 +202,6 @@ def capture_stream(page, match_url, global_seen_streams):
 
         deadline = time.time() + 8.0
         while time.time() < deadline:
-            # 1. Quét kho JS Inject (Nơi giấu m3u8 của Lương Sơn)
             try:
                 api_data = page.evaluate("window.__apiData || []")
                 for item in api_data:
@@ -210,23 +209,22 @@ def capture_stream(page, match_url, global_seen_streams):
                     matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.(?:m3u8|flv)[^"\'\s<>]*', text)
                     for m in matches:
                         clean_link = m.replace('\\/', '/')
-                        if "quangcao" not in clean_link.lower():
+                        if not any(bad in clean_link.lower() for bad in BAD_KEYWORDS):
                             if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
                                 clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
                             found_urls.add(clean_link)
             except: pass
             
-            # 2. Check Iframe fallback (Dự phòng Lương Sơn gắn Iframe ngoài)
             for frame in page.frames:
                 try:
                     f_url = frame.url
                     f_lower = f_url.lower()
-                    if (".m3u8" in f_lower or ".flv" in f_lower) and "quangcao" not in f_lower:
+                    if (".m3u8" in f_lower or ".flv" in f_lower) and not any(bad in f_lower for bad in BAD_KEYWORDS):
                         found_urls.add(f_url)
                 except: pass
             
             if found_urls:
-                time.sleep(1) # Chờ rụng thêm link
+                time.sleep(1) 
                 break
                 
             time.sleep(0.5)
@@ -237,24 +235,37 @@ def capture_stream(page, match_url, global_seen_streams):
         try: page.remove_listener("response", handle_response)
         except: pass
         
-    # Lọc unique và global seen
     valid_streams = []
-    idx = 1
+    
     for u in found_urls:
         if u not in global_seen_streams:
             score = 0
-            if "cdnfaster" in u.lower(): score += 1000
-            if "100ycdn" in u.lower(): score += 500
-            valid_streams.append({"url": u, "score": score})
+            lo = u.lower()
+            if "cdnfaster" in lo: score += 1000
+            if "100ycdn" in lo: score += 500
+            
+            # 💡 BÓC TÊN BLV TỪ LINK
+            blv_name = "Mặc định"
+            # Tìm chuỗi nằm giữa "/live/" và dấu "/" hoặc "?" tiếp theo
+            match_blv = re.search(r'/live/([^/?#\.]+)', u, re.IGNORECASE)
+            if match_blv:
+                key = match_blv.group(1).upper()
+                if key and key != "PLAYLIST":
+                    blv_name = f"BLV {key}"
+            
+            # Phân loại luồng
+            stream_type = "FLV" if ".flv" in lo else "M3U8"
+            final_name = f"{blv_name} ({stream_type})"
+            
+            valid_streams.append({"name": final_name, "url": u, "score": score})
     
     valid_streams.sort(key=lambda x: x["score"], reverse=True)
     
-    results = []
+    # Dọn dẹp trường score trước khi trả về
     for s in valid_streams:
-        results.append({"name": f"Luồng {idx}", "url": s["url"]})
-        idx += 1
+        s.pop("score", None)
         
-    return results
+    return valid_streams
 
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
@@ -279,10 +290,12 @@ def build_channel(m: dict, stream_data: list) -> dict:
 
     stream_links = []
     for idx, s in enumerate(stream_data):
+        # 💡 Tự động gán Type flv cho App SángTV hiểu
+        app_type = "flv" if "(FLV)" in s["name"] else "hls"
         stream_links.append({
             "id": make_link_id(), 
             "name": s["name"], 
-            "type": "hls", 
+            "type": app_type, 
             "default": idx == 0, 
             "url": s["url"]
         })
@@ -308,7 +321,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Direct Web Không Chặn): {now_str}")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Cập Nhật BLV & Lọc Rác): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
@@ -321,7 +334,6 @@ def scrape_and_push():
         page = context.new_page()
         apply_stealth(page)
 
-        # 💡 GHI ĐÈ FETCH API TRÊN MỌI TRANG (Kể cả khi nhảy goto)
         js_interceptor = r"""
         window.__apiData = [];
         const origFetch = window.fetch;
