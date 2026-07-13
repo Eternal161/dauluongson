@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:01 14/07/2026",
+  "last_updated": "06:11 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-3509c8db683f",
-          "name": "⚽ Cerro Largo vs Defensor Sporting Montevideo | Uruguay Primera Division | Không rõ",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2099_1gpyst1mph8.png?v=2.4.3",
+          "id": "luongson-2b5d5a953ff6",
+          "name": "⚽ America Mg vs Londrina Pr | Brazil Serie B | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1619_1gy3vp9xf810.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live HT 1 : 1",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,44 +34,44 @@
           ],
           "sources": [
             {
-              "id": "luongson-3509c8db683f",
+              "id": "luongson-2b5d5a953ff6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3509c8db683f",
-                  "name": "Cerro Largo vs Defensor Sporting Montevideo",
+                  "id": "luongson-2b5d5a953ff6",
+                  "name": "America Mg vs Londrina Pr",
                   "streams": [
                     {
-                      "id": "luongson-3509c8db683f",
+                      "id": "luongson-2b5d5a953ff6",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9a3c546aaf",
+                          "id": "lnk-21cd7054da",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-8eb7618b04",
-                          "name": "BLV V.TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-9f6fe9fc35",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-a1831ec412",
+                          "id": "lnk-2dfa4f58be",
+                          "name": "BLV L.BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-b80454ce83",
                           "name": "BLV Y.THANH",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-d5397ea5a4",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
@@ -100,10 +100,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -118,7 +118,15 @@
                     {
                       "id": "luongson-096cd14064b2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8f9305f6b",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -127,11 +135,11 @@
           ]
         },
         {
-          "id": "luongson-2b5d5a953ff6",
-          "name": "⚽ America Mg vs Londrina Pr | Brazil Serie B | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1619_1gy3vp9xf810.png?v=2.4.3",
+          "id": "luongson-3509c8db683f",
+          "name": "⚽ Cerro Largo vs Defensor Sporting Montevideo | Uruguay Primera Division | Không rõ",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2099_1gpyst1mph8.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -139,7 +147,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11680_1gxsf3fvqxt.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -153,15 +161,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-2b5d5a953ff6",
+              "id": "luongson-3509c8db683f",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-2b5d5a953ff6",
-                  "name": "America Mg vs Londrina Pr",
+                  "id": "luongson-3509c8db683f",
+                  "name": "Cerro Largo vs Defensor Sporting Montevideo",
                   "streams": [
                     {
-                      "id": "luongson-2b5d5a953ff6",
+                      "id": "luongson-3509c8db683f",
                       "name": "F",
                       "stream_links": []
                     }
