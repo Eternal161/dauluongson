@@ -25,7 +25,7 @@ def apply_stealth(page):
     except: pass
 
 # =========================================================
-# CONFIG LƯƠNG SƠN TV
+# CONFIG LƯƠNG SƠN TV MỚI NHẤT
 # =========================================================
 TARGET_SITE   = "https://luongsontv60sv.com/"
 BASE_URL      = "https://luongsontv60sv.com"
@@ -172,18 +172,16 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# LƯỚI QUÉT SPA + JSON INTERCEPTOR (TỪ SOCOLIVE)
+# LƯỚI QUÉT TRỰC TIẾP GOTO (KHÔNG SỢ LỖI CONTEXT)
 # =========================================================
-def capture_stream_spa(page, url_path, slug, global_seen_streams):
+def capture_stream(page, match_url, global_seen_streams):
     found_urls = set()
-    
-    # Reset bộ nhớ đệm
-    page.evaluate("window.__apiData = [];")
     
     def handle_response(response):
         try:
-            u = response.url.lower()
-            if (".m3u8" in u or ".flv" in u) and "quangcao" not in u and ".ts" not in u:
+            u = response.url
+            u_lower = u.lower()
+            if (".m3u8" in u_lower or ".flv" in u_lower) and "quangcao" not in u_lower and ".ts" not in u_lower:
                 if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
                     u = u.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
                 found_urls.add(u)
@@ -192,41 +190,20 @@ def capture_stream_spa(page, url_path, slug, global_seen_streams):
     page.on("response", handle_response)
     
     try:
-        # Click chuyển trang Ảo bằng Nuxt Router
-        page.evaluate(f'''([path, matchSlug]) => {{
-            let link = document.querySelector(`a[href*="${{matchSlug}}"]`) || document.querySelector(`a[href="${{path}}"]`);
-            if (link) link.click();
-            else if (window.$nuxt && window.$nuxt.$router) window.$nuxt.$router.push(path);
-            else window.location.href = path;
-        }}''', [url_path, slug])
+        # 💡 WEB KHÔNG CHẶN -> TRUY CẬP TRỰC TIẾP LUÔN! XÓA BỎ LỖI CONTEXT!
+        page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
         
+        # Click vào giữa màn hình mồi cho video tự chạy
+        page.wait_for_timeout(2000)
+        try:
+            vp = page.viewport_size
+            if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
+        except: pass
+
         deadline = time.time() + 8.0
         while time.time() < deadline:
             # 1. Quét kho JS Inject (Nơi giấu m3u8 của Lương Sơn)
-            api_data = page.evaluate("window.__apiData || []")
-            for item in api_data:
-                text = item.get("text", "")
-                
-                # Bóc m3u8/flv chìm trong JSON
-                matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.(?:m3u8|flv)[^"\'\s<>]*', text)
-                for m in matches:
-                    clean_link = m.replace('\\/', '/')
-                    if "quangcao" not in clean_link.lower():
-                        if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
-                            clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-                        found_urls.add(clean_link)
-                        
-            # 2. Check Iframe fallback (Dự phòng Lương Sơn gắn Iframe ngoài)
-            for frame in page.frames:
-                try:
-                    f_url = frame.url.lower()
-                    if (".m3u8" in f_url or ".flv" in f_url) and "quangcao" not in f_url:
-                        found_urls.add(frame.url)
-                except: pass
-            
-            if found_urls:
-                # Đợi thêm 1s để API nôn hết các luồng phụ ra
-                time.sleep(1)
+            try:
                 api_data = page.evaluate("window.__apiData || []")
                 for item in api_data:
                     text = item.get("text", "")
@@ -234,13 +211,28 @@ def capture_stream_spa(page, url_path, slug, global_seen_streams):
                     for m in matches:
                         clean_link = m.replace('\\/', '/')
                         if "quangcao" not in clean_link.lower():
+                            if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
+                                clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
                             found_urls.add(clean_link)
+            except: pass
+            
+            # 2. Check Iframe fallback (Dự phòng Lương Sơn gắn Iframe ngoài)
+            for frame in page.frames:
+                try:
+                    f_url = frame.url
+                    f_lower = f_url.lower()
+                    if (".m3u8" in f_lower or ".flv" in f_lower) and "quangcao" not in f_lower:
+                        found_urls.add(f_url)
+                except: pass
+            
+            if found_urls:
+                time.sleep(1) # Chờ rụng thêm link
                 break
                 
             time.sleep(0.5)
             
     except Exception as e:
-        print(f"      ⚠️ Lỗi chuyển trang ảo: {e}")
+        print(f"      ⚠️ Lỗi khi mở phòng Live: {e}")
     finally:
         try: page.remove_listener("response", handle_response)
         except: pass
@@ -250,7 +242,6 @@ def capture_stream_spa(page, url_path, slug, global_seen_streams):
     idx = 1
     for u in found_urls:
         if u not in global_seen_streams:
-            # Ưu tiên các server mượt của Lương Sơn
             score = 0
             if "cdnfaster" in u.lower(): score += 1000
             if "100ycdn" in u.lower(): score += 500
@@ -317,7 +308,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Cấy Ghép Socolive): {now_str}")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Direct Web Không Chặn): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
@@ -330,7 +321,7 @@ def scrape_and_push():
         page = context.new_page()
         apply_stealth(page)
 
-        # 💡 TIÊM MÃ ĐỘC (Y hệt Socolive) để tóm cổ JSON trước khi trình duyệt mã hóa
+        # 💡 GHI ĐÈ FETCH API TRÊN MỌI TRANG (Kể cả khi nhảy goto)
         js_interceptor = r"""
         window.__apiData = [];
         const origFetch = window.fetch;
@@ -404,28 +395,12 @@ def scrape_and_push():
 
         for idx, m in enumerate(raw_matches, 1):
             
-            # An toàn: Đảm bảo Bot đang đứng ở Trang Chủ, nếu bị rớt trang thì quay về
-            if TARGET_SITE not in page.url:
-                page.goto(TARGET_SITE, wait_until="domcontentloaded")
-                page.wait_for_timeout(1500)
-            elif len(page.url) > len(TARGET_SITE) + 5:
-                try: 
-                    page.evaluate("window.history.back()")
-                    page.wait_for_timeout(1000)
-                except: 
-                    page.goto(TARGET_SITE, wait_until="domcontentloaded")
-                    page.wait_for_timeout(1500)
-            
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
             print(f"[{idx}/{len(raw_matches)}] {m['home']} vs {m['away']} ({m['timeStr']})")
             
-            slug = m["href"].rstrip("/").split("/")[-1]
-            url_path = m["href"].replace(BASE_URL, "") if m["href"].startswith("http") else m["href"]
-            if not url_path.startswith('/'): url_path = '/' + url_path
-            
             m["streams"] = []
             if m.get("isLiveUI") or any(char.isdigit() for char in m["timeStr"]):
-                m["streams"] = capture_stream_spa(page, url_path, slug, global_seen_streams)
+                m["streams"] = capture_stream(page, m["href"], global_seen_streams)
                 
                 if m["streams"]:
                     print(f"      ✅ Tóm được {len(m['streams'])} link!")
@@ -433,12 +408,6 @@ def scrape_and_push():
                         global_seen_streams.add(s["url"])
                 else:
                     print("      ❌ Không có link.")
-            
-            # Cào xong lùi lại trang chủ nhẹ nhàng
-            try: 
-                page.evaluate("window.history.back()")
-                page.wait_for_timeout(1000)
-            except: pass
             
             m["homeLogo"] = get_final_logo(m["home"], m.get("homeLogo"))
             m["awayLogo"] = get_final_logo(m["away"], m.get("awayLogo"))
