@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:31 14/07/2026",
+  "last_updated": "05:41 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-3509c8db683f",
-          "name": "⚽ Cerro Largo vs Defensor Sporting Montevideo | Uruguay Primera Division | Không rõ",
-          "tournament": "Uruguay Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2099_1gpyst1mph8.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3509c8db683f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3509c8db683f",
-                  "name": "Cerro Largo vs Defensor Sporting Montevideo",
-                  "streams": [
-                    {
-                      "id": "luongson-3509c8db683f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-34a5b121f3",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-bc3eca4397",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-2b5d5a953ff6",
           "name": "⚽ America Mg vs Londrina Pr | Brazil Serie B | Không rõ",
@@ -106,11 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4ef1089bd9",
-                          "name": "BLV V.TÒNG",
+                          "id": "lnk-32ff55150f",
+                          "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-4a8ae00a5d",
+                          "name": "BLV L.BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -139,10 +86,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -157,7 +104,68 @@
                     {
                       "id": "luongson-096cd14064b2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-123c0bacff",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3509c8db683f",
+          "name": "⚽ Cerro Largo vs Defensor Sporting Montevideo | Uruguay Primera Division | Không rõ",
+          "tournament": "Uruguay Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2099_1gpyst1mph8.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/7566_1hrb7wwkee31.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3509c8db683f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3509c8db683f",
+                  "name": "Cerro Largo vs Defensor Sporting Montevideo",
+                  "streams": [
+                    {
+                      "id": "luongson-3509c8db683f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eb5bcb87b4",
+                          "name": "BLV Y.THANH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
                     }
                   ]
                 }
