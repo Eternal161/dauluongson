@@ -1,86 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:31 13/07/2026",
+  "last_updated": "20:41 13/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-96edecdbe3d1",
-          "name": "⚽ Al Abbasieh Fc vs Racing Beirut | Lebanese Premier League | Không rõ",
-          "tournament": "Lebanese Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-96edecdbe3d1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-96edecdbe3d1",
-                  "name": "Al Abbasieh Fc vs Racing Beirut",
-                  "streams": [
-                    {
-                      "id": "luongson-96edecdbe3d1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4c94b860c",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-f56c7bcd4e",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
-                        },
-                        {
-                          "id": "lnk-1508fef164",
-                          "name": "BLV P.HỔ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-6e694a136b",
-                          "name": "BLV Y.THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-116699625b97",
           "name": "⚽ Singapore (W) vs Laos (W) | Women’s ASEAN Football Championship | Không rõ",
@@ -100,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -118,7 +44,82 @@
                     {
                       "id": "luongson-116699625b97",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2168c73816",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-54d396650d",
+                          "name": "BLV V.TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-830c2d7b64",
+                          "name": "BLV K.KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-96edecdbe3d1",
+          "name": "⚽ Al Abbasieh Fc vs Racing Beirut | Lebanese Premier League | Không rõ",
+          "tournament": "Lebanese Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3097_1gqxrjx39mt.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64256_1jndcqbzea1v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-96edecdbe3d1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-96edecdbe3d1",
+                  "name": "Al Abbasieh Fc vs Racing Beirut",
+                  "streams": [
+                    {
+                      "id": "luongson-96edecdbe3d1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b982da905f",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -165,11 +166,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6e9e98595f",
-                          "name": "BLV KAKA",
+                          "id": "lnk-49c9e8e305",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -218,8 +219,8 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6d5949efb4",
-                          "name": "Mặc định",
+                          "id": "lnk-e608697159",
+                          "name": "BLV V.TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
@@ -271,18 +272,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-bf222169a8",
+                          "id": "lnk-a34a57424a",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         },
                         {
-                          "id": "lnk-0c4ac90c50",
+                          "id": "lnk-6c2bc0c01e",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-b18baed13d",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         }
                       ]
                     }
