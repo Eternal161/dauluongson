@@ -74,9 +74,6 @@ def get_final_logo(team_name: str, site_logo: str) -> str:
     initials = requests.utils.quote(team_name[:2] if len(team_name) >= 2 else "FC")
     return f"https://ui-avatars.com/api/?name={initials}&size=200&background=1565C0&color=ffffff&bold=true"
 
-# =========================================================
-# XỬ LÝ THỜI GIAN
-# =========================================================
 def parse_time_from_url(url: str) -> str:
     try:
         slug = url.rstrip('/').split('/')[-1]
@@ -172,89 +169,107 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# LƯỚI QUÉT TRỰC TIẾP (CÀN QUÉT MỌI BLV - BẢN TĂNG TỐC)
+# LƯỚI QUÉT SIÊU TỐC (CHỈ LẤY M3U8 + TIẾNG VIỆT CHUẨN)
 # =========================================================
 def capture_stream(page, match_url, global_seen_streams):
-    found_urls = set()
+    stream_dict = {} # url -> tên BLV
+    state = {"current_blv": "Mặc định"}
     BAD_KEYWORDS = ["quangcao", "tvc", ".ts"]
     
-    def handle_response(response):
-        try:
-            u = response.url
-            u_lower = u.lower()
-            if (".m3u8" in u_lower or ".flv" in u_lower) and not any(bad in u_lower for bad in BAD_KEYWORDS):
-                if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
-                    u = u.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-                found_urls.add(u)
-        except: pass
+    # 💡 Lọc thẳng tay, CHỈ giữ lại M3U8
+    def is_valid_m3u8(url_check):
+        u = url_check.lower()
+        return ".m3u8" in u and not any(bad in u for bad in BAD_KEYWORDS)
 
-    page.on("response", handle_response)
-    
-    # Hàm con: Rút link từ dữ liệu JS/Iframe hiện tại
-    def extract_current_dom():
+    def extract_current_dom(blv_name):
         try:
             api_data = page.evaluate("window.__apiData || []")
             for item in api_data:
                 text = item.get("text", "")
-                matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.(?:m3u8|flv)[^"\'\s<>]*', text)
+                matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.m3u8[^"\'\s<>]*', text)
                 for m in matches:
                     clean_link = m.replace('\\/', '/')
-                    if not any(bad in clean_link.lower() for bad in BAD_KEYWORDS):
+                    if is_valid_m3u8(clean_link):
                         if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
                             clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-                        found_urls.add(clean_link)
+                        if clean_link not in stream_dict:
+                            stream_dict[clean_link] = blv_name
         except: pass
         for frame in page.frames:
             try:
-                f_url = frame.url
-                f_lower = f_url.lower()
-                if (".m3u8" in f_lower or ".flv" in f_lower) and not any(bad in f_lower for bad in BAD_KEYWORDS):
-                    found_urls.add(f_url)
+                if is_valid_m3u8(frame.url) and frame.url not in stream_dict:
+                    stream_dict[frame.url] = blv_name
             except: pass
 
+    def handle_response(response):
+        try:
+            u = response.url
+            if is_valid_m3u8(u):
+                if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
+                    u = u.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
+                if u not in stream_dict:
+                    stream_dict[u] = state["current_blv"]
+        except: pass
+
+    page.on("response", handle_response)
+    
     try:
         page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
-        page.wait_for_timeout(2000)
+        page.wait_for_timeout(1500)
         try:
             vp = page.viewport_size
             if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
         except: pass
 
-        # 1. Quét luồng mặc định
-        deadline = time.time() + 5.0 # 💡 Giảm thời gian chờ luồng chính
-        while time.time() < deadline:
-            extract_current_dom()
-            if found_urls: break
-            time.sleep(0.5)
-            
-        extract_current_dom()
+        # 1. Bóc Danh Sách BLV Chuẩn Tiếng Việt có dấu từ DOM
+        blvs = page.evaluate("""() => {
+            let links = [];
+            document.querySelectorAll('a[href*="blv="]').forEach(a => {
+                let name = a.innerText.split('\\n')[0].trim();
+                name = name.replace(/Theo dõi/gi, '').replace(/BLV\\s*:\\s*/i, '').trim();
+                if (!name.toUpperCase().includes("BLV")) name = "BLV " + name;
+                links.push({href: a.href, name: name});
+            });
+            // Lọc trùng
+            let unique = [];
+            let seen = new Set();
+            for(let l of links) {
+                if(!seen.has(l.href)) {
+                    seen.add(l.href);
+                    unique.push(l);
+                }
+            }
+            return unique;
+        }""")
 
-        # 2. 💡 CHIẾN DỊCH CÀN QUÉT CÁC BLV KHÁC (ĐÃ TỐI ƯU)
-        try:
-            # Lấy danh sách link BLV duy nhất (Lọc bỏ nút bị trùng giữa Mobile/PC)
-            blv_hrefs = page.evaluate("""() => {
-                let links = Array.from(document.querySelectorAll('a[href*="blv="]')).map(a => a.href);
-                return [...new Set(links)]; // Lọc trùng lặp
-            }""")
-            
-            # 💡 Giới hạn tối đa 6 BLV để tránh làm chậm tool
-            blv_hrefs = blv_hrefs[:6]
-            
-            if len(blv_hrefs) > 0:
-                print(f"      > Phát hiện {len(blv_hrefs)} BLV. Đang càn quét siêu tốc...")
-                for href in blv_hrefs:
-                    try:
-                        # Click chính xác vào href duy nhất
-                        page.evaluate(f"""(h) => {{
-                            let btn = document.querySelector(`a[href="${{h}}"]`);
-                            if(btn) btn.click();
-                        }}""", href)
-                        page.wait_for_timeout(1000) # 💡 Giảm xuống 1s là đủ cho API nhả link
-                        extract_current_dom()
-                    except: pass
-        except Exception as e:
-            print(f"      ⚠️ Lỗi khi dò tìm BLV: {e}")
-            
+        if blvs:
+            print(f"      > Phát hiện {len(blvs)} BLV. Đang quét thần tốc (Chỉ lấy M3U8)...")
+            # Giới hạn 5 BLV để tránh làm Bot quá tải
+            for blv in blvs[:5]: 
+                state["current_blv"] = blv["name"]
+                try:
+                    page.evaluate(f"""(h) => {{
+                        let btn = document.querySelector(`a[href="${{h}}"]`);
+                        if(btn) btn.click();
+                    }}""", blv["href"])
+                except: pass
+                
+                # 💡 Polling Siêu Tốc: Dừng ngay lập tức khi tóm được 1 link cho BLV này!
+                poll_deadline = time.time() + 2.5
+                while time.time() < poll_deadline:
+                    extract_current_dom(state["current_blv"])
+                    if any(v == blv["name"] for v in stream_dict.values()):
+                        break # Đã bắt được! Next BLV luôn!
+                    time.sleep(0.3)
+        else:
+            # Fallback nếu phòng không có nút chọn BLV
+            state["current_blv"] = "Mặc định"
+            poll_deadline = time.time() + 4.0
+            while time.time() < poll_deadline:
+                extract_current_dom(state["current_blv"])
+                if stream_dict: break
+                time.sleep(0.4)
+                
     except Exception as e:
         print(f"      ⚠️ Lỗi khi mở phòng Live: {e}")
     finally:
@@ -263,30 +278,21 @@ def capture_stream(page, match_url, global_seen_streams):
         
     valid_streams = []
     
-    for u in found_urls:
+    # Gom link và tính điểm ưu tiên server
+    for u, name in stream_dict.items():
         if u not in global_seen_streams:
             score = 0
             lo = u.lower()
             if "cdnfaster" in lo: score += 1000
             if "100ycdn" in lo: score += 500
-            
-            blv_name = "Mặc định"
-            match_blv = re.search(r'/live/([^/?#\.]+)', u, re.IGNORECASE)
-            if match_blv:
-                key = match_blv.group(1).upper()
-                if key and key != "PLAYLIST":
-                    blv_name = f"BLV {key}"
-            
-            stream_type = "FLV" if ".flv" in lo else "M3U8"
-            final_name = f"{blv_name} ({stream_type})"
-            
-            valid_streams.append({"name": final_name, "url": u, "score": score})
+            valid_streams.append({"name": name, "url": u, "score": score})
     
     valid_streams.sort(key=lambda x: x["score"], reverse=True)
     for s in valid_streams:
         s.pop("score", None)
         
     return valid_streams
+
 # =========================================================
 # XÂY DỰNG CẤU TRÚC JSON
 # =========================================================
@@ -310,11 +316,11 @@ def build_channel(m: dict, stream_data: list) -> dict:
 
     stream_links = []
     for idx, s in enumerate(stream_data):
-        app_type = "flv" if "(FLV)" in s["name"] else "hls"
+        # Mặc định tất cả đều là HLS (M3U8)
         stream_links.append({
             "id": make_link_id(), 
             "name": s["name"], 
-            "type": app_type, 
+            "type": "hls", 
             "default": idx == 0, 
             "url": s["url"]
         })
@@ -340,7 +346,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Bắt Toàn Bộ BLV): {now_str}")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Siêu Tốc - Tên Chuẩn Tiếng Việt): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
@@ -434,7 +440,7 @@ def scrape_and_push():
                 m["streams"] = capture_stream(page, m["href"], global_seen_streams)
                 
                 if m["streams"]:
-                    print(f"      ✅ Tóm được {len(m['streams'])} link!")
+                    print(f"      ✅ Đã tóm được {len(m['streams'])} link!")
                     for s in m["streams"]:
                         global_seen_streams.add(s["url"])
                 else:
