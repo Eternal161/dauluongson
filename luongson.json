@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:21 14/07/2026",
+  "last_updated": "00:31 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-d974c9a341a8",
-          "name": "⚽ Djurgardens vs Halmstads | Swedish Allsvenskan | Không rõ",
-          "tournament": "Swedish Allsvenskan",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/388_1grmna9rvh24.png?v=2.4.3",
+          "id": "luongson-3452012bf0f5",
+          "name": "⚽ Fc Maardu vs Jk Welco Elekter | Estonia Esi Liiga | Không rõ",
+          "tournament": "Estonia Esi Liiga",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15609_1jsqvvkqgf31.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15617_1gqbsgc0q225.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/15609_1jsqvvkqgf31.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 4",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,104 +34,44 @@
           ],
           "sources": [
             {
-              "id": "luongson-d974c9a341a8",
+              "id": "luongson-3452012bf0f5",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-d974c9a341a8",
-                  "name": "Djurgardens vs Halmstads",
+                  "id": "luongson-3452012bf0f5",
+                  "name": "Fc Maardu vs Jk Welco Elekter",
                   "streams": [
                     {
-                      "id": "luongson-d974c9a341a8",
+                      "id": "luongson-3452012bf0f5",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-76cdc07ce7",
-                          "name": "Mặc định",
+                          "id": "lnk-c6aa979f1e",
+                          "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-ca64170507",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-765bfe52c2",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-3ef350a9b3",
-                          "name": "BLV T.LẬP",
+                          "id": "lnk-49360e648b",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-1d93eae93a",
-                          "name": "BLV P.HỔ",
+                          "id": "lnk-2420c8d5e9",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3b885fb2dc5e",
-          "name": "⚽ Arsenal Tula vs Tekstilshchik Ivanovo | Russian National Football League | Không rõ",
-          "tournament": "Russian National Football League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17475_165095553317.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4557_1gzq931ga81y.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/17475_165095553317.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3b885fb2dc5e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3b885fb2dc5e",
-                  "name": "Arsenal Tula vs Tekstilshchik Ivanovo",
-                  "streams": [
-                    {
-                      "id": "luongson-3b885fb2dc5e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eb68383ed4",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        },
+                        {
+                          "id": "lnk-e0daba8868",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -160,7 +100,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -180,11 +120,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-48d3d4b940",
+                          "id": "lnk-267642557b",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-b8bf4be5fe",
+                          "name": "BLV L.BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -195,11 +142,11 @@
           ]
         },
         {
-          "id": "luongson-3452012bf0f5",
-          "name": "⚽ Fc Maardu vs Jk Welco Elekter | Estonia Esi Liiga | Không rõ",
-          "tournament": "Estonia Esi Liiga",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15609_1jsqvvkqgf31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15617_1gqbsgc0q225.png?v=2.4.3",
+          "id": "luongson-3b885fb2dc5e",
+          "name": "⚽ Arsenal Tula vs Tekstilshchik Ivanovo | Russian National Football League | Không rõ",
+          "tournament": "Russian National Football League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/17475_165095553317.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4557_1gzq931ga81y.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -207,7 +154,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15609_1jsqvvkqgf31.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/17475_165095553317.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -221,17 +168,70 @@
           ],
           "sources": [
             {
-              "id": "luongson-3452012bf0f5",
+              "id": "luongson-3b885fb2dc5e",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-3452012bf0f5",
-                  "name": "Fc Maardu vs Jk Welco Elekter",
+                  "id": "luongson-3b885fb2dc5e",
+                  "name": "Arsenal Tula vs Tekstilshchik Ivanovo",
                   "streams": [
                     {
-                      "id": "luongson-3452012bf0f5",
+                      "id": "luongson-3b885fb2dc5e",
                       "name": "F",
                       "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d974c9a341a8",
+          "name": "⚽ Djurgardens vs Halmstads | Swedish Allsvenskan | Không rõ",
+          "tournament": "Swedish Allsvenskan",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/388_1grmna9rvh24.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/385_1gv1yreqw82.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d974c9a341a8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d974c9a341a8",
+                  "name": "Djurgardens vs Halmstads",
+                  "streams": [
+                    {
+                      "id": "luongson-d974c9a341a8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ccfbc202b",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -285,7 +285,7 @@
           ]
         },
         {
-          "id": "luongson-f96aa724cd58",
+          "id": "luongson-957714539165",
           "name": "⚽ San Lorenzo (W) vs San Luis Fc (W) | The women's league of Argentina | 01:00",
           "tournament": "The women's league of Argentina",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/10577_1grj4sk3et2b.png?v=2.4.3",
@@ -303,25 +303,33 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 01:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-f96aa724cd58",
+              "id": "luongson-957714539165",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-f96aa724cd58",
+                  "id": "luongson-957714539165",
                   "name": "San Lorenzo (W) vs San Luis Fc (W)",
                   "streams": [
                     {
-                      "id": "luongson-f96aa724cd58",
+                      "id": "luongson-957714539165",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d99ce8b8d",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -393,10 +401,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 01:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -411,7 +419,15 @@
                     {
                       "id": "luongson-dc9e1e37b6a5",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c62ef72ee",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
