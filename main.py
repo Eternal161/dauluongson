@@ -308,7 +308,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
     is_live = len(stream_data) > 0
     
     if is_live:
-[x]         label_text = f" Live {m.get('scoreStr', '')}".strip()
+        label_text = f"● Live {m.get('scoreStr', '')}".strip()
     else:
         label_text = "🔴 Chờ stream" if m.get("isLiveUI") else "⏳ Chưa live"
         
@@ -470,4 +470,3 @@ def scrape_and_push():
 
 if __name__ == "__main__":
     scrape_and_push()
- 
