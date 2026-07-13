@@ -11,7 +11,7 @@ from github import Github
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 # =========================================================
-# BỘ GIÁP STEALTH
+# Bá»˜ GIĂP STEALTH
 # =========================================================
 def apply_stealth(page):
     try:
@@ -25,7 +25,7 @@ def apply_stealth(page):
     except: pass
 
 # =========================================================
-# CONFIG LƯƠNG SƠN TV
+# CONFIG LÆ¯Æ NG SÆ N TV
 # =========================================================
 TARGET_SITE   = "https://luongsontv60sv.com/"
 BASE_URL      = "https://luongsontv60sv.com"
@@ -100,7 +100,7 @@ def parse_teams_from_title(title: str):
     return clean.strip().title(), "Unknown"
 
 # =========================================================
-# JS: LẤY DỮ LIỆU TỪ LƯƠNG SƠN TV
+# JS: Láº¤Y Dá»® LIá»†U Tá»ª LÆ¯Æ NG SÆ N TV
 # =========================================================
 JS_EXTRACT = """
 () => {
@@ -125,7 +125,7 @@ JS_EXTRACT = """
         if (leagueEl) league = clean(leagueEl.innerText);
 
         const cardText = clean(a.innerText).toLowerCase();
-        const isLiveUI = /live|trực tiếp|đang phát/.test(cardText) || !!a.querySelector('[class*="live" i]');
+        const isLiveUI = /live|trá»±c tiáº¿p|Ä‘ang phĂ¡t/.test(cardText) || !!a.querySelector('[class*="live" i]');
 
         let home = '', away = '';
         const teamNames = Array.from(a.querySelectorAll('.team-name, p[class*="team-name"]'));
@@ -169,14 +169,56 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# LƯỚI QUÉT SIÊU TỐC (CHỈ LẤY M3U8 + TIẾNG VIỆT CHUẨN)
+# CHUáº¨N HĂ“A TĂN BLV
+# Chá»‰ dĂ¹ng lĂ m fallback khi website tráº£ vá» tĂªn viáº¿t táº¯t.
+# TĂªn Ä‘áº§y Ä‘á»§ láº¥y trá»±c tiáº¿p tá»« title/aria-label/data-* cá»§a website váº«n Ä‘Æ°á»£c Æ°u tiĂªn.
+# =========================================================
+BLV_NAME_MAP = {
+    "V.TĂ’NG": "VĂµ TĂ²ng",
+    "V TĂ’NG": "VĂµ TĂ²ng",
+    "VO TONG": "VĂµ TĂ²ng",
+    "M.SIĂU": "MĂ£ SiĂªu",
+    "M SIĂU": "MĂ£ SiĂªu",
+    "MA SIEU": "MĂ£ SiĂªu",
+    "L.Bá»": "Lá»¯ Bá»‘",
+    "L Bá»": "Lá»¯ Bá»‘",
+    "LU BO": "Lá»¯ Bá»‘",
+    "T.THĂO": "TĂ o ThĂ¡o",
+    "T THĂO": "TĂ o ThĂ¡o",
+    "TAO THAO": "TĂ o ThĂ¡o",
+    "Q.VÅ¨": "Quan VÅ©",
+    "Q VÅ¨": "Quan VÅ©",
+    "QUAN VU": "Quan VÅ©",
+    "T.PHI": "TrÆ°Æ¡ng Phi",
+    "T PHI": "TrÆ°Æ¡ng Phi",
+    "TRUONG PHI": "TrÆ°Æ¡ng Phi",
+    "G.CĂT": "Gia CĂ¡t",
+    "G CĂT": "Gia CĂ¡t",
+    "GIA CAT": "Gia CĂ¡t",
+}
+
+def normalize_blv_name(name: str) -> str:
+    """Chuáº©n hĂ³a tĂªn BLV nhÆ°ng khĂ´ng áº£nh hÆ°á»Ÿng pháº§n quĂ©t link."""
+    name = re.sub(r"\s+", " ", str(name or "")).strip()
+    name = re.sub(r"^Theo\s*dĂµi\s*", "", name, flags=re.IGNORECASE).strip()
+    name = re.sub(r"^BLV\s*[:\-]?\s*", "", name, flags=re.IGNORECASE).strip()
+
+    if not name or name.lower() in {"máº·c Ä‘á»‹nh", "mac dinh", "default"}:
+        return "Máº·c Ä‘á»‹nh"
+
+    key = name.upper().strip()
+    full_name = BLV_NAME_MAP.get(key, name)
+    return f"BLV {full_name}"
+
+# =========================================================
+# LÆ¯á»I QUĂ‰T SIĂU Tá»C (CHá»ˆ Láº¤Y M3U8 + TIáº¾NG VIá»†T CHUáº¨N)
 # =========================================================
 def capture_stream(page, match_url, global_seen_streams):
-    stream_dict = {} # url -> tên BLV
-    state = {"current_blv": "Mặc định"}
+    stream_dict = {} # url -> tĂªn BLV
+    state = {"current_blv": "Máº·c Ä‘á»‹nh"}
     BAD_KEYWORDS = ["quangcao", "tvc", ".ts"]
     
-    # 💡 Lọc thẳng tay, CHỈ giữ lại M3U8
+    # đŸ’¡ Lá»c tháº³ng tay, CHá»ˆ giá»¯ láº¡i M3U8
     def is_valid_m3u8(url_check):
         u = url_check.lower()
         return ".m3u8" in u and not any(bad in u for bad in BAD_KEYWORDS)
@@ -221,49 +263,118 @@ def capture_stream(page, match_url, global_seen_streams):
             if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
         except: pass
 
-        # 1. Bóc Danh Sách BLV Chuẩn Tiếng Việt có dấu từ DOM
+        # 1. BĂ³c danh sĂ¡ch BLV.
+        # Æ¯u tiĂªn tĂªn Ä‘áº§y Ä‘á»§ trong title, aria-label, data-* vĂ  pháº§n tá»­ con;
+        # chá»‰ dĂ¹ng innerText viáº¿t táº¯t khi website khĂ´ng cung cáº¥p tĂªn Ä‘áº§y Ä‘á»§.
         blvs = page.evaluate("""() => {
-            let links = [];
+            const clean = value => (value || '')
+                .replace(/Theo dĂµi/gi, '')
+                .replace(/^BLV\\s*[:\\-]?\\s*/i, '')
+                .replace(/\\s+/g, ' ')
+                .trim();
+
+            const isUsefulName = value => {
+                const text = clean(value);
+                if (!text) return false;
+                if (/^(xem|chá»n|server|kĂªnh|live|trá»±c tiáº¿p)$/i.test(text)) return false;
+                return /[A-Za-zĂ€-á»¹]/.test(text);
+            };
+
+            const scoreName = value => {
+                const text = clean(value);
+                if (!isUsefulName(text)) return -1;
+                let score = text.length;
+                if (/\\s/.test(text)) score += 20;                 // Æ°u tiĂªn há» tĂªn Ä‘áº§y Ä‘á»§
+                if (/[Ă -á»¹]/i.test(text)) score += 10;              // Æ°u tiĂªn tiáº¿ng Viá»‡t cĂ³ dáº¥u
+                if (!/^[A-ZĂ€-á»¸]\\.[A-ZĂ€-á»¸]/i.test(text)) score += 8; // trĂ¡nh dáº¡ng V.TĂ’NG
+                return score;
+            };
+
+            const getBestName = a => {
+                const candidates = [];
+                const add = value => {
+                    const text = clean(value);
+                    if (isUsefulName(text)) candidates.push(text);
+                };
+
+                add(a.getAttribute('title'));
+                add(a.getAttribute('aria-label'));
+                add(a.getAttribute('data-name'));
+                add(a.getAttribute('data-title'));
+                add(a.getAttribute('data-blv'));
+                add(a.getAttribute('data-blv-name'));
+                add(a.getAttribute('data-commentator'));
+
+                a.querySelectorAll('[title], [aria-label], [data-name], [data-title], [data-blv], [data-blv-name], [data-commentator], img[alt]').forEach(el => {
+                    add(el.getAttribute('title'));
+                    add(el.getAttribute('aria-label'));
+                    add(el.getAttribute('data-name'));
+                    add(el.getAttribute('data-title'));
+                    add(el.getAttribute('data-blv'));
+                    add(el.getAttribute('data-blv-name'));
+                    add(el.getAttribute('data-commentator'));
+                    add(el.getAttribute('alt'));
+                });
+
+                // Má»—i dĂ²ng lĂ  má»™t á»©ng viĂªn, khĂ´ng chá»‰ láº¥y dĂ²ng Ä‘áº§u tiĂªn.
+                (a.innerText || '').split('\\n').forEach(add);
+                add(a.textContent);
+
+                candidates.sort((x, y) => scoreName(y) - scoreName(x));
+                return candidates[0] || '';
+            };
+
+            const links = [];
             document.querySelectorAll('a[href*="blv="]').forEach(a => {
-                let name = a.innerText.split('\\n')[0].trim();
-                name = name.replace(/Theo dõi/gi, '').replace(/BLV\\s*:\\s*/i, '').trim();
-                if (!name.toUpperCase().includes("BLV")) name = "BLV " + name;
-                links.push({href: a.href, name: name});
+                const name = getBestName(a);
+                if (name) links.push({href: a.href, name});
             });
-            // Lọc trùng
-            let unique = [];
-            let seen = new Set();
-            for(let l of links) {
-                if(!seen.has(l.href)) {
-                    seen.add(l.href);
-                    unique.push(l);
+
+            const unique = [];
+            const seen = new Set();
+            for (const item of links) {
+                if (!seen.has(item.href)) {
+                    seen.add(item.href);
+                    unique.push(item);
                 }
             }
             return unique;
         }""")
 
+        # Chuáº©n hĂ³a á»Ÿ Python Ä‘á»ƒ xá»­ lĂ½ cĂ¡c tĂªn viáº¿t táº¯t nhÆ° V.TĂ’NG -> VĂµ TĂ²ng.
+        for blv in blvs:
+            blv["name"] = normalize_blv_name(blv.get("name"))
+
         if blvs:
-            print(f"      > Phát hiện {len(blvs)} BLV. Đang quét thần tốc (Chỉ lấy M3U8)...")
-            # Giới hạn 5 BLV để tránh làm Bot quá tải
-            for blv in blvs[:5]: 
+            # Link Ä‘Æ°á»£c báº¯t lĂºc vá»«a má»Ÿ trang chĂ­nh lĂ  stream cá»§a BLV Ä‘ang Ä‘Æ°á»£c chá»n máº·c Ä‘á»‹nh.
+            # KhĂ´ng Ä‘á»ƒ tĂªn "Máº·c Ä‘á»‹nh" náº¿u website Ä‘Ă£ cĂ³ danh sĂ¡ch BLV.
+            first_blv_name = blvs[0]["name"]
+            for stream_url, stream_name in list(stream_dict.items()):
+                if stream_name == "Máº·c Ä‘á»‹nh":
+                    stream_dict[stream_url] = first_blv_name
+
+            print(f"      > PhĂ¡t hiá»‡n {len(blvs)} BLV. Äang quĂ©t tháº§n tá»‘c (Chá»‰ láº¥y M3U8)...")
+            # Giá»›i háº¡n 5 BLV Ä‘á»ƒ trĂ¡nh lĂ m Bot quĂ¡ táº£i
+            for blv in blvs[:5]:
                 state["current_blv"] = blv["name"]
                 try:
-                    page.evaluate(f"""(h) => {{
-                        let btn = document.querySelector(`a[href="${{h}}"]`);
-                        if(btn) btn.click();
-                    }}""", blv["href"])
+                    page.evaluate("""(h) => {
+                        const btn = Array.from(document.querySelectorAll('a[href*="blv="]'))
+                            .find(a => a.href === h);
+                        if (btn) btn.click();
+                    }""", blv["href"])
                 except: pass
                 
-                # 💡 Polling Siêu Tốc: Dừng ngay lập tức khi tóm được 1 link cho BLV này!
+                # đŸ’¡ Polling SiĂªu Tá»‘c: Dá»«ng ngay láº­p tá»©c khi tĂ³m Ä‘Æ°á»£c 1 link cho BLV nĂ y!
                 poll_deadline = time.time() + 2.5
                 while time.time() < poll_deadline:
                     extract_current_dom(state["current_blv"])
                     if any(v == blv["name"] for v in stream_dict.values()):
-                        break # Đã bắt được! Next BLV luôn!
+                        break # ÄĂ£ báº¯t Ä‘Æ°á»£c! Next BLV luĂ´n!
                     time.sleep(0.3)
         else:
-            # Fallback nếu phòng không có nút chọn BLV
-            state["current_blv"] = "Mặc định"
+            # Fallback náº¿u phĂ²ng khĂ´ng cĂ³ nĂºt chá»n BLV
+            state["current_blv"] = "Máº·c Ä‘á»‹nh"
             poll_deadline = time.time() + 4.0
             while time.time() < poll_deadline:
                 extract_current_dom(state["current_blv"])
@@ -271,14 +382,14 @@ def capture_stream(page, match_url, global_seen_streams):
                 time.sleep(0.4)
                 
     except Exception as e:
-        print(f"      ⚠️ Lỗi khi mở phòng Live: {e}")
+        print(f"      â ï¸ Lá»—i khi má»Ÿ phĂ²ng Live: {e}")
     finally:
         try: page.remove_listener("response", handle_response)
         except: pass
         
     valid_streams = []
     
-    # Gom link và tính điểm ưu tiên server
+    # Gom link vĂ  tĂ­nh Ä‘iá»ƒm Æ°u tiĂªn server
     for u, name in stream_dict.items():
         if u not in global_seen_streams:
             score = 0
@@ -294,7 +405,7 @@ def capture_stream(page, match_url, global_seen_streams):
     return valid_streams
 
 # =========================================================
-# XÂY DỰNG CẤU TRÚC JSON
+# XĂ‚Y Dá»°NG Cáº¤U TRĂC JSON
 # =========================================================
 def build_channel(m: dict, stream_data: list) -> dict:
     home = m.get("home", "").title()
@@ -303,20 +414,20 @@ def build_channel(m: dict, stream_data: list) -> dict:
     
     cid = make_id(m["href"])
     title_clean = f"{home} vs {away}"
-    display_name = f"⚽ {title_clean}" + (f" | {m.get('tournament')}" if m.get('tournament') else "") + (f" | {thoi_gian}" if thoi_gian else "")
+    display_name = f"â½ {title_clean}" + (f" | {m.get('tournament')}" if m.get('tournament') else "") + (f" | {thoi_gian}" if thoi_gian else "")
 
     is_live = len(stream_data) > 0
     
     if is_live:
-        label_text = f"● Live {m.get('scoreStr', '')}".strip()
+        label_text = f"â— Live {m.get('scoreStr', '')}".strip()
     else:
-        label_text = "🔴 Chờ stream" if m.get("isLiveUI") else "⏳ Chưa live"
+        label_text = "đŸ”´ Chá» stream" if m.get("isLiveUI") else "â³ ChÆ°a live"
         
     label_color = "#ff0000" if is_live else ("#ff6600" if m.get("isLiveUI") else "#d54f1a")
 
     stream_links = []
     for idx, s in enumerate(stream_data):
-        # Mặc định tất cả đều là HLS (M3U8)
+        # Máº·c Ä‘á»‹nh táº¥t cáº£ Ä‘á»u lĂ  HLS (M3U8)
         stream_links.append({
             "id": make_link_id(), 
             "name": s["name"], 
@@ -333,7 +444,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
         "image": {"padding": 1, "background_color": "#ececec", "display": "contain", "url": m.get("homeLogo"), "width": 1600, "height": 1200},
         "labels": [{"text": label_text, "position": "top-left", "color": "#00ffffff", "text_color": label_color}],
         "sources": [{
-            "id": cid, "name": "Lương Sơn",
+            "id": cid, "name": "LÆ°Æ¡ng SÆ¡n",
             "contents": [{
                 "id": cid, "name": title_clean,
                 "streams": [{"id": cid, "name": "F", "stream_links": stream_links}]
@@ -342,11 +453,11 @@ def build_channel(m: dict, stream_data: list) -> dict:
     }
 
 # =========================================================
-# CHƯƠNG TRÌNH CHÍNH
+# CHÆ¯Æ NG TRĂŒNH CHĂNH
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Siêu Tốc - Tên Chuẩn Tiếng Việt): {now_str}")
+    print(f"đŸ€ Báº®T Äáº¦U BOT LÆ¯Æ NG SÆ N (Báº£n SiĂªu Tá»‘c - TĂªn Chuáº©n Tiáº¿ng Viá»‡t): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
@@ -391,7 +502,7 @@ def scrape_and_push():
 
         for _ in range(5):
             try:
-                btn_xem_them = page.get_by_text("Xem thêm", exact=True).last
+                btn_xem_them = page.get_by_text("Xem thĂªm", exact=True).last
                 if btn_xem_them.is_visible(timeout=2000):
                     btn_xem_them.click()
                 page.mouse.wheel(0, 3000)
@@ -416,8 +527,8 @@ def scrape_and_push():
 
             h_lower, a_lower = m["home"].lower(), m["away"].lower()
             
-            if any(x in h_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nhận định"]) or \
-               any(x in a_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nhận định"]):
+            if any(x in h_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nháº­n Ä‘á»‹nh"]) or \
+               any(x in a_lower for x in ["unknown", "luongson", "#main", "nhan dinh", "nháº­n Ä‘á»‹nh"]):
                 continue
                 
             match_key = f"{h_lower} vs {a_lower}"
@@ -426,13 +537,13 @@ def scrape_and_push():
                 valid_matches.append(m)
 
         raw_matches = valid_matches[:LIMIT_MATCHES]
-        print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...")
+        print(f"\nđŸ¥ QUĂ‰T Táº¤T Cáº¢ {len(raw_matches)} TRáº¬N (BAO Gá»’M TRáº¬N Sáº®P Tá»I)...")
 
         global_seen_streams = set()
 
         for idx, m in enumerate(raw_matches, 1):
             
-            m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
+            m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "KhĂ´ng rĂµ"
             print(f"[{idx}/{len(raw_matches)}] {m['home']} vs {m['away']} ({m['timeStr']})")
             
             m["streams"] = []
@@ -440,11 +551,11 @@ def scrape_and_push():
                 m["streams"] = capture_stream(page, m["href"], global_seen_streams)
                 
                 if m["streams"]:
-                    print(f"      ✅ Đã tóm được {len(m['streams'])} link!")
+                    print(f"      âœ… ÄĂ£ tĂ³m Ä‘Æ°á»£c {len(m['streams'])} link!")
                     for s in m["streams"]:
                         global_seen_streams.add(s["url"])
                 else:
-                    print("      ❌ Không có link.")
+                    print("      âŒ KhĂ´ng cĂ³ link.")
             
             m["homeLogo"] = get_final_logo(m["home"], m.get("homeLogo"))
             m["awayLogo"] = get_final_logo(m["away"], m.get("awayLogo"))
@@ -452,21 +563,21 @@ def scrape_and_push():
     channels = [build_channel(m, m["streams"]) for m in raw_matches]
     content = json.dumps({
         "id": "luongson", 
-        "name": "Lương Sơn TV", 
+        "name": "LÆ°Æ¡ng SÆ¡n TV", 
         "last_updated": now_str, 
-        "groups": [{"id": "live", "name": "🔴 Trực tiếp & Sắp tới", "channels": channels}]
+        "groups": [{"id": "live", "name": "đŸ”´ Trá»±c tiáº¿p & Sáº¯p tá»›i", "channels": channels}]
     }, indent=2, ensure_ascii=False)
     
     if GITHUB_TOKEN:
         repo = Github(GITHUB_TOKEN).get_repo(REPO_NAME)
-        msg = "⚽ Sync Lương Sơn: " + now_str
+        msg = "â½ Sync LÆ°Æ¡ng SÆ¡n: " + now_str
         try:
             existing = repo.get_contents(FILE_PATH)
             repo.update_file(existing.path, msg, content, existing.sha)
-            print("\n✅ Đã cập nhật thành công lên GitHub!")
+            print("\nâœ… ÄĂ£ cáº­p nháº­t thĂ nh cĂ´ng lĂªn GitHub!")
         except:
             repo.create_file(FILE_PATH, msg, content)
-            print("\n✅ Đã khởi tạo file mới trên GitHub!")
+            print("\nâœ… ÄĂ£ khá»Ÿi táº¡o file má»›i trĂªn GitHub!")
 
 if __name__ == "__main__":
     scrape_and_push()
