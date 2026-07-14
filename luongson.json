@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:51 14/07/2026",
+  "last_updated": "23:01 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f1ed23300367",
-          "name": "⚽ Lokomotiv Moscow vs Cska Moscow | International Club Friendly | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/371_1gtqm0cjh91x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f1ed23300367",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f1ed23300367",
-                  "name": "Lokomotiv Moscow vs Cska Moscow",
-                  "streams": [
-                    {
-                      "id": "luongson-f1ed23300367",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a2a10483e",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-fb5c5ef207",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-e74a0b749759",
           "name": "⚽ Korona Kielce vs Stal Rzeszow | International Club Friendly | Không rõ",
@@ -106,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0525cb3326",
+                          "id": "lnk-f8a4cd03c1",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8e2ca8de2f38",
+          "name": "⚽ Inter Club Escaldes vs Lincoln Red Imps Fc | UEFA Champions League | Không rõ",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10351_1gy3vtvx4y31.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20565_1gpyw2kggp30.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/10351_1gy3vtvx4y31.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8e2ca8de2f38",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8e2ca8de2f38",
+                  "name": "Inter Club Escaldes vs Lincoln Red Imps Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-8e2ca8de2f38",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae61aa9df0",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -159,25 +152,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dbb7ed4094",
-                          "name": "BLV KAKA",
+                          "id": "lnk-938be984c0",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-594d6ec9a5",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-7dfe694e94",
+                          "id": "lnk-3a0b623a63",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-dcf8161213",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -188,53 +181,8 @@
           ]
         },
         {
-          "id": "luongson-8e2ca8de2f38",
-          "name": "⚽ Inter Club Escaldes vs Lincoln Red Imps Fc | UEFA Champions League | 23:00",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/10351_1gy3vtvx4y31.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20565_1gpyw2kggp30.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/10351_1gy3vtvx4y31.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8e2ca8de2f38",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8e2ca8de2f38",
-                  "name": "Inter Club Escaldes vs Lincoln Red Imps Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-8e2ca8de2f38",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-e1c3fe675bb8",
-          "name": "⚽ Fc Iberia 1999 Tbilisi vs Fc Flora Tallinn | UEFA Champions League | 23:00",
+          "name": "⚽ Fc Iberia 1999 Tbilisi vs Fc Flora Tallinn | UEFA Champions League | Không rõ",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/19599_1j1e9frnyg16.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
@@ -251,7 +199,7 @@
           },
           "labels": [
             {
-              "text": "● Live 23:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -271,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-96eb366cdd",
+                          "id": "lnk-42a40d4f57",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
@@ -304,10 +252,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -322,7 +270,22 @@
                     {
                       "id": "luongson-10acecb89d60",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0098290d36",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-091193bbd9",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -414,7 +377,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2f14e3caf6",
+                          "id": "lnk-d725fe2285",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
