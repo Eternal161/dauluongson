@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:11 15/07/2026",
+  "last_updated": "02:21 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,25 +46,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dfe9eb2895",
-                          "name": "BLV KAKA",
+                          "id": "lnk-993f72a6c6",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-987c074790",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-7d2f6c6b66",
+                          "id": "lnk-203674e8a9",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-39dc39a183",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-937a1fd565",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -93,7 +100,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -113,170 +120,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b7dd9b6d12",
+                          "id": "lnk-21d27f4e7f",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5945d17b9034",
-          "name": "⚽ The New Saints vs Sabah Fk Baku | UEFA Champions League | 03:26 16/07/30",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1087_165958177795.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/32202_1k2txq9s2r12.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1087_165958177795.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5945d17b9034",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5945d17b9034",
-                  "name": "The New Saints vs Sabah Fk Baku",
-                  "streams": [
-                    {
-                      "id": "luongson-5945d17b9034",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a39a444b8",
-                          "name": "BLV LYUNG1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-3767a6802a47",
-          "name": "⚽ Levski Sofia vs Borac Banja Luka | UEFA Champions League | Không rõ",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/537_1h3tkn4pvs2f.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3898_1h71mqt1ac2c.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/537_1h3tkn4pvs2f.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3767a6802a47",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3767a6802a47",
-                  "name": "Levski Sofia vs Borac Banja Luka",
-                  "streams": [
-                    {
-                      "id": "luongson-3767a6802a47",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a9eadde26",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fe422d0886b4",
-          "name": "⚽ Lask Linz vs Fenerbahce | International Club Friendly | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/920_1gpyst1m7k1t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/920_1gpyst1m7k1t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fe422d0886b4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fe422d0886b4",
-                  "name": "Lask Linz vs Fenerbahce",
-                  "streams": [
-                    {
-                      "id": "luongson-fe422d0886b4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a3a49c550b",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -305,7 +153,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -325,7 +173,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dd61a09ab2",
+                          "id": "lnk-1e1a14b476",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -423,7 +271,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a46cd7fdc6",
+                          "id": "lnk-f14d37d3c6",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -743,6 +591,141 @@
                   "streams": [
                     {
                       "id": "luongson-cd8d2df462cf",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-24209c0d4e58",
+          "name": "⚽ Cong An Ha Noi U21 vs Dong Nai U21 | Vietnam Championship U21 | 15:30",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27544_1h9hhtnfamk.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-24209c0d4e58",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-24209c0d4e58",
+                  "name": "Cong An Ha Noi U21 vs Dong Nai U21",
+                  "streams": [
+                    {
+                      "id": "luongson-24209c0d4e58",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-76e21c1308d3",
+          "name": "⚽ Pvf Vietnam U21 vs Shb Da Nang U21 | Vietnam Championship U21 | 15:30",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/27519_1hak20p8k12p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23286_167142140590.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/27519_1hak20p8k12p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-76e21c1308d3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-76e21c1308d3",
+                  "name": "Pvf Vietnam U21 vs Shb Da Nang U21",
+                  "streams": [
+                    {
+                      "id": "luongson-76e21c1308d3",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8e5e5ab119f5",
+          "name": "⚽ Unsw Fc (W) vs Manly Utd (W) | Australia New South Wales Cup Women | 16:00",
+          "tournament": "Australia New South Wales Cup Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64788_1k3ffxhvgm4.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/25199_1gvvn5yvg82e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64788_1k3ffxhvgm4.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8e5e5ab119f5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8e5e5ab119f5",
+                  "name": "Unsw Fc (W) vs Manly Utd (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-8e5e5ab119f5",
                       "name": "F",
                       "stream_links": []
                     }
