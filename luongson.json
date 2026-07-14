@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:31 15/07/2026",
+  "last_updated": "01:41 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,25 +46,85 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a72294e97e",
-                          "name": "BLV KAKA",
+                          "id": "lnk-5f7895eff1",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-9a22a55764",
+                          "id": "lnk-03e9bb62b9",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-53445de731",
-                          "name": "BLV TÂY MÔN KHÁNH",
+                          "id": "lnk-0e932347c5",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-60fbab9943",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-bd26d00e3a64",
+          "name": "⚽ Larne Fc vs Tre Fiori | UEFA Champions League | 02:00",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1412_1gq1ff34cc28.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9454_1gq94xybnxe.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1412_1gq1ff34cc28.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 02:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-bd26d00e3a64",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-bd26d00e3a64",
+                  "name": "Larne Fc vs Tre Fiori",
+                  "streams": [
+                    {
+                      "id": "luongson-bd26d00e3a64",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a31846da9",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -113,7 +173,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5d4ecca938",
+                          "id": "lnk-d87af2af4e",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -166,7 +226,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-828b66fc15",
+                          "id": "lnk-43cdcc76c8",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -181,61 +241,8 @@
           ]
         },
         {
-          "id": "luongson-bd26d00e3a64",
-          "name": "⚽ Larne Fc vs Tre Fiori | UEFA Champions League | 02:00",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1412_1gq1ff34cc28.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9454_1gq94xybnxe.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1412_1gq1ff34cc28.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 02:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bd26d00e3a64",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bd26d00e3a64",
-                  "name": "Larne Fc vs Tre Fiori",
-                  "streams": [
-                    {
-                      "id": "luongson-bd26d00e3a64",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ed60cc79b",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-3767a6802a47",
-          "name": "⚽ Levski Sofia vs Borac Banja Luka | UEFA Champions League | 00:30",
+          "name": "⚽ Levski Sofia vs Borac Banja Luka | UEFA Champions League | Không rõ",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/537_1h3tkn4pvs2f.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/3898_1h71mqt1ac2c.png?v=2.4.3",
@@ -252,7 +259,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 00:30",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -272,7 +279,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-263cde6a77",
+                          "id": "lnk-d0bf3510ed",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
@@ -288,7 +295,7 @@
         },
         {
           "id": "luongson-fe422d0886b4",
-          "name": "⚽ Lask Linz vs Fenerbahce | International Club Friendly | 00:30",
+          "name": "⚽ Lask Linz vs Fenerbahce | International Club Friendly | Không rõ",
           "tournament": "International Club Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/920_1gpyst1m7k1t.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
@@ -305,7 +312,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 00:30",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -325,7 +332,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dda8c189bf",
+                          "id": "lnk-81b0f8fe6f",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -341,7 +348,7 @@
         },
         {
           "id": "luongson-5945d17b9034",
-          "name": "⚽ The New Saints vs Sabah Fk Baku | UEFA Champions League | 00:30",
+          "name": "⚽ The New Saints vs Sabah Fk Baku | UEFA Champions League | 03:26 16/07/30",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/1087_165958177795.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/32202_1k2txq9s2r12.png?v=2.4.3",
@@ -358,7 +365,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 00:30",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -378,7 +385,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ae72c0891c",
+                          "id": "lnk-c4b453a0ef",
                           "name": "BLV LYUNG1",
                           "type": "hls",
                           "default": true,
@@ -431,7 +438,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-156e904385",
+                          "id": "lnk-4833ebec33",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -481,6 +488,51 @@
                   "streams": [
                     {
                       "id": "luongson-f4e3bdf84f6b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1ee63e8a31f0",
+          "name": "⚽ Toronto Tempo W vs Washington Mystics W | WNBA | 06:00",
+          "tournament": "WNBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784053943.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784053944.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784053943.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1ee63e8a31f0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1ee63e8a31f0",
+                  "name": "Toronto Tempo W vs Washington Mystics W",
+                  "streams": [
+                    {
+                      "id": "luongson-1ee63e8a31f0",
                       "name": "F",
                       "stream_links": []
                     }
@@ -706,51 +758,6 @@
                   "streams": [
                     {
                       "id": "luongson-c180340ff1c1",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-4ca93570022a",
-          "name": "⚽ Taranaki Airs vs Nelson Giants | NBL | 14:00",
-          "tournament": "NBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047720.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047721.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047720.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-4ca93570022a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-4ca93570022a",
-                  "name": "Taranaki Airs vs Nelson Giants",
-                  "streams": [
-                    {
-                      "id": "luongson-4ca93570022a",
                       "name": "F",
                       "stream_links": []
                     }
