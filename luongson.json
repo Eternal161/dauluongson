@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:21 14/07/2026",
+  "last_updated": "15:31 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,32 +46,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-00410af6d3",
+                          "id": "lnk-838a706cec",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-b03c9d386f",
-                          "name": "BLV N.THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-91b6517b4c",
-                          "name": "BLV L.ỨNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        },
-                        {
-                          "id": "lnk-c5d56d7dee",
+                          "id": "lnk-e190d348cf",
                           "name": "BLV L.QUỲ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-9f79ddc3f5",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -82,11 +75,11 @@
           ]
         },
         {
-          "id": "luongson-233553a5ff09",
-          "name": "⚽ Hebei Snow Ruyi W vs Fujian Nanan (W) | China League Women | 15:15",
-          "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69760_1jzrzndnsa2k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65207_1hw4vjdvp0g.png?v=2.4.3",
+          "id": "luongson-b3a1c771087c",
+          "name": "⚽ Tay Ninh U21 vs Song Lan - Yi U21 | Vietnam Championship U21 | 15:30",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -94,13 +87,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69760_1jzrzndnsa2k.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 15:15",
+              "text": "● Live 15:30",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -108,19 +101,19 @@
           ],
           "sources": [
             {
-              "id": "luongson-233553a5ff09",
+              "id": "luongson-b3a1c771087c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-233553a5ff09",
-                  "name": "Hebei Snow Ruyi W vs Fujian Nanan (W)",
+                  "id": "luongson-b3a1c771087c",
+                  "name": "Tay Ninh U21 vs Song Lan - Yi U21",
                   "streams": [
                     {
-                      "id": "luongson-233553a5ff09",
+                      "id": "luongson-b3a1c771087c",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-05581f96d2",
+                          "id": "lnk-3fc373f6d1",
                           "name": "BLV P.HỔ",
                           "type": "hls",
                           "default": true,
@@ -170,51 +163,6 @@
                   "streams": [
                     {
                       "id": "luongson-ecdc86c13f91",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b3a1c771087c",
-          "name": "⚽ Tay Ninh U21 vs Song Lan - Yi U21 | Vietnam Championship U21 | 15:30",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b3a1c771087c",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b3a1c771087c",
-                  "name": "Tay Ninh U21 vs Song Lan - Yi U21",
-                  "streams": [
-                    {
-                      "id": "luongson-b3a1c771087c",
                       "name": "F",
                       "stream_links": []
                     }
@@ -468,10 +416,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 18:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -486,7 +434,15 @@
                     {
                       "id": "luongson-6f0ea9ea7a79",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-20e99b05af",
+                          "name": "BLV N.THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -710,6 +666,51 @@
                   "streams": [
                     {
                       "id": "luongson-66ff153072db",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f1ed23300367",
+          "name": "⚽ Lokomotiv Moscow vs Cska Moscow | International Club Friendly | 21:00",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/371_1gtqm0cjh91x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f1ed23300367",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f1ed23300367",
+                  "name": "Lokomotiv Moscow vs Cska Moscow",
+                  "streams": [
+                    {
+                      "id": "luongson-f1ed23300367",
                       "name": "F",
                       "stream_links": []
                     }
