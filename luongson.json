@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:21 14/07/2026",
+  "last_updated": "11:31 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live H1 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,64 +46,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-25b945d446",
-                          "name": "Mặc định",
+                          "id": "lnk-1403b35dbe",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f74a069e815f",
-          "name": "⚽ Milwaukee Bucks vs Phoenix Suns | NBA | 03:26 15/07/900",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972828.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f74a069e815f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f74a069e815f",
-                  "name": "Milwaukee Bucks vs Phoenix Suns",
-                  "streams": [
-                    {
-                      "id": "luongson-f74a069e815f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df86d34845",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -294,51 +241,6 @@
           ]
         },
         {
-          "id": "luongson-7ace9e6932da",
-          "name": "⚽ Tianjin Shengde (W) vs Shanxi Xihua W | China League Women | 15:15",
-          "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61790_1gzzwznf14v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69759_1k00ng03mb2p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61790_1gzzwznf14v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7ace9e6932da",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7ace9e6932da",
-                  "name": "Tianjin Shengde (W) vs Shanxi Xihua W",
-                  "streams": [
-                    {
-                      "id": "luongson-7ace9e6932da",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-c4f2f4cb43f8",
           "name": "⚽ Qingdao West (W) vs Zhejiang Hangzhou B (W) | China League Women | 15:15",
           "tournament": "China League Women",
@@ -374,6 +276,51 @@
                   "streams": [
                     {
                       "id": "luongson-c4f2f4cb43f8",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7ace9e6932da",
+          "name": "⚽ Tianjin Shengde (W) vs Shanxi Xihua W | China League Women | 15:15",
+          "tournament": "China League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61790_1gzzwznf14v.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/69759_1k00ng03mb2p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61790_1gzzwznf14v.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7ace9e6932da",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7ace9e6932da",
+                  "name": "Tianjin Shengde (W) vs Shanxi Xihua W",
+                  "streams": [
+                    {
+                      "id": "luongson-7ace9e6932da",
                       "name": "F",
                       "stream_links": []
                     }
@@ -564,51 +511,6 @@
           ]
         },
         {
-          "id": "luongson-46d9f7435b65",
-          "name": "⚽ Rochedale Rovers vs Sd Raiders Fc | Australia FFA Cup | 16:30",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-46d9f7435b65",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-46d9f7435b65",
-                  "name": "Rochedale Rovers vs Sd Raiders Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-46d9f7435b65",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-fda6faef36d2",
           "name": "⚽ A.P.I.A. Leichhardt Tigers vs Peninsula Power | Australia FFA Cup | 16:30",
           "tournament": "Australia FFA Cup",
@@ -654,6 +556,51 @@
           ]
         },
         {
+          "id": "luongson-46d9f7435b65",
+          "name": "⚽ Rochedale Rovers vs Sd Raiders Fc | Australia FFA Cup | 16:30",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-46d9f7435b65",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-46d9f7435b65",
+                  "name": "Rochedale Rovers vs Sd Raiders Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-46d9f7435b65",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-836c129b586c",
           "name": "⚽ Boroondara Eagles (W) vs Preston Lions (W) | VIC Women’s Premier League | 17:30",
           "tournament": "VIC Women’s Premier League",
@@ -689,6 +636,51 @@
                   "streams": [
                     {
                       "id": "luongson-836c129b586c",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-6f0ea9ea7a79",
+          "name": "⚽ T T Hanoi U21 vs Hung Vuong An Giang U21 | Vietnam Championship U21 | 18:00",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23278_1jzadx84m12v.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-6f0ea9ea7a79",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-6f0ea9ea7a79",
+                  "name": "T T Hanoi U21 vs Hung Vuong An Giang U21",
+                  "streams": [
+                    {
+                      "id": "luongson-6f0ea9ea7a79",
                       "name": "F",
                       "stream_links": []
                     }
