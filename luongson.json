@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:11 14/07/2026",
+  "last_updated": "16:21 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-1df0aa3391a4",
-          "name": "⚽ Meycauayan vs San Juan Knights | MPBL | 03:26 15/07/1500",
-          "tournament": "MPBL",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974892.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974885.png?v=2.4.3",
+          "id": "luongson-ecdc86c13f91",
+          "name": "⚽ Viettel Fc U21 vs Hoang Anh Gia Lai U21 | Vietnam Championship U21 | Không rõ",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974892.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live H1 0 : 0",
+              "text": "● Live HT 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,33 +34,40 @@
           ],
           "sources": [
             {
-              "id": "luongson-1df0aa3391a4",
+              "id": "luongson-ecdc86c13f91",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-1df0aa3391a4",
-                  "name": "Meycauayan vs San Juan Knights",
+                  "id": "luongson-ecdc86c13f91",
+                  "name": "Viettel Fc U21 vs Hoang Anh Gia Lai U21",
                   "streams": [
                     {
-                      "id": "luongson-1df0aa3391a4",
+                      "id": "luongson-ecdc86c13f91",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-802dd1fffc",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-9ac9931ae6",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-b8b926e54a",
-                          "name": "BLV P.HỔ",
-                          "type": "hls",
-                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         },
                         {
-                          "id": "lnk-cc5192c771",
+                          "id": "lnk-ed18b11621",
+                          "name": "BLV L.QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-4138b1d519",
+                          "name": "BLV N.THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-03a9dd36f3",
                           "name": "BLV L.ỨNG",
                           "type": "hls",
                           "default": false,
@@ -93,7 +100,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -113,78 +120,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2594fd95ed",
-                          "name": "Mặc định",
+                          "id": "lnk-91349e3f01",
+                          "name": "BLV L.ỨNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-af185cf580",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-ecdc86c13f91",
-          "name": "⚽ Viettel Fc U21 vs Hoang Anh Gia Lai U21 | Vietnam Championship U21 | Không rõ",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-ecdc86c13f91",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-ecdc86c13f91",
-                  "name": "Viettel Fc U21 vs Hoang Anh Gia Lai U21",
-                  "streams": [
-                    {
-                      "id": "luongson-ecdc86c13f91",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-824c1c0e5c",
-                          "name": "BLV L.BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-5d58d64dda",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -213,10 +153,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -231,7 +171,22 @@
                     {
                       "id": "luongson-233553a5ff09",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-562990d1a9",
+                          "name": "BLV L.BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-ce39f27128",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -285,11 +240,11 @@
           ]
         },
         {
-          "id": "luongson-fc6ba37a2f52",
-          "name": "⚽ Phong Phu Ha Nam (W) vs Ho Chi Minh City B (W) | Vietnam Women's League | 03:26 15/07/1600",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/26505_1gs6wsc42n4.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/26515_1hfay0zx4811.png?v=2.4.3",
+          "id": "luongson-1df0aa3391a4",
+          "name": "⚽ Meycauayan vs San Juan Knights | MPBL | 03:26 15/07/1500",
+          "tournament": "MPBL",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974892.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974885.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -297,7 +252,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/26505_1gs6wsc42n4.png?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783974892.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -311,77 +266,17 @@
           ],
           "sources": [
             {
-              "id": "luongson-fc6ba37a2f52",
+              "id": "luongson-1df0aa3391a4",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-fc6ba37a2f52",
-                  "name": "Phong Phu Ha Nam (W) vs Ho Chi Minh City B (W)",
+                  "id": "luongson-1df0aa3391a4",
+                  "name": "Meycauayan vs San Juan Knights",
                   "streams": [
                     {
-                      "id": "luongson-fc6ba37a2f52",
+                      "id": "luongson-1df0aa3391a4",
                       "name": "F",
                       "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-46d9f7435b65",
-          "name": "⚽ Rochedale Rovers vs Sd Raiders Fc | Australia FFA Cup | 16:30",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 16:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-46d9f7435b65",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-46d9f7435b65",
-                  "name": "Rochedale Rovers vs Sd Raiders Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-46d9f7435b65",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3ec4aad29",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-d93f29aa1d",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
                     }
                   ]
                 }
@@ -428,18 +323,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a53ea1f444",
+                          "id": "lnk-14fc4cfe6c",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-fe392f2095",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-4427a3c99e",
+                          "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-46d9f7435b65",
+          "name": "⚽ Rochedale Rovers vs Sd Raiders Fc | Australia FFA Cup | 16:30",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 16:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-46d9f7435b65",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-46d9f7435b65",
+                  "name": "Rochedale Rovers vs Sd Raiders Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-46d9f7435b65",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e862f9bcb",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-082dd87f81",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -755,6 +710,51 @@
                   "streams": [
                     {
                       "id": "luongson-66ff153072db",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f1ed23300367",
+          "name": "⚽ Lokomotiv Moscow vs Cska Moscow | International Club Friendly | 21:00",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/371_1gtqm0cjh91x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f1ed23300367",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f1ed23300367",
+                  "name": "Lokomotiv Moscow vs Cska Moscow",
+                  "streams": [
+                    {
+                      "id": "luongson-f1ed23300367",
                       "name": "F",
                       "stream_links": []
                     }
