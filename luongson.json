@@ -1,79 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:31 14/07/2026",
+  "last_updated": "08:41 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-270569abacfa",
-          "name": "⚽ Cavalry Fc vs Vancouver Whitecaps | Canadian Championship | Không rõ",
-          "tournament": "Canadian Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29691_1jr1s723sd2c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4733_1gtzd9vt3r22.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/29691_1jr1s723sd2c.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-270569abacfa",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-270569abacfa",
-                  "name": "Cavalry Fc vs Vancouver Whitecaps",
-                  "streams": [
-                    {
-                      "id": "luongson-270569abacfa",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-abda57266e",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-a4da92794c",
-                          "name": "BLV V.TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-c4014334e2",
-                          "name": "BLV Y.THANH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-d52933fdb389",
           "name": "⚽ Utah Jazz vs Chicago Bulls | NBA | 03:26 15/07/800",
@@ -113,11 +46,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-718d5ce76b",
-                          "name": "BLV L.QUỲ",
+                          "id": "lnk-5941eece89",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-897842b910",
+                          "name": "BLV K.KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-279d8c34e2",
+                          "name": "BLV Y.THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -146,10 +93,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -163,6 +110,59 @@
                   "streams": [
                     {
                       "id": "luongson-e872e4545455",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0202108842",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-270569abacfa",
+          "name": "⚽ Cavalry Fc vs Vancouver Whitecaps | Canadian Championship | Không rõ",
+          "tournament": "Canadian Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/29691_1jr1s723sd2c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4733_1gtzd9vt3r22.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/29691_1jr1s723sd2c.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-270569abacfa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-270569abacfa",
+                  "name": "Cavalry Fc vs Vancouver Whitecaps",
+                  "streams": [
+                    {
+                      "id": "luongson-270569abacfa",
                       "name": "F",
                       "stream_links": []
                     }
