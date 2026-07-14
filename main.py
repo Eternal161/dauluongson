@@ -6,9 +6,8 @@ import uuid
 import hashlib
 import datetime
 import requests
-import unicodedata
 from github import Github
-from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+from playwright.sync_api import sync_playwright
 
 # =========================================================
 # BỘ GIÁP STEALTH
@@ -17,12 +16,8 @@ def apply_stealth(page):
     try:
         from playwright_stealth import stealth_sync
         stealth_sync(page)
-    except ImportError:
-        try:
-            from playwright_stealth import Stealth
-            Stealth().apply_stealth_sync(page)
-        except: pass
-    except: pass
+    except Exception:
+        pass
 
 # =========================================================
 # CONFIG LƯƠNG SƠN TV
@@ -169,42 +164,16 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# LƯỚI QUÉT SIÊU TỐC (CHỈ LẤY M3U8 + TIẾNG VIỆT CHUẨN)
+# LƯỚI QUÉT SIÊU TỐC (MỖI TRẬN LÀ MỘT TRANG GIẤY TRẮNG)
 # =========================================================
-def capture_stream(page, match_url, global_seen_streams):
+def capture_stream(page, match_url):
     stream_dict = {} # url -> tên BLV
     state = {"current_blv": "Mặc định"}
-    BAD_KEYWORDS = ["quangcao", "tvc", ".ts"]
     
-    # 💡 Lọc thẳng tay, CHỈ giữ lại M3U8
-    def is_valid_m3u8(url_check):
-        u = url_check.lower()
-        return ".m3u8" in u and not any(bad in u for bad in BAD_KEYWORDS)
-
-    def extract_current_dom(blv_name):
-        try:
-            api_data = page.evaluate("window.__apiData || []")
-            for item in api_data:
-                text = item.get("text", "")
-                matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.m3u8[^"\'\s<>]*', text)
-                for m in matches:
-                    clean_link = m.replace('\\/', '/')
-                    if is_valid_m3u8(clean_link):
-                        if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
-                            clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-                        if clean_link not in stream_dict:
-                            stream_dict[clean_link] = blv_name
-        except: pass
-        for frame in page.frames:
-            try:
-                if is_valid_m3u8(frame.url) and frame.url not in stream_dict:
-                    stream_dict[frame.url] = blv_name
-            except: pass
-
     def handle_response(response):
         try:
             u = response.url
-            if is_valid_m3u8(u):
+            if ".m3u8" in u.lower() and "quangcao" not in u.lower():
                 if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
                     u = u.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
                 if u not in stream_dict:
@@ -213,23 +182,41 @@ def capture_stream(page, match_url, global_seen_streams):
 
     page.on("response", handle_response)
     
+    def extract_current_dom(blv_name):
+        try:
+            api_data = page.evaluate("window.__apiData || []")
+            for item in api_data:
+                text = item.get("text", "")
+                matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.m3u8[^"\'\s<>]*', text)
+                for m in matches:
+                    clean_link = m.replace('\\/', '/')
+                    if "quangcao" not in clean_link.lower():
+                        if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
+                            clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
+                        if clean_link not in stream_dict:
+                            stream_dict[clean_link] = blv_name
+        except: pass
+
     try:
         page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
         page.wait_for_timeout(1500)
-        try:
-            vp = page.viewport_size
-            if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
-        except: pass
-
-        # 1. Bóc Danh Sách BLV Chuẩn Tiếng Việt có dấu từ DOM
-        blvs = page.evaluate("""() => {
+        
+        # 1. Bóc Danh Sách BLV (Lấy thẳng tên trong phòng Live)
+        blvs_info = page.evaluate("""() => {
+            let defaultName = "Mặc định";
+            // Bóc tên từ dòng chữ "BLV: BLV YẾN THANH Theo dõi - 46K"
+            let match = document.body.innerText.match(/BLV:\\s*(BLV\\s*[^\\n]+)/i);
+            if (match) {
+                defaultName = match[1].replace(/Theo dõi.*/gi, '').replace(/-/g, '').trim();
+            }
+            
             let links = [];
             document.querySelectorAll('a[href*="blv="]').forEach(a => {
-                let name = a.innerText.split('\\n')[0].trim();
-                name = name.replace(/Theo dõi/gi, '').replace(/BLV\\s*:\\s*/i, '').trim();
+                let name = a.innerText.split('\\n')[0].replace(/Theo dõi.*/gi, '').replace(/BLV\\s*:\\s*/i, '').trim();
                 if (!name.toUpperCase().includes("BLV")) name = "BLV " + name;
                 links.push({href: a.href, name: name});
             });
+            
             // Lọc trùng
             let unique = [];
             let seen = new Set();
@@ -239,37 +226,29 @@ def capture_stream(page, match_url, global_seen_streams):
                     unique.push(l);
                 }
             }
-            return unique;
+            return { defaultName: defaultName, links: unique };
         }""")
 
-        if blvs:
-            print(f"      > Phát hiện {len(blvs)} BLV. Đang quét thần tốc (Chỉ lấy M3U8)...")
-            # Giới hạn 5 BLV để tránh làm Bot quá tải
-            for blv in blvs[:5]: 
+        if blvs_info:
+            print(f"      > Phát hiện {len(blvs_info['links'])} Tùy chọn BLV phụ.")
+            state["current_blv"] = blvs_info["defaultName"]
+            page.wait_for_timeout(1000)
+            extract_current_dom(state["current_blv"])
+            
+            # Quét các BLV khác
+            for blv in blvs_info["links"][:5]: 
                 state["current_blv"] = blv["name"]
                 try:
                     page.evaluate(f"""(h) => {{
                         let btn = document.querySelector(`a[href="${{h}}"]`);
                         if(btn) btn.click();
                     }}""", blv["href"])
-                except: pass
-                
-                # 💡 Polling Siêu Tốc: Dừng ngay lập tức khi tóm được 1 link cho BLV này!
-                poll_deadline = time.time() + 2.5
-                while time.time() < poll_deadline:
+                    page.wait_for_timeout(1000)
                     extract_current_dom(state["current_blv"])
-                    if any(v == blv["name"] for v in stream_dict.values()):
-                        break # Đã bắt được! Next BLV luôn!
-                    time.sleep(0.3)
+                except: pass
         else:
-            # Fallback nếu phòng không có nút chọn BLV
-            state["current_blv"] = "Mặc định"
-            poll_deadline = time.time() + 4.0
-            while time.time() < poll_deadline:
-                extract_current_dom(state["current_blv"])
-                if stream_dict: break
-                time.sleep(0.4)
-                
+            extract_current_dom(state["current_blv"])
+            
     except Exception as e:
         print(f"      ⚠️ Lỗi khi mở phòng Live: {e}")
     finally:
@@ -280,12 +259,13 @@ def capture_stream(page, match_url, global_seen_streams):
     
     # Gom link và tính điểm ưu tiên server
     for u, name in stream_dict.items():
-        if u not in global_seen_streams:
-            score = 0
-            lo = u.lower()
-            if "cdnfaster" in lo: score += 1000
-            if "100ycdn" in lo: score += 500
-            valid_streams.append({"name": name, "url": u, "score": score})
+        if name == "Mặc định":
+            match_blv = re.search(r'/live/([^/?#\.]+)', u, re.IGNORECASE)
+            if match_blv and match_blv.group(1).upper() != "PLAYLIST":
+                name = f"BLV {match_blv.group(1).upper()}"
+                
+        score = 1000 if "cdnfaster" in u.lower() else (500 if "100ycdn" in u.lower() else 0)
+        valid_streams.append({"name": name, "url": u, "score": score})
     
     valid_streams.sort(key=lambda x: x["score"], reverse=True)
     for s in valid_streams:
@@ -316,7 +296,6 @@ def build_channel(m: dict, stream_data: list) -> dict:
 
     stream_links = []
     for idx, s in enumerate(stream_data):
-        # Mặc định tất cả đều là HLS (M3U8)
         stream_links.append({
             "id": make_link_id(), 
             "name": s["name"], 
@@ -346,7 +325,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Siêu Tốc - Tên Chuẩn Tiếng Việt): {now_str}")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Diệt Lỗi Gộp Trận): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
@@ -428,8 +407,7 @@ def scrape_and_push():
         raw_matches = valid_matches[:LIMIT_MATCHES]
         print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...")
 
-        global_seen_streams = set()
-
+        # Đã xóa sổ global_seen_streams ở đây!
         for idx, m in enumerate(raw_matches, 1):
             
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
@@ -437,12 +415,10 @@ def scrape_and_push():
             
             m["streams"] = []
             if m.get("isLiveUI") or any(char.isdigit() for char in m["timeStr"]):
-                m["streams"] = capture_stream(page, m["href"], global_seen_streams)
+                m["streams"] = capture_stream(page, m["href"])
                 
                 if m["streams"]:
                     print(f"      ✅ Đã tóm được {len(m['streams'])} link!")
-                    for s in m["streams"]:
-                        global_seen_streams.add(s["url"])
                 else:
                     print("      ❌ Không có link.")
             
