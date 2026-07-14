@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:01 14/07/2026",
+  "last_updated": "09:11 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-d52933fdb389",
-          "name": "⚽ Utah Jazz vs Chicago Bulls | NBA | 03:26 15/07/800",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972521.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972522.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972521.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d52933fdb389",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d52933fdb389",
-                  "name": "Utah Jazz vs Chicago Bulls",
-                  "streams": [
-                    {
-                      "id": "luongson-d52933fdb389",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4084b5429c",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f74a069e815f",
           "name": "⚽ Milwaukee Bucks vs Phoenix Suns | NBA | 03:26 15/07/900",
@@ -99,13 +46,65 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fabdac6c47",
+                          "id": "lnk-45dcfa3f08",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-c9707c78c6",
+                          "name": "BLV V.TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-d52933fdb389",
+          "name": "⚽ Utah Jazz vs Chicago Bulls | NBA | 03:26 15/07/800",
+          "tournament": "NBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972521.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972522.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972521.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-d52933fdb389",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-d52933fdb389",
+                  "name": "Utah Jazz vs Chicago Bulls",
+                  "streams": [
+                    {
+                      "id": "luongson-d52933fdb389",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
