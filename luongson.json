@@ -1,12 +1,79 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:11 14/07/2026",
+  "last_updated": "07:21 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-096cd14064b2",
+          "name": "⚽ Itabaiana(Se) vs Brusque Fc | Brasileiro, Serie C | Không rõ",
+          "tournament": "Brasileiro, Serie C",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11595_1jnmg7vwfvj.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-096cd14064b2",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-096cd14064b2",
+                  "name": "Itabaiana(Se) vs Brusque Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-096cd14064b2",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-399e611a40",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-8da14a6f33",
+                          "name": "BLV L.QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-6cfbd438ee",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-e872e4545455",
           "name": "⚽ Atletico Atlanta vs Colegiales | Argentine Division 2 | Không rõ",
@@ -46,25 +113,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d25beec6aa",
-                          "name": "Mặc định",
+                          "id": "lnk-bfea1cbdba",
+                          "name": "BLV Y.THANH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-0b94b5fdce",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-8fdfbf5ad0",
-                          "name": "BLV V.TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -93,10 +146,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -110,59 +163,6 @@
                   "streams": [
                     {
                       "id": "luongson-cef5c3f7fdd1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-62c726d9b5",
-                          "name": "BLV Y.THANH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-096cd14064b2",
-          "name": "⚽ Itabaiana(Se) vs Brusque Fc | Brasileiro, Serie C | Không rõ",
-          "tournament": "Brasileiro, Serie C",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11595_1jnmg7vwfvj.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3346_167376773696.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-096cd14064b2",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-096cd14064b2",
-                  "name": "Itabaiana(Se) vs Brusque Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-096cd14064b2",
                       "name": "F",
                       "stream_links": []
                     }
