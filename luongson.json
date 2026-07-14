@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:31 14/07/2026",
+  "last_updated": "21:41 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c2c4633619",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-cd51a7ac6e",
+                          "id": "lnk-4778bd51e1",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-06b2de0c32",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -106,11 +106,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b3af8ef53e",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-d8d8f03fb9",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-41d5ea6cec",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-8f4ed7860e",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
