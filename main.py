@@ -6,8 +6,9 @@ import uuid
 import hashlib
 import datetime
 import requests
+import unicodedata
 from github import Github
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 # =========================================================
 # BỘ GIÁP STEALTH
@@ -16,8 +17,12 @@ def apply_stealth(page):
     try:
         from playwright_stealth import stealth_sync
         stealth_sync(page)
-    except Exception:
-        pass
+    except ImportError:
+        try:
+            from playwright_stealth import Stealth
+            Stealth().apply_stealth_sync(page)
+        except: pass
+    except: pass
 
 # =========================================================
 # CONFIG LƯƠNG SƠN TV
@@ -164,16 +169,22 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# LƯỚI QUÉT SIÊU TỐC (MỖI TRẬN LÀ MỘT TRANG GIẤY TRẮNG)
+# LƯỚI QUÉT SIÊU TỐC (CHỈ LẤY M3U8 + CHỐNG LOẠN TÊN)
 # =========================================================
 def capture_stream(page, match_url):
     stream_dict = {} # url -> tên BLV
-    state = {"current_blv": "Mặc định"}
+    state = {"current_blv": "Luồng Chính"}
+    # 💡 Bổ sung 'playlist' vào danh sách đen để chặn rác
+    BAD_KEYWORDS = ["quangcao", "tvc", ".ts", "playlist", "ad.m3u8"]
     
+    def is_valid_m3u8(url_check):
+        u = url_check.lower()
+        return ".m3u8" in u and not any(bad in u for bad in BAD_KEYWORDS)
+
     def handle_response(response):
         try:
             u = response.url
-            if ".m3u8" in u.lower() and "quangcao" not in u.lower():
+            if is_valid_m3u8(u):
                 if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
                     u = u.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
                 if u not in stream_dict:
@@ -182,41 +193,30 @@ def capture_stream(page, match_url):
 
     page.on("response", handle_response)
     
-    def extract_current_dom(blv_name):
-        try:
-            api_data = page.evaluate("window.__apiData || []")
-            for item in api_data:
-                text = item.get("text", "")
-                matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.m3u8[^"\'\s<>]*', text)
-                for m in matches:
-                    clean_link = m.replace('\\/', '/')
-                    if "quangcao" not in clean_link.lower():
-                        if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
-                            clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
-                        if clean_link not in stream_dict:
-                            stream_dict[clean_link] = blv_name
-        except: pass
-
     try:
         page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
         page.wait_for_timeout(1500)
-        
-        # 1. Bóc Danh Sách BLV (Lấy thẳng tên trong phòng Live)
-        blvs_info = page.evaluate("""() => {
-            let defaultName = "Mặc định";
-            // Bóc tên từ dòng chữ "BLV: BLV YẾN THANH Theo dõi - 46K"
-            let match = document.body.innerText.match(/BLV:\\s*(BLV\\s*[^\\n]+)/i);
-            if (match) {
-                defaultName = match[1].replace(/Theo dõi.*/gi, '').replace(/-/g, '').trim();
-            }
-            
+        try:
+            vp = page.viewport_size
+            if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
+        except: pass
+
+        # 💡 FIX LỖI 35 BLV: Chỉ bóc các nút BLV có đường dẫn khớp với trận đấu hiện tại
+        blvs = page.evaluate("""() => {
+            let currentPath = window.location.pathname.replace(/\\/$/, '');
             let links = [];
             document.querySelectorAll('a[href*="blv="]').forEach(a => {
-                let name = a.innerText.split('\\n')[0].replace(/Theo dõi.*/gi, '').replace(/BLV\\s*:\\s*/i, '').trim();
-                if (!name.toUpperCase().includes("BLV")) name = "BLV " + name;
-                links.push({href: a.href, name: name});
+                try {
+                    let u = new URL(a.href);
+                    // CHỈ LẤY NẾU ĐƯỜNG DẪN TRÙNG KHỚP VỚI TRẬN NÀY
+                    if (u.pathname.replace(/\\/$/, '') === currentPath) {
+                        let name = a.innerText.split('\\n')[0].trim();
+                        name = name.replace(/Theo dõi.*/gi, '').replace(/BLV\\s*:\\s*/i, '').trim();
+                        if (!name.toUpperCase().includes("BLV")) name = "BLV " + name;
+                        links.push({href: a.href, name: name});
+                    }
+                } catch(e) {}
             });
-            
             // Lọc trùng
             let unique = [];
             let seen = new Set();
@@ -226,29 +226,47 @@ def capture_stream(page, match_url):
                     unique.push(l);
                 }
             }
-            return { defaultName: defaultName, links: unique };
+            return unique;
         }""")
 
-        if blvs_info:
-            print(f"      > Phát hiện {len(blvs_info['links'])} Tùy chọn BLV phụ.")
-            state["current_blv"] = blvs_info["defaultName"]
-            page.wait_for_timeout(1000)
-            extract_current_dom(state["current_blv"])
-            
-            # Quét các BLV khác
-            for blv in blvs_info["links"][:5]: 
+        if blvs:
+            print(f"      > Phát hiện {len(blvs)} BLV cho trận này. Đang quét thần tốc...")
+            for blv in blvs[:6]: 
                 state["current_blv"] = blv["name"]
+                # Xóa sạch API cũ trước khi click sang BLV mới
+                page.evaluate("window.__apiData = [];")
                 try:
                     page.evaluate(f"""(h) => {{
                         let btn = document.querySelector(`a[href="${{h}}"]`);
                         if(btn) btn.click();
                     }}""", blv["href"])
-                    page.wait_for_timeout(1000)
-                    extract_current_dom(state["current_blv"])
                 except: pass
+                
+                # Polling Siêu Tốc (Dừng ngay khi có link)
+                poll_deadline = time.time() + 2.5
+                while time.time() < poll_deadline:
+                    # Bóc tay từ API Inject
+                    try:
+                        api_data = page.evaluate("window.__apiData || []")
+                        for item in api_data:
+                            text = item.get("text", "")
+                            matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.m3u8[^"\'\s<>]*', text)
+                            for m in matches:
+                                clean_link = m.replace('\\/', '/')
+                                if is_valid_m3u8(clean_link):
+                                    if "cdnfaster-a.live/" in clean_link and "cdnfaster-a.live/live/" not in clean_link:
+                                        clean_link = clean_link.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
+                                    if clean_link not in stream_dict:
+                                        stream_dict[clean_link] = state["current_blv"]
+                    except: pass
+                    
+                    if any(v == blv["name"] for v in stream_dict.values()):
+                        break # Đã bắt được! Chạy thẳng sang ông BLV tiếp theo!
+                    time.sleep(0.3)
         else:
-            extract_current_dom(state["current_blv"])
-            
+            # Chờ thêm 3s nếu không có nút BLV nào để vớt Luồng Chính
+            page.wait_for_timeout(3000)
+                
     except Exception as e:
         print(f"      ⚠️ Lỗi khi mở phòng Live: {e}")
     finally:
@@ -259,7 +277,8 @@ def capture_stream(page, match_url):
     
     # Gom link và tính điểm ưu tiên server
     for u, name in stream_dict.items():
-        if name == "Mặc định":
+        if name == "Luồng Chính":
+            # Tự động gọt tên từ URL cho luồng chính (VD: /live/YENTHANH1/ -> BLV YENTHANH1)
             match_blv = re.search(r'/live/([^/?#\.]+)', u, re.IGNORECASE)
             if match_blv and match_blv.group(1).upper() != "PLAYLIST":
                 name = f"BLV {match_blv.group(1).upper()}"
@@ -325,7 +344,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Diệt Lỗi Gộp Trận): {now_str}")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Diệt Lỗi Cào Loạn): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
@@ -407,7 +426,7 @@ def scrape_and_push():
         raw_matches = valid_matches[:LIMIT_MATCHES]
         print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...")
 
-        # Đã xóa sổ global_seen_streams ở đây!
+        # 💡 Đã tiêu diệt `global_seen_streams` khỏi vòng lặp
         for idx, m in enumerate(raw_matches, 1):
             
             m["timeStr"] = m.get("timeStr") or parse_time_from_url(m["href"]) or "Không rõ"
@@ -415,6 +434,7 @@ def scrape_and_push():
             
             m["streams"] = []
             if m.get("isLiveUI") or any(char.isdigit() for char in m["timeStr"]):
+                # 💡 Mỗi trận là một trang giấy mới
                 m["streams"] = capture_stream(page, m["href"])
                 
                 if m["streams"]:
