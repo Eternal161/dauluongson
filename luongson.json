@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:41 14/07/2026",
+  "last_updated": "07:51 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,81 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1a283d98e5",
-                          "name": "Mặc định",
+                          "id": "lnk-547686ec8c",
+                          "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-085f4f6f68",
-                          "name": "BLV Y.THANH",
+                          "id": "lnk-4c32a1adba",
+                          "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-3973ee3ee0",
-                          "name": "BLV V.TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-cef5c3f7fdd1",
-          "name": "⚽ Ceara vs Athletic Club Mg | Brazil Serie B | Không rõ",
-          "tournament": "Brazil Serie B",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1755_1grmn77tvad.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38678_1hptb8ckca1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1755_1grmn77tvad.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-cef5c3f7fdd1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-cef5c3f7fdd1",
-                  "name": "Ceara vs Athletic Club Mg",
-                  "streams": [
-                    {
-                      "id": "luongson-cef5c3f7fdd1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e543d43cd1",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
                         },
                         {
-                          "id": "lnk-249e0904a4",
+                          "id": "lnk-c791e3db22",
                           "name": "BLV K.KAKA",
                           "type": "hls",
                           "default": false,
@@ -153,10 +93,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live H1 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -170,6 +110,66 @@
                   "streams": [
                     {
                       "id": "luongson-23da5fc0df7a",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52cc847df1",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        },
+                        {
+                          "id": "lnk-919423a627",
+                          "name": "BLV V.TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-cef5c3f7fdd1",
+          "name": "⚽ Ceara vs Athletic Club Mg | Brazil Serie B | Không rõ",
+          "tournament": "Brazil Serie B",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1755_1grmn77tvad.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38678_1hptb8ckca1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/1755_1grmn77tvad.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-cef5c3f7fdd1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-cef5c3f7fdd1",
+                  "name": "Ceara vs Athletic Club Mg",
+                  "streams": [
+                    {
+                      "id": "luongson-cef5c3f7fdd1",
                       "name": "F",
                       "stream_links": []
                     }
