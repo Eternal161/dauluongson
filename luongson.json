@@ -1,79 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:11 14/07/2026",
+  "last_updated": "22:21 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-3bd2dcc8f03d",
-          "name": "⚽ Kups vs Fc Vardar Skopje | UEFA Champions League | Không rõ",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/811_1gshkpdwvg13.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-3bd2dcc8f03d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-3bd2dcc8f03d",
-                  "name": "Kups vs Fc Vardar Skopje",
-                  "streams": [
-                    {
-                      "id": "luongson-3bd2dcc8f03d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d394553bee",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-9d72f22534",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-7010214217",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f1ed23300367",
           "name": "⚽ Lokomotiv Moscow vs Cska Moscow | International Club Friendly | Không rõ",
@@ -113,18 +46,85 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4e606d9d3c",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-0e0ae264c5",
+                          "id": "lnk-78422e6f88",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-60aab74122",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3bd2dcc8f03d",
+          "name": "⚽ Kups vs Fc Vardar Skopje | UEFA Champions League | Không rõ",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/811_1gshkpdwvg13.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1770466639.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3bd2dcc8f03d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3bd2dcc8f03d",
+                  "name": "Kups vs Fc Vardar Skopje",
+                  "streams": [
+                    {
+                      "id": "luongson-3bd2dcc8f03d",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0fe6beff2a",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-df0edbbcab",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-d3753c1dbe",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -173,7 +173,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2014aef51e",
+                          "id": "lnk-b957fb5e42",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -406,7 +406,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0f91d142d5",
+                          "id": "lnk-b930a19027",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
