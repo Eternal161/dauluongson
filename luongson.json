@@ -1,12 +1,79 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "08:11 14/07/2026",
+  "last_updated": "08:21 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-e872e4545455",
+          "name": "⚽ Atletico Atlanta vs Colegiales | Argentine Division 2 | Không rõ",
+          "tournament": "Argentine Division 2",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11700_20130917091542.jpg?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11767_1gzcyzgemh2p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/11700_20130917091542.jpg?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e872e4545455",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e872e4545455",
+                  "name": "Atletico Atlanta vs Colegiales",
+                  "streams": [
+                    {
+                      "id": "luongson-e872e4545455",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23c8c083fb",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-afe55ddd1c",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-8413c7426a",
+                          "name": "BLV V.TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-cef5c3f7fdd1",
           "name": "⚽ Ceara vs Athletic Club Mg | Brazil Serie B | Không rõ",
@@ -46,21 +113,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b58d67ad05",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        },
-                        {
-                          "id": "lnk-c8bdd59fa7",
+                          "id": "lnk-8541f56f51",
                           "name": "BLV Y.THANH",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-8fbadf028b",
+                          "id": "lnk-0be7d7e9b9",
                           "name": "BLV K.KAKA",
                           "type": "hls",
                           "default": false,
@@ -75,11 +135,11 @@
           ]
         },
         {
-          "id": "luongson-e872e4545455",
-          "name": "⚽ Atletico Atlanta vs Colegiales | Argentine Division 2 | Không rõ",
-          "tournament": "Argentine Division 2",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/11700_20130917091542.jpg?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/11767_1gzcyzgemh2p.png?v=2.4.3",
+          "id": "luongson-d52933fdb389",
+          "name": "⚽ Utah Jazz vs Chicago Bulls | NBA | 03:26 15/07/800",
+          "tournament": "NBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972521.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972522.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -87,46 +147,31 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/11700_20130917091542.jpg?v=2.4.3",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972521.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
             {
-              "id": "luongson-e872e4545455",
+              "id": "luongson-d52933fdb389",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-e872e4545455",
-                  "name": "Atletico Atlanta vs Colegiales",
+                  "id": "luongson-d52933fdb389",
+                  "name": "Utah Jazz vs Chicago Bulls",
                   "streams": [
                     {
-                      "id": "luongson-e872e4545455",
+                      "id": "luongson-d52933fdb389",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e4cfc23ab",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        },
-                        {
-                          "id": "lnk-f25d5b0b4c",
-                          "name": "BLV V.TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -170,51 +215,6 @@
                   "streams": [
                     {
                       "id": "luongson-23da5fc0df7a",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d52933fdb389",
-          "name": "⚽ Utah Jazz vs Chicago Bulls | NBA | 08:00",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972521.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972522.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972521.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d52933fdb389",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d52933fdb389",
-                  "name": "Utah Jazz vs Chicago Bulls",
-                  "streams": [
-                    {
-                      "id": "luongson-d52933fdb389",
                       "name": "F",
                       "stream_links": []
                     }
