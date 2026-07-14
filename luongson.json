@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:11 14/07/2026",
+  "last_updated": "12:21 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,13 +46,65 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ce219c3b47",
+                          "id": "lnk-3cb81168f0",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-140e10c193",
+                          "name": "BLV T.THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-153412ba804a",
+          "name": "⚽ Pháp vs Ma Rốc | WC 2026 | 03:26 15/07/1200",
+          "tournament": "WC 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784005961.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784005963.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784005961.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-153412ba804a",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-153412ba804a",
+                  "name": "Pháp vs Ma Rốc",
+                  "streams": [
+                    {
+                      "id": "luongson-153412ba804a",
+                      "name": "F",
+                      "stream_links": []
                     }
                   ]
                 }
@@ -304,10 +356,10 @@
           },
           "labels": [
             {
-              "text": "● Live 15:15",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -322,15 +374,7 @@
                     {
                       "id": "luongson-7ace9e6932da",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c3055071e",
-                          "name": "BLV L.REPLAY",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -644,51 +688,6 @@
                   "streams": [
                     {
                       "id": "luongson-836c129b586c",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-6f0ea9ea7a79",
-          "name": "⚽ T T Hanoi U21 vs Hung Vuong An Giang U21 | Vietnam Championship U21 | 18:00",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23278_1jzadx84m12v.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-6f0ea9ea7a79",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-6f0ea9ea7a79",
-                  "name": "T T Hanoi U21 vs Hung Vuong An Giang U21",
-                  "streams": [
-                    {
-                      "id": "luongson-6f0ea9ea7a79",
                       "name": "F",
                       "stream_links": []
                     }
