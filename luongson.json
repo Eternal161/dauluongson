@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:21 14/07/2026",
+  "last_updated": "22:31 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,14 +46,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-78422e6f88",
+                          "id": "lnk-64c88b40df",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         },
                         {
-                          "id": "lnk-60aab74122",
+                          "id": "lnk-8bb2af4114",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": false,
@@ -106,21 +106,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0fe6beff2a",
+                          "id": "lnk-a356e2913f",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-df0edbbcab",
+                          "id": "lnk-e4aa3481a2",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-d3753c1dbe",
+                          "id": "lnk-87e303ad2d",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -173,7 +173,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b957fb5e42",
+                          "id": "lnk-c58fd33f8e",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -251,10 +251,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -269,7 +269,15 @@
                     {
                       "id": "luongson-e1c3fe675bb8",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c09a50a89",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -406,7 +414,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b930a19027",
+                          "id": "lnk-279c275ccf",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
