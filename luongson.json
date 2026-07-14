@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:41 15/07/2026",
+  "last_updated": "01:51 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,32 +46,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5f7895eff1",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-03e9bb62b9",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-0e932347c5",
+                          "id": "lnk-f88131e0aa",
                           "name": "BLV KAKA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-60fbab9943",
+                          "id": "lnk-3773412415",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-f944c4e83f",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-1a97670ed9",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -120,7 +120,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6a31846da9",
+                          "id": "lnk-2297bea035",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -173,7 +173,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d87af2af4e",
+                          "id": "lnk-3cc3ded60e",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -226,7 +226,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-43cdcc76c8",
+                          "id": "lnk-fecb27d10d",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -259,7 +259,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -279,64 +279,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d0bf3510ed",
+                          "id": "lnk-c173f8cf70",
                           "name": "BLV HEINEKEN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fe422d0886b4",
-          "name": "⚽ Lask Linz vs Fenerbahce | International Club Friendly | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/920_1gpyst1m7k1t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/920_1gpyst1m7k1t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fe422d0886b4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fe422d0886b4",
-                  "name": "Lask Linz vs Fenerbahce",
-                  "streams": [
-                    {
-                      "id": "luongson-fe422d0886b4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-81b0f8fe6f",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -385,11 +332,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c4b453a0ef",
+                          "id": "lnk-fcc0ffdcc5",
                           "name": "BLV LYUNG1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-fe422d0886b4",
+          "name": "⚽ Lask Linz vs Fenerbahce | International Club Friendly | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/920_1gpyst1m7k1t.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/492_1gv1ygch630.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/920_1gpyst1m7k1t.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 2",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-fe422d0886b4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-fe422d0886b4",
+                  "name": "Lask Linz vs Fenerbahce",
+                  "streams": [
+                    {
+                      "id": "luongson-fe422d0886b4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a98ad8d333",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -438,7 +438,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4833ebec33",
+                          "id": "lnk-a7542385ec",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -543,11 +543,11 @@
           ]
         },
         {
-          "id": "luongson-73d53750b6f1",
-          "name": "⚽ Sportivo Las Parejas vs Ca Timbuense | Argentina Santa Fe Cup | 07:00",
-          "tournament": "Argentina Santa Fe Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16036_1gv9qqjp847.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=CA&size=200&background=1565C0&color=ffffff&bold=true",
+          "id": "luongson-92047a9ed2bd",
+          "name": "⚽ Manta Fc vs Delfin Sc | Primera Division de Ecuador | 07:00",
+          "tournament": "Primera Division de Ecuador",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8575_1gw4a01aae19.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22313_1gt88ndnb22y.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -555,7 +555,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/16036_1gv9qqjp847.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/8575_1gw4a01aae19.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -569,15 +569,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-73d53750b6f1",
+              "id": "luongson-92047a9ed2bd",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-73d53750b6f1",
-                  "name": "Sportivo Las Parejas vs Ca Timbuense",
+                  "id": "luongson-92047a9ed2bd",
+                  "name": "Manta Fc vs Delfin Sc",
                   "streams": [
                     {
-                      "id": "luongson-73d53750b6f1",
+                      "id": "luongson-92047a9ed2bd",
                       "name": "F",
                       "stream_links": []
                     }
@@ -633,11 +633,11 @@
           ]
         },
         {
-          "id": "luongson-92047a9ed2bd",
-          "name": "⚽ Manta Fc vs Delfin Sc | Primera Division de Ecuador | 07:00",
-          "tournament": "Primera Division de Ecuador",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8575_1gw4a01aae19.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/22313_1gt88ndnb22y.png?v=2.4.3",
+          "id": "luongson-73d53750b6f1",
+          "name": "⚽ Sportivo Las Parejas vs Ca Timbuense | Argentina Santa Fe Cup | 07:00",
+          "tournament": "Argentina Santa Fe Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16036_1gv9qqjp847.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=CA&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -645,7 +645,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8575_1gw4a01aae19.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/16036_1gv9qqjp847.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -659,15 +659,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-92047a9ed2bd",
+              "id": "luongson-73d53750b6f1",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-92047a9ed2bd",
-                  "name": "Manta Fc vs Delfin Sc",
+                  "id": "luongson-73d53750b6f1",
+                  "name": "Sportivo Las Parejas vs Ca Timbuense",
                   "streams": [
                     {
-                      "id": "luongson-92047a9ed2bd",
+                      "id": "luongson-73d53750b6f1",
                       "name": "F",
                       "stream_links": []
                     }
