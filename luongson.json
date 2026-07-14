@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:41 14/07/2026",
+  "last_updated": "18:49 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,32 +46,173 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a30ba71453",
-                          "name": "Mặc định",
+                          "id": "lnk-5bc6dae3e1",
+                          "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-a717a92a29",
-                          "name": "BLV N.THÉP",
+                          "id": "lnk-817618eb16",
+                          "name": "BLV YẾN THANH",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
                         },
                         {
-                          "id": "lnk-00b1cb224c",
+                          "id": "lnk-43c19b344c",
+                          "name": "BLV L.ỨNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f6242f366bcb",
+          "name": "⚽ Ho Chi Minh City U21 vs Pvf-Cand U21 | Vietnam Championship U21 | Không rõ",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23277_1h9cfan0wj1g.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/40313_1hatnm7qwwk.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23277_1h9cfan0wj1g.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f6242f366bcb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f6242f366bcb",
+                  "name": "Ho Chi Minh City U21 vs Pvf-Cand U21",
+                  "streams": [
+                    {
+                      "id": "luongson-f6242f366bcb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63cab24c31",
+                          "name": "BLV LUUBI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-8d54a539de",
+                          "name": "BLV VUONGLUAN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-6571efd7f8",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-9cec3a9782",
                           "name": "BLV L.BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dfb42ade6943",
+          "name": "⚽ Zhejiang Professional Fc vs Qingdao Manatee | Chinese Super League | Không rõ",
+          "tournament": "Chinese Super League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dfb42ade6943",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dfb42ade6943",
+                  "name": "Zhejiang Professional Fc vs Qingdao Manatee",
+                  "streams": [
+                    {
+                      "id": "luongson-dfb42ade6943",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d12bef09f7",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-d7ceef82e2",
+                          "name": "BLV LUUBI",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-82466d9586",
-                          "name": "BLV K.KAKA",
+                          "id": "lnk-7371fad15f",
+                          "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-47aab2990d",
+                          "name": "BLV L.BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -120,65 +261,27 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ab761617a7",
-                          "name": "Mặc định",
+                          "id": "lnk-0514cee2db",
+                          "name": "BLV LYUNG1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         },
                         {
-                          "id": "lnk-931b770433",
-                          "name": "BLV P.HỔ",
+                          "id": "lnk-2449a52a26",
+                          "name": "BLV LÝ ỨNG",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-79c66c0a48",
+                          "name": "BLV L.BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-dfb42ade6943",
-          "name": "⚽ Zhejiang Professional Fc vs Qingdao Manatee | Chinese Super League | Không rõ",
-          "tournament": "Chinese Super League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/37_1gy3vkgfwg2p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/496_1h8qpaemwc10.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dfb42ade6943",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dfb42ade6943",
-                  "name": "Zhejiang Professional Fc vs Qingdao Manatee",
-                  "streams": [
-                    {
-                      "id": "luongson-dfb42ade6943",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -225,63 +328,31 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1c473c70f3",
-                          "name": "Mặc định",
+                          "id": "lnk-e49aa30896",
+                          "name": "BLV NGUOITHEP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-f6242f366bcb",
-          "name": "⚽ Ho Chi Minh City U21 vs Pvf-Cand U21 | Vietnam Championship U21 | Không rõ",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23277_1h9cfan0wj1g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/40313_1hatnm7qwwk.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23277_1h9cfan0wj1g.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f6242f366bcb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f6242f366bcb",
-                  "name": "Ho Chi Minh City U21 vs Pvf-Cand U21",
-                  "streams": [
-                    {
-                      "id": "luongson-f6242f366bcb",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
                         {
-                          "id": "lnk-fde4bb0a64",
-                          "name": "Mặc định",
+                          "id": "lnk-274eafe050",
+                          "name": "BLV LUBO",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-26b902d8a9",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-d34ce5dca5",
+                          "name": "BLV L.ỨNG",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
@@ -311,10 +382,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live HT 3 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -329,7 +400,29 @@
                     {
                       "id": "luongson-6f0ea9ea7a79",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d9897b0fef",
+                          "name": "BLV PHIHO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-dd921c4143",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-7badc02aaf",
+                          "name": "BLV V.LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -342,7 +435,7 @@
           "name": "⚽ Bff Academy U19 vs Drukpa Fc | Bhutan Thimphu League | 19:00",
           "tournament": "Bhutan Thimphu League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/58071_166969335825.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=Dr&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784029434.webp?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -376,18 +469,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-36f0b49175",
-                          "name": "Mặc định",
+                          "id": "lnk-740224aa2c",
+                          "name": "BLV LUUBI",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-0d9d7a1f4a",
+                          "name": "BLV LAOHAC",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-596adcd898",
-                          "name": "BLV TÀO THÁO",
+                          "id": "lnk-727867888d",
+                          "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-d703b801d5",
+                          "name": "BLV V.LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -416,10 +523,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 21:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -434,7 +541,22 @@
                     {
                       "id": "luongson-f1ed23300367",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-987bc0363d",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-a84e9e218f",
+                          "name": "BLV V.LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -461,10 +583,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -479,7 +601,22 @@
                     {
                       "id": "luongson-3bd2dcc8f03d",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ecd23473ca",
+                          "name": "BLV LUBO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-899e92abcb",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -506,10 +643,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -524,7 +661,22 @@
                     {
                       "id": "luongson-d3fea7089052",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e29d8d739",
+                          "name": "BLV NGUOITHEP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-2e8fe92dca",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -551,10 +703,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -569,7 +721,22 @@
                     {
                       "id": "luongson-8e2ca8de2f38",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7eb82112eb",
+                          "name": "BLV LUUBI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-6a16bf1324",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -596,10 +763,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -614,7 +781,29 @@
                     {
                       "id": "luongson-e1c3fe675bb8",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-170dbeac35",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-e9fd54c7cf",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-f5d316b9a3",
+                          "name": "BLV N.THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -641,10 +830,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 23:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -659,7 +848,29 @@
                     {
                       "id": "luongson-10acecb89d60",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-71382fc7fa",
+                          "name": "BLV LUUBI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-a52dfea3ca",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-afaaa22676",
+                          "name": "BLV L.ỨNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -686,10 +897,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -704,7 +915,15 @@
                     {
                       "id": "luongson-cba2b5e9c20b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a6a7b13bd",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -731,10 +950,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -749,7 +968,29 @@
                     {
                       "id": "luongson-881da6b748d3",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-41471c3470",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-ccc0980bf3",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://tvc.cdnfaster-a.live/live/playlist.m3u8"
+                        },
+                        {
+                          "id": "lnk-96940c2b8d",
+                          "name": "BLV V.LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
                     }
                   ]
                 }
