@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:21 14/07/2026",
+  "last_updated": "13:31 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,25 +46,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2c69802801",
-                          "name": "BLV LEO REPLAY",
+                          "id": "lnk-d894da9122",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
                         },
                         {
-                          "id": "lnk-c55fadc228",
-                          "name": "BLV L.QUỲ",
+                          "id": "lnk-2bfaed0894",
+                          "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         },
                         {
-                          "id": "lnk-677b0ce899",
+                          "id": "lnk-27ac8dff0e",
                           "name": "BLV T.THÁO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-d7d12ca5ae",
+                          "name": "BLV L.QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -93,10 +100,10 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -111,15 +118,7 @@
                     {
                       "id": "luongson-606ffaab6950",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-363b3e5f69",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
