@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:21 14/07/2026",
+  "last_updated": "23:31 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-e74a0b749759",
-          "name": "⚽ Korona Kielce vs Stal Rzeszow | International Club Friendly | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9888_1hck9fzp2a1g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e74a0b749759",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e74a0b749759",
-                  "name": "Korona Kielce vs Stal Rzeszow",
-                  "streams": [
-                    {
-                      "id": "luongson-e74a0b749759",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11f3b735d8",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-3bd2dcc8f03d",
           "name": "⚽ Kups vs Fc Vardar Skopje | UEFA Champions League | Không rõ",
@@ -99,21 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f84b22253d",
+                          "id": "lnk-d4f34bae10",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-fe3fdf4097",
+                          "id": "lnk-92d80593f1",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-b78b6d3bfd",
+                          "id": "lnk-05f4b7e7cb",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
@@ -166,7 +113,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4a266fadb9",
+                          "id": "lnk-cbfc54e4b5",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
@@ -181,8 +128,61 @@
           ]
         },
         {
+          "id": "luongson-e74a0b749759",
+          "name": "⚽ Korona Kielce vs Stal Rzeszow | International Club Friendly | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9888_1hck9fzp2a1g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e74a0b749759",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e74a0b749759",
+                  "name": "Korona Kielce vs Stal Rzeszow",
+                  "streams": [
+                    {
+                      "id": "luongson-e74a0b749759",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f68ac491ba",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-10acecb89d60",
-          "name": "⚽ Sporting Cp vs Celtic Fc | International Club Friendly | 23:30",
+          "name": "⚽ Sporting Cp vs Celtic Fc | International Club Friendly | Không rõ",
           "tournament": "International Club Friendly",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/425_165095607959.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/62_1k1cxzact61y.png?v=2.4.3",
@@ -199,7 +199,7 @@
           },
           "labels": [
             {
-              "text": "● Live 23:30",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -219,14 +219,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6cc2d1e157",
+                          "id": "lnk-de8d5c2a21",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-7e9b8c1cbb",
+                          "id": "lnk-d013f4856e",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": false,
@@ -324,7 +324,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e3e253ca04",
+                          "id": "lnk-301b1dcee3",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
