@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "02:51 15/07/2026",
+  "last_updated": "03:01 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live HT 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,21 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4164e40ebf",
+                          "id": "lnk-b75b9178c4",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-f4efcf911d",
+                          "id": "lnk-e1be24176c",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         },
                         {
-                          "id": "lnk-96e5592a6c",
+                          "id": "lnk-3044749ab0",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
@@ -113,11 +113,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-36bfdab88e",
+                          "id": "lnk-4667a18227",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        },
+                        {
+                          "id": "lnk-8abcd19be6",
+                          "name": "BLV MASIEU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -129,7 +136,7 @@
         },
         {
           "id": "luongson-2aaef657d766",
-          "name": "⚽ Shamrock Rovers vs Floriana F.C. | UEFA Champions League | Không rõ",
+          "name": "⚽ Shamrock Rovers vs Floriana F.C. | UEFA Champions League | 02:00",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/164_165958084230.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/5716_1gq92v4d1jn.png?v=2.4.3",
@@ -146,7 +153,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "● Live HT 02:00",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -166,7 +173,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-88550aa7f9",
+                          "id": "lnk-3dd18754aa",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
@@ -264,7 +271,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cfa35338e2",
+                          "id": "lnk-4991de2389",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -342,10 +349,10 @@
           },
           "labels": [
             {
-              "text": "● Live 07:00",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -360,15 +367,7 @@
                     {
                       "id": "luongson-da1c237f3aba",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5db3ee403a",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
