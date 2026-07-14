@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "10:51 14/07/2026",
+  "last_updated": "11:01 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f74a069e815f",
-          "name": "⚽ Milwaukee Bucks vs Phoenix Suns | NBA | 03:26 15/07/900",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972828.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f74a069e815f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f74a069e815f",
-                  "name": "Milwaukee Bucks vs Phoenix Suns",
-                  "streams": [
-                    {
-                      "id": "luongson-f74a069e815f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4abcca314d",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-7da74e0dbf",
-                          "name": "BLV L.QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-c7050b32d4aa",
           "name": "⚽ Portland Trail Blazers vs Minnesota Timberwolves | NBASL | 03:26 15/07/1000",
@@ -86,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -103,6 +43,66 @@
                   "streams": [
                     {
                       "id": "luongson-c7050b32d4aa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8efa727008",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        },
+                        {
+                          "id": "lnk-dce78041db",
+                          "name": "BLV Y.THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f74a069e815f",
+          "name": "⚽ Milwaukee Bucks vs Phoenix Suns | NBA | 03:26 15/07/900",
+          "tournament": "NBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972828.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f74a069e815f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f74a069e815f",
+                  "name": "Milwaukee Bucks vs Phoenix Suns",
+                  "streams": [
+                    {
+                      "id": "luongson-f74a069e815f",
                       "name": "F",
                       "stream_links": []
                     }
