@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:51 14/07/2026",
+  "last_updated": "16:01 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,32 +46,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-e45f62c03e",
-                          "name": "BLV VÕ TÒNG",
+                          "id": "lnk-03cb399f7d",
+                          "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-c3081a0365",
-                          "name": "BLV P.HỔ",
+                          "id": "lnk-e2ef6c771e",
+                          "name": "BLV L.QUỲ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-5851ae651b",
-                          "name": "BLV N.THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        },
-                        {
-                          "id": "lnk-08241d7d8e",
+                          "id": "lnk-ee8cc4b432",
                           "name": "BLV L.ỨNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        },
+                        {
+                          "id": "lnk-187e1bdad0",
+                          "name": "BLV N.THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -100,7 +100,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -120,11 +120,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-432aeb78f0",
-                          "name": "Mặc định",
+                          "id": "lnk-543b4a13d0",
+                          "name": "BLV P.HỔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -180,8 +180,8 @@
           ]
         },
         {
-          "id": "luongson-f7ebaa861915",
-          "name": "⚽ Hebei Snow Ruyi W vs Fujian Nanan (W) | China League Women | Không rõ",
+          "id": "luongson-233553a5ff09",
+          "name": "⚽ Hebei Snow Ruyi W vs Fujian Nanan (W) | China League Women | 03:26 15/07/1515",
           "tournament": "China League Women",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69760_1jzrzndnsa2k.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/65207_1hw4vjdvp0g.png?v=2.4.3",
@@ -206,77 +206,17 @@
           ],
           "sources": [
             {
-              "id": "luongson-f7ebaa861915",
+              "id": "luongson-233553a5ff09",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-f7ebaa861915",
+                  "id": "luongson-233553a5ff09",
                   "name": "Hebei Snow Ruyi W vs Fujian Nanan (W)",
                   "streams": [
                     {
-                      "id": "luongson-f7ebaa861915",
+                      "id": "luongson-233553a5ff09",
                       "name": "F",
                       "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-553dbb4b55f3",
-          "name": "⚽ Ha Noi Ii(W) vs Than Ksvn (W) | Vietnam Women's League | 16:00",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 16:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-553dbb4b55f3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-553dbb4b55f3",
-                  "name": "Ha Noi Ii(W) vs Than Ksvn (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-553dbb4b55f3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f210e178b9",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-3ffc7e1442",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
                     }
                   ]
                 }
@@ -330,51 +270,6 @@
           ]
         },
         {
-          "id": "luongson-46d9f7435b65",
-          "name": "⚽ Rochedale Rovers vs Sd Raiders Fc | Australia FFA Cup | 16:30",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-46d9f7435b65",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-46d9f7435b65",
-                  "name": "Rochedale Rovers vs Sd Raiders Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-46d9f7435b65",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-fda6faef36d2",
           "name": "⚽ A.P.I.A. Leichhardt Tigers vs Peninsula Power | Australia FFA Cup | 16:30",
           "tournament": "Australia FFA Cup",
@@ -393,10 +288,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 16:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -411,7 +306,75 @@
                     {
                       "id": "luongson-fda6faef36d2",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-21a922adc9",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-46d9f7435b65",
+          "name": "⚽ Rochedale Rovers vs Sd Raiders Fc | Australia FFA Cup | 16:30",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 16:30",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-46d9f7435b65",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-46d9f7435b65",
+                  "name": "Rochedale Rovers vs Sd Raiders Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-46d9f7435b65",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2e85c850f8",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-9caa6228b8",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -725,6 +688,51 @@
                   "streams": [
                     {
                       "id": "luongson-66ff153072db",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f1ed23300367",
+          "name": "⚽ Lokomotiv Moscow vs Cska Moscow | International Club Friendly | 21:00",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/371_1gtqm0cjh91x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f1ed23300367",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f1ed23300367",
+                  "name": "Lokomotiv Moscow vs Cska Moscow",
+                  "streams": [
+                    {
+                      "id": "luongson-f1ed23300367",
                       "name": "F",
                       "stream_links": []
                     }
