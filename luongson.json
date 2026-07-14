@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:11 14/07/2026",
+  "last_updated": "09:21 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f74a069e815f",
-          "name": "⚽ Milwaukee Bucks vs Phoenix Suns | NBA | 03:26 15/07/900",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972828.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f74a069e815f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f74a069e815f",
-                  "name": "Milwaukee Bucks vs Phoenix Suns",
-                  "streams": [
-                    {
-                      "id": "luongson-f74a069e815f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45dcfa3f08",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        },
-                        {
-                          "id": "lnk-c9707c78c6",
-                          "name": "BLV V.TÒNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-d52933fdb389",
           "name": "⚽ Utah Jazz vs Chicago Bulls | NBA | 03:26 15/07/800",
@@ -86,10 +26,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -103,6 +43,66 @@
                   "streams": [
                     {
                       "id": "luongson-d52933fdb389",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-71cd882954",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-5f55c36303",
+                          "name": "BLV Y.THANH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f74a069e815f",
+          "name": "⚽ Milwaukee Bucks vs Phoenix Suns | NBA | 03:26 15/07/900",
+          "tournament": "NBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972828.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783972829.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f74a069e815f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f74a069e815f",
+                  "name": "Milwaukee Bucks vs Phoenix Suns",
+                  "streams": [
+                    {
+                      "id": "luongson-f74a069e815f",
                       "name": "F",
                       "stream_links": []
                     }
@@ -158,11 +158,11 @@
           ]
         },
         {
-          "id": "luongson-c1a891af41ff",
-          "name": "⚽ Shandong Jinghua Ii W vs Chongqing Olympic (W) | China League Women | 13:00",
+          "id": "luongson-7cba73f2cb46",
+          "name": "⚽ Shanghai Shenhua W vs Henan (W) | China League Women | 13:00",
           "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60910_1h4f5f6ptj2h.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9203_1k6kxjth8r1k.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -170,7 +170,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -184,15 +184,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-c1a891af41ff",
+              "id": "luongson-7cba73f2cb46",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-c1a891af41ff",
-                  "name": "Shandong Jinghua Ii W vs Chongqing Olympic (W)",
+                  "id": "luongson-7cba73f2cb46",
+                  "name": "Shanghai Shenhua W vs Henan (W)",
                   "streams": [
                     {
-                      "id": "luongson-c1a891af41ff",
+                      "id": "luongson-7cba73f2cb46",
                       "name": "F",
                       "stream_links": []
                     }
@@ -248,11 +248,11 @@
           ]
         },
         {
-          "id": "luongson-7cba73f2cb46",
-          "name": "⚽ Shanghai Shenhua W vs Henan (W) | China League Women | 13:00",
+          "id": "luongson-c1a891af41ff",
+          "name": "⚽ Shandong Jinghua Ii W vs Chongqing Olympic (W) | China League Women | 13:00",
           "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9203_1k6kxjth8r1k.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60910_1h4f5f6ptj2h.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -260,7 +260,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -274,15 +274,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-7cba73f2cb46",
+              "id": "luongson-c1a891af41ff",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-7cba73f2cb46",
-                  "name": "Shanghai Shenhua W vs Henan (W)",
+                  "id": "luongson-c1a891af41ff",
+                  "name": "Shandong Jinghua Ii W vs Chongqing Olympic (W)",
                   "streams": [
                     {
-                      "id": "luongson-7cba73f2cb46",
+                      "id": "luongson-c1a891af41ff",
                       "name": "F",
                       "stream_links": []
                     }
@@ -338,51 +338,6 @@
           ]
         },
         {
-          "id": "luongson-c4f2f4cb43f8",
-          "name": "⚽ Qingdao West (W) vs Zhejiang Hangzhou B (W) | China League Women | 15:15",
-          "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64483_1j28vbswk5d.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=Zh&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64483_1j28vbswk5d.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c4f2f4cb43f8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c4f2f4cb43f8",
-                  "name": "Qingdao West (W) vs Zhejiang Hangzhou B (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-c4f2f4cb43f8",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-7ace9e6932da",
           "name": "⚽ Tianjin Shengde (W) vs Shanxi Xihua W | China League Women | 15:15",
           "tournament": "China League Women",
@@ -428,11 +383,11 @@
           ]
         },
         {
-          "id": "luongson-ecdc86c13f91",
-          "name": "⚽ Viettel Fc U21 vs Hoang Anh Gia Lai U21 | Vietnam Championship U21 | 15:30",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
+          "id": "luongson-c4f2f4cb43f8",
+          "name": "⚽ Qingdao West (W) vs Zhejiang Hangzhou B (W) | China League Women | 15:15",
+          "tournament": "China League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64483_1j28vbswk5d.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=Zh&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -440,7 +395,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/64483_1j28vbswk5d.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -454,15 +409,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-ecdc86c13f91",
+              "id": "luongson-c4f2f4cb43f8",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-ecdc86c13f91",
-                  "name": "Viettel Fc U21 vs Hoang Anh Gia Lai U21",
+                  "id": "luongson-c4f2f4cb43f8",
+                  "name": "Qingdao West (W) vs Zhejiang Hangzhou B (W)",
                   "streams": [
                     {
-                      "id": "luongson-ecdc86c13f91",
+                      "id": "luongson-c4f2f4cb43f8",
                       "name": "F",
                       "stream_links": []
                     }
@@ -508,6 +463,51 @@
                   "streams": [
                     {
                       "id": "luongson-b3a1c771087c",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-ecdc86c13f91",
+          "name": "⚽ Viettel Fc U21 vs Hoang Anh Gia Lai U21 | Vietnam Championship U21 | 15:30",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-ecdc86c13f91",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-ecdc86c13f91",
+                  "name": "Viettel Fc U21 vs Hoang Anh Gia Lai U21",
+                  "streams": [
+                    {
+                      "id": "luongson-ecdc86c13f91",
                       "name": "F",
                       "stream_links": []
                     }
@@ -608,11 +608,11 @@
           ]
         },
         {
-          "id": "luongson-94db284543b3",
-          "name": "⚽ Andorra Fc vs Millwall | International Club Friendly | 16:00",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/15812_1jb8hj97f914.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61_164869112327.png?v=2.4.3",
+          "id": "luongson-fda6faef36d2",
+          "name": "⚽ A.P.I.A. Leichhardt Tigers vs Peninsula Power | Australia FFA Cup | 16:30",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6671_1h6fp5245p22.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/8806_1grzybp3442f.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -620,7 +620,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/15812_1jb8hj97f914.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/6671_1h6fp5245p22.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -634,15 +634,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-94db284543b3",
+              "id": "luongson-fda6faef36d2",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-94db284543b3",
-                  "name": "Andorra Fc vs Millwall",
+                  "id": "luongson-fda6faef36d2",
+                  "name": "A.P.I.A. Leichhardt Tigers vs Peninsula Power",
                   "streams": [
                     {
-                      "id": "luongson-94db284543b3",
+                      "id": "luongson-fda6faef36d2",
                       "name": "F",
                       "stream_links": []
                     }
