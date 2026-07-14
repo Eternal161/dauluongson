@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:31 14/07/2026",
+  "last_updated": "14:41 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,25 +46,32 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-986c680028",
+                          "id": "lnk-d2ca5a0a15",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-7b4cbdf9d2",
+                          "id": "lnk-5d7cc76aa0",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         },
                         {
-                          "id": "lnk-127e08bbb0",
+                          "id": "lnk-153933c983",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-7db056b138",
+                          "name": "BLV V.TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -113,7 +120,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb0797c202",
+                          "id": "lnk-9cf88845c2",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
@@ -191,10 +198,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 15:15",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -209,7 +216,15 @@
                     {
                       "id": "luongson-f7ebaa861915",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-baa648804d",
+                          "name": "BLV LÝ ỨNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
