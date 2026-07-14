@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:51 14/07/2026",
+  "last_updated": "17:01 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-b3a1c771087c",
-          "name": "⚽ Tay Ninh U21 vs Song Lan - Yi U21 | Vietnam Championship U21 | Không rõ",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
+          "id": "luongson-46d9f7435b65",
+          "name": "⚽ Rochedale Rovers vs Sd Raiders Fc | Australia FFA Cup | Không rõ",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,44 +34,44 @@
           ],
           "sources": [
             {
-              "id": "luongson-b3a1c771087c",
+              "id": "luongson-46d9f7435b65",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-b3a1c771087c",
-                  "name": "Tay Ninh U21 vs Song Lan - Yi U21",
+                  "id": "luongson-46d9f7435b65",
+                  "name": "Rochedale Rovers vs Sd Raiders Fc",
                   "streams": [
                     {
-                      "id": "luongson-b3a1c771087c",
+                      "id": "luongson-46d9f7435b65",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b93f66be1c",
+                          "id": "lnk-c5c9cf0029",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-47e5642948",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-3458510802",
+                          "name": "BLV L.QUỲ",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         },
                         {
-                          "id": "lnk-ec114a4fa2",
-                          "name": "BLV T.THÁO",
+                          "id": "lnk-a0536df960",
+                          "name": "BLV L.BỊ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        },
-                        {
-                          "id": "lnk-c818f584e8",
-                          "name": "BLV T.LẬP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-0dd1374376",
-                          "name": "BLV N.THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -120,7 +120,127 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6daa4d567a",
+                          "id": "lnk-257f0d5822",
+                          "name": "Mặc định",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        },
+                        {
+                          "id": "lnk-2df8eeb4ab",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        },
+                        {
+                          "id": "lnk-e0ed2ca0d2",
+                          "name": "BLV P.HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b3a1c771087c",
+          "name": "⚽ Tay Ninh U21 vs Song Lan - Yi U21 | Vietnam Championship U21 | Không rõ",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b3a1c771087c",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b3a1c771087c",
+                  "name": "Tay Ninh U21 vs Song Lan - Yi U21",
+                  "streams": [
+                    {
+                      "id": "luongson-b3a1c771087c",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef2806363b",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-553dbb4b55f3",
+          "name": "⚽ Ha Noi Ii(W) vs Than Ksvn (W) | Vietnam Women's League | Không rõ",
+          "tournament": "Vietnam Women's League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-553dbb4b55f3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-553dbb4b55f3",
+                  "name": "Ha Noi Ii(W) vs Than Ksvn (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-553dbb4b55f3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36890850ec",
                           "name": "BLV L.ỨNG",
                           "type": "hls",
                           "default": true,
@@ -153,7 +273,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live 0 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -173,125 +293,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-be3261b612",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        },
-                        {
-                          "id": "lnk-5fe121914e",
-                          "name": "BLV L.BỊ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-46d9f7435b65",
-          "name": "⚽ Rochedale Rovers vs Sd Raiders Fc | Australia FFA Cup | Không rõ",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/29472_1grcy3a0x1j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/8801_1gytyt6907x.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-46d9f7435b65",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-46d9f7435b65",
-                  "name": "Rochedale Rovers vs Sd Raiders Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-46d9f7435b65",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09fa790cc0",
+                          "id": "lnk-9cbf2021e1",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-bd197233ae",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-553dbb4b55f3",
-          "name": "⚽ Ha Noi Ii(W) vs Than Ksvn (W) | Vietnam Women's League | Không rõ",
-          "tournament": "Vietnam Women's League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/26504_1k4948jhf3p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22093_1hwvmv50mvq.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-553dbb4b55f3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-553dbb4b55f3",
-                  "name": "Ha Noi Ii(W) vs Than Ksvn (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-553dbb4b55f3",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -318,10 +326,10 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff0000"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -336,15 +344,7 @@
                     {
                       "id": "luongson-ecdc86c13f91",
                       "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25ff2cb918",
-                          "name": "Mặc định",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
