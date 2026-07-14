@@ -1,15 +1,75 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:41 15/07/2026",
+  "last_updated": "04:51 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
+          "id": "luongson-f4e3bdf84f6b",
+          "name": "⚽ Real Oruro vs Always Ready | Bolivia Primera Division | Không rõ",
+          "tournament": "Bolivia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28078_1gskkd501f1d.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f4e3bdf84f6b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f4e3bdf84f6b",
+                  "name": "Real Oruro vs Always Ready",
+                  "streams": [
+                    {
+                      "id": "luongson-f4e3bdf84f6b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7efd495690",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-da30b1375e",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-96051a45cf55",
-          "name": "⚽ Sportivo Limpeno vs General Caballero Ljm | Paraguay Cup | Không rõ",
+          "name": "⚽ Sportivo Limpeno vs General Caballero Ljm | Paraguay Cup | 04:00",
           "tournament": "Paraguay Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/53690_1j262stz262h.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/8265_1gqxnjpe9p2j.png?v=2.4.3",
@@ -26,10 +86,10 @@
           },
           "labels": [
             {
-              "text": "🔴 Chờ stream",
+              "text": "⏳ Chưa live",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#ff6600"
+              "text_color": "#d54f1a"
             }
           ],
           "sources": [
@@ -98,66 +158,6 @@
           ]
         },
         {
-          "id": "luongson-f4e3bdf84f6b",
-          "name": "⚽ Real Oruro vs Always Ready | Bolivia Primera Division | 05:00",
-          "tournament": "Bolivia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28078_1gskkd501f1d.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 05:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f4e3bdf84f6b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f4e3bdf84f6b",
-                  "name": "Real Oruro vs Always Ready",
-                  "streams": [
-                    {
-                      "id": "luongson-f4e3bdf84f6b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d8a5176e4",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-c71ceced59",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-1ee63e8a31f0",
           "name": "⚽ Toronto Tempo W vs Washington Mystics W | WNBA | 06:00",
           "tournament": "WNBA",
@@ -196,58 +196,13 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b6bc2df3cb",
+                          "id": "lnk-6670ebac27",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-73d53750b6f1",
-          "name": "⚽ Sportivo Las Parejas vs Ca Timbuense | Argentina Santa Fe Cup | 07:00",
-          "tournament": "Argentina Santa Fe Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16036_1gv9qqjp847.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=CA&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/16036_1gv9qqjp847.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-73d53750b6f1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-73d53750b6f1",
-                  "name": "Sportivo Las Parejas vs Ca Timbuense",
-                  "streams": [
-                    {
-                      "id": "luongson-73d53750b6f1",
-                      "name": "F",
-                      "stream_links": []
                     }
                   ]
                 }
@@ -291,6 +246,51 @@
                   "streams": [
                     {
                       "id": "luongson-da1c237f3aba",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-73d53750b6f1",
+          "name": "⚽ Sportivo Las Parejas vs Ca Timbuense | Argentina Santa Fe Cup | 07:00",
+          "tournament": "Argentina Santa Fe Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/16036_1gv9qqjp847.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=CA&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/16036_1gv9qqjp847.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-73d53750b6f1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-73d53750b6f1",
+                  "name": "Sportivo Las Parejas vs Ca Timbuense",
+                  "streams": [
+                    {
+                      "id": "luongson-73d53750b6f1",
                       "name": "F",
                       "stream_links": []
                     }
