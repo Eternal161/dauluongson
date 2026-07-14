@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:31 14/07/2026",
+  "last_updated": "23:41 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-e1c3fe675bb8",
+          "name": "⚽ Fc Iberia 1999 Tbilisi vs Fc Flora Tallinn | UEFA Champions League | Không rõ",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/19599_1j1e9frnyg16.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/19599_1j1e9frnyg16.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e1c3fe675bb8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e1c3fe675bb8",
+                  "name": "Fc Iberia 1999 Tbilisi vs Fc Flora Tallinn",
+                  "streams": [
+                    {
+                      "id": "luongson-e1c3fe675bb8",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae0c0d5bd9",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-3bd2dcc8f03d",
           "name": "⚽ Kups vs Fc Vardar Skopje | UEFA Champions League | Không rõ",
@@ -46,131 +99,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d4f34bae10",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-5892682e1e",
+                          "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-92d80593f1",
+                          "id": "lnk-d4d81b1c42",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         },
                         {
-                          "id": "lnk-05f4b7e7cb",
-                          "name": "BLV KAKA",
+                          "id": "lnk-6ce1118df4",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e1c3fe675bb8",
-          "name": "⚽ Fc Iberia 1999 Tbilisi vs Fc Flora Tallinn | UEFA Champions League | Không rõ",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/19599_1j1e9frnyg16.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2111_1jbqr7wg8e1j.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/19599_1j1e9frnyg16.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e1c3fe675bb8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e1c3fe675bb8",
-                  "name": "Fc Iberia 1999 Tbilisi vs Fc Flora Tallinn",
-                  "streams": [
-                    {
-                      "id": "luongson-e1c3fe675bb8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbfc54e4b5",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e74a0b749759",
-          "name": "⚽ Korona Kielce vs Stal Rzeszow | International Club Friendly | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9888_1hck9fzp2a1g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e74a0b749759",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e74a0b749759",
-                  "name": "Korona Kielce vs Stal Rzeszow",
-                  "streams": [
-                    {
-                      "id": "luongson-e74a0b749759",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f68ac491ba",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -219,18 +166,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-de8d5c2a21",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        },
-                        {
-                          "id": "lnk-d013f4856e",
+                          "id": "lnk-624e39dad2",
                           "name": "BLV LEO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        },
+                        {
+                          "id": "lnk-b2c6af1f51",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e74a0b749759",
+          "name": "⚽ Korona Kielce vs Stal Rzeszow | International Club Friendly | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9888_1hck9fzp2a1g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e74a0b749759",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e74a0b749759",
+                  "name": "Korona Kielce vs Stal Rzeszow",
+                  "streams": [
+                    {
+                      "id": "luongson-e74a0b749759",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6626fa665b",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -259,10 +259,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 00:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -277,7 +277,15 @@
                     {
                       "id": "luongson-cba2b5e9c20b",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-37a9e746f9",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -324,7 +332,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-301b1dcee3",
+                          "id": "lnk-f4d3ccb79b",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
