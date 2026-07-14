@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:41 14/07/2026",
+  "last_updated": "12:51 14/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,31 +46,77 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6a5e0cbfc8",
+                          "id": "lnk-ebb6ce7d90",
                           "name": "Mặc định",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
                         },
                         {
-                          "id": "lnk-a735a29a7d",
+                          "id": "lnk-9af3490845",
                           "name": "BLV T.THÁO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         },
                         {
-                          "id": "lnk-a1bba316ed",
+                          "id": "lnk-086af8ddd2",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        },
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c1a891af41ff",
+          "name": "⚽ Shandong Jinghua Ii W vs Chongqing Olympic (W) | China League Women | Không rõ",
+          "tournament": "China League Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60910_1h4f5f6ptj2h.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c1a891af41ff",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c1a891af41ff",
+                  "name": "Shandong Jinghua Ii W vs Chongqing Olympic (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-c1a891af41ff",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-6c8ec65423",
-                          "name": "BLV L.QUỲ",
+                          "id": "lnk-8eeddac75d",
+                          "name": "Mặc định",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
@@ -83,7 +129,7 @@
         },
         {
           "id": "luongson-7cba73f2cb46",
-          "name": "⚽ Shanghai Shenhua W vs Henan (W) | China League Women | 13:00",
+          "name": "⚽ Shanghai Shenhua W vs Henan (W) | China League Women | Không rõ",
           "tournament": "China League Women",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/61788_1gzzwznehk1c.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/9203_1k6kxjth8r1k.png?v=2.4.3",
@@ -100,10 +146,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -162,51 +208,6 @@
                   "streams": [
                     {
                       "id": "luongson-606ffaab6950",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c1a891af41ff",
-          "name": "⚽ Shandong Jinghua Ii W vs Chongqing Olympic (W) | China League Women | 13:00",
-          "tournament": "China League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/60910_1h4f5f6ptj2h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69761_1k21548dht1p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c1a891af41ff",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c1a891af41ff",
-                  "name": "Shandong Jinghua Ii W vs Chongqing Olympic (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-c1a891af41ff",
                       "name": "F",
                       "stream_links": []
                     }
