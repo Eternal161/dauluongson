@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:01 14/07/2026",
+  "last_updated": "22:11 14/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f1ed23300367",
-          "name": "⚽ Lokomotiv Moscow vs Cska Moscow | International Club Friendly | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/371_1gtqm0cjh91x.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f1ed23300367",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f1ed23300367",
-                  "name": "Lokomotiv Moscow vs Cska Moscow",
-                  "streams": [
-                    {
-                      "id": "luongson-f1ed23300367",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e12603a213",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-f2f82b9c61",
-                          "name": "BLV HEINEKEN",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-3bd2dcc8f03d",
           "name": "⚽ Kups vs Fc Vardar Skopje | UEFA Champions League | Không rõ",
@@ -106,25 +46,138 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9f07e3556d",
+                          "id": "lnk-d394553bee",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-ef22ac1b5f",
+                          "id": "lnk-9d72f22534",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-1a01da775d",
+                          "id": "lnk-7010214217",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f1ed23300367",
+          "name": "⚽ Lokomotiv Moscow vs Cska Moscow | International Club Friendly | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/371_1gtqm0cjh91x.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/384_165095543060.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f1ed23300367",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f1ed23300367",
+                  "name": "Lokomotiv Moscow vs Cska Moscow",
+                  "streams": [
+                    {
+                      "id": "luongson-f1ed23300367",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e606d9d3c",
+                          "name": "BLV HEINEKEN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/HEINEKEN/index.m3u8?expire=2530639860&sign=03a2e74c3447f79f8c6e80a8fa2ee0b6"
+                        },
+                        {
+                          "id": "lnk-0e0ae264c5",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e74a0b749759",
+          "name": "⚽ Korona Kielce vs Stal Rzeszow | International Club Friendly | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/9888_1hck9fzp2a1g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/873_1jddtpsc7t20.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e74a0b749759",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e74a0b749759",
+                  "name": "Korona Kielce vs Stal Rzeszow",
+                  "streams": [
+                    {
+                      "id": "luongson-e74a0b749759",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2014aef51e",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -353,7 +406,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a7ff48d3fd",
+                          "id": "lnk-0f91d142d5",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
