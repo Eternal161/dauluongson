@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:01 15/07/2026",
+  "last_updated": "06:11 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-f4e3bdf84f6b",
-          "name": "⚽ Real Oruro vs Always Ready | Bolivia Primera Division | Không rõ",
-          "tournament": "Bolivia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28078_1gskkd501f1d.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-f4e3bdf84f6b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-f4e3bdf84f6b",
-                  "name": "Real Oruro vs Always Ready",
-                  "streams": [
-                    {
-                      "id": "luongson-f4e3bdf84f6b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-764f81f470",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-2f736d92ab",
-                          "name": "BLV LÝ QUỲ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-1ee63e8a31f0",
           "name": "⚽ Toronto Tempo W vs Washington Mystics W | WNBA | 03:26 16/07/600",
@@ -106,11 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-472472673f",
+                          "id": "lnk-30fac8f7de",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-f4e3bdf84f6b",
+          "name": "⚽ Real Oruro vs Always Ready | Bolivia Primera Division | Không rõ",
+          "tournament": "Bolivia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/28078_1gskkd501f1d.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/58737_1h2hfs9hm71s.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 3",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-f4e3bdf84f6b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-f4e3bdf84f6b",
+                  "name": "Real Oruro vs Always Ready",
+                  "streams": [
+                    {
+                      "id": "luongson-f4e3bdf84f6b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1a87cee29",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        },
+                        {
+                          "id": "lnk-2e82c29ee3",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
                         }
                       ]
                     }
@@ -481,51 +481,6 @@
           ]
         },
         {
-          "id": "luongson-66fd891863ad",
-          "name": "⚽ Zwekapin Fc (W) vs Yangon United Fc (W) | Myanmar League Women | 16:00",
-          "tournament": "Myanmar League Women",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486405.webp?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65720_1hz3vcknn72b.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486405.webp?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-66fd891863ad",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-66fd891863ad",
-                  "name": "Zwekapin Fc (W) vs Yangon United Fc (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-66fd891863ad",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-8e5e5ab119f5",
           "name": "⚽ Unsw Fc (W) vs Manly Utd (W) | Australia New South Wales Cup Women | 16:00",
           "tournament": "Australia New South Wales Cup Women",
@@ -561,6 +516,51 @@
                   "streams": [
                     {
                       "id": "luongson-8e5e5ab119f5",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-66fd891863ad",
+          "name": "⚽ Zwekapin Fc (W) vs Yangon United Fc (W) | Myanmar League Women | 16:00",
+          "tournament": "Myanmar League Women",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486405.webp?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/65720_1hz3vcknn72b.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1783486405.webp?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-66fd891863ad",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-66fd891863ad",
+                  "name": "Zwekapin Fc (W) vs Yangon United Fc (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-66fd891863ad",
                       "name": "F",
                       "stream_links": []
                     }
