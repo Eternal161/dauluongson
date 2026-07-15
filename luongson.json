@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:11 16/07/2026",
+  "last_updated": "01:21 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-dafb3e1716e8",
-          "name": "⚽ Seattle Storm vs Chicago Sky | WNBA | 03:26 16/07/2300",
-          "tournament": "WNBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047677.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047679.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047677.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live H1 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dafb3e1716e8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dafb3e1716e8",
-                  "name": "Seattle Storm vs Chicago Sky",
-                  "streams": [
-                    {
-                      "id": "luongson-dafb3e1716e8",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a9249694d2",
-                          "name": "BLV YENTHANH1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-9a592c2f062e",
           "name": "⚽ Cs Universitatea Craiova vs Ml Vitebsk | UEFA Champions League | Không rõ",
@@ -79,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-390a6f4ce0",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-fd947620a4",
+                          "id": "lnk-9b7234beff",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-ef941eca61",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -159,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f35cd2126c",
+                          "id": "lnk-0ecbb3ca23",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -212,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3c09274809",
+                          "id": "lnk-fa6b4c2cd5",
                           "name": "BLV LYUNG1",
                           "type": "hls",
                           "default": true,
@@ -712,6 +659,51 @@
                   "streams": [
                     {
                       "id": "luongson-e82bc375fa2a",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dc6798a486a3",
+          "name": "⚽ Hoang Anh Gia Lai U21 vs Song Lan - Yi U21 | Vietnam Championship U21 | 15:30",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dc6798a486a3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dc6798a486a3",
+                  "name": "Hoang Anh Gia Lai U21 vs Song Lan - Yi U21",
+                  "streams": [
+                    {
+                      "id": "luongson-dc6798a486a3",
                       "name": "F",
                       "stream_links": []
                     }
