@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:51 15/07/2026",
+  "last_updated": "13:01 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-daa63d77bdaa",
+          "name": "⚽ Pháp vs Ma Rốc | WC 2026 | 03:26 16/07/1100",
+          "tournament": "WC 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784092304.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784092306.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784092304.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-daa63d77bdaa",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-daa63d77bdaa",
+                  "name": "Pháp vs Ma Rốc",
+                  "streams": [
+                    {
+                      "id": "luongson-daa63d77bdaa",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35643f6a86",
+                          "name": "BLV TEST",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-c180340ff1c1",
           "name": "⚽ Los Angeles Clippers vs Los Angeles Lakers | NBA | 03:26 16/07/900",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2f49ff45e7",
+                          "id": "lnk-5395516c16",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -62,7 +115,7 @@
         },
         {
           "id": "luongson-15ea219f7c45",
-          "name": "⚽ Samoa U16 vs Fiji U16 | OFC Championship U16 Cup | 13:00",
+          "name": "⚽ Samoa U16 vs Fiji U16 | OFC Championship U16 Cup | Không rõ",
           "tournament": "OFC Championship U16 Cup",
           "logo_nha": "https://ui-avatars.com/api/?name=Sa&size=200&background=1565C0&color=ffffff&bold=true",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/37048_1h1gccehjs2v.png?v=2.4.3",
@@ -79,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "🔴 Chờ stream",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff6600"
             }
           ],
           "sources": [
@@ -231,6 +284,51 @@
                   "streams": [
                     {
                       "id": "luongson-e948bc7d562e",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-be5c42a90507",
+          "name": "⚽ Csa Steaua Bucuresti vs Tunari | International Club Friendly | 15:00",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/40970_1grcyc2g2ty.PNG?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/13005_1gv5cxgf1a14.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/40970_1grcyc2g2ty.PNG?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-be5c42a90507",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-be5c42a90507",
+                  "name": "Csa Steaua Bucuresti vs Tunari",
+                  "streams": [
+                    {
+                      "id": "luongson-be5c42a90507",
                       "name": "F",
                       "stream_links": []
                     }
@@ -591,96 +689,6 @@
                   "streams": [
                     {
                       "id": "luongson-f5f456c8ada6",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7e4d43dde8c8",
-          "name": "⚽ Maca Searle (W) vs Ws Wanderers B (W) | NSW Premier W-League | 16:30",
-          "tournament": "NSW Premier W-League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/22443_1gvsptckhqb.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/68295_1jnwwafyry2e.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/22443_1gvsptckhqb.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7e4d43dde8c8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7e4d43dde8c8",
-                  "name": "Maca Searle (W) vs Ws Wanderers B (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-7e4d43dde8c8",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-852d2c973715",
-          "name": "⚽ Suwon Fc vs Pyeongchang Fc | Korean FA Cup | 17:00",
-          "tournament": "Korean FA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4779_1gxsf6qjy222.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/6800_1ht788jq2r22.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4779_1gxsf6qjy222.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-852d2c973715",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-852d2c973715",
-                  "name": "Suwon Fc vs Pyeongchang Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-852d2c973715",
                       "name": "F",
                       "stream_links": []
                     }
