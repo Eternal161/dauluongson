@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "06:31 16/07/2026",
+  "last_updated": "06:41 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-b6ddb26c2ca3",
+          "name": "⚽ Lexington vs New Mexico United | USL Championship | Không rõ",
+          "tournament": "USL Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61142_1gxfbzah511y.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27782_1jsqvnqxrtc.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/61142_1gxfbzah511y.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b6ddb26c2ca3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b6ddb26c2ca3",
+                  "name": "Lexington vs New Mexico United",
+                  "streams": [
+                    {
+                      "id": "luongson-b6ddb26c2ca3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a9874d636a",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-eb11222b1e33",
           "name": "⚽ Real Potosi vs San Antonio Bulo Bulo | Bolivia Primera Division | Không rõ",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7a309f51c8",
+                          "id": "lnk-839cca6f2b",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
@@ -99,64 +152,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-403225b701",
+                          "id": "lnk-bf67718922",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b6ddb26c2ca3",
-          "name": "⚽ Lexington vs New Mexico United | USL Championship | Không rõ",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61142_1gxfbzah511y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27782_1jsqvnqxrtc.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61142_1gxfbzah511y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b6ddb26c2ca3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b6ddb26c2ca3",
-                  "name": "Lexington vs New Mexico United",
-                  "streams": [
-                    {
-                      "id": "luongson-b6ddb26c2ca3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-77ea157942",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -205,7 +205,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-86feef7270",
+                          "id": "lnk-32fa6cce0d",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -528,7 +528,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dfea4123c7",
+                          "id": "lnk-b08343c6ad",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -626,7 +626,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5cc1a02ad6",
+                          "id": "lnk-fea7399395",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
