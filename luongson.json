@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "13:21 15/07/2026",
+  "last_updated": "13:31 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9b4f8671cf",
+                          "id": "lnk-d259a476e6",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4fc71a0347",
+                          "id": "lnk-579c1f53a8",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -177,10 +177,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 14:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -195,7 +195,15 @@
                     {
                       "id": "luongson-4ca93570022a",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a3ac8c6ab2",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
                     }
                   ]
                 }
