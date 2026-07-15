@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "17:31 15/07/2026",
+  "last_updated": "17:41 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-48b7e02cab54",
-          "name": "⚽ Jeonnam Dragons vs Chungnam Asan | Korean FA Cup | Không rõ",
-          "tournament": "Korean FA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43744_1gxsf6qkxh10.png?v=2.4.3",
+          "id": "luongson-096647beb71b",
+          "name": "⚽ Beijing Guoan U21 vs Hubei Istar U21 | China U21 League | Không rõ",
+          "tournament": "China U21 League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61396_1h258ceaq97.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=Hu&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,7 +20,60 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/61396_1h258ceaq97.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-096647beb71b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-096647beb71b",
+                  "name": "Beijing Guoan U21 vs Hubei Istar U21",
+                  "streams": [
+                    {
+                      "id": "luongson-096647beb71b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7f2aecda8f",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-01536d99a430",
+          "name": "⚽ Tensung Fc vs Thimphu City | Bhutan Thimphu League | Không rõ",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24359_167288872055.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
@@ -34,23 +87,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-48b7e02cab54",
+              "id": "luongson-01536d99a430",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-48b7e02cab54",
-                  "name": "Jeonnam Dragons vs Chungnam Asan",
+                  "id": "luongson-01536d99a430",
+                  "name": "Tensung Fc vs Thimphu City",
                   "streams": [
                     {
-                      "id": "luongson-48b7e02cab54",
+                      "id": "luongson-01536d99a430",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8a97b3e880",
-                          "name": "BLV NGƯỜI THÉP",
+                          "id": "lnk-32d44aeb46",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -99,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-01bd9aa0a8",
+                          "id": "lnk-8f9be3dad2",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -114,11 +167,11 @@
           ]
         },
         {
-          "id": "luongson-1749ecd3cec6",
-          "name": "⚽ Daegu Fc vs Siheung City | Korean FA Cup | 03:26 16/07/1700",
+          "id": "luongson-48b7e02cab54",
+          "name": "⚽ Jeonnam Dragons vs Chungnam Asan | Korean FA Cup | Không rõ",
           "tournament": "Korean FA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/446_1gxsf6qkd41p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23756_1gxsf6qkxsj.png?v=2.4.3",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43744_1gxsf6qkxh10.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -126,13 +179,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/446_1gxsf6qkd41p.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/461_1gxsf6qkd726.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -140,76 +193,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-1749ecd3cec6",
+              "id": "luongson-48b7e02cab54",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-1749ecd3cec6",
-                  "name": "Daegu Fc vs Siheung City",
+                  "id": "luongson-48b7e02cab54",
+                  "name": "Jeonnam Dragons vs Chungnam Asan",
                   "streams": [
                     {
-                      "id": "luongson-1749ecd3cec6",
+                      "id": "luongson-48b7e02cab54",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-874ebcf6ff",
-                          "name": "BLV LYUNG1",
+                          "id": "lnk-7978d706b3",
+                          "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-306a78e429db",
-          "name": "⚽ Marlin Coast Rangers vs Brunswick Juventus | Australia FFA Cup | Không rõ",
-          "tournament": "Australia FFA Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69021_1jxp2sfa0jx.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4473_1htphgec2jt.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69021_1jxp2sfa0jx.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 2",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-306a78e429db",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-306a78e429db",
-                  "name": "Marlin Coast Rangers vs Brunswick Juventus",
-                  "streams": [
-                    {
-                      "id": "luongson-306a78e429db",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c1c5e11ab",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -238,7 +238,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -258,64 +258,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-61c0c465ce",
+                          "id": "lnk-2b3f8f241b",
                           "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-01536d99a430",
-          "name": "⚽ Tensung Fc vs Thimphu City | Bhutan Thimphu League | Không rõ",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24359_167288872055.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/43953_167193943613.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-01536d99a430",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-01536d99a430",
-                  "name": "Tensung Fc vs Thimphu City",
-                  "streams": [
-                    {
-                      "id": "luongson-01536d99a430",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dca27b13d1",
-                          "name": "BLV FERNANDO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -364,7 +311,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d1114d268f",
+                          "id": "lnk-ce365429a9",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -379,11 +326,11 @@
           ]
         },
         {
-          "id": "luongson-096647beb71b",
-          "name": "⚽ Beijing Guoan U21 vs Hubei Istar U21 | China U21 League | Không rõ",
-          "tournament": "China U21 League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61396_1h258ceaq97.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=Hu&size=200&background=1565C0&color=ffffff&bold=true",
+          "id": "luongson-306a78e429db",
+          "name": "⚽ Marlin Coast Rangers vs Brunswick Juventus | Australia FFA Cup | Không rõ",
+          "tournament": "Australia FFA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69021_1jxp2sfa0jx.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4473_1htphgec2jt.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -391,13 +338,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61396_1h258ceaq97.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/69021_1jxp2sfa0jx.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 0 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -405,23 +352,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-096647beb71b",
+              "id": "luongson-306a78e429db",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-096647beb71b",
-                  "name": "Beijing Guoan U21 vs Hubei Istar U21",
+                  "id": "luongson-306a78e429db",
+                  "name": "Marlin Coast Rangers vs Brunswick Juventus",
                   "streams": [
                     {
-                      "id": "luongson-096647beb71b",
+                      "id": "luongson-306a78e429db",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b1b8aeaf40",
-                          "name": "BLV VƯƠNG LUÂN",
+                          "id": "lnk-f9d1703190",
+                          "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1749ecd3cec6",
+          "name": "⚽ Daegu Fc vs Siheung City | Korean FA Cup | 03:26 16/07/1700",
+          "tournament": "Korean FA Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/446_1gxsf6qkd41p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23756_1gxsf6qkxsj.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/446_1gxsf6qkd41p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1749ecd3cec6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1749ecd3cec6",
+                  "name": "Daegu Fc vs Siheung City",
+                  "streams": [
+                    {
+                      "id": "luongson-1749ecd3cec6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b86d82bf86",
+                          "name": "BLV LYUNG1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
