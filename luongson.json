@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:01 16/07/2026",
+  "last_updated": "00:11 16/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 1",
+              "text": "● Live 1 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9cf36c5298",
+                          "id": "lnk-ee6d074f4f",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -99,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cd8bbfebc6",
+                          "id": "lnk-01461da298",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -132,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 1 : 0",
+              "text": "● Live 2 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f83918385a",
+                          "id": "lnk-472df2528a",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
@@ -205,10 +205,17 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d7e917bb10",
-                          "name": "BLV PHI HỔ",
+                          "id": "lnk-901f0e2794",
+                          "name": "BLV MÃ SIÊU",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-d5ae28bdc6",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
