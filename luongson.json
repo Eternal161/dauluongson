@@ -1,12 +1,72 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:51 15/07/2026",
+  "last_updated": "08:01 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-da1c237f3aba",
+          "name": "⚽ Blooming vs San Jose De Oruro | Bolivia Primera Division | Không rõ",
+          "tournament": "Bolivia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3775_1gv1yk23re5.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61979_1hvdpjd09v20.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3775_1gv1yk23re5.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-da1c237f3aba",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-da1c237f3aba",
+                  "name": "Blooming vs San Jose De Oruro",
+                  "streams": [
+                    {
+                      "id": "luongson-da1c237f3aba",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a08676ada",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-add0fddaa5",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-1ee63e8a31f0",
           "name": "⚽ Toronto Tempo W vs Washington Mystics W | WNBA | 03:26 16/07/600",
@@ -46,7 +106,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-09b65735c3",
+                          "id": "lnk-e9ee794899",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -99,71 +159,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9229a4e992",
+                          "id": "lnk-68e34d79d4",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-da1c237f3aba",
-          "name": "⚽ Blooming vs San Jose De Oruro | Bolivia Primera Division | Không rõ",
-          "tournament": "Bolivia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3775_1gv1yk23re5.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/61979_1hvdpjd09v20.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3775_1gv1yk23re5.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-da1c237f3aba",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-da1c237f3aba",
-                  "name": "Blooming vs San Jose De Oruro",
-                  "streams": [
-                    {
-                      "id": "luongson-da1c237f3aba",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dbd216ebcc",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-91fb707b9f",
-                          "name": "BLV TÂY MÔN KHÁNH",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
                         }
                       ]
                     }
@@ -192,10 +192,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 08:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -210,7 +210,15 @@
                     {
                       "id": "luongson-f893f25d45bc",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-67174ac732",
+                          "name": "BLV LÝ QUỲ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
                     }
                   ]
                 }
