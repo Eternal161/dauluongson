@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:51 16/07/2026",
+  "last_updated": "01:01 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-7eb9c0cd61ad",
+          "name": "⚽ Lyon vs Servette | International Club Friendly | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/192_164871170063.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/408_1gtg0nzm9kh.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/192_164871170063.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7eb9c0cd61ad",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7eb9c0cd61ad",
+                  "name": "Lyon vs Servette",
+                  "streams": [
+                    {
+                      "id": "luongson-7eb9c0cd61ad",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-402f64f7ca",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-9a592c2f062e",
           "name": "⚽ Cs Universitatea Craiova vs Ml Vitebsk | UEFA Champions League | Không rõ",
@@ -46,71 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9dc833dfb4",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-c59a91a43d",
+                          "id": "lnk-9de068c9dc",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-7eb9c0cd61ad",
-          "name": "⚽ Lyon vs Servette | International Club Friendly | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/192_164871170063.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/408_1gtg0nzm9kh.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/192_164871170063.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7eb9c0cd61ad",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7eb9c0cd61ad",
-                  "name": "Lyon vs Servette",
-                  "streams": [
-                    {
-                      "id": "luongson-7eb9c0cd61ad",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-843c74e572",
-                          "name": "BLV LIO",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-ca09305764",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -159,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-29071267bf",
+                          "id": "lnk-14171db2db",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -174,11 +174,11 @@
           ]
         },
         {
-          "id": "luongson-a6c54ee5feab",
-          "name": "⚽ Decic Tuzi vs Fk Liepaja | UEFA Europa Conference League | 01:30",
-          "tournament": "UEFA Europa Conference League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/6077_1j0zngtjf11j.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1783775978.png?v=2.4.3",
+          "id": "luongson-77df285e440c",
+          "name": "⚽ Soi Keo Spain vs Portugal 03H00 Ngay 7 7 2026 | Không rõ",
+          "tournament": "",
+          "logo_nha": "https://ui-avatars.com/api/?name=So&size=200&background=1565C0&color=ffffff&bold=true",
+          "logo_khach": "https://ui-avatars.com/api/?name=Po&size=200&background=1565C0&color=ffffff&bold=true",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -186,7 +186,7 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/6077_1j0zngtjf11j.png?v=2.4.3",
+            "url": "https://ui-avatars.com/api/?name=So&size=200&background=1565C0&color=ffffff&bold=true",
             "width": 1600,
             "height": 1200
           },
@@ -200,510 +200,15 @@
           ],
           "sources": [
             {
-              "id": "luongson-a6c54ee5feab",
+              "id": "luongson-77df285e440c",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a6c54ee5feab",
-                  "name": "Decic Tuzi vs Fk Liepaja",
+                  "id": "luongson-77df285e440c",
+                  "name": "Soi Keo Spain vs Portugal 03H00 Ngay 7 7 2026",
                   "streams": [
                     {
-                      "id": "luongson-a6c54ee5feab",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5b51154592a4",
-          "name": "⚽ Fk Sutjeska Niksic vs Fc Kairat Almaty | UEFA Champions League | 02:00",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5b51154592a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5b51154592a4",
-                  "name": "Fk Sutjeska Niksic vs Fc Kairat Almaty",
-                  "streams": [
-                    {
-                      "id": "luongson-5b51154592a4",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-1f313f4769a6",
-          "name": "⚽ England vs Argentina | FIFA World Cup | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1f313f4769a6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1f313f4769a6",
-                  "name": "England vs Argentina",
-                  "streams": [
-                    {
-                      "id": "luongson-1f313f4769a6",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eb11222b1e33",
-          "name": "⚽ Real Potosi vs San Antonio Bulo Bulo | Bolivia Primera Division | 05:00",
-          "tournament": "Bolivia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3771_1hcrey8ztj2q.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/55004_1j2mvyps8b1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3771_1hcrey8ztj2q.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eb11222b1e33",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eb11222b1e33",
-                  "name": "Real Potosi vs San Antonio Bulo Bulo",
-                  "streams": [
-                    {
-                      "id": "luongson-eb11222b1e33",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b7293fd95f44",
-          "name": "⚽ Miami Fc vs Indy Eleven | USL Championship | 06:00",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20310_1jsqvnqx96g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b7293fd95f44",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b7293fd95f44",
-                  "name": "Miami Fc vs Indy Eleven",
-                  "streams": [
-                    {
-                      "id": "luongson-b7293fd95f44",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-b6ddb26c2ca3",
-          "name": "⚽ Lexington vs New Mexico United | USL Championship | 06:00",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61142_1gxfbzah511y.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27782_1jsqvnqxrtc.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61142_1gxfbzah511y.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b6ddb26c2ca3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b6ddb26c2ca3",
-                  "name": "Lexington vs New Mexico United",
-                  "streams": [
-                    {
-                      "id": "luongson-b6ddb26c2ca3",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e9476bb21d33",
-          "name": "⚽ Sporting Jax vs Pittsburgh Riverhounds | USL Championship | 06:30",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69307_1jwa9cpz632t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7218_1gytye1xpk1h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69307_1jwa9cpz632t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e9476bb21d33",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e9476bb21d33",
-                  "name": "Sporting Jax vs Pittsburgh Riverhounds",
-                  "streams": [
-                    {
-                      "id": "luongson-e9476bb21d33",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e51618a447e0",
-          "name": "⚽ The Strongest vs Oriente Petrolero | Bolivia Primera Division | 07:00",
-          "tournament": "Bolivia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1667_1gytyfm7am2d.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/3493_1gtzd4kmq67.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1667_1gytyfm7am2d.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e51618a447e0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e51618a447e0",
-                  "name": "The Strongest vs Oriente Petrolero",
-                  "streams": [
-                    {
-                      "id": "luongson-e51618a447e0",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d4c74ff44645",
-          "name": "⚽ Barcelona Sc(Ecu) vs Guayaquil City | Primera Division de Ecuador | 07:30",
-          "tournament": "Primera Division de Ecuador",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2950_1gt3w9dwb11z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21673_1gt31t5xqg20.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2950_1gt3w9dwb11z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d4c74ff44645",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d4c74ff44645",
-                  "name": "Barcelona Sc(Ecu) vs Guayaquil City",
-                  "streams": [
-                    {
-                      "id": "luongson-d4c74ff44645",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0156014546d8",
-          "name": "⚽ Real Salt Lake vs Burnley | International Club Friendly | 08:30",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/1723_1gt31ntq8j2r.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/38_1jp441q5ck8.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/1723_1gt31ntq8j2r.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0156014546d8",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0156014546d8",
-                  "name": "Real Salt Lake vs Burnley",
-                  "streams": [
-                    {
-                      "id": "luongson-0156014546d8",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-fc2c978ffa76",
-          "name": "⚽ Washington Wizards vs Los Angeles Clippers | NBA | 09:30",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784134166.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784134173.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784134166.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-fc2c978ffa76",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-fc2c978ffa76",
-                  "name": "Washington Wizards vs Los Angeles Clippers",
-                  "streams": [
-                    {
-                      "id": "luongson-fc2c978ffa76",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e82bc375fa2a",
-          "name": "⚽ Albirex Niigata vs Singapore | International Friendly | 14:00",
-          "tournament": "International Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/165_1gtzd3qtet5.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/777_165018987224.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/165_1gtzd3qtet5.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e82bc375fa2a",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e82bc375fa2a",
-                  "name": "Albirex Niigata vs Singapore",
-                  "streams": [
-                    {
-                      "id": "luongson-e82bc375fa2a",
+                      "id": "luongson-77df285e440c",
                       "name": "F",
                       "stream_links": []
                     }
