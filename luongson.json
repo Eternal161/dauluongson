@@ -1,18 +1,18 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "23:21 15/07/2026",
+  "last_updated": "23:31 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
         {
-          "id": "luongson-a5953c06bf9b",
-          "name": "⚽ Malisheva vs Vllaznia Shkoder | UEFA Europa Conference League | Không rõ",
-          "tournament": "UEFA Europa Conference League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41496_1hrb7zyphr1k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/606_1gragvapx71.png?v=2.4.3",
+          "id": "luongson-e680d2c6d72d",
+          "name": "⚽ Ordabasy vs Altay Fk | Kazakhstan Cup | Không rõ",
+          "tournament": "Kazakhstan Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -20,13 +20,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/41496_1hrb7zyphr1k.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 5 : 0",
+              "text": "● Live 3 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -34,37 +34,76 @@
           ],
           "sources": [
             {
-              "id": "luongson-a5953c06bf9b",
+              "id": "luongson-e680d2c6d72d",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a5953c06bf9b",
-                  "name": "Malisheva vs Vllaznia Shkoder",
+                  "id": "luongson-e680d2c6d72d",
+                  "name": "Ordabasy vs Altay Fk",
                   "streams": [
                     {
-                      "id": "luongson-a5953c06bf9b",
+                      "id": "luongson-e680d2c6d72d",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b39c28b1d0",
-                          "name": "BLV LỮ BỐ",
+                          "id": "lnk-da76d1299f",
+                          "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-888033e3fd47",
+          "name": "⚽ Jippo vs Mp Mikeli | Finland Ykkonen | Không rõ",
+          "tournament": "Finland Ykkonen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2017_1jrq1pcmd82z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1850_1hxdga205x10.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2017_1jrq1pcmd82z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-888033e3fd47",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-888033e3fd47",
+                  "name": "Jippo vs Mp Mikeli",
+                  "streams": [
+                    {
+                      "id": "luongson-888033e3fd47",
+                      "name": "F",
+                      "stream_links": [
                         {
-                          "id": "lnk-4ff5124d10",
-                          "name": "BLV KAKA",
+                          "id": "lnk-514e4eafde",
+                          "name": "BLV LEO",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-5cd2918e15",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
@@ -93,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live H1 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -113,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0b22f2b1c4",
+                          "id": "lnk-024ab4d98a",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -166,117 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1553c56419",
+                          "id": "lnk-dfdc6ecece",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-888033e3fd47",
-          "name": "⚽ Jippo vs Mp Mikeli | Finland Ykkonen | Không rõ",
-          "tournament": "Finland Ykkonen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2017_1jrq1pcmd82z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1850_1hxdga205x10.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2017_1jrq1pcmd82z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-888033e3fd47",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-888033e3fd47",
-                  "name": "Jippo vs Mp Mikeli",
-                  "streams": [
-                    {
-                      "id": "luongson-888033e3fd47",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9701edfbef",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e680d2c6d72d",
-          "name": "⚽ Ordabasy vs Altay Fk | Kazakhstan Cup | Không rõ",
-          "tournament": "Kazakhstan Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 3 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e680d2c6d72d",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e680d2c6d72d",
-                  "name": "Ordabasy vs Altay Fk",
-                  "streams": [
-                    {
-                      "id": "luongson-e680d2c6d72d",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8df5146e6",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -377,51 +310,6 @@
           ]
         },
         {
-          "id": "luongson-1f313f4769a6",
-          "name": "⚽ England vs Argentina | FIFA World Cup | Không rõ",
-          "tournament": "FIFA World Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "🔴 Chờ stream",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff6600"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-1f313f4769a6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-1f313f4769a6",
-                  "name": "England vs Argentina",
-                  "streams": [
-                    {
-                      "id": "luongson-1f313f4769a6",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-5b51154592a4",
           "name": "⚽ Fk Sutjeska Niksic vs Fc Kairat Almaty | UEFA Champions League | 02:00",
           "tournament": "UEFA Champions League",
@@ -457,6 +345,51 @@
                   "streams": [
                     {
                       "id": "luongson-5b51154592a4",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-1f313f4769a6",
+          "name": "⚽ England vs Argentina | FIFA World Cup | Không rõ",
+          "tournament": "FIFA World Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/660_165018869978.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/638_164983421453.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "🔴 Chờ stream",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff6600"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-1f313f4769a6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-1f313f4769a6",
+                  "name": "England vs Argentina",
+                  "streams": [
+                    {
+                      "id": "luongson-1f313f4769a6",
                       "name": "F",
                       "stream_links": []
                     }
