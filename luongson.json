@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:21 15/07/2026",
+  "last_updated": "22:31 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-888033e3fd47",
+          "name": "⚽ Jippo vs Mp Mikeli | Finland Ykkonen | Không rõ",
+          "tournament": "Finland Ykkonen",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2017_1jrq1pcmd82z.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1850_1hxdga205x10.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/2017_1jrq1pcmd82z.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-888033e3fd47",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-888033e3fd47",
+                  "name": "Jippo vs Mp Mikeli",
+                  "streams": [
+                    {
+                      "id": "luongson-888033e3fd47",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e35a3ef410",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-e680d2c6d72d",
           "name": "⚽ Ordabasy vs Altay Fk | Kazakhstan Cup | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live 1 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-818dbf1fe2",
+                          "id": "lnk-461f93b711",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -99,78 +152,25 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8c3f9afc7a",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-75903bcb2b",
+                          "id": "lnk-c6fd182a7b",
                           "name": "BLV KAKA",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-adae11abbc",
+                          "id": "lnk-63a995855f",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-4d5f4e662a",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-888033e3fd47",
-          "name": "⚽ Jippo vs Mp Mikeli | Finland Ykkonen | 22:30",
-          "tournament": "Finland Ykkonen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2017_1jrq1pcmd82z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1850_1hxdga205x10.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2017_1jrq1pcmd82z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 22:30",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-888033e3fd47",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-888033e3fd47",
-                  "name": "Jippo vs Mp Mikeli",
-                  "streams": [
-                    {
-                      "id": "luongson-888033e3fd47",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75939d4c54",
-                          "name": "BLV LEO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         }
                       ]
                     }
