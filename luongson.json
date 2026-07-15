@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:21 15/07/2026",
+  "last_updated": "16:31 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-8e5e5ab119f5",
+          "name": "⚽ Unsw Fc (W) vs Manly Utd (W) | Australia New South Wales Cup Women | Không rõ",
+          "tournament": "Australia New South Wales Cup Women",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64788_1k3ffxhvgm4.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/25199_1gvvn5yvg82e.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/64788_1k3ffxhvgm4.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8e5e5ab119f5",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8e5e5ab119f5",
+                  "name": "Unsw Fc (W) vs Manly Utd (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-8e5e5ab119f5",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ab666faff",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-e948bc7d562e",
           "name": "⚽ Guangzhou Zhicheng vs Guizhou Xufengtang | Chinese Champions League | Không rõ",
@@ -26,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live 2 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,71 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-8b4f2c9855",
+                          "id": "lnk-458af15d98",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-24209c0d4e58",
-          "name": "⚽ Cong An Ha Noi U21 vs Dong Nai U21 | Vietnam Championship U21 | Không rõ",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27544_1h9hhtnfamk.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-24209c0d4e58",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-24209c0d4e58",
-                  "name": "Cong An Ha Noi U21 vs Dong Nai U21",
-                  "streams": [
-                    {
-                      "id": "luongson-24209c0d4e58",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1ce157bb5a",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-ef496db206",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         }
                       ]
                     }
@@ -159,14 +152,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9dcf2e5663",
+                          "id": "lnk-a295bdc13d",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
                         },
                         {
-                          "id": "lnk-9771f3fdce",
+                          "id": "lnk-d45960af56",
                           "name": "BLV LƯU BỊ",
                           "type": "hls",
                           "default": false,
@@ -181,11 +174,11 @@
           ]
         },
         {
-          "id": "luongson-8e5e5ab119f5",
-          "name": "⚽ Unsw Fc (W) vs Manly Utd (W) | Australia New South Wales Cup Women | Không rõ",
-          "tournament": "Australia New South Wales Cup Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/64788_1k3ffxhvgm4.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/25199_1gvvn5yvg82e.png?v=2.4.3",
+          "id": "luongson-24209c0d4e58",
+          "name": "⚽ Cong An Ha Noi U21 vs Dong Nai U21 | Vietnam Championship U21 | Không rõ",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27544_1h9hhtnfamk.png?v=2.4.3",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -193,13 +186,13 @@
             "padding": 1,
             "background_color": "#ececec",
             "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/64788_1k3ffxhvgm4.png?v=2.4.3",
+            "url": "https://cdn-img.cdnokvip.com/logos/66202_1j2r9rmxqd32.png?v=2.4.3",
             "width": 1600,
             "height": 1200
           },
           "labels": [
             {
-              "text": "● Live 0 : 0",
+              "text": "● Live HT 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -207,76 +200,30 @@
           ],
           "sources": [
             {
-              "id": "luongson-8e5e5ab119f5",
+              "id": "luongson-24209c0d4e58",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-8e5e5ab119f5",
-                  "name": "Unsw Fc (W) vs Manly Utd (W)",
+                  "id": "luongson-24209c0d4e58",
+                  "name": "Cong An Ha Noi U21 vs Dong Nai U21",
                   "streams": [
                     {
-                      "id": "luongson-8e5e5ab119f5",
+                      "id": "luongson-24209c0d4e58",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-30f1e64109",
-                          "name": "BLV TÔN LẬP",
+                          "id": "lnk-ecc39000b4",
+                          "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a4126272f9e5",
-          "name": "⚽ Fencibles United (W) vs Western Springs (W) | New Zealand Premier League Women | 03:26 16/07/1430",
-          "tournament": "New Zealand Premier League Women",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69037_1jqzdsk53p29.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/24362_1h360aapk62c.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69037_1jqzdsk53p29.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a4126272f9e5",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a4126272f9e5",
-                  "name": "Fencibles United (W) vs Western Springs (W)",
-                  "streams": [
-                    {
-                      "id": "luongson-a4126272f9e5",
-                      "name": "F",
-                      "stream_links": [
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
                         {
-                          "id": "lnk-8b4fc29660",
-                          "name": "BLV LYUNG1",
+                          "id": "lnk-61c34c22f7",
+                          "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -288,7 +235,7 @@
         },
         {
           "id": "luongson-306a78e429db",
-          "name": "⚽ Marlin Coast Rangers vs Brunswick Juventus | Australia FFA Cup | 16:30",
+          "name": "⚽ Marlin Coast Rangers vs Brunswick Juventus | Australia FFA Cup | Không rõ",
           "tournament": "Australia FFA Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69021_1jxp2sfa0jx.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/4473_1htphgec2jt.png?v=2.4.3",
@@ -305,7 +252,7 @@
           },
           "labels": [
             {
-              "text": "● Live 16:30",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -325,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b595fc16f3",
+                          "id": "lnk-2492977b75",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
@@ -358,10 +305,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -376,7 +323,15 @@
                     {
                       "id": "luongson-01536d99a430",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-778c00c4bd",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -403,10 +358,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -421,7 +376,15 @@
                     {
                       "id": "luongson-852d2c973715",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1e0428677b",
+                          "name": "BLV TÂY MÔN KHÁNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -468,7 +431,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9162a4740a",
+                          "id": "lnk-3cc914abd1",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -483,7 +446,7 @@
           ]
         },
         {
-          "id": "luongson-98ea4a1e3741",
+          "id": "luongson-1749ecd3cec6",
           "name": "⚽ Daegu Fc vs Siheung City | Korean FA Cup | 17:00",
           "tournament": "Korean FA Cup",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/446_1gxsf6qkd41p.png?v=2.4.3",
@@ -501,25 +464,33 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 17:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
             {
-              "id": "luongson-98ea4a1e3741",
+              "id": "luongson-1749ecd3cec6",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-98ea4a1e3741",
+                  "id": "luongson-1749ecd3cec6",
                   "name": "Daegu Fc vs Siheung City",
                   "streams": [
                     {
-                      "id": "luongson-98ea4a1e3741",
+                      "id": "luongson-1749ecd3cec6",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6f46db023a",
+                          "name": "BLV LYUNG1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -566,7 +537,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c9d7de8b25",
+                          "id": "lnk-b46855f0c4",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
@@ -751,6 +722,51 @@
                   "streams": [
                     {
                       "id": "luongson-a5953c06bf9b",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-e680d2c6d72d",
+          "name": "⚽ Ordabasy vs Altay Fk | Kazakhstan Cup | 22:00",
+          "tournament": "Kazakhstan Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23792_1j1gsjr55t2z.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4916_1gt31y86jpw.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e680d2c6d72d",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e680d2c6d72d",
+                  "name": "Ordabasy vs Altay Fk",
+                  "streams": [
+                    {
+                      "id": "luongson-e680d2c6d72d",
                       "name": "F",
                       "stream_links": []
                     }
