@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:41 15/07/2026",
+  "last_updated": "21:51 15/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,21 +46,21 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-84ea3336dc",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-9bcc2d35dd",
+                          "id": "lnk-7e5b34bbbc",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-9ee4c63364",
+                          "id": "lnk-3026f00755",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-1e89f3e761",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": false,
@@ -93,10 +93,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 22:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -111,7 +111,15 @@
                     {
                       "id": "luongson-e680d2c6d72d",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-76bcf3d16a",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
                     }
                   ]
                 }
