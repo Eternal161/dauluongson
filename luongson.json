@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "01:31 16/07/2026",
+  "last_updated": "01:41 16/07/2026",
   "groups": [
     {
       "id": "live",
@@ -26,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 0",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -46,18 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f2babeef3f",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        },
-                        {
-                          "id": "lnk-9d68630ade",
+                          "id": "lnk-c4287feca3",
                           "name": "BLV MÃ SIÊU",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        },
+                        {
+                          "id": "lnk-62c2084da8",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -106,71 +106,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6ea7ad373d",
+                          "id": "lnk-5f78b60c48",
                           "name": "BLV LYUNG1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-5b51154592a4",
-          "name": "⚽ Fk Sutjeska Niksic vs Fc Kairat Almaty | UEFA Champions League | 02:00",
-          "tournament": "UEFA Champions League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 02:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-5b51154592a4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-5b51154592a4",
-                  "name": "Fk Sutjeska Niksic vs Fc Kairat Almaty",
-                  "streams": [
-                    {
-                      "id": "luongson-5b51154592a4",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dde0a69d43",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-88111811b4",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -219,18 +159,145 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-df7fee50fa",
-                          "name": "BLV YENTHANH1",
+                          "id": "lnk-daf76e3538",
+                          "name": "BLV TÂY MÔN KHÁNH",
                           "type": "hls",
                           "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAYMONKHANH/index.m3u8?expire=1788427256&sign=b79b5be508185d24f76a0b1effca53da"
+                        },
+                        {
+                          "id": "lnk-2f3088f897",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-8c50563fee",
+                          "name": "BLV YENTHANH1",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         },
                         {
-                          "id": "lnk-8295a01171",
+                          "id": "lnk-c2a5ea8ad7",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-5b51154592a4",
+          "name": "⚽ Fk Sutjeska Niksic vs Fc Kairat Almaty | UEFA Champions League | 02:00",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/2142_1gtqmcszx321.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/954_1gsh33aezem.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 02:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-5b51154592a4",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-5b51154592a4",
+                  "name": "Fk Sutjeska Niksic vs Fc Kairat Almaty",
+                  "streams": [
+                    {
+                      "id": "luongson-5b51154592a4",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-673ec1e321",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-13b3ba4956",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a5841e7d5dcd",
+          "name": "⚽ Egnatia vs Cs Petrocub | UEFA Champions League | 02:00",
+          "tournament": "UEFA Champions League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3408_1h576e9phny.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/15751_1gtnbk6cpy1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3408_1h576e9phny.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 02:00",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a5841e7d5dcd",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a5841e7d5dcd",
+                  "name": "Egnatia vs Cs Petrocub",
+                  "streams": [
+                    {
+                      "id": "luongson-a5841e7d5dcd",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dcc9825cee",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -376,51 +443,6 @@
           ]
         },
         {
-          "id": "luongson-e9476bb21d33",
-          "name": "⚽ Sporting Jax vs Pittsburgh Riverhounds | USL Championship | 06:30",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/69307_1jwa9cpz632t.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/7218_1gytye1xpk1h.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/69307_1jwa9cpz632t.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e9476bb21d33",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e9476bb21d33",
-                  "name": "Sporting Jax vs Pittsburgh Riverhounds",
-                  "streams": [
-                    {
-                      "id": "luongson-e9476bb21d33",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "luongson-e51618a447e0",
           "name": "⚽ The Strongest vs Oriente Petrolero | Bolivia Primera Division | 07:00",
           "tournament": "Bolivia Primera Division",
@@ -456,51 +478,6 @@
                   "streams": [
                     {
                       "id": "luongson-e51618a447e0",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-d4c74ff44645",
-          "name": "⚽ Barcelona Sc(Ecu) vs Guayaquil City | Primera Division de Ecuador | 07:30",
-          "tournament": "Primera Division de Ecuador",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/2950_1gt3w9dwb11z.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/21673_1gt31t5xqg20.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/2950_1gt3w9dwb11z.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-d4c74ff44645",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-d4c74ff44645",
-                  "name": "Barcelona Sc(Ecu) vs Guayaquil City",
-                  "streams": [
-                    {
-                      "id": "luongson-d4c74ff44645",
                       "name": "F",
                       "stream_links": []
                     }
@@ -726,6 +703,51 @@
                   "streams": [
                     {
                       "id": "luongson-c9f6e4930d67",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-3db89d83bef8",
+          "name": "⚽ Malaysia (W) vs Singapore (W) | Women’s ASEAN Football Championship | 15:45",
+          "tournament": "Women’s ASEAN Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5501_165726969295.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/5498_1gwztk0z3q2a.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5501_165726969295.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-3db89d83bef8",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-3db89d83bef8",
+                  "name": "Malaysia (W) vs Singapore (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-3db89d83bef8",
                       "name": "F",
                       "stream_links": []
                     }
