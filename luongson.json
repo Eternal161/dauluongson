@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "09:01 15/07/2026",
+  "last_updated": "09:11 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-c180340ff1c1",
-          "name": "⚽ Los Angeles Clippers vs Los Angeles Lakers | NBA | 03:26 16/07/900",
-          "tournament": "NBA",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047754.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047757.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047754.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c180340ff1c1",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c180340ff1c1",
-                  "name": "Los Angeles Clippers vs Los Angeles Lakers",
-                  "streams": [
-                    {
-                      "id": "luongson-c180340ff1c1",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2cbe8980c3",
-                          "name": "BLV YENTHANH1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-f893f25d45bc",
           "name": "⚽ Oklahoma City Thunder vs Denver Nuggets | NBA | 03:26 16/07/800",
@@ -99,11 +46,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-28a8c80ca2",
+                          "id": "lnk-6907d34655",
                           "name": "BLV LÝ QUỲ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c180340ff1c1",
+          "name": "⚽ Los Angeles Clippers vs Los Angeles Lakers | NBA | 03:26 16/07/900",
+          "tournament": "NBA",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047754.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047757.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784047754.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c180340ff1c1",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c180340ff1c1",
+                  "name": "Los Angeles Clippers vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "luongson-c180340ff1c1",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9fdd07a16f",
+                          "name": "BLV YENTHANH1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
                         }
                       ]
                     }
@@ -132,7 +132,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live 0 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,7 +152,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f8dcaa8a07",
+                          "id": "lnk-aee76245eb",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
