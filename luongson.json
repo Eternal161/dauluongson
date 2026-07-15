@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "04:31 16/07/2026",
+  "last_updated": "04:41 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-eb11222b1e33",
+          "name": "⚽ Real Potosi vs San Antonio Bulo Bulo | Bolivia Primera Division | Không rõ",
+          "tournament": "Bolivia Primera Division",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3771_1hcrey8ztj2q.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/55004_1j2mvyps8b1p.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/3771_1hcrey8ztj2q.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eb11222b1e33",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eb11222b1e33",
+                  "name": "Real Potosi vs San Antonio Bulo Bulo",
+                  "streams": [
+                    {
+                      "id": "luongson-eb11222b1e33",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e0c2cafb4b",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-38a8c2da88a8",
           "name": "⚽ 14 De Mayo Capiibary vs Deportivo Carapegua | Paraguay Cup | Không rõ",
@@ -45,59 +98,6 @@
                       "id": "luongson-38a8c2da88a8",
                       "name": "F",
                       "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-eb11222b1e33",
-          "name": "⚽ Real Potosi vs San Antonio Bulo Bulo | Bolivia Primera Division | 05:00",
-          "tournament": "Bolivia Primera Division",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/3771_1hcrey8ztj2q.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/55004_1j2mvyps8b1p.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/3771_1hcrey8ztj2q.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 05:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-eb11222b1e33",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-eb11222b1e33",
-                  "name": "Real Potosi vs San Antonio Bulo Bulo",
-                  "streams": [
-                    {
-                      "id": "luongson-eb11222b1e33",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-592b7b1827",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
                     }
                   ]
                 }
