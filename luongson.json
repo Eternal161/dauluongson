@@ -1,79 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "22:11 15/07/2026",
+  "last_updated": "22:21 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-a5953c06bf9b",
-          "name": "⚽ Malisheva vs Vllaznia Shkoder | UEFA Europa Conference League | Không rõ",
-          "tournament": "UEFA Europa Conference League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41496_1hrb7zyphr1k.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/606_1gragvapx71.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/41496_1hrb7zyphr1k.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a5953c06bf9b",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a5953c06bf9b",
-                  "name": "Malisheva vs Vllaznia Shkoder",
-                  "streams": [
-                    {
-                      "id": "luongson-a5953c06bf9b",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-91192c667e",
-                          "name": "BLV LỮ BỐ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
-                        },
-                        {
-                          "id": "lnk-3f75719051",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        },
-                        {
-                          "id": "lnk-a953fb8e8e",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-e680d2c6d72d",
           "name": "⚽ Ordabasy vs Altay Fk | Kazakhstan Cup | Không rõ",
@@ -113,11 +46,78 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-482fccbabf",
+                          "id": "lnk-818dbf1fe2",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-a5953c06bf9b",
+          "name": "⚽ Malisheva vs Vllaznia Shkoder | UEFA Europa Conference League | Không rõ",
+          "tournament": "UEFA Europa Conference League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/41496_1hrb7zyphr1k.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/606_1gragvapx71.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/41496_1hrb7zyphr1k.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a5953c06bf9b",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a5953c06bf9b",
+                  "name": "Malisheva vs Vllaznia Shkoder",
+                  "streams": [
+                    {
+                      "id": "luongson-a5953c06bf9b",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c3f9afc7a",
+                          "name": "BLV LỮ BỐ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
+                        },
+                        {
+                          "id": "lnk-75903bcb2b",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        },
+                        {
+                          "id": "lnk-adae11abbc",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
                         }
                       ]
                     }
@@ -166,7 +166,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2d565525fb",
+                          "id": "lnk-75939d4c54",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
