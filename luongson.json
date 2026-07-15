@@ -1,7 +1,7 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "05:21 16/07/2026",
+  "last_updated": "05:31 16/07/2026",
   "groups": [
     {
       "id": "live",
@@ -46,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c755220ba3",
+                          "id": "lnk-37535093c5",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
                           "default": true,
@@ -124,10 +124,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 06:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -142,7 +142,15 @@
                     {
                       "id": "luongson-b6ddb26c2ca3",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd78c168af",
+                          "name": "BLV LEO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -459,7 +467,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5c59587d87",
+                          "id": "lnk-4a068d6b83",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -602,7 +610,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-277a5128ed",
+                          "id": "lnk-0d41ad24c4",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
