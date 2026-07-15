@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "00:11 16/07/2026",
+  "last_updated": "00:21 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-7eb9c0cd61ad",
-          "name": "⚽ Lyon vs Servette | International Club Friendly | Không rõ",
-          "tournament": "International Club Friendly",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/192_164871170063.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/408_1gtg0nzm9kh.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/192_164871170063.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-7eb9c0cd61ad",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-7eb9c0cd61ad",
-                  "name": "Lyon vs Servette",
-                  "streams": [
-                    {
-                      "id": "luongson-7eb9c0cd61ad",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee6d074f4f",
-                          "name": "BLV LIO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-dafb3e1716e8",
           "name": "⚽ Seattle Storm vs Chicago Sky | WNBA | 03:26 16/07/2300",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-01461da298",
+                          "id": "lnk-2c30cf1de2",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -132,7 +79,7 @@
           },
           "labels": [
             {
-              "text": "● Live 2 : 1",
+              "text": "● Live 3 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -152,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-472df2528a",
+                          "id": "lnk-62f0ba3019",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
@@ -167,8 +114,61 @@
           ]
         },
         {
+          "id": "luongson-7eb9c0cd61ad",
+          "name": "⚽ Lyon vs Servette | International Club Friendly | Không rõ",
+          "tournament": "International Club Friendly",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/192_164871170063.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/408_1gtg0nzm9kh.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/192_164871170063.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live HT 1 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7eb9c0cd61ad",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7eb9c0cd61ad",
+                  "name": "Lyon vs Servette",
+                  "streams": [
+                    {
+                      "id": "luongson-7eb9c0cd61ad",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-311a26aa30",
+                          "name": "BLV LIO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "luongson-9a592c2f062e",
-          "name": "⚽ Cs Universitatea Craiova vs Ml Vitebsk | UEFA Champions League | 00:30",
+          "name": "⚽ Cs Universitatea Craiova vs Ml Vitebsk | UEFA Champions League | Không rõ",
           "tournament": "UEFA Champions League",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/13229_1hbcs9m1a2t.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/44671_1gwy1c0s131t.png?v=2.4.3",
@@ -185,7 +185,7 @@
           },
           "labels": [
             {
-              "text": "● Live 00:30",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -205,18 +205,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-901f0e2794",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-d5ae28bdc6",
+                          "id": "lnk-3ab6832bd7",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        },
+                        {
+                          "id": "lnk-db8d19d77a",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
