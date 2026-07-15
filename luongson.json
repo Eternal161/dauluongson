@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "14:41 15/07/2026",
+  "last_updated": "14:51 15/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-e948bc7d562e",
+          "name": "⚽ Guangzhou Zhicheng vs Guizhou Xufengtang | Chinese Champions League | Không rõ",
+          "tournament": "Chinese Champions League",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784101077.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784101080.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784101077.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-e948bc7d562e",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-e948bc7d562e",
+                  "name": "Guangzhou Zhicheng vs Guizhou Xufengtang",
+                  "streams": [
+                    {
+                      "id": "luongson-e948bc7d562e",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b43a781b7c",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-4ca93570022a",
           "name": "⚽ Taranaki Airs vs Nelson Giants | NBL | 03:26 16/07/1400",
@@ -46,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ac14b84862",
+                          "id": "lnk-cb6ee9bf49",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
@@ -61,8 +114,8 @@
           ]
         },
         {
-          "id": "luongson-a4126272f9e5",
-          "name": "⚽ Fencibles United (W) vs Western Springs (W) | New Zealand Premier League Women | 03:26 16/07/1430",
+          "id": "luongson-cd8d2df462cf",
+          "name": "⚽ Fencibles United (W) vs Western Springs (W) | New Zealand Premier League Women | Không rõ",
           "tournament": "New Zealand Premier League Women",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/69037_1jqzdsk53p29.png?v=2.4.3",
           "logo_khach": "https://cdn-img.cdnokvip.com/logos/24362_1h360aapk62c.png?v=2.4.3",
@@ -87,23 +140,23 @@
           ],
           "sources": [
             {
-              "id": "luongson-a4126272f9e5",
+              "id": "luongson-cd8d2df462cf",
               "name": "Lương Sơn",
               "contents": [
                 {
-                  "id": "luongson-a4126272f9e5",
+                  "id": "luongson-cd8d2df462cf",
                   "name": "Fencibles United (W) vs Western Springs (W)",
                   "streams": [
                     {
-                      "id": "luongson-a4126272f9e5",
+                      "id": "luongson-cd8d2df462cf",
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-07e140968f",
-                          "name": "BLV LYUNG1",
+                          "id": "lnk-5ae7d89c50",
+                          "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
                         }
                       ]
                     }
@@ -152,64 +205,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f6e09513de",
+                          "id": "lnk-271ea8eb6c",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-e948bc7d562e",
-          "name": "⚽ Guangzhou Zhicheng vs Guizhou Xufengtang | Chinese Champions League | 15:00",
-          "tournament": "Chinese Champions League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784101077.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784101080.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784101077.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 15:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-e948bc7d562e",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-e948bc7d562e",
-                  "name": "Guangzhou Zhicheng vs Guizhou Xufengtang",
-                  "streams": [
-                    {
-                      "id": "luongson-e948bc7d562e",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b527acd17",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
