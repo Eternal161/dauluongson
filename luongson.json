@@ -1,12 +1,118 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:51 16/07/2026",
+  "last_updated": "17:01 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-a3269fb42df0",
+          "name": "⚽ Fulham United Fc vs Cumberland United Fc | South Australian Premier League | Không rõ",
+          "tournament": "South Australian Premier League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23930_1jmts9nsqx2d.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12207_1hx8jh5m0e5.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23930_1jmts9nsqx2d.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-a3269fb42df0",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-a3269fb42df0",
+                  "name": "Fulham United Fc vs Cumberland United Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-a3269fb42df0",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c0bbf031e",
+                          "name": "BLV LÃO HẠC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-c9f6e4930d67",
+          "name": "⚽ Tay Ninh U21 vs Viettel Fc U21 | Vietnam Championship U21 | Không rõ",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 5",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-c9f6e4930d67",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-c9f6e4930d67",
+                  "name": "Tay Ninh U21 vs Viettel Fc U21",
+                  "streams": [
+                    {
+                      "id": "luongson-c9f6e4930d67",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5501ccc366",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-dc6798a486a3",
           "name": "⚽ Hoang Anh Gia Lai U21 vs Song Lan - Yi U21 | Vietnam Championship U21 | Không rõ",
@@ -46,18 +152,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fb4873fb4f",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-4c1a20839c",
+                          "id": "lnk-bf127b3e9b",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-fd2ec525b8",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-eb8832ee4861",
+          "name": "⚽ Indonesia (W) vs Cambodia (W) | Women’s ASEAN Football Championship | Không rõ",
+          "tournament": "Women’s ASEAN Football Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/35358_1h3x7jkpqrx.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/5502_1gxw4q5pk72r.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-eb8832ee4861",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-eb8832ee4861",
+                  "name": "Indonesia (W) vs Cambodia (W)",
+                  "streams": [
+                    {
+                      "id": "luongson-eb8832ee4861",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d5dcc5ba89",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -106,71 +265,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-527f49a825",
+                          "id": "lnk-d22635650a",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LUBO/index.m3u8?expire=1788427256&sign=fa2834495401eb5d1dc40ba2f3bd21c1"
                         },
                         {
-                          "id": "lnk-a49dba220a",
+                          "id": "lnk-9748c85b0d",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-c9f6e4930d67",
-          "name": "⚽ Tay Ninh U21 vs Viettel Fc U21 | Vietnam Championship U21 | Không rõ",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/42244_167169969013.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/47438_1k0388nzsw2p.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-c9f6e4930d67",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-c9f6e4930d67",
-                  "name": "Tay Ninh U21 vs Viettel Fc U21",
-                  "streams": [
-                    {
-                      "id": "luongson-c9f6e4930d67",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b04d4d40b",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
                         }
                       ]
                     }
@@ -219,64 +325,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d705a2b931",
+                          "id": "lnk-76e1925505",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a3269fb42df0",
-          "name": "⚽ Fulham United Fc vs Cumberland United Fc | South Australian Premier League | 16:45",
-          "tournament": "South Australian Premier League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23930_1jmts9nsqx2d.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/12207_1hx8jh5m0e5.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23930_1jmts9nsqx2d.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 16:45",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a3269fb42df0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a3269fb42df0",
-                  "name": "Fulham United Fc vs Cumberland United Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-a3269fb42df0",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c7eb1f5b9b",
-                          "name": "BLV LÃO HẠC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         }
                       ]
                     }
@@ -325,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dbb44ba355",
+                          "id": "lnk-c07948c2fa",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -690,51 +743,6 @@
                   "streams": [
                     {
                       "id": "luongson-a78023f2c6d0",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-0ab876231bb4",
-          "name": "⚽ Inter Turku vs Sarajevo | UEFA Europa Conference League | 22:00",
-          "tournament": "UEFA Europa Conference League",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/572_1h56c4f7vr1c.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1769773453.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0ab876231bb4",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0ab876231bb4",
-                  "name": "Inter Turku vs Sarajevo",
-                  "streams": [
-                    {
-                      "id": "luongson-0ab876231bb4",
                       "name": "F",
                       "stream_links": []
                     }
