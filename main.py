@@ -107,7 +107,8 @@ JS_EXTRACT = """
         const h = a.href || '';
         if (h.includes('#') || h.endsWith('.online') || h.endsWith('.online/')) return false;
         if (h.includes('/lich-thi-dau') || h.includes('/ket-qua') || h.includes('/tin-tuc') || h.includes('nhan-dinh') || h.includes('highlight')) return false;
-        return h.includes('/truc-tiep/') || h.includes('/match/') || h.includes('-vs-');
+        // Bổ sung /live/ phòng trường hợp web đổi cấu trúc
+        return h.includes('/truc-tiep/') || h.includes('/match/') || h.includes('-vs-') || h.includes('/live/');
     });
 
     for (const a of anchors) {
@@ -163,7 +164,7 @@ JS_EXTRACT = """
 """
 
 # =========================================================
-# LƯỚI QUÉT & SỔ ĐEN ĐỘC QUYỀN BLV
+# LƯỚI QUÉT & SỔ ĐEN ĐỘC QUYỀN BLV (FLV ONLY)
 # =========================================================
 def capture_stream(page, match_url, global_seen_blvs):
     found_urls = set()
@@ -188,25 +189,31 @@ def capture_stream(page, match_url, global_seen_blvs):
                 found_urls.add(u)
         except: pass
 
+    # Bắt đầu lắng nghe Network
     page.on("response", handle_response)
     
     dom_blvs = []
     try:
         page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
         page.wait_for_timeout(1500)
+        
+        # 💡 Dọn sạch API Rác cào nhầm từ trang chủ
+        try:
+            page.evaluate("window.__apiData = [];")
+            found_urls.clear()
+        except: pass
+        
         try:
             vp = page.viewport_size
             if vp: page.mouse.click(vp["width"] // 2, vp["height"] // 2)
         except: pass
 
-        # Bóc tên Tiếng Việt chuẩn từ các nút chọn BLV
         dom_blvs = page.evaluate("""() => {
             let links = [];
             let currentPath = window.location.pathname.replace(/\\/$/, '');
             document.querySelectorAll('a[href*="blv="]').forEach(a => {
                 try {
                     let u = new URL(a.href);
-                    // Chỉ lấy nút thuộc trận này
                     if (u.pathname.replace(/\\/$/, '') === currentPath) {
                         let name = a.innerText.split('\\n')[0].trim();
                         name = name.replace(/Theo dõi.*/gi, '').replace(/BLV\\s*:\\s*/i, '').trim();
@@ -248,28 +255,21 @@ def capture_stream(page, match_url, global_seen_blvs):
         try: page.remove_listener("response", handle_response)
         except: pass
         
-    # ==============================================
-    # 💡 BỘ LỌC SỔ ĐEN & GHÉP TÊN TIẾNG VIỆT
-    # ==============================================
     def normalize_name(s):
-        # Bỏ dấu Tiếng Việt và khoảng trắng để so khớp dễ hơn (VD: "LƯU BỊ" -> "LUUBI")
         return unicodedata.normalize('NFKD', s).encode('ASCII', 'ignore').decode('utf-8').upper().replace(" ", "")
         
     valid_streams = []
     
     for u in found_urls:
         blv_id = get_blv_id(u)
-        if not blv_id: continue # Bỏ qua nếu không có mã BLV (rác)
+        if not blv_id: continue 
         
-        # 1. KIỂM TRA SỔ ĐEN: BLV này đã có trận rồi thì đá văng luồng này ra khỏi JSON!
-        if blv_id in global_seen_blvs:
-            continue
+        if blv_id in global_seen_blvs: continue
             
-        # 2. GHÉP TÊN TIẾNG VIỆT TỪ DOM
-        nice_name = f"BLV {blv_id}" # Tên mặc định nếu không khớp được
+        nice_name = f"BLV {blv_id}"
         for b in dom_blvs:
             if blv_id in normalize_name(b["name"]):
-                nice_name = b["name"] # Khớp thành công -> Lấy tên có dấu (VD: BLV LƯU BỊ)
+                nice_name = b["name"] 
                 break
                 
         score = 1000 if "cdnfaster" in u.lower() else (500 if "100ycdn" in u.lower() else 0)
@@ -277,14 +277,13 @@ def capture_stream(page, match_url, global_seen_blvs):
         
     valid_streams.sort(key=lambda x: x["score"], reverse=True)
     
-    # 3. CHỐT SỔ ĐEN: Chỉ lấy 1 link xịn nhất cho mỗi BLV và thêm mã BLV vào Sổ đen toàn cục
     final_streams = []
     seen_local_blvs = set()
     
     for s in valid_streams:
         if s["blv_id"] not in seen_local_blvs:
             seen_local_blvs.add(s["blv_id"])
-            global_seen_blvs.add(s["blv_id"]) # Ghi sổ đen, các trận sau khỏi xài lại BLV này!
+            global_seen_blvs.add(s["blv_id"]) 
             s.pop("score", None)
             s.pop("blv_id", None)
             final_streams.append(s)
@@ -384,18 +383,31 @@ def scrape_and_push():
 
         try: page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=60000)
         except: pass
-        page.wait_for_timeout(5000)
+        page.wait_for_timeout(3000)
         
-        # Bỏ qua luồng live tự động phát ở trang chủ bằng cách cuộn xuống
-        page.mouse.wheel(0, 800)
-        page.wait_for_timeout(2000)
+        # 💡 SỬA LỖI 0 TRẬN: Bắt buộc cuộn sâu xuống bằng JS để kích hoạt Lazy Load
+        print("⏳ Đang cuộn trang để đánh thức các trận đấu ẩn...")
+        for _ in range(4):
+            page.evaluate("window.scrollBy(0, 900);")
+            page.wait_for_timeout(1500)
 
-        for _ in range(5):
+        for _ in range(3):
             try:
-                btn_xem_them = page.get_by_text("Xem thêm", exact=True).last
-                if btn_xem_them.is_visible(timeout=2000):
-                    btn_xem_them.click()
-                page.mouse.wheel(0, 3000)
+                # Cuộn xuống đáy để lòi nút "Xem thêm" ra
+                page.evaluate("window.scrollTo(0, document.body.scrollHeight);")
+                page.wait_for_timeout(1000)
+                
+                # Bấm nút Xem Thêm bằng JS cho cực kỳ an toàn
+                da_bam = page.evaluate("""() => {
+                    let btns = Array.from(document.querySelectorAll('button, a, div')).filter(el => el.innerText && el.innerText.toLowerCase().includes('xem thêm'));
+                    if (btns.length > 0) {
+                        btns[btns.length - 1].click();
+                        return true;
+                    }
+                    return false;
+                }""")
+                if not da_bam:
+                    break
                 page.wait_for_timeout(1500)
             except:
                 break 
@@ -429,7 +441,6 @@ def scrape_and_push():
         raw_matches = valid_matches[:LIMIT_MATCHES]
         print(f"\n🎥 QUÉT TẤT CẢ {len(raw_matches)} TRẬN (BAO GỒM TRẬN SẮP TỚI)...")
 
-        # 💡 SỔ ĐEN TOÀN CỤC CHÍNH THỨC SỐNG LẠI (Dùng Mã BLV làm thẻ)
         global_seen_blvs = set()
 
         for idx, m in enumerate(raw_matches, 1):
@@ -439,7 +450,6 @@ def scrape_and_push():
             
             m["streams"] = []
             if m.get("isLiveUI") or any(char.isdigit() for char in m["timeStr"]):
-                # Chuyển sổ đen vào hàm
                 m["streams"] = capture_stream(page, m["href"], global_seen_blvs)
                 
                 if m["streams"]:
