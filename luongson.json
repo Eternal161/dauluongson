@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "15:11 16/07/2026",
+  "last_updated": "15:21 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-0b915684dca6",
-          "name": "⚽ Anh vs Argentina | WC 2026 | Không rõ",
-          "tournament": "WC 2026",
-          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177196.png?v=2.4.3",
-          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177204.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177196.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live H1 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-0b915684dca6",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-0b915684dca6",
-                  "name": "Anh vs Argentina",
-                  "streams": [
-                    {
-                      "id": "luongson-0b915684dca6",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fe1527ad54",
-                          "name": "BLV TEST",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-c9f6e4930d67",
           "name": "⚽ Tay Ninh U21 vs Viettel Fc U21 | Vietnam Championship U21 | Không rõ",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6050b17941",
+                          "id": "lnk-ecb66e3edf",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
@@ -152,18 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-87ba4d735a",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-03ffa6d8d7",
+                          "id": "lnk-7706cc470d",
                           "name": "BLV NGƯỜI THÉP",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-fc1119a07a",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-0b915684dca6",
+          "name": "⚽ Anh vs Argentina | WC 2026 | Không rõ",
+          "tournament": "WC 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177196.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177204.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177196.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0b915684dca6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0b915684dca6",
+                  "name": "Anh vs Argentina",
+                  "streams": [
+                    {
+                      "id": "luongson-0b915684dca6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b0623239f5",
+                          "name": "BLV TEST",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
                         }
                       ]
                     }
@@ -212,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-0b6ee45ca1",
+                          "id": "lnk-e221baae19",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4be0e71c50",
+                          "id": "lnk-f59f53b021",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -363,7 +363,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-050c569281",
+                          "id": "lnk-21eec8d6c4",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
