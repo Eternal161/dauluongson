@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:31 16/07/2026",
+  "last_updated": "20:41 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-494aedd88675",
+          "name": "⚽ Thimphu Fc vs Paro Fc | Bhutan Thimphu League | Không rõ",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39632_167288870485.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 4",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-494aedd88675",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-494aedd88675",
+                  "name": "Thimphu Fc vs Paro Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-494aedd88675",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5450f97181",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-c1f7891e388c",
           "name": "⚽ Fk Arys vs Turan Turkistan | Kazakhstan Division 1 | Không rõ",
@@ -46,14 +99,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-19a62d179f",
+                          "id": "lnk-0a91b2f8ee",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         },
                         {
-                          "id": "lnk-13fbf91568",
+                          "id": "lnk-3dd1d3e26b",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": false,
@@ -106,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d17d2c47ec",
+                          "id": "lnk-54d02d4811",
                           "name": "BLV LYUNG1",
                           "type": "hls",
                           "default": true,
@@ -159,64 +212,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-6a9a3dd4d9",
+                          "id": "lnk-6e5a050cb1",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-494aedd88675",
-          "name": "⚽ Thimphu Fc vs Paro Fc | Bhutan Thimphu League | Không rõ",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39632_167288870485.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 3",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-494aedd88675",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-494aedd88675",
-                  "name": "Thimphu Fc vs Paro Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-494aedd88675",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e7076e0bf",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
                         }
                       ]
                     }
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1bd97a8d13",
+                          "id": "lnk-b81003f3a3",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
@@ -318,14 +318,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cc65f30117",
+                          "id": "lnk-1ffeaa64cb",
                           "name": "BLV LIO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
                         },
                         {
-                          "id": "lnk-40df246b3b",
+                          "id": "lnk-00e255c3dd",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": false,
