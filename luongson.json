@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:51 16/07/2026",
+  "last_updated": "08:01 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b7293fd95f44",
-          "name": "⚽ Miami Fc vs Indy Eleven | USL Championship | Không rõ",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20310_1jsqvnqx96g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b7293fd95f44",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b7293fd95f44",
-                  "name": "Miami Fc vs Indy Eleven",
-                  "streams": [
-                    {
-                      "id": "luongson-b7293fd95f44",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a6097bc0b",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-e51618a447e0",
           "name": "⚽ The Strongest vs Oriente Petrolero | Bolivia Primera Division | Không rõ",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1630f4d5b9",
+                          "id": "lnk-49017e0f67",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
@@ -152,7 +99,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3bc1c76582",
+                          "id": "lnk-4b2c14b3b8",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
@@ -185,10 +132,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 08:30",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -203,7 +150,15 @@
                     {
                       "id": "luongson-0156014546d8",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b4a59fd675",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -475,7 +430,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1cc502b68d",
+                          "id": "lnk-2a43562a18",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -573,7 +528,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c7a6998198",
+                          "id": "lnk-0c9dae8af8",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -713,6 +668,51 @@
                   "streams": [
                     {
                       "id": "luongson-494aedd88675",
+                      "name": "F",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-7b3bc38ce4ca",
+          "name": "⚽ Fk Taraz vs Fk Aktobe Ii | Kazakhstan Division 1 | 19:00",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43628_1gxj2r9j2y1w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "⏳ Chưa live",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#d54f1a"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7b3bc38ce4ca",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7b3bc38ce4ca",
+                  "name": "Fk Taraz vs Fk Aktobe Ii",
+                  "streams": [
+                    {
+                      "id": "luongson-7b3bc38ce4ca",
                       "name": "F",
                       "stream_links": []
                     }
