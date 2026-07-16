@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "12:51 16/07/2026",
+  "last_updated": "13:01 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-40785395beac",
+          "name": "⚽ New Zealand U16 vs Tahiti U16 | OFC Championship U16 Cup | Không rõ",
+          "tournament": "OFC Championship U16 Cup",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/37001_1h5hc5x5jv2q.png?v=2.4.3",
+          "logo_khach": "https://ui-avatars.com/api/?name=Ta&size=200&background=1565C0&color=ffffff&bold=true",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/37001_1h5hc5x5jv2q.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-40785395beac",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-40785395beac",
+                  "name": "New Zealand U16 vs Tahiti U16",
+                  "streams": [
+                    {
+                      "id": "luongson-40785395beac",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aee1a4ea03",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-0b915684dca6",
           "name": "⚽ Anh vs Argentina | WC 2026 | Không rõ",
@@ -46,64 +99,11 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2afc39de8f",
+                          "id": "lnk-0cd0e10c42",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-40785395beac",
-          "name": "⚽ New Zealand U16 vs Tahiti U16 | OFC Championship U16 Cup | 13:00",
-          "tournament": "OFC Championship U16 Cup",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/37001_1h5hc5x5jv2q.png?v=2.4.3",
-          "logo_khach": "https://ui-avatars.com/api/?name=Ta&size=200&background=1565C0&color=ffffff&bold=true",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/37001_1h5hc5x5jv2q.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 13:00",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-40785395beac",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-40785395beac",
-                  "name": "New Zealand U16 vs Tahiti U16",
-                  "streams": [
-                    {
-                      "id": "luongson-40785395beac",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-faac47dd28",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -287,7 +287,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-c6bba1ee5b",
+                          "id": "lnk-cbebc7294b",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -385,7 +385,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a016b97c25",
+                          "id": "lnk-6997744430",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
