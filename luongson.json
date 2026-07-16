@@ -1,72 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "16:31 16/07/2026",
+  "last_updated": "16:41 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-dc6798a486a3",
-          "name": "⚽ Hoang Anh Gia Lai U21 vs Song Lan - Yi U21 | Vietnam Championship U21 | Không rõ",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-dc6798a486a3",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-dc6798a486a3",
-                  "name": "Hoang Anh Gia Lai U21 vs Song Lan - Yi U21",
-                  "streams": [
-                    {
-                      "id": "luongson-dc6798a486a3",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eebdb2b59a",
-                          "name": "BLV LƯU BỊ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
-                        },
-                        {
-                          "id": "lnk-3a5f9a46df",
-                          "name": "BLV NGƯỜI THÉP",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-c9f6e4930d67",
           "name": "⚽ Tay Ninh U21 vs Viettel Fc U21 | Vietnam Championship U21 | Không rõ",
@@ -86,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 1",
+              "text": "● Live 0 : 1",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -106,11 +46,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a87a6a286e",
+                          "id": "lnk-6084bb33b5",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-dc6798a486a3",
+          "name": "⚽ Hoang Anh Gia Lai U21 vs Song Lan - Yi U21 | Vietnam Championship U21 | Không rõ",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/27589_167142137597.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23270_167125963117.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-dc6798a486a3",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-dc6798a486a3",
+                  "name": "Hoang Anh Gia Lai U21 vs Song Lan - Yi U21",
+                  "streams": [
+                    {
+                      "id": "luongson-dc6798a486a3",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6fc392b0d",
+                          "name": "BLV NGƯỜI THÉP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/NGUOITHEP/index.m3u8?expire=2556118740&sign=6d80f4e33c3761371f29a8ca0645fee5"
+                        },
+                        {
+                          "id": "lnk-5b9b90fdb4",
+                          "name": "BLV LƯU BỊ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/LUUBI/index.m3u8?expire=1788427256&sign=e15f8b184dc9c61cc5dacfd962841ae1"
                         }
                       ]
                     }
@@ -139,7 +139,7 @@
           },
           "labels": [
             {
-              "text": "● Live 0 : 2",
+              "text": "● Live HT 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -159,14 +159,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7b9f61e251",
+                          "id": "lnk-816e7c4b6c",
                           "name": "BLV KAKA",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         },
                         {
-                          "id": "lnk-72c5f5c600",
+                          "id": "lnk-06002988a0",
                           "name": "BLV LỮ BỐ",
                           "type": "hls",
                           "default": false,
@@ -219,7 +219,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-fe9c878f28",
+                          "id": "lnk-6acd3c154d",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
@@ -272,7 +272,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-78f3e7f876",
+                          "id": "lnk-3e06ec8c92",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -325,7 +325,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a32cef209e",
+                          "id": "lnk-044c69767c",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
