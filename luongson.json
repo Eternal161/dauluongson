@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "20:01 16/07/2026",
+  "last_updated": "20:11 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b2cde7587c1f",
-          "name": "⚽ Ekibastuzets vs Fc Shakhtyor Karagandy | Kazakhstan Division 1 | Không rõ",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 0 : 1",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b2cde7587c1f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b2cde7587c1f",
-                  "name": "Ekibastuzets vs Fc Shakhtyor Karagandy",
-                  "streams": [
-                    {
-                      "id": "luongson-b2cde7587c1f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87b051986c",
-                          "name": "BLV TÀO THÁO",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-494aedd88675",
           "name": "⚽ Thimphu Fc vs Paro Fc | Bhutan Thimphu League | Không rõ",
@@ -79,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 3",
+              "text": "● Live 0 : 3",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-dbb7ccde9e",
+                          "id": "lnk-9c6ef6d39a",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -152,18 +99,124 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-12a6d533f9",
+                          "id": "lnk-331f2043f7",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         },
                         {
-                          "id": "lnk-0c5234c728",
+                          "id": "lnk-1e9c050b92",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
                           "default": false,
                           "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b2cde7587c1f",
+          "name": "⚽ Ekibastuzets vs Fc Shakhtyor Karagandy | Kazakhstan Division 1 | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/4911_1hyvw30n1h28.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4915_1htrj5rvv227.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 1",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b2cde7587c1f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b2cde7587c1f",
+                  "name": "Ekibastuzets vs Fc Shakhtyor Karagandy",
+                  "streams": [
+                    {
+                      "id": "luongson-b2cde7587c1f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c06510195c",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-baf95278297f",
+          "name": "⚽ Fk Taraz vs Fk Aktobe Ii | Kazakhstan Division 1 | 03:26 17/07/1900",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43628_1gxj2r9j2y1w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-baf95278297f",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-baf95278297f",
+                  "name": "Fk Taraz vs Fk Aktobe Ii",
+                  "streams": [
+                    {
+                      "id": "luongson-baf95278297f",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d5eeec9bc",
+                          "name": "BLV LYUNG1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
                         }
                       ]
                     }
@@ -212,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-94da657f7b",
+                          "id": "lnk-88376ce4db",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
@@ -622,51 +675,6 @@
                   "streams": [
                     {
                       "id": "luongson-d648b680f538",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-bebfe25509ff",
-          "name": "⚽ Valerenga vs Aalesund Fk | Norwegian Tippeligaen | 00:00",
-          "tournament": "Norwegian Tippeligaen",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/441_1gxmbkap742v.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/1105_1gxmbm1ncng.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/441_1gxmbkap742v.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-bebfe25509ff",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-bebfe25509ff",
-                  "name": "Valerenga vs Aalesund Fk",
-                  "streams": [
-                    {
-                      "id": "luongson-bebfe25509ff",
                       "name": "F",
                       "stream_links": []
                     }
