@@ -22,8 +22,8 @@ def apply_stealth(page):
 # =========================================================
 # CONFIG LƯƠNG SƠN TV
 # =========================================================
-TARGET_SITE   = "https://luongsontv60sv.com/"
-BASE_URL      = "https://luongsontv60sv.com"
+TARGET_SITE   = "https://ls92.site/"
+BASE_URL      = "https://ls92.site"
 FILE_PATH     = "luongson.json"
 LIMIT_MATCHES = 15 
 
@@ -167,11 +167,11 @@ JS_EXTRACT = """
 # =========================================================
 def capture_stream(page, match_url, global_seen_blvs):
     found_urls = set()
-    BAD_KEYWORDS = ["quangcao", "tvc", ".ts", "playlist", "ad.m3u8"]
+    BAD_KEYWORDS = ["quangcao", "tvc", ".ts", "playlist", "ad.m3u8", "ad.flv"]
     
-    def is_valid_m3u8(url_check):
+    def is_valid_flv(url_check):
         u = url_check.lower()
-        return ".m3u8" in u and not any(bad in u for bad in BAD_KEYWORDS)
+        return ".flv" in u and not any(bad in u for bad in BAD_KEYWORDS)
 
     def get_blv_id(url):
         m = re.search(r'/live/([^/?#\.]+)', url, re.IGNORECASE)
@@ -182,7 +182,7 @@ def capture_stream(page, match_url, global_seen_blvs):
     def handle_response(response):
         try:
             u = response.url
-            if is_valid_m3u8(u):
+            if is_valid_flv(u):
                 if "cdnfaster-a.live/" in u and "cdnfaster-a.live/live/" not in u:
                     u = u.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
                 found_urls.add(u)
@@ -230,10 +230,10 @@ def capture_stream(page, match_url, global_seen_blvs):
                     try:
                         api_data = page.evaluate("window.__apiData || []")
                         for item in api_data:
-                            matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.m3u8[^"\'\s<>]*', item.get("text", ""))
+                            matches = re.findall(r'https?:\/\/[^"\'\s<>]+?\.flv[^"\'\s<>]*', item.get("text", ""))
                             for m in matches:
                                 cl = m.replace('\\/', '/')
-                                if is_valid_m3u8(cl):
+                                if is_valid_flv(cl):
                                     if "cdnfaster-a.live/" in cl and "cdnfaster-a.live/live/" not in cl:
                                         cl = cl.replace("cdnfaster-a.live/", "cdnfaster-a.live/live/")
                                     found_urls.add(cl)
@@ -317,7 +317,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
         stream_links.append({
             "id": make_link_id(), 
             "name": s["name"], 
-            "type": "hls", 
+            "type": "flv", 
             "default": idx == 0, 
             "url": s["url"]
         })
@@ -343,7 +343,7 @@ def build_channel(m: dict, stream_data: list) -> dict:
 # =========================================================
 def scrape_and_push():
     now_str = datetime.datetime.now(VN_TZ).strftime("%H:%M %d/%m/%Y")
-    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Phân Lô Tách Thửa BLV): {now_str}")
+    print(f"🚀 BẮT ĐẦU BOT LƯƠNG SƠN (Bản Phân Lô Tách Thửa BLV - FLV Only): {now_str}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=[
@@ -385,6 +385,10 @@ def scrape_and_push():
         try: page.goto(TARGET_SITE, wait_until="domcontentloaded", timeout=60000)
         except: pass
         page.wait_for_timeout(5000)
+        
+        # Bỏ qua luồng live tự động phát ở trang chủ bằng cách cuộn xuống
+        page.mouse.wheel(0, 800)
+        page.wait_for_timeout(2000)
 
         for _ in range(5):
             try:
