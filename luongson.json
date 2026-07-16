@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "07:11 16/07/2026",
+  "last_updated": "07:21 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-b7293fd95f44",
-          "name": "⚽ Miami Fc vs Indy Eleven | USL Championship | Không rõ",
-          "tournament": "USL Championship",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20310_1jsqvnqx96g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-b7293fd95f44",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-b7293fd95f44",
-                  "name": "Miami Fc vs Indy Eleven",
-                  "streams": [
-                    {
-                      "id": "luongson-b7293fd95f44",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9037193c64",
-                          "name": "BLV KAKA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-b6ddb26c2ca3",
           "name": "⚽ Lexington vs New Mexico United | USL Championship | Không rõ",
@@ -79,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 0 : 2",
+              "text": "● Live 0 : 2",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-f2b8839a8f",
+                          "id": "lnk-5b98054c37",
                           "name": "BLV LEO",
                           "type": "hls",
                           "default": true,
@@ -152,11 +99,64 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-ee25bc8096",
+                          "id": "lnk-a141a50b7f",
                           "name": "BLV YENTHANH1",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/YENTHANH1/index.m3u8?expire=1788427256&sign=a79cc8d996707223a0011d33d04d4582"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-b7293fd95f44",
+          "name": "⚽ Miami Fc vs Indy Eleven | USL Championship | Không rõ",
+          "tournament": "USL Championship",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/20310_1jsqvnqx96g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4726_1j3s1wa82710.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-b7293fd95f44",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-b7293fd95f44",
+                  "name": "Miami Fc vs Indy Eleven",
+                  "streams": [
+                    {
+                      "id": "luongson-b7293fd95f44",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-968ceadc53",
+                          "name": "BLV KAKA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/KAKA/index.m3u8?expire=1788427256&sign=c34e1c9b22c9ced94eca7e7bf7a81ae6"
                         }
                       ]
                     }
@@ -475,7 +475,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-9c5f2a6d6b",
+                          "id": "lnk-1fa1841f43",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -573,7 +573,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-85518a5aa4",
+                          "id": "lnk-7170218bf8",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
