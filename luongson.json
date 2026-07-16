@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "19:01 16/07/2026",
+  "last_updated": "19:11 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-494aedd88675",
-          "name": "⚽ Thimphu Fc vs Paro Fc | Bhutan Thimphu League | Không rõ",
-          "tournament": "Bhutan Thimphu League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39632_167288870485.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-494aedd88675",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-494aedd88675",
-                  "name": "Thimphu Fc vs Paro Fc",
-                  "streams": [
-                    {
-                      "id": "luongson-494aedd88675",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1830e5e1a",
-                          "name": "BLV PHI HỔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-9d898bb6d6a8",
           "name": "⚽ Pvf-Cand U21 vs Hung Vuong An Giang U21 | Vietnam Championship U21 | Không rõ",
@@ -79,7 +26,7 @@
           },
           "labels": [
             {
-              "text": "● Live HT 2 : 0",
+              "text": "● Live 2 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -99,71 +46,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-2111cfd660",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-b1eae47f8a",
+                          "id": "lnk-a93fb8cf97",
                           "name": "BLV LIO",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-8971ff5131cb",
-          "name": "⚽ T T Hanoi U21 vs Ho Chi Minh City U21 | Vietnam Championship U21 | Không rõ",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23277_1h9cfan0wj1g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live HT 2 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8971ff5131cb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8971ff5131cb",
-                  "name": "T T Hanoi U21 vs Ho Chi Minh City U21",
-                  "streams": [
-                    {
-                      "id": "luongson-8971ff5131cb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f653442ef8",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
+                          "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-412c8a4658",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
                         }
                       ]
                     }
@@ -212,11 +106,117 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-7e2cfdee3d",
+                          "id": "lnk-47046d9c00",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-494aedd88675",
+          "name": "⚽ Thimphu Fc vs Paro Fc | Bhutan Thimphu League | Không rõ",
+          "tournament": "Bhutan Thimphu League",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/39632_167288870485.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/24220_1gzfm5p5an12.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-494aedd88675",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-494aedd88675",
+                  "name": "Thimphu Fc vs Paro Fc",
+                  "streams": [
+                    {
+                      "id": "luongson-494aedd88675",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e191a7604",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8971ff5131cb",
+          "name": "⚽ T T Hanoi U21 vs Ho Chi Minh City U21 | Vietnam Championship U21 | Không rõ",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23277_1h9cfan0wj1g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 2 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8971ff5131cb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8971ff5131cb",
+                  "name": "T T Hanoi U21 vs Ho Chi Minh City U21",
+                  "streams": [
+                    {
+                      "id": "luongson-8971ff5131cb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56c113bc91",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -265,7 +265,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-97f896fac6",
+                          "id": "lnk-af6600f73e",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
@@ -318,18 +318,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-3224d9c0f1",
-                          "name": "BLV VÕ TÒNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        },
-                        {
-                          "id": "lnk-ee6d99696f",
+                          "id": "lnk-aebc77b8cc",
                           "name": "BLV VƯƠNG LUÂN",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
+                        },
+                        {
+                          "id": "lnk-6bfec57116",
+                          "name": "BLV VÕ TÒNG",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
                         }
                       ]
                     }
@@ -378,7 +378,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-a6df3a8ef7",
+                          "id": "lnk-c8a50c5cbc",
                           "name": "BLV FERNANDO",
                           "type": "hls",
                           "default": true,
