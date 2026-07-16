@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "11:41 16/07/2026",
+  "last_updated": "11:51 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-0b915684dca6",
+          "name": "⚽ Anh vs Argentina | WC 2026 | Không rõ",
+          "tournament": "WC 2026",
+          "logo_nha": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177196.png?v=2.4.3",
+          "logo_khach": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177204.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://upload-img.cdnokvip.com/uploads/team_logo/1784177196.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-0b915684dca6",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-0b915684dca6",
+                  "name": "Anh vs Argentina",
+                  "streams": [
+                    {
+                      "id": "luongson-0b915684dca6",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ac17ed099",
+                          "name": "BLV TEST",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TEST/index.m3u8?expire=1788427256&sign=47963ed63da3360fd84dccfb53a2c83c"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-40785395beac",
           "name": "⚽ New Zealand U16 vs Tahiti U16 | OFC Championship U16 Cup | 13:00",
@@ -226,7 +279,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-59506d6d6c",
+                          "id": "lnk-fe69fb1a9a",
                           "name": "BLV PHI HỔ",
                           "type": "hls",
                           "default": true,
@@ -324,7 +377,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-5021669984",
+                          "id": "lnk-b68fbf2bb1",
                           "name": "BLV TÔN LẬP",
                           "type": "hls",
                           "default": true,
@@ -644,51 +697,6 @@
                   "streams": [
                     {
                       "id": "luongson-97e24642fea5",
-                      "name": "F",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-a78023f2c6d0",
-          "name": "⚽ Fk Yelimay Semey vs Alashkert | UEFA Europa Conference League | 22:00",
-          "tournament": "UEFA Europa Conference League",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/61058_1gykhvdms22g.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/17091_1h56c4f7vtw.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/61058_1gykhvdms22g.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "⏳ Chưa live",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#d54f1a"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-a78023f2c6d0",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-a78023f2c6d0",
-                  "name": "Fk Yelimay Semey vs Alashkert",
-                  "streams": [
-                    {
-                      "id": "luongson-a78023f2c6d0",
                       "name": "F",
                       "stream_links": []
                     }
