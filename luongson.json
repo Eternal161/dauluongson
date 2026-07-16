@@ -1,65 +1,12 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "18:21 16/07/2026",
+  "last_updated": "18:31 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
-        {
-          "id": "luongson-8971ff5131cb",
-          "name": "⚽ T T Hanoi U21 vs Ho Chi Minh City U21 | Vietnam Championship U21 | Không rõ",
-          "tournament": "Vietnam Championship U21",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23277_1h9cfan0wj1g.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live 1 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-8971ff5131cb",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-8971ff5131cb",
-                  "name": "T T Hanoi U21 vs Ho Chi Minh City U21",
-                  "streams": [
-                    {
-                      "id": "luongson-8971ff5131cb",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b315e670f6",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "luongson-a3269fb42df0",
           "name": "⚽ Fulham United Fc vs Cumberland United Fc | South Australian Premier League | Không rõ",
@@ -99,7 +46,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d4f593a025",
+                          "id": "lnk-ebee88fe95",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
@@ -152,18 +99,71 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-cfea3a63c1",
-                          "name": "BLV MÃ SIÊU",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
-                        },
-                        {
-                          "id": "lnk-faf5b9c010",
+                          "id": "lnk-a7ebb05730",
                           "name": "BLV LIO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-0ee3cd1e92",
+                          "name": "BLV MÃ SIÊU",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/MASIEU/index.m3u8?expire=1788427256&sign=b91fcfc36fe72375e8f8cc813de0220b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "luongson-8971ff5131cb",
+          "name": "⚽ T T Hanoi U21 vs Ho Chi Minh City U21 | Vietnam Championship U21 | Không rõ",
+          "tournament": "Vietnam Championship U21",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/23277_1h9cfan0wj1g.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/23285_167169925734.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live 1 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-8971ff5131cb",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-8971ff5131cb",
+                  "name": "T T Hanoi U21 vs Ho Chi Minh City U21",
+                  "streams": [
+                    {
+                      "id": "luongson-8971ff5131cb",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52b41890b7",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -212,7 +212,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-b74bdec60c",
+                          "id": "lnk-2b51379ea4",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
@@ -290,10 +290,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 19:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -308,7 +308,15 @@
                     {
                       "id": "luongson-b2cde7587c1f",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-baf19ba919",
+                          "name": "BLV TÀO THÁO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/TAOTHAO/index.m3u8?expire=1917964380&sign=6379fc6251248341f0547089859f8ee9"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -380,10 +388,10 @@
           },
           "labels": [
             {
-              "text": "⏳ Chưa live",
+              "text": "● Live 19:00",
               "position": "top-left",
               "color": "#00ffffff",
-              "text_color": "#d54f1a"
+              "text_color": "#ff0000"
             }
           ],
           "sources": [
@@ -398,7 +406,15 @@
                     {
                       "id": "luongson-494aedd88675",
                       "name": "F",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f9f8597e9",
+                          "name": "BLV PHI HỔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/PHIHO/index.m3u8?expire=2556118740&sign=ebc20a588b7a62eb65d12f7372d39a3f"
+                        }
+                      ]
                     }
                   ]
                 }
