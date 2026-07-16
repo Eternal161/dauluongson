@@ -1,12 +1,65 @@
 {
   "id": "luongson",
   "name": "Lương Sơn TV",
-  "last_updated": "21:01 16/07/2026",
+  "last_updated": "21:11 16/07/2026",
   "groups": [
     {
       "id": "live",
       "name": "🔴 Trực tiếp & Sắp tới",
       "channels": [
+        {
+          "id": "luongson-7b3bc38ce4ca",
+          "name": "⚽ Fk Taraz vs Fk Aktobe Ii | Kazakhstan Division 1 | Không rõ",
+          "tournament": "Kazakhstan Division 1",
+          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
+          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43628_1gxj2r9j2y1w.png?v=2.4.3",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "image": {
+            "padding": 1,
+            "background_color": "#ececec",
+            "display": "contain",
+            "url": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
+            "width": 1600,
+            "height": 1200
+          },
+          "labels": [
+            {
+              "text": "● Live H1 0 : 0",
+              "position": "top-left",
+              "color": "#00ffffff",
+              "text_color": "#ff0000"
+            }
+          ],
+          "sources": [
+            {
+              "id": "luongson-7b3bc38ce4ca",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "luongson-7b3bc38ce4ca",
+                  "name": "Fk Taraz vs Fk Aktobe Ii",
+                  "streams": [
+                    {
+                      "id": "luongson-7b3bc38ce4ca",
+                      "name": "F",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f1f8e6116d",
+                          "name": "BLV FERNANDO",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://hls.cdnfaster-a.live/live/FERNANDO/index.m3u8?expire=1924930980&sign=bab24fb93b0be5c98af9138659989bcb"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "luongson-c1f7891e388c",
           "name": "⚽ Fk Arys vs Turan Turkistan | Kazakhstan Division 1 | Không rõ",
@@ -46,71 +99,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-72a47448d5",
-                          "name": "BLV VƯƠNG LUÂN",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
-                        },
-                        {
-                          "id": "lnk-2c294b5ee9",
+                          "id": "lnk-c0c2f24164",
                           "name": "BLV VÕ TÒNG",
                           "type": "hls",
-                          "default": false,
-                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "luongson-baf95278297f",
-          "name": "⚽ Fk Taraz vs Fk Aktobe Ii | Kazakhstan Division 1 | 03:26 17/07/1900",
-          "tournament": "Kazakhstan Division 1",
-          "logo_nha": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
-          "logo_khach": "https://cdn-img.cdnokvip.com/logos/43628_1gxj2r9j2y1w.png?v=2.4.3",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "image": {
-            "padding": 1,
-            "background_color": "#ececec",
-            "display": "contain",
-            "url": "https://cdn-img.cdnokvip.com/logos/4922_1gxw21d2dee.png?v=2.4.3",
-            "width": 1600,
-            "height": 1200
-          },
-          "labels": [
-            {
-              "text": "● Live H1 0 : 0",
-              "position": "top-left",
-              "color": "#00ffffff",
-              "text_color": "#ff0000"
-            }
-          ],
-          "sources": [
-            {
-              "id": "luongson-baf95278297f",
-              "name": "Lương Sơn",
-              "contents": [
-                {
-                  "id": "luongson-baf95278297f",
-                  "name": "Fk Taraz vs Fk Aktobe Ii",
-                  "streams": [
-                    {
-                      "id": "luongson-baf95278297f",
-                      "name": "F",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de4edeae49",
-                          "name": "BLV LYUNG1",
-                          "type": "hls",
                           "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/LYUNG1/index.m3u8?expire=1788427256&sign=d5c6932fefdcb98268754f4ccd4aa45d"
+                          "url": "https://hls.cdnfaster-a.live/live/VOTONG/index.m3u8?expire=1891347600&sign=cbb47d2000b9576a7b34114624ff8299"
+                        },
+                        {
+                          "id": "lnk-e19d750f0d",
+                          "name": "BLV VƯƠNG LUÂN",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/VUONGLUAN/index.m3u8?expire=1893165900&sign=60fcb5252d4dafeac0cb5da922c56645"
                         }
                       ]
                     }
@@ -159,7 +159,7 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-d8e6f0116b",
+                          "id": "lnk-d969adc419",
                           "name": "BLV TEST",
                           "type": "hls",
                           "default": true,
@@ -175,7 +175,7 @@
         },
         {
           "id": "luongson-5844abab3f31",
-          "name": "⚽ Khan Tengri Fc vs Fk Yelimay Semey B | Kazakhstan Division 1 | 21:00",
+          "name": "⚽ Khan Tengri Fc vs Fk Yelimay Semey B | Kazakhstan Division 1 | Không rõ",
           "tournament": "Kazakhstan Division 1",
           "logo_nha": "https://cdn-img.cdnokvip.com/logos/57342_1j08b7ahe42z.png?v=2.4.3",
           "logo_khach": "https://ui-avatars.com/api/?name=FK&size=200&background=1565C0&color=ffffff&bold=true",
@@ -192,7 +192,7 @@
           },
           "labels": [
             {
-              "text": "● Live 21:00",
+              "text": "● Live 0 : 0",
               "position": "top-left",
               "color": "#00ffffff",
               "text_color": "#ff0000"
@@ -212,18 +212,18 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-1b93074224",
-                          "name": "BLV TÔN LẬP",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
-                        },
-                        {
-                          "id": "lnk-bb4d4b6ebe",
+                          "id": "lnk-af13abe807",
                           "name": "BLV LIO",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LIO/index.m3u8?expire=1923141900&sign=fff7ab29620de2a54fba04f5f3ca246a"
+                        },
+                        {
+                          "id": "lnk-1091f530c1",
+                          "name": "BLV TÔN LẬP",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://hls.cdnfaster-a.live/live/TONLAP/index.m3u8?expire=1788427256&sign=72cc58a29d787d621b0832b54e1a78df"
                         }
                       ]
                     }
@@ -272,14 +272,14 @@
                       "name": "F",
                       "stream_links": [
                         {
-                          "id": "lnk-4ca1856a67",
+                          "id": "lnk-fe2de75df1",
                           "name": "BLV LÃO HẠC",
                           "type": "hls",
                           "default": true,
                           "url": "https://hls.cdnfaster-a.live/live/LAOHAC/index.m3u8?expire=2556118740&sign=d7e003f1201f61166a559ac474dc7491"
                         },
                         {
-                          "id": "lnk-968f1c0ed0",
+                          "id": "lnk-21ce4411d6",
                           "name": "BLV TÀO THÁO",
                           "type": "hls",
                           "default": false,
