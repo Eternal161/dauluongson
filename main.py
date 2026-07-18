@@ -14,10 +14,15 @@ from playwright.sync_api import sync_playwright
 # BỘ GIÁP STEALTH
 # =========================================================
 def apply_stealth(page):
-    try:
-        from playwright_stealth import stealth_sync
-        stealth_sync(page)
-    except Exception: pass
+    try:
+        from playwright_stealth import stealth_sync
+        stealth_sync(page)
+    except ImportError:
+        try:
+            from playwright_stealth import Stealth
+            Stealth().apply_stealth_sync(page)
+        except Exception: pass
+    except Exception: pass
 
 # =========================================================
 # CONFIG LƯƠNG SƠN TV
